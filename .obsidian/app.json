@@ -1,0 +1,13 @@
+{
+  "alwaysUpdateLinks": true,
+  "tabSize": 2,
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "Antigravity",
+      "code": "C:\\Users\\somebuddy\\AppData\\Local\\Programs\\Antigravity\\Antigravity.exe",
+      "arguments": "",
+      "showInMenu": true
+    }
+  ],
+  "sysexpInFileMenu": true
+}

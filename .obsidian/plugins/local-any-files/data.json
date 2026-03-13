@@ -1,0 +1,17 @@
+{
+  "tasks": [
+    "extract",
+    "download",
+    "replace"
+  ],
+  "scope": "currentFolder",
+  "presetExtensions": [
+    "image",
+    "officeFile",
+    "music",
+    "ebook"
+  ],
+  "customExtensions": [],
+  "storePath": "assets/${path}",
+  "storeFileName": "${originalName}"
+}

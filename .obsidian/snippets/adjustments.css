@@ -1,0 +1,401 @@
+/*******************************
+ * Code Block Styling
+ *******************************/
+
+/* *************************** */
+/* Table inline code wrapping */
+
+/* Инлайн код переносится только при необходимости */
+table code {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  /* Перенос срабатывает только когда ячейка достигает лимита */
+  max-width: calc(100vw - 4rem); /* Учитываем отступы */
+}
+
+/* *************************** */
+/* Adjusts image positioning */
+
+figure.image-captions-figure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+figure.image-captions-figure img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.internal-embed img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > [contenteditable=false] {
+  width: 100%;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > .image-embed {
+  display: flex;
+  justify-content: center;
+}
+
+/* *************************** */
+/* adjust text color in code block view */
+
+.markdown-source-view.mod-cm6 .cm-content {
+  color: #ebdbb2;
+}
+
+.cm-inline-code.cm-inline-code.cm-inline-code,
+.markdown-rendered code {
+  color: #fb4934;
+  background-color: #504945;
+}
+
+.cm-variable {
+  color: #83a598;
+}
+
+.cm-keyword {
+  color: #fb4934;
+}
+
+.cm-keyword + .cm-hmd-codeblock + .cm-variable {
+  color: #ebdbb2;
+}
+
+.workspace-split.mod-root .workspace-tab-header.is-active::before,
+.workspace-split.mod-root .workspace-tab-header.is-active::after {
+  /* box-shadow: inset 0 0 0 var(--tab-outline-width) var(--tab-outline-color), 0 0 0 calc(var(--tab-curve) * 4) var(--tab-background-active); */
+  box-shadow: none;
+}
+
+/* *************************** */
+/* Adjusts code block padding when line numbers are present */
+
+.code-styler
+  .markdown-source-view
+  .HyperMD-codeblock:has(.code-styler-line-number) {
+  padding-left: calc(
+    12px + var(--language-border-width) + var(--line-number-gutter-width) +
+      var(--line-number-gutter-padding)
+  ) !important;
+  /* padding-left: calc(12px + var(--language-border-width) + var(--line-number-gutter-width)) !important; */
+}
+
+/* *************************** */
+/* hide properties block in reading view */
+body {
+  --metadata-display-reading: none;
+}
+
+/*******************************
+ * Typography
+ *******************************/
+
+hr {
+  border-color: #5f4717 !important;
+}
+
+/* *************************** */
+/* Typography: blockquote */
+
+.markdown-rendered blockquote,
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
+.markdown-source-view.mod-cm6 .cm-blockquote-border:before {
+  border-width: 4px;
+}
+
+/* *************************** */
+/* Typography: headers */
+
+.HyperMD-header-1,
+.inline-title[data-level='1'],
+.HyperMD-list-line .cm-header-1,
+h1,
+.markdown-rendered h1,
+cm-header cm-header-1 {
+  color: #d79921;
+}
+
+.HyperMD-header-2,
+.inline-title[data-level='2'],
+.HyperMD-list-line .cm-header-2,
+h2,
+.markdown-rendered h2,
+cm-header cm-header-2 {
+  color: #bfa52a;
+}
+
+.HyperMD-header-3,
+.inline-title[data-level='3'],
+.HyperMD-list-line .cm-header-3,
+h3,
+.markdown-rendered h3,
+cm-header cm-header-3 {
+  color: #a1a832;
+}
+
+.HyperMD-header-4,
+.inline-title[data-level='4'],
+.HyperMD-list-line .cm-header-4,
+h4,
+.markdown-rendered h4,
+cm-header cm-header-4 {
+  color: #7b8c3a;
+}
+
+.HyperMD-header-5,
+.inline-title[data-level='5'],
+.HyperMD-list-line .cm-header-5,
+h5,
+.markdown-rendered h5,
+cm-header cm-header-5 {
+  color: #5c6e43;
+}
+
+.HyperMD-header-6,
+.inline-title[data-level='6'],
+.HyperMD-list-line .cm-header-6,
+h6,
+.markdown-rendered h6,
+cm-header cm-header-6 {
+  color: #425144;
+}
+
+/* *************************** */
+/* Iconic plugin adjustments */
+
+.iconic-bigger-icons .tree-item-self > .iconic-icon {
+  color: inherit !important;
+}
+
+.tree-item.nav-file.iconic-item .tree-item-icon.iconic-icon {
+  margin-left: -0.6rem;
+}
+.tree-item.nav-file.iconic-item .tree-item-inner.nav-file-title-content {
+  margin-left: 0.6rem;
+}
+
+/* *************************** */
+/* Typography: text */
+
+/* Obsidian — приглушённый основной текст под Dark Gruvbox */
+.theme-dark {
+  /* основной текст — мягче, чем стандартный #ebdbb2 */
+  --text-normal: #d5c4a1; /* soft fg */
+  --text-muted: #bdae93; /* вторичный текст */
+  --text-faint: #a89984; /* подсказки/метки */
+
+  /* заголовки оставим читаемыми, но не кричащими */
+  --h1-color: #ebdbb2;
+  --h2-color: #e2d3b7;
+  --h3-color: #dcc8a8;
+
+  /* на всякий случай синхронизируем редактор и превью */
+}
+.theme-dark .cm-s-obsidian,
+.theme-dark .markdown-preview-view {
+  color: var(--text-normal) !important;
+}
+
+/* если маркеры списков слишком яркие — сделаем их как текст */
+/* .theme-dark .markdown-preview-view li::marker {
+  color: var(--text-normal);
+} */
+
+.cm-strong font {
+  font-weight: bold;
+}
+
+.markdown-rendered font[color] b,
+.cm-editor font[color] b {
+  color: inherit;
+  transform: scale(1.02);
+  text-shadow: 0 0 10px currentColor;
+}
+
+.markdown-rendered font[color] i,
+.cm-editor font[color] i {
+  color: inherit;
+}
+
+.el-p,
+.cm-line {
+  text-indent: 30px;
+}
+
+.canvas-wrapper .el-p,
+.canvas-wrapper .cm-line {
+  text-indent: 0 !important;
+}
+
+.no-indent {
+  text-indent: 0px;
+}
+
+.HyperMD-header.cm-line,
+.hr.cm-line,
+table .cm-line,
+.HyperMD-list-line.cm-line,
+.HyperMD-quote.cm-line {
+  text-indent: initial;
+}
+
+.markdown-rendered p {
+  margin-block-start: 8px;
+  margin-block-end: 8px;
+}
+
+.markdown-rendered ul,
+.markdown-rendered ol {
+  padding-inline-start: 0;
+  margin-block-start: 0px;
+  margin-block-end: 8px;
+}
+
+sup {
+  vertical-align: text-top;
+  color: rgb(215, 153, 33);
+}
+
+/*******************************
+ * Excalidraw
+ *******************************/
+.excalidraw .buttonList .zIndexButton.active,
+.excalidraw .buttonList button.active,
+.excalidraw .buttonList label.active,
+.excalidraw .buttonList .zIndexButton.active:hover,
+.excalidraw .buttonList button.active:hover,
+.excalidraw .buttonList label.active:hover {
+  background-color: #ebdbb2;
+}
+
+/* excalidraw: checkbox */
+.excalidraw .ToolIcon .ToolIcon_type_checkbox:checked + .ToolIcon__icon,
+.excalidraw .ToolIcon .ToolIcon_type_radio:checked + .ToolIcon__icon {
+  background: #ebdbb2;
+}
+
+/*******************************
+ * Built-in icons mechanics disabled
+ *******************************/
+.mod-root
+  .workspace-tab-header[data-type='markdown']
+  .workspace-tab-header-inner-icon,
+.mod-root
+  .workspace-tab-header[data-type='empty']
+  .workspace-tab-header-inner-icon {
+  display: block !important;
+}
+
+/*******************************
+ * Beautitab adjustments
+ *******************************/
+.beautitab-wrapper .beautitab-top {
+  order: -2;
+  flex: 0 !important;
+}
+.beautitab-wrapper .beautitab-quote {
+  order: -1;
+  background: none !important;
+  flex: 1;
+  padding-top: 60px;
+}
+
+.beautitab-wrapper .beautitab-quote .beautitab-quote-content {
+  font-size: 1.2em;
+}
+.beautitab-wrapper .beautitab-quote .beautitab-quote-author {
+  font-size: 1.2em !important;
+}
+.beautitab-wrapper .beautitab-quote .beautitab-quote-author::before {
+  content: '— ';
+  font-size: 1em !important;
+  font-weight: bold;
+}
+
+.beautitab-wrapper .beautitab-center {
+  padding-top: 20px !important;
+  flex: 2 !important;
+  padding-bottom: 60px !important;
+}
+
+.beautitab-wrapper .beautitab-bottom {
+  background: linear-gradient(to bottom, #0000, #0006 60%, #0009);
+  flex: 2 !important;
+  padding-bottom: 60px !important;
+}
+
+.beautitab-wrapper .beautitab-search {
+  padding-bottom: 60px;
+}
+
+/*******************************
+ * File tree
+ *******************************/
+
+.mod-left-split .nav-file-title:hover,
+.mod-left-split .nav-file-title.is-being-dragged {
+  font-weight: normal !important;
+}
+
+.mod-left-split .nav-folder-title:hover,
+.mod-left-split .nav-folder-title.is-being-dragged {
+  font-weight: bold !important;
+}
+
+.mod-right-split .tree-item-self.is-clickable:hover {
+  font-weight: normal !important;
+}
+
+.folder-note-underline .has-folder-note .nav-folder-title-content {
+  text-decoration-style: dotted !important;
+  text-decoration-line: underline !important;
+  text-decoration-color: inherit !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 2px !important;
+}
+body:not(.is-grabbing) .tree-item-self.fn-is-active:hover,
+body:not(.disable-folder-highlight) .tree-item-self.fn-is-active {
+  background-color: var(--nav-item-background-active);
+  font-weight: bold;
+  color: var(--nav-item);
+}
+
+/*******************************
+ * Random
+ *******************************/
+.canvas-node .cm-line,
+.code-styler-line {
+  text-indent: initial;
+}
+
+[class^="view-"],
+[class^="workspace-"],
+/* .view-header, */
+/* .workspace-sidedock-vault-profile, */
+.cm-editor,
+.cm-scroller,
+.nav-files-container,
+.cMenuToolbarDefaultAesthetic {
+  background-color: #32302f !important;
+}
+
+/* Tags */
+.multi-select-pill-content {
+  overflow: visible !important;
+}
+
+.multi-select-pill-content span {
+  /* line-height: inherit !important; */
+}
+
+.multi-select-pill {
+  padding: 0.5rem 0 !important;
+}

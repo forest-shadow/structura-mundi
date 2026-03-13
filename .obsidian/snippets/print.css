@@ -1,0 +1,8 @@
+@media print {
+  html,
+  body,
+  .markdown-preview-view {
+    background-color: #32302f !important;
+    color: #d5c4a1 !important;
+  }
+}

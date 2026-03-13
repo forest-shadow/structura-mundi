@@ -1,0 +1,19 @@
+{
+  "cssTheme": "Obsidian gruvbox",
+  "enabledCssSnippets": [
+    "textHighlightColors",
+    "callout",
+    "ColoredSidebarItems",
+    "adjustments",
+    "dashboard",
+    "imageGallery",
+    "meme-grid"
+  ],
+  "baseFontSize": 19,
+  "accentColor": "",
+  "theme": "obsidian",
+  "textFontFamily": "PT Serif Bold,PT Serif,EB Garamond SemiBold,EB Garamond,Heuristica,Iosevka Etoile,Fira Code,Literata",
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "Fira Code Retina",
+  "baseFontSizeAction": true
+}

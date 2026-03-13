@@ -1,0 +1,112 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "00. Obsidian Praxis",
+        "03. Maps and Courses",
+        "01. Inbox",
+        "Tabula Ortus.md",
+        "02. Corpus Mundi",
+        "00. Principia Rerum"
+      ],
+      "sortOrder": "custom"
+    },
+    "00. Principia Rerum": {
+      "children": [
+        "00. Principia Rerum/__00. Principia Rerum.md",
+        "00. Principia Rerum/Knowledge Base Standard.md",
+        "00. Principia Rerum/Knowledge System Model.md",
+        "00. Principia Rerum/File Structure.md",
+        "00. Principia Rerum/Frontmatter Legend.md",
+        "00. Principia Rerum/Controlled Vocabulary.md",
+        "00. Principia Rerum/Tag Policy.md",
+        "00. Principia Rerum/Naming Policy.md",
+        "00. Principia Rerum/Note Lifecycle and Merge Policy.md",
+        "00. Principia Rerum/Templates"
+      ],
+      "sortOrder": "custom"
+    },
+    "00. Obsidian Praxis": {
+      "children": [
+        "00. Obsidian Praxis/__00. Obsidian Praxis.md",
+        "00. Obsidian Praxis/Templates",
+        "00. Obsidian Praxis/Config & Settings Details",
+        "00. Obsidian Praxis/Git History Squash.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00. Obsidian Praxis/Config & Settings Details": {
+      "children": [
+        "00. Obsidian Praxis/Config & Settings Details/_resources",
+        "00. Obsidian Praxis/Config & Settings Details/Images",
+        "00. Obsidian Praxis/Config & Settings Details/AI Tools.md",
+        "00. Obsidian Praxis/Config & Settings Details/Alt Codes (RUS).md",
+        "00. Obsidian Praxis/Config & Settings Details/Media Vault.md",
+        "00. Obsidian Praxis/Config & Settings Details/Obsidian Image Galleries.md",
+        "00. Obsidian Praxis/Config & Settings Details/Obsidian Typography Reference.md",
+        "00. Obsidian Praxis/Config & Settings Details/Obsidian.Colors.md",
+        "00. Obsidian Praxis/Config & Settings Details/Obsidian.Index.md",
+        "00. Obsidian Praxis/Config & Settings Details/Obsidian.Markdown.md",
+        "00. Obsidian Praxis/Config & Settings Details/Obsidian.Resources.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00. Obsidian Praxis/Config & Settings Details/_resources": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "00. Obsidian Praxis/Config & Settings Details/Images": {
+      "children": [
+        "00. Obsidian Praxis/Config & Settings Details/Images/gruvbox_colors.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "00. Principia Rerum/Templates": {
+      "children": [
+        "00. Principia Rerum/Templates/Article Template.md",
+        "00. Principia Rerum/Templates/Overview Template.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00. Obsidian Praxis/Templates": {
+      "children": [
+        "00. Obsidian Praxis/Templates/Article Template.md",
+        "00. Obsidian Praxis/Templates/Overview Template.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox": {
+      "children": [
+        "01. Inbox/Service Reliability Structure.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi": {
+      "children": [
+        "02. Corpus Mundi/T",
+        "02. Corpus Mundi/S",
+        "02. Corpus Mundi/__02. Corpus Mundi.base"
+      ],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/T": {
+      "children": [
+        "02. Corpus Mundi/T/Telemetry and Metrics.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/S": {
+      "children": [
+        "02. Corpus Mundi/S/Service Reliability.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses": {
+      "children": [],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "alphabetical",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}

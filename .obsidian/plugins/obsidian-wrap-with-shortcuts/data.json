@@ -1,0 +1,40 @@
+{
+  "wrapperTags": [
+    {
+      "id": "w1729962317842",
+      "name": "Bold Text",
+      "startTag": "<b>",
+      "endTag": "</b>"
+    },
+    {
+      "id": "w1729962247510",
+      "name": "Curious Fact Text",
+      "startTag": "<font color=\"#d79921\">",
+      "endTag": "</font>"
+    },
+    {
+      "id": "underline",
+      "name": "Important Text",
+      "startTag": "<font color=\"#fb4934\">",
+      "endTag": "</font>"
+    },
+    {
+      "id": "w1729961875676",
+      "name": "Insight Well Text",
+      "startTag": "<font color=\"#d3869b\">",
+      "endTag": "</font>"
+    },
+    {
+      "id": "w1748602552322",
+      "name": "Italic Text",
+      "startTag": "<i>",
+      "endTag": "</i>"
+    },
+    {
+      "id": "w1771665314279",
+      "name": "Media Slider",
+      "startTag": "```media-slider",
+      "endTag": "```"
+    }
+  ]
+}

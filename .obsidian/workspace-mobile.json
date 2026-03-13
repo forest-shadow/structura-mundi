@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "e2e7eb9f343bc053",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d6a00462658b806",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "788442efa66cf66c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "09. Quotes & Conspects/Russian Classic/Достоевский Федор/Бесы.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Бесы"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b57e9fa1f2797dbd",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d5af9fab1ba95ed7",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "2ac7f90d0d326d76",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "d7002b881455b124",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "b8e4cfcee5eb925f",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "c2a86b87fd136366",
+        "type": "leaf",
+        "state": {
+          "type": "notebook-navigator",
+          "state": {},
+          "icon": "notebook",
+          "title": "Notebook Navigator"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "f18014515826c01b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a507ea0e7613be09",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "09. Quotes & Conspects/Russian Classic/Достоевский Федор/Бесы.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "3c3443ccc9acebba",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "09. Quotes & Conspects/Russian Classic/Достоевский Федор/Бесы.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "9fefef5fdc7555b1",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "09. Quotes & Conspects/Russian Classic/Достоевский Федор/Бесы.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "iconic:Open rulebook": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "notebook-navigator:Notebook Navigator": false
+    }
+  },
+  "active": "788442efa66cf66c",
+  "lastOpenFiles": [
+    "09. Quotes & Conspects/Russian Classic/Достоевский Федор/__Достоевский Федор. Index.md",
+    "09. Quotes & Conspects/Russian Classic/Достоевский Федор/Скверный анекдот.md",
+    "09. Quotes & Conspects/Quotes & Conspects.md",
+    "09. Quotes & Conspects/Esoteric/Шри Ауробиндо.md",
+    "06. Software Development/AI/AI Bootcamp (Interview Hustlers)/__AI Bootcamp (Interview Hustlers).md",
+    "06. Software Development/AI/AI Bootcamp (Interview Hustlers)/Module 02. Prompt Engineering, Claude, MCP, Сравнение LLM/03. MCP (Model-Client Protocol).md",
+    "Memes/__Memes.md",
+    "Telegram/26-08-2025 - В РКК «Энергия» объявили о крахе компании.md",
+    "Memes/Fucking Life/_Fucking Life.md",
+    "00. CS Dashboard/__00. CS Dashboard.md",
+    "Bases/Dictionary/__Dictionary.base",
+    "Bases/Dictionary/Г/Гандхарвы.md"
+  ]
+}

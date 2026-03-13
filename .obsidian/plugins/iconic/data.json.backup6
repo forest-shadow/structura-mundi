@@ -1,0 +1,434 @@
+{
+  "biggerIcons": "on",
+  "clickableIcons": "off",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": true,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "maxBackups": 5,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": true,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "09. Quotes & Conspects": {
+      "icon": "lucide-quote",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "09. Quotes & Conspects/Art": {
+      "icon": "lucide-brush",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "09. Quotes & Conspects/Buddhism": {
+      "icon": "lucide-smile",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "09. Quotes & Conspects/Cinema": {
+      "icon": "🎦",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "09. Quotes & Conspects/Computer Science": {
+      "icon": "lucide-monitor-cog",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "09. Quotes & Conspects/Computer Science/OS": {
+      "icon": "lucide-monitor-cog",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "09. Quotes & Conspects/Hinduism": {
+      "icon": "🕉️",
+      "color": "blue",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "09. Quotes & Conspects/Software Development/SQL": {
+      "icon": "lucide-database-zap",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "09. Quotes & Conspects/Software Development/Хакер": {
+      "icon": "lucide-hammer",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "11. Languages": {
+      "icon": "lucide-languages",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "AI": {
+      "icon": "lucide-brain-circuit",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Bases": {
+      "icon": "lucide-database-zap",
+      "color": "orange",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Bases/Dictionary": {
+      "icon": "lucide-book-a",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ],
+      "color": "orange"
+    },
+    "Bases/Dictionary/__Dictionary.base": {
+      "icon": "lucide-book-a",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Bases/Recipes": {
+      "icon": "lucide-cooking-pot",
+      "color": "orange",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Bases/Recipes/__Recipes.base": {
+      "icon": "lucide-cooking-pot",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ],
+      "color": "orange"
+    },
+    "Bases/Weeks Task History": {
+      "icon": "lucide-calendar-fold",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ],
+      "color": "orange"
+    },
+    "Body": {
+      "icon": "🏋️‍♂️",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "CS Dashboard": {
+      "icon": "lucide-bot",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Computer Science": {
+      "icon": "bot-glyph",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Daily": {
+      "icon": "lucide-book-down",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ],
+      "color": "orange"
+    },
+    "Databases": {
+      "icon": "lucide-database",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Excalidraw": {
+      "icon": "excalidraw-icon",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ],
+      "color": "orange"
+    },
+    "Golang Dashboard": {
+      "icon": "🐹",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Golang Interviews": {
+      "icon": "🎤",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Golang": {
+      "icon": "🐹",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "JS Dashboard": {
+      "icon": "☣️",
+      "color": "yellow",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "JS Interviews": {
+      "icon": "lucide-mic-2",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "JavaScript": {
+      "icon": "☣️",
+      "color": "yellow",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Memes": {
+      "icon": "🤣",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "OS": {
+      "icon": "lucide-screen-share",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Personal Home": {
+      "icon": "lucide-house",
+      "color": "orange",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Rust": {
+      "icon": "🦀",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Sound & Music": {
+      "icon": "lucide-music-4",
+      "color": "orange",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "System Design": {
+      "icon": "lucide-cloud-cog",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "System Design/Designing Data-Intensive Applications (Martin Kleppman)": {
+      "icon": "🐗",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "System Design/System Design (Vlad Ten)": {
+      "icon": "🐵",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Telegram": {
+      "icon": "🛫",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Tmp": {
+      "icon": "lucide-trash-2",
+      "color": "pink",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Tools": {
+      "icon": "🛠️",
+      "color": "orange",
+      "unsynced": [
+        "ce8ad9d4e5f939f0",
+        "274d170b8bfbb206",
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    },
+    "Typescript": {
+      "icon": "lucide-type-outline",
+      "color": "orange",
+      "unsynced": [
+        "66d1de1f145a1088",
+        "f75b69da44bed5d3"
+      ]
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "k3XRZ",
+      "name": "All Orange Files",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "is",
+          "value": "md"
+        }
+      ],
+      "enabled": false,
+      "color": "orange"
+    }
+  ],
+  "folderRules": [
+    {
+      "id": "XrsNg",
+      "name": "All Folders",
+      "match": "none",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains"
+        }
+      ],
+      "enabled": false,
+      "color": "orange"
+    }
+  ]
+}

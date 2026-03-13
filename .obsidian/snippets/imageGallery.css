@@ -1,0 +1,67 @@
+/* Single image centering & sizing */
+.image-captions-caption .tag {
+  display: none;
+}
+
+img[alt="#center-10"] {
+  display: block;
+  width: 10%;
+  margin: 0 auto;
+}
+
+img[alt="#center-20"] {
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+}
+
+img[alt="#center-30"] {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+
+img[alt="#center-40"] {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}
+
+img[alt="#center-50"] {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+img[alt="#center-60"] {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+img[alt="#center-70"] {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+img[alt="#center-80"] {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+img[alt="#center-90"] {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.internal-embed.media-embed.image-embed.is-loaded[alt="#img-gallery-2"] {
+  display: inline-block;
+  width: 46%;
+  margin-right: 4%!important;
+}
+.internal-embed.media-embed.image-embed.is-loaded[alt="#img-gallery-2"]:last-child {
+  margin-right: 0%!important;
+}

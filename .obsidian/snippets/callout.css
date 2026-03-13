@@ -1,0 +1,173 @@
+/* ==========================================================================
+   Obsidian Callouts — Gruvbox Dark preset
+   Подходит для темной темы gruvbox. Не трогает твои глобальные цвета заметок.
+   ========================================================================== */
+
+/* Базовые gruvbox-тональности (без ломания твоей палитры) */
+:root {
+  --gxb-bg: #282828;
+  --gxb-bg1: #3c3836;
+  --gxb-fg: #ebdbb2;
+  --gxb-fg2: #d5c4a1;
+  --gxb-red: #fb4934;
+  --gxb-green: #b8bb26;
+  --gxb-yellow: #fabd2f;
+  --gxb-blue: #83a598;
+  --gxb-purple: #d3869b;
+  --gxb-aqua: #8ec07c;
+  --gxb-orange: #fe8019;
+  --gxb-gray: #928374;
+}
+
+/* ---------- База для всех callouts ---------- */
+.callout {
+  color: var(--gxb-fg2);
+  border-left: 3px solid var(--callout-border);
+  background-color: var(--callout-bg);
+}
+
+.theme-dark .callout {
+  /* мягкий фон и рамка из оттенка callout-color */
+  --callout-bg: color-mix(in srgb, var(--callout-color) 12%, var(--gxb-bg));
+  --callout-border: color-mix(in srgb, var(--callout-color) 40%, var(--gxb-bg));
+}
+
+.callout .callout-title {
+  /* background: color-mix(in srgb, var(--callout-color) 22%, var(--gxb-bg1)); */
+  /* color: var(--gxb-fg); */
+  color: color-mix(in srgb, var(--callout-color) 85%, var(--gxb-fg));
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--callout-color) 45%, transparent);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Hover — лёгкий акцент */
+.callout:hover {
+  --callout-border: color-mix(in srgb, var(--callout-color) 55%, var(--gxb-bg));
+}
+
+/* Ссылки/код */
+.callout a {
+  color: var(--gxb-fg);
+  text-decoration-color: color-mix(
+    in srgb,
+    var(--callout-color) 55%,
+    transparent
+  );
+}
+.callout a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.callout pre,
+.callout code {
+  background: color-mix(in srgb, var(--callout-color) 10%, transparent);
+}
+
+/* ---------- Соответствия callout → gruvbox-цвет ---------- */
+
+/* note */
+.callout[data-callout='note'] {
+  --callout-color: var(--gxb-blue);
+}
+
+.callout[data-callout='note'] .callout-icon svg {
+  display: none;
+}
+
+.callout[data-callout='note'] .callout-icon::before {
+  content: '📝';
+}
+
+/* abstract | summary | tldr */
+.callout[data-callout='abstract'],
+.callout[data-callout='summary'],
+.callout[data-callout='tldr'] {
+  --callout-color: var(--gxb-purple);
+}
+
+/* info */
+.callout[data-callout='info'] {
+  --callout-color: var(--gxb-aqua);
+}
+
+/* tip | hint | important */
+.callout[data-callout='tip'],
+.callout[data-callout='hint'] {
+  --callout-color: var(--gxb-aqua);
+}
+
+.callout[data-callout='tip'] .callout-icon svg,
+.callout[data-callout='hint'] .callout-icon svg {
+  display: none;
+}
+
+.callout[data-callout='tip'] .callout-icon::before,
+.callout[data-callout='hint'] .callout-icon::before {
+  content: '💡';
+}
+
+/* success | check | done */
+.callout[data-callout='success'],
+.callout[data-callout='check'],
+.callout[data-callout='done'] {
+  --callout-color: var(--gxb-green);
+}
+
+/* todo */
+.callout[data-callout='todo'] {
+  --callout-color: var(--gxb-yellow);
+}
+
+/* question | help | faq */
+.callout[data-callout='question'],
+.callout[data-callout='help'],
+.callout[data-callout='faq'] {
+  --callout-color: var(--gxb-purple);
+}
+
+/* warning | caution | attention */
+.callout[data-callout='warning'],
+.callout[data-callout='caution'],
+.callout[data-callout='attention'] {
+  --callout-color: var(--gxb-orange);
+}
+
+/* failure | fail | missing */
+.callout[data-callout='failure'],
+.callout[data-callout='fail'],
+.callout[data-callout='missing'] {
+  --callout-color: color-mix(
+    in srgb,
+    var(--gxb-red) 65%,
+    var(--gxb-orange) 35%
+  );
+}
+
+/* danger | error */
+.callout[data-callout='danger'],
+.callout[data-callout='error'],
+.callout[data-callout='important'] {
+  --callout-color: var(--gxb-red);
+}
+
+/* bug */
+.callout[data-callout='bug'] {
+  --callout-color: var(--gxb-purple);
+}
+
+/* example */
+.callout[data-callout='example'] {
+  --callout-color: var(--gxb-blue);
+}
+
+/* quote */
+.callout[data-callout='quote'] {
+  --callout-color: var(--gxb-gray);
+}
+
+/* ---------- (опционально) подкраска stroke Lucide-иконок под тон ---------- */
+.callout .callout-icon svg {
+  stroke: color-mix(in srgb, var(--callout-color) 85%, var(--gxb-fg));
+}

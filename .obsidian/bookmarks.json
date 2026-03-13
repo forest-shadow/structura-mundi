@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1770728928431,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1770728928431,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1770728953601,
+              "items": [],
+              "title": "Go Dashboard"
+            }
+          ],
+          "title": "CS Dashboard"
+        },
+        {
+          "type": "group",
+          "ctime": 1770728953601,
+          "items": [],
+          "title": "Golang Dashboard"
+        },
+        {
+          "type": "group",
+          "ctime": 1771102532241,
+          "items": [],
+          "title": "JS Dashboard"
+        },
+        {
+          "type": "group",
+          "ctime": 1771102542694,
+          "items": [],
+          "title": "Golang Interviews"
+        },
+        {
+          "type": "group",
+          "ctime": 1771102548340,
+          "items": [],
+          "title": "JS Interviews"
+        }
+      ],
+      "title": "sortspec"
+    }
+  ]
+}

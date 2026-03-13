@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "9aa3164418c58506",
+    "type": "split",
+    "children": [
+      {
+        "id": "23fd158a41347089",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Daily/2022-12-07.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "27f3403b19b7e41f",
+    "type": "split",
+    "children": [
+      {
+        "id": "76e0ee0451e0c9fe",
+        "type": "tabs",
+        "dimension": 76.24413145539906,
+        "children": [
+          {
+            "id": "98ebc15e59c15379",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "58b2f379be027fed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#The",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c110533d812b51b5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "307f0b16be78834c",
+        "type": "tabs",
+        "dimension": 23.75586854460094,
+        "children": [
+          {
+            "id": "a74f2358a544774a",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 448
+  },
+  "right": {
+    "id": "e8e0b1d0158860f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c481ea1eb3524343",
+        "type": "tabs",
+        "dimension": 58.30985915492957,
+        "children": [
+          {
+            "id": "eced1bf67562bbad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily/2022-12-07.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0dc0ae2b64254e98",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily/2022-12-07.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46f16623abd88dad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9f3347461e0b2ddd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily/2022-12-07.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "65d14637e13e3bc4",
+        "type": "tabs",
+        "dimension": 41.69014084507043,
+        "children": [
+          {
+            "id": "583ae5bcdd25c4c5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "23fd158a41347089",
+  "lastOpenFiles": [
+    "Daily/2022-09-28.md",
+    "Daily/2022-09-12.md",
+    "Daily/2022-09-05.md",
+    "Daily/2022-09-04.md",
+    "Psychology/Mark Manson - The Subtle Art Of Not Giving A Fuck/Mark Manson - The Subtle Art Of Not Giving A Fuck.md",
+    "Psychology/Mark Manson - The Subtle Art Of Not Giving A Fuck/01. Don't Try/Healthy Values - Honesty Without Compromises - Bukowski & Being Ok To Be Loser.md",
+    "Psychology/Mark Manson - The Subtle Art Of Not Giving A Fuck/01. Don't Try/Desire for Positivity vs Acceptance of Negativity.md",
+    "Psychology/Mark Manson - The Subtle Art Of Not Giving A Fuck/01. Don't Try/Giving to many fucks vs Giving fucks only about things that matter.md",
+    "Psychology/Mark Manson - The Subtle Art Of Not Giving A Fuck/01. Don't Try/Unhealthy Values - Fixation Only On Positive.md",
+    "Psychology/Mark Manson - The Subtle Art Of Not Giving A Fuck.md"
+  ]
+}

@@ -1,0 +1,35 @@
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  html,
+  body {
+    background: transparent !important;
+  }
+
+  /* подложка */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0; /* top/right/bottom/left = 0 */
+    background: #32302f !important;
+    z-index: -1;
+  }
+
+  body {
+    padding: 20mm 15mm 20mm 15mm !important;
+    box-sizing: border-box;
+  }
+
+  /* обнуляем фон у контейнеров темы */
+  .markdown-preview-view,
+  .markdown-preview-sizer,
+  .markdown-preview-section,
+  .view-content,
+  .workspace-leaf-content {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
