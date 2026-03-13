@@ -2,27 +2,14 @@
   "customOrder": {
     "/": {
       "children": [
+        "04. Assets",
+        "99. Archive",
         "00. Obsidian Praxis",
         "03. Maps and Courses",
         "01. Inbox",
         "Tabula Ortus.md",
         "02. Corpus Mundi",
         "00. Principia Rerum"
-      ],
-      "sortOrder": "custom"
-    },
-    "00. Principia Rerum": {
-      "children": [
-        "00. Principia Rerum/__00. Principia Rerum.md",
-        "00. Principia Rerum/Knowledge Base Standard.md",
-        "00. Principia Rerum/Knowledge System Model.md",
-        "00. Principia Rerum/File Structure.md",
-        "00. Principia Rerum/Frontmatter Legend.md",
-        "00. Principia Rerum/Controlled Vocabulary.md",
-        "00. Principia Rerum/Tag Policy.md",
-        "00. Principia Rerum/Naming Policy.md",
-        "00. Principia Rerum/Note Lifecycle and Merge Policy.md",
-        "00. Principia Rerum/Templates"
       ],
       "sortOrder": "custom"
     },
@@ -61,13 +48,6 @@
       ],
       "sortOrder": "custom"
     },
-    "00. Principia Rerum/Templates": {
-      "children": [
-        "00. Principia Rerum/Templates/Article Template.md",
-        "00. Principia Rerum/Templates/Overview Template.md"
-      ],
-      "sortOrder": "custom"
-    },
     "00. Obsidian Praxis/Templates": {
       "children": [
         "00. Obsidian Praxis/Templates/Article Template.md",
@@ -75,17 +55,156 @@
       ],
       "sortOrder": "custom"
     },
+    "00. Principia Rerum": {
+      "children": [
+        "00. Principia Rerum/__00. Principia Rerum.md",
+        "00. Principia Rerum/Knowledge Base Standard.md",
+        "00. Principia Rerum/Knowledge System Model.md",
+        "00. Principia Rerum/File Structure.md",
+        "00. Principia Rerum/Frontmatter Legend.md",
+        "00. Principia Rerum/Controlled Vocabulary.md",
+        "00. Principia Rerum/Tag Policy.md",
+        "00. Principia Rerum/Naming Policy.md",
+        "00. Principia Rerum/Note Lifecycle and Merge Policy.md",
+        "00. Principia Rerum/Templates"
+      ],
+      "sortOrder": "custom"
+    },
+    "00. Principia Rerum/Templates": {
+      "children": [
+        "00. Principia Rerum/Templates/Article Template.md",
+        "00. Principia Rerum/Templates/Overview Template.md"
+      ],
+      "sortOrder": "custom"
+    },
     "01. Inbox": {
       "children": [
+        "01. Inbox/To Classify",
+        "01. Inbox/To Merge",
+        "01. Inbox/To Rewrite",
         "01. Inbox/Service Reliability Structure.md"
       ],
       "sortOrder": "custom"
     },
+    "01. Inbox/To Classify": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Merge": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Rewrite": {
+      "children": [],
+      "sortOrder": "custom"
+    },
     "02. Corpus Mundi": {
       "children": [
+        "02. Corpus Mundi/A",
+        "02. Corpus Mundi/B",
+        "02. Corpus Mundi/C",
+        "02. Corpus Mundi/D",
+        "02. Corpus Mundi/E",
+        "02. Corpus Mundi/F",
+        "02. Corpus Mundi/G",
+        "02. Corpus Mundi/H",
+        "02. Corpus Mundi/I",
+        "02. Corpus Mundi/J",
+        "02. Corpus Mundi/K",
+        "02. Corpus Mundi/L",
+        "02. Corpus Mundi/M",
+        "02. Corpus Mundi/N",
+        "02. Corpus Mundi/O",
+        "02. Corpus Mundi/P",
+        "02. Corpus Mundi/Q",
+        "02. Corpus Mundi/R",
+        "02. Corpus Mundi/U",
+        "02. Corpus Mundi/V",
+        "02. Corpus Mundi/W",
+        "02. Corpus Mundi/X",
+        "02. Corpus Mundi/Y",
+        "02. Corpus Mundi/Z",
         "02. Corpus Mundi/T",
         "02. Corpus Mundi/S",
         "02. Corpus Mundi/__02. Corpus Mundi.base"
+      ],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/A": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/B": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/C": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/D": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/E": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/F": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/G": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/H": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/I": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/J": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/K": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/L": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/M": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/N": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/O": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/P": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/Q": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/R": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/S": {
+      "children": [
+        "02. Corpus Mundi/S/Service Reliability.md"
       ],
       "sortOrder": "custom"
     },
@@ -95,13 +214,99 @@
       ],
       "sortOrder": "custom"
     },
-    "02. Corpus Mundi/S": {
-      "children": [
-        "02. Corpus Mundi/S/Service Reliability.md"
-      ],
+    "02. Corpus Mundi/U": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/V": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/W": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/X": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/Y": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "02. Corpus Mundi/Z": {
+      "children": [],
       "sortOrder": "custom"
     },
     "03. Maps and Courses": {
+      "children": [
+        "03. Maps and Courses/Learning Paths",
+        "03. Maps and Courses/Reading Orders",
+        "03. Maps and Courses/Topic Maps"
+      ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Learning Paths": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Reading Orders": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "04. Assets": {
+      "children": [
+        "04. Assets/Imported",
+        "04. Assets/Shared"
+      ],
+      "sortOrder": "custom"
+    },
+    "04. Assets/Imported": {
+      "children": [
+        "04. Assets/Imported/PDFs"
+      ],
+      "sortOrder": "custom"
+    },
+    "04. Assets/Imported/PDFs": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "04. Assets/Shared": {
+      "children": [
+        "04. Assets/Shared/Diagrams",
+        "04. Assets/Shared/Images"
+      ],
+      "sortOrder": "custom"
+    },
+    "04. Assets/Shared/Diagrams": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "04. Assets/Shared/Images": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "99. Archive": {
+      "children": [
+        "99. Archive/Deprecated",
+        "99. Archive/Merged",
+        "99. Archive/Old Structures"
+      ],
+      "sortOrder": "custom"
+    },
+    "99. Archive/Deprecated": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "99. Archive/Merged": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "99. Archive/Old Structures": {
       "children": [],
       "sortOrder": "custom"
     }
