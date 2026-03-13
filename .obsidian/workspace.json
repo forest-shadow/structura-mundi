@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00. Principia Rerum/File Structure.md",
+                "file": "01. Inbox/To Classify/Syllogistics/Syllogism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File Structure"
+              "title": "Syllogism"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00. Principia Rerum/File Structure.md",
+                "file": "01. Inbox/To Classify/Syllogistics/Syllogism.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of File Structure"
+              "title": "Outline of Syllogism"
             }
           },
           {
@@ -189,6 +189,7 @@
   },
   "active": "c340083190100fc4",
   "lastOpenFiles": [
+    "00. Principia Rerum/File Structure.md",
     "01. Inbox/To Classify/Syllogistics/Syllogistic Mood.md",
     "01. Inbox/To Classify/Syllogistics/Syllogistic Figure.md",
     "01. Inbox/To Classify/Syllogistics/Disjunctive Syllogism.md",
@@ -221,7 +222,6 @@
     "task14.md",
     "00. Principia Rerum/Frontmatter Legend.md",
     "00. Principia Rerum/Note Lifecycle and Merge Policy.md",
-    "00. Principia Rerum/Naming Policy.md",
     "02. Corpus Mundi/Z",
     "02. Corpus Mundi/Y",
     "02. Corpus Mundi/X",

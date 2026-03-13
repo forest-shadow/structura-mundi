@@ -97,6 +97,7 @@
 - `epistemology`
 - `metaphysics`
 - `ethics`
+- `logic`
 
 ### Другие `area`
 
