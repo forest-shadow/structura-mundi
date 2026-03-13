@@ -87,7 +87,21 @@
       "sortOrder": "custom"
     },
     "01. Inbox/To Classify": {
-      "children": [],
+      "children": [
+        "01. Inbox/To Classify/Syllogistics"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Syllogistics": {
+      "children": [
+        "01. Inbox/To Classify/Syllogistics/Categorical Syllogism.md",
+        "01. Inbox/To Classify/Syllogistics/Disjunctive Syllogism.md",
+        "01. Inbox/To Classify/Syllogistics/Hypothetical Syllogism.md",
+        "01. Inbox/To Classify/Syllogistics/Syllogism.md",
+        "01. Inbox/To Classify/Syllogistics/Syllogism Structure Proposal.md",
+        "01. Inbox/To Classify/Syllogistics/Syllogistic Figure.md",
+        "01. Inbox/To Classify/Syllogistics/Syllogistic Mood.md"
+      ],
       "sortOrder": "custom"
     },
     "01. Inbox/To Merge": {
