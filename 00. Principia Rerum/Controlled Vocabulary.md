@@ -165,11 +165,13 @@
 
 На текущем этапе это как минимум:
 
+* `event-driven-architecture`
+* `service-reliability`
 - `oltp`
 - `load-balancing`
 - `caching`
 - `replication`
-- `service-reliability`
+
 - `skepticism`
 - `tragedy`
 
