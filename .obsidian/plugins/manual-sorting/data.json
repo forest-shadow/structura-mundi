@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "Prompts",
         "04. Assets",
         "99. Archive",
         "00. Obsidian Praxis",
@@ -337,6 +338,10 @@
       "sortOrder": "custom"
     },
     "99. Archive/Old Structures": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Prompts": {
       "children": [],
       "sortOrder": "custom"
     }
