@@ -89,6 +89,8 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Distributed Systems Problems",
+        "01. Inbox/To Classify/Dual Write",
         "01. Inbox/To Classify/Event-Driven Architecture",
         "01. Inbox/To Classify/Syllogistics"
       ],
@@ -342,7 +344,34 @@
       "sortOrder": "custom"
     },
     "Prompts": {
-      "children": [],
+      "children": [
+        "Prompts/Post Synthesis.md",
+        "Prompts/Obsidian Ultimate Professional Article.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Dual Write": {
+      "children": [
+        "01. Inbox/To Classify/Dual Write/_resources",
+        "01. Inbox/To Classify/Dual Write/Distributed Transaction.md",
+        "01. Inbox/To Classify/Dual Write/Change Data Capture.md",
+        "01. Inbox/To Classify/Dual Write/Polling Publisher.md",
+        "01. Inbox/To Classify/Dual Write/Dual Write.md",
+        "01. Inbox/To Classify/Dual Write/Dual Write Structure Proposal.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Distributed Systems Problems": {
+      "children": [
+        "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
+        "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems Structure Proposal.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Dual Write/_resources": {
+      "children": [
+        "01. Inbox/To Classify/Dual Write/_resources/dua-write.jpg"
+      ],
       "sortOrder": "custom"
     }
   },
