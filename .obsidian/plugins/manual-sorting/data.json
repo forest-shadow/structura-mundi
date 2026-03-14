@@ -88,7 +88,23 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Event-Driven Architecture",
         "01. Inbox/To Classify/Syllogistics"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Event-Driven Architecture": {
+      "children": [
+        "01. Inbox/To Classify/Event-Driven Architecture/Competing Consumers.md",
+        "01. Inbox/To Classify/Event-Driven Architecture/Event Collaboration Patterns.md",
+        "01. Inbox/To Classify/Event-Driven Architecture/Event Notification.md",
+        "01. Inbox/To Classify/Event-Driven Architecture/Event-Carried State Transfer.md",
+        "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture.md",
+        "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture Structure Proposal.md",
+        "01. Inbox/To Classify/Event-Driven Architecture/Idempotent Consumer.md",
+        "01. Inbox/To Classify/Event-Driven Architecture/Message Broker.md",
+        "01. Inbox/To Classify/Event-Driven Architecture/Publish-Subscribe.md",
+        "01. Inbox/To Classify/Event-Driven Architecture/Transactional Outbox.md"
       ],
       "sortOrder": "custom"
     },
@@ -97,7 +113,6 @@
         "01. Inbox/To Classify/Syllogistics/Categorical Syllogism.md",
         "01. Inbox/To Classify/Syllogistics/Disjunctive Syllogism.md",
         "01. Inbox/To Classify/Syllogistics/Hypothetical Syllogism.md",
-        "01. Inbox/To Classify/Syllogistics/Syllogism.md",
         "01. Inbox/To Classify/Syllogistics/Syllogism Structure Proposal.md",
         "01. Inbox/To Classify/Syllogistics/Syllogistic Figure.md",
         "01. Inbox/To Classify/Syllogistics/Syllogistic Mood.md"
@@ -218,6 +233,7 @@
     },
     "02. Corpus Mundi/S": {
       "children": [
+        "02. Corpus Mundi/S/Syllogism.md",
         "02. Corpus Mundi/S/Service Reliability.md"
       ],
       "sortOrder": "custom"

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/S/Syllogism.md",
+                "file": "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Syllogism"
+              "title": "Event-Driven Architecture"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/S/Syllogism.md",
+                "file": "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Syllogism"
+              "title": "Outline of Event-Driven Architecture"
             }
           },
           {
@@ -189,6 +189,8 @@
   },
   "active": "c340083190100fc4",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture Structure Proposal.md",
+    "02. Corpus Mundi/S/Syllogism.md",
     "01. Inbox/To Classify/Event-Driven Architecture/Idempotent Consumer.md",
     "01. Inbox/To Classify/Event-Driven Architecture/Transactional Outbox.md",
     "01. Inbox/To Classify/Event-Driven Architecture/Message Broker.md",
@@ -198,10 +200,8 @@
     "01. Inbox/To Classify/Event-Driven Architecture/Event Notification.md",
     "01. Inbox/To Classify/Event-Driven Architecture/Event Collaboration Patterns.md",
     "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture.md",
-    "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture Structure Proposal.md",
     "01. Inbox/To Classify/Event-Driven Architecture",
     "01. Inbox/To Classify/Syllogistics/Categorical Syllogism.md",
-    "02. Corpus Mundi/S/Syllogism.md",
     "00. Principia Rerum/File Structure.md",
     "01. Inbox/To Classify/Syllogistics/Syllogistic Mood.md",
     "01. Inbox/To Classify/Syllogistics/Syllogistic Figure.md",
