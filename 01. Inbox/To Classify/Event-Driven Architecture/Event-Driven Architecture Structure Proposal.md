@@ -46,20 +46,25 @@ Event-Driven Architecture (overview)
 
 ## Предлагаемое физическое размещение после нормализации
 
-Если `section` будет утвержден и заметки дойдут до канонического состояния, их естественное размещение:
+Если `section` будет утвержден и заметки дойдут до канонического состояния, их физическое размещение должно следовать алфавитному правилу:
 
 ```text
 02. Corpus Mundi/
-└── E/
-    ├── Event-Driven Architecture.md
-    ├── Event Collaboration Patterns.md
-    ├── Event Notification.md
-    ├── Event-Carried State Transfer.md
-    ├── Competing Consumers.md
-    ├── Publish-Subscribe.md
-    ├── Message Broker.md
-    ├── Transactional Outbox.md
-    └── Idempotent Consumer.md
+├── C/
+│   └── Competing Consumers.md
+├── E/
+│   ├── Event-Driven Architecture.md
+│   ├── Event Collaboration Patterns.md
+│   ├── Event Notification.md
+│   └── Event-Carried State Transfer.md
+├── I/
+│   └── Idempotent Consumer.md
+├── M/
+│   └── Message Broker.md
+├── P/
+│   └── Publish-Subscribe.md
+└── T/
+    └── Transactional Outbox.md
 ```
 
 Локальные вложения при необходимости:

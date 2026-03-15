@@ -45,15 +45,17 @@ Distributed Systems Problems (overview)
 
 ## Предлагаемое физическое размещение после нормализации
 
-Если `section` будет утвержден и заметки дойдут до канонического состояния, их естественное размещение:
+Если `section` будет утвержден и заметки дойдут до канонического состояния, их физическое размещение должно следовать алфавитному правилу:
 
 ```text
 02. Corpus Mundi/
-└── D/
-    ├── Dual Write.md
-    ├── Polling Publisher.md
-    ├── Change Data Capture.md
-    └── Distributed Transaction.md
+├── C/
+│   └── Change Data Capture.md
+├── D/
+│   ├── Dual Write.md
+│   └── Distributed Transaction.md
+└── P/
+    └── Polling Publisher.md
 ```
 
 При этом `Transactional Outbox` должен остаться одной канонической заметкой и быть связан через `related`, а не размножаться по нескольким папкам.

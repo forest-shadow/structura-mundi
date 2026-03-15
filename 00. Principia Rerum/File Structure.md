@@ -146,6 +146,33 @@ Structura Mundi/
     └── Session Affinity.md
 ```
 
+### Как физическое хранение соотносится с логической веткой
+
+Ключевое правило:
+
+- физическое размещение в `02. Corpus Mundi/` определяется первой буквой канонического имени файла;
+- логическая иерархия темы определяется не папкой, а `parent`, `related`, `section` и обычными `[[wikilinks]]`;
+- поэтому одна логическая ветка может быть физически разнесена по нескольким буквенным папкам;
+- это не ошибка структуры, а нормальная реализация принципа "алфавитная папка = индекс, а не онтология".
+
+То есть:
+
+- `React.md` живет в `02. Corpus Mundi/R/`;
+- `JSX.md` живет в `02. Corpus Mundi/J/`;
+- `Custom Hooks.md` живет в `02. Corpus Mundi/C/`;
+- `useState.md` живет в `02. Corpus Mundi/U/`;
+- при этом все они могут входить в одну логическую ветку через `parent` и Bases.
+
+Нельзя делать так:
+
+- складывать всю ветку `React` в `02. Corpus Mundi/R/` только потому, что корневая обзорная заметка называется `React`;
+- подменять физическим соседством логическую иерархию ветки.
+
+Нужно делать так:
+
+- хранить каждый файл по его собственному каноническому имени;
+- восстанавливать тему как дерево через `parent` и как кластер через `section`.
+
 ## `03. Maps and Courses/`
 
 Это не энциклопедические статьи, а **навигационные и учебные конструкции**.
@@ -248,7 +275,7 @@ Structura Mundi/
 
 ## Каноническая статья
 
-Идёт в `02. Corpus Mundi/<Letter>/`.
+Идёт в `02. Corpus Mundi/<Letter>/`, где `<Letter>` — первая буква канонического имени самой заметки.
 
 Примеры:
 - `OLTP.md`
@@ -258,12 +285,13 @@ Structura Mundi/
 
 ## Обзорная статья
 
-Тоже идёт в `02. Corpus Mundi/<Letter>/`.
+Тоже идёт в `02. Corpus Mundi/<Letter>/`, где `<Letter>` — первая буква канонического имени самой заметки.
 
 Пример:
 - `Load Balancing.md`
 
 Не нужно для неё отдельное физическое место.
+Также не нужно складывать дочерние статьи этой ветки рядом с ней, если их собственные канонические имена начинаются с других букв.
 
 ## Учебный маршрут
 
@@ -342,6 +370,40 @@ Structura Mundi/
 03. Maps and Courses/Topic Maps/
 └── Load Balancing Map.md
 ```
+
+## Пример: React
+
+```text
+02. Corpus Mundi/R/
+- React.md
+- React Hooks.md
+- React Rendering Model.md
+- Rules of Hooks.md
+- _resources/
+  - React/
+    - component-tree.png
+
+02. Corpus Mundi/J/
+- JSX.md
+
+02. Corpus Mundi/C/
+- Components and Props.md
+- Custom Hooks.md
+
+02. Corpus Mundi/U/
+- useState.md
+- useEffect.md
+- useReducer.md
+- useContext.md
+- useRef.md
+```
+
+Это одна логическая ветка, но физически она распределена по буквам.
+
+Её логическая структура задаётся не папками, а так:
+
+- `React Hooks` имеет `parent: "[[React]]"`;
+- `useState`, `useEffect`, `useReducer`, `useContext`, `useRef`, `Custom Hooks` имеют `parent: "[[React Hooks]]"`.
 
 # Почему такая структура хороша
 

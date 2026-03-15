@@ -42,15 +42,18 @@ Syllogism (overview)
 
 ## Предлагаемое физическое размещение после нормализации
 
-Если словарь будет расширен и заметки дойдут до канонического состояния, их естественное размещение:
+Если словарь будет расширен и заметки дойдут до канонического состояния, их физическое размещение должно следовать алфавитному правилу:
 
 ```text
 02. Corpus Mundi/
+├── C/
+│   └── Categorical Syllogism.md
+├── D/
+│   └── Disjunctive Syllogism.md
+├── H/
+│   └── Hypothetical Syllogism.md
 └── S/
     ├── Syllogism.md
-    ├── Categorical Syllogism.md
-    ├── Hypothetical Syllogism.md
-    ├── Disjunctive Syllogism.md
     ├── Syllogistic Figure.md
     └── Syllogistic Mood.md
 ```
