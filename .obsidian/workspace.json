@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Dual Write/Dual Write.md",
+                "file": "01. Inbox/To Classify/Event-Driven Architecture/Transactional Outbox.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dual Write"
+              "title": "Outline of Transactional Outbox"
             }
           },
           {
@@ -246,8 +246,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "0092f4946cd25e20",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Dual Write/Dual Write.md",
     "01. Inbox/To Classify/Dual Write/_resources/dua-write.jpg",
     "01. Inbox/To Classify/Dual Write/_resources",
     "Pasted image 20260314213657.png",
@@ -263,7 +264,6 @@
     "01. Inbox/To Classify/Dual Write/Distributed Transaction.md",
     "01. Inbox/To Classify/Dual Write/Change Data Capture.md",
     "01. Inbox/To Classify/Dual Write/Polling Publisher.md",
-    "01. Inbox/To Classify/Dual Write/Dual Write.md",
     "01. Inbox/To Classify/Dual Write/Dual Write Structure Proposal.md",
     "01. Inbox/To Classify/Dual Write",
     "Prompts/Post Synthesis.md",
