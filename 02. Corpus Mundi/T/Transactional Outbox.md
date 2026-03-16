@@ -5,7 +5,7 @@ area: computer-science
 domain: distributed-systems
 section: event-driven-architecture
 parent: "[[Event-Driven Architecture]]"
-status: seed
+status: draft
 related:
   - "[[Idempotent Consumer]]"
   - "[[Message Broker]]"

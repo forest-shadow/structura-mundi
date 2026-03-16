@@ -6,7 +6,7 @@ area: computer-science
 domain: programming-languages
 section: javascript
 parent:
-status: seed
+status: draft
 related:
   - "[[Internal Prototype Slot]]"
   - "[[Proto Accessor]]"

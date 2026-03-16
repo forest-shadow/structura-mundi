@@ -3,5 +3,41 @@ views:
     name: Table
     filters:
       and:
-        - file.inFolder("01. Corpus Mundi")
+        - file.inFolder("02. Corpus Mundi")
         - file.ext == "md"
+    order:
+      - file.name
+      - status
+      - note_type
+      - section
+      - area
+      - domain
+      - parent
+      - related
+    columnSize:
+      file.name: 220
+  - type: table
+    name: draft
+    filters:
+      and:
+        - file.inFolder("02. Corpus Mundi")
+        - file.ext == "md"
+        - status == "draft"
+    order:
+      - file.name
+      - status
+      - note_type
+      - section
+      - domain
+      - area
+      - related
+      - parent
+    columnSize:
+      file.name: 254
+  - type: table
+    name: seed
+    filters:
+      and:
+        - file.inFolder("02. Corpus Mundi")
+        - file.ext == "md"
+        - status == "seed"

@@ -69,14 +69,13 @@
             "id": "0092f4946cd25e20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "02. Corpus Mundi/T/Transactional Outbox.md",
-                "mode": "source",
-                "source": false
+                "file": "02. Corpus Mundi/__02. Corpus Mundi.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Transactional Outbox"
+              "icon": "lucide-table",
+              "title": "__02. Corpus Mundi"
             }
           },
           {
@@ -85,16 +84,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00. Principia Rerum/Frontmatter Legend.md",
+                "file": "02. Corpus Mundi/S/Syllogism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frontmatter Legend"
+              "title": "Syllogism"
+            }
+          },
+          {
+            "id": "a2ee9bcd1fd6f7b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Inbox/To Classify/JavaScript Prototype System/Internal Prototype Slot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Internal Prototype Slot"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -167,13 +180,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00. Principia Rerum/Frontmatter Legend.md",
+                "file": "01. Inbox/To Classify/JavaScript Prototype System/Internal Prototype Slot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Frontmatter Legend"
+              "title": "Outline of Internal Prototype Slot"
             }
           },
           {
@@ -260,17 +273,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "25c934cf771c9b74",
+  "active": "a2ee9bcd1fd6f7b8",
   "lastOpenFiles": [
+    "02. Corpus Mundi/J/JavaScript Prototype System.md",
+    "01. Inbox/To Classify/JavaScript Prototype System/Internal Prototype Slot.md",
+    "Tabula Ortus.md",
+    "02. Corpus Mundi/__02. Corpus Mundi.base",
+    "02. Corpus Mundi/T/Transactional Outbox.md",
+    "02. Corpus Mundi/S/Syllogism.md",
+    "00. Principia Rerum/Note Lifecycle and Merge Policy.md",
+    "00. Principia Rerum/Frontmatter Legend.md",
     "00. Principia Rerum/File Structure.md",
     "00. Principia Rerum/Controlled Vocabulary.md",
-    "00. Principia Rerum/Note Lifecycle and Merge Policy.md",
     "00. Principia Rerum/Naming Policy.md",
-    "00. Principia Rerum/Frontmatter Legend.md",
-    "02. Corpus Mundi/J/JavaScript Prototype System.md",
     "01. Inbox/To Classify/JavaScript Prototype System/Proto Accessor.md",
     "01. Inbox/To Classify/Dual Write/Dual Write.md",
-    "Tabula Ortus.md",
     "01. Inbox/To Rewrite/Telemetry and Metrics.md",
     "01. Inbox/To Classify/Telemetry/Percentile.md",
     "01. Inbox/To Classify/Telemetry/Histogram.md",
@@ -283,12 +300,9 @@
     "01. Inbox/To Classify/Telemetry/Telemetry Structure Proposal.md",
     "02. Corpus Mundi/T/Telemetry and Metrics.md",
     "01. Inbox/To Classify/Telemetry",
-    "02. Corpus Mundi/T/Transactional Outbox.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Snapshot Isolation.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Serializable.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Repeatable Read.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Read Committed.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Read Uncommitted.md",
     "01. Inbox/To Classify/Transaction Isolation Levels",
     "01. Inbox/To Classify/React",
     "01. Inbox/To Classify/React Hooks",
@@ -299,7 +313,6 @@
     "01. Inbox/To Classify/Dual Write",
     "Prompts",
     "01. Inbox/To Classify/Event-Driven Architecture",
-    "01. Inbox/To Classify/Syllogistics",
     "00. Obsidian Praxis/Config & Settings Details/Images/gruvbox_colors.png",
     "Databases/Database Internals (Petrov Alex)/_resources/01-architecture-of-dbms.jpg",
     "dbin_0101.png",
