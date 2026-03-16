@@ -362,6 +362,7 @@
     },
     "03. Maps and Courses/Topic Maps": {
       "children": [
+        "03. Maps and Courses/Topic Maps/Javascript",
         "03. Maps and Courses/Topic Maps/JavaScript.base",
         "03. Maps and Courses/Topic Maps/Javascript.md"
       ],
@@ -438,6 +439,10 @@
         "01. Inbox/To Classify/Telemetry/Telemetry.md",
         "01. Inbox/To Classify/Telemetry/Telemetry Structure Proposal.md"
       ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/Javascript": {
+      "children": [],
       "sortOrder": "custom"
     }
   },

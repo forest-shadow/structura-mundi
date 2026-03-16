@@ -1,0 +1,32 @@
+views:
+  - type: table
+    name: JavaScript
+    filters:
+      and:
+        - file.inFolder("02. Corpus Mundi")
+        - file.ext == "md"
+        - section == "javascript"
+    order:
+      - file.name
+      - note_type
+      - status
+      - related
+    sort:
+      - property: note_type
+        direction: DESC
+  - type: table
+    name: JavaScript Prototype System
+    filters:
+      and:
+        - file.inFolder("02. Corpus Mundi")
+        - file.ext == "md"
+        - or:
+            - parent == link("JavaScript Prototype System")
+            - file.name == "JavaScript Prototype System"
+    order:
+      - file.name
+      - note_type
+      - status
+    sort:
+      - property: note_type
+        direction: DESC
