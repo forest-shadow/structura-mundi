@@ -85,12 +85,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/JavaScript Prototype System/JavaScript Prototype System.md",
+                "file": "00. Principia Rerum/Frontmatter Legend.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript Prototype System"
+              "title": "Frontmatter Legend"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/JavaScript Prototype System/JavaScript Prototype System.md",
+                "file": "00. Principia Rerum/Frontmatter Legend.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JavaScript Prototype System"
+              "title": "Outline of Frontmatter Legend"
             }
           },
           {
@@ -262,6 +262,13 @@
   },
   "active": "25c934cf771c9b74",
   "lastOpenFiles": [
+    "00. Principia Rerum/File Structure.md",
+    "00. Principia Rerum/Controlled Vocabulary.md",
+    "00. Principia Rerum/Note Lifecycle and Merge Policy.md",
+    "00. Principia Rerum/Naming Policy.md",
+    "00. Principia Rerum/Frontmatter Legend.md",
+    "02. Corpus Mundi/J/JavaScript Prototype System.md",
+    "01. Inbox/To Classify/JavaScript Prototype System/Proto Accessor.md",
     "01. Inbox/To Classify/Dual Write/Dual Write.md",
     "Tabula Ortus.md",
     "01. Inbox/To Rewrite/Telemetry and Metrics.md",
@@ -282,14 +289,7 @@
     "01. Inbox/To Classify/Transaction Isolation Levels/Repeatable Read.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Read Committed.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Read Uncommitted.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Isolation Anomalies.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Database Transactions.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels Structure Proposal.md",
     "01. Inbox/To Classify/Transaction Isolation Levels",
-    "01. Inbox/To Classify/React/React Rendering Model.md",
-    "01. Inbox/To Classify/React/Components and Props.md",
     "01. Inbox/To Classify/React",
     "01. Inbox/To Classify/React Hooks",
     "01. Inbox/To Classify/Dual Write/_resources/dua-write.jpg",
