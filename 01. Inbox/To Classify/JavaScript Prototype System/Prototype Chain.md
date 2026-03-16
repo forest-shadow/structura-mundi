@@ -8,9 +8,9 @@ section: javascript
 parent: "[[JavaScript Prototype System]]"
 status: seed
 related:
-  - "[[Internal Prototype Slot]]"
+  - "[[JavaScript Prototype Internal Slot]]"
   - "[[Proto Accessor]]"
-  - "[[Prototype Property]]"
+  - "[[JavaScript prototype Property]]"
 tags:
   - javascript
   - objects

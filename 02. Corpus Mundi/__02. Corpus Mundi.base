@@ -41,3 +41,5 @@ views:
         - file.inFolder("02. Corpus Mundi")
         - file.ext == "md"
         - status == "seed"
+  - type: table
+    name: View

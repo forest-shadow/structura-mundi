@@ -8,9 +8,9 @@ section: javascript
 parent:
 status: draft
 related:
-  - "[[Internal Prototype Slot]]"
+  - "[[JavaScript Prototype Internal Slot]]"
   - "[[Proto Accessor]]"
-  - "[[Prototype Property]]"
+  - "[[JavaScript prototype Property]]"
   - "[[Prototype Chain]]"
 tags:
   - javascript

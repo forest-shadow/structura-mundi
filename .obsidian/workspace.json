@@ -96,14 +96,13 @@
             "id": "a2ee9bcd1fd6f7b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "01. Inbox/To Classify/JavaScript Prototype System/Internal Prototype Slot.md",
-                "mode": "source",
-                "source": false
+                "file": "03. Maps and Courses/Topic Maps/JavaScript.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Internal Prototype Slot"
+              "icon": "lucide-table",
+              "title": "JavaScript"
             }
           }
         ],
@@ -180,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/JavaScript Prototype System/Internal Prototype Slot.md",
+                "file": "03. Maps and Courses/Topic Maps/JavaScript.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Internal Prototype Slot"
+              "title": "Outline of JavaScript"
             }
           },
           {
@@ -275,10 +274,13 @@
   },
   "active": "a2ee9bcd1fd6f7b8",
   "lastOpenFiles": [
-    "02. Corpus Mundi/J/JavaScript Prototype System.md",
-    "01. Inbox/To Classify/JavaScript Prototype System/Internal Prototype Slot.md",
-    "Tabula Ortus.md",
     "02. Corpus Mundi/__02. Corpus Mundi.base",
+    "03. Maps and Courses/Topic Maps/JavaScript.base",
+    "03. Maps and Courses/Topic Maps/Javascript.md",
+    "02. Corpus Mundi/J/JavaScript prototype Property.md",
+    "Tabula Ortus.md",
+    "02. Corpus Mundi/J/JavaScript Prototype Internal Slot.md",
+    "02. Corpus Mundi/J/JavaScript Prototype System.md",
     "02. Corpus Mundi/T/Transactional Outbox.md",
     "02. Corpus Mundi/S/Syllogism.md",
     "00. Principia Rerum/Note Lifecycle and Merge Policy.md",
@@ -300,9 +302,6 @@
     "01. Inbox/To Classify/Telemetry/Telemetry Structure Proposal.md",
     "02. Corpus Mundi/T/Telemetry and Metrics.md",
     "01. Inbox/To Classify/Telemetry",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Snapshot Isolation.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Serializable.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Repeatable Read.md",
     "01. Inbox/To Classify/Transaction Isolation Levels",
     "01. Inbox/To Classify/React",
     "01. Inbox/To Classify/React Hooks",

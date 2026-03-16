@@ -89,6 +89,7 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Telemetry",
         "01. Inbox/To Classify/JavaScript Prototype System",
         "01. Inbox/To Classify/React",
         "01. Inbox/To Classify/Transaction Isolation Levels",
@@ -145,7 +146,7 @@
         "01. Inbox/To Classify/JavaScript Prototype System/JavaScript Prototype System Structure Proposal.md",
         "01. Inbox/To Classify/JavaScript Prototype System/Proto Accessor.md",
         "01. Inbox/To Classify/JavaScript Prototype System/Prototype Chain.md",
-        "01. Inbox/To Classify/JavaScript Prototype System/Prototype Property.md"
+        "01. Inbox/To Classify/JavaScript Prototype System/JavaScript prototype Property.md"
       ],
       "sortOrder": "custom"
     },
@@ -199,7 +200,9 @@
       "sortOrder": "custom"
     },
     "01. Inbox/To Rewrite": {
-      "children": [],
+      "children": [
+        "01. Inbox/To Rewrite/Telemetry and Metrics.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi": {
@@ -314,9 +317,7 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/T": {
-      "children": [
-        "02. Corpus Mundi/T/Telemetry and Metrics.md"
-      ],
+      "children": [],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/U": {
@@ -360,7 +361,10 @@
       "sortOrder": "custom"
     },
     "03. Maps and Courses/Topic Maps": {
-      "children": [],
+      "children": [
+        "03. Maps and Courses/Topic Maps/JavaScript.base",
+        "03. Maps and Courses/Topic Maps/Javascript.md"
+      ],
       "sortOrder": "custom"
     },
     "04. Assets": {
@@ -419,6 +423,20 @@
       "children": [
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Telemetry": {
+      "children": [
+        "01. Inbox/To Classify/Telemetry/Percentile.md",
+        "01. Inbox/To Classify/Telemetry/Histogram.md",
+        "01. Inbox/To Classify/Telemetry/Metric Labels.md",
+        "01. Inbox/To Classify/Telemetry/Time Series.md",
+        "01. Inbox/To Classify/Telemetry/Distributed Tracing.md",
+        "01. Inbox/To Classify/Telemetry/Logging.md",
+        "01. Inbox/To Classify/Telemetry/Metrics.md",
+        "01. Inbox/To Classify/Telemetry/Telemetry.md",
+        "01. Inbox/To Classify/Telemetry/Telemetry Structure Proposal.md"
       ],
       "sortOrder": "custom"
     }
