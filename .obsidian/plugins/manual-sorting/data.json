@@ -89,6 +89,9 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/JavaScript Prototype System",
+        "01. Inbox/To Classify/React",
+        "01. Inbox/To Classify/Transaction Isolation Levels",
         "01. Inbox/To Classify/Distributed Systems Problems",
         "01. Inbox/To Classify/Dual Write",
         "01. Inbox/To Classify/Event-Driven Architecture",
@@ -135,6 +138,36 @@
       ],
       "sortOrder": "custom"
     },
+    "01. Inbox/To Classify/JavaScript Prototype System": {
+      "children": [
+        "01. Inbox/To Classify/JavaScript Prototype System/Internal Prototype Slot.md",
+        "01. Inbox/To Classify/JavaScript Prototype System/JavaScript Prototype System.md",
+        "01. Inbox/To Classify/JavaScript Prototype System/JavaScript Prototype System Structure Proposal.md",
+        "01. Inbox/To Classify/JavaScript Prototype System/Proto Accessor.md",
+        "01. Inbox/To Classify/JavaScript Prototype System/Prototype Chain.md",
+        "01. Inbox/To Classify/JavaScript Prototype System/Prototype Property.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/React": {
+      "children": [
+        "01. Inbox/To Classify/React/Components and Props.md",
+        "01. Inbox/To Classify/React/Custom Hooks.md",
+        "01. Inbox/To Classify/React/JSX.md",
+        "01. Inbox/To Classify/React/React.md",
+        "01. Inbox/To Classify/React/React Hooks.md",
+        "01. Inbox/To Classify/React/React Hooks Structure Proposal.md",
+        "01. Inbox/To Classify/React/React Rendering Model.md",
+        "01. Inbox/To Classify/React/React Structure Proposal.md",
+        "01. Inbox/To Classify/React/Rules of Hooks.md",
+        "01. Inbox/To Classify/React/useContext.md",
+        "01. Inbox/To Classify/React/useEffect.md",
+        "01. Inbox/To Classify/React/useReducer.md",
+        "01. Inbox/To Classify/React/useRef.md",
+        "01. Inbox/To Classify/React/useState.md"
+      ],
+      "sortOrder": "custom"
+    },
     "01. Inbox/To Classify/Syllogistics": {
       "children": [
         "01. Inbox/To Classify/Syllogistics/Categorical Syllogism.md",
@@ -143,6 +176,21 @@
         "01. Inbox/To Classify/Syllogistics/Syllogism Structure Proposal.md",
         "01. Inbox/To Classify/Syllogistics/Syllogistic Figure.md",
         "01. Inbox/To Classify/Syllogistics/Syllogistic Mood.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Transaction Isolation Levels": {
+      "children": [
+        "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Database Transactions.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Isolation Anomalies.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Read Committed.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Read Uncommitted.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Repeatable Read.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Serializable.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Snapshot Isolation.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels Structure Proposal.md"
       ],
       "sortOrder": "custom"
     },
