@@ -112,6 +112,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "01. Inbox/To Classify/React/React.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React"
+            }
+          },
+          {
+            "id": "eced52fa0445a3b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
                 "mode": "source",
                 "source": false
@@ -121,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -287,10 +301,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0302ca28787592eb",
+  "active": "eced52fa0445a3b1",
   "lastOpenFiles": [
-    "Tabula Ortus.md",
+    "03. Maps and Courses/Topic Maps/DBMS/Untitled.canvas",
     "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
+    "03. Maps and Courses/Topic Maps/DBMS",
+    "Tabula Ortus.md",
+    "01. Inbox/To Classify/React/React.md",
+    "01. Inbox/To Classify/React/React Hooks.md",
+    "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
     "Prompts/Obsidian Ultimate Professional Article.md",
     "02. Corpus Mundi/D/Database Transactions.md",
     "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
@@ -314,10 +333,6 @@
     "01. Inbox/To Rewrite/Telemetry and Metrics.md",
     "01. Inbox/To Classify/Telemetry/Percentile.md",
     "01. Inbox/To Classify/Telemetry/Histogram.md",
-    "01. Inbox/To Classify/Telemetry/Metric Labels.md",
-    "01. Inbox/To Classify/Telemetry/Time Series.md",
-    "01. Inbox/To Classify/Telemetry/Distributed Tracing.md",
-    "01. Inbox/To Classify/Telemetry/Logging.md",
     "01. Inbox/To Classify/Telemetry",
     "01. Inbox/To Classify/Transaction Isolation Levels",
     "01. Inbox/To Classify/React",
@@ -326,7 +341,6 @@
     "01. Inbox/To Classify/Dual Write/_resources",
     "Pasted image 20260314213657.png",
     "01. Inbox/To Classify/Distributed Systems Problems",
-    "01. Inbox/To Classify/Dual Write",
     "00. Obsidian Praxis/Config & Settings Details/Images/gruvbox_colors.png",
     "Databases/Database Internals (Petrov Alex)/_resources/01-architecture-of-dbms.jpg",
     "dbin_0101.png",

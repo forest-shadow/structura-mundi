@@ -378,6 +378,7 @@
     },
     "03. Maps and Courses/Topic Maps": {
       "children": [
+        "03. Maps and Courses/Topic Maps/DBMS",
         "03. Maps and Courses/Topic Maps/Javascript"
       ],
       "sortOrder": "custom"
@@ -446,6 +447,10 @@
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
       ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/DBMS": {
+      "children": [],
       "sortOrder": "custom"
     }
   },
