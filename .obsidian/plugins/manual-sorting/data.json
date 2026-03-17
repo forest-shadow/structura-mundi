@@ -90,6 +90,7 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Semantics",
         "01. Inbox/To Classify/Telemetry",
         "01. Inbox/To Classify/JavaScript Prototype System",
         "01. Inbox/To Classify/React",
@@ -103,6 +104,10 @@
     },
     "01. Inbox/To Classify/Distributed Systems Problems": {
       "children": [
+        "01. Inbox/To Classify/Distributed Systems Problems/Consistency Under Replication.md",
+        "01. Inbox/To Classify/Distributed Systems Problems/Coordination and Consensus.md",
+        "01. Inbox/To Classify/Distributed Systems Problems/Time and Ordering.md",
+        "01. Inbox/To Classify/Distributed Systems Problems/Partial Failure.md",
         "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
         "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems Structure Proposal.md"
       ],
@@ -457,6 +462,7 @@
     },
     "03. Maps and Courses/Topic Maps/DBMS": {
       "children": [
+        "03. Maps and Courses/Topic Maps/DBMS/DBMS.base",
         "03. Maps and Courses/Topic Maps/DBMS/_resources",
         "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
         "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas"
@@ -465,6 +471,20 @@
     },
     "03. Maps and Courses/Topic Maps/DBMS/_resources": {
       "children": [],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Semantics": {
+      "children": [
+        "01. Inbox/To Classify/Semantics/Semantics and Pragmatics.md",
+        "01. Inbox/To Classify/Semantics/Formal Semantics.md",
+        "01. Inbox/To Classify/Semantics/Compositional Semantics.md",
+        "01. Inbox/To Classify/Semantics/Lexical Semantics.md",
+        "01. Inbox/To Classify/Semantics/Sense and Reference.md",
+        "01. Inbox/To Classify/Semantics/Denotation.md",
+        "01. Inbox/To Classify/Semantics/Linguistic Meaning.md",
+        "01. Inbox/To Classify/Semantics/Semantics.md",
+        "01. Inbox/To Classify/Semantics/Semantics Structure Proposal.md"
+      ],
       "sortOrder": "custom"
     }
   },

@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: DBMS
+    filters:
+      and:
+        - file.inFolder("02. Corpus Mundi")
+        - or:
+            - file.name == "Database Transactions"
+            - parent == link("Database Transactions")
+    order:
+      - file.name
+      - note_type

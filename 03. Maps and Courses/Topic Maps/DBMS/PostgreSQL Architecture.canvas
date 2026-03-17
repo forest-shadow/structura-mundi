@@ -6,18 +6,6 @@
 		{"id":"450a25523a5df4ce","type":"group","x":-1600,"y":-40,"width":380,"height":520,"color":"2","label":"Query Evaluator Engine"},
 		{"id":"589de64ac93daa79","type":"group","x":-320,"y":-360,"width":300,"height":200,"color":"1","label":"PostgreSQL Architecture"},
 		{
-			"id":"df12a2d147b981a9",
-			"type":"text",
-			"text":"<font color=\"#fb4934\">PostgreSQL \nArchitecture</font>",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":-300,
-			"y":-320,
-			"width":260,
-			"height":100,
-			"color":"1"
-		},
-		{"id":"06c83641b8b884c8","type":"file","file":"03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg","x":-369,"y":-880,"width":398,"height":400},
-		{
 			"id":"3e325d64cc19c481",
 			"type":"text",
 			"text":"Recovery & Logging Sybsystem\n",
@@ -36,61 +24,6 @@
 			"x":80,
 			"y":90,
 			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"59130c367e500525",
-			"type":"text",
-			"text":"Transaction / Concurrency Subsystem",
-			"styleAttributes":{},
-			"x":-899,
-			"y":0,
-			"width":380,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"6e800eb330ac82f1",
-			"type":"text",
-			"text":"Transaction Manager",
-			"styleAttributes":{},
-			"x":-849,
-			"y":90,
-			"width":280,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"0e67203696d609eb",
-			"type":"text",
-			"text":"Lock Manager",
-			"styleAttributes":{},
-			"x":-849,
-			"y":180,
-			"width":280,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"9bca71ce0e61aa1a",
-			"type":"text",
-			"text":"MVCC and Snapshots",
-			"styleAttributes":{},
-			"x":-849,
-			"y":270,
-			"width":280,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"99f6d392c195d615",
-			"type":"text",
-			"text":"Isolation Semantics",
-			"styleAttributes":{},
-			"x":-849,
-			"y":370,
-			"width":280,
 			"height":60,
 			"color":"2"
 		},
@@ -150,6 +83,95 @@
 			"color":"2"
 		},
 		{
+			"id":"2382590693d6c2e8",
+			"type":"text",
+			"text":"Checkpointer",
+			"styleAttributes":{},
+			"x":80,
+			"y":280,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"df12a2d147b981a9",
+			"type":"text",
+			"text":"<font color=\"#fb4934\">PostgreSQL \nArchitecture</font>",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":-300,
+			"y":-320,
+			"width":260,
+			"height":100,
+			"color":"1"
+		},
+		{"id":"06c83641b8b884c8","type":"file","file":"03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg","x":-369,"y":-880,"width":398,"height":400},
+		{
+			"id":"59130c367e500525",
+			"type":"text",
+			"text":"Transaction / Concurrency Subsystem",
+			"styleAttributes":{},
+			"x":-899,
+			"y":0,
+			"width":380,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"6e800eb330ac82f1",
+			"type":"text",
+			"text":"Transaction Manager",
+			"styleAttributes":{},
+			"x":-849,
+			"y":90,
+			"width":280,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"0e67203696d609eb",
+			"type":"text",
+			"text":"Lock Manager",
+			"styleAttributes":{},
+			"x":-849,
+			"y":180,
+			"width":280,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"9bca71ce0e61aa1a",
+			"type":"text",
+			"text":"MVCC and Snapshots",
+			"styleAttributes":{},
+			"x":-849,
+			"y":270,
+			"width":280,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"99f6d392c195d615",
+			"type":"text",
+			"text":"Isolation Semantics",
+			"styleAttributes":{},
+			"x":-849,
+			"y":370,
+			"width":280,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"a092e259d1e3144e",
+			"type":"text",
+			"text":"Crash Recovery",
+			"styleAttributes":{},
+			"x":80,
+			"y":370,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
 			"id":"7a3d7800de4f9033",
 			"type":"text",
 			"text":"Storage Subsystem",
@@ -202,28 +224,6 @@
 			"y":330,
 			"width":260,
 			"height":70,
-			"color":"2"
-		},
-		{
-			"id":"2382590693d6c2e8",
-			"type":"text",
-			"text":"Checkpointer",
-			"styleAttributes":{},
-			"x":80,
-			"y":280,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"a092e259d1e3144e",
-			"type":"text",
-			"text":"Crash Recovery",
-			"styleAttributes":{},
-			"x":80,
-			"y":370,
-			"width":260,
-			"height":60,
 			"color":"2"
 		}
 	],
