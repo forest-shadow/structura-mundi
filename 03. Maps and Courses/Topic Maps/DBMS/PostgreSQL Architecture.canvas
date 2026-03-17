@@ -1,7 +1,10 @@
 {
 	"nodes":[
-		{"id":"42fbdb1694090378","type":"group","x":-840,"y":-120,"width":440,"height":520,"color":"2","label":"Transaction / Concurrency Subsystem"},
-		{"id":"450a25523a5df4ce","type":"group","x":-1440,"y":-120,"width":380,"height":520,"color":"2","label":"Query Evaluator Engine"},
+		{"id":"42fbdb1694090378","type":"group","x":-960,"y":10,"width":491,"height":520,"color":"2","label":"Transaction / Concurrency Subsystem"},
+		{"id":"0dc66a1ed42d48ef","type":"group","x":600,"y":10,"width":420,"height":500,"color":"2","label":"Storage Subsystem"},
+		{"id":"56cf07c0ef524773","type":"group","x":-170,"y":10,"width":490,"height":420,"color":"2","label":"Recovery & Logging Subsystem"},
+		{"id":"450a25523a5df4ce","type":"group","x":-1600,"y":-10,"width":380,"height":520,"color":"2","label":"Query Evaluator Engine"},
+		{"id":"589de64ac93daa79","type":"group","x":-320,"y":-360,"width":300,"height":200,"color":"1","label":"PostgreSQL Architecture"},
 		{
 			"id":"df12a2d147b981a9",
 			"type":"text",
@@ -13,73 +16,91 @@
 			"height":100,
 			"color":"1"
 		},
-		{
-			"id":"6b75ecb762f4a346",
-			"type":"text",
-			"text":"Pages",
-			"styleAttributes":{},
-			"x":280,
-			"y":100,
-			"width":260,
-			"height":60
-		},
+		{"id":"06c83641b8b884c8","type":"file","file":"03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg","x":-369,"y":-880,"width":398,"height":400},
 		{
 			"id":"7a3d7800de4f9033",
 			"type":"text",
 			"text":"Storage Subsystem",
 			"styleAttributes":{},
-			"x":220,
-			"y":-100,
+			"x":660,
+			"y":50,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"2b8aea4bb2780e92",
+			"type":"text",
+			"text":"Heap Tables / Tuples",
+			"styleAttributes":{},
+			"x":700,
+			"y":130,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"0868a3192029d8e8",
+			"type":"text",
+			"text":"Indexes\n",
+			"styleAttributes":{},
+			"x":700,
+			"y":210,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"6b75ecb762f4a346",
+			"type":"text",
+			"text":"Pages",
+			"styleAttributes":{},
+			"x":700,
+			"y":300,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"c715ac2923e3702c",
+			"type":"text",
+			"text":"Buffer Manager / \nShared Buffers",
+			"styleAttributes":{},
+			"x":700,
+			"y":380,
+			"width":260,
+			"height":70,
+			"color":"2"
 		},
 		{
 			"id":"3e325d64cc19c481",
 			"type":"text",
 			"text":"Recovery & Logging Sybsystem\n",
 			"styleAttributes":{},
-			"x":-210,
-			"y":-100,
+			"x":-110,
+			"y":50,
 			"width":340,
-			"height":60
+			"height":60,
+			"color":"1"
 		},
 		{
 			"id":"035b531533ff6052",
 			"type":"text",
 			"text":"WAL",
 			"styleAttributes":{},
-			"x":-260,
-			"y":70,
+			"x":-70,
+			"y":140,
 			"width":260,
-			"height":60
-		},
-		{
-			"id":"c024437c1df6227d",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{},
-			"x":90,
-			"y":240,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"2382590693d6c2e8",
-			"type":"text",
-			"text":"Checkpointer",
-			"styleAttributes":{},
-			"x":-260,
-			"y":160,
-			"width":260,
-			"height":60
+			"height":60,
+			"color":"2"
 		},
 		{
 			"id":"20400aa6bf494f6e",
 			"type":"text",
 			"text":"Query Evaluator Engine",
 			"styleAttributes":{},
-			"x":-1380,
-			"y":-80,
+			"x":-1540,
+			"y":30,
 			"width":260,
 			"height":60,
 			"color":"1"
@@ -89,8 +110,8 @@
 			"type":"text",
 			"text":"Parser / Analyzer",
 			"styleAttributes":{},
-			"x":-1350,
-			"y":30,
+			"x":-1510,
+			"y":140,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -100,8 +121,8 @@
 			"type":"text",
 			"text":"Operator Evaluator",
 			"styleAttributes":{},
-			"x":-1350,
-			"y":120,
+			"x":-1510,
+			"y":230,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -111,8 +132,8 @@
 			"type":"text",
 			"text":"Planner / Optimizer",
 			"styleAttributes":{},
-			"x":-1350,
-			"y":210,
+			"x":-1510,
+			"y":320,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -122,8 +143,8 @@
 			"type":"text",
 			"text":"Plan Executor",
 			"styleAttributes":{},
-			"x":-1350,
-			"y":300,
+			"x":-1510,
+			"y":410,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -133,8 +154,8 @@
 			"type":"text",
 			"text":"Transaction / Concurrency Subsystem",
 			"styleAttributes":{},
-			"x":-799,
-			"y":-80,
+			"x":-899,
+			"y":50,
 			"width":380,
 			"height":60,
 			"color":"1"
@@ -144,8 +165,8 @@
 			"type":"text",
 			"text":"Transaction Manager",
 			"styleAttributes":{},
-			"x":-749,
-			"y":10,
+			"x":-849,
+			"y":140,
 			"width":280,
 			"height":60,
 			"color":"2"
@@ -155,8 +176,8 @@
 			"type":"text",
 			"text":"Lock Manager",
 			"styleAttributes":{},
-			"x":-749,
-			"y":100,
+			"x":-849,
+			"y":230,
 			"width":280,
 			"height":60,
 			"color":"2"
@@ -166,8 +187,8 @@
 			"type":"text",
 			"text":"MVCC and Snapshots",
 			"styleAttributes":{},
-			"x":-749,
-			"y":190,
+			"x":-849,
+			"y":320,
 			"width":280,
 			"height":60,
 			"color":"2"
@@ -177,13 +198,34 @@
 			"type":"text",
 			"text":"Isolation Semantics",
 			"styleAttributes":{},
-			"x":-749,
-			"y":290,
+			"x":-849,
+			"y":420,
 			"width":280,
 			"height":60,
 			"color":"2"
 		},
-		{"id":"06c83641b8b884c8","type":"file","file":"03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg","x":-369,"y":-800,"width":398,"height":400}
+		{
+			"id":"2382590693d6c2e8",
+			"type":"text",
+			"text":"Checkpointer",
+			"styleAttributes":{},
+			"x":-70,
+			"y":480,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"a092e259d1e3144e",
+			"type":"text",
+			"text":"Crash Recovery",
+			"styleAttributes":{},
+			"x":-70,
+			"y":410,
+			"width":260,
+			"height":60,
+			"color":"2"
+		}
 	],
 	"edges":[
 		{
@@ -191,29 +233,22 @@
 			"styleAttributes":{},
 			"toFloating":false,
 			"fromFloating":false,
-			"fromNode":"df12a2d147b981a9",
+			"fromNode":"589de64ac93daa79",
 			"fromSide":"left",
 			"toNode":"450a25523a5df4ce",
 			"toSide":"top",
 			"color":"1"
 		},
 		{
-			"id":"4de8a8ebed68e7fa",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"7a3d7800de4f9033",
-			"fromSide":"bottom",
-			"toNode":"6b75ecb762f4a346",
-			"toSide":"top"
-		},
-		{
 			"id":"bb535e52175771a8",
 			"styleAttributes":{},
 			"toFloating":false,
-			"fromNode":"df12a2d147b981a9",
-			"fromSide":"bottom",
-			"toNode":"7a3d7800de4f9033",
-			"toSide":"top"
+			"fromFloating":false,
+			"fromNode":"589de64ac93daa79",
+			"fromSide":"right",
+			"toNode":"0dc66a1ed42d48ef",
+			"toSide":"top",
+			"color":"1"
 		},
 		{
 			"id":"425bbc8cae6dd755",
@@ -257,16 +292,6 @@
 			"color":"2"
 		},
 		{
-			"id":"0d27aee77aa359df",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"7a3d7800de4f9033",
-			"fromSide":"bottom",
-			"toNode":"c024437c1df6227d",
-			"toSide":"top"
-		},
-		{
 			"id":"f997ac8cec80a72f",
 			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
@@ -308,7 +333,7 @@
 		},
 		{
 			"id":"e4b9f1d8c187c7f4",
-			"styleAttributes":{},
+			"styleAttributes":{"path":"short-dashed"},
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"88578b56ee0dd7f2",
@@ -323,11 +348,166 @@
 			"styleAttributes":{},
 			"toFloating":false,
 			"fromFloating":false,
-			"fromNode":"df12a2d147b981a9",
+			"fromNode":"589de64ac93daa79",
 			"fromSide":"bottom",
 			"toNode":"42fbdb1694090378",
 			"toSide":"top",
 			"color":"1"
+		},
+		{
+			"id":"c29914dee7723146",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"3e325d64cc19c481",
+			"fromSide":"left",
+			"toNode":"035b531533ff6052",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"25b07731a9392020",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"3e325d64cc19c481",
+			"fromSide":"left",
+			"toNode":"2382590693d6c2e8",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"9116dc33d4c255d3",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"3e325d64cc19c481",
+			"fromSide":"left",
+			"toNode":"a092e259d1e3144e",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"7dbbd6a177470905",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"589de64ac93daa79",
+			"fromSide":"bottom",
+			"toNode":"56cf07c0ef524773",
+			"toSide":"top",
+			"color":"1"
+		},
+		{
+			"id":"1c65a5da1d657c11",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"7a3d7800de4f9033",
+			"fromSide":"left",
+			"toNode":"2b8aea4bb2780e92",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"7b0fa536e35e97de",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"7a3d7800de4f9033",
+			"fromSide":"left",
+			"toNode":"0868a3192029d8e8",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"a139ea6a4e37d765",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"7a3d7800de4f9033",
+			"fromSide":"left",
+			"toNode":"6b75ecb762f4a346",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"6645000160e5468b",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"7a3d7800de4f9033",
+			"fromSide":"left",
+			"toNode":"c715ac2923e3702c",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"4ce2aeebf473ec9d",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0868a3192029d8e8",
+			"fromSide":"right",
+			"toNode":"6b75ecb762f4a346",
+			"toSide":"right",
+			"color":"3"
+		},
+		{
+			"id":"27142d543b37de28",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2b8aea4bb2780e92",
+			"fromSide":"right",
+			"toNode":"6b75ecb762f4a346",
+			"toSide":"right",
+			"color":"3"
+		},
+		{
+			"id":"864270f4a5679fd7",
+			"styleAttributes":{"path":"short-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2382590693d6c2e8",
+			"fromSide":"right",
+			"toNode":"c715ac2923e3702c",
+			"toSide":"left",
+			"color":"4",
+			"label":"flushes dirty\npages from"
+		},
+		{
+			"id":"ee53148f3c67ffde",
+			"styleAttributes":{
+				"pathfindingMethod":null,
+				"path":"short-dashed"
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"88578b56ee0dd7f2",
+			"fromSide":"bottom",
+			"toNode":"c715ac2923e3702c",
+			"toSide":"bottom",
+			"color":"4",
+			"label":"read/writes through"
+		},
+		{
+			"id":"3c82c4ec3e71a942",
+			"styleAttributes":{"path":"short-dashed","pathfindingMethod":"direct"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"6e800eb330ac82f1",
+			"fromSide":"right",
+			"toNode":"035b531533ff6052",
+			"toSide":"left",
+			"color":"4",
+			"label":"coordinates\ncommit/rollback\nwith"
+		},
+		{
+			"id":"78d9a02be866f3e4",
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"035b531533ff6052",
+			"fromSide":"right",
+			"toNode":"2382590693d6c2e8",
+			"toSide":"right",
+			"color":"3",
+			"label":"supports recovery in"
 		}
 	],
 	"metadata":{
