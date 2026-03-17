@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"763731a69a305342","type":"group","x":-420,"y":-400,"width":380,"height":340,"color":"1","label":"ACID"},
+		{
+			"id":"6676a7e33509df79",
+			"type":"text",
+			"text":"[[ACID]]",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":-360,
+			"y":-360,
+			"width":260,
+			"height":80,
+			"color":"1"
+		},
+		{
+			"id":"eaf5c36e9ae38852",
+			"type":"text",
+			"text":"Semantic guarantees of a DBMS transactional system",
+			"styleAttributes":{},
+			"x":-390,
+			"y":-240,
+			"width":320,
+			"height":80,
+			"color":"1"
+		},
+		{
+			"id":"5119c3496ecd083b",
+			"type":"text",
+			"text":"Not limited to RDBMS",
+			"styleAttributes":{},
+			"x":-390,
+			"y":-140,
+			"width":320,
+			"height":60,
+			"color":"1"
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

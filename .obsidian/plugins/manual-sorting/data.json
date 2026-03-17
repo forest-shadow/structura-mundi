@@ -450,7 +450,10 @@
       "sortOrder": "custom"
     },
     "03. Maps and Courses/Topic Maps/DBMS": {
-      "children": [],
+      "children": [
+        "03. Maps and Courses/Topic Maps/DBMS/ACID.canvas",
+        "03. Maps and Courses/Topic Maps/DBMS/Untitled.canvas"
+      ],
       "sortOrder": "custom"
     }
   },
