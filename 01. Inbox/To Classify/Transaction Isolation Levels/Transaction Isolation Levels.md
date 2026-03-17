@@ -5,10 +5,12 @@ note_type: overview
 area: computer-science
 domain: databases
 section: transactions
-parent: "[[Database Transactions]]"
+parent: "[[Transaction Isolation]]"
 status: seed
 related:
+  - "[[ACID]]"
   - "[[Database Transactions]]"
+  - "[[Transaction Isolation]]"
   - "[[Isolation Anomalies]]"
   - "[[Snapshot Isolation]]"
 tags:

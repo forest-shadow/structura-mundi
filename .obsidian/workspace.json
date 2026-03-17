@@ -128,9 +128,9 @@
               "state": {
                 "file": "03. Maps and Courses/Topic Maps/DBMS/ACID.canvas",
                 "viewState": {
-                  "x": -230,
-                  "y": -64,
-                  "zoom": 0
+                  "x": 532.8031433820266,
+                  "y": 160.47920537867353,
+                  "zoom": -0.3333333333333334
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -306,6 +306,11 @@
   },
   "active": "eced52fa0445a3b1",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Durability.md",
+    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation.md",
+    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Consistency.md",
+    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Atomicity.md",
+    "01. Inbox/To Classify/Transaction Isolation Levels/ACID Structure Proposal.md",
     "02. Corpus Mundi/R/React Hooks.md",
     "03. Maps and Courses/Topic Maps/DBMS/ACID.canvas",
     "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
@@ -333,10 +338,6 @@
     "00. Principia Rerum/Controlled Vocabulary.md",
     "00. Principia Rerum/Naming Policy.md",
     "01. Inbox/To Classify/JavaScript Prototype System/Proto Accessor.md",
-    "01. Inbox/To Classify/Dual Write/Dual Write.md",
-    "01. Inbox/To Rewrite/Telemetry and Metrics.md",
-    "01. Inbox/To Classify/Telemetry/Percentile.md",
-    "01. Inbox/To Classify/Telemetry/Histogram.md",
     "01. Inbox/To Classify/Telemetry",
     "01. Inbox/To Classify/Transaction Isolation Levels",
     "01. Inbox/To Classify/React",

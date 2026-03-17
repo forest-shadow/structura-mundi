@@ -1,6 +1,6 @@
 ---
 aliases: []
-note_type: article
+note_type: overview
 area: computer-science
 domain: databases
 section: transactions
@@ -8,7 +8,11 @@ parent: "[[Database Transactions]]"
 status: seed
 related:
   - "[[Database Transactions]]"
+  - "[[Transaction Atomicity]]"
+  - "[[Transaction Consistency]]"
+  - "[[Transaction Isolation]]"
   - "[[Transaction Isolation Levels]]"
+  - "[[Transaction Durability]]"
 tags:
   - transactions
   - consistency
@@ -158,36 +162,36 @@ tags:
 
 # ACID
 
-## Краткое определение
+## Краткое определение области
 
-Каноническая статья для базового набора свойств транзакций: atomicity, consistency, isolation, durability.
+Обзорная заметка для четырёх базовых свойств транзакций: atomicity, consistency, isolation, durability.
 
-## Основная идея или механизм
+## Что входит в эту тему
 
-Нужно объяснить, какие гарантии дает транзакционная модель и почему `isolation` рассматривается как отдельный аспект внутри общего набора свойств.
+- `[[Transaction Atomicity]]`
+- `[[Transaction Consistency]]`
+- `[[Transaction Isolation]]`
+- `[[Transaction Durability]]`
 
-## Границы темы
+## Как устроена ветка
 
-- Что именно относится к свойствам транзакции.
-- Где тема переходит в более частные вопросы уровней изоляции.
+- `ACID` собирает свойства транзакции в один канонический обзорный узел.
+- Только `[[Transaction Isolation]]` оформляется как `sub-overview`, потому что внутри него уже есть самостоятельная ветка `[[Transaction Isolation Levels]]`.
+- Остальные свойства лучше держать как обычные `article`, чтобы не усложнять структуру без необходимости.
 
-## Связи с другими заметками
+## Рекомендуемый маршрут чтения
 
-Родительская тема:
+1. Начать с общего смысла `ACID` как набора гарантий транзакционной модели.
+2. Затем пройти `[[Transaction Atomicity]]`, `[[Transaction Consistency]]` и `[[Transaction Durability]]`.
+3. После этого перейти к `[[Transaction Isolation]]` и затем к `[[Transaction Isolation Levels]]`.
 
-`[[Database Transactions]]`
+## Соседние overview-ветки
 
-Связанные заметки:
-
+- `[[Database Transactions]]`
 - `[[Transaction Isolation Levels]]`
-
-## Примеры, случаи или следствия
-
-Добавить короткие примеры того, как нарушение одного из свойств меняет поведение системы.
 
 ## Что стоит раскрыть дальше
 
-- [ ] Уточнить определение
-- [ ] Добавить связи
-- [ ] Проверить `aliases`
-- [ ] Проверить `tags`
+- [ ] Сократить дублирование между этой заметкой и дочерними статьями
+- [ ] Проверить связи с `WAL`, `MVCC` и `Concurrency Control`, когда для них появятся канонические заметки
+- [ ] Уточнить различие между transaction consistency и consistency в CAP

@@ -1,5 +1,9 @@
 {
 	"nodes":[
+		{"id":"7f61db10e4100003","type":"group","x":-830,"y":140,"width":520,"height":500,"color":"1","label":"C = Consistency"},
+		{"id":"21d82b971b4675d5","type":"group","x":-230,"y":140,"width":520,"height":500,"color":"1","label":"I = Isolation"},
+		{"id":"7843deaa4132fc36","type":"group","x":360,"y":140,"width":520,"height":460,"color":"1","label":"D = Durability"},
+		{"id":"940cc7d2167f6048","type":"group","x":-1420,"y":140,"width":520,"height":420,"color":"1","label":"A = Atomicity"},
 		{"id":"763731a69a305342","type":"group","x":-420,"y":-400,"width":380,"height":340,"color":"1","label":"ACID"},
 		{
 			"id":"6676a7e33509df79",
@@ -33,9 +37,162 @@
 			"width":320,
 			"height":60,
 			"color":"1"
+		},
+		{
+			"id":"6d1378a8bee73997",
+			"type":"text",
+			"text":"A = Atomicity",
+			"styleAttributes":{},
+			"x":-1380,
+			"y":160,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"354a4c682f112948",
+			"type":"text",
+			"text":"<b>Смысл:</b> операция либо фиксируется целиком, либо не считается произошедшей.",
+			"styleAttributes":{},
+			"x":-1380,
+			"y":240,
+			"width":440,
+			"height":80,
+			"color":"2"
+		},
+		{
+			"id":"7b962912bb9af964",
+			"type":"text",
+			"text":"Обычно связано (реализиуется):\n* rollback\n* transaction status\n* WAL\n* undo/redo",
+			"styleAttributes":{},
+			"x":-1380,
+			"y":340,
+			"width":440,
+			"height":200,
+			"color":"2"
+		},
+		{
+			"id":"5ad6fa8063ad06b8",
+			"type":"text",
+			"text":"C = Consistency",
+			"styleAttributes":{},
+			"x":-790,
+			"y":160,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"90097c986ccb563a",
+			"type":"text",
+			"text":"<b>Смысл:</b> транзакция не должна переводить систему из допустимого состояния в недопустимое. Ограничено конкретной DB",
+			"styleAttributes":{},
+			"x":-790,
+			"y":240,
+			"width":440,
+			"height":120,
+			"color":"2"
+		},
+		{
+			"id":"afce8f51f1a37fe8",
+			"type":"text",
+			"text":"Обычно связано (реализуется):\n* constraints\n* triggers\n* referential integrity\n* type/domain rules\n* application invariants",
+			"styleAttributes":{},
+			"x":-790,
+			"y":380,
+			"width":440,
+			"height":240,
+			"color":"2"
+		},
+		{
+			"id":"aadc89050c9ee7f6",
+			"type":"text",
+			"text":"I = Isolation",
+			"styleAttributes":{},
+			"x":-200,
+			"y":160,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"dafe0d446f0ae531",
+			"type":"text",
+			"text":"<b>Смысл:</b> параллельные транзакции не должны нарушать требуемую модель наблюдаемого поведения.",
+			"styleAttributes":{},
+			"x":-200,
+			"y":240,
+			"width":440,
+			"height":120,
+			"color":"2"
+		},
+		{
+			"id":"f1b538c6fe4738bf",
+			"type":"text",
+			"text":"Обычно связано (реализуется):\n* MVCC\n* locks\n* snapshots\n* serialization control\n* isolation levels",
+			"styleAttributes":{},
+			"x":-200,
+			"y":380,
+			"width":440,
+			"height":240,
+			"color":"2"
+		},
+		{
+			"id":"9d4d706b5ef3e1a2",
+			"type":"text",
+			"text":"D = Durability",
+			"styleAttributes":{},
+			"x":400,
+			"y":160,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"46481dcbf6efeb13",
+			"type":"text",
+			"text":"<b>Смысл:</b> после commit результат не должен теряться при сбое.",
+			"styleAttributes":{},
+			"x":400,
+			"y":240,
+			"width":440,
+			"height":80,
+			"color":"2"
+		},
+		{
+			"id":"613496951758ff7b",
+			"type":"text",
+			"text":"Обычно связано (реализуется):\n* WAL\n* fsync\n* checkpoints\n* serialization control\n* isolation levels",
+			"styleAttributes":{},
+			"x":400,
+			"y":340,
+			"width":440,
+			"height":240,
+			"color":"2"
 		}
 	],
-	"edges":[],
+	"edges":[
+		{
+			"id":"9dd79cb2fcf9beed",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"763731a69a305342",
+			"fromSide":"bottom",
+			"toNode":"940cc7d2167f6048",
+			"toSide":"top",
+			"color":"1"
+		},
+		{
+			"id":"4a6fa647a371decb",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"763731a69a305342",
+			"fromSide":"bottom",
+			"toNode":"7f61db10e4100003",
+			"toSide":"top",
+			"color":"1"
+		}
+	],
 	"metadata":{
 		"version":"1.0-1.0",
 		"frontmatter":{}
