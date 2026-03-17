@@ -134,19 +134,15 @@
         "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture Structure Proposal.md",
         "01. Inbox/To Classify/Event-Driven Architecture/Idempotent Consumer.md",
         "01. Inbox/To Classify/Event-Driven Architecture/Message Broker.md",
-        "01. Inbox/To Classify/Event-Driven Architecture/Publish-Subscribe.md",
-        "01. Inbox/To Classify/Event-Driven Architecture/Transactional Outbox.md"
+        "01. Inbox/To Classify/Event-Driven Architecture/Publish-Subscribe.md"
       ],
       "sortOrder": "custom"
     },
     "01. Inbox/To Classify/JavaScript Prototype System": {
       "children": [
-        "01. Inbox/To Classify/JavaScript Prototype System/Internal Prototype Slot.md",
-        "01. Inbox/To Classify/JavaScript Prototype System/JavaScript Prototype System.md",
         "01. Inbox/To Classify/JavaScript Prototype System/JavaScript Prototype System Structure Proposal.md",
         "01. Inbox/To Classify/JavaScript Prototype System/Proto Accessor.md",
-        "01. Inbox/To Classify/JavaScript Prototype System/Prototype Chain.md",
-        "01. Inbox/To Classify/JavaScript Prototype System/JavaScript prototype Property.md"
+        "01. Inbox/To Classify/JavaScript Prototype System/Prototype Chain.md"
       ],
       "sortOrder": "custom"
     },
@@ -177,6 +173,20 @@
         "01. Inbox/To Classify/Syllogistics/Syllogism Structure Proposal.md",
         "01. Inbox/To Classify/Syllogistics/Syllogistic Figure.md",
         "01. Inbox/To Classify/Syllogistics/Syllogistic Mood.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Telemetry": {
+      "children": [
+        "01. Inbox/To Classify/Telemetry/Percentile.md",
+        "01. Inbox/To Classify/Telemetry/Histogram.md",
+        "01. Inbox/To Classify/Telemetry/Metric Labels.md",
+        "01. Inbox/To Classify/Telemetry/Time Series.md",
+        "01. Inbox/To Classify/Telemetry/Distributed Tracing.md",
+        "01. Inbox/To Classify/Telemetry/Logging.md",
+        "01. Inbox/To Classify/Telemetry/Metrics.md",
+        "01. Inbox/To Classify/Telemetry/Telemetry.md",
+        "01. Inbox/To Classify/Telemetry/Telemetry Structure Proposal.md"
       ],
       "sortOrder": "custom"
     },
@@ -274,7 +284,11 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/J": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/J/JavaScript Prototype Internal Slot.md",
+        "02. Corpus Mundi/J/JavaScript prototype Property.md",
+        "02. Corpus Mundi/J/JavaScript Prototype System.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/K": {
@@ -317,7 +331,9 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/T": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/T/Transactional Outbox.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/U": {
@@ -362,9 +378,14 @@
     },
     "03. Maps and Courses/Topic Maps": {
       "children": [
-        "03. Maps and Courses/Topic Maps/Javascript",
-        "03. Maps and Courses/Topic Maps/JavaScript.base",
-        "03. Maps and Courses/Topic Maps/Javascript.md"
+        "03. Maps and Courses/Topic Maps/Javascript"
+      ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/Javascript": {
+      "children": [
+        "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
+        "03. Maps and Courses/Topic Maps/Javascript/JavaScript.base"
       ],
       "sortOrder": "custom"
     },
@@ -425,24 +446,6 @@
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
       ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Telemetry": {
-      "children": [
-        "01. Inbox/To Classify/Telemetry/Percentile.md",
-        "01. Inbox/To Classify/Telemetry/Histogram.md",
-        "01. Inbox/To Classify/Telemetry/Metric Labels.md",
-        "01. Inbox/To Classify/Telemetry/Time Series.md",
-        "01. Inbox/To Classify/Telemetry/Distributed Tracing.md",
-        "01. Inbox/To Classify/Telemetry/Logging.md",
-        "01. Inbox/To Classify/Telemetry/Metrics.md",
-        "01. Inbox/To Classify/Telemetry/Telemetry.md",
-        "01. Inbox/To Classify/Telemetry/Telemetry Structure Proposal.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "03. Maps and Courses/Topic Maps/Javascript": {
-      "children": [],
       "sortOrder": "custom"
     }
   },
