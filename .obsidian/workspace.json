@@ -124,21 +124,17 @@
             "id": "eced52fa0445a3b1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
-                "viewState": {
-                  "x": -340.8294615603543,
-                  "y": 386.70945122257854,
-                  "zoom": -1.333333333333333
-                }
+                "file": "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "PostgreSQL Architecture"
+              "icon": "lucide-file",
+              "title": "Distributed Systems Problems"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,13 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
+                "file": "Tabula Ortus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PostgreSQL Architecture"
+              "title": "Outline of Tabula Ortus"
             }
           },
           {
@@ -304,8 +300,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eced52fa0445a3b1",
+  "active": "c340083190100fc4",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Distributed Systems Problems/Consistency Under Replication.md",
+    "01. Inbox/To Classify/Distributed Systems Problems/Coordination and Consensus.md",
+    "01. Inbox/To Classify/Distributed Systems Problems/Time and Ordering.md",
+    "01. Inbox/To Classify/Distributed Systems Problems/Partial Failure.md",
+    "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
+    "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems Structure Proposal.md",
+    "02. Corpus Mundi/__02. Corpus Mundi.base",
+    "02. Corpus Mundi/A/ACID.md",
+    "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
+    "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
     "01. Inbox/To Classify/Semantics/Semantics and Pragmatics.md",
     "01. Inbox/To Classify/Semantics/Formal Semantics.md",
     "01. Inbox/To Classify/Semantics/Compositional Semantics.md",
@@ -318,29 +324,19 @@
     "01. Inbox/To Classify/Semantics",
     "03. Maps and Courses/Topic Maps/DBMS/Untitled.md",
     "03. Maps and Courses/Topic Maps/DBMS/_resources",
-    "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg",
-    "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Durability.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Consistency.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Atomicity.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/ACID Structure Proposal.md",
     "02. Corpus Mundi/R/React Hooks.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
     "03. Maps and Courses/Topic Maps/DBMS",
     "Tabula Ortus.md",
     "01. Inbox/To Classify/React/React.md",
-    "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
     "Prompts/Obsidian Ultimate Professional Article.md",
-    "02. Corpus Mundi/D/Database Transactions.md",
-    "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/Javascript/JavaScript.base",
     "03. Maps and Courses/Topic Maps/Javascript",
-    "02. Corpus Mundi/J/JavaScript Prototype Internal Slot.md",
-    "02. Corpus Mundi/__02. Corpus Mundi.base",
     "01. Inbox/To Classify/Telemetry",
     "01. Inbox/To Classify/Transaction Isolation Levels",
     "01. Inbox/To Classify/React",

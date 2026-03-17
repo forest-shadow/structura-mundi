@@ -5,7 +5,7 @@ area: computer-science
 domain: databases
 section: transactions
 parent: "[[Database Transactions]]"
-status: seed
+status: draft
 related:
   - "[[Database Transactions]]"
   - "[[Transaction Atomicity]]"
@@ -18,6 +18,8 @@ tags:
   - consistency
 ---
 # 01. ACID
+
+* [[ACID as transactional semantic guarantees.canvas]]
 
 > <font color="#fb4934">ACID</font> — это канонический и формализованный набор из четырех фундаментальных свойств транзакций в системах управления базами данных (СУБД), обеспечивающий инварианты корректности выполнения операций (корректность, предсказуемость, согласованность и устойчивость изменений данных при конкурентном доступе, программных ошибках и аппаратных сбоях).
 > * это абстрактный контракт транзакционной модели, определяющий семантические гарантии выполнения операций, который не привязан строго к реляционной модели данных и может быть реализован различными классами систем через разные архитектурные механизмы.
@@ -155,43 +157,3 @@ tags:
 - `[[Concurrency Control]]` / Two-Phase Locking (2PL) / MVCC: алгоритмические механизмы реализации контроля конкурентного доступа и свойства Isolation.
 - `[[CAP Theorem]]`: теорема, определяющая ограничения распределенных систем, тесно связанная с переосмыслением ACID.
 - **Consistency models**: более широкое семейство математических моделей согласованности (включая Eventual consistency и Linearizability) в контексте распределенных систем.
-
-
-
-
-
-# ACID
-
-## Краткое определение области
-
-Обзорная заметка для четырёх базовых свойств транзакций: atomicity, consistency, isolation, durability.
-
-## Что входит в эту тему
-
-- `[[Transaction Atomicity]]`
-- `[[Transaction Consistency]]`
-- `[[Transaction Isolation]]`
-- `[[Transaction Durability]]`
-
-## Как устроена ветка
-
-- `ACID` собирает свойства транзакции в один канонический обзорный узел.
-- Только `[[Transaction Isolation]]` оформляется как `sub-overview`, потому что внутри него уже есть самостоятельная ветка `[[Transaction Isolation Levels]]`.
-- Остальные свойства лучше держать как обычные `article`, чтобы не усложнять структуру без необходимости.
-
-## Рекомендуемый маршрут чтения
-
-1. Начать с общего смысла `ACID` как набора гарантий транзакционной модели.
-2. Затем пройти `[[Transaction Atomicity]]`, `[[Transaction Consistency]]` и `[[Transaction Durability]]`.
-3. После этого перейти к `[[Transaction Isolation]]` и затем к `[[Transaction Isolation Levels]]`.
-
-## Соседние overview-ветки
-
-- `[[Database Transactions]]`
-- `[[Transaction Isolation Levels]]`
-
-## Что стоит раскрыть дальше
-
-- [ ] Сократить дублирование между этой заметкой и дочерними статьями
-- [ ] Проверить связи с `WAL`, `MVCC` и `Concurrency Control`, когда для них появятся канонические заметки
-- [ ] Уточнить различие между transaction consistency и consistency в CAP

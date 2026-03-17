@@ -16,6 +16,10 @@
 
 ```text
 Distributed Systems Problems (overview)
+├── Partial Failure (overview)
+├── Time and Ordering (overview)
+├── Coordination and Consensus (overview)
+├── Consistency Under Replication (overview)
 └── Dual Write (overview)
     ├── Polling Publisher (article)
     ├── Change Data Capture (article)
@@ -29,20 +33,20 @@ Distributed Systems Problems (overview)
 ## Почему структура именно такая
 
 - `Distributed Systems Problems` дает обзорную картину и позволяет привязывать частные проблемы к более общей рамке.
+- Четыре новые ветки представляют устойчивые problem-centered кластеры, которые полезны для навигации уже сейчас.
 - `Dual Write` уже достаточно оформлен как самостоятельная подветка и поэтому должен жить под этой обзорной темой как дочерний `overview`.
-- Глубже дерево пока не нужно усложнять.
-- Остальные большие кластеры проблем лучше добавлять только по мере появления реального корпуса заметок.
+- Глубже дерево пока не нужно усложнять: на этом этапе достаточно только обзорных узлов без новой глубокой вложенности.
 
-## Какие будущие ветки здесь могут появиться
+## Какие ветки уже стоит зафиксировать
 
-Позже здесь могут появиться соседние узлы вроде:
+На текущем этапе уже оправдано создать обзорные узлы:
 
 - `Partial Failure`
 - `Time and Ordering`
-- `Consistency Under Replication`
 - `Coordination and Consensus`
+- `Consistency Under Replication`
 
-Но сейчас их не нужно заводить автоматически, чтобы не строить пустую и слишком абстрактную схему.
+Эти ветки уже достаточно устойчивы концептуально и полезны как рамка для будущих заметок.
 
 ## Предлагаемое физическое размещение после нормализации
 
@@ -50,8 +54,15 @@ Distributed Systems Problems (overview)
 
 ```text
 02. Corpus Mundi/
-└── D/
-    └── Distributed Systems Problems.md
+├── C/
+│   ├── Consistency Under Replication.md
+│   └── Coordination and Consensus.md
+├── D/
+│   └── Distributed Systems Problems.md
+├── P/
+│   └── Partial Failure.md
+└── T/
+    └── Time and Ordering.md
 ```
 
 Дочерние тематические ветки при этом могут жить в своих буквенных папках:
@@ -70,10 +81,14 @@ Distributed Systems Problems (overview)
 ## Созданные и привязанные заметки
 
 - `Distributed Systems Problems.md`
+- `Partial Failure.md`
+- `Time and Ordering.md`
+- `Coordination and Consensus.md`
+- `Consistency Under Replication.md`
 - `Dual Write.md` как дочерний `overview`
 
 ## Следующий шаг
 
 1. Подтвердить `section: distributed-systems-problems`.
-2. Решить, какие следующие реальные проблемы распределенных систем заслуживают собственных заметок.
+2. Решить, какие первые дочерние article появятся внутри `Partial Failure`, `Time and Ordering`, `Coordination and Consensus`, `Consistency Under Replication`.
 3. Не добавлять новые подветки без содержательного наполнения.

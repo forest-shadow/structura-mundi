@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"42fbdb1694090378","type":"group","x":-960,"y":10,"width":491,"height":520,"color":"2","label":"Transaction / Concurrency Subsystem"},
-		{"id":"0dc66a1ed42d48ef","type":"group","x":600,"y":10,"width":420,"height":500,"color":"2","label":"Storage Subsystem"},
-		{"id":"56cf07c0ef524773","type":"group","x":-170,"y":10,"width":490,"height":420,"color":"2","label":"Recovery & Logging Subsystem"},
-		{"id":"450a25523a5df4ce","type":"group","x":-1600,"y":-10,"width":380,"height":520,"color":"2","label":"Query Evaluator Engine"},
+		{"id":"42fbdb1694090378","type":"group","x":-960,"y":-40,"width":491,"height":520,"color":"2","label":"Transaction / Concurrency Subsystem"},
+		{"id":"56cf07c0ef524773","type":"group","x":-20,"y":-40,"width":450,"height":520,"color":"2","label":"Recovery & Logging Subsystem"},
+		{"id":"0dc66a1ed42d48ef","type":"group","x":720,"y":-40,"width":420,"height":500,"color":"2","label":"Storage Subsystem"},
+		{"id":"450a25523a5df4ce","type":"group","x":-1600,"y":-40,"width":380,"height":520,"color":"2","label":"Query Evaluator Engine"},
 		{"id":"589de64ac93daa79","type":"group","x":-320,"y":-360,"width":300,"height":200,"color":"1","label":"PostgreSQL Architecture"},
 		{
 			"id":"df12a2d147b981a9",
@@ -18,67 +18,12 @@
 		},
 		{"id":"06c83641b8b884c8","type":"file","file":"03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg","x":-369,"y":-880,"width":398,"height":400},
 		{
-			"id":"7a3d7800de4f9033",
-			"type":"text",
-			"text":"Storage Subsystem",
-			"styleAttributes":{},
-			"x":660,
-			"y":50,
-			"width":260,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"2b8aea4bb2780e92",
-			"type":"text",
-			"text":"Heap Tables / Tuples",
-			"styleAttributes":{},
-			"x":700,
-			"y":130,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"0868a3192029d8e8",
-			"type":"text",
-			"text":"Indexes\n",
-			"styleAttributes":{},
-			"x":700,
-			"y":210,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"6b75ecb762f4a346",
-			"type":"text",
-			"text":"Pages",
-			"styleAttributes":{},
-			"x":700,
-			"y":300,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"c715ac2923e3702c",
-			"type":"text",
-			"text":"Buffer Manager / \nShared Buffers",
-			"styleAttributes":{},
-			"x":700,
-			"y":380,
-			"width":260,
-			"height":70,
-			"color":"2"
-		},
-		{
 			"id":"3e325d64cc19c481",
 			"type":"text",
 			"text":"Recovery & Logging Sybsystem\n",
 			"styleAttributes":{},
-			"x":-110,
-			"y":50,
+			"x":40,
+			"y":0,
 			"width":340,
 			"height":60,
 			"color":"1"
@@ -88,63 +33,8 @@
 			"type":"text",
 			"text":"WAL",
 			"styleAttributes":{},
-			"x":-70,
-			"y":140,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"20400aa6bf494f6e",
-			"type":"text",
-			"text":"Query Evaluator Engine",
-			"styleAttributes":{},
-			"x":-1540,
-			"y":30,
-			"width":260,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"ec4f5f9c0ba3d101",
-			"type":"text",
-			"text":"Parser / Analyzer",
-			"styleAttributes":{},
-			"x":-1510,
-			"y":140,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"f8291c20836afca4",
-			"type":"text",
-			"text":"Operator Evaluator",
-			"styleAttributes":{},
-			"x":-1510,
-			"y":230,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"74b10ef12d519bc5",
-			"type":"text",
-			"text":"Planner / Optimizer",
-			"styleAttributes":{},
-			"x":-1510,
-			"y":320,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"88578b56ee0dd7f2",
-			"type":"text",
-			"text":"Plan Executor",
-			"styleAttributes":{},
-			"x":-1510,
-			"y":410,
+			"x":80,
+			"y":90,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -155,7 +45,7 @@
 			"text":"Transaction / Concurrency Subsystem",
 			"styleAttributes":{},
 			"x":-899,
-			"y":50,
+			"y":0,
 			"width":380,
 			"height":60,
 			"color":"1"
@@ -166,7 +56,7 @@
 			"text":"Transaction Manager",
 			"styleAttributes":{},
 			"x":-849,
-			"y":140,
+			"y":90,
 			"width":280,
 			"height":60,
 			"color":"2"
@@ -177,7 +67,7 @@
 			"text":"Lock Manager",
 			"styleAttributes":{},
 			"x":-849,
-			"y":230,
+			"y":180,
 			"width":280,
 			"height":60,
 			"color":"2"
@@ -188,7 +78,7 @@
 			"text":"MVCC and Snapshots",
 			"styleAttributes":{},
 			"x":-849,
-			"y":320,
+			"y":270,
 			"width":280,
 			"height":60,
 			"color":"2"
@@ -199,9 +89,119 @@
 			"text":"Isolation Semantics",
 			"styleAttributes":{},
 			"x":-849,
-			"y":420,
+			"y":370,
 			"width":280,
 			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"20400aa6bf494f6e",
+			"type":"text",
+			"text":"Query Evaluator Engine",
+			"styleAttributes":{},
+			"x":-1540,
+			"y":0,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"ec4f5f9c0ba3d101",
+			"type":"text",
+			"text":"Parser / Analyzer",
+			"styleAttributes":{},
+			"x":-1510,
+			"y":110,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"f8291c20836afca4",
+			"type":"text",
+			"text":"Operator Evaluator",
+			"styleAttributes":{},
+			"x":-1510,
+			"y":200,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"74b10ef12d519bc5",
+			"type":"text",
+			"text":"Planner / Optimizer",
+			"styleAttributes":{},
+			"x":-1510,
+			"y":290,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"88578b56ee0dd7f2",
+			"type":"text",
+			"text":"Plan Executor",
+			"styleAttributes":{},
+			"x":-1510,
+			"y":380,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"7a3d7800de4f9033",
+			"type":"text",
+			"text":"Storage Subsystem",
+			"styleAttributes":{},
+			"x":780,
+			"y":0,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"2b8aea4bb2780e92",
+			"type":"text",
+			"text":"Heap Tables / Tuples",
+			"styleAttributes":{},
+			"x":820,
+			"y":80,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"0868a3192029d8e8",
+			"type":"text",
+			"text":"Indexes\n",
+			"styleAttributes":{},
+			"x":820,
+			"y":160,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"6b75ecb762f4a346",
+			"type":"text",
+			"text":"Pages",
+			"styleAttributes":{},
+			"x":820,
+			"y":250,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"c715ac2923e3702c",
+			"type":"text",
+			"text":"Buffer Manager / \nShared Buffers",
+			"styleAttributes":{},
+			"x":820,
+			"y":330,
+			"width":260,
+			"height":70,
 			"color":"2"
 		},
 		{
@@ -209,8 +209,8 @@
 			"type":"text",
 			"text":"Checkpointer",
 			"styleAttributes":{},
-			"x":-70,
-			"y":480,
+			"x":80,
+			"y":280,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -220,8 +220,8 @@
 			"type":"text",
 			"text":"Crash Recovery",
 			"styleAttributes":{},
-			"x":-70,
-			"y":410,
+			"x":80,
+			"y":370,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -508,6 +508,18 @@
 			"toSide":"right",
 			"color":"3",
 			"label":"supports recovery in"
+		},
+		{
+			"id":"a31f612c0ef22f5a",
+			"styleAttributes":{"path":"short-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"9bca71ce0e61aa1a",
+			"fromSide":"right",
+			"toNode":"2b8aea4bb2780e92",
+			"toSide":"left",
+			"color":"4",
+			"label":"determines tuple \nvisibility in"
 		}
 	],
 	"metadata":{
