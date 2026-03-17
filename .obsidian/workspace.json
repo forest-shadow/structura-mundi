@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Transaction Isolation Levels/Database Transactions.md",
+                "file": "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database Transactions"
+              "title": "ACID"
             }
           }
         ],
@@ -194,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Transaction Isolation Levels/Database Transactions.md",
+                "file": "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database Transactions"
+              "title": "Outline of ACID"
             }
           },
           {
@@ -289,10 +289,12 @@
   },
   "active": "0302ca28787592eb",
   "lastOpenFiles": [
-    "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Database Transactions.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels.md",
     "Tabula Ortus.md",
+    "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
+    "Prompts/Obsidian Ultimate Professional Article.md",
+    "02. Corpus Mundi/D/Database Transactions.md",
+    "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
+    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/Javascript/JavaScript.base",
     "03. Maps and Courses/Topic Maps/Javascript",
@@ -316,8 +318,6 @@
     "01. Inbox/To Classify/Telemetry/Time Series.md",
     "01. Inbox/To Classify/Telemetry/Distributed Tracing.md",
     "01. Inbox/To Classify/Telemetry/Logging.md",
-    "01. Inbox/To Classify/Telemetry/Metrics.md",
-    "01. Inbox/To Classify/Telemetry/Telemetry.md",
     "01. Inbox/To Classify/Telemetry",
     "01. Inbox/To Classify/Transaction Isolation Levels",
     "01. Inbox/To Classify/React",
