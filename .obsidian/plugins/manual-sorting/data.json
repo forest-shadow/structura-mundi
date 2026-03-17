@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "01-dbms-architecture.jpg",
         "Prompts",
         "04. Assets",
         "99. Archive",
@@ -192,6 +193,11 @@
     },
     "01. Inbox/To Classify/Transaction Isolation Levels": {
       "children": [
+        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Durability.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Consistency.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Atomicity.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/ACID Structure Proposal.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Database Transactions.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Isolation Anomalies.md",
@@ -451,9 +457,14 @@
     },
     "03. Maps and Courses/Topic Maps/DBMS": {
       "children": [
-        "03. Maps and Courses/Topic Maps/DBMS/ACID.canvas",
-        "03. Maps and Courses/Topic Maps/DBMS/Untitled.canvas"
+        "03. Maps and Courses/Topic Maps/DBMS/_resources",
+        "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
+        "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas"
       ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/DBMS/_resources": {
+      "children": [],
       "sortOrder": "custom"
     }
   },

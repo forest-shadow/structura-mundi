@@ -126,15 +126,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/DBMS/ACID.canvas",
+                "file": "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
                 "viewState": {
-                  "x": 532.8031433820266,
-                  "y": 160.47920537867353,
-                  "zoom": -0.3333333333333334
+                  "x": -653.0011010842218,
+                  "y": -265.76644054814994,
+                  "zoom": -0.6666666666666665
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "ACID"
+              "title": "PostgreSQL Architecture"
             }
           }
         ],
@@ -211,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/DBMS/ACID.canvas",
+                "file": "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ACID"
+              "title": "Outline of PostgreSQL Architecture"
             }
           },
           {
@@ -306,15 +306,18 @@
   },
   "active": "eced52fa0445a3b1",
   "lastOpenFiles": [
+    "03. Maps and Courses/Topic Maps/DBMS/Untitled.md",
+    "03. Maps and Courses/Topic Maps/DBMS/_resources",
+    "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
+    "03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg",
+    "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Durability.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Consistency.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Atomicity.md",
     "01. Inbox/To Classify/Transaction Isolation Levels/ACID Structure Proposal.md",
     "02. Corpus Mundi/R/React Hooks.md",
-    "03. Maps and Courses/Topic Maps/DBMS/ACID.canvas",
     "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
-    "03. Maps and Courses/Topic Maps/DBMS/Untitled.canvas",
     "03. Maps and Courses/Topic Maps/DBMS",
     "Tabula Ortus.md",
     "01. Inbox/To Classify/React/React.md",
@@ -336,8 +339,6 @@
     "00. Principia Rerum/Frontmatter Legend.md",
     "00. Principia Rerum/File Structure.md",
     "00. Principia Rerum/Controlled Vocabulary.md",
-    "00. Principia Rerum/Naming Policy.md",
-    "01. Inbox/To Classify/JavaScript Prototype System/Proto Accessor.md",
     "01. Inbox/To Classify/Telemetry",
     "01. Inbox/To Classify/Transaction Isolation Levels",
     "01. Inbox/To Classify/React",
@@ -345,7 +346,6 @@
     "01. Inbox/To Classify/Dual Write/_resources/dua-write.jpg",
     "01. Inbox/To Classify/Dual Write/_resources",
     "Pasted image 20260314213657.png",
-    "01. Inbox/To Classify/Distributed Systems Problems",
     "00. Obsidian Praxis/Config & Settings Details/Images/gruvbox_colors.png",
     "Databases/Database Internals (Petrov Alex)/_resources/01-architecture-of-dbms.jpg",
     "dbin_0101.png",

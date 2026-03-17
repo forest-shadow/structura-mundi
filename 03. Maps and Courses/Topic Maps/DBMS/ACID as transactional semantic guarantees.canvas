@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"7f61db10e4100003","type":"group","x":-830,"y":140,"width":520,"height":500,"color":"1","label":"C = Consistency"},
-		{"id":"21d82b971b4675d5","type":"group","x":-230,"y":140,"width":520,"height":500,"color":"1","label":"I = Isolation"},
-		{"id":"7843deaa4132fc36","type":"group","x":360,"y":140,"width":520,"height":460,"color":"1","label":"D = Durability"},
-		{"id":"940cc7d2167f6048","type":"group","x":-1420,"y":140,"width":520,"height":420,"color":"1","label":"A = Atomicity"},
+		{"id":"7f61db10e4100003","type":"group","x":-750,"y":160,"width":520,"height":500,"color":"1","label":"C = Consistency"},
+		{"id":"21d82b971b4675d5","type":"group","x":-150,"y":160,"width":520,"height":500,"color":"1","label":"I = Isolation"},
+		{"id":"7843deaa4132fc36","type":"group","x":440,"y":160,"width":520,"height":480,"color":"1","label":"D = Durability"},
+		{"id":"940cc7d2167f6048","type":"group","x":-1340,"y":160,"width":520,"height":420,"color":"1","label":"A = Atomicity"},
 		{"id":"763731a69a305342","type":"group","x":-420,"y":-400,"width":380,"height":340,"color":"1","label":"ACID"},
 		{
 			"id":"6676a7e33509df79",
@@ -43,8 +43,8 @@
 			"type":"text",
 			"text":"A = Atomicity",
 			"styleAttributes":{},
-			"x":-1380,
-			"y":160,
+			"x":-1300,
+			"y":180,
 			"width":260,
 			"height":60,
 			"color":"1"
@@ -54,8 +54,8 @@
 			"type":"text",
 			"text":"<b>Смысл:</b> операция либо фиксируется целиком, либо не считается произошедшей.",
 			"styleAttributes":{},
-			"x":-1380,
-			"y":240,
+			"x":-1300,
+			"y":260,
 			"width":440,
 			"height":80,
 			"color":"2"
@@ -65,8 +65,8 @@
 			"type":"text",
 			"text":"Обычно связано (реализиуется):\n* rollback\n* transaction status\n* WAL\n* undo/redo",
 			"styleAttributes":{},
-			"x":-1380,
-			"y":340,
+			"x":-1300,
+			"y":360,
 			"width":440,
 			"height":200,
 			"color":"2"
@@ -76,8 +76,8 @@
 			"type":"text",
 			"text":"C = Consistency",
 			"styleAttributes":{},
-			"x":-790,
-			"y":160,
+			"x":-710,
+			"y":180,
 			"width":260,
 			"height":60,
 			"color":"1"
@@ -87,8 +87,8 @@
 			"type":"text",
 			"text":"<b>Смысл:</b> транзакция не должна переводить систему из допустимого состояния в недопустимое. Ограничено конкретной DB",
 			"styleAttributes":{},
-			"x":-790,
-			"y":240,
+			"x":-710,
+			"y":260,
 			"width":440,
 			"height":120,
 			"color":"2"
@@ -98,8 +98,19 @@
 			"type":"text",
 			"text":"Обычно связано (реализуется):\n* constraints\n* triggers\n* referential integrity\n* type/domain rules\n* application invariants",
 			"styleAttributes":{},
-			"x":-790,
-			"y":380,
+			"x":-710,
+			"y":400,
+			"width":440,
+			"height":240,
+			"color":"2"
+		},
+		{
+			"id":"f1b538c6fe4738bf",
+			"type":"text",
+			"text":"Обычно связано (реализуется):\n* MVCC\n* locks\n* snapshots\n* serialization control\n* isolation levels",
+			"styleAttributes":{},
+			"x":-120,
+			"y":400,
 			"width":440,
 			"height":240,
 			"color":"2"
@@ -109,8 +120,8 @@
 			"type":"text",
 			"text":"I = Isolation",
 			"styleAttributes":{},
-			"x":-200,
-			"y":160,
+			"x":-120,
+			"y":180,
 			"width":260,
 			"height":60,
 			"color":"1"
@@ -120,21 +131,10 @@
 			"type":"text",
 			"text":"<b>Смысл:</b> параллельные транзакции не должны нарушать требуемую модель наблюдаемого поведения.",
 			"styleAttributes":{},
-			"x":-200,
-			"y":240,
+			"x":-120,
+			"y":260,
 			"width":440,
 			"height":120,
-			"color":"2"
-		},
-		{
-			"id":"f1b538c6fe4738bf",
-			"type":"text",
-			"text":"Обычно связано (реализуется):\n* MVCC\n* locks\n* snapshots\n* serialization control\n* isolation levels",
-			"styleAttributes":{},
-			"x":-200,
-			"y":380,
-			"width":440,
-			"height":240,
 			"color":"2"
 		},
 		{
@@ -142,18 +142,19 @@
 			"type":"text",
 			"text":"D = Durability",
 			"styleAttributes":{},
-			"x":400,
-			"y":160,
+			"x":480,
+			"y":180,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"1"
 		},
 		{
 			"id":"46481dcbf6efeb13",
 			"type":"text",
 			"text":"<b>Смысл:</b> после commit результат не должен теряться при сбое.",
 			"styleAttributes":{},
-			"x":400,
-			"y":240,
+			"x":480,
+			"y":260,
 			"width":440,
 			"height":80,
 			"color":"2"
@@ -161,10 +162,10 @@
 		{
 			"id":"613496951758ff7b",
 			"type":"text",
-			"text":"Обычно связано (реализуется):\n* WAL\n* fsync\n* checkpoints\n* serialization control\n* isolation levels",
+			"text":"Обычно связано (реализуется):\n* WAL\n* fsync\n* checkpoints\n* serialization control\n* optional replication",
 			"styleAttributes":{},
-			"x":400,
-			"y":340,
+			"x":480,
+			"y":360,
 			"width":440,
 			"height":240,
 			"color":"2"
@@ -189,6 +190,26 @@
 			"fromNode":"763731a69a305342",
 			"fromSide":"bottom",
 			"toNode":"7f61db10e4100003",
+			"toSide":"top",
+			"color":"1"
+		},
+		{
+			"id":"bd3eac895b3d6a12",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"763731a69a305342",
+			"fromSide":"bottom",
+			"toNode":"21d82b971b4675d5",
+			"toSide":"top",
+			"color":"1"
+		},
+		{
+			"id":"67df69411b45165a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"763731a69a305342",
+			"fromSide":"bottom",
+			"toNode":"7843deaa4132fc36",
 			"toSide":"top",
 			"color":"1"
 		}
