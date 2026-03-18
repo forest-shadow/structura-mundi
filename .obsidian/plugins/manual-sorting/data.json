@@ -89,6 +89,7 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Golang",
         "01. Inbox/To Classify/Semantics",
         "01. Inbox/To Classify/Telemetry",
         "01. Inbox/To Classify/JavaScript Prototype System",
@@ -488,6 +489,12 @@
       "children": [
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Golang": {
+      "children": [
+        "01. Inbox/To Classify/Golang/Testing Mind Model.md"
       ],
       "sortOrder": "custom"
     }

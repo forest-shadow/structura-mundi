@@ -129,12 +129,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
+                "file": "01. Inbox/To Classify/Golang/Testing Mind Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distributed Systems Problems"
+              "title": "Testing Mind Model"
             }
           }
         ],
@@ -211,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
+                "file": "01. Inbox/To Classify/Golang/Testing Mind Model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Distributed Systems Problems"
+              "title": "Outline of Testing Mind Model"
             }
           },
           {
@@ -306,6 +306,9 @@
   },
   "active": "eced52fa0445a3b1",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
+    "01. Inbox/To Classify/Golang/Testing Mind Model.md",
+    "01. Inbox/To Classify/Golang",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels.md",
@@ -320,7 +323,6 @@
     "01. Inbox/To Classify/Distributed Systems Problems/Coordination and Consensus.md",
     "01. Inbox/To Classify/Distributed Systems Problems/Time and Ordering.md",
     "01. Inbox/To Classify/Distributed Systems Problems/Partial Failure.md",
-    "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
     "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems Structure Proposal.md",
     "02. Corpus Mundi/__02. Corpus Mundi.base",
     "02. Corpus Mundi/A/ACID.md",
@@ -343,7 +345,6 @@
     "03. Maps and Courses/Topic Maps/Javascript",
     "01. Inbox/To Classify/Telemetry",
     "01. Inbox/To Classify/Transaction Isolation Levels",
-    "01. Inbox/To Classify/React",
     "01. Inbox/To Classify/Dual Write/_resources/dua-write.jpg",
     "Pasted image 20260314213657.png",
     "00. Obsidian Praxis/Config & Settings Details/Images/gruvbox_colors.png",
