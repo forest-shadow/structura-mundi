@@ -2,7 +2,6 @@
   "customOrder": {
     "/": {
       "children": [
-        "01-dbms-architecture.jpg",
         "Prompts",
         "04. Assets",
         "99. Archive",
@@ -157,8 +156,6 @@
         "01. Inbox/To Classify/React/Components and Props.md",
         "01. Inbox/To Classify/React/Custom Hooks.md",
         "01. Inbox/To Classify/React/JSX.md",
-        "01. Inbox/To Classify/React/React.md",
-        "01. Inbox/To Classify/React/React Hooks.md",
         "01. Inbox/To Classify/React/React Hooks Structure Proposal.md",
         "01. Inbox/To Classify/React/React Rendering Model.md",
         "01. Inbox/To Classify/React/React Structure Proposal.md",
@@ -168,6 +165,20 @@
         "01. Inbox/To Classify/React/useReducer.md",
         "01. Inbox/To Classify/React/useRef.md",
         "01. Inbox/To Classify/React/useState.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Semantics": {
+      "children": [
+        "01. Inbox/To Classify/Semantics/Semantics and Pragmatics.md",
+        "01. Inbox/To Classify/Semantics/Formal Semantics.md",
+        "01. Inbox/To Classify/Semantics/Compositional Semantics.md",
+        "01. Inbox/To Classify/Semantics/Lexical Semantics.md",
+        "01. Inbox/To Classify/Semantics/Sense and Reference.md",
+        "01. Inbox/To Classify/Semantics/Denotation.md",
+        "01. Inbox/To Classify/Semantics/Linguistic Meaning.md",
+        "01. Inbox/To Classify/Semantics/Semantics.md",
+        "01. Inbox/To Classify/Semantics/Semantics Structure Proposal.md"
       ],
       "sortOrder": "custom"
     },
@@ -203,8 +214,6 @@
         "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Consistency.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Atomicity.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/ACID Structure Proposal.md",
-        "01. Inbox/To Classify/Transaction Isolation Levels/ACID.md",
-        "01. Inbox/To Classify/Transaction Isolation Levels/Database Transactions.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Isolation Anomalies.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Read Committed.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Read Uncommitted.md",
@@ -259,7 +268,9 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/A": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/A/ACID.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/B": {
@@ -271,7 +282,9 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/D": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/D/Database Transactions.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/E": {
@@ -331,7 +344,10 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/R": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/R/React.md",
+        "02. Corpus Mundi/R/React Hooks.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/S": {
@@ -391,6 +407,21 @@
       "children": [
         "03. Maps and Courses/Topic Maps/DBMS",
         "03. Maps and Courses/Topic Maps/Javascript"
+      ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/DBMS": {
+      "children": [
+        "03. Maps and Courses/Topic Maps/DBMS/DBMS.base",
+        "03. Maps and Courses/Topic Maps/DBMS/_resources",
+        "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
+        "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas"
+      ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/DBMS/_resources": {
+      "children": [
+        "03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg"
       ],
       "sortOrder": "custom"
     },
@@ -457,33 +488,6 @@
       "children": [
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "03. Maps and Courses/Topic Maps/DBMS": {
-      "children": [
-        "03. Maps and Courses/Topic Maps/DBMS/DBMS.base",
-        "03. Maps and Courses/Topic Maps/DBMS/_resources",
-        "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
-        "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas"
-      ],
-      "sortOrder": "custom"
-    },
-    "03. Maps and Courses/Topic Maps/DBMS/_resources": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Semantics": {
-      "children": [
-        "01. Inbox/To Classify/Semantics/Semantics and Pragmatics.md",
-        "01. Inbox/To Classify/Semantics/Formal Semantics.md",
-        "01. Inbox/To Classify/Semantics/Compositional Semantics.md",
-        "01. Inbox/To Classify/Semantics/Lexical Semantics.md",
-        "01. Inbox/To Classify/Semantics/Sense and Reference.md",
-        "01. Inbox/To Classify/Semantics/Denotation.md",
-        "01. Inbox/To Classify/Semantics/Linguistic Meaning.md",
-        "01. Inbox/To Classify/Semantics/Semantics.md",
-        "01. Inbox/To Classify/Semantics/Semantics Structure Proposal.md"
       ],
       "sortOrder": "custom"
     }
