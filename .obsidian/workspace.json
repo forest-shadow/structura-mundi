@@ -122,23 +122,9 @@
               "icon": "lucide-layout-dashboard",
               "title": "ACID as transactional semantic guarantees"
             }
-          },
-          {
-            "id": "eced52fa0445a3b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Inbox/To Classify/Golang/Testing Mind Model.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Testing Mind Model"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -211,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Golang/Testing Mind Model.md",
+                "file": "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Testing Mind Model"
+              "title": "Outline of ACID as transactional semantic guarantees"
             }
           },
           {
@@ -304,7 +290,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eced52fa0445a3b1",
+  "active": "0302ca28787592eb",
   "lastOpenFiles": [
     "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
     "01. Inbox/To Classify/Golang/Testing Mind Model.md",

@@ -1,4 +1,23 @@
-# Testing in Go: practical mental model for live coding
+---
+aliases:
+  - Testing Mind Model
+  - Testing in Go
+  - Тестирование в Go
+note_type: article
+area: computer-science
+domain: programming-languages
+section: go
+parent: "[[Go]]"
+status: draft
+related:
+  - "[[Go]]"
+  - "[[Go Toolchain]]"
+  - "[[Go Error Handling]]"
+  - "[[Go Concurrency Model]]"
+tags: []
+---
+
+# Go Testing
 
 ## Краткое определение
 

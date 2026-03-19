@@ -144,6 +144,27 @@
       ],
       "sortOrder": "custom"
     },
+    "01. Inbox/To Classify/Golang": {
+      "children": [
+        "01. Inbox/To Classify/Golang/Go.md",
+        "01. Inbox/To Classify/Golang/Go Channels.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model.md",
+        "01. Inbox/To Classify/Golang/Go Error Handling.md",
+        "01. Inbox/To Classify/Golang/Go Goroutines.md",
+        "01. Inbox/To Classify/Golang/Go Interfaces.md",
+        "01. Inbox/To Classify/Golang/Go Packages and Modules.md",
+        "01. Inbox/To Classify/Golang/Go Scheduler.md",
+        "01. Inbox/To Classify/Golang/Go Scheduler GMP Model.md",
+        "01. Inbox/To Classify/Golang/Go Scheduler Preemption.md",
+        "01. Inbox/To Classify/Golang/Go Scheduler Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Scheduler Work Stealing.md",
+        "01. Inbox/To Classify/Golang/Go Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Testing.md",
+        "01. Inbox/To Classify/Golang/Go Toolchain.md",
+        "01. Inbox/To Classify/Golang/Go Type System.md"
+      ],
+      "sortOrder": "custom"
+    },
     "01. Inbox/To Classify/JavaScript Prototype System": {
       "children": [
         "01. Inbox/To Classify/JavaScript Prototype System/JavaScript Prototype System Structure Proposal.md",
@@ -489,12 +510,6 @@
       "children": [
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Golang": {
-      "children": [
-        "01. Inbox/To Classify/Golang/Testing Mind Model.md"
       ],
       "sortOrder": "custom"
     }
