@@ -110,17 +110,28 @@
             "id": "0302ca28787592eb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
-                "viewState": {
-                  "x": -39.998903688851584,
-                  "y": 220.483235040237,
-                  "zoom": -0.4533796600067221
-                }
+                "file": "01. Inbox/To Classify/Golang/Go Scheduler.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "ACID as transactional semantic guarantees"
+              "icon": "lucide-file",
+              "title": "Go Scheduler"
+            }
+          },
+          {
+            "id": "c4dc671cf55a28cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prompts/Post Synthesis.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Post Synthesis"
             }
           }
         ],
@@ -197,13 +208,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
+                "file": "01. Inbox/To Classify/Golang/Go Scheduler.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ACID as transactional semantic guarantees"
+              "title": "Outline of Go Scheduler"
             }
           },
           {
@@ -292,13 +303,15 @@
   },
   "active": "0302ca28787592eb",
   "lastOpenFiles": [
+    "Prompts/Post Synthesis.md",
+    "Tabula Ortus.md",
+    "01. Inbox/To Classify/Golang/Go Scheduler.md",
+    "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
     "01. Inbox/To Classify/Golang/Testing Mind Model.md",
     "01. Inbox/To Classify/Golang",
-    "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
     "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels.md",
-    "Tabula Ortus.md",
     "02. Corpus Mundi/D/Database Transactions.md",
     "03. Maps and Courses/Topic Maps/DBMS/DBMS.base",
     "03. Maps and Courses/Topic Maps/Javascript/JavaScript.base",
@@ -325,8 +338,6 @@
     "03. Maps and Courses/Topic Maps/DBMS/Untitled.md",
     "03. Maps and Courses/Topic Maps/DBMS/_resources",
     "03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Durability.md",
-    "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation.md",
     "03. Maps and Courses/Topic Maps/DBMS",
     "03. Maps and Courses/Topic Maps/Javascript",
     "01. Inbox/To Classify/Telemetry",
