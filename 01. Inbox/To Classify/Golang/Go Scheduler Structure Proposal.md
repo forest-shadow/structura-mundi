@@ -11,6 +11,7 @@ related:
   - "[[Go Scheduler]]"
   - "[[Go Goroutines]]"
   - "[[Go Concurrency Model]]"
+  - "[[Go Netpoller]]"
 tags: []
 ---
 
@@ -36,7 +37,8 @@ Go
     └── Go Scheduler
         ├── Go Scheduler GMP Model
         ├── Go Scheduler Work Stealing
-        └── Go Scheduler Preemption
+        ├── Go Scheduler Preemption
+        └── Go Netpoller
 ```
 
 ## Почему структура именно такая
@@ -45,6 +47,7 @@ Go
 - `Go Scheduler GMP Model` нужен как статья про базовую архитектурную модель `G-M-P`.
 - `Go Scheduler Work Stealing` нужен как статья про ключевой способ балансировки нагрузки.
 - `Go Scheduler Preemption` нужен как статья про то, как рантайм возвращает управление и избегает monopolization CPU.
+- `Go Netpoller` нужен как статья про интеграцию scheduler с неблокирующим сетевым I/O и пробуждением goroutines.
 
 ## Что не стоит добавлять прямо сейчас
 
@@ -59,7 +62,8 @@ Go
     ├── Go Scheduler.md
     ├── Go Scheduler GMP Model.md
     ├── Go Scheduler Work Stealing.md
-    └── Go Scheduler Preemption.md
+    ├── Go Scheduler Preemption.md
+    └── Go Netpoller.md
 ```
 
 ## Что уже создано в Inbox
@@ -68,10 +72,12 @@ Go
 - `[[Go Scheduler GMP Model]]`
 - `[[Go Scheduler Work Stealing]]`
 - `[[Go Scheduler Preemption]]`
+- `[[Go Netpoller]]`
 
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить, нужна ли отдельная статья про `sysmon`
 - [ ] Решить, нужно ли выносить scheduler/GC interaction в отдельную заметку
+- [ ] Уточнить связь между scheduler, netpoller и runtime timers
 - [ ] Уточнить границы между `Go Goroutines` и `Go Scheduler`
 - [ ] Проверить `related`
