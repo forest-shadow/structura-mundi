@@ -7,7 +7,7 @@ area: computer-science
 domain: programming-languages
 section: go
 parent: "[[Go Concurrency Model]]"
-status: seed
+status: draft
 related:
   - "[[Go Concurrency Model]]"
   - "[[Go Goroutines]]"
@@ -17,7 +17,6 @@ related:
   - "[[Go Netpoller]]"
 tags: []
 ---
-
 # 1. Go Scheduler (Планировщик Go)
 
 > <font color="#fb4934">Go Scheduler (Планировщик Go)</font> — это встроенная подсистема среды выполнения (runtime) языка Go, функционирующая в пользовательском пространстве (user-space) и реализующая гибридную модель многозадачности $M:N$. Планировщик отвечает за распределение готовых к исполнению легковесных потоков (goroutines) по рабочим потокам операционной системы, за выдачу им процессорного времени и за возврат управления между конкурентно исполняемыми единицами работы.
@@ -189,43 +188,3 @@ func main() {
 - `[[Go Scheduler Preemption]]`: Механизм тайм-аутов, `sysmon` и `safe points` для предотвращения CPU starvation.
 - `[[GOMAXPROCS]]`: Переменная среды выполнения, регулирующая мощность множества $P$.
 - `[[Go Netpoller]]` и **Go Runtime Timers**: Интегрированные механизмы реактивного реагирования на I/O-события.
-
-
-
-
-# Go Scheduler
-
-## Краткое определение области
-
-Обзорная заметка для планировщика Go как части runtime, отвечающей за исполнение goroutines, распределение работы и возврат управления между конкурентно исполняемыми задачами.
-
-## Что входит в эту тему
-
-- `[[Go Scheduler GMP Model]]`
-- `[[Go Scheduler Work Stealing]]`
-- `[[Go Scheduler Preemption]]`
-- `[[Go Netpoller]]`
-
-## Как устроена ветка
-
-- `Go Scheduler` является дочерним `overview` внутри `[[Go Concurrency Model]]`.
-- Ветка остаётся минимальной и покрывает только самые устойчивые и полезные аспекты планировщика.
-- Более глубокие внутренние детали рантайма стоит выносить только при появлении реального корпуса заметок.
-
-## Рекомендуемый маршрут чтения
-
-1. Начать с общей роли scheduler в runtime Go.
-2. Затем перейти к `[[Go Scheduler GMP Model]]`.
-3. После этого читать `[[Go Scheduler Work Stealing]]` и `[[Go Scheduler Preemption]]`.
-
-## Соседние overview-ветки
-
-- `[[Go Concurrency Model]]`
-
-## Что стоит раскрыть дальше
-
-- [ ] Уточнить границы между scheduler и goroutines
-- [ ] Проверить, нужна ли отдельная статья про sysmon
-- [ ] Уточнить связь между scheduler, netpoller и runtime timers
-- [ ] Проверить `related`
-- [ ] Не разрастается ли ветка слишком глубоко

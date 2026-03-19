@@ -7,9 +7,10 @@ note_type: overview
 area: computer-science
 domain: algorithms
 section: automata-theory
-parent:
+parent: "[[Automata Theory]]"
 status: seed
 related:
+  - "[[Automata Theory]]"
   - "[[Deterministic Finite Automaton]]"
   - "[[Nondeterministic Finite Automaton]]"
   - "[[Epsilon-NFA]]"
@@ -34,20 +35,20 @@ tags: []
 
 ## Как устроена ветка
 
-- `Finite Automaton` служит обзорным узлом верхнего уровня.
+- `Finite Automaton` служит дочерним `sub-overview` внутри `[[Automata Theory]]`.
 - Разновидности автомата раскрываются в отдельных `article`.
 - Теоретически соседние, но очень близкие темы вроде `Regular Language` и `Finite Automaton Minimization` тоже остаются внутри этой ветки как естественные продолжения.
 
 ## Рекомендуемый маршрут чтения
 
-1. Начать с общей модели `Finite Automaton`.
-2. Затем пройти `[[Deterministic Finite Automaton]]` и `[[Nondeterministic Finite Automaton]]`.
-3. После этого читать `[[Epsilon-NFA]]`.
+1. Начать с `[[Automata Theory]]`.
+2. Затем перейти к общей модели `Finite Automaton`.
+3. После этого пройти `[[Deterministic Finite Automaton]]`, `[[Nondeterministic Finite Automaton]]` и `[[Epsilon-NFA]]`.
 4. Завершить `[[Regular Language]]` и `[[Finite Automaton Minimization]]`.
 
 ## Соседние overview-ветки
 
-- Пока не добавлены, но позже здесь может появиться более широкая ветка про automata theory.
+- `[[Automata Theory]]`
 
 ## Что стоит раскрыть дальше
 

@@ -5,9 +5,10 @@ note_type: article
 area: computer-science
 domain: algorithms
 section: automata-theory
-parent:
+parent: "[[Automata Theory]]"
 status: draft
 related:
+  - "[[Automata Theory]]"
   - "[[Finite Automaton]]"
   - "[[Deterministic Finite Automaton]]"
   - "[[Nondeterministic Finite Automaton]]"
@@ -41,17 +42,18 @@ tags: []
 ## Рекомендуемая иерархия
 
 ```text
-Finite Automaton
-├── Deterministic Finite Automaton
-├── Nondeterministic Finite Automaton
-├── Epsilon-NFA
-├── Regular Language
-└── Finite Automaton Minimization
+Automata Theory
+└── Finite Automaton
+    ├── Deterministic Finite Automaton
+    ├── Nondeterministic Finite Automaton
+    ├── Epsilon-NFA
+    ├── Regular Language
+    └── Finite Automaton Minimization
 ```
 
 ## Почему структура именно такая
 
-- `Finite Automaton` становится `overview`, потому что собирает под собой устойчивое семейство понятий.
+- `Finite Automaton` становится дочерним `overview` внутри `[[Automata Theory]]`, потому что собирает под собой устойчивое семейство понятий.
 - `Deterministic Finite Automaton`, `Nondeterministic Finite Automaton` и `Epsilon-NFA` — это естественные дочерние статьи по разновидностям модели.
 - `Regular Language` нужен как ближайшее теоретическое соответствие: автоматы распознают именно этот класс языков.
 - `Finite Automaton Minimization` нужен как отдельная статья про ключевую алгоритмическую процедуру, а не как случайная секция внутри DFA.
