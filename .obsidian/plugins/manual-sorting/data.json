@@ -89,6 +89,7 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Automata Theory",
         "01. Inbox/To Classify/Golang",
         "01. Inbox/To Classify/Semantics",
         "01. Inbox/To Classify/Telemetry",
@@ -99,6 +100,24 @@
         "01. Inbox/To Classify/Dual Write",
         "01. Inbox/To Classify/Event-Driven Architecture",
         "01. Inbox/To Classify/Syllogistics"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Automata Theory": {
+      "children": [
+        "01. Inbox/To Classify/Automata Theory/Automata Theory.md",
+        "01. Inbox/To Classify/Automata Theory/Automata Theory Structure Proposal.md",
+        "01. Inbox/To Classify/Automata Theory/Chomsky Hierarchy.md",
+        "01. Inbox/To Classify/Automata Theory/Deterministic Finite Automaton.md",
+        "01. Inbox/To Classify/Automata Theory/Epsilon-NFA.md",
+        "01. Inbox/To Classify/Automata Theory/Finite Automaton.md",
+        "01. Inbox/To Classify/Automata Theory/Finite Automaton Minimization.md",
+        "01. Inbox/To Classify/Automata Theory/Finite Automaton Structure Proposal.md",
+        "01. Inbox/To Classify/Automata Theory/Formal Language.md",
+        "01. Inbox/To Classify/Automata Theory/Nondeterministic Finite Automaton.md",
+        "01. Inbox/To Classify/Automata Theory/Pushdown Automaton.md",
+        "01. Inbox/To Classify/Automata Theory/Regular Language.md",
+        "01. Inbox/To Classify/Automata Theory/Turing Machine.md"
       ],
       "sortOrder": "custom"
     },
@@ -146,6 +165,11 @@
     },
     "01. Inbox/To Classify/Golang": {
       "children": [
+        "01. Inbox/To Classify/Golang/Go Machine Thread.md",
+        "01. Inbox/To Classify/Golang/Go Netpoller.md",
+        "01. Inbox/To Classify/Golang/Go Netpoller Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Scheduler GMP Model Entity Split Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Scheduler Processor.md",
         "01. Inbox/To Classify/Golang/Go.md",
         "01. Inbox/To Classify/Golang/Go Channels.md",
         "01. Inbox/To Classify/Golang/Go Concurrency Model.md",
@@ -153,7 +177,6 @@
         "01. Inbox/To Classify/Golang/Go Goroutines.md",
         "01. Inbox/To Classify/Golang/Go Interfaces.md",
         "01. Inbox/To Classify/Golang/Go Packages and Modules.md",
-        "01. Inbox/To Classify/Golang/Go Scheduler.md",
         "01. Inbox/To Classify/Golang/Go Scheduler GMP Model.md",
         "01. Inbox/To Classify/Golang/Go Scheduler Preemption.md",
         "01. Inbox/To Classify/Golang/Go Scheduler Structure Proposal.md",
@@ -318,7 +341,9 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/G": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/G/Go Scheduler.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/H": {
