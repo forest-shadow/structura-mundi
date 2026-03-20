@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "Go",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,23 +8,23 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "",
+      "query": "[\"parent\":\"Go\"] OR file:\"Go\"",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 4944241
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.08255208333333,
+  "lineSizeMultiplier": 1.82265625,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.07932857096163334,
-  "close": true
+  "centerStrength": 0.408854166666667,
+  "repelStrength": 9.63541666666667,
+  "linkStrength": 0.700520833333333,
+  "linkDistance": 178,
+  "scale": 0.42967809143425895,
+  "close": false
 }

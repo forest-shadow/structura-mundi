@@ -177,7 +177,6 @@
         "01. Inbox/To Classify/Golang/Go Goroutines.md",
         "01. Inbox/To Classify/Golang/Go Interfaces.md",
         "01. Inbox/To Classify/Golang/Go Packages and Modules.md",
-        "01. Inbox/To Classify/Golang/Go Scheduler GMP Model.md",
         "01. Inbox/To Classify/Golang/Go Scheduler Preemption.md",
         "01. Inbox/To Classify/Golang/Go Scheduler Structure Proposal.md",
         "01. Inbox/To Classify/Golang/Go Scheduler Work Stealing.md",
@@ -342,6 +341,7 @@
     },
     "02. Corpus Mundi/G": {
       "children": [
+        "02. Corpus Mundi/G/Go Scheduler GMP Model.md",
         "02. Corpus Mundi/G/Go Scheduler.md"
       ],
       "sortOrder": "custom"
