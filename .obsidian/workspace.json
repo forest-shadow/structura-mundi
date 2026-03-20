@@ -136,16 +136,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/React/useState.md",
+                "file": "01. Inbox/To Classify/React/useReducer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "useState"
+              "title": "useReducer"
+            }
+          },
+          {
+            "id": "d0ffccd6379c5554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prompts/Obsidian Ultimate Professional Article.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian Ultimate Professional Article"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,13 +231,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/React/useState.md",
+                "file": "Tabula Ortus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of useState"
+              "title": "Outline of Tabula Ortus"
             }
           },
           {
@@ -332,9 +345,12 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "4fa3cec135bbe1b7",
+  "active": "c340083190100fc4",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/React/useReducer.md",
+    "02. Corpus Mundi/U/useState.md",
     "Tabula Ortus.md",
+    "Prompts/Obsidian Ultimate Professional Article.md",
     "02. Corpus Mundi/R/React Hooks.md",
     "01. Inbox/To Classify/React/Components and Props.md",
     "01. Inbox/To Classify/Golang/Go.md",
@@ -357,9 +373,6 @@
     "01. Inbox/To Classify/Automata Theory/Nondeterministic Finite Automaton.md",
     "01. Inbox/To Classify/Automata Theory/Finite Automaton.md",
     "01. Inbox/To Classify/Automata Theory/Finite Automaton Structure Proposal.md",
-    "01. Inbox/To Classify/Automata Theory/Finite Automaton Minimization.md",
-    "01. Inbox/To Classify/Automata Theory/Epsilon-NFA.md",
-    "01. Inbox/To Classify/Automata Theory/Deterministic Finite Automaton.md",
     "01. Inbox/To Classify/Automata Theory",
     "01. Inbox/To Classify/Finite Automaton",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
