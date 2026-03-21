@@ -9,7 +9,7 @@ section: react
 parent: "[[React]]"
 status: seed
 related:
-  - "[[Components and Props]]"
+  - "[[React Components]]"
   - "[[React Hooks]]"
 tags: []
 ---
@@ -37,7 +37,7 @@ React Rendering Model - это способ, которым React вычисля
 
 Связанные заметки:
 
-- `[[Components and Props]]`
+- `[[React Components]]`
 - `[[React Hooks]]`
 
 ## Примеры, случаи или следствия

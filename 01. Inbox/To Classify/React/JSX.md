@@ -7,7 +7,7 @@ section: react
 parent: "[[React]]"
 status: seed
 related:
-  - "[[Components and Props]]"
+  - "[[React Components]]"
   - "[[React Rendering Model]]"
 tags: []
 ---
@@ -35,7 +35,7 @@ JSX - это синтаксическое расширение JavaScript, ко�
 
 Связанные заметки:
 
-- `[[Components and Props]]`
+- `[[React Components]]`
 - `[[React Rendering Model]]`
 
 ## Примеры, случаи или следствия

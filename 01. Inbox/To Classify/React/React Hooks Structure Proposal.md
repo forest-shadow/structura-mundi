@@ -20,6 +20,7 @@ React (overview)
     ├── Rules of Hooks (article)
     ├── useState (article)
     ├── useEffect (article)
+    ├── useMemo (article)
     ├── useReducer (article)
     ├── useContext (article)
     ├── useRef (article)
@@ -32,6 +33,7 @@ React (overview)
 - Внутри более широкой React-ветки он оправдан как один допустимый вложенный `overview`, потому что уже имеет собственный устойчивый набор дочерних статей.
 - `Rules of Hooks` важно держать рядом с конкретными API-хуками, потому что это не просто вспомогательная заметка, а нормативный каркас всей темы.
 - `Custom Hooks` заслуживает отдельной статьи, потому что это самостоятельный концепт, а не просто список встроенных API.
+- `useMemo` теперь тоже оправдан как отдельная статья, потому что это устойчивый и часто переиспользуемый hook со своей собственной границей темы: мемоизация значений, а не эффекты, ссылки или состояние.
 
 ## Что не нужно создавать заранее
 
@@ -39,7 +41,7 @@ React (overview)
 
 - `Core Hooks` как промежуточный слой только ради группировки;
 - `Effect Hooks`, `State Hooks`, `Performance Hooks`, если по ним еще нет отдельного плотного корпуса;
-- отдельные заметки для `useMemo`, `useCallback`, `useLayoutEffect`, `useTransition`, если ветка пока не разрослась до этого уровня;
+- отдельные заметки для `useCallback`, `useLayoutEffect`, `useTransition`, если ветка пока не разрослась до этого уровня;
 - дополнительные overview-уровни внутри самой hook-ветки.
 
 Эти темы можно добавить позже, если ветка реально вырастет.
@@ -59,6 +61,7 @@ React (overview)
 └── U/
     ├── useState.md
     ├── useEffect.md
+    ├── useMemo.md
     ├── useReducer.md
     ├── useContext.md
     └── useRef.md
@@ -78,6 +81,7 @@ React (overview)
 - `Rules of Hooks.md`
 - `useState.md`
 - `useEffect.md`
+- `useMemo.md`
 - `useReducer.md`
 - `useContext.md`
 - `useRef.md`

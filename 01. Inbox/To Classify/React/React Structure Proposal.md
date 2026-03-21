@@ -21,12 +21,17 @@
 ```text
 React (overview)
 ├── JSX (article)
-├── Components and Props (article)
+├── React Components (overview)
+│   ├── Props in React (article)
+│   ├── Functional Components (article)
+│   ├── Component Composition (article)
+│   └── Class Components (article)
 ├── React Rendering Model (article)
 └── React Hooks (overview)
     ├── Rules of Hooks (article)
     ├── useState (article)
     ├── useEffect (article)
+    ├── useMemo (article)
     ├── useReducer (article)
     ├── useContext (article)
     ├── useRef (article)
@@ -36,8 +41,12 @@ React (overview)
 ## Почему структура именно такая
 
 - `React` является естественной канонической обзорной точкой входа для всей ветки.
-- `React Hooks` здесь оправдан как вложенный `overview`, потому что внутри hooks уже есть собственный устойчивый набор дочерних статей.
-- `JSX`, `Components and Props` и `React Rendering Model` на стартовом этапе лучше держать как обычные `article`, а не выделять для них отдельные подобзоры.
+- `React Hooks` оправдан как вложенный `overview`, потому что внутри hooks уже есть собственный устойчивый набор дочерних статей.
+- `useMemo` теперь тоже включён в устойчивый hook-кластер, потому что это самостоятельный API с отдельной границей темы.
+- `React Components` тоже оправдан как вложенный `overview`, потому что прежний узел `Components and Props` смешивал несколько разных объектов знания и лучше работает как связующая рамка.
+- `Props in React` вынесены отдельно, поскольку это самостоятельное понятие, а не просто подпункт общего введения.
+- `Functional Components` и `Class Components` имеют смысл как отдельные статьи, потому что представляют разные формы компонентной модели.
+- `JSX` и `React Rendering Model` остаются обычными `article`, потому что пока для них не нужен отдельный уровень вложенности.
 - Структура остается в допустимой минимальной форме: `root overview -> sub-overview -> articles`.
 
 ## Что не нужно создавать заранее
@@ -46,8 +55,9 @@ React (overview)
 
 - `React Core Concepts` как промежуточный слой только ради симметрии;
 - `React State Management` как обзорную ветку, если пока нет самостоятельного корпуса;
-- `Class Components`, `Lifecycle Methods`, `Synthetic Events`, `React Reconciliation`, если ветка еще не разрослась до этих тем;
-- отдельный `overview` для `Functional Components`, если тема пока естественно встраивается в статьи про rendering model и hooks.
+- `Lifecycle Methods`, `Synthetic Events`, `React Reconciliation`, если ветка еще не разрослась до этих тем;
+- дополнительный `overview` между `React` и `React Components` только ради симметрии;
+- отдельные статьи на слишком мелкие формы component API без устойчивого корпуса вокруг них.
 
 Эти темы можно добавить позже, если ветка реально вырастет.
 
@@ -58,18 +68,24 @@ React (overview)
 ```text
 02. Corpus Mundi/
 ├── C/
-│   ├── Components and Props.md
+│   ├── Class Components.md
+│   ├── Component Composition.md
 │   └── Custom Hooks.md
+├── F/
+│   ├── Functional Components.md
+│   └── Props in React.md
 ├── J/
 │   └── JSX.md
 ├── R/
 │   ├── React.md
+│   ├── React Components.md
 │   ├── React Hooks.md
 │   ├── React Rendering Model.md
 │   └── Rules of Hooks.md
 └── U/
     ├── useState.md
     ├── useEffect.md
+    ├── useMemo.md
     ├── useReducer.md
     ├── useContext.md
     └── useRef.md
@@ -87,12 +103,17 @@ React (overview)
 
 - `React.md`
 - `JSX.md`
-- `Components and Props.md`
+- `React Components.md`
+- `Props in React.md`
+- `Functional Components.md`
+- `Component Composition.md`
+- `Class Components.md`
 - `React Rendering Model.md`
 - `React Hooks.md`
 - `Rules of Hooks.md`
 - `useState.md`
 - `useEffect.md`
+- `useMemo.md`
 - `useReducer.md`
 - `useContext.md`
 - `useRef.md`
