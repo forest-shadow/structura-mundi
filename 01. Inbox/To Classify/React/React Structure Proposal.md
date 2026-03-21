@@ -26,7 +26,12 @@ React (overview)
 │   ├── Functional Components (article)
 │   ├── Component Composition (article)
 │   └── Class Components (article)
-├── React Rendering Model (article)
+├── React Rendering Model (overview)
+│   ├── React Render (article)
+│   ├── React Reconciliation (article)
+│   ├── React State Updates (article)
+│   ├── React Component Re-renders (article)
+│   └── React.memo (article)
 └── React Hooks (overview)
     ├── Rules of Hooks (article)
     ├── useState (article)
@@ -46,7 +51,9 @@ React (overview)
 - `React Components` тоже оправдан как вложенный `overview`, потому что прежний узел `Components and Props` смешивал несколько разных объектов знания и лучше работает как связующая рамка.
 - `Props in React` вынесены отдельно, поскольку это самостоятельное понятие, а не просто подпункт общего введения.
 - `Functional Components` и `Class Components` имеют смысл как отдельные статьи, потому что представляют разные формы компонентной модели.
-- `JSX` и `React Rendering Model` остаются обычными `article`, потому что пока для них не нужен отдельный уровень вложенности.
+- `React Rendering Model` теперь оправдан как вложенный `overview`, потому что внутри него уже есть устойчивый набор самостоятельных тем: render, reconciliation, state updates, повторные рендеры и `React.memo`.
+- `React.memo` остаётся отдельной статьёй внутри этой ветки, потому что это самостоятельный API-узел с собственной границей темы: он относится к повторным рендерам компонентов, а не к hook-кластеру.
+- `JSX` остаётся обычной `article`, потому что пока для него не нужен отдельный overview-слой.
 - Структура остается в допустимой минимальной форме: `root overview -> sub-overview -> articles`.
 
 ## Что не нужно создавать заранее
@@ -55,7 +62,7 @@ React (overview)
 
 - `React Core Concepts` как промежуточный слой только ради симметрии;
 - `React State Management` как обзорную ветку, если пока нет самостоятельного корпуса;
-- `Lifecycle Methods`, `Synthetic Events`, `React Reconciliation`, если ветка еще не разрослась до этих тем;
+- `Lifecycle Methods`, `Synthetic Events`, `Render Phase`, если ветка еще не разрослась до этих тем;
 - дополнительный `overview` между `React` и `React Components` только ради симметрии;
 - отдельные статьи на слишком мелкие формы component API без устойчивого корпуса вокруг них.
 
@@ -80,7 +87,12 @@ React (overview)
 │   ├── React.md
 │   ├── React Components.md
 │   ├── React Hooks.md
+│   ├── React Component Re-renders.md
+│   ├── React Reconciliation.md
+│   ├── React Render.md
 │   ├── React Rendering Model.md
+│   ├── React State Updates.md
+│   └── React.memo.md
 │   └── Rules of Hooks.md
 └── U/
     ├── useState.md
@@ -109,6 +121,11 @@ React (overview)
 - `Component Composition.md`
 - `Class Components.md`
 - `React Rendering Model.md`
+- `React Render.md`
+- `React Reconciliation.md`
+- `React State Updates.md`
+- `React Component Re-renders.md`
+- `React.memo.md`
 - `React Hooks.md`
 - `Rules of Hooks.md`
 - `useState.md`
