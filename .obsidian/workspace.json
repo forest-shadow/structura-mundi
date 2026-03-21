@@ -112,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/React/React.memo.md",
+                "file": "02. Corpus Mundi/R/React.memo.md",
                 "mode": "source",
                 "source": false
               },
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/React/React.memo.md",
+                "file": "02. Corpus Mundi/R/React.memo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -316,7 +316,7 @@
     "01. Inbox/To Classify/React/React State Updates.md",
     "01. Inbox/To Classify/React/React Reconciliation.md",
     "01. Inbox/To Classify/React/React Render.md",
-    "01. Inbox/To Classify/React/React.memo.md",
+    "02. Corpus Mundi/R/React.memo.md",
     "01. Inbox/To Classify/Browser Loading Hints/Script Loading Attributes.md",
     "01. Inbox/To Classify/Browser Loading Hints/Resource Hints.md",
     "01. Inbox/To Classify/Browser Loading Hints/Preload.md",

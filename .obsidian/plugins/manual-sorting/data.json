@@ -89,6 +89,9 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Browser Loading Hints",
+        "01. Inbox/To Classify/CORS",
+        "01. Inbox/To Classify/Taxonomy",
         "01. Inbox/To Classify/Automata Theory",
         "01. Inbox/To Classify/Golang",
         "01. Inbox/To Classify/Semantics",
@@ -105,7 +108,6 @@
     },
     "01. Inbox/To Classify/Automata Theory": {
       "children": [
-        "01. Inbox/To Classify/Automata Theory/Automata Theory.md",
         "01. Inbox/To Classify/Automata Theory/Automata Theory Structure Proposal.md",
         "01. Inbox/To Classify/Automata Theory/Chomsky Hierarchy.md",
         "01. Inbox/To Classify/Automata Theory/Deterministic Finite Automaton.md",
@@ -118,6 +120,34 @@
         "01. Inbox/To Classify/Automata Theory/Pushdown Automaton.md",
         "01. Inbox/To Classify/Automata Theory/Regular Language.md",
         "01. Inbox/To Classify/Automata Theory/Turing Machine.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Browser Loading Hints": {
+      "children": [
+        "01. Inbox/To Classify/Browser Loading Hints/Async Script.md",
+        "01. Inbox/To Classify/Browser Loading Hints/Browser Loading Hints.md",
+        "01. Inbox/To Classify/Browser Loading Hints/Browser Loading Hints Structure Proposal.md",
+        "01. Inbox/To Classify/Browser Loading Hints/Defer Script.md",
+        "01. Inbox/To Classify/Browser Loading Hints/Modulepreload.md",
+        "01. Inbox/To Classify/Browser Loading Hints/Prefetch.md",
+        "01. Inbox/To Classify/Browser Loading Hints/Preload.md",
+        "01. Inbox/To Classify/Browser Loading Hints/Resource Hints.md",
+        "01. Inbox/To Classify/Browser Loading Hints/Script Loading Attributes.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/CORS": {
+      "children": [
+        "01. Inbox/To Classify/CORS/CORS.md",
+        "01. Inbox/To Classify/CORS/CORS Request Headers.md",
+        "01. Inbox/To Classify/CORS/CORS Response Headers.md",
+        "01. Inbox/To Classify/CORS/CORS Structure Proposal.md",
+        "01. Inbox/To Classify/CORS/Credentialed CORS Requests.md",
+        "01. Inbox/To Classify/CORS/Preflight Request.md",
+        "01. Inbox/To Classify/CORS/Same-Origin Policy.md",
+        "01. Inbox/To Classify/CORS/Web Origin.md",
+        "01. Inbox/To Classify/CORS/Web Origin Model.md"
       ],
       "sortOrder": "custom"
     },
@@ -197,7 +227,15 @@
     },
     "01. Inbox/To Classify/React": {
       "children": [
-        "01. Inbox/To Classify/React/Components and Props.md",
+        "01. Inbox/To Classify/React/Class Components.md",
+        "01. Inbox/To Classify/React/Component Composition.md",
+        "01. Inbox/To Classify/React/Functional Components.md",
+        "01. Inbox/To Classify/React/Props in React.md",
+        "01. Inbox/To Classify/React/React Component Re-renders.md",
+        "01. Inbox/To Classify/React/React Components.md",
+        "01. Inbox/To Classify/React/React Reconciliation.md",
+        "01. Inbox/To Classify/React/React Render.md",
+        "01. Inbox/To Classify/React/React State Updates.md",
         "01. Inbox/To Classify/React/Custom Hooks.md",
         "01. Inbox/To Classify/React/JSX.md",
         "01. Inbox/To Classify/React/React Hooks Structure Proposal.md",
@@ -232,6 +270,17 @@
         "01. Inbox/To Classify/Syllogistics/Syllogism Structure Proposal.md",
         "01. Inbox/To Classify/Syllogistics/Syllogistic Figure.md",
         "01. Inbox/To Classify/Syllogistics/Syllogistic Mood.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Taxonomy": {
+      "children": [
+        "01. Inbox/To Classify/Taxonomy/Faceted Classification.md",
+        "01. Inbox/To Classify/Taxonomy/Hierarchical Classification.md",
+        "01. Inbox/To Classify/Taxonomy/Taxonomy.md",
+        "01. Inbox/To Classify/Taxonomy/Taxonomy and Folksonomy.md",
+        "01. Inbox/To Classify/Taxonomy/Taxonomy and Ontology.md",
+        "01. Inbox/To Classify/Taxonomy/Taxonomy Structure Proposal.md"
       ],
       "sortOrder": "custom"
     },
@@ -311,6 +360,7 @@
     },
     "02. Corpus Mundi/A": {
       "children": [
+        "02. Corpus Mundi/A/Automata Theory.md",
         "02. Corpus Mundi/A/ACID.md"
       ],
       "sortOrder": "custom"
@@ -390,6 +440,7 @@
     },
     "02. Corpus Mundi/R": {
       "children": [
+        "02. Corpus Mundi/R/React.memo.md",
         "02. Corpus Mundi/R/React.md",
         "02. Corpus Mundi/R/React Hooks.md"
       ],
@@ -410,6 +461,7 @@
     },
     "02. Corpus Mundi/U": {
       "children": [
+        "02. Corpus Mundi/U/useMemo.md",
         "02. Corpus Mundi/U/useReducer.md",
         "02. Corpus Mundi/U/useState.md"
       ],
