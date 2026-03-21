@@ -31,6 +31,7 @@ React (overview)
 │   ├── React Reconciliation (article)
 │   ├── React State Updates (article)
 │   ├── React Component Re-renders (article)
+│   ├── React Key Prop (article)
 │   └── React.memo (article)
 └── React Hooks (overview)
     ├── Rules of Hooks (article)
@@ -52,6 +53,7 @@ React (overview)
 - `Props in React` вынесены отдельно, поскольку это самостоятельное понятие, а не просто подпункт общего введения.
 - `Functional Components` и `Class Components` имеют смысл как отдельные статьи, потому что представляют разные формы компонентной модели.
 - `React Rendering Model` теперь оправдан как вложенный `overview`, потому что внутри него уже есть устойчивый набор самостоятельных тем: render, reconciliation, state updates, повторные рендеры и `React.memo`.
+- `React Key Prop` оправдан как отдельная соседняя статья внутри `React Rendering Model`: он тесно связан с reconciliation, но ради одной такой темы не стоит превращать `React Reconciliation` в отдельный `overview`.
 - `React.memo` остаётся отдельной статьёй внутри этой ветки, потому что это самостоятельный API-узел с собственной границей темы: он относится к повторным рендерам компонентов, а не к hook-кластеру.
 - `JSX` остаётся обычной `article`, потому что пока для него не нужен отдельный overview-слой.
 - Структура остается в допустимой минимальной форме: `root overview -> sub-overview -> articles`.
@@ -88,6 +90,7 @@ React (overview)
 │   ├── React Components.md
 │   ├── React Hooks.md
 │   ├── React Component Re-renders.md
+│   ├── React Key Prop.md
 │   ├── React Reconciliation.md
 │   ├── React Render.md
 │   ├── React Rendering Model.md
@@ -125,6 +128,7 @@ React (overview)
 - `React Reconciliation.md`
 - `React State Updates.md`
 - `React Component Re-renders.md`
+- `React Key Prop.md`
 - `React.memo.md`
 - `React Hooks.md`
 - `Rules of Hooks.md`
