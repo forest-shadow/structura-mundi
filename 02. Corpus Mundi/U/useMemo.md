@@ -6,7 +6,7 @@ area: computer-science
 domain: frontend-engineering
 section: react-hooks
 parent: "[[React Hooks]]"
-status: seed
+status: draft
 related:
   - "[[Rules of Hooks]]"
   - "[[React Rendering Model]]"
