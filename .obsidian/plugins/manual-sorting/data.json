@@ -206,9 +206,7 @@
         "01. Inbox/To Classify/React/Rules of Hooks.md",
         "01. Inbox/To Classify/React/useContext.md",
         "01. Inbox/To Classify/React/useEffect.md",
-        "01. Inbox/To Classify/React/useReducer.md",
-        "01. Inbox/To Classify/React/useRef.md",
-        "01. Inbox/To Classify/React/useState.md"
+        "01. Inbox/To Classify/React/useRef.md"
       ],
       "sortOrder": "custom"
     },
@@ -411,7 +409,10 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/U": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/U/useReducer.md",
+        "02. Corpus Mundi/U/useState.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/V": {
