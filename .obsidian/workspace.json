@@ -108,9 +108,23 @@
               "icon": "lucide-file",
               "title": "useCallback"
             }
+          },
+          {
+            "id": "a43b3120eb49c0cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02. Corpus Mundi/V/Virtual DOM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Virtual DOM"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -183,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/U/useCallback.md",
+                "file": "02. Corpus Mundi/V/Virtual DOM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of useCallback"
+              "title": "Outline of Virtual DOM"
             }
           },
           {
@@ -351,16 +365,16 @@
       }
     ]
   },
-  "active": "8210fe3ad179351c",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/React/Virtual DOM.md",
+    "Tabula Ortus.md",
+    "01. Inbox/To Classify/React/React Structure Proposal.md",
+    "02. Corpus Mundi/V/Virtual DOM.md",
+    "02. Corpus Mundi/U/useCallback.md",
     "01. Inbox/To Classify/React/React Rendering Model.md",
     "01. Inbox/To Classify/React/React.md",
     "02. Corpus Mundi/R/React Key Prop.md",
-    "Tabula Ortus.md",
-    "02. Corpus Mundi/U/useCallback.md",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
-    "01. Inbox/To Classify/React/React Structure Proposal.md",
     "02. Corpus Mundi/R/React.md",
     "02. Corpus Mundi/R/React Rendering Model.md",
     "01. Inbox/To Classify/TCP IP Model/TCP IP Internet Layer.md",
