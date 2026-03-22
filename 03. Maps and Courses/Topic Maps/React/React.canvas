@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"85740e0f5f892e20","type":"group","x":-320,"y":100,"width":440,"height":640,"color":"2","label":"React Rendering Model"},
+		{"id":"85740e0f5f892e20","type":"group","x":-320,"y":100,"width":460,"height":620,"color":"2","label":"React Rendering Model"},
 		{"id":"5512cc2f6bbfe27e","type":"group","x":-840,"y":100,"width":400,"height":460,"color":"2","label":"React Components"},
 		{
 			"id":"1250d8bd1800c44d",
@@ -14,14 +14,48 @@
 			"color":"1"
 		},
 		{
-			"id":"6a2be3a8fe38154b",
+			"id":"328ea46db6e013d7",
 			"type":"text",
-			"text":"JSX",
+			"text":"React Key Prop",
 			"styleAttributes":{},
 			"x":-220,
-			"y":-440,
+			"y":540,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"e08b1e3074e83431",
+			"type":"text",
+			"text":"[[React Rendering Model]]",
+			"styleAttributes":{},
+			"x":-260,
+			"y":140,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"ede1909904d511bc",
+			"type":"text",
+			"text":"React Render",
+			"styleAttributes":{},
+			"x":-220,
+			"y":220,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"b982e859fd7c56f9",
+			"type":"text",
+			"text":"[[React.memo]]",
+			"styleAttributes":{},
+			"x":-220,
+			"y":620,
+			"width":260,
+			"height":60,
+			"color":"2"
 		},
 		{
 			"id":"0ce536785d2f7306",
@@ -84,7 +118,7 @@
 			"text":"React Reconciliation",
 			"styleAttributes":{},
 			"x":-220,
-			"y":380,
+			"y":300,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -95,40 +129,7 @@
 			"text":"React State Updates",
 			"styleAttributes":{},
 			"x":-220,
-			"y":460,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"328ea46db6e013d7",
-			"type":"text",
-			"text":"React Key Prop",
-			"styleAttributes":{},
-			"x":-220,
-			"y":540,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"e08b1e3074e83431",
-			"type":"text",
-			"text":"React Rendering Model",
-			"styleAttributes":{},
-			"x":-260,
-			"y":140,
-			"width":260,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"ede1909904d511bc",
-			"type":"text",
-			"text":"React Render",
-			"styleAttributes":{},
-			"x":-220,
-			"y":220,
+			"y":380,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -139,21 +140,20 @@
 			"text":"React Component Re-renders",
 			"styleAttributes":{},
 			"x":-220,
-			"y":300,
+			"y":460,
 			"width":320,
 			"height":60,
 			"color":"2"
 		},
 		{
-			"id":"b982e859fd7c56f9",
+			"id":"6a2be3a8fe38154b",
 			"type":"text",
-			"text":"React.memo",
+			"text":"JSX",
 			"styleAttributes":{},
 			"x":-220,
-			"y":620,
+			"y":-440,
 			"width":260,
-			"height":60,
-			"color":"2"
+			"height":60
 		}
 	],
 	"edges":[

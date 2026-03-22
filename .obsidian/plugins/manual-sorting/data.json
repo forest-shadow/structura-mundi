@@ -89,6 +89,8 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/OSI Model",
+        "01. Inbox/To Classify/TCP IP Model",
         "01. Inbox/To Classify/Browser Loading Hints",
         "01. Inbox/To Classify/CORS",
         "01. Inbox/To Classify/Taxonomy",
@@ -225,8 +227,23 @@
       ],
       "sortOrder": "custom"
     },
+    "01. Inbox/To Classify/OSI Model": {
+      "children": [
+        "01. Inbox/To Classify/OSI Model/Application Layer.md",
+        "01. Inbox/To Classify/OSI Model/Data Link Layer.md",
+        "01. Inbox/To Classify/OSI Model/Network Layer.md",
+        "01. Inbox/To Classify/OSI Model/OSI Model.md",
+        "01. Inbox/To Classify/OSI Model/OSI Model Structure Proposal.md",
+        "01. Inbox/To Classify/OSI Model/Physical Layer.md",
+        "01. Inbox/To Classify/OSI Model/Presentation Layer.md",
+        "01. Inbox/To Classify/OSI Model/Session Layer.md",
+        "01. Inbox/To Classify/OSI Model/Transport Layer.md"
+      ],
+      "sortOrder": "custom"
+    },
     "01. Inbox/To Classify/React": {
       "children": [
+        "01. Inbox/To Classify/React/React Key Prop.md",
         "01. Inbox/To Classify/React/Class Components.md",
         "01. Inbox/To Classify/React/Component Composition.md",
         "01. Inbox/To Classify/React/Functional Components.md",
@@ -239,7 +256,6 @@
         "01. Inbox/To Classify/React/Custom Hooks.md",
         "01. Inbox/To Classify/React/JSX.md",
         "01. Inbox/To Classify/React/React Hooks Structure Proposal.md",
-        "01. Inbox/To Classify/React/React Rendering Model.md",
         "01. Inbox/To Classify/React/React Structure Proposal.md",
         "01. Inbox/To Classify/React/Rules of Hooks.md",
         "01. Inbox/To Classify/React/useContext.md",
@@ -281,6 +297,17 @@
         "01. Inbox/To Classify/Taxonomy/Taxonomy and Folksonomy.md",
         "01. Inbox/To Classify/Taxonomy/Taxonomy and Ontology.md",
         "01. Inbox/To Classify/Taxonomy/Taxonomy Structure Proposal.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/TCP IP Model": {
+      "children": [
+        "01. Inbox/To Classify/TCP IP Model/TCP IP Application Layer.md",
+        "01. Inbox/To Classify/TCP IP Model/TCP IP Internet Layer.md",
+        "01. Inbox/To Classify/TCP IP Model/TCP IP Link Layer.md",
+        "01. Inbox/To Classify/TCP IP Model/TCP IP Model.md",
+        "01. Inbox/To Classify/TCP IP Model/TCP IP Model Structure Proposal.md",
+        "01. Inbox/To Classify/TCP IP Model/TCP IP Transport Layer.md"
       ],
       "sortOrder": "custom"
     },
@@ -440,6 +467,7 @@
     },
     "02. Corpus Mundi/R": {
       "children": [
+        "02. Corpus Mundi/R/React Rendering Model.md",
         "02. Corpus Mundi/R/React.memo.md",
         "02. Corpus Mundi/R/React.md",
         "02. Corpus Mundi/R/React Hooks.md"
@@ -489,7 +517,6 @@
     },
     "03. Maps and Courses": {
       "children": [
-        "03. Maps and Courses/React",
         "03. Maps and Courses/Learning Paths",
         "03. Maps and Courses/Reading Orders",
         "03. Maps and Courses/Topic Maps"
@@ -506,6 +533,7 @@
     },
     "03. Maps and Courses/Topic Maps": {
       "children": [
+        "03. Maps and Courses/Topic Maps/React",
         "03. Maps and Courses/Topic Maps/DBMS",
         "03. Maps and Courses/Topic Maps/Javascript"
       ],
@@ -530,6 +558,12 @@
       "children": [
         "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
         "03. Maps and Courses/Topic Maps/Javascript/JavaScript.base"
+      ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/React": {
+      "children": [
+        "03. Maps and Courses/Topic Maps/React/React.canvas"
       ],
       "sortOrder": "custom"
     },
@@ -590,10 +624,6 @@
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
       ],
-      "sortOrder": "custom"
-    },
-    "03. Maps and Courses/React": {
-      "children": [],
       "sortOrder": "custom"
     }
   },

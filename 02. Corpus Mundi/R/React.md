@@ -9,6 +9,7 @@ status: seed
 related:
   - "[[JSX]]"
   - "[[React Hooks]]"
+  - "[[React Rendering Model]]"
 tags: []
 ---
 # 1. React
@@ -25,7 +26,7 @@ tags: []
 
 Топология связанных материалов:
 - Дочерний обзорный узел (overview): [[React Hooks]].
-- Базовые дочерние узлы (article): `[[JSX]]`, `[[React Components]]`, `[[Props]]`, `[[Rendering]]`, `[[State]]`, `[[Effects]]`, `[[Context]]`, `[[Refs]]`.
+- Базовые дочерние узлы (article): `[[JSX]]`, `[[React Components]]`, `[[Props]]`, [[React Rendering Model]], `[[State]]`, `[[Effects]]`, `[[Context]]`, `[[Refs]]`.
 - Соседние обзорные ветки: `[[State Management]]`, `[[Routing]]`, `[[Data Fetching]]`.
 
 # 3. Историческое развитие и эволюция концепта
@@ -115,5 +116,5 @@ $$UI_t = Commit(Render(Tree, Props_t, State_t, Context_t))$$
 - `[[React Hooks]]`: современный способ выражения состояния, эффектов, refs, контекста и custom-логики.
 - `[[Context]]`: механизм глубокой передачи данных в поддереве компонентов.
 - `[[Effects]]`: escape hatch для синхронизации с внешними системами.
-- `[[Rendering]]`: процесс вычисления и фиксации нового UI-состояния.
+- [[React Rendering Model]]: процесс вычисления и фиксации нового UI-состояния.
 - `[[State Management]]`, `[[Routing]]`, `[[Data Fetching]]`: соседние обзорные ветки, которые часто строятся поверх React, но концептуально не исчерпываются им.
