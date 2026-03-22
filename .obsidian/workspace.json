@@ -109,8 +109,7 @@
               "title": "React Key Prop"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/R/React Key Prop.md",
+                "file": "Tabula Ortus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of React Key Prop"
+              "title": "Outline of Tabula Ortus"
             }
           },
           {
@@ -351,11 +350,11 @@
       }
     ]
   },
-  "active": "8210fe3ad179351c",
+  "active": "c340083190100fc4",
   "lastOpenFiles": [
+    "02. Corpus Mundi/R/React Key Prop.md",
     "01. Inbox/To Classify/React/useCallback.md",
     "Tabula Ortus.md",
-    "02. Corpus Mundi/R/React Key Prop.md",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "01. Inbox/To Classify/React/React Structure Proposal.md",
     "02. Corpus Mundi/R/React.md",
