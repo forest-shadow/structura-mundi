@@ -37,6 +37,7 @@ React (overview)
     ├── Rules of Hooks (article)
     ├── useState (article)
     ├── useEffect (article)
+    ├── useCallback (article)
     ├── useMemo (article)
     ├── useReducer (article)
     ├── useContext (article)
@@ -49,6 +50,7 @@ React (overview)
 - `React` является естественной канонической обзорной точкой входа для всей ветки.
 - `React Hooks` оправдан как вложенный `overview`, потому что внутри hooks уже есть собственный устойчивый набор дочерних статей.
 - `useMemo` теперь тоже включён в устойчивый hook-кластер, потому что это самостоятельный API с отдельной границей темы.
+- `useCallback` теперь тоже включён в устойчивый hook-кластер, потому что это самостоятельный API с отдельной границей темы: стабильность callback references, а не мемоизация значений.
 - `React Components` тоже оправдан как вложенный `overview`, потому что прежний узел `Components and Props` смешивал несколько разных объектов знания и лучше работает как связующая рамка.
 - `Props in React` вынесены отдельно, поскольку это самостоятельное понятие, а не просто подпункт общего введения.
 - `Functional Components` и `Class Components` имеют смысл как отдельные статьи, потому что представляют разные формы компонентной модели.
@@ -100,6 +102,7 @@ React (overview)
 └── U/
     ├── useState.md
     ├── useEffect.md
+    ├── useCallback.md
     ├── useMemo.md
     ├── useReducer.md
     ├── useContext.md
@@ -134,6 +137,7 @@ React (overview)
 - `Rules of Hooks.md`
 - `useState.md`
 - `useEffect.md`
+- `useCallback.md`
 - `useMemo.md`
 - `useReducer.md`
 - `useContext.md`

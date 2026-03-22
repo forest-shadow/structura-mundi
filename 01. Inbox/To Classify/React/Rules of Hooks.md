@@ -11,6 +11,7 @@ status: seed
 related:
   - "[[useState]]"
   - "[[useEffect]]"
+  - "[[useCallback]]"
   - "[[useMemo]]"
   - "[[Custom Hooks]]"
 tags: []
@@ -41,6 +42,7 @@ Rules of Hooks - это набор правил, определяющих, гд�
 
 - `[[useState]]`
 - `[[useEffect]]`
+- `[[useCallback]]`
 - `[[useMemo]]`
 - `[[Custom Hooks]]`
 
