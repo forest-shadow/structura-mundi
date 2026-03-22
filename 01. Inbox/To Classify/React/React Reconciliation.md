@@ -10,6 +10,7 @@ related:
   - "[[React Render]]"
   - "[[React Component Re-renders]]"
   - "[[React Key Prop]]"
+  - "[[Virtual DOM]]"
 tags: []
 ---
 
@@ -50,10 +51,11 @@ tags: []
 - `[[React Render]]`
 - `[[React Component Re-renders]]`
 - `[[React Key Prop]]`
+- `[[Virtual DOM]]`
 
 ## Примеры, случаи или следствия
 
-Добавить примеры, где различие между render и reconciliation помогает понять обновление компонентов, и место `React Key Prop` в этой логике.
+Добавить примеры, где различие между render и reconciliation помогает понять обновление компонентов, место `React Key Prop` в этой логике и связь с `Virtual DOM` как объясняющей абстракцией.
 
 ## Что стоит раскрыть дальше
 

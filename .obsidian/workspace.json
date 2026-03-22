@@ -101,15 +101,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/R/React Key Prop.md",
+                "file": "02. Corpus Mundi/U/useCallback.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React Key Prop"
+              "title": "useCallback"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -182,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tabula Ortus.md",
+                "file": "02. Corpus Mundi/U/useCallback.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tabula Ortus"
+              "title": "Outline of useCallback"
             }
           },
           {
@@ -350,11 +351,14 @@
       }
     ]
   },
-  "active": "c340083190100fc4",
+  "active": "8210fe3ad179351c",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/React/Virtual DOM.md",
+    "01. Inbox/To Classify/React/React Rendering Model.md",
+    "01. Inbox/To Classify/React/React.md",
     "02. Corpus Mundi/R/React Key Prop.md",
-    "01. Inbox/To Classify/React/useCallback.md",
     "Tabula Ortus.md",
+    "02. Corpus Mundi/U/useCallback.md",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "01. Inbox/To Classify/React/React Structure Proposal.md",
     "02. Corpus Mundi/R/React.md",
@@ -378,9 +382,6 @@
     "01. Inbox/To Classify/OSI Model/Application Layer.md",
     "01. Inbox/To Classify/OSI Model",
     "01. Inbox/To Classify/React/React Hooks Structure Proposal.md",
-    "02. Corpus Mundi/R/React.memo.md",
-    "01. Inbox/To Classify/React/React Reconciliation.md",
-    "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/React",
     "01. Inbox/To Classify/Browser Loading Hints",
     "01. Inbox/To Classify/CORS",
