@@ -4,7 +4,7 @@
 
 Этот файл фиксирует рабочую иерархию заметок для темы `React` по правилам `Principia Rerum`.
 
-Ветка пока размещена в `Inbox`, потому что для неё ещё требуется подтверждённая словарная рамка:
+Ветка пока размещена в `Inbox`, но её словарная рамка уже подтверждена в `Controlled Vocabulary`:
 
 - `area: computer-science`
 - `domain: frontend-engineering`
@@ -26,6 +26,8 @@ React (overview)
 │   ├── React Reconciliation (article)
 │   ├── React State Updates (article)
 │   ├── React Component Re-renders (article)
+│   ├── React Key Prop (article)
+│   ├── React.memo (article)
 │   └── Virtual DOM (article)
 └── React Hooks (overview)
     ├── Rules of Hooks (article)
@@ -43,8 +45,10 @@ React (overview)
 
 - `React` выступает корневым `overview` для всей ветки.
 - `React Components` нужен как связующий обзорный узел для компонентной модели, а не как одна общая статья про всё сразу.
-- `React Rendering Model` лучше держать отдельным `overview`, потому что внутри него уже есть устойчивый набор тем: render, reconciliation, state updates и повторные рендеры.
+- `React Rendering Model` лучше держать отдельным `overview`, потому что внутри него уже есть устойчивый набор тем: render, reconciliation, state updates, повторные рендеры, identity-механизмы вроде `React Key Prop` и оптимизационные узлы вроде `React.memo`.
 - `Virtual DOM` корректнее держать как отдельную `article` внутри `React Rendering Model`, а не как синоним всей rendering-модели React.
+- `React Key Prop` тоже корректно держать внутри `React Rendering Model`, потому что по смыслу он относится к identity элементов в reconciliation, а не к общей теме props.
+- `React.memo` тоже корректно держать внутри `React Rendering Model`, потому что по смыслу он относится к модели повторных рендеров компонентов, а не к hook-ветке.
 - `React Hooks` остаётся отдельным `overview`, потому что это самостоятельный API-кластер со своими правилами и устойчивым набором дочерних тем.
 
 ## Что не стоит создавать заранее
@@ -61,8 +65,35 @@ React (overview)
 
 ## Следующий шаг перед переносом в Corpus Mundi
 
-1. Подтвердить `domain: frontend-engineering`.
-2. Подтвердить `section: react`.
-3. Подтвердить `section: react-hooks`.
-4. Досоздать недостающие stubs для уже принятой React-иерархии.
-5. После этого переводить заметки из `seed` в рабочие черновики.
+1. Досоздать недостающие stubs для уже принятой React-иерархии.
+2. После этого переводить заметки из `seed` в рабочие черновики.
+
+
+# React Rendering Model
+
+[[React Rendering Model]] — Обзорная заметка про то, как React вычисляет новое представление интерфейса, сопоставляет его с предыдущим и приводит UI к новому состоянию.
+
+## Что входит в эту тему
+
+- `[[React Render]]`
+- `[[React Reconciliation]]`
+- `[[React State Updates]]`
+- `[[React Component Re-renders]]`
+- `[[React Key Prop]]`
+- `[[React.memo]]`
+- `[[Virtual DOM]]`
+
+## Как устроена ветка
+
+- `React Rendering Model` служит обзорной рамкой для тем про render, reconciliation, state updates, повторные рендеры, identity-механизмы вроде `React Key Prop` и локальные оптимизации вроде `React.memo`.
+- `Virtual DOM` полезно держать рядом как объясняющую статью про промежуточное представление UI, но не как замену всей rendering-модели.
+- `React Key Prop` стоит держать рядом как отдельную статью про identity элементов в процессе reconciliation, а не как подпункт общей статьи про props.
+- `React.memo` тоже стоит держать рядом как отдельную статью про оптимизацию повторных рендеров на границе компонента, а не смешивать его с hooks или общей темой props.
+- Более узкие темы внутри reconciliation стоит выносить только тогда, когда они образуют самостоятельный корпус, а не просто удобный подпункт объяснения.
+
+## Рекомендуемый маршрут чтения
+
+1. Начать с `React Rendering Model`.
+2. Затем читать `[[React Render]]` и `[[React Reconciliation]]`.
+3. После этого перейти к `[[React State Updates]]`, `[[React Component Re-renders]]`, `[[React Key Prop]]` и `[[React.memo]]`.
+4. `[[Virtual DOM]]` использовать как поясняющую статью про внутреннее представление и историческую рамку объяснения.

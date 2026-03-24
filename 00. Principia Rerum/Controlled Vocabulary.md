@@ -153,6 +153,14 @@
 - `react`
 - `react-hooks`
 
+Эти значения считаются подтвержденными и активными:
+
+- `domain: frontend-engineering`
+- `section: react`
+- `section: react-hooks`
+
+Они уже используются в `Corpus Mundi` и не должны дальше помечаться как "предлагаемые новые значения" в рабочих React-ветках.
+
 #### `computer-science -> programming-languages`
 
 - `go`
