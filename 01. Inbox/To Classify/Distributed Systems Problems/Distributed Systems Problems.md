@@ -6,9 +6,10 @@ note_type: overview
 area: computer-science
 domain: distributed-systems
 section: distributed-systems-problems
-parent:
+parent: "[[Distributed Systems]]"
 status: seed
 related:
+  - "[[Distributed Systems]]"
   - "[[Partial Failure]]"
   - "[[Time and Ordering]]"
   - "[[Coordination and Consensus]]"

@@ -7,9 +7,10 @@ note_type: overview
 area: computer-science
 domain: programming-languages
 section: go
-parent:
+parent: "[[Programming Languages]]"
 status: seed
 related:
+  - "[[Programming Languages]]"
   - "[[Go Toolchain]]"
   - "[[Go Packages and Modules]]"
   - "[[Go Type System]]"

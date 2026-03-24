@@ -5,9 +5,10 @@ note_type: overview
 area: computer-science
 domain: frontend-engineering
 section: css
-parent:
+parent: "[[Frontend Engineering]]"
 status: seed
 related:
+  - "[[Frontend Engineering]]"
   - "[[CSS Cascade]]"
 tags: []
 ---

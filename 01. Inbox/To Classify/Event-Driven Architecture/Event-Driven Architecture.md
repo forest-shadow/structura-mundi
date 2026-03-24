@@ -6,9 +6,10 @@ note_type: overview
 area: computer-science
 domain: distributed-systems
 section: event-driven-architecture
-parent:
+parent: "[[Distributed Systems]]"
 status: seed
 related:
+  - "[[Distributed Systems]]"
   - "[[Event Collaboration Patterns]]"
   - "[[Publish-Subscribe]]"
   - "[[Transactional Outbox]]"
@@ -401,4 +402,3 @@ EDA глубоко интегрируется с паттернами деком
 ## Соседние overview-ветки
 
 Позже здесь могут появиться связанные ветки по `Event Sourcing`, `CQRS` или `Saga`, но пока они не обязательны для минимальной структуры.
-

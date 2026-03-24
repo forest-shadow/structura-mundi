@@ -4,9 +4,10 @@ note_type: overview
 area: computer-science
 domain: programming-languages
 section: javascript
-parent: ""
+parent: "[[Programming Languages]]"
 status: seed
 related:
+  - "[[Programming Languages]]"
   - "[[JavaScript Prototype System]]"
   - "[[JavaScript Scope Model]]"
 tags: []

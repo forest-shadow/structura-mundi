@@ -5,9 +5,10 @@ note_type: overview
 area: computer-science
 domain: algorithms
 section: algorithm-analysis
-parent:
+parent: "[[Algorithms]]"
 status: seed
 related:
+  - "[[Algorithms]]"
   - "[[Big O Notation]]"
   - "[[Sorting Algorithms]]"
 tags: []

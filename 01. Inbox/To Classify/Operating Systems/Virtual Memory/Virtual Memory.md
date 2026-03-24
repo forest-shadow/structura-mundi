@@ -6,9 +6,10 @@ note_type: overview
 area: computer-science
 domain: operating-systems
 section: memory-management
-parent:
+parent: "[[Operating Systems]]"
 status: seed
 related:
+  - "[[Operating Systems]]"
   - "[[Virtual Address Space]]"
   - "[[Paging]]"
 tags: []
@@ -27,6 +28,7 @@ tags: []
 
 ## Как устроена ветка
 
+- `Virtual Memory` теперь является дочерним `sub-overview` внутри `[[Operating Systems]]`.
 - `Virtual Address Space` фиксирует, какую именно абстракцию видит процесс.
 - `Paging` собирает под одной рамкой механизм разбиения памяти на страницы, структуру отображения и поведение системы при промахах по отображению.
 - Более детальные темы про translation cache и faults живут внутри `Paging`, а не напрямую под корнем.
@@ -40,7 +42,7 @@ tags: []
 
 ## Соседние overview-ветки
 
-- Позже рядом может появиться более широкая ветка про `Operating Systems`, если в базе сформируется устойчивый корпус по процессам, планированию и файловым системам.
+- Родительская рамка: `[[Operating Systems]]`
 
 ## Что стоит раскрыть дальше
 

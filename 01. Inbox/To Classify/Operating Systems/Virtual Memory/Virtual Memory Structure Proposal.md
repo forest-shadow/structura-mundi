@@ -2,7 +2,7 @@
 
 ## Назначение
 
-Этот файл фиксирует минимальную иерархию заметок для темы `Virtual Memory`, в которую естественно помещается рассмотрение понятия `OS Virtual Memory`, по правилам `Principia Rerum`.
+Этот файл фиксирует минимальную иерархию заметок для темы `Virtual Memory` внутри более широкой ветки `Operating Systems`, в которую естественно помещается рассмотрение понятия `OS Virtual Memory`, по правилам `Principia Rerum`.
 
 Для этой ветки нужна новая предметная рамка:
 
@@ -21,20 +21,21 @@
 ## Рекомендуемая иерархия
 
 ```text
-Virtual Memory (overview)
-├── Virtual Address Space (article)
-└── Paging (overview)
-    ├── Page Table (article)
-    ├── TLB (article)
-    └── Page Fault (article)
+Operating Systems (overview)
+└── Virtual Memory (overview)
+    ├── Virtual Address Space (article)
+    └── Paging (overview)
+        ├── Page Table (article)
+        ├── TLB (article)
+        └── Page Fault (article)
 ```
 
 ## Почему структура именно такая
 
-- `Virtual Memory` оправдан как корневой `overview`, потому что это не одна точка знания, а связанная ветка про адресное пространство, механизм отображения адресов и поведение системы при обращении к отсутствующей странице.
+- `Virtual Memory` оправдан как дочерний `sub-overview` внутри `Operating Systems`, потому что это не одна точка знания, а связанная ветка про адресное пространство, механизм отображения адресов и поведение системы при обращении к отсутствующей странице.
 - `Paging` оправдан как вложенный `sub-overview`, потому что внутри него уже есть несколько устойчивых дочерних тем: `Page Table`, `TLB`, `Page Fault`.
 - `Virtual Address Space` лучше держать отдельной `article` прямо под `Virtual Memory`, потому что это более общий концептуальный объект, а не подмеханизм paging pipeline.
-- Ветка остается минимально вложенной: `root overview -> sub-overview -> article`.
+- Ветка остается минимально вложенной: `root overview -> sub-overview -> article`, если смотреть изнутри `Virtual Memory`, и не требует дополнительного промежуточного уровня.
 
 ## Что не стоит создавать заранее
 
@@ -83,3 +84,4 @@ Virtual Memory (overview)
 1. Подтвердить `domain: operating-systems`.
 2. Подтвердить `section: memory-management`.
 3. Наполнить `Virtual Memory` и `Paging` так, чтобы уже из обзорных узлов было видно различие между общей моделью и конкретным механизмом страничной адресации.
+4. Согласовать эту ветку с корневым `[[Operating Systems]]`.
