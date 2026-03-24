@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"f93e975028d0efea","type":"group","x":260,"y":100,"width":520,"height":900,"color":"2","label":"React Hooks"},
 		{"id":"85740e0f5f892e20","type":"group","x":-320,"y":100,"width":460,"height":700,"color":"2","label":"React Rendering Model"},
 		{"id":"5512cc2f6bbfe27e","type":"group","x":-840,"y":100,"width":400,"height":460,"color":"2","label":"React Components"},
 		{
@@ -26,7 +27,7 @@
 		{
 			"id":"0ce536785d2f7306",
 			"type":"text",
-			"text":"React Components",
+			"text":"[[React Components]]",
 			"styleAttributes":{},
 			"x":-780,
 			"y":140,
@@ -79,6 +80,17 @@
 			"color":"2"
 		},
 		{
+			"id":"e08b1e3074e83431",
+			"type":"text",
+			"text":"[[React Rendering Model]]",
+			"styleAttributes":{},
+			"x":-260,
+			"y":140,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
 			"id":"328ea46db6e013d7",
 			"type":"text",
 			"text":"[[React Key Prop]]",
@@ -123,17 +135,6 @@
 			"color":"2"
 		},
 		{
-			"id":"e08b1e3074e83431",
-			"type":"text",
-			"text":"[[React Rendering Model]]",
-			"styleAttributes":{},
-			"x":-260,
-			"y":140,
-			"width":260,
-			"height":60,
-			"color":"1"
-		},
-		{
 			"id":"ede1909904d511bc",
 			"type":"text",
 			"text":"React Render",
@@ -162,6 +163,116 @@
 			"styleAttributes":{},
 			"x":-220,
 			"y":300,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"dc6741cda5fb5915",
+			"type":"text",
+			"text":"[[React Hooks]]",
+			"styleAttributes":{},
+			"x":320,
+			"y":140,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"6930ca15a7215153",
+			"type":"text",
+			"text":"Rules of Hooks",
+			"styleAttributes":{},
+			"x":360,
+			"y":220,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"cea3593991a5fa17",
+			"type":"text",
+			"text":"[[useState]]",
+			"styleAttributes":{},
+			"x":360,
+			"y":300,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"d2e1638e13bb6602",
+			"type":"text",
+			"text":"[[useReducer]]",
+			"styleAttributes":{},
+			"x":360,
+			"y":380,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"c24cb5713842ac29",
+			"type":"text",
+			"text":"useMemo",
+			"styleAttributes":{},
+			"x":360,
+			"y":620,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"e673861c5e89dcff",
+			"type":"text",
+			"text":"useCallback",
+			"styleAttributes":{},
+			"x":360,
+			"y":540,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"72de56881e56606b",
+			"type":"text",
+			"text":"useContext",
+			"styleAttributes":{},
+			"x":360,
+			"y":700,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"db15e29fd0b5aa51",
+			"type":"text",
+			"text":"useEffect",
+			"styleAttributes":{},
+			"x":360,
+			"y":460,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"88b5505b4077a0f6",
+			"type":"text",
+			"text":"useRef",
+			"styleAttributes":{},
+			"x":360,
+			"y":780,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"347da80891d900a6",
+			"type":"text",
+			"text":"Custom Hooks",
+			"styleAttributes":{},
+			"x":360,
+			"y":880,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -309,6 +420,88 @@
 			"fromNode":"e08b1e3074e83431",
 			"fromSide":"left",
 			"toNode":"6b721403dd99f347",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"a466120b85ebc05d",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1250d8bd1800c44d",
+			"fromSide":"bottom",
+			"toNode":"f93e975028d0efea",
+			"toSide":"top",
+			"color":"2"
+		},
+		{
+			"id":"99aa194d0eb736dc",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"dc6741cda5fb5915",
+			"fromSide":"left",
+			"toNode":"6930ca15a7215153",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"65e6730abb94a330",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"dc6741cda5fb5915",
+			"fromSide":"left",
+			"toNode":"e673861c5e89dcff",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"fcea50013f59bf8d",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"dc6741cda5fb5915",
+			"fromSide":"left",
+			"toNode":"d2e1638e13bb6602",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"6c5616a7d941c167",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"dc6741cda5fb5915",
+			"fromSide":"left",
+			"toNode":"db15e29fd0b5aa51",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"b95090a1dcb0ef55",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"dc6741cda5fb5915",
+			"fromSide":"left",
+			"toNode":"72de56881e56606b",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"8286e1deb8a1a1d7",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"dc6741cda5fb5915",
+			"fromSide":"left",
+			"toNode":"c24cb5713842ac29",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"278bcb07f8565fea",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"dc6741cda5fb5915",
+			"fromSide":"left",
+			"toNode":"cea3593991a5fa17",
 			"toSide":"left",
 			"color":"2"
 		}
