@@ -243,7 +243,8 @@
     },
     "01. Inbox/To Classify/React": {
       "children": [
-        "01. Inbox/To Classify/React/React Key Prop.md",
+        "01. Inbox/To Classify/React/React.md",
+        "01. Inbox/To Classify/React/React Rendering Model.md",
         "01. Inbox/To Classify/React/Class Components.md",
         "01. Inbox/To Classify/React/Component Composition.md",
         "01. Inbox/To Classify/React/Functional Components.md",
@@ -467,6 +468,7 @@
     },
     "02. Corpus Mundi/R": {
       "children": [
+        "02. Corpus Mundi/R/React Key Prop.md",
         "02. Corpus Mundi/R/React Rendering Model.md",
         "02. Corpus Mundi/R/React.memo.md",
         "02. Corpus Mundi/R/React.md",
@@ -489,6 +491,7 @@
     },
     "02. Corpus Mundi/U": {
       "children": [
+        "02. Corpus Mundi/U/useCallback.md",
         "02. Corpus Mundi/U/useMemo.md",
         "02. Corpus Mundi/U/useReducer.md",
         "02. Corpus Mundi/U/useState.md"
@@ -496,7 +499,9 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/V": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/V/Virtual DOM.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/W": {
