@@ -5,9 +5,10 @@ note_type: overview
 area: computer-science
 domain: web-platform
 section: browser-loading-hints
-parent:
+parent: "[[Browser Page Processing]]"
 status: seed
 related:
+  - "[[Browser Rendering]]"
   - "[[Script Loading Attributes]]"
   - "[[Resource Hints]]"
 tags:
@@ -28,7 +29,7 @@ tags:
 
 ## Как устроена ветка
 
-- `Browser Loading Hints` служит верхнеуровневой рамкой для разных классов hints.
+- `Browser Loading Hints` служит подветкой внутри более общего узла `Browser Page Processing`.
 - Атрибуты `async` и `defer` собраны в отдельную подветку про загрузку скриптов.
 - Механизмы `preload`, `prefetch` и `modulepreload` собраны в отдельную подветку resource hints.
 
@@ -40,7 +41,7 @@ tags:
 
 ## Соседние overview-ветки
 
-- Позже рядом может появиться более широкая ветка про web performance или browser networking, но сейчас она не нужна.
+- `[[Browser Rendering]]`
 
 ## Что стоит раскрыть дальше
 

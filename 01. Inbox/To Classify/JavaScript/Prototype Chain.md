@@ -39,9 +39,10 @@ tags:
 
 Связанные заметки:
 
-- `[[Internal Prototype Slot]]`
+- `[[JavaScript Prototype Internal Slot]]`
+- `[[JavaScript Prototype Internal Slot]]`
 - `[[Proto Accessor]]`
-- `[[Prototype Property]]`
+- `[[JavaScript prototype Property]]`
 
 ## Примеры, случаи или следствия
 

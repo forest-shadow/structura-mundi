@@ -2,7 +2,7 @@
 
 ## Назначение
 
-Этот файл фиксирует минимальную иерархию заметок для темы `Browser Loading Hints` по правилам `Principia Rerum`.
+Этот файл фиксирует минимальную иерархию заметок для темы `Browser Loading Hints` внутри более общего узла `Browser Page Processing` по правилам `Principia Rerum`.
 
 Ветка пока размещена в `Inbox`, потому что для неё требуется расширение управляемого словаря:
 
@@ -17,19 +17,20 @@
 ## Рекомендуемая иерархия
 
 ```text
-Browser Loading Hints (overview)
-├── Script Loading Attributes (overview)
-│   ├── Async Script.md (article)
-│   └── Defer Script.md (article)
-└── Resource Hints (overview)
-    ├── Preload.md (article)
-    ├── Prefetch.md (article)
-    └── Modulepreload.md (article)
+Browser Page Processing (overview)
+└── Browser Loading Hints (overview)
+    ├── Script Loading Attributes (overview)
+    │   ├── Async Script.md (article)
+    │   └── Defer Script.md (article)
+    └── Resource Hints (overview)
+        ├── Preload.md (article)
+        ├── Prefetch.md (article)
+        └── Modulepreload.md (article)
 ```
 
 ## Почему структура именно такая
 
-- `Browser Loading Hints` даёт общую рамку для механизмов, которыми разработчик подсказывает браузеру порядок, приоритет или стратегию загрузки.
+- `Browser Loading Hints` остаётся отдельной обзорной веткой, но теперь естественно подчиняется более общему узлу `Browser Page Processing`.
 - `Script Loading Attributes` оправдан как вложенный `overview`, потому что `async` и `defer` образуют устойчивую маленькую группу с общими границами и сравнениями.
 - `Resource Hints` тоже оправдан как вложенный `overview`, потому что `preload`, `prefetch` и `modulepreload` относятся к другому классу механизмов и не должны смешиваться с поведением `<script>`.
 - Более глубокая вложенность пока не нужна: отдельные темы вроде `fetchpriority` или `preconnect` можно добавить позже, если ветка действительно вырастет.
@@ -84,4 +85,5 @@ Browser Loading Hints (overview)
 1. Подтвердить `domain: web-platform`.
 2. Подтвердить `section: browser-loading-hints`.
 3. Подтвердить `section: script-loading` и `section: resource-hints`, если они окажутся полезными не только для одной ветки.
-4. Наполнить `Browser Loading Hints` так, чтобы граница между script-loading и resource-hints была явно различима.
+4. Синхронизировать ветку с общим узлом `Browser Page Processing`.
+5. Наполнить `Browser Loading Hints` так, чтобы граница между script-loading и resource-hints была явно различима.
