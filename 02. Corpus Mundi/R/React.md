@@ -5,7 +5,7 @@ area: computer-science
 domain: frontend-engineering
 section: react
 parent:
-status: seed
+status: draft
 related:
   - "[[JSX]]"
   - "[[React Hooks]]"

@@ -156,7 +156,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -288,7 +288,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 287.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -313,15 +313,16 @@
   },
   "active": "a43b3120eb49c0cc",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/React/React Structure Proposal.md",
+    "01. Inbox/To Classify/React/React Components.md",
+    "03. Maps and Courses/Topic Maps/React/React.canvas",
+    "01. Inbox/To Classify/React/React.md",
+    "02. Corpus Mundi/R/React.md",
+    "01. Inbox/To Classify/React/React Rendering Model.md",
     "02. Corpus Mundi/V/Virtual DOM.md",
+    "01. Inbox/To Classify/React/React Structure Proposal.md",
     "Tabula Ortus.md",
     "02. Corpus Mundi/U/useCallback.md",
-    "01. Inbox/To Classify/React/React Rendering Model.md",
-    "01. Inbox/To Classify/React/React.md",
     "02. Corpus Mundi/R/React Key Prop.md",
-    "03. Maps and Courses/Topic Maps/React/React.canvas",
-    "02. Corpus Mundi/R/React.md",
     "02. Corpus Mundi/R/React Rendering Model.md",
     "01. Inbox/To Classify/TCP IP Model/TCP IP Internet Layer.md",
     "01. Inbox/To Classify/TCP IP Model/TCP IP Model.md",
@@ -341,7 +342,6 @@
     "01. Inbox/To Classify/OSI Model/Network Layer.md",
     "01. Inbox/To Classify/OSI Model/Application Layer.md",
     "01. Inbox/To Classify/OSI Model",
-    "01. Inbox/To Classify/React/React Hooks Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/React",
     "01. Inbox/To Classify/Browser Loading Hints",
     "01. Inbox/To Classify/CORS",
