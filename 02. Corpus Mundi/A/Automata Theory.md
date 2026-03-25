@@ -6,7 +6,7 @@ note_type: overview
 area: computer-science
 domain: algorithms
 section: automata-theory
-parent:
+parent: "[[Algorithms]]"
 status: draft
 related:
   - "[[Formal Language]]"

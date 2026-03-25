@@ -5,7 +5,7 @@ note_type: overview
 area: computer-science
 domain: databases
 section: transactions
-parent:
+parent: "[[Databases]]"
 status: draft
 related:
   - "[[ACID]]"

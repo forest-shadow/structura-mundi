@@ -4,7 +4,7 @@ note_type: overview
 area: computer-science
 domain: web-platform
 section: web-origin-model
-parent:
+parent: "[[Frontend Engineering]]"
 status: seed
 related:
   - "[[Web Origin]]"

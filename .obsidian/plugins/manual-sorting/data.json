@@ -51,6 +51,16 @@
     },
     "00. Obsidian Praxis/Templates": {
       "children": [
+        "00. Obsidian Praxis/Templates/Algorithm Analysis Article Template.md",
+        "00. Obsidian Praxis/Templates/Algorithm Analysis Overview Template.md",
+        "00. Obsidian Praxis/Templates/Computer Science Domain Overview Template.md",
+        "00. Obsidian Praxis/Templates/Computer Science Overview Template.md",
+        "00. Obsidian Praxis/Templates/Higher-Order Component Article Template.md",
+        "00. Obsidian Praxis/Templates/Operating Systems Article Template.md",
+        "00. Obsidian Praxis/Templates/Operating Systems Overview Template.md",
+        "00. Obsidian Praxis/Templates/Sorting Algorithm Article Template.md",
+        "00. Obsidian Praxis/Templates/Virtual Memory Article Template.md",
+        "00. Obsidian Praxis/Templates/Virtual Memory Overview Template.md",
         "00. Obsidian Praxis/Templates/Article Template.md",
         "00. Obsidian Praxis/Templates/Overview Template.md"
       ],
@@ -73,6 +83,16 @@
     },
     "00. Principia Rerum/Templates": {
       "children": [
+        "00. Principia Rerum/Templates/Algorithm Analysis Article Template.md",
+        "00. Principia Rerum/Templates/Algorithm Analysis Overview Template.md",
+        "00. Principia Rerum/Templates/Computer Science Domain Overview Template.md",
+        "00. Principia Rerum/Templates/Computer Science Overview Template.md",
+        "00. Principia Rerum/Templates/Higher-Order Component Article Template.md",
+        "00. Principia Rerum/Templates/Operating Systems Article Template.md",
+        "00. Principia Rerum/Templates/Operating Systems Overview Template.md",
+        "00. Principia Rerum/Templates/Sorting Algorithm Article Template.md",
+        "00. Principia Rerum/Templates/Virtual Memory Article Template.md",
+        "00. Principia Rerum/Templates/Virtual Memory Overview Template.md",
         "00. Principia Rerum/Templates/Article Template.md",
         "00. Principia Rerum/Templates/Overview Template.md"
       ],
@@ -89,6 +109,13 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Algorithm Analysis",
+        "01. Inbox/To Classify/Browser Page Processing",
+        "01. Inbox/To Classify/Browser Rendering",
+        "01. Inbox/To Classify/Computer Science",
+        "01. Inbox/To Classify/CSS",
+        "01. Inbox/To Classify/JavaScript",
+        "01. Inbox/To Classify/Operating Systems",
         "01. Inbox/To Classify/OSI Model",
         "01. Inbox/To Classify/TCP IP Model",
         "01. Inbox/To Classify/Browser Loading Hints",
@@ -98,13 +125,27 @@
         "01. Inbox/To Classify/Golang",
         "01. Inbox/To Classify/Semantics",
         "01. Inbox/To Classify/Telemetry",
-        "01. Inbox/To Classify/JavaScript Prototype System",
         "01. Inbox/To Classify/React",
         "01. Inbox/To Classify/Transaction Isolation Levels",
         "01. Inbox/To Classify/Distributed Systems Problems",
         "01. Inbox/To Classify/Dual Write",
         "01. Inbox/To Classify/Event-Driven Architecture",
         "01. Inbox/To Classify/Syllogistics"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Algorithm Analysis": {
+      "children": [
+        "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis.md",
+        "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis Structure Proposal.md",
+        "01. Inbox/To Classify/Algorithm Analysis/Big O Notation.md",
+        "01. Inbox/To Classify/Algorithm Analysis/Bubble Sort.md",
+        "01. Inbox/To Classify/Algorithm Analysis/Insertion Sort.md",
+        "01. Inbox/To Classify/Algorithm Analysis/Merge Sort.md",
+        "01. Inbox/To Classify/Algorithm Analysis/Quick Sort.md",
+        "01. Inbox/To Classify/Algorithm Analysis/Radix Sort.md",
+        "01. Inbox/To Classify/Algorithm Analysis/Selection Sort.md",
+        "01. Inbox/To Classify/Algorithm Analysis/Sorting Algorithms.md"
       ],
       "sortOrder": "custom"
     },
@@ -139,6 +180,40 @@
       ],
       "sortOrder": "custom"
     },
+    "01. Inbox/To Classify/Browser Page Processing": {
+      "children": [
+        "01. Inbox/To Classify/Browser Page Processing/Browser Page Processing.md",
+        "01. Inbox/To Classify/Browser Page Processing/Browser Page Processing Structure Proposal.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Browser Rendering": {
+      "children": [
+        "01. Inbox/To Classify/Browser Rendering/Browser Rendering.md",
+        "01. Inbox/To Classify/Browser Rendering/Browser Rendering Pipeline.md",
+        "01. Inbox/To Classify/Browser Rendering/Browser Rendering Structure Proposal.md",
+        "01. Inbox/To Classify/Browser Rendering/Compositing.md",
+        "01. Inbox/To Classify/Browser Rendering/CSSOM.md",
+        "01. Inbox/To Classify/Browser Rendering/DOM.md",
+        "01. Inbox/To Classify/Browser Rendering/Layout.md",
+        "01. Inbox/To Classify/Browser Rendering/Paint.md",
+        "01. Inbox/To Classify/Browser Rendering/Render Tree.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Computer Science": {
+      "children": [
+        "01. Inbox/To Classify/Computer Science/Algorithms.md",
+        "01. Inbox/To Classify/Computer Science/Computer Science.md",
+        "01. Inbox/To Classify/Computer Science/Computer Science Structure Proposal.md",
+        "01. Inbox/To Classify/Computer Science/Databases.md",
+        "01. Inbox/To Classify/Computer Science/Distributed Systems.md",
+        "01. Inbox/To Classify/Computer Science/Frontend Engineering.md",
+        "01. Inbox/To Classify/Computer Science/Programming Languages.md",
+        "01. Inbox/To Classify/Computer Science/System Design.md"
+      ],
+      "sortOrder": "custom"
+    },
     "01. Inbox/To Classify/CORS": {
       "children": [
         "01. Inbox/To Classify/CORS/CORS.md",
@@ -150,6 +225,15 @@
         "01. Inbox/To Classify/CORS/Same-Origin Policy.md",
         "01. Inbox/To Classify/CORS/Web Origin.md",
         "01. Inbox/To Classify/CORS/Web Origin Model.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/CSS": {
+      "children": [
+        "01. Inbox/To Classify/CSS/CSS.md",
+        "01. Inbox/To Classify/CSS/CSS Cascade.md",
+        "01. Inbox/To Classify/CSS/CSS Specificity.md",
+        "01. Inbox/To Classify/CSS/CSS Structure Proposal.md"
       ],
       "sortOrder": "custom"
     },
@@ -219,11 +303,47 @@
       ],
       "sortOrder": "custom"
     },
-    "01. Inbox/To Classify/JavaScript Prototype System": {
+    "01. Inbox/To Classify/JavaScript": {
       "children": [
-        "01. Inbox/To Classify/JavaScript Prototype System/JavaScript Prototype System Structure Proposal.md",
-        "01. Inbox/To Classify/JavaScript Prototype System/Proto Accessor.md",
-        "01. Inbox/To Classify/JavaScript Prototype System/Prototype Chain.md"
+        "01. Inbox/To Classify/JavaScript/JavaScript.md",
+        "01. Inbox/To Classify/JavaScript/JavaScript Closure.md",
+        "01. Inbox/To Classify/JavaScript/JavaScript Closure Structure Proposal.md",
+        "01. Inbox/To Classify/JavaScript/JavaScript Prototype Internal Slot.md",
+        "01. Inbox/To Classify/JavaScript/JavaScript prototype Property.md",
+        "01. Inbox/To Classify/JavaScript/JavaScript Prototype System.md",
+        "01. Inbox/To Classify/JavaScript/JavaScript Prototype System Structure Proposal.md",
+        "01. Inbox/To Classify/JavaScript/JavaScript Scope Model.md",
+        "01. Inbox/To Classify/JavaScript/JavaScript Structure Proposal.md",
+        "01. Inbox/To Classify/JavaScript/Lexical Scope.md",
+        "01. Inbox/To Classify/JavaScript/Proto Accessor.md",
+        "01. Inbox/To Classify/JavaScript/Prototype Chain.md",
+        "01. Inbox/To Classify/JavaScript/Scope Chain.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Operating Systems": {
+      "children": [
+        "01. Inbox/To Classify/Operating Systems/Virtual Memory",
+        "01. Inbox/To Classify/Operating Systems/CPU Scheduling.md",
+        "01. Inbox/To Classify/Operating Systems/File Systems.md",
+        "01. Inbox/To Classify/Operating Systems/Operating Systems.md",
+        "01. Inbox/To Classify/Operating Systems/Operating Systems Structure Proposal.md",
+        "01. Inbox/To Classify/Operating Systems/Process.md",
+        "01. Inbox/To Classify/Operating Systems/Processes and Threads.md",
+        "01. Inbox/To Classify/Operating Systems/System Calls.md",
+        "01. Inbox/To Classify/Operating Systems/Thread.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Operating Systems/Virtual Memory": {
+      "children": [
+        "01. Inbox/To Classify/Operating Systems/Virtual Memory/Page Fault.md",
+        "01. Inbox/To Classify/Operating Systems/Virtual Memory/Page Table.md",
+        "01. Inbox/To Classify/Operating Systems/Virtual Memory/Paging.md",
+        "01. Inbox/To Classify/Operating Systems/Virtual Memory/TLB.md",
+        "01. Inbox/To Classify/Operating Systems/Virtual Memory/Virtual Address Space.md",
+        "01. Inbox/To Classify/Operating Systems/Virtual Memory/Virtual Memory.md",
+        "01. Inbox/To Classify/Operating Systems/Virtual Memory/Virtual Memory Structure Proposal.md"
       ],
       "sortOrder": "custom"
     },
@@ -243,8 +363,8 @@
     },
     "01. Inbox/To Classify/React": {
       "children": [
-        "01. Inbox/To Classify/React/React.md",
-        "01. Inbox/To Classify/React/React Rendering Model.md",
+        "01. Inbox/To Classify/React/Higher-Order Component.md",
+        "01. Inbox/To Classify/React/Higher-Order Component Structure Proposal.md",
         "01. Inbox/To Classify/React/Class Components.md",
         "01. Inbox/To Classify/React/Component Composition.md",
         "01. Inbox/To Classify/React/Functional Components.md",

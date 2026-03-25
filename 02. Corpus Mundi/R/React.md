@@ -4,7 +4,7 @@ note_type: overview
 area: computer-science
 domain: frontend-engineering
 section: react
-parent:
+parent: "[[Frontend Engineering]]"
 status: draft
 related:
   - "[[JSX]]"

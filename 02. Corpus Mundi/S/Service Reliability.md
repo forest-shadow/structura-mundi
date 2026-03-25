@@ -5,7 +5,7 @@ note_type: overview
 area: computer-science
 domain: system-design
 section: service-reliability
-parent:
+parent: "[[System Design]]"
 status: draft
 related:
 - "[[Service Level Management]]"

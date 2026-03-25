@@ -5,7 +5,7 @@ note_type: overview
 area: computer-science
 domain: programming-languages
 section: javascript
-parent:
+parent: "[[JavaScript]]"
 status: draft
 related:
   - "[[JavaScript Prototype Internal Slot]]"

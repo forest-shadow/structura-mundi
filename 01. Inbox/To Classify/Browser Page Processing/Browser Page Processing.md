@@ -4,7 +4,7 @@ note_type: overview
 area: computer-science
 domain: web-platform
 section: browser-page-processing
-parent:
+parent: "[[Frontend Engineering]]"
 status: seed
 related:
   - "[[Browser Loading Hints]]"
