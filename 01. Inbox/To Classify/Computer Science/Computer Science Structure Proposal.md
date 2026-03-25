@@ -11,6 +11,7 @@ related:
   - "[[Computer Science]]"
   - "[[Algorithms]]"
   - "[[Programming Languages]]"
+  - "[[Networking]]"
   - "[[Operating Systems]]"
 tags: []
 ---
@@ -19,7 +20,7 @@ tags: []
 
 ## Краткое определение
 
-Предлагаемая ветка для `Computer Science` собирает под одним корневым обзорным узлом основные доменные ветки всей области: `algorithms`, `programming-languages`, `databases`, `distributed-systems`, `frontend-engineering`, `system-design` и `operating-systems`.
+Предлагаемая ветка для `Computer Science` собирает под одним корневым обзорным узлом основные доменные ветки всей области: `algorithms`, `programming-languages`, `databases`, `distributed-systems`, `networking`, `frontend-engineering`, `system-design` и `operating-systems`.
 
 ## Выбранная оптика
 
@@ -58,6 +59,13 @@ Computer Science
 │   ├── Event-Driven Architecture
 │   ├── Dual Write
 │   └── Telemetry
+├── Networking
+│   ├── Internet
+│   │   ├── TCP IP Model
+│   │   ├── IP Addressing
+│   │   ├── DNS
+│   │   └── Routing
+│   └── OSI Model
 ├── Frontend Engineering
 │   ├── React
 │   ├── CSS
@@ -77,7 +85,7 @@ Computer Science
 
 - `Computer Science` нужен как root `overview`, потому что здесь уже есть несколько устойчивых доменных веток, а не одна локальная тема.
 - Дочерние узлы верхнего уровня лучше делать domain-overview notes, а не сразу вести от `Computer Science` к случайным специализированным заметкам.
-- `Algorithms`, `Programming Languages`, `Distributed Systems`, `Frontend Engineering` и `Operating Systems` уже имеют достаточно плотные или ожидаемо плотные подветки.
+- `Algorithms`, `Programming Languages`, `Distributed Systems`, `Networking`, `Frontend Engineering` и `Operating Systems` уже имеют достаточно плотные или ожидаемо плотные подветки.
 - `Databases` и `System Design` пока тоньше, но все равно оправданы как доменные рамки, потому что без них корневая ветка начинает смешивать уровни абстракции.
 
 ## Что не стоит создавать заранее
@@ -86,45 +94,6 @@ Computer Science
 - заметки вроде `Theory`, `Systems`, `Applications`, если за ними пока нет устойчивых корпусов;
 - избыточные промежуточные узлы между `Computer Science` и domain-overview notes.
 
-## Предлагаемое физическое размещение после нормализации
-
-```text
-02. Corpus Mundi/
-├── A/
-│   ├── Algorithms.md
-│   ├── ACID.md
-│   ├── Algorithm Analysis.md
-│   └── Automata Theory.md
-├── C/
-│   ├── Computer Science.md
-│   ├── CORS.md
-│   └── CSS.md
-├── D/
-│   ├── Databases.md
-│   ├── Database Transactions.md
-│   ├── Distributed Systems.md
-│   └── Dual Write.md
-├── F/
-│   ├── Frontend Engineering.md
-│   └── File Systems.md
-├── G/
-│   └── Go.md
-├── J/
-│   └── JavaScript.md
-├── O/
-│   └── Operating Systems.md
-├── P/
-│   └── Programming Languages.md
-├── S/
-│   ├── Service Reliability.md
-│   └── System Design.md
-└── T/
-    ├── Telemetry.md
-    └── Transaction Isolation Levels.md
-```
-
-Логическая ветка при этом собирается через `parent`, а не через физическое соседство файлов.
-
 ## Что создано в Inbox
 
 - `[[Computer Science]]`
@@ -132,6 +101,7 @@ Computer Science
 - `[[Programming Languages]]`
 - `[[Databases]]`
 - `[[Distributed Systems]]`
+- `[[Networking]]`
 - `[[Frontend Engineering]]`
 - `[[System Design]]`
 

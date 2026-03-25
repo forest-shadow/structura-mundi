@@ -5,9 +5,12 @@ note_type: overview
 area: computer-science
 domain: networking
 section: network-models
-parent:
+parent: "[[Networking]]"
 status: seed
 related:
+  - "[[Networking]]"
+  - "[[Internet]]"
+  - "[[TCP IP Model]]"
   - "[[Physical Layer]]"
   - "[[Data Link Layer]]"
   - "[[Network Layer]]"
@@ -47,7 +50,9 @@ tags: []
 
 ## Соседние overview-ветки
 
-- Позже рядом может появиться `TCP/IP Model`, если в базе сформируется отдельная полезная ветка для сравнения стеков.
+- Родительская рамка: `[[Networking]]`
+- Соседняя operational-ветка: `[[Internet]]`
+- Соседняя model-ветка внутри Internet: `[[TCP IP Model]]`
 
 ## Что стоит раскрыть дальше
 

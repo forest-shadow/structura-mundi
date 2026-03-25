@@ -6,9 +6,11 @@ note_type: overview
 area: computer-science
 domain: networking
 section: network-models
-parent:
+parent: "[[Internet]]"
 status: seed
 related:
+  - "[[Internet]]"
+  - "[[Networking]]"
   - "[[TCP IP Link Layer]]"
   - "[[TCP IP Internet Layer]]"
   - "[[TCP IP Transport Layer]]"
@@ -44,6 +46,7 @@ tags: []
 
 ## Соседние overview-ветки
 
+- Родительская рамка: `[[Internet]]`
 - `[[OSI Model]]`
 
 ## Что стоит раскрыть дальше

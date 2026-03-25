@@ -13,6 +13,7 @@ related:
   - "[[Programming Languages]]"
   - "[[Databases]]"
   - "[[Distributed Systems]]"
+  - "[[Networking]]"
   - "[[Frontend Engineering]]"
   - "[[System Design]]"
   - "[[Operating Systems]]"
@@ -31,6 +32,7 @@ tags: []
 - `[[Programming Languages]]`
 - `[[Databases]]`
 - `[[Distributed Systems]]`
+- `[[Networking]]`
 - `[[Frontend Engineering]]`
 - `[[System Design]]`
 - `[[Operating Systems]]`
@@ -44,7 +46,7 @@ tags: []
 ## Рекомендуемый маршрут чтения
 
 1. Начать с общей карты `Computer Science`.
-2. Затем выбрать доменную ветку: `[[Algorithms]]`, `[[Programming Languages]]`, `[[Databases]]`, `[[Distributed Systems]]`, `[[Frontend Engineering]]`, `[[System Design]]` или `[[Operating Systems]]`.
+2. Затем выбрать доменную ветку: `[[Algorithms]]`, `[[Programming Languages]]`, `[[Databases]]`, `[[Distributed Systems]]`, `[[Networking]]`, `[[Frontend Engineering]]`, `[[System Design]]` или `[[Operating Systems]]`.
 3. После входа в домен уже переходить к его корневым подветкам и обычным статьям.
 
 ## Соседние overview-ветки
