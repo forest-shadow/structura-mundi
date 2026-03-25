@@ -9,6 +9,8 @@ status: seed
 related:
   - "[[Process]]"
   - "[[Thread]]"
+  - "[[Process State Model]]"
+  - "[[Context Switch]]"
 tags: []
 ---
 
@@ -47,6 +49,8 @@ tags: []
 
 - `[[Process]]`
 - `[[Thread]]`
+- `[[Process State Model]]`
+- `[[Context Switch]]`
 
 ## Что стоит раскрыть дальше
 

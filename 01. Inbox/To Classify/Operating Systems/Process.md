@@ -7,8 +7,10 @@ section: processes-and-threads
 parent: "[[Processes and Threads]]"
 status: seed
 related:
+  - "[[Process State Model]]"
   - "[[Thread]]"
   - "[[CPU Scheduling]]"
+  - "[[Interprocess Communication]]"
   - "[[Virtual Address Space]]"
 tags: []
 ---
@@ -47,7 +49,9 @@ tags: []
 Связанные заметки:
 
 - `[[Thread]]`
+- `[[Process State Model]]`
 - `[[CPU Scheduling]]`
+- `[[Interprocess Communication]]`
 - `[[Virtual Address Space]]`
 
 ## Что стоит раскрыть дальше

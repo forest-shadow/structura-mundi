@@ -9,6 +9,8 @@ status: seed
 related:
   - "[[Process]]"
   - "[[CPU Scheduling]]"
+  - "[[Context Switch]]"
+  - "[[Synchronization Primitives]]"
   - "[[System Calls]]"
 tags: []
 ---
@@ -48,6 +50,8 @@ tags: []
 
 - `[[Process]]`
 - `[[CPU Scheduling]]`
+- `[[Context Switch]]`
+- `[[Synchronization Primitives]]`
 - `[[System Calls]]`
 
 ## Что стоит раскрыть дальше
