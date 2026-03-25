@@ -4,14 +4,125 @@
 		{"id":"85740e0f5f892e20","type":"group","x":-320,"y":100,"width":460,"height":700,"color":"2","label":"React Rendering Model"},
 		{"id":"5512cc2f6bbfe27e","type":"group","x":-840,"y":100,"width":400,"height":460,"color":"2","label":"React Components"},
 		{
+			"id":"dc6741cda5fb5915",
+			"type":"text",
+			"text":"[[React Hooks]]",
+			"styleAttributes":{},
+			"x":320,
+			"y":140,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"6930ca15a7215153",
+			"type":"text",
+			"text":"Rules of Hooks",
+			"styleAttributes":{},
+			"x":360,
+			"y":220,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"cea3593991a5fa17",
+			"type":"text",
+			"text":"[[useState]]",
+			"styleAttributes":{},
+			"x":360,
+			"y":300,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"d2e1638e13bb6602",
+			"type":"text",
+			"text":"[[useReducer]]",
+			"styleAttributes":{},
+			"x":360,
+			"y":380,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"c24cb5713842ac29",
+			"type":"text",
+			"text":"useMemo",
+			"styleAttributes":{},
+			"x":360,
+			"y":620,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"e673861c5e89dcff",
+			"type":"text",
+			"text":"useCallback",
+			"styleAttributes":{},
+			"x":360,
+			"y":540,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"72de56881e56606b",
+			"type":"text",
+			"text":"useContext",
+			"styleAttributes":{},
+			"x":360,
+			"y":700,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"db15e29fd0b5aa51",
+			"type":"text",
+			"text":"useEffect",
+			"styleAttributes":{},
+			"x":360,
+			"y":460,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"88b5505b4077a0f6",
+			"type":"text",
+			"text":"useRef",
+			"styleAttributes":{},
+			"x":360,
+			"y":780,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"347da80891d900a6",
+			"type":"text",
+			"text":"Custom Hooks",
+			"styleAttributes":{},
+			"x":360,
+			"y":880,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
 			"id":"6a2be3a8fe38154b",
 			"type":"text",
 			"text":"JSX",
-			"styleAttributes":{},
+			"styleAttributes":{"textAlign":"center"},
 			"x":-220,
 			"y":-440,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"2"
 		},
 		{
 			"id":"1250d8bd1800c44d",
@@ -166,116 +277,6 @@
 			"width":260,
 			"height":60,
 			"color":"2"
-		},
-		{
-			"id":"dc6741cda5fb5915",
-			"type":"text",
-			"text":"[[React Hooks]]",
-			"styleAttributes":{},
-			"x":320,
-			"y":140,
-			"width":260,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"6930ca15a7215153",
-			"type":"text",
-			"text":"Rules of Hooks",
-			"styleAttributes":{},
-			"x":360,
-			"y":220,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"cea3593991a5fa17",
-			"type":"text",
-			"text":"[[useState]]",
-			"styleAttributes":{},
-			"x":360,
-			"y":300,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"d2e1638e13bb6602",
-			"type":"text",
-			"text":"[[useReducer]]",
-			"styleAttributes":{},
-			"x":360,
-			"y":380,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"c24cb5713842ac29",
-			"type":"text",
-			"text":"useMemo",
-			"styleAttributes":{},
-			"x":360,
-			"y":620,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"e673861c5e89dcff",
-			"type":"text",
-			"text":"useCallback",
-			"styleAttributes":{},
-			"x":360,
-			"y":540,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"72de56881e56606b",
-			"type":"text",
-			"text":"useContext",
-			"styleAttributes":{},
-			"x":360,
-			"y":700,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"db15e29fd0b5aa51",
-			"type":"text",
-			"text":"useEffect",
-			"styleAttributes":{},
-			"x":360,
-			"y":460,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"88b5505b4077a0f6",
-			"type":"text",
-			"text":"useRef",
-			"styleAttributes":{},
-			"x":360,
-			"y":780,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"347da80891d900a6",
-			"type":"text",
-			"text":"Custom Hooks",
-			"styleAttributes":{},
-			"x":360,
-			"y":880,
-			"width":260,
-			"height":60,
-			"color":"2"
 		}
 	],
 	"edges":[
@@ -287,7 +288,8 @@
 			"fromNode":"1250d8bd1800c44d",
 			"fromSide":"top",
 			"toNode":"6a2be3a8fe38154b",
-			"toSide":"bottom"
+			"toSide":"bottom",
+			"color":"2"
 		},
 		{
 			"id":"49d6482428c4aa75",
