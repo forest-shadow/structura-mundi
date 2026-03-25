@@ -9,7 +9,11 @@ status: seed
 related:
   - "[[Caching]]"
   - "[[Cache-Aside Strategy]]"
+  - "[[Read-Through and Refresh-Ahead Caching]]"
   - "[[Write-Through and Write-Back Caching]]"
+  - "[[Write-Around Caching]]"
+  - "[[Stale-While-Revalidate]]"
+  - "[[Negative Caching]]"
   - "[[Cache Invalidation]]"
 tags: []
 ---
@@ -23,18 +27,27 @@ tags: []
 ## Что входит в эту тему
 
 - `[[Cache-Aside Strategy]]`
+- `[[Read-Through and Refresh-Ahead Caching]]`
 - `[[Write-Through and Write-Back Caching]]`
+- `[[Write-Around Caching]]`
+- `[[Stale-While-Revalidate]]`
+- `[[Negative Caching]]`
 
 ## Как устроена ветка
 
 - `Cache-Aside Strategy` описывает наиболее распространённый read-path pattern, где приложение само управляет cache miss и последующим populate.
-- `Write-Through and Write-Back Caching` собирает write-path strategies и показывает, как меняются latency, durability risk и consistency behavior.
+- `Read-Through and Refresh-Ahead Caching` собирает более "умные" read-oriented patterns на стороне cache layer.
+- `Write-Through and Write-Back Caching` собирает основные write-path strategies.
+- `Write-Around Caching` дополняет write-path ветку стратегией без немедленного наполнения кэша.
+- `Stale-While-Revalidate` фиксирует controlled staleness как отдельный способ управления latency и freshness.
+- `Negative Caching` показывает, что кэшировать можно не только positive hits, но и отсутствующие значения.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Cache-Aside Strategy]]` как с базовой модели чтения через кэш.
-2. Затем перейти к `[[Write-Through and Write-Back Caching]]`, чтобы увидеть, как caching меняет write path.
-3. После этого вернуться к `[[Cache Invalidation]]`, чтобы связать стратегии с freshness и consistency.
+2. Затем перейти к `[[Read-Through and Refresh-Ahead Caching]]`.
+3. После этого читать `[[Write-Through and Write-Back Caching]]` и `[[Write-Around Caching]]`.
+4. Завершить `[[Stale-While-Revalidate]]` и `[[Negative Caching]]` как специальными operational patterns.
 
 ## Соседние overview-ветки
 
@@ -42,6 +55,6 @@ tags: []
 
 ## Что стоит раскрыть дальше
 
-- [ ] Решить, когда нужен отдельный article про `Write-Around Caching`
-- [ ] Решить, когда нужны notes про `Read-Through` и `Refresh-Ahead`
+- [ ] Решить, когда нужен отдельный article про `Request Coalescing`
+- [ ] Решить, когда нужно разделить `Read-Through` и `Refresh-Ahead`
 - [ ] Проверить `related`

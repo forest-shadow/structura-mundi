@@ -31,11 +31,28 @@ Computer Science
     │   ├── Consistency Under Replication
     │   └── Coordination and Consensus
     ├── Caching
+    │   ├── Types of Caches
+    │   │   ├── Application Cache
+    │   │   ├── Database Cache
+    │   │   ├── Browser and HTTP Cache
+    │   │   ├── CDN and Edge Cache
+    │   │   └── Distributed Cache
     │   ├── Caching Strategies
     │   │   ├── Cache-Aside Strategy
-    │   │   └── Write-Through and Write-Back Caching
+    │   │   ├── Read-Through and Refresh-Ahead Caching
+    │   │   ├── Write-Through and Write-Back Caching
+    │   │   ├── Write-Around Caching
+    │   │   ├── Stale-While-Revalidate
+    │   │   └── Negative Caching
     │   ├── Cache Invalidation
-    │   ├── Distributed Cache
+    │   │   ├── TTL-Based Invalidation
+    │   │   ├── Event-Driven Invalidation
+    │   │   ├── Version-Based Invalidation
+    │   │   └── Tag-Based Invalidation
+    │   ├── Cache Policies
+    │   │   ├── Eviction Policies
+    │   │   ├── Expiration Policies
+    │   │   └── Admission Policies
     │   └── Cache Stampede
     ├── Event-Driven Architecture
     ├── Dual Write

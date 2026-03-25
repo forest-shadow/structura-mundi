@@ -1,6 +1,6 @@
 ---
 aliases: []
-note_type: article
+note_type: overview
 area: computer-science
 domain: distributed-systems
 section: performance-optimization
@@ -8,40 +8,46 @@ parent: "[[Caching]]"
 status: seed
 related:
   - "[[Caching]]"
-  - "[[Cache-Aside Strategy]]"
-  - "[[Distributed Cache]]"
+  - "[[TTL-Based Invalidation]]"
+  - "[[Event-Driven Invalidation]]"
+  - "[[Version-Based Invalidation]]"
+  - "[[Tag-Based Invalidation]]"
 tags: []
 ---
 
 # Cache Invalidation
 
-## Краткое определение
+## Краткое определение области
 
-`Cache Invalidation` — это статья о механизмах и trade-offs обновления или сброса кэшированных данных, чтобы кэш оставался полезным и не превращался в источник опасно устаревшего состояния.
+`Cache Invalidation` — это обзорная заметка про механизмы и trade-offs обновления, протухания или сброса кэшированных данных, чтобы кэш оставался полезным и не превращался в источник опасно устаревшего состояния.
 
-## Границы темы
+## Что входит в эту тему
 
-- Входит: invalidation как freshness/consistency mechanism в caching systems.
-- Не входит: полный разбор всех eviction algorithms и конкретных cache products.
+- `[[TTL-Based Invalidation]]`
+- `[[Event-Driven Invalidation]]`
+- `[[Version-Based Invalidation]]`
+- `[[Tag-Based Invalidation]]`
 
-## Связи с другими заметками
+## Как устроена ветка
 
-Родительская тема:
+- `TTL-Based Invalidation` описывает time-based протухание данных.
+- `Event-Driven Invalidation` собирает invalidation по change events и explicit purge signals.
+- `Version-Based Invalidation` показывает, как freshness можно контролировать через generation or version semantics.
+- `Tag-Based Invalidation` описывает group-level purge для связанных объектов.
 
-`[[Caching]]`
+## Рекомендуемый маршрут чтения
 
-Связанные заметки:
+1. Начать с `[[TTL-Based Invalidation]]`.
+2. Затем перейти к `[[Event-Driven Invalidation]]`.
+3. После этого читать `[[Version-Based Invalidation]]`.
+4. Завершить `[[Tag-Based Invalidation]]`.
 
-- `[[Cache-Aside Strategy]]`
-- `[[Write-Through and Write-Back Caching]]`
-- `[[Distributed Cache]]`
+## Соседние overview-ветки
 
-## Примеры, случаи или следствия
-
-- Быстрый кэш без корректной invalidation logic легко отдает stale data.
-- Чем более распределен кэш, тем труднее синхронно поддерживать freshness.
+- `[[Caching]]`
+- `[[Cache Policies]]`
 
 ## Что стоит раскрыть дальше
 
-- [ ] Решить, когда нужны `TTL` и explicit invalidation events
+- [ ] Решить, когда нужен отдельный article про `Key-Based Invalidation`
 - [ ] Проверить `related`

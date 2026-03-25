@@ -11,6 +11,7 @@ related:
   - "[[Caching]]"
   - "[[Distributed Cache]]"
   - "[[Cache Invalidation]]"
+  - "[[Stale-While-Revalidate]]"
 tags: []
 ---
 
@@ -35,6 +36,7 @@ tags: []
 
 - `[[Distributed Cache]]`
 - `[[Cache Invalidation]]`
+- `[[Stale-While-Revalidate]]`
 - `[[Telemetry]]`
 
 ## Примеры, случаи или следствия

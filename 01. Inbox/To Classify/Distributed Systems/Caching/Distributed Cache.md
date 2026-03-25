@@ -4,12 +4,13 @@ note_type: article
 area: computer-science
 domain: distributed-systems
 section: performance-optimization
-parent: "[[Caching]]"
+parent: "[[Types of Caches]]"
 status: seed
 related:
-  - "[[Caching]]"
+  - "[[Types of Caches]]"
   - "[[Distributed Systems Problems]]"
   - "[[Cache Stampede]]"
+  - "[[Version-Based Invalidation]]"
 tags: []
 ---
 
@@ -28,7 +29,7 @@ tags: []
 
 Родительская тема:
 
-`[[Caching]]`
+`[[Types of Caches]]`
 
 Связанные заметки:
 

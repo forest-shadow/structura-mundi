@@ -32,8 +32,13 @@ Computer Science
     │   │   ├── TCP IP Transport Layer
     │   │   └── TCP IP Application Layer
     │   ├── IP Addressing
-    │   ├── DNS
-    │   └── Routing
+    │   ├── Routing
+    │   └── DNS
+    │       ├── DNS Resolution
+    │       ├── Recursive Resolver
+    │       ├── Authoritative DNS Server
+    │       ├── DNS Resource Record
+    │       └── DNS Zone
     └── OSI Model
         ├── Physical Layer
         ├── Data Link Layer
@@ -48,6 +53,7 @@ Computer Science
 
 - `Networking` оправдан как domain-root overview, потому что внутри него уже есть как минимум две самостоятельные обзорные ветки: operational Internet branch и model-centric OSI branch.
 - `Internet` стоит делать отдельным `sub-overview`, потому что это не один isolated concept, а устойчивый кластер вокруг TCP/IP, адресации, маршрутизации и naming.
+- `DNS` внутри `Internet` уже лучше делать не одиночной статьей, а отдельным `sub-overview`, потому что тема естественно распадается на resolution, server roles и data model.
 - `OSI Model` лучше держать sibling-веткой, а не child-узлом `Internet`, потому что это концептуальная модель сетевых функций, а не часть самой Internet topology.
 
 ## Что не стоит делать прямо сейчас

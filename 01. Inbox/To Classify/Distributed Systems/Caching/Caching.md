@@ -9,9 +9,10 @@ status: seed
 related:
   - "[[Distributed Systems]]"
   - "[[Distributed Systems Problems]]"
+  - "[[Types of Caches]]"
   - "[[Caching Strategies]]"
   - "[[Cache Invalidation]]"
-  - "[[Distributed Cache]]"
+  - "[[Cache Policies]]"
 tags: []
 ---
 
@@ -23,24 +24,27 @@ tags: []
 
 ## Что входит в эту тему
 
+- `[[Types of Caches]]`
 - `[[Caching Strategies]]`
 - `[[Cache Invalidation]]`
-- `[[Distributed Cache]]`
+- `[[Cache Policies]]`
 - `[[Cache Stampede]]`
 
 ## Как устроена ветка
 
+- `Types of Caches` раскладывает основные виды кэшей по месту и роли в системе.
 - `Caching Strategies` собирает operational patterns чтения и записи через кэш, чтобы стратегии не смешивались с остальными concept-notes.
-- `Cache Invalidation` раскрывает главную conceptual difficulty кэша: как сохранять полезность данных без неконтролируемого устаревания.
-- `Distributed Cache` показывает, как кэш перестает быть локальной оптимизацией и становится частью распределенной архитектуры.
+- `Cache Invalidation` теперь собирает отдельные механизмы протухания, purge и version-driven freshness control.
+- `Cache Policies` отделяет правила admission, expiration и eviction от стратегий и видов кэша.
 - `Cache Stampede` фиксирует типичную failure/performance pathology, возникающую вокруг popular keys и массовых промахов.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Caching Strategies]]`, чтобы увидеть базовые модели чтения и записи через кэш.
 2. Затем перейти к `[[Cache Invalidation]]`.
-3. После этого читать `[[Distributed Cache]]`.
-4. Завершить `[[Cache Stampede]]` как типичным failure mode caching-ветки.
+3. После этого читать `[[Cache Policies]]`.
+4. Затем перейти к `[[Types of Caches]]`.
+5. Завершить `[[Cache Stampede]]` как типичным failure mode caching-ветки.
 
 ## Соседние overview-ветки
 
@@ -49,6 +53,6 @@ tags: []
 
 ## Что стоит раскрыть дальше
 
-- [ ] Решить, когда нужны `Eviction Policy` и `TTL`
-- [ ] Решить, когда нужен отдельный article про `CDN`
+- [ ] Решить, когда нужен отдельный article про `Request Coalescing`
+- [ ] Решить, когда нужен отдельный article про `Near Cache`
 - [ ] Проверить `related`

@@ -35,6 +35,7 @@ tags: []
 
 - `[[Cache Invalidation]]`
 - `[[Cache-Aside Strategy]]`
+- `[[Write-Around Caching]]`
 - `[[Distributed Cache]]`
 
 ## Примеры, случаи или следствия
@@ -44,5 +45,5 @@ tags: []
 
 ## Что стоит раскрыть дальше
 
-- [ ] Уточнить место write-around как соседней стратегии
+- [ ] Решить, когда стоит разделить `Write-Through` и `Write-Back` на отдельные articles
 - [ ] Проверить `related`
