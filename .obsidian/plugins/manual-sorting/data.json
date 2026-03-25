@@ -89,6 +89,7 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Networking",
         "01. Inbox/To Classify/Algorithm Analysis",
         "01. Inbox/To Classify/Browser Page Processing",
         "01. Inbox/To Classify/Browser Rendering",
@@ -317,6 +318,11 @@
     },
     "01. Inbox/To Classify/Operating Systems": {
       "children": [
+        "01. Inbox/To Classify/Operating Systems/Synchronization Primitives.md",
+        "01. Inbox/To Classify/Operating Systems/Interprocess Communication.md",
+        "01. Inbox/To Classify/Operating Systems/Context Switch.md",
+        "01. Inbox/To Classify/Operating Systems/Process State Model.md",
+        "01. Inbox/To Classify/Operating Systems/Processes and Threads Structure Proposal.md",
         "01. Inbox/To Classify/Operating Systems/Virtual Memory",
         "01. Inbox/To Classify/Operating Systems/CPU Scheduling.md",
         "01. Inbox/To Classify/Operating Systems/File Systems.md",
@@ -652,6 +658,7 @@
     },
     "03. Maps and Courses/Topic Maps": {
       "children": [
+        "03. Maps and Courses/Topic Maps/Networking",
         "03. Maps and Courses/Topic Maps/OS",
         "03. Maps and Courses/Topic Maps/Go",
         "03. Maps and Courses/Topic Maps/React",
@@ -756,6 +763,24 @@
     "03. Maps and Courses/Topic Maps/OS": {
       "children": [
         "03. Maps and Courses/Topic Maps/OS/OS.canvas"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Networking": {
+      "children": [
+        "01. Inbox/To Classify/Networking/Routing.md",
+        "01. Inbox/To Classify/Networking/Networking.md",
+        "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
+        "01. Inbox/To Classify/Networking/Internet Structure Proposal.md",
+        "01. Inbox/To Classify/Networking/IP Addressing.md",
+        "01. Inbox/To Classify/Networking/Internet.md",
+        "01. Inbox/To Classify/Networking/DNS.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/Networking": {
+      "children": [
+        "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas"
       ],
       "sortOrder": "custom"
     }

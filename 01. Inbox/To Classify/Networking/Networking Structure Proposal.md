@@ -59,3 +59,11 @@ Computer Science
 
 - [ ] Решить, когда нужен отдельный `Network Protocols`
 - [ ] Проверить `related`
+
+
+# Internet: Рекомендуемый маршрут чтения
+
+1. Начать с `[[TCP IP Model]]`, чтобы зафиксировать стек Internet protocol suite.
+2. Затем перейти к `[[IP Addressing]]`.
+3. После этого читать `[[Routing]]`.
+4. Завершить `[[DNS]]` как слой distributed naming поверх сетевой адресации.
