@@ -72,12 +72,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Golang/Go.md",
+                "file": "01. Inbox/To Classify/Golang/Go Structure Proposal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go"
+              "title": "Go Structure Proposal"
             }
           }
         ],
@@ -195,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Golang/Go.md",
+                "file": "01. Inbox/To Classify/Golang/Go Structure Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go"
+              "title": "Outline of Go Structure Proposal"
             }
           },
           {
@@ -311,6 +311,12 @@
   },
   "active": "f671ddca55847aba",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Golang/Go Concurrency Model.md",
+    "02. Corpus Mundi/G/Go Scheduler.md",
+    "02. Corpus Mundi/G/Go.md",
+    "01. Inbox/To Classify/Golang/Go Structure Proposal.md",
+    "01. Inbox/To Classify/Golang/Go Escape Analysis Structure Proposal.md",
+    "01. Inbox/To Classify/Golang/Go Escape Analysis.md",
     "00. Obsidian Praxis/Templates/Go Runtime Control Article Template.md",
     "00. Principia Rerum/Templates/Go Runtime Control Article Template.md",
     "01. Inbox/To Classify/Golang/GOMAXPROCS.md",
@@ -332,13 +338,7 @@
     "01. Inbox/To Classify/Computer Science/Programming Languages.md",
     "01. Inbox/To Classify/Computer Science/Algorithms.md",
     "01. Inbox/To Classify/Computer Science/Computer Science.md",
-    "01. Inbox/To Classify/Computer Science/Computer Science Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science",
-    "01. Inbox/To Classify/Operating Systems/Virtual Memory/Virtual Memory Structure Proposal.md",
-    "01. Inbox/To Classify/Operating Systems/Virtual Memory/Virtual Memory.md",
-    "01. Inbox/To Classify/Operating Systems/Virtual Memory/TLB.md",
-    "01. Inbox/To Classify/Operating Systems/Virtual Memory/Virtual Address Space.md",
-    "01. Inbox/To Classify/Operating Systems/Virtual Memory/Paging.md",
     "01. Inbox/To Classify/Operating Systems/Virtual Memory",
     "01. Inbox/To Classify/Operating Systems",
     "01. Inbox/To Classify/Virtual Memory",
