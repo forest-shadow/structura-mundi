@@ -8,6 +8,7 @@ parent: "[[Computer Science]]"
 status: seed
 related:
   - "[[Distributed Systems Problems]]"
+  - "[[Caching]]"
   - "[[Event-Driven Architecture]]"
   - "[[Dual Write]]"
   - "[[Telemetry]]"
@@ -23,6 +24,7 @@ tags: []
 ## Что входит в эту тему
 
 - `[[Distributed Systems Problems]]`
+- `[[Caching]]`
 - `[[Event-Driven Architecture]]`
 - `[[Dual Write]]`
 - `[[Telemetry]]`
@@ -30,14 +32,16 @@ tags: []
 ## Как устроена ветка
 
 - `Distributed Systems Problems` собирает фундаментальные ограничения и классы проблем;
+- `Caching` собирает performance-oriented branch про снижение latency, уменьшение нагрузки и trade-offs консистентности;
 - `Event-Driven Architecture` и `Dual Write` представляют более прикладные архитектурные кластеры;
 - `Telemetry` стоит рядом как operationally важная ветка внутри распределенных систем.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Distributed Systems Problems]]`.
-2. Затем перейти к `[[Event-Driven Architecture]]` и `[[Dual Write]]`.
-3. После этого читать `[[Telemetry]]` как operational branch.
+2. Затем перейти к `[[Caching]]` как к performance branch поверх базовых distributed-systems constraints.
+3. После этого перейти к `[[Event-Driven Architecture]]` и `[[Dual Write]]`.
+4. Затем читать `[[Telemetry]]` как operational branch.
 
 ## Соседние overview-ветки
 

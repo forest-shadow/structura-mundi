@@ -89,6 +89,8 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Distributed Systems",
+        "01. Inbox/To Classify/Caching",
         "01. Inbox/To Classify/Networking",
         "01. Inbox/To Classify/Algorithm Analysis",
         "01. Inbox/To Classify/Browser Page Processing",
@@ -782,6 +784,22 @@
       "children": [
         "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas"
       ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Caching": {
+      "children": [
+        "01. Inbox/To Classify/Caching/Distributed Cache.md",
+        "01. Inbox/To Classify/Caching/Write-Through and Write-Back Caching.md",
+        "01. Inbox/To Classify/Caching/Caching.md",
+        "01. Inbox/To Classify/Caching/Cache-Aside Strategy.md",
+        "01. Inbox/To Classify/Caching/Caching Structure Proposal.md",
+        "01. Inbox/To Classify/Caching/Cache Stampede.md",
+        "01. Inbox/To Classify/Caching/Cache Invalidation.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Distributed Systems": {
+      "children": [],
       "sortOrder": "custom"
     }
   },

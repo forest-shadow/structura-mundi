@@ -6,7 +6,6 @@
       {
         "id": "6a422bca563d2cd0",
         "type": "tabs",
-        "dimension": 64.22018348623854,
         "children": [
           {
             "id": "c340083190100fc4",
@@ -117,60 +116,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
+                "file": "01. Inbox/To Classify/Distributed Systems/Caching/Caching Structure Proposal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Networking Structure Proposal"
+              "title": "Caching Structure Proposal"
             }
           }
         ],
         "currentTab": 7
-      },
-      {
-        "id": "3029b664b82ea4ed",
-        "type": "tabs",
-        "dimension": 35.77981651376147,
-        "children": [
-          {
-            "id": "885ac89513e4096c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "03. Maps and Courses/Topic Maps/React/React.canvas",
-                "viewState": {
-                  "x": -419.09195832137664,
-                  "y": 503.4000000000002,
-                  "zoom": -0.8453227722566244
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-layout-dashboard",
-              "title": "React"
-            }
-          },
-          {
-            "id": "22f0517c9bd324fd",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
-                "viewState": {
-                  "x": 182.36638522621257,
-                  "y": 65.87905520355864,
-                  "zoom": -1.6666666666666665
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Networkig"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5,
-    "collapsed": true
+    "width": 389.5
   },
   "right": {
     "id": "bc1652196a189fba",
@@ -244,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
+                "file": "01. Inbox/To Classify/Distributed Systems/Caching/Caching Structure Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Networkig"
+              "title": "Outline of Caching Structure Proposal"
             }
           },
           {
@@ -358,10 +312,27 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "22f0517c9bd324fd",
+  "active": "2950dc340357ed8c",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
+    "01. Inbox/To Classify/Distributed Systems/Caching/Caching Strategies.md",
+    "01. Inbox/To Classify/Distributed Systems/Caching/Caching.md",
+    "01. Inbox/To Classify/Distributed Systems/Caching/Caching Structure Proposal.md",
+    "01. Inbox/To Classify/Distributed Systems/Service Reliability Structure.md",
+    "01. Inbox/To Classify/Distributed Systems/Telemetry/Telemetry.md",
+    "01. Inbox/To Classify/Distributed Systems/Telemetry/Telemetry Structure Proposal.md",
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Structure Proposal.md",
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Distributed Systems Problems Structure Proposal.md",
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems.md",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
+    "01. Inbox/To Classify/Distributed Systems",
+    "Untitled",
+    "01. Inbox/To Classify/Distributed Systems/Caching/Distributed Cache.md",
+    "01. Inbox/To Classify/Distributed Systems/Caching/Write-Through and Write-Back Caching.md",
+    "01. Inbox/To Classify/Distributed Systems/Caching/Cache-Aside Strategy.md",
+    "01. Inbox/To Classify/Distributed Systems/Caching/Cache Stampede.md",
+    "01. Inbox/To Classify/Distributed Systems/Caching/Cache Invalidation.md",
+    "01. Inbox/To Classify/Distributed Systems/Caching",
+    "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
     "01. Inbox/To Classify/Networking/Networking.md",
     "02. Corpus Mundi/I/Internet.md",
     "03. Maps and Courses/Topic Maps/Networking",
@@ -375,34 +346,18 @@
     "01. Inbox/To Classify/Networking/IP Addressing.md",
     "01. Inbox/To Classify/Networking/DNS.md",
     "01. Inbox/To Classify/Networking",
-    "01. Inbox/To Classify/Operating Systems/Interprocess Communication.md",
-    "01. Inbox/To Classify/Operating Systems/Processes and Threads.md",
-    "01. Inbox/To Classify/Operating Systems/Processes and Threads Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
-    "02. Corpus Mundi/R/React.md",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",
-    "01. Inbox/To Classify/Operating Systems/Synchronization Primitives.md",
-    "01. Inbox/To Classify/Operating Systems/Context Switch.md",
-    "01. Inbox/To Classify/Operating Systems/Process State Model.md",
-    "01. Inbox/To Classify/Operating Systems/CPU Scheduling.md",
-    "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
-    "01. Inbox/To Classify/React/React Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/OS",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
-    "02. Corpus Mundi/V/Virtual DOM.md",
-    "02. Corpus Mundi/A/Algorithm Analysis.md",
-    "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/Go",
     "01. Inbox/To Classify/Computer Science",
     "01. Inbox/To Classify/Operating Systems/Virtual Memory",
     "01. Inbox/To Classify/Operating Systems",
-    "01. Inbox/To Classify/Virtual Memory",
-    "01. Inbox/To Classify/Algorithm Analysis",
-    "01. Inbox/To Classify/Browser Page Processing",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg",
-    "01. Inbox/To Classify/Dual Write/_resources/dua-write.jpg",
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/_resources/dua-write.jpg",
     "Pasted image 20260314213657.png",
     "00. Obsidian Praxis/Config & Settings Details/Images/gruvbox_colors.png",
     "Databases/Database Internals (Petrov Alex)/_resources/01-architecture-of-dbms.jpg",
