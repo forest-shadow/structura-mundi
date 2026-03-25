@@ -51,16 +51,6 @@
     },
     "00. Obsidian Praxis/Templates": {
       "children": [
-        "00. Obsidian Praxis/Templates/Algorithm Analysis Article Template.md",
-        "00. Obsidian Praxis/Templates/Algorithm Analysis Overview Template.md",
-        "00. Obsidian Praxis/Templates/Computer Science Domain Overview Template.md",
-        "00. Obsidian Praxis/Templates/Computer Science Overview Template.md",
-        "00. Obsidian Praxis/Templates/Higher-Order Component Article Template.md",
-        "00. Obsidian Praxis/Templates/Operating Systems Article Template.md",
-        "00. Obsidian Praxis/Templates/Operating Systems Overview Template.md",
-        "00. Obsidian Praxis/Templates/Sorting Algorithm Article Template.md",
-        "00. Obsidian Praxis/Templates/Virtual Memory Article Template.md",
-        "00. Obsidian Praxis/Templates/Virtual Memory Overview Template.md",
         "00. Obsidian Praxis/Templates/Article Template.md",
         "00. Obsidian Praxis/Templates/Overview Template.md"
       ],
@@ -83,16 +73,6 @@
     },
     "00. Principia Rerum/Templates": {
       "children": [
-        "00. Principia Rerum/Templates/Algorithm Analysis Article Template.md",
-        "00. Principia Rerum/Templates/Algorithm Analysis Overview Template.md",
-        "00. Principia Rerum/Templates/Computer Science Domain Overview Template.md",
-        "00. Principia Rerum/Templates/Computer Science Overview Template.md",
-        "00. Principia Rerum/Templates/Higher-Order Component Article Template.md",
-        "00. Principia Rerum/Templates/Operating Systems Article Template.md",
-        "00. Principia Rerum/Templates/Operating Systems Overview Template.md",
-        "00. Principia Rerum/Templates/Sorting Algorithm Article Template.md",
-        "00. Principia Rerum/Templates/Virtual Memory Article Template.md",
-        "00. Principia Rerum/Templates/Virtual Memory Overview Template.md",
         "00. Principia Rerum/Templates/Article Template.md",
         "00. Principia Rerum/Templates/Overview Template.md"
       ],
@@ -281,6 +261,9 @@
     },
     "01. Inbox/To Classify/Golang": {
       "children": [
+        "01. Inbox/To Classify/Golang/Go Escape Analysis Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Escape Analysis.md",
+        "01. Inbox/To Classify/Golang/GOMAXPROCS.md",
         "01. Inbox/To Classify/Golang/Go Machine Thread.md",
         "01. Inbox/To Classify/Golang/Go Netpoller.md",
         "01. Inbox/To Classify/Golang/Go Netpoller Structure Proposal.md",
@@ -658,6 +641,7 @@
     },
     "03. Maps and Courses/Topic Maps": {
       "children": [
+        "03. Maps and Courses/Topic Maps/Go",
         "03. Maps and Courses/Topic Maps/React",
         "03. Maps and Courses/Topic Maps/DBMS",
         "03. Maps and Courses/Topic Maps/Javascript"
@@ -748,6 +732,12 @@
       "children": [
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/Go": {
+      "children": [
+        "03. Maps and Courses/Topic Maps/Go/Go.canvas"
       ],
       "sortOrder": "custom"
     }

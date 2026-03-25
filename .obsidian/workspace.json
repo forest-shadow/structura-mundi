@@ -70,14 +70,17 @@
             "id": "f671ddca55847aba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "01. Inbox/To Classify/Golang/Go Structure Proposal.md",
-                "mode": "source",
-                "source": false
+                "file": "03. Maps and Courses/Topic Maps/Go/Go.canvas",
+                "viewState": {
+                  "x": 210.30778850847742,
+                  "y": 455.8077166424279,
+                  "zoom": -1
+                }
               },
-              "icon": "lucide-file",
-              "title": "Go Structure Proposal"
+              "icon": "lucide-layout-dashboard",
+              "title": "Go"
             }
           }
         ],
@@ -195,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Golang/Go Structure Proposal.md",
+                "file": "03. Maps and Courses/Topic Maps/Go/Go.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go Structure Proposal"
+              "title": "Outline of Go"
             }
           },
           {
@@ -311,10 +314,23 @@
   },
   "active": "f671ddca55847aba",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Golang/Go Type Parameters and Constraints.md",
+    "01. Inbox/To Classify/Golang/Go Methods and Method Sets.md",
+    "01. Inbox/To Classify/Golang/Go Assignability and Conversions.md",
+    "01. Inbox/To Classify/Golang/Go Defined Types and Underlying Types.md",
+    "01. Inbox/To Classify/Golang/Go Composite Types.md",
+    "01. Inbox/To Classify/Golang/Go Basic Types.md",
+    "01. Inbox/To Classify/Golang/Go Type System Structure Proposal.md",
+    "01. Inbox/To Classify/Golang/Go Garbage Collection.md",
+    "01. Inbox/To Classify/Golang/Go Stack and Heap Allocation.md",
+    "01. Inbox/To Classify/Golang/Go Memory Management Structure Proposal.md",
+    "01. Inbox/To Classify/Golang/Go Memory Management.md",
+    "01. Inbox/To Classify/Golang/Go Structure Proposal.md",
+    "03. Maps and Courses/Topic Maps/Go/Go.canvas",
+    "03. Maps and Courses/Topic Maps/Go",
     "01. Inbox/To Classify/Golang/Go Concurrency Model.md",
     "02. Corpus Mundi/G/Go Scheduler.md",
     "02. Corpus Mundi/G/Go.md",
-    "01. Inbox/To Classify/Golang/Go Structure Proposal.md",
     "01. Inbox/To Classify/Golang/Go Escape Analysis Structure Proposal.md",
     "01. Inbox/To Classify/Golang/Go Escape Analysis.md",
     "00. Obsidian Praxis/Templates/Go Runtime Control Article Template.md",
@@ -327,17 +343,6 @@
     "02. Corpus Mundi/U/useCallback.md",
     "02. Corpus Mundi/S/Syllogism.md",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
-    "00. Obsidian Praxis/Templates/Computer Science Domain Overview Template.md",
-    "00. Obsidian Praxis/Templates/Computer Science Overview Template.md",
-    "00. Principia Rerum/Templates/Computer Science Domain Overview Template.md",
-    "00. Principia Rerum/Templates/Computer Science Overview Template.md",
-    "01. Inbox/To Classify/Computer Science/System Design.md",
-    "01. Inbox/To Classify/Computer Science/Frontend Engineering.md",
-    "01. Inbox/To Classify/Computer Science/Distributed Systems.md",
-    "01. Inbox/To Classify/Computer Science/Databases.md",
-    "01. Inbox/To Classify/Computer Science/Programming Languages.md",
-    "01. Inbox/To Classify/Computer Science/Algorithms.md",
-    "01. Inbox/To Classify/Computer Science/Computer Science.md",
     "01. Inbox/To Classify/Computer Science",
     "01. Inbox/To Classify/Operating Systems/Virtual Memory",
     "01. Inbox/To Classify/Operating Systems",
@@ -347,7 +352,6 @@
     "01. Inbox/To Classify/JavaScript",
     "01. Inbox/To Classify/Browser Rendering",
     "01. Inbox/To Classify/CSS",
-    "01. Inbox/To Classify/JavaScript Scope Model",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg",
@@ -362,7 +366,6 @@
     "CS Dashboard/00. canvas/cs design patterns.canvas",
     "Golang Dashboard/00. canvas/00 - Go/types/go types.canvas",
     "Memes/Memes.canvas",
-    "06E6E3~1.SOF/Golang/Observabiltiy как в Bigtech/Observaibity.canvas",
-    "Golang Dashboard/00. Legend/vc.ru, Senior Go Developer/00. CV & Legend/_resources/01-Legend vc.ru.canvas"
+    "06E6E3~1.SOF/Golang/Observabiltiy как в Bigtech/Observaibity.canvas"
   ]
 }

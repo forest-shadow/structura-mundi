@@ -42,63 +42,68 @@ tags: []
 ```text
 Go
 ├── Go Toolchain
-├── Go Escape Analysis
 ├── Go Packages and Modules
 ├── Go Type System
-├── Go Interfaces
+│   ├── Go Basic Types
+│   ├── Go Composite Types
+│   ├── Go Defined Types and Underlying Types
+│   ├── Go Assignability and Conversions
+│   ├── Go Methods and Method Sets
+│   ├── Go Interfaces
+│   └── Go Type Parameters and Constraints
 ├── Go Error Handling
+├── Go Memory Management
+│   ├── Go Stack and Heap Allocation
+│   ├── Go Escape Analysis
+│   └── Go Garbage Collection
 ├── Go Concurrency Model
 │   ├── Go Goroutines
-│   └── Go Channels
+│   ├── Go Channels
+│   └── Go Scheduler
+│       ├── Go Scheduler GMP Model
+│       │   ├── Go Scheduler Processor
+│       │   └── Go Machine Thread
+│       ├── GOMAXPROCS
+│       ├── Go Scheduler Work Stealing
+│       ├── Go Scheduler Preemption
+│       └── Go Netpoller
 └── Go Testing
 ```
 
 ## Почему структура именно такая
 
 - `Go` служит обзорной рамкой верхнего уровня.
-- Большинство тем достаточно раскрывать как обычные `article`.
-- `Go Escape Analysis` стоит держать отдельной статьей, потому что это устойчивый и практически важный concept на пересечении компилятора и runtime-производительности.
-- Единственная оправданная дополнительная вложенность на текущем этапе — `Go Concurrency Model`, потому что `goroutines` и `channels` образуют плотную самостоятельную подветку.
+- Верхний слой ветки уже шире, чем исходный минимальный каркас: помимо базовых language notes здесь теперь есть отдельная memory-management подветка и более развитая runtime/concurrency-подветка.
+- Большинство тем по-прежнему достаточно раскрывать как обычные `article`.
+- `Go Type System` уже оправдан как отдельный `sub-overview`, потому что внутри него собирается устойчивый набор канонических категорий: type families, identity rules, assignability, method sets, interfaces и type parameters.
+- `Go Interfaces` логичнее располагать внутри `Go Type System`, потому что в Go интерфейс является типом, а его ключевые свойства раскрываются через method sets, assignability и semantics interface values.
+- `Go Memory Management` уже оправдан как отдельный `sub-overview`, потому что сюда естественно собираются как минимум stack/heap placement, escape analysis и garbage collection.
+- `Go Escape Analysis` стоит держать внутри этой подветки, потому что это не самостоятельная вершина Go-ветки, а один из механизмов memory-management cluster.
+- `Go Concurrency Model` уже оправдан как полноценный `sub-overview`, потому что внутри него живет не только пара `goroutines/channels`, но и отдельная scheduler-подветка.
+- `Go Scheduler` уже фактически стал вторым уровнем вложенности внутри concurrency-ветки: у него есть собственный `overview`, базовая архитектурная статья `Go Scheduler GMP Model` и несколько самостоятельных аспектных `article`.
+- Внутри `Go Scheduler GMP Model` уже начала оформляться еще одна локальная группа заметок про сущности модели: `Go Scheduler Processor` и `Go Machine Thread`.
 - Уже существующую заметку `Testing Mind Model.md` лучше нормализовать до канонического узла `Go Testing`.
 
-## Предлагаемое физическое размещение в Corpus Mundi
+## Смысловые кластеры ветки
 
-```text
-02. Corpus Mundi/
-└── G/
-    ├── Go.md
-    ├── Go Escape Analysis.md
-    ├── Go Toolchain.md
-    ├── Go Packages and Modules.md
-    ├── Go Type System.md
-    ├── Go Interfaces.md
-    ├── Go Error Handling.md
-    ├── Go Concurrency Model.md
-    ├── Go Goroutines.md
-    ├── Go Channels.md
-    └── Go Testing.md
-```
+Чтобы не смешивать иерархию понятий с физическим размещением файлов, ветку `Go` лучше понимать как набор смысловых уровней:
 
-## Что уже создано в Inbox
+- **Language and tooling layer:** `[[Go Toolchain]]`, `[[Go Packages and Modules]]`, `[[Go Type System]]`, `[[Go Basic Types]]`, `[[Go Composite Types]]`, `[[Go Defined Types and Underlying Types]]`, `[[Go Assignability and Conversions]]`, `[[Go Methods and Method Sets]]`, `[[Go Interfaces]]`, `[[Go Type Parameters and Constraints]]`, `[[Go Error Handling]]`
+- **Memory management layer:** `[[Go Memory Management]]`, `[[Go Stack and Heap Allocation]]`, `[[Go Escape Analysis]]`, `[[Go Garbage Collection]]`
+- **Concurrency layer:** `[[Go Concurrency Model]]`, `[[Go Goroutines]]`, `[[Go Channels]]`
+- **Scheduler/runtime internals layer:** `[[Go Scheduler]]`, `[[Go Scheduler GMP Model]]`, `[[Go Scheduler Processor]]`, `[[Go Machine Thread]]`, `[[GOMAXPROCS]]`, `[[Go Scheduler Work Stealing]]`, `[[Go Scheduler Preemption]]`, `[[Go Netpoller]]`
+- **Validation and engineering practice layer:** `[[Go Testing]]`
 
-- `[[Go]]`
-- `[[Go Escape Analysis]]`
-- `[[Go Toolchain]]`
-- `[[Go Packages and Modules]]`
-- `[[Go Type System]]`
-- `[[Go Interfaces]]`
-- `[[Go Error Handling]]`
-- `[[Go Concurrency Model]]`
-- `[[Go Goroutines]]`
-- `[[Go Channels]]`
-- `[[Go Testing]]`
+Служебные structure proposals рядом с этими заметками не входят в каноническую смысловую иерархию. Они лишь фиксируют решения о том, как ветка должна быть собрана.
 
 ## Что стоит раскрыть дальше
 
 - [ ] Уточнить, когда `Go Toolchain` стоит делить на `go build`, `go test`, `go mod`
-- [ ] Уточнить, когда `Go Escape Analysis` перестанет быть одиночной статьей и потребует compiler-related соседей
+- [ ] Уточнить, когда рядом с `Go Memory Management` понадобятся allocator-related notes
 - [ ] Решить, нужна ли отдельная заметка `Go Memory Model`
-- [ ] Уточнить границы между `Go Interfaces` и `Go Type System`
+- [ ] Уточнить границы между `Go Memory Management` и `Go Concurrency Model`
+- [ ] Уточнить, когда внутри `Go Type System` понадобятся `Go Zero Value and Nil` и `Go Type Assertions`
+- [ ] Уточнить, нужна ли отдельная article-note про `G` как сущность GMP-модели
 - [ ] Подтвердить `section: go`
 
 ## Рекомендуемый маршрут чтения
@@ -106,7 +111,8 @@ Go
 
 Структурно данная ветка выстроена так, чтобы изучать язык последовательно — от инженерной среды к типовой семантике, а затем к практическим режимам разработки. Рекомендуемая последовательность:
 
-1. **Базовая инфраструктура:** Начать с `[[Go Toolchain]]` и `[[Go Packages and Modules]]`, поскольку они задают инженерную рамку языка и объясняют, как в Go физически организуется проект, собирается бинарный код и управляются внешние зависимости.
-2. **Семантика и контракты:** Затем перейти к `[[Go Type System]]`, `[[Go Interfaces]]` и `[[Go Error Handling]]`. Именно здесь формируется основной стиль мышления в Go: как моделируются структуры данных, как задаются абстракции без наследования и как строго выражаются контракты отказа.
-3. **Вычислительная модель:** После этого читать `[[Go Concurrency Model]]` и его дочерние статьи. Конкурентность в Go безопасно изучать только на базе устойчивого понимания значений, типов, интерфейсов и семантики разделяемой памяти.
-4. **Практическая валидация:** Завершить `[[Go Testing]]` как прикладной дисциплиной, связывающей язык с практикой проверки корректности, регрессии, профилирования и повседневного сопровождения кода.
+1. **Базовая инфраструктура:** Начать с `[[Go Toolchain]]` и `[[Go Packages and Modules]]`, поскольку они задают инженерную рамку языка и объясняют, как в Go организуется проект, собирается бинарный код и управляются внешние зависимости.
+2. **Семантика и контракты:** Затем перейти к `[[Go Type System]]`. Внутри этой ветки полезно двигаться так: `[[Go Basic Types]]` → `[[Go Composite Types]]` → `[[Go Defined Types and Underlying Types]]` → `[[Go Assignability and Conversions]]` → `[[Go Methods and Method Sets]]` → `[[Go Interfaces]]` → `[[Go Type Parameters and Constraints]]`, а затем уже сопоставлять это с `[[Go Error Handling]]` как прикладной языковой идиомой.
+3. **Memory behavior:** После этого перейти к `[[Go Memory Management]]`. Внутри этой ветки полезно двигаться так: `[[Go Stack and Heap Allocation]]` → `[[Go Escape Analysis]]` → `[[Go Garbage Collection]]`, чтобы понять связь между размещением значений, heap pressure и стоимостью runtime.
+4. **Вычислительная модель:** Затем читать `[[Go Concurrency Model]]` и его дочерние статьи. Внутри этой ветки полезно двигаться так: `[[Go Goroutines]]` → `[[Go Scheduler]]` → `[[Go Scheduler GMP Model]]` → aspect notes вроде `[[GOMAXPROCS]]`, `[[Go Scheduler Work Stealing]]`, `[[Go Scheduler Preemption]]` и `[[Go Netpoller]]`, после чего возвращаться к `[[Go Channels]]` как к координационному механизму уже на фоне понятного runtime behavior.
+5. **Практическая валидация:** Завершить `[[Go Testing]]` как прикладной дисциплиной, связывающей язык с практикой проверки корректности, регрессии, профилирования и повседневного сопровождения кода.

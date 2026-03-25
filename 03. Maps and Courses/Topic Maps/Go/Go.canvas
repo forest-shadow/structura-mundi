@@ -1,0 +1,57 @@
+{
+	"nodes":[
+		{"id":"771c1261a61d5fdf","type":"group","x":-140,"y":280,"width":300,"height":300,"color":"2","label":"Concurrency Model"},
+		{"id":"1f5b1b0260aaf09a","type":"group","x":-500,"y":280,"width":300,"height":300,"color":"2","label":"Type System"},
+		{"id":"bd41b466f48eaafe","type":"group","x":240,"y":280,"width":300,"height":300,"color":"2","label":"Memory Management"},
+		{"id":"b61a11c9d4a907da","type":"group","x":-160,"y":-100,"width":340,"height":180,"color":"1","label":"Go"},
+		{
+			"id":"2044a84028e0e75c",
+			"type":"text",
+			"text":"Go",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":-120,
+			"y":-40,
+			"width":260,
+			"height":60,
+			"color":"1"
+		}
+	],
+	"edges":[
+		{
+			"id":"f31087ddca017292",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"b61a11c9d4a907da",
+			"fromSide":"bottom",
+			"toNode":"771c1261a61d5fdf",
+			"toSide":"top",
+			"color":"2"
+		},
+		{
+			"id":"ba63c7d824778c5b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"b61a11c9d4a907da",
+			"fromSide":"bottom",
+			"toNode":"1f5b1b0260aaf09a",
+			"toSide":"top",
+			"color":"2"
+		},
+		{
+			"id":"f54b41d341d81305",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"b61a11c9d4a907da",
+			"fromSide":"bottom",
+			"toNode":"bd41b466f48eaafe",
+			"toSide":"top",
+			"color":"2"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

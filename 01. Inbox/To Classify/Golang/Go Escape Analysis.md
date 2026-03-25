@@ -6,10 +6,11 @@ note_type: article
 area: computer-science
 domain: programming-languages
 section: go
-parent: "[[Go]]"
+parent: "[[Go Memory Management]]"
 status: seed
 related:
   - "[[Go]]"
+  - "[[Go Memory Management]]"
   - "[[Go Toolchain]]"
 tags: []
 ---
@@ -22,7 +23,7 @@ tags: []
 
 ## Почему тема находится в ветке Go
 
-Эта заметка относится к `[[Go]]`, потому что речь идет не о общей теории распределения памяти, а о конкретном поведении компилятора Go и его влиянии на allocation patterns, latency и GC pressure.
+Эта заметка относится к `[[Go Memory Management]]`, потому что речь идет не о общей теории распределения памяти, а о конкретном механизме внутри memory-management ветки Go: решении компилятора о том, какие значения остаются на стеке, а какие переходят в кучу.
 
 ## Основная идея или механизм
 
@@ -40,10 +41,14 @@ tags: []
 Родительская тема:
 
 `[[Go]]`
+`[[Go Memory Management]]`
 
 Связанные заметки:
 
+- `[[Go]]`
 - `[[Go Toolchain]]`
+- `[[Go Stack and Heap Allocation]]`
+- `[[Go Garbage Collection]]`
 
 ## Примеры, случаи или следствия
 
