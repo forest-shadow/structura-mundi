@@ -261,6 +261,17 @@
     },
     "01. Inbox/To Classify/Golang": {
       "children": [
+        "01. Inbox/To Classify/Golang/Go Type Parameters and Constraints.md",
+        "01. Inbox/To Classify/Golang/Go Methods and Method Sets.md",
+        "01. Inbox/To Classify/Golang/Go Assignability and Conversions.md",
+        "01. Inbox/To Classify/Golang/Go Defined Types and Underlying Types.md",
+        "01. Inbox/To Classify/Golang/Go Composite Types.md",
+        "01. Inbox/To Classify/Golang/Go Basic Types.md",
+        "01. Inbox/To Classify/Golang/Go Type System Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Garbage Collection.md",
+        "01. Inbox/To Classify/Golang/Go Stack and Heap Allocation.md",
+        "01. Inbox/To Classify/Golang/Go Memory Management Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Memory Management.md",
         "01. Inbox/To Classify/Golang/Go Escape Analysis Structure Proposal.md",
         "01. Inbox/To Classify/Golang/Go Escape Analysis.md",
         "01. Inbox/To Classify/Golang/GOMAXPROCS.md",
@@ -641,6 +652,7 @@
     },
     "03. Maps and Courses/Topic Maps": {
       "children": [
+        "03. Maps and Courses/Topic Maps/OS",
         "03. Maps and Courses/Topic Maps/Go",
         "03. Maps and Courses/Topic Maps/React",
         "03. Maps and Courses/Topic Maps/DBMS",
@@ -739,6 +751,10 @@
       "children": [
         "03. Maps and Courses/Topic Maps/Go/Go.canvas"
       ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/OS": {
+      "children": [],
       "sortOrder": "custom"
     }
   },

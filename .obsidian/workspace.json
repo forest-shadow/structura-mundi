@@ -67,23 +67,6 @@
             }
           },
           {
-            "id": "f671ddca55847aba",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "03. Maps and Courses/Topic Maps/Go/Go.canvas",
-                "viewState": {
-                  "x": 210.30778850847742,
-                  "y": 455.8077166424279,
-                  "zoom": -1
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Go"
-            }
-          },
-          {
             "id": "8e4f1188fb186d14",
             "type": "leaf",
             "state": {
@@ -103,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/React/JSX.md",
+                "file": "02. Corpus Mundi/J/JSX.md",
                 "mode": "source",
                 "source": false
               },
@@ -117,16 +100,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/React/JSX.md",
+                "file": "02. Corpus Mundi/J/JavaScript Prototype Internal Slot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JSX"
+              "title": "JavaScript Prototype Internal Slot"
+            }
+          },
+          {
+            "id": "13c25d436a3a3898",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Inbox/To Classify/Operating Systems/Operating Systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Operating Systems"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       },
       {
         "id": "3029b664b82ea4ed",
@@ -240,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/React/JSX.md",
+                "file": "01. Inbox/To Classify/React/React Structure Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JSX"
+              "title": "Outline of React Structure Proposal"
             }
           },
           {
@@ -354,16 +351,20 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "99d926e89504f64d",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
-    "Tabula Ortus.md",
-    "01. Inbox/To Classify/React/JSX.md",
+    "03. Maps and Courses/Topic Maps/OS",
+    "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
+    "01. Inbox/To Classify/Operating Systems/Operating Systems.md",
+    "Tabula Ortus.md",
+    "02. Corpus Mundi/J/JavaScript Prototype Internal Slot.md",
+    "02. Corpus Mundi/J/JSX.md",
+    "02. Corpus Mundi/V/Virtual DOM.md",
     "01. Inbox/To Classify/React/React Structure Proposal.md",
     "02. Corpus Mundi/A/Algorithm Analysis.md",
     "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis Structure Proposal.md",
     "01. Inbox/To Classify/React/React Reconciliation.md",
-    "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "01. Inbox/To Classify/Golang/Go Type Parameters and Constraints.md",
     "01. Inbox/To Classify/Golang/Go Methods and Method Sets.md",
     "01. Inbox/To Classify/Golang/Go Assignability and Conversions.md",
@@ -381,10 +382,6 @@
     "02. Corpus Mundi/G/Go Scheduler.md",
     "02. Corpus Mundi/G/Go.md",
     "01. Inbox/To Classify/Golang/Go Escape Analysis Structure Proposal.md",
-    "01. Inbox/To Classify/Golang/Go Escape Analysis.md",
-    "00. Obsidian Praxis/Templates/Go Runtime Control Article Template.md",
-    "00. Principia Rerum/Templates/Go Runtime Control Article Template.md",
-    "01. Inbox/To Classify/Golang/GOMAXPROCS.md",
     "01. Inbox/To Classify/Computer Science",
     "01. Inbox/To Classify/Operating Systems/Virtual Memory",
     "01. Inbox/To Classify/Operating Systems",
