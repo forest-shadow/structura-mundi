@@ -116,12 +116,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Distributed Systems/Caching/Caching Structure Proposal.md",
+                "file": "02. Corpus Mundi/I/Internet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Caching Structure Proposal"
+              "title": "Internet"
             }
           }
         ],
@@ -198,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Distributed Systems/Caching/Caching Structure Proposal.md",
+                "file": "02. Corpus Mundi/I/Internet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Caching Structure Proposal"
+              "title": "Outline of Internet"
             }
           },
           {
@@ -314,6 +314,7 @@
   },
   "active": "2950dc340357ed8c",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Distributed Systems/Caching/Caching Structure Proposal.md",
     "01. Inbox/To Classify/Networking/DNS/DNS Zone.md",
     "01. Inbox/To Classify/Networking/DNS/DNS Resource Record.md",
     "01. Inbox/To Classify/Networking/DNS/Authoritative DNS Server.md",
@@ -329,7 +330,6 @@
     "01. Inbox/To Classify/Distributed Systems/Caching/Types of Caches.md",
     "01. Inbox/To Classify/Distributed Systems/Caching/Caching Strategies.md",
     "01. Inbox/To Classify/Distributed Systems/Caching/Caching.md",
-    "01. Inbox/To Classify/Distributed Systems/Caching/Caching Structure Proposal.md",
     "01. Inbox/To Classify/Distributed Systems/Service Reliability Structure.md",
     "01. Inbox/To Classify/Distributed Systems/Telemetry/Telemetry.md",
     "01. Inbox/To Classify/Distributed Systems/Telemetry/Telemetry Structure Proposal.md",
