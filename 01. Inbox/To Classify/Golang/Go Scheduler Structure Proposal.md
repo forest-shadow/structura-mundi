@@ -36,6 +36,7 @@ Go
     ├── Go Channels
     └── Go Scheduler
         ├── Go Scheduler GMP Model
+        ├── GOMAXPROCS
         ├── Go Scheduler Work Stealing
         ├── Go Scheduler Preemption
         └── Go Netpoller
@@ -45,6 +46,7 @@ Go
 
 - `Go Scheduler` лучше делать `overview`, потому что он объединяет несколько разных аспектов одного механизма.
 - `Go Scheduler GMP Model` нужен как статья про базовую архитектурную модель `G-M-P`.
+- `GOMAXPROCS` нужен как отдельная статья про пользовательски наблюдаемый runtime knob, через который абстрактная модель `P` связывается с реально допускаемым параллелизмом.
 - `Go Scheduler Work Stealing` нужен как статья про ключевой способ балансировки нагрузки.
 - `Go Scheduler Preemption` нужен как статья про то, как рантайм возвращает управление и избегает monopolization CPU.
 - `Go Netpoller` нужен как статья про интеграцию scheduler с неблокирующим сетевым I/O и пробуждением goroutines.
@@ -59,6 +61,7 @@ Go
 ```text
 02. Corpus Mundi/
 └── G/
+    ├── GOMAXPROCS.md
     ├── Go Scheduler.md
     ├── Go Scheduler GMP Model.md
     ├── Go Scheduler Work Stealing.md
@@ -70,6 +73,7 @@ Go
 
 - `[[Go Scheduler]]`
 - `[[Go Scheduler GMP Model]]`
+- `[[GOMAXPROCS]]`
 - `[[Go Scheduler Work Stealing]]`
 - `[[Go Scheduler Preemption]]`
 - `[[Go Netpoller]]`
@@ -77,6 +81,7 @@ Go
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить, нужна ли отдельная статья про `sysmon`
+- [ ] Уточнить, когда рядом с `GOMAXPROCS` понадобятся `GOGC` или другие runtime control notes
 - [ ] Решить, нужно ли выносить scheduler/GC interaction в отдельную заметку
 - [ ] Уточнить связь между scheduler, netpoller и runtime timers
 - [ ] Уточнить границы между `Go Goroutines` и `Go Scheduler`

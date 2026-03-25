@@ -86,6 +86,8 @@ Structura Mundi/
 - `Naming Policy.md` — как называть заметки и связанные файлы;
 - `Note Lifecycle and Merge Policy.md` — как создавать, сливать, переименовывать и архивировать заметки;
 - `Templates/` — расширенные шаблоны для агента.
+- внутри этой папки канонически должны лежать только `Article Template.md` и `Overview Template.md`;
+- тематические и domain-specific шаблоны не создаются.
 
 Эта папка нужна, чтобы база не расползалась.
 
@@ -101,6 +103,8 @@ Structura Mundi/
 
 Например:
 - `Templates/` — минимальные шаблоны для стандартного механизма шаблонов Obsidian;
+- внутри этой папки канонически должны лежать только `Article Template.md` и `Overview Template.md`;
+- тематические и domain-specific шаблоны не создаются;
 - `Config & Settings Details/` — заметки по настройкам и практикам;
 - `Git History Squash.md` — отдельный инструментальный workflow note.
 

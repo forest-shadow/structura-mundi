@@ -386,3 +386,7 @@ tags: []
 - [[Templates/Overview Template|Agent Overview Template]]
 - [[00. Obsidian Praxis/Templates/Article Template|Obsidian Article Template]]
 - [[00. Obsidian Praxis/Templates/Overview Template|Obsidian Overview Template]]
+
+Каноническое правило: в каждой из этих двух директорий должно быть только по два шаблона — `Article Template` и `Overview Template`.
+
+Не следует создавать тематические, доменные или технологические варианты шаблонов. Если заметка про особую тему, различие должно жить в её содержании и `frontmatter`, а не в отдельном template-файле.

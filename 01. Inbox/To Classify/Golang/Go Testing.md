@@ -303,4 +303,4 @@ Example functions с комментариями `Output:` или `Unordered outp
 
 Зрелая ментальная модель тестирования в Go строится не вокруг набора трюков из `testing`, а вокруг дисциплины контрактного мышления. Стандартный пакет `testing` даёт для этого почти всё необходимое: именованные test functions в `*_test.go`, same-package и `_test` package режимы, `t.Run` для subtests, `t.Helper`, `t.Cleanup`, `t.TempDir`, `t.Setenv`, fuzzing, benchmarks и examples. Но центральная практическая идея остаётся одной и той же: **сначала формализовать обещание кода, затем разложить его на сценарии, выбрать оракулы и только после этого писать assertions**. ([pkg.go.dev](https://pkg.go.dev/testing "testing package - testing - Go Packages"))
 
-Могу следующим сообщением сразу превратить это в более строгий Obsidian-шаблон с frontmatter, секцией `[[related]]` и коротким блоком “interview heuristics”.
+При необходимости этот материал можно дальше нормализовать как обычную каноническую заметку по правилам `Principia Rerum`, без введения отдельного специального шаблона.

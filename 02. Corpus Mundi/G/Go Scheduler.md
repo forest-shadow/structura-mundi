@@ -12,6 +12,7 @@ related:
   - "[[Go Concurrency Model]]"
   - "[[Go Goroutines]]"
   - "[[Go Scheduler GMP Model]]"
+  - "[[GOMAXPROCS]]"
   - "[[Go Scheduler Work Stealing]]"
   - "[[Go Scheduler Preemption]]"
   - "[[Go Netpoller]]"
