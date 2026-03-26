@@ -13,6 +13,7 @@ related:
   - "[[Go Interfaces]]"
   - "[[Go Methods and Method Sets]]"
   - "[[Go Assignability and Conversions]]"
+  - "[[Go Reflection]]"
 tags: []
 ---
 
@@ -30,6 +31,7 @@ tags: []
 - `[[Go Assignability and Conversions]]`
 - `[[Go Methods and Method Sets]]`
 - `[[Go Interfaces]]`
+- `[[Go Reflection]]`
 - `[[Go Type Parameters and Constraints]]`
 
 ## Как устроена ветка
@@ -39,6 +41,7 @@ tags: []
 - `Go Assignability and Conversions` собирает правила, по которым значения могут переходить между типами или требовать явного преобразования.
 - `Go Methods and Method Sets` раскрывает поведенческий слой типовой системы и подводит почву к интерфейсам.
 - `Go Interfaces` выделены в отдельную article-note как особый вид типов и механизм структурной абстракции.
+- `Go Reflection` показывает runtime-оптику на типовую систему Go: какие сведения о типах и значениях становятся доступны во время выполнения и какими ограничениями сопровождается такая динамика.
 - `Go Type Parameters and Constraints` добавляет слой parametric polymorphism, но не отменяет базовые правила identity, assignability и method sets.
 
 ## Рекомендуемый маршрут чтения
@@ -48,7 +51,8 @@ tags: []
 3. После этого читать `[[Go Assignability and Conversions]]`, где видно, как типы соотносятся в программах.
 4. Затем перейти к `[[Go Methods and Method Sets]]` как к мосту между типами и поведением.
 5. После этого читать `[[Go Interfaces]]`, потому что именно там structural typing начинает работать как практический механизм.
-6. Завершить `[[Go Type Parameters and Constraints]]`, когда уже понятны базовые типы, совместимость и method sets.
+6. Затем перейти к `[[Go Reflection]]` как к runtime-перспективе на уже понятную типовую модель. Внутри этой ветки полезно двигаться так: `[[reflect.Type, reflect.Value and reflect.Kind]]` → `[[Addressability and Settable Values in Go Reflection]]` → `[[Struct Inspection and Tags in Go Reflection]]` → `[[Dynamic Operations in Go Reflection]]`.
+7. Завершить `[[Go Type Parameters and Constraints]]`, когда уже понятны базовые типы, совместимость, method sets и различие между runtime- и compile-time-обобщением.
 
 ## Соседние ветки
 
@@ -59,6 +63,7 @@ tags: []
 
 - [ ] Решить, когда рядом нужны `Go Zero Value and Nil`
 - [ ] Решить, стоит ли выделять `Go Type Assertions`
+- [ ] Проверить, когда внутри `Go Reflection` понадобятся заметки про `any` и interface values
 - [ ] Уточнить границы между `Go Composite Types` и более узкими notes вроде `slice` или `map`
 - [ ] Проверить `aliases`
 - [ ] Проверить `tags`

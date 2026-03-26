@@ -50,6 +50,14 @@ Go
 │   ├── Go Assignability and Conversions
 │   ├── Go Methods and Method Sets
 │   ├── Go Interfaces
+│   ├── Go Reflection
+│   │   ├── reflect.Type, reflect.Value and reflect.Kind
+│   │   ├── Addressability and Settable Values in Go Reflection
+│   │   ├── Struct Inspection and Tags in Go Reflection
+│   │   ├── Dynamic Operations in Go Reflection
+│   │   ├── Reflection and Dynamic Decoding in Go
+│   │   ├── Reflection vs Generics vs Code Generation in Go
+│   │   └── Performance and Limits of Go Reflection
 │   └── Go Type Parameters and Constraints
 ├── Go Error Handling
 ├── Go Memory Management
@@ -76,6 +84,7 @@ Go
 - Верхний слой ветки уже шире, чем исходный минимальный каркас: помимо базовых language notes здесь теперь есть отдельная memory-management подветка и более развитая runtime/concurrency-подветка.
 - Большинство тем по-прежнему достаточно раскрывать как обычные `article`.
 - `Go Type System` уже оправдан как отдельный `sub-overview`, потому что внутри него собирается устойчивый набор канонических категорий: type families, identity rules, assignability, method sets, interfaces и type parameters.
+- `Go Reflection` логично располагать внутри `Go Type System`, потому что reflection в Go не является отдельной системой исполнения, а представляет собой runtime-оптику на уже существующую типовую модель языка.
 - `Go Interfaces` логичнее располагать внутри `Go Type System`, потому что в Go интерфейс является типом, а его ключевые свойства раскрываются через method sets, assignability и semantics interface values.
 - `Go Memory Management` уже оправдан как отдельный `sub-overview`, потому что сюда естественно собираются как минимум stack/heap placement, escape analysis и garbage collection.
 - `Go Escape Analysis` стоит держать внутри этой подветки, потому что это не самостоятельная вершина Go-ветки, а один из механизмов memory-management cluster.
@@ -88,7 +97,7 @@ Go
 
 Чтобы не смешивать иерархию понятий с физическим размещением файлов, ветку `Go` лучше понимать как набор смысловых уровней:
 
-- **Language and tooling layer:** `[[Go Toolchain]]`, `[[Go Packages and Modules]]`, `[[Go Type System]]`, `[[Go Basic Types]]`, `[[Go Composite Types]]`, `[[Go Defined Types and Underlying Types]]`, `[[Go Assignability and Conversions]]`, `[[Go Methods and Method Sets]]`, `[[Go Interfaces]]`, `[[Go Type Parameters and Constraints]]`, `[[Go Error Handling]]`
+- **Language and tooling layer:** `[[Go Toolchain]]`, `[[Go Packages and Modules]]`, `[[Go Type System]]`, `[[Go Basic Types]]`, `[[Go Composite Types]]`, `[[Go Defined Types and Underlying Types]]`, `[[Go Assignability and Conversions]]`, `[[Go Methods and Method Sets]]`, `[[Go Interfaces]]`, `[[Go Reflection]]`, `[[reflect.Type, reflect.Value and reflect.Kind]]`, `[[Addressability and Settable Values in Go Reflection]]`, `[[Struct Inspection and Tags in Go Reflection]]`, `[[Dynamic Operations in Go Reflection]]`, `[[Reflection and Dynamic Decoding in Go]]`, `[[Reflection vs Generics vs Code Generation in Go]]`, `[[Performance and Limits of Go Reflection]]`, `[[Go Type Parameters and Constraints]]`, `[[Go Error Handling]]`
 - **Memory management layer:** `[[Go Memory Management]]`, `[[Go Stack and Heap Allocation]]`, `[[Go Escape Analysis]]`, `[[Go Garbage Collection]]`
 - **Concurrency layer:** `[[Go Concurrency Model]]`, `[[Go Goroutines]]`, `[[Go Channels]]`
 - **Scheduler/runtime internals layer:** `[[Go Scheduler]]`, `[[Go Scheduler GMP Model]]`, `[[Go Scheduler Processor]]`, `[[Go Machine Thread]]`, `[[GOMAXPROCS]]`, `[[Go Scheduler Work Stealing]]`, `[[Go Scheduler Preemption]]`, `[[Go Netpoller]]`
@@ -103,6 +112,7 @@ Go
 - [ ] Решить, нужна ли отдельная заметка `Go Memory Model`
 - [ ] Уточнить границы между `Go Memory Management` и `Go Concurrency Model`
 - [ ] Уточнить, когда внутри `Go Type System` понадобятся `Go Zero Value and Nil` и `Go Type Assertions`
+- [ ] Проверить, когда внутри `Go Reflection` понадобятся заметки про `any` и interface values
 - [ ] Уточнить, нужна ли отдельная article-note про `G` как сущность GMP-модели
 - [ ] Подтвердить `section: go`
 
@@ -112,7 +122,7 @@ Go
 Структурно данная ветка выстроена так, чтобы изучать язык последовательно — от инженерной среды к типовой семантике, а затем к практическим режимам разработки. Рекомендуемая последовательность:
 
 1. **Базовая инфраструктура:** Начать с `[[Go Toolchain]]` и `[[Go Packages and Modules]]`, поскольку они задают инженерную рамку языка и объясняют, как в Go организуется проект, собирается бинарный код и управляются внешние зависимости.
-2. **Семантика и контракты:** Затем перейти к `[[Go Type System]]`. Внутри этой ветки полезно двигаться так: `[[Go Basic Types]]` → `[[Go Composite Types]]` → `[[Go Defined Types and Underlying Types]]` → `[[Go Assignability and Conversions]]` → `[[Go Methods and Method Sets]]` → `[[Go Interfaces]]` → `[[Go Type Parameters and Constraints]]`, а затем уже сопоставлять это с `[[Go Error Handling]]` как прикладной языковой идиомой.
+2. **Семантика и контракты:** Затем перейти к `[[Go Type System]]`. Внутри этой ветки полезно двигаться так: `[[Go Basic Types]]` → `[[Go Composite Types]]` → `[[Go Defined Types and Underlying Types]]` → `[[Go Assignability and Conversions]]` → `[[Go Methods and Method Sets]]` → `[[Go Interfaces]]` → `[[Go Reflection]]` → `[[Go Type Parameters and Constraints]]`, а затем уже сопоставлять это с `[[Go Error Handling]]` как прикладной языковой идиомой.
 3. **Memory behavior:** После этого перейти к `[[Go Memory Management]]`. Внутри этой ветки полезно двигаться так: `[[Go Stack and Heap Allocation]]` → `[[Go Escape Analysis]]` → `[[Go Garbage Collection]]`, чтобы понять связь между размещением значений, heap pressure и стоимостью runtime.
 4. **Вычислительная модель:** Затем читать `[[Go Concurrency Model]]` и его дочерние статьи. Внутри этой ветки полезно двигаться так: `[[Go Goroutines]]` → `[[Go Scheduler]]` → `[[Go Scheduler GMP Model]]` → aspect notes вроде `[[GOMAXPROCS]]`, `[[Go Scheduler Work Stealing]]`, `[[Go Scheduler Preemption]]` и `[[Go Netpoller]]`, после чего возвращаться к `[[Go Channels]]` как к координационному механизму уже на фоне понятного runtime behavior.
 5. **Практическая валидация:** Завершить `[[Go Testing]]` как прикладной дисциплиной, связывающей язык с практикой проверки корректности, регрессии, профилирования и повседневного сопровождения кода.

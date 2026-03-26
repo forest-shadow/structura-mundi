@@ -31,6 +31,14 @@ Go
     ├── Go Assignability and Conversions
     ├── Go Methods and Method Sets
     ├── Go Interfaces
+    ├── Go Reflection
+    │   ├── reflect.Type, reflect.Value and reflect.Kind
+    │   ├── Addressability and Settable Values in Go Reflection
+    │   ├── Struct Inspection and Tags in Go Reflection
+    │   ├── Dynamic Operations in Go Reflection
+    │   ├── Reflection and Dynamic Decoding in Go
+    │   ├── Reflection vs Generics vs Code Generation in Go
+    │   └── Performance and Limits of Go Reflection
     └── Go Type Parameters and Constraints
 ```
 
@@ -42,16 +50,19 @@ Go
 - `Go Assignability and Conversions` нужен как отдельный узел, потому что совместимость типов и явные преобразования образуют самостоятельный класс правил.
 - `Go Methods and Method Sets` стоит держать рядом с интерфейсами, поскольку именно через method sets в Go связываются типы и поведение.
 - `Go Interfaces` остаются отдельной article-note, а не растворяются внутри method sets, потому что это самостоятельная canonical category системы типов и ключевая идиома языка.
+- `Go Reflection` уже оправдан как отдельный `sub-overview`, потому что она собирает не один API-фрагмент, а целую локальную ветку про runtime type information, ограничения mutation и архитектурные trade-offs.
 - `Go Type Parameters and Constraints` входят в современную типовую систему Go как слой parametric polymorphism и поэтому должны быть видны прямо в верхней структуре ветки.
 
 ## Что не стоит делать прямо сейчас
 
 - Не стоит дробить ветку до отдельных notes про каждый built-in type, пока для этого нет устойчивого корпуса.
 - Не стоит смешивать `Go Type System` с memory semantics или concurrency semantics.
+- Не стоит делать reflection просто длинным хвостом внутри `Go Interfaces`: у нее уже есть собственный понятийный и прикладной кластер.
 - Не стоит создавать специализированные templates под type-system notes.
 
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда нужны `Go Zero Value and Nil`
 - [ ] Решить, когда стоит выделить `Go Type Assertions`
+- [ ] Проверить, когда внутри `Go Reflection` нужны отдельные notes про `any` и interface values
 - [ ] Проверить `related`
