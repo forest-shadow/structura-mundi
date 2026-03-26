@@ -7,9 +7,9 @@ area: computer-science
 domain: frontend-engineering
 section: react
 parent: "[[React]]"
-status: seed
+status: draft
 related:
-  - "[[Props in React]]"
+  - "[[React Props]]"
   - "[[Functional Components]]"
   - "[[Component Composition]]"
   - "[[Class Components]]"

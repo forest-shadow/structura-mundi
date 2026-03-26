@@ -4,39 +4,6 @@
 		{"id":"85740e0f5f892e20","type":"group","x":-320,"y":100,"width":460,"height":700,"color":"2","label":"React Rendering Model"},
 		{"id":"5512cc2f6bbfe27e","type":"group","x":-840,"y":100,"width":400,"height":460,"color":"2","label":"React Components"},
 		{
-			"id":"dc6741cda5fb5915",
-			"type":"text",
-			"text":"[[React Hooks]]",
-			"styleAttributes":{},
-			"x":320,
-			"y":140,
-			"width":260,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"6930ca15a7215153",
-			"type":"text",
-			"text":"Rules of Hooks",
-			"styleAttributes":{},
-			"x":360,
-			"y":220,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"cea3593991a5fa17",
-			"type":"text",
-			"text":"[[useState]]",
-			"styleAttributes":{},
-			"x":360,
-			"y":300,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
 			"id":"d2e1638e13bb6602",
 			"type":"text",
 			"text":"[[useReducer]]",
@@ -76,6 +43,50 @@
 			"styleAttributes":{},
 			"x":360,
 			"y":700,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"0ce536785d2f7306",
+			"type":"text",
+			"text":"[[React Components]]",
+			"styleAttributes":{},
+			"x":-780,
+			"y":140,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"dc6741cda5fb5915",
+			"type":"text",
+			"text":"[[React Hooks]]",
+			"styleAttributes":{},
+			"x":320,
+			"y":140,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"6930ca15a7215153",
+			"type":"text",
+			"text":"Rules of Hooks",
+			"styleAttributes":{},
+			"x":360,
+			"y":220,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"cea3593991a5fa17",
+			"type":"text",
+			"text":"[[useState]]",
+			"styleAttributes":{},
+			"x":360,
+			"y":300,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -134,61 +145,6 @@
 			"width":260,
 			"height":80,
 			"color":"1"
-		},
-		{
-			"id":"0ce536785d2f7306",
-			"type":"text",
-			"text":"[[React Components]]",
-			"styleAttributes":{},
-			"x":-780,
-			"y":140,
-			"width":260,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"96659c8e3f089db0",
-			"type":"text",
-			"text":"Component Composition",
-			"styleAttributes":{},
-			"x":-740,
-			"y":220,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"20cb08d3904543d5",
-			"type":"text",
-			"text":"Class Components",
-			"styleAttributes":{},
-			"x":-740,
-			"y":300,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"a17651602026adef",
-			"type":"text",
-			"text":"Functional Components",
-			"styleAttributes":{},
-			"x":-740,
-			"y":380,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"313276466510dafc",
-			"type":"text",
-			"text":"Props in React",
-			"styleAttributes":{},
-			"x":-740,
-			"y":460,
-			"width":260,
-			"height":60,
-			"color":"2"
 		},
 		{
 			"id":"e08b1e3074e83431",
@@ -274,6 +230,50 @@
 			"styleAttributes":{},
 			"x":-220,
 			"y":300,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"a17651602026adef",
+			"type":"text",
+			"text":"Functional Components",
+			"styleAttributes":{},
+			"x":-740,
+			"y":620,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"20cb08d3904543d5",
+			"type":"text",
+			"text":"Class Components",
+			"styleAttributes":{},
+			"x":-740,
+			"y":780,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"96659c8e3f089db0",
+			"type":"text",
+			"text":"Component Composition",
+			"styleAttributes":{},
+			"x":-780,
+			"y":910,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"313276466510dafc",
+			"type":"text",
+			"text":"Props in React",
+			"styleAttributes":{},
+			"x":-740,
+			"y":220,
 			"width":260,
 			"height":60,
 			"color":"2"

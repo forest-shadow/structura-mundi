@@ -9,7 +9,7 @@ parent: "[[React Rendering Model]]"
 status: draft
 related:
   - "[[Functional Components]]"
-  - "[[Props in React]]"
+  - "[[React Props]]"
   - "[[React Component Re-renders]]"
   - "[[useMemo]]"
 tags: []

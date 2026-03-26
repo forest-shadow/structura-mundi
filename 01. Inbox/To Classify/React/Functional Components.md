@@ -10,7 +10,7 @@ parent: "[[React Components]]"
 status: draft
 related:
   - "[[React Components]]"
-  - "[[Props in React]]"
+  - "[[React Props]]"
   - "[[React Hooks]]"
   - "[[React Rendering Model]]"
 tags: []

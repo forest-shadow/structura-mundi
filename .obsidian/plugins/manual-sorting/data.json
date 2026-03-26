@@ -88,6 +88,7 @@
     },
     "01. Inbox/To Classify": {
       "children": [
+        "01. Inbox/To Classify/Web Platform",
         "01. Inbox/To Classify/Distributed Systems",
         "01. Inbox/To Classify/Networking",
         "01. Inbox/To Classify/Algorithm Analysis",
@@ -451,7 +452,7 @@
         "01. Inbox/To Classify/React/Class Components.md",
         "01. Inbox/To Classify/React/Component Composition.md",
         "01. Inbox/To Classify/React/Functional Components.md",
-        "01. Inbox/To Classify/React/Props in React.md",
+        "01. Inbox/To Classify/React/React Props.md",
         "01. Inbox/To Classify/React/React Component Re-renders.md",
         "01. Inbox/To Classify/React/React Components.md",
         "01. Inbox/To Classify/React/React Reconciliation.md",
@@ -834,6 +835,10 @@
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
       ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Web Platform": {
+      "children": [],
       "sortOrder": "custom"
     }
   },
