@@ -7,7 +7,7 @@ section: browser-page-processing
 parent: "[[Frontend Engineering]]"
 status: seed
 related:
-  - "[[Browser Loading Hints]]"
+  - "[[Browser Loading Optimization Mechanisms]]"
   - "[[Browser Rendering]]"
 tags:
   - web
@@ -18,23 +18,23 @@ tags:
 
 ## Краткое определение области
 
-Обзорная заметка про то, как браузер подготавливает страницу к отображению: загружает ресурсы, строит внутренние структуры и доводит документ до видимого результата на экране.
+Обзорная заметка про то, как браузер подготавливает страницу к отображению: обнаруживает и загружает ресурсы, строит внутренние структуры и доводит документ до видимого результата на экране.
 
 ## Что входит в эту тему
 
-- `[[Browser Loading Hints]]`
+- `[[Browser Loading Optimization Mechanisms]]`
 - `[[Browser Rendering]]`
 
 ## Как устроена ветка
 
 - `Browser Page Processing` служит общей рамкой для тем про загрузку и отображение страницы.
-- `Browser Loading Hints` описывает механизмы, влияющие на порядок, приоритет и стратегию загрузки ресурсов.
+- `Browser Loading Optimization Mechanisms` описывает механизмы, влияющие на обнаружение ресурсов, приоритеты загрузки и расписание исполнения во время начального этапа работы страницы.
 - `Browser Rendering` описывает, как браузер превращает документ и стили в визуальный результат.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с общей идеи `Browser Page Processing`.
-2. Затем перейти к `[[Browser Loading Hints]]`.
+2. Затем перейти к `[[Browser Loading Optimization Mechanisms]]`.
 3. После этого читать `[[Browser Rendering]]`.
 
 ## Соседние overview-ветки
@@ -46,4 +46,3 @@ tags:
 - [ ] Уточнить границы между page processing и broader web performance
 - [ ] Проверить, нужен ли позже отдельный узел про critical rendering path
 - [ ] Проверить `related`
-- [ ] Не разрастается ли ветка слишком глубоко

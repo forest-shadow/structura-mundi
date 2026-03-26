@@ -2,23 +2,24 @@
 
 ## Назначение
 
-Этот файл фиксирует общую смысловую иерархию для тем `Browser Loading Hints` и `Browser Rendering` по правилам `Principia Rerum`.
+Этот файл фиксирует общую смысловую иерархию для тем `Browser Loading Optimization Mechanisms` и `Browser Rendering` по правилам `Principia Rerum`.
 
 Ветка пока размещена в `Inbox`, потому что для неё требуется расширение управляемого словаря:
 
 - `area: computer-science`
-- `domain: web-platform` (уже предлагается в соседних web-platform ветках)
-- `section: browser-page-processing` (предлагаемое новое значение)
+- `domain: web-platform`
+- `section: browser-page-processing`
 
-`Browser Page Processing` здесь выступает не как ещё одна расплывчатая browser-тема, а как верхнеуровневая рамка для того, как браузер подготавливает, загружает и отображает страницу. Это позволяет держать `Browser Loading Hints` и `Browser Rendering` в одной смысловой системе, не смешивая их в одну и ту же непосредственную подветку.
+`Browser Page Processing` здесь выступает не как ещё одна расплывчатая browser-тема, а как верхнеуровневая рамка для того, как браузер подготавливает, загружает и отображает страницу. Это позволяет держать `Browser Loading Optimization Mechanisms` и `Browser Rendering` в одной смысловой системе, не смешивая их в одну и ту же непосредственную подветку.
 
 ## Рекомендуемая иерархия
 
 ```text
 Browser Page Processing (overview)
-├── Browser Loading Hints (overview)
-│   ├── Script Loading Attributes (overview)
-│   └── Resource Hints (overview)
+├── Browser Loading Optimization Mechanisms (overview)
+│   ├── Resource Hints (overview)
+│   ├── Fetch Priority (article)
+│   └── Script Loading and Execution Attributes (overview)
 └── Browser Rendering (overview)
     ├── DOM (article)
     ├── CSSOM (article)
@@ -29,10 +30,10 @@ Browser Page Processing (overview)
 
 - `Browser Page Processing` достаточно широк, чтобы вместить и загрузку ресурсов, и последующее отображение страницы.
 - При этом он не так двусмысленен, как `Browser Page Lifecycle`, который легко спутать с lifecycle вкладки, visibility state, bfcache и похожими темами.
-- `Browser Loading Hints` остаётся отдельной веткой про управление загрузкой, приоритетами и стратегиями fetch/execute.
+- `Browser Loading Optimization Mechanisms` остаётся отдельной веткой про управление обнаружением ресурсов, приоритетами и стратегиями fetch/execute.
+- Внутри этой ветки полезно явно отделять канонические `Resource Hints`, отдельный механизм `Fetch Priority` и атрибуты загрузки и исполнения `<script>`.
 - `Browser Rendering` остаётся отдельной веткой про внутренние структуры и стадии визуального вывода.
 - Связь между этими двумя ветками становится иерархически понятной, но их собственные границы не размываются.
-- Позже внутрь этого общего узла естественно могут лечь `HTML Parsing`, `CSS Processing`, `Script Execution` и `Critical Rendering Path`, если под них появится самостоятельный корпус.
 
 ## Что не нужно создавать заранее
 
@@ -51,7 +52,7 @@ Browser Page Processing (overview)
 02. Corpus Mundi/
 └── B/
     ├── Browser Page Processing.md
-    ├── Browser Loading Hints.md
+    ├── Browser Loading Optimization Mechanisms.md
     ├── Browser Rendering.md
     └── Browser Rendering Pipeline.md
 ```
@@ -66,5 +67,5 @@ Browser Page Processing (overview)
 
 1. Подтвердить `domain: web-platform`.
 2. Подтвердить `section: browser-page-processing`.
-3. Сохранить `Browser Loading Hints` и `Browser Rendering` как отдельные подветки внутри общего узла.
+3. Сохранить `Browser Loading Optimization Mechanisms` и `Browser Rendering` как отдельные подветки внутри общего узла.
 4. Позже решить, когда внутри общего узла действительно назреют `HTML Parsing`, `CSS Processing` и `Critical Rendering Path`.

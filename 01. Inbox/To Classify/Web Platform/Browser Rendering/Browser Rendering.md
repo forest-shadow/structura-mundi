@@ -7,7 +7,7 @@ section: browser-rendering
 parent: "[[Browser Page Processing]]"
 status: seed
 related:
-  - "[[Browser Loading Hints]]"
+  - "[[Browser Loading Optimization Mechanisms]]"
   - "[[DOM]]"
   - "[[CSSOM]]"
   - "[[Browser Rendering Pipeline]]"
@@ -32,7 +32,7 @@ tags:
 
 - `Browser Rendering` служит подветкой внутри более общего узла `Browser Page Processing`.
 - `DOM` и `CSSOM` лучше держать рядом как базовые структуры, а не смешивать их с конкретными стадиями конвейера.
-- `Browser Rendering Pipeline` собирает уже собственно последовательность шагов, ведущих к выводу пикселей на экран.
+- `Browser Rendering Pipeline` собирает собственно последовательность шагов, ведущих к выводу пикселей на экран.
 
 ## Рекомендуемый маршрут чтения
 
@@ -42,11 +42,10 @@ tags:
 
 ## Соседние overview-ветки
 
-- `[[Browser Loading Hints]]`
+- `[[Browser Loading Optimization Mechanisms]]`
 
 ## Что стоит раскрыть дальше
 
 - [ ] Уточнить границы между browser rendering и broader web performance
 - [ ] Проверить, нужен ли позже отдельный узел про critical rendering path
 - [ ] Проверить `related`
-- [ ] Не разрастается ли ветка слишком глубоко
