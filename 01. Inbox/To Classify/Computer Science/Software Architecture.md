@@ -1,8 +1,9 @@
 ---
-aliases: []
+aliases:
+  - System Design
 note_type: overview
 area: computer-science
-domain: system-design
+domain: software-architecture
 section:
 parent: "[[Computer Science]]"
 status: seed
@@ -10,36 +11,35 @@ related:
   - "[[Design Principles]]"
   - "[[Dependency Management]]"
   - "[[Clean Architecture]]"
-  - "[[Service Reliability]]"
+  - "[[Distributed Systems]]"
 tags: []
 ---
 
-# System Design
+# Software Architecture
 
 ## Краткое определение области
 
-`System Design` — это доменная обзорная заметка для веток про архитектурное проектирование программных систем, их эксплуатационные свойства и инженерные trade-offs на уровне всей системы.
+`Software Architecture` — это доменная обзорная заметка для веток про архитектурные принципы, организацию зависимостей, форму сборки приложения и устойчивые архитектурные стили на уровне программной системы.
 
 ## Что входит в эту тему
 
 - `[[Design Principles]]`
 - `[[Dependency Management]]`
 - `[[Clean Architecture]]`
-- `[[Service Reliability]]`
 
 ## Как устроена ветка
 
 - `Design Principles` собирает архитектурные и проектные принципы, которыми удобно пользоваться как рамкой для оценки решений;
-- `Dependency Management` собирает практики организации зависимостей и сборки приложения;
+- `Dependency Management` собирает практики организации зависимостей, wiring-а и сборки приложения;
 - `Clean Architecture` стоит рядом как устойчивая архитектурная рамка, а не как замена всей ветке;
-- `Service Reliability` уже служит устойчивым operational subfield.
+- `Distributed Systems` остается соседней доменной веткой, потому что описывает уже не общие архитектурные практики, а особый класс систем с собственными ограничениями.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Design Principles]]`.
 2. Затем перейти к `[[Dependency Management]]`.
 3. После этого читать `[[Clean Architecture]]`.
-4. Затем уже входить в `[[Service Reliability]]` как в отдельную operational branch.
+4. Затем уже связывать эти темы с прикладными ветками вроде `[[Distributed Systems]]`.
 
 ## Соседние overview-ветки
 
@@ -48,6 +48,6 @@ tags: []
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить, что domain-root overview остается без `section`
-- [ ] Проверить границы между system design и distributed systems
+- [ ] Проверить границы между software architecture и distributed systems
 - [ ] Проверить `related`
 - [ ] Не разрастается ли ветка слишком глубоко

@@ -3,7 +3,7 @@ aliases:
   - DIP
 note_type: article
 area: computer-science
-domain: system-design
+domain: software-architecture
 section: design-principles
 parent: "[[SOLID]]"
 status: seed

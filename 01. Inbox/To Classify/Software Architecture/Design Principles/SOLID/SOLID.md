@@ -2,7 +2,7 @@
 aliases: []
 note_type: overview
 area: computer-science
-domain: system-design
+domain: software-architecture
 section: design-principles
 parent: "[[Design Principles]]"
 status: seed

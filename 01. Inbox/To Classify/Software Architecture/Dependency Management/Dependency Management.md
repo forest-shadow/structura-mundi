@@ -2,9 +2,9 @@
 aliases: []
 note_type: overview
 area: computer-science
-domain: system-design
+domain: software-architecture
 section: dependency-management
-parent: "[[System Design]]"
+parent: "[[Software Architecture]]"
 status: seed
 related:
   - "[[Inversion of Control]]"

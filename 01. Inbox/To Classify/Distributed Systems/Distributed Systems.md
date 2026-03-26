@@ -11,7 +11,7 @@ related:
   - "[[Caching]]"
   - "[[Event-Driven Architecture]]"
   - "[[Dual Write]]"
-  - "[[Telemetry]]"
+  - "[[Service Reliability]]"
 tags: []
 ---
 
@@ -26,14 +26,14 @@ tags: []
 - `[[Distributed Systems Problems]]`
 - `[[Caching]]`
 - `[[Event-Driven Architecture]]`
-- `[[Telemetry]]`
+- `[[Service Reliability]]`
 
 ## Как устроена ветка
 
 - `Distributed Systems Problems` собирает фундаментальные ограничения и классы проблем, включая уже оформившуюся дочернюю ветку `[[Dual Write]]`;
 - `Caching` собирает performance-oriented branch про снижение latency, уменьшение нагрузки и trade-offs консистентности;
 - `Event-Driven Architecture` уже выступает как самостоятельная архитектурная подветка, а не как одиночная заметка;
-- `Telemetry` стоит рядом как operationally важная ветка внутри распределенных систем.
+- `Service Reliability` собирает operational branch про сервисные обязательства, телеметрию, наблюдаемость и инженерную надежность распределенных сервисов.
 
 ## Рекомендуемый маршрут чтения
 
@@ -41,7 +41,7 @@ tags: []
 2. Внутри этой рамки отдельно перейти к `[[Dual Write]]` как к практическому problem-cluster.
 3. Затем перейти к `[[Caching]]` как к performance branch поверх базовых distributed-systems constraints.
 4. После этого перейти к `[[Event-Driven Architecture]]`.
-5. Затем читать `[[Telemetry]]` как operational branch.
+5. Затем читать `[[Service Reliability]]` как operational branch.
 
 ## Соседние overview-ветки
 

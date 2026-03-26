@@ -35,7 +35,7 @@
 ```yaml
 note_type: overview
 area: computer-science
-domain: system-design
+domain: distributed-systems
 section: service-reliability
 parent:
 ```
@@ -283,7 +283,7 @@ section: service-reliability
 `Service Reliability`:
 
 ```yaml
-domain: system-design
+domain: distributed-systems
 ```
 
 Потому что это обзорная архитектурная тема.
@@ -293,7 +293,7 @@ domain: system-design
 `SLA`, `SLO`, `SLI`, `Error Budget`:
 
 ```yaml
-domain: system-design
+domain: distributed-systems
 ```
 
 Потому что это уровень service design и reliability objectives.
@@ -310,7 +310,7 @@ domain: distributed-systems
 
 То есть пока так:
 
-- `system-design` — commitments, objectives, service-level model
+- `distributed-systems` — commitments, objectives, service-level model
     
 - `distributed-systems` — telemetry, monitoring, alerting, observability
     
@@ -580,7 +580,7 @@ tags: []
 aliases: []
 note_type: overview
 area: computer-science
-domain: system-design
+domain: distributed-systems
 section: service-reliability
 parent:
 status: draft
@@ -603,7 +603,7 @@ aliases:
   - Service Level Objective
 note_type: article
 area: computer-science
-domain: system-design
+domain: distributed-systems
 section: service-reliability
 parent: "[[Service Level Management]]"
 status: draft

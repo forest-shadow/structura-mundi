@@ -198,7 +198,7 @@ Structura Mundi/
 │
 ├── Learning Paths/
 │   ├── OLTP Foundations.md
-│   ├── System Design Fundamentals.md
+│   ├── Software Architecture Fundamentals.md
 │   └── Distributed Systems Core.md
 │
 └── Reading Orders/

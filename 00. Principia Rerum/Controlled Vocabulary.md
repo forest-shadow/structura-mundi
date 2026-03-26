@@ -99,7 +99,7 @@
 - `distributed-systems`
 - `frontend-engineering`
 - `programming-languages`
-- `system-design`
+- `software-architecture`
 
 #### Внутри `philosophy`
 
@@ -167,7 +167,7 @@
 - `go`
 - `javascript`
 
-#### `computer-science -> system-design`
+#### `computer-science -> distributed-systems`
 
 - `service-reliability`
 

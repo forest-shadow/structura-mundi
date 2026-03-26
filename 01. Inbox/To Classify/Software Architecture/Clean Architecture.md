@@ -2,9 +2,9 @@
 aliases: []
 note_type: article
 area: computer-science
-domain: system-design
+domain: software-architecture
 section: architecture-patterns
-parent: "[[System Design]]"
+parent: "[[Software Architecture]]"
 status: seed
 related:
   - "[[Dependency Inversion Principle]]"
@@ -31,7 +31,7 @@ tags: []
 
 Родительская тема:
 
-`[[System Design]]`
+`[[Software Architecture]]`
 
 Связанные заметки:
 

@@ -15,7 +15,7 @@ related:
   - "[[Distributed Systems]]"
   - "[[Networking]]"
   - "[[Frontend Engineering]]"
-  - "[[System Design]]"
+  - "[[Software Architecture]]"
   - "[[Operating Systems]]"
 tags: []
 ---
@@ -24,7 +24,7 @@ tags: []
 
 ## Краткое определение области
 
-`Computer Science` — это обзорная заметка верхнего уровня для всей области, которая собирает под одной рамкой основные дисциплинарные ветки: алгоритмы, языки программирования, базы данных, распределенные системы, frontend engineering, system design и operating systems.
+`Computer Science` — это обзорная заметка верхнего уровня для всей области, которая собирает под одной рамкой основные дисциплинарные ветки: алгоритмы, языки программирования, базы данных, распределенные системы, frontend engineering, software architecture и operating systems.
 
 ## Что входит в эту тему
 
@@ -34,7 +34,7 @@ tags: []
 - `[[Distributed Systems]]`
 - `[[Networking]]`
 - `[[Frontend Engineering]]`
-- `[[System Design]]`
+- `[[Software Architecture]]`
 - `[[Operating Systems]]`
 
 ## Как устроена ветка
@@ -46,7 +46,7 @@ tags: []
 ## Рекомендуемый маршрут чтения
 
 1. Начать с общей карты `Computer Science`.
-2. Затем выбрать доменную ветку: `[[Algorithms]]`, `[[Programming Languages]]`, `[[Databases]]`, `[[Distributed Systems]]`, `[[Networking]]`, `[[Frontend Engineering]]`, `[[System Design]]` или `[[Operating Systems]]`.
+2. Затем выбрать доменную ветку: `[[Algorithms]]`, `[[Programming Languages]]`, `[[Databases]]`, `[[Distributed Systems]]`, `[[Networking]]`, `[[Frontend Engineering]]`, `[[Software Architecture]]` или `[[Operating Systems]]`.
 3. После входа в домен уже переходить к его корневым подветкам и обычным статьям.
 
 ## Соседние overview-ветки

@@ -3,7 +3,7 @@ aliases:
   - DI
 note_type: overview
 area: computer-science
-domain: system-design
+domain: software-architecture
 section: dependency-management
 parent: "[[Dependency Management]]"
 status: seed

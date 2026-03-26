@@ -3,9 +3,9 @@ aliases:
 - Service Reliability
 note_type: overview
 area: computer-science
-domain: system-design
+domain: distributed-systems
 section: service-reliability
-parent: "[[System Design]]"
+parent: "[[Distributed Systems]]"
 status: draft
 related:
 - "[[Service Level Management]]"
@@ -266,7 +266,7 @@ Service reliability неразрывно связана с observability (наб
 
 ### **15. Рекомендуемые теги для Obsidian**
 
-`#computer-science #computer-science/system-design #computer-science/distributed-systems #reliability #availability #observability #monitoring #alerting #sre`
+`#computer-science #computer-science/distributed-systems #computer-science/distributed-systems #reliability #availability #observability #monitoring #alerting #sre`
 
 ---
 

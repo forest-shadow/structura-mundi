@@ -2,7 +2,7 @@
 aliases: []
 note_type: article
 area: computer-science
-domain: system-design
+domain: software-architecture
 section: dependency-management
 parent: "[[Dependency Management]]"
 status: seed
