@@ -56,9 +56,9 @@ Computer Science
 │   └── Transaction Isolation Levels
 ├── Distributed Systems
 │   ├── Distributed Systems Problems
+│   │   └── Dual Write
 │   ├── Caching
 │   ├── Event-Driven Architecture
-│   ├── Dual Write
 │   └── Telemetry
 ├── Networking
 │   ├── Internet
@@ -87,6 +87,7 @@ Computer Science
 - `Computer Science` нужен как root `overview`, потому что здесь уже есть несколько устойчивых доменных веток, а не одна локальная тема.
 - Дочерние узлы верхнего уровня лучше делать domain-overview notes, а не сразу вести от `Computer Science` к случайным специализированным заметкам.
 - `Algorithms`, `Programming Languages`, `Distributed Systems`, `Networking`, `Frontend Engineering` и `Operating Systems` уже имеют достаточно плотные или ожидаемо плотные подветки.
+- Внутри `Distributed Systems` уже стоит отражать, что `Dual Write` живет под `Distributed Systems Problems`, а `Event-Driven Architecture` выступает как отдельная подветка.
 - `Databases` и `System Design` пока тоньше, но все равно оправданы как доменные рамки, потому что без них корневая ветка начинает смешивать уровни абстракции.
 
 ## Что не стоит создавать заранее

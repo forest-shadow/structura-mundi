@@ -11,6 +11,8 @@ related:
   - "[[Distributed Systems]]"
   - "[[Distributed Systems Problems]]"
   - "[[Caching]]"
+  - "[[Event-Driven Architecture]]"
+  - "[[Telemetry]]"
 tags: []
 ---
 
@@ -29,7 +31,11 @@ Computer Science
     │   ├── Partial Failure
     │   ├── Time and Ordering
     │   ├── Consistency Under Replication
-    │   └── Coordination and Consensus
+    │   ├── Coordination and Consensus
+    │   └── Dual Write
+    │       ├── Polling Publisher
+    │       ├── Change Data Capture
+    │       └── Distributed Transaction
     ├── Caching
     │   ├── Types of Caches
     │   │   ├── Application Cache
@@ -55,21 +61,32 @@ Computer Science
     │   │   └── Admission Policies
     │   └── Cache Stampede
     ├── Event-Driven Architecture
-    ├── Dual Write
+    │   ├── Event Collaboration Patterns
+    │   │   ├── Event Notification
+    │   │   ├── Event-Carried State Transfer
+    │   │   └── Competing Consumers
+    │   ├── Publish-Subscribe
+    │   ├── Message Broker
+    │   └── Idempotent Consumer
     └── Telemetry
 ```
 
+Переиспользуемая соседняя заметка:
+
+- `Transactional Outbox`
+
 ## Почему структура именно такая
 
-- `Distributed Systems` оправдан как domain-root overview, потому что здесь уже есть несколько самостоятельных подветок: фундаментальные ограничения, performance-oriented caching, прикладные архитектурные паттерны и operational observability.
+- `Distributed Systems` оправдан как domain-root overview, потому что здесь уже есть несколько самостоятельных подветок: фундаментальные ограничения, caching, event-driven patterns и observability.
 - `Distributed Systems Problems` остается фундаментальным sub-overview, потому что без него прикладные решения вроде caching и event-driven architecture теряют объяснительный контекст.
-- `Caching` уже оправдан как отдельный `sub-overview`, потому что в распределенных системах кэш перестает быть локальной микрооптимизацией и становится отдельным слоем trade-offs между latency, load и consistency.
-- `Event-Driven Architecture` и `Dual Write` остаются отдельными article-notes, потому что они уже устойчивы как прикладные архитектурные паттерны, но пока не требуют более глубокой вложенности.
+- `Dual Write` лучше отражать внутри `Distributed Systems Problems`, а не как отдельного top-level sibling: по смыслу это problem-centered ветка про рассогласование побочных эффектов, даже если она тесно пересекается с EDA.
+- `Caching` оправдан как отдельный `sub-overview`, потому что в распределенных системах кэш перестает быть локальной микрооптимизацией и становится отдельным слоем trade-offs между latency, load и consistency.
+- `Event-Driven Architecture` уже стоит показывать не просто как одиночную article-note, а как полноценную архитектурную подветку с собственными дочерними темами.
 - `Telemetry` стоит рядом как operational branch, потому что наблюдаемость в распределенных системах не внешняя тема, а необходимый слой эксплуатации.
 
 ## Что не стоит делать прямо сейчас
 
-- Не стоит преждевременно вводить промежуточный overview только для performance topics сверх уже созданного `Caching`.
+- Не стоит вытаскивать `Dual Write` обратно на уровень sibling рядом с `Distributed Systems Problems`, если её фактическая и смысловая позиция уже определена как дочерняя problem-ветка.
 - Не стоит смешивать distributed-systems fundamentals с generic system-design notes без явной причины.
 - Не стоит создавать специальные templates под distributed-systems branches.
 
