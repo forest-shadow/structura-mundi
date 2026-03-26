@@ -82,15 +82,13 @@
       "children": [
         "01. Inbox/To Classify",
         "01. Inbox/To Merge",
-        "01. Inbox/To Rewrite",
-        "01. Inbox/Service Reliability Structure.md"
+        "01. Inbox/To Rewrite"
       ],
       "sortOrder": "custom"
     },
     "01. Inbox/To Classify": {
       "children": [
         "01. Inbox/To Classify/Distributed Systems",
-        "01. Inbox/To Classify/Caching",
         "01. Inbox/To Classify/Networking",
         "01. Inbox/To Classify/Algorithm Analysis",
         "01. Inbox/To Classify/Browser Page Processing",
@@ -99,27 +97,20 @@
         "01. Inbox/To Classify/CSS",
         "01. Inbox/To Classify/JavaScript",
         "01. Inbox/To Classify/Operating Systems",
-        "01. Inbox/To Classify/OSI Model",
-        "01. Inbox/To Classify/TCP IP Model",
         "01. Inbox/To Classify/Browser Loading Hints",
         "01. Inbox/To Classify/CORS",
         "01. Inbox/To Classify/Taxonomy",
         "01. Inbox/To Classify/Automata Theory",
         "01. Inbox/To Classify/Golang",
         "01. Inbox/To Classify/Semantics",
-        "01. Inbox/To Classify/Telemetry",
         "01. Inbox/To Classify/React",
         "01. Inbox/To Classify/Transaction Isolation Levels",
-        "01. Inbox/To Classify/Distributed Systems Problems",
-        "01. Inbox/To Classify/Dual Write",
-        "01. Inbox/To Classify/Event-Driven Architecture",
         "01. Inbox/To Classify/Syllogistics"
       ],
       "sortOrder": "custom"
     },
     "01. Inbox/To Classify/Algorithm Analysis": {
       "children": [
-        "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis.md",
         "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis Structure Proposal.md",
         "01. Inbox/To Classify/Algorithm Analysis/Big O Notation.md",
         "01. Inbox/To Classify/Algorithm Analysis/Bubble Sort.md",
@@ -190,7 +181,6 @@
         "01. Inbox/To Classify/Computer Science/Computer Science.md",
         "01. Inbox/To Classify/Computer Science/Computer Science Structure Proposal.md",
         "01. Inbox/To Classify/Computer Science/Databases.md",
-        "01. Inbox/To Classify/Computer Science/Distributed Systems.md",
         "01. Inbox/To Classify/Computer Science/Frontend Engineering.md",
         "01. Inbox/To Classify/Computer Science/Programming Languages.md",
         "01. Inbox/To Classify/Computer Science/System Design.md"
@@ -220,45 +210,102 @@
       ],
       "sortOrder": "custom"
     },
-    "01. Inbox/To Classify/Distributed Systems Problems": {
+    "01. Inbox/To Classify/Distributed Systems": {
       "children": [
-        "01. Inbox/To Classify/Distributed Systems Problems/Consistency Under Replication.md",
-        "01. Inbox/To Classify/Distributed Systems Problems/Coordination and Consensus.md",
-        "01. Inbox/To Classify/Distributed Systems Problems/Time and Ordering.md",
-        "01. Inbox/To Classify/Distributed Systems Problems/Partial Failure.md",
-        "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems.md",
-        "01. Inbox/To Classify/Distributed Systems Problems/Distributed Systems Problems Structure Proposal.md"
+        "01. Inbox/To Classify/Distributed Systems/Caching",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems",
+        "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture",
+        "01. Inbox/To Classify/Distributed Systems/Telemetry",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems.md",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Structure Proposal.md",
+        "01. Inbox/To Classify/Distributed Systems/Service Reliability Structure.md"
       ],
       "sortOrder": "custom"
     },
-    "01. Inbox/To Classify/Dual Write": {
+    "01. Inbox/To Classify/Distributed Systems/Caching": {
       "children": [
-        "01. Inbox/To Classify/Dual Write/_resources",
-        "01. Inbox/To Classify/Dual Write/Distributed Transaction.md",
-        "01. Inbox/To Classify/Dual Write/Change Data Capture.md",
-        "01. Inbox/To Classify/Dual Write/Polling Publisher.md",
-        "01. Inbox/To Classify/Dual Write/Dual Write.md",
-        "01. Inbox/To Classify/Dual Write/Dual Write Structure Proposal.md"
+        "01. Inbox/To Classify/Distributed Systems/Caching/Admission Policies.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Application Cache.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Browser and HTTP Cache.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Cache Invalidation.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Cache Policies.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Cache Stampede.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Cache-Aside Strategy.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Caching.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Caching Strategies.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Caching Structure Proposal.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/CDN and Edge Cache.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Database Cache.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Distributed Cache.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Event-Driven Invalidation.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Eviction Policies.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Expiration Policies.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Negative Caching.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Read-Through and Refresh-Ahead Caching.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Stale-While-Revalidate.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Tag-Based Invalidation.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/TTL-Based Invalidation.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Types of Caches.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Version-Based Invalidation.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Write-Around Caching.md",
+        "01. Inbox/To Classify/Distributed Systems/Caching/Write-Through and Write-Back Caching.md"
       ],
       "sortOrder": "custom"
     },
-    "01. Inbox/To Classify/Dual Write/_resources": {
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems": {
       "children": [
-        "01. Inbox/To Classify/Dual Write/_resources/dua-write.jpg"
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Consistency Under Replication.md",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Coordination and Consensus.md",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Distributed Systems Problems.md",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Distributed Systems Problems Structure Proposal.md",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Partial Failure.md",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering.md"
       ],
       "sortOrder": "custom"
     },
-    "01. Inbox/To Classify/Event-Driven Architecture": {
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write": {
       "children": [
-        "01. Inbox/To Classify/Event-Driven Architecture/Competing Consumers.md",
-        "01. Inbox/To Classify/Event-Driven Architecture/Event Collaboration Patterns.md",
-        "01. Inbox/To Classify/Event-Driven Architecture/Event Notification.md",
-        "01. Inbox/To Classify/Event-Driven Architecture/Event-Carried State Transfer.md",
-        "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture.md",
-        "01. Inbox/To Classify/Event-Driven Architecture/Event-Driven Architecture Structure Proposal.md",
-        "01. Inbox/To Classify/Event-Driven Architecture/Idempotent Consumer.md",
-        "01. Inbox/To Classify/Event-Driven Architecture/Message Broker.md",
-        "01. Inbox/To Classify/Event-Driven Architecture/Publish-Subscribe.md"
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/_resources",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/Change Data Capture.md",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/Distributed Transaction.md",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/Dual Write.md",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/Dual Write Structure Proposal.md",
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/Polling Publisher.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/_resources": {
+      "children": [
+        "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/_resources/dua-write.jpg"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture": {
+      "children": [
+        "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture/Competing Consumers.md",
+        "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture/Event Collaboration Patterns.md",
+        "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture/Event Notification.md",
+        "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture/Event-Carried State Transfer.md",
+        "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture/Event-Driven Architecture.md",
+        "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture/Event-Driven Architecture Structure Proposal.md",
+        "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture/Idempotent Consumer.md",
+        "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture/Message Broker.md",
+        "01. Inbox/To Classify/Distributed Systems/Event-Driven Architecture/Publish-Subscribe.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Distributed Systems/Telemetry": {
+      "children": [
+        "01. Inbox/To Classify/Distributed Systems/Telemetry/Distributed Tracing.md",
+        "01. Inbox/To Classify/Distributed Systems/Telemetry/Histogram.md",
+        "01. Inbox/To Classify/Distributed Systems/Telemetry/Logging.md",
+        "01. Inbox/To Classify/Distributed Systems/Telemetry/Metric Labels.md",
+        "01. Inbox/To Classify/Distributed Systems/Telemetry/Metrics.md",
+        "01. Inbox/To Classify/Distributed Systems/Telemetry/Percentile.md",
+        "01. Inbox/To Classify/Distributed Systems/Telemetry/Telemetry.md",
+        "01. Inbox/To Classify/Distributed Systems/Telemetry/Telemetry Structure Proposal.md",
+        "01. Inbox/To Classify/Distributed Systems/Telemetry/Time Series.md"
       ],
       "sortOrder": "custom"
     },
@@ -283,7 +330,6 @@
         "01. Inbox/To Classify/Golang/Go Netpoller Structure Proposal.md",
         "01. Inbox/To Classify/Golang/Go Scheduler GMP Model Entity Split Proposal.md",
         "01. Inbox/To Classify/Golang/Go Scheduler Processor.md",
-        "01. Inbox/To Classify/Golang/Go.md",
         "01. Inbox/To Classify/Golang/Go Channels.md",
         "01. Inbox/To Classify/Golang/Go Concurrency Model.md",
         "01. Inbox/To Classify/Golang/Go Error Handling.md",
@@ -318,6 +364,56 @@
       ],
       "sortOrder": "custom"
     },
+    "01. Inbox/To Classify/Networking": {
+      "children": [
+        "01. Inbox/To Classify/Networking/DNS",
+        "01. Inbox/To Classify/Networking/OSI Model",
+        "01. Inbox/To Classify/Networking/TCP IP Model",
+        "01. Inbox/To Classify/Networking/Routing.md",
+        "01. Inbox/To Classify/Networking/Networking.md",
+        "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
+        "01. Inbox/To Classify/Networking/Internet Structure Proposal.md",
+        "01. Inbox/To Classify/Networking/IP Addressing.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Networking/DNS": {
+      "children": [
+        "01. Inbox/To Classify/Networking/DNS/Authoritative DNS Server.md",
+        "01. Inbox/To Classify/Networking/DNS/DNS.md",
+        "01. Inbox/To Classify/Networking/DNS/DNS Resolution.md",
+        "01. Inbox/To Classify/Networking/DNS/DNS Resource Record.md",
+        "01. Inbox/To Classify/Networking/DNS/DNS Structure Proposal.md",
+        "01. Inbox/To Classify/Networking/DNS/DNS Zone.md",
+        "01. Inbox/To Classify/Networking/DNS/Recursive Resolver.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Networking/OSI Model": {
+      "children": [
+        "01. Inbox/To Classify/Networking/OSI Model/Application Layer.md",
+        "01. Inbox/To Classify/Networking/OSI Model/Data Link Layer.md",
+        "01. Inbox/To Classify/Networking/OSI Model/Network Layer.md",
+        "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
+        "01. Inbox/To Classify/Networking/OSI Model/OSI Model Structure Proposal.md",
+        "01. Inbox/To Classify/Networking/OSI Model/Physical Layer.md",
+        "01. Inbox/To Classify/Networking/OSI Model/Presentation Layer.md",
+        "01. Inbox/To Classify/Networking/OSI Model/Session Layer.md",
+        "01. Inbox/To Classify/Networking/OSI Model/Transport Layer.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Networking/TCP IP Model": {
+      "children": [
+        "01. Inbox/To Classify/Networking/TCP IP Model/TCP IP Application Layer.md",
+        "01. Inbox/To Classify/Networking/TCP IP Model/TCP IP Internet Layer.md",
+        "01. Inbox/To Classify/Networking/TCP IP Model/TCP IP Link Layer.md",
+        "01. Inbox/To Classify/Networking/TCP IP Model/TCP IP Model.md",
+        "01. Inbox/To Classify/Networking/TCP IP Model/TCP IP Model Structure Proposal.md",
+        "01. Inbox/To Classify/Networking/TCP IP Model/TCP IP Transport Layer.md"
+      ],
+      "sortOrder": "custom"
+    },
     "01. Inbox/To Classify/Operating Systems": {
       "children": [
         "01. Inbox/To Classify/Operating Systems/Synchronization Primitives.md",
@@ -328,7 +424,6 @@
         "01. Inbox/To Classify/Operating Systems/Virtual Memory",
         "01. Inbox/To Classify/Operating Systems/CPU Scheduling.md",
         "01. Inbox/To Classify/Operating Systems/File Systems.md",
-        "01. Inbox/To Classify/Operating Systems/Operating Systems.md",
         "01. Inbox/To Classify/Operating Systems/Operating Systems Structure Proposal.md",
         "01. Inbox/To Classify/Operating Systems/Process.md",
         "01. Inbox/To Classify/Operating Systems/Processes and Threads.md",
@@ -349,20 +444,6 @@
       ],
       "sortOrder": "custom"
     },
-    "01. Inbox/To Classify/OSI Model": {
-      "children": [
-        "01. Inbox/To Classify/OSI Model/Application Layer.md",
-        "01. Inbox/To Classify/OSI Model/Data Link Layer.md",
-        "01. Inbox/To Classify/OSI Model/Network Layer.md",
-        "01. Inbox/To Classify/OSI Model/OSI Model.md",
-        "01. Inbox/To Classify/OSI Model/OSI Model Structure Proposal.md",
-        "01. Inbox/To Classify/OSI Model/Physical Layer.md",
-        "01. Inbox/To Classify/OSI Model/Presentation Layer.md",
-        "01. Inbox/To Classify/OSI Model/Session Layer.md",
-        "01. Inbox/To Classify/OSI Model/Transport Layer.md"
-      ],
-      "sortOrder": "custom"
-    },
     "01. Inbox/To Classify/React": {
       "children": [
         "01. Inbox/To Classify/React/Higher-Order Component.md",
@@ -377,7 +458,6 @@
         "01. Inbox/To Classify/React/React Render.md",
         "01. Inbox/To Classify/React/React State Updates.md",
         "01. Inbox/To Classify/React/Custom Hooks.md",
-        "01. Inbox/To Classify/React/JSX.md",
         "01. Inbox/To Classify/React/React Hooks Structure Proposal.md",
         "01. Inbox/To Classify/React/React Structure Proposal.md",
         "01. Inbox/To Classify/React/Rules of Hooks.md",
@@ -420,31 +500,6 @@
         "01. Inbox/To Classify/Taxonomy/Taxonomy and Folksonomy.md",
         "01. Inbox/To Classify/Taxonomy/Taxonomy and Ontology.md",
         "01. Inbox/To Classify/Taxonomy/Taxonomy Structure Proposal.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/TCP IP Model": {
-      "children": [
-        "01. Inbox/To Classify/TCP IP Model/TCP IP Application Layer.md",
-        "01. Inbox/To Classify/TCP IP Model/TCP IP Internet Layer.md",
-        "01. Inbox/To Classify/TCP IP Model/TCP IP Link Layer.md",
-        "01. Inbox/To Classify/TCP IP Model/TCP IP Model.md",
-        "01. Inbox/To Classify/TCP IP Model/TCP IP Model Structure Proposal.md",
-        "01. Inbox/To Classify/TCP IP Model/TCP IP Transport Layer.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Telemetry": {
-      "children": [
-        "01. Inbox/To Classify/Telemetry/Percentile.md",
-        "01. Inbox/To Classify/Telemetry/Histogram.md",
-        "01. Inbox/To Classify/Telemetry/Metric Labels.md",
-        "01. Inbox/To Classify/Telemetry/Time Series.md",
-        "01. Inbox/To Classify/Telemetry/Distributed Tracing.md",
-        "01. Inbox/To Classify/Telemetry/Logging.md",
-        "01. Inbox/To Classify/Telemetry/Metrics.md",
-        "01. Inbox/To Classify/Telemetry/Telemetry.md",
-        "01. Inbox/To Classify/Telemetry/Telemetry Structure Proposal.md"
       ],
       "sortOrder": "custom"
     },
@@ -510,6 +565,7 @@
     },
     "02. Corpus Mundi/A": {
       "children": [
+        "02. Corpus Mundi/A/Algorithm Analysis.md",
         "02. Corpus Mundi/A/Automata Theory.md",
         "02. Corpus Mundi/A/ACID.md"
       ],
@@ -539,6 +595,7 @@
     },
     "02. Corpus Mundi/G": {
       "children": [
+        "02. Corpus Mundi/G/Go.md",
         "02. Corpus Mundi/G/Go Scheduler GMP Model.md",
         "02. Corpus Mundi/G/Go Scheduler.md"
       ],
@@ -549,11 +606,14 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/I": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/I/Internet.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/J": {
       "children": [
+        "02. Corpus Mundi/J/JSX.md",
         "02. Corpus Mundi/J/JavaScript Prototype Internal Slot.md",
         "02. Corpus Mundi/J/JavaScript prototype Property.md",
         "02. Corpus Mundi/J/JavaScript Prototype System.md"
@@ -577,7 +637,9 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/O": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/O/Operating Systems.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/P": {
@@ -684,10 +746,28 @@
       ],
       "sortOrder": "custom"
     },
+    "03. Maps and Courses/Topic Maps/Go": {
+      "children": [
+        "03. Maps and Courses/Topic Maps/Go/Go.canvas"
+      ],
+      "sortOrder": "custom"
+    },
     "03. Maps and Courses/Topic Maps/Javascript": {
       "children": [
         "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
         "03. Maps and Courses/Topic Maps/Javascript/JavaScript.base"
+      ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/Networking": {
+      "children": [
+        "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas"
+      ],
+      "sortOrder": "custom"
+    },
+    "03. Maps and Courses/Topic Maps/OS": {
+      "children": [
+        "03. Maps and Courses/Topic Maps/OS/OS.canvas"
       ],
       "sortOrder": "custom"
     },
@@ -754,52 +834,6 @@
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
       ],
-      "sortOrder": "custom"
-    },
-    "03. Maps and Courses/Topic Maps/Go": {
-      "children": [
-        "03. Maps and Courses/Topic Maps/Go/Go.canvas"
-      ],
-      "sortOrder": "custom"
-    },
-    "03. Maps and Courses/Topic Maps/OS": {
-      "children": [
-        "03. Maps and Courses/Topic Maps/OS/OS.canvas"
-      ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Networking": {
-      "children": [
-        "01. Inbox/To Classify/Networking/Routing.md",
-        "01. Inbox/To Classify/Networking/Networking.md",
-        "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
-        "01. Inbox/To Classify/Networking/Internet Structure Proposal.md",
-        "01. Inbox/To Classify/Networking/IP Addressing.md",
-        "01. Inbox/To Classify/Networking/Internet.md",
-        "01. Inbox/To Classify/Networking/DNS.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "03. Maps and Courses/Topic Maps/Networking": {
-      "children": [
-        "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas"
-      ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Caching": {
-      "children": [
-        "01. Inbox/To Classify/Caching/Distributed Cache.md",
-        "01. Inbox/To Classify/Caching/Write-Through and Write-Back Caching.md",
-        "01. Inbox/To Classify/Caching/Caching.md",
-        "01. Inbox/To Classify/Caching/Cache-Aside Strategy.md",
-        "01. Inbox/To Classify/Caching/Caching Structure Proposal.md",
-        "01. Inbox/To Classify/Caching/Cache Stampede.md",
-        "01. Inbox/To Classify/Caching/Cache Invalidation.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Distributed Systems": {
-      "children": [],
       "sortOrder": "custom"
     }
   },
