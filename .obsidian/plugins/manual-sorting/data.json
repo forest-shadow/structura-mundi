@@ -92,13 +92,10 @@
         "01. Inbox/To Classify/Distributed Systems",
         "01. Inbox/To Classify/Networking",
         "01. Inbox/To Classify/Algorithm Analysis",
-        "01. Inbox/To Classify/Browser Page Processing",
-        "01. Inbox/To Classify/Browser Rendering",
         "01. Inbox/To Classify/Computer Science",
         "01. Inbox/To Classify/CSS",
         "01. Inbox/To Classify/JavaScript",
         "01. Inbox/To Classify/Operating Systems",
-        "01. Inbox/To Classify/Browser Loading Hints",
         "01. Inbox/To Classify/CORS",
         "01. Inbox/To Classify/Taxonomy",
         "01. Inbox/To Classify/Automata Theory",
@@ -113,14 +110,12 @@
     "01. Inbox/To Classify/Algorithm Analysis": {
       "children": [
         "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis Structure Proposal.md",
-        "01. Inbox/To Classify/Algorithm Analysis/Big O Notation.md",
         "01. Inbox/To Classify/Algorithm Analysis/Bubble Sort.md",
         "01. Inbox/To Classify/Algorithm Analysis/Insertion Sort.md",
         "01. Inbox/To Classify/Algorithm Analysis/Merge Sort.md",
         "01. Inbox/To Classify/Algorithm Analysis/Quick Sort.md",
         "01. Inbox/To Classify/Algorithm Analysis/Radix Sort.md",
-        "01. Inbox/To Classify/Algorithm Analysis/Selection Sort.md",
-        "01. Inbox/To Classify/Algorithm Analysis/Sorting Algorithms.md"
+        "01. Inbox/To Classify/Algorithm Analysis/Selection Sort.md"
       ],
       "sortOrder": "custom"
     },
@@ -138,41 +133,6 @@
         "01. Inbox/To Classify/Automata Theory/Pushdown Automaton.md",
         "01. Inbox/To Classify/Automata Theory/Regular Language.md",
         "01. Inbox/To Classify/Automata Theory/Turing Machine.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Browser Loading Hints": {
-      "children": [
-        "01. Inbox/To Classify/Browser Loading Hints/Async Script.md",
-        "01. Inbox/To Classify/Browser Loading Hints/Browser Loading Hints.md",
-        "01. Inbox/To Classify/Browser Loading Hints/Browser Loading Hints Structure Proposal.md",
-        "01. Inbox/To Classify/Browser Loading Hints/Defer Script.md",
-        "01. Inbox/To Classify/Browser Loading Hints/Modulepreload.md",
-        "01. Inbox/To Classify/Browser Loading Hints/Prefetch.md",
-        "01. Inbox/To Classify/Browser Loading Hints/Preload.md",
-        "01. Inbox/To Classify/Browser Loading Hints/Resource Hints.md",
-        "01. Inbox/To Classify/Browser Loading Hints/Script Loading Attributes.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Browser Page Processing": {
-      "children": [
-        "01. Inbox/To Classify/Browser Page Processing/Browser Page Processing.md",
-        "01. Inbox/To Classify/Browser Page Processing/Browser Page Processing Structure Proposal.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Browser Rendering": {
-      "children": [
-        "01. Inbox/To Classify/Browser Rendering/Browser Rendering.md",
-        "01. Inbox/To Classify/Browser Rendering/Browser Rendering Pipeline.md",
-        "01. Inbox/To Classify/Browser Rendering/Browser Rendering Structure Proposal.md",
-        "01. Inbox/To Classify/Browser Rendering/Compositing.md",
-        "01. Inbox/To Classify/Browser Rendering/CSSOM.md",
-        "01. Inbox/To Classify/Browser Rendering/DOM.md",
-        "01. Inbox/To Classify/Browser Rendering/Layout.md",
-        "01. Inbox/To Classify/Browser Rendering/Paint.md",
-        "01. Inbox/To Classify/Browser Rendering/Render Tree.md"
       ],
       "sortOrder": "custom"
     },
@@ -452,9 +412,7 @@
         "01. Inbox/To Classify/React/Class Components.md",
         "01. Inbox/To Classify/React/Component Composition.md",
         "01. Inbox/To Classify/React/Functional Components.md",
-        "01. Inbox/To Classify/React/React Props.md",
         "01. Inbox/To Classify/React/React Component Re-renders.md",
-        "01. Inbox/To Classify/React/React Components.md",
         "01. Inbox/To Classify/React/React Reconciliation.md",
         "01. Inbox/To Classify/React/React Render.md",
         "01. Inbox/To Classify/React/React State Updates.md",
@@ -522,6 +480,52 @@
       ],
       "sortOrder": "custom"
     },
+    "01. Inbox/To Classify/Web Platform": {
+      "children": [
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms",
+        "01. Inbox/To Classify/Web Platform/Browser Page Processing",
+        "01. Inbox/To Classify/Web Platform/Browser Rendering"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms": {
+      "children": [
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Async Script.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Browser Loading Optimization Mechanisms.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Browser Loading Optimization Mechanisms Structure Proposal.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Defer Script.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/DNS Prefetch.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Fetch Priority.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Modulepreload.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Preconnect.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Prefetch.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Preload.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Resource Hints.md",
+        "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Script Loading and Execution Attributes.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Web Platform/Browser Page Processing": {
+      "children": [
+        "01. Inbox/To Classify/Web Platform/Browser Page Processing/Browser Page Processing.md",
+        "01. Inbox/To Classify/Web Platform/Browser Page Processing/Browser Page Processing Structure Proposal.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Web Platform/Browser Rendering": {
+      "children": [
+        "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering.md",
+        "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline.md",
+        "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Structure Proposal.md",
+        "01. Inbox/To Classify/Web Platform/Browser Rendering/Compositing.md",
+        "01. Inbox/To Classify/Web Platform/Browser Rendering/CSSOM.md",
+        "01. Inbox/To Classify/Web Platform/Browser Rendering/DOM.md",
+        "01. Inbox/To Classify/Web Platform/Browser Rendering/Layout.md",
+        "01. Inbox/To Classify/Web Platform/Browser Rendering/Paint.md",
+        "01. Inbox/To Classify/Web Platform/Browser Rendering/Render Tree.md"
+      ],
+      "sortOrder": "custom"
+    },
     "01. Inbox/To Merge": {
       "children": [],
       "sortOrder": "custom"
@@ -573,7 +577,9 @@
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/B": {
-      "children": [],
+      "children": [
+        "02. Corpus Mundi/B/Big O Notation.md"
+      ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/C": {
@@ -653,6 +659,8 @@
     },
     "02. Corpus Mundi/R": {
       "children": [
+        "02. Corpus Mundi/R/React Components.md",
+        "02. Corpus Mundi/R/React Props.md",
         "02. Corpus Mundi/R/React Key Prop.md",
         "02. Corpus Mundi/R/React Rendering Model.md",
         "02. Corpus Mundi/R/React.memo.md",
@@ -663,6 +671,7 @@
     },
     "02. Corpus Mundi/S": {
       "children": [
+        "02. Corpus Mundi/S/Sorting Algorithms.md",
         "02. Corpus Mundi/S/Syllogism.md",
         "02. Corpus Mundi/S/Service Reliability.md"
       ],
@@ -835,10 +844,6 @@
         "Prompts/Post Synthesis.md",
         "Prompts/Obsidian Ultimate Professional Article.md"
       ],
-      "sortOrder": "custom"
-    },
-    "01. Inbox/To Classify/Web Platform": {
-      "children": [],
       "sortOrder": "custom"
     }
   },
