@@ -123,8 +123,23 @@
               "icon": "lucide-file",
               "title": "React Components"
             }
+          },
+          {
+            "id": "f522a4cb08253ce6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02. Corpus Mundi/V/Virtual DOM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Virtual DOM"
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -197,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tabula Ortus.md",
+                "file": "02. Corpus Mundi/V/Virtual DOM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tabula Ortus"
+              "title": "Outline of Virtual DOM"
             }
           },
           {
@@ -311,11 +326,13 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c340083190100fc4",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
-    "02. Corpus Mundi/I/Internet.md",
+    "02. Corpus Mundi/S/Sorting Algorithms.md",
+    "02. Corpus Mundi/V/Virtual DOM.md",
     "02. Corpus Mundi/R/React Components.md",
     "Tabula Ortus.md",
+    "02. Corpus Mundi/I/Internet.md",
     "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Script Loading and Execution Attributes.md",
     "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Resource Hints.md",
     "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Preload.md",
@@ -338,8 +355,6 @@
     "01. Inbox/To Classify/Web Platform/Browser Loading Hints/Resource Hints.__new__.md",
     "01. Inbox/To Classify/Web Platform/Browser Loading Hints/Defer Script.__new__.md",
     "01. Inbox/To Classify/Web Platform/Browser Loading Hints/Async Script.__new__.md",
-    "01. Inbox/To Classify/Web Platform/Browser Loading Hints/Preconnect.md",
-    "01. Inbox/To Classify/Web Platform/Browser Loading Hints/DNS Prefetch.md",
     "01. Inbox/To Classify/Web Platform",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "01. Inbox/To Classify/Networking/DNS",
