@@ -7,6 +7,9 @@ section:
 parent: "[[Computer Science]]"
 status: seed
 related:
+  - "[[Design Principles]]"
+  - "[[Dependency Management]]"
+  - "[[Clean Architecture]]"
   - "[[Service Reliability]]"
 tags: []
 ---
@@ -19,18 +22,24 @@ tags: []
 
 ## Что входит в эту тему
 
+- `[[Design Principles]]`
+- `[[Dependency Management]]`
+- `[[Clean Architecture]]`
 - `[[Service Reliability]]`
 
 ## Как устроена ветка
 
-- на текущем этапе доменная ветка еще очень тонкая;
-- `Service Reliability` уже служит устойчивым operational subfield;
-- domain-level рамка нужна заранее, чтобы ветка могла расти без смешения с distributed-systems и frontend notes.
+- `Design Principles` собирает архитектурные и проектные принципы, которыми удобно пользоваться как рамкой для оценки решений;
+- `Dependency Management` собирает практики организации зависимостей и сборки приложения;
+- `Clean Architecture` стоит рядом как устойчивая архитектурная рамка, а не как замена всей ветке;
+- `Service Reliability` уже служит устойчивым operational subfield.
 
 ## Рекомендуемый маршрут чтения
 
-1. Начать с `[[Service Reliability]]`.
-2. Позже добавлять рядом другие system-design ветки по мере появления корпуса.
+1. Начать с `[[Design Principles]]`.
+2. Затем перейти к `[[Dependency Management]]`.
+3. После этого читать `[[Clean Architecture]]`.
+4. Затем уже входить в `[[Service Reliability]]` как в отдельную operational branch.
 
 ## Соседние overview-ветки
 
