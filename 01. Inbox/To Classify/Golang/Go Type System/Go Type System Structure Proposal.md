@@ -32,13 +32,13 @@ Go
     ├── Go Methods and Method Sets
     ├── Go Interfaces
     ├── Go Reflection
-    │   ├── reflect.Type, reflect.Value and reflect.Kind
-    │   ├── Addressability and Settable Values in Go Reflection
-    │   ├── Struct Inspection and Tags in Go Reflection
-    │   ├── Dynamic Operations in Go Reflection
-    │   ├── Reflection and Dynamic Decoding in Go
-    │   ├── Reflection vs Generics vs Code Generation in Go
-    │   └── Performance and Limits of Go Reflection
+    │   ├── Go Reflection Type and Value Model
+    │   ├── Go Reflection Addressability and Settable Values
+    │   ├── Go Reflection Struct Inspection and Tags
+    │   ├── Go Reflection Mutation and Dynamic Calls
+    │   ├── Go Reflection Dynamic Decoding
+    │   ├── Go Reflection vs Generics vs Code Generation
+    │   └── Go Reflection Performance and Limits
     └── Go Type Parameters and Constraints
 ```
 

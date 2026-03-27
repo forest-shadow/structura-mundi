@@ -10,8 +10,8 @@ status: draft
 related:
   - "[[Go Reflection]]"
   - "[[Go Type System]]"
-  - "[[reflect.Type, reflect.Value and reflect.Kind]]"
-  - "[[Addressability and Settable Values in Go Reflection]]"
+  - "[[Go Reflection Type and Value Model]]"
+  - "[[Go Reflection Addressability and Settable Values]]"
 tags: []
 ---
 
@@ -35,41 +35,41 @@ tags: []
 Go
 └── Go Type System
     └── Go Reflection
-        ├── reflect.Type, reflect.Value and reflect.Kind
-        ├── Addressability and Settable Values in Go Reflection
-        ├── Struct Inspection and Tags in Go Reflection
-        ├── Dynamic Operations in Go Reflection
-        ├── Reflection and Dynamic Decoding in Go
-        ├── Reflection vs Generics vs Code Generation in Go
-        └── Performance and Limits of Go Reflection
+        ├── Go Reflection Type and Value Model
+        ├── Go Reflection Addressability and Settable Values
+        ├── Go Reflection Struct Inspection and Tags
+        ├── Go Reflection Mutation and Dynamic Calls
+        ├── Go Reflection Dynamic Decoding
+        ├── Go Reflection vs Generics vs Code Generation
+        └── Go Reflection Performance and Limits
 ```
 
 ## Почему структура именно такая
 
 - `Go Reflection` уже оправдана как `sub-overview`, потому что тема не сводится к одной explanatory article: внутри нее есть отдельный понятийный фундамент, слой ограничений, прикладные сценарии и архитектурные сравнения.
-- `reflect.Type, reflect.Value and reflect.Kind` должна быть первой частной статьей, потому что без нее остальные заметки будут ссылаться на термины reflection без устойчивого общего основания.
-- `Addressability and Settable Values in Go Reflection` нужно выделять отдельно, потому что именно здесь находятся ключевые runtime-ограничения reflection и большинство практических ошибок.
-- `Struct Inspection and Tags in Go Reflection` образует устойчивый прикладной кластер, поскольку в реальном Go reflection очень часто используется для анализа структур и тегов.
-- `Dynamic Operations in Go Reflection` собирает тот слой API, где reflection уже не только читает, но и создает, меняет и вызывает значения, поэтому его полезно держать отдельно от базовой инспекции.
-- `Reflection and Dynamic Decoding in Go` лучше выносить как отдельный кейс, потому что это уже инженерная задача, а не только перечень API-приемов.
-- `Reflection vs Generics vs Code Generation in Go` и `Performance and Limits of Go Reflection` являются завершающими аналитическими заметками, а не продолжением базового API-описания.
+- `Go Reflection Type and Value Model` должна быть первой частной статьей, потому что без нее остальные заметки будут ссылаться на термины reflection без устойчивого общего основания.
+- `Go Reflection Addressability and Settable Values` нужно выделять отдельно, потому что именно здесь находятся ключевые runtime-ограничения reflection и большинство практических ошибок.
+- `Go Reflection Struct Inspection and Tags` образует устойчивый прикладной кластер, поскольку в реальном Go reflection очень часто используется для анализа структур и тегов.
+- `Go Reflection Mutation and Dynamic Calls` собирает тот слой API, где reflection уже не только читает, но и создает, меняет и вызывает значения, поэтому его полезно держать отдельно от базовой инспекции.
+- `Go Reflection Dynamic Decoding` лучше выносить как отдельный кейс, потому что это уже инженерная задача, а не только перечень API-приемов.
+- `Go Reflection vs Generics vs Code Generation` и `Go Reflection Performance and Limits` являются завершающими аналитическими заметками, а не продолжением базового API-описания.
 
 ## Что пока не нужно создавать
 
-- `Mutation Through Go Reflection` и `Dynamic Method Calls in Go Reflection` как две отдельные статьи, пока для старта достаточно объединенного узла `Dynamic Operations in Go Reflection`
+- `Mutation Through Go Reflection` и `Dynamic Method Calls in Go Reflection` как две отдельные статьи, пока для старта достаточно объединенного узла `Go Reflection Mutation and Dynamic Calls`
 - отдельные note-файлы про каждый метод `reflect.Value`, пока важнее удержать смысловые кластеры
 - специальный template-файл под reflection-ветку, потому что по `Principia Rerum` достаточно канонических `overview/article`
 
 ## Созданные черновые заметки
 
 - `Go Reflection.md`
-- `reflect.Type, reflect.Value and reflect.Kind.md`
-- `Addressability and Settable Values in Go Reflection.md`
-- `Struct Inspection and Tags in Go Reflection.md`
-- `Dynamic Operations in Go Reflection.md`
-- `Reflection and Dynamic Decoding in Go.md`
-- `Reflection vs Generics vs Code Generation in Go.md`
-- `Performance and Limits of Go Reflection.md`
+- `Go Reflection Type and Value Model.md`
+- `Go Reflection Addressability and Settable Values.md`
+- `Go Reflection Struct Inspection and Tags.md`
+- `Go Reflection Mutation and Dynamic Calls.md`
+- `Go Reflection Dynamic Decoding.md`
+- `Go Reflection vs Generics vs Code Generation.md`
+- `Go Reflection Performance and Limits.md`
 
 ## Следующий шаг перед переносом в Corpus Mundi
 

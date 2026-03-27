@@ -1,6 +1,7 @@
 ---
 aliases:
   - Performance of Go Reflection
+  - Performance and Limits of Go Reflection
 note_type: article
 area: computer-science
 domain: programming-languages
@@ -9,13 +10,13 @@ parent: "[[Go Reflection]]"
 status: seed
 related:
   - "[[Go Reflection]]"
-  - "[[Dynamic Operations in Go Reflection]]"
-  - "[[Reflection vs Generics vs Code Generation in Go]]"
+  - "[[Go Reflection Mutation and Dynamic Calls]]"
+  - "[[Go Reflection vs Generics vs Code Generation]]"
   - "[[Go Memory Management]]"
 tags: []
 ---
 
-# Performance and Limits of Go Reflection
+# Go Reflection Performance and Limits
 
 ## Краткое определение
 
@@ -38,8 +39,8 @@ Reflection добавляет runtime checks, часто приводит к д�
 
 Связанные заметки:
 
-- `[[Dynamic Operations in Go Reflection]]`
-- `[[Reflection vs Generics vs Code Generation in Go]]`
+- `[[Go Reflection Mutation and Dynamic Calls]]`
+- `[[Go Reflection vs Generics vs Code Generation]]`
 - `[[Go Memory Management]]`
 
 ## Примеры, случаи или следствия

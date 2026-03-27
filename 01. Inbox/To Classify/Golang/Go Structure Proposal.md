@@ -51,13 +51,13 @@ Go
 │   ├── Go Methods and Method Sets
 │   ├── Go Interfaces
 │   ├── Go Reflection
-│   │   ├── reflect.Type, reflect.Value and reflect.Kind
-│   │   ├── Addressability and Settable Values in Go Reflection
-│   │   ├── Struct Inspection and Tags in Go Reflection
-│   │   ├── Dynamic Operations in Go Reflection
-│   │   ├── Reflection and Dynamic Decoding in Go
-│   │   ├── Reflection vs Generics vs Code Generation in Go
-│   │   └── Performance and Limits of Go Reflection
+│   │   ├── Go Reflection Type and Value Model
+│   │   ├── Go Reflection Addressability and Settable Values
+│   │   ├── Go Reflection Struct Inspection and Tags
+│   │   ├── Go Reflection Mutation and Dynamic Calls
+│   │   ├── Go Reflection Dynamic Decoding
+│   │   ├── Go Reflection vs Generics vs Code Generation
+│   │   └── Go Reflection Performance and Limits
 │   └── Go Type Parameters and Constraints
 ├── Go Error Handling
 ├── Go Memory Management
@@ -97,7 +97,7 @@ Go
 
 Чтобы не смешивать иерархию понятий с физическим размещением файлов, ветку `Go` лучше понимать как набор смысловых уровней:
 
-- **Language and tooling layer:** `[[Go Toolchain]]`, `[[Go Packages and Modules]]`, `[[Go Type System]]`, `[[Go Basic Types]]`, `[[Go Composite Types]]`, `[[Go Defined Types and Underlying Types]]`, `[[Go Assignability and Conversions]]`, `[[Go Methods and Method Sets]]`, `[[Go Interfaces]]`, `[[Go Reflection]]`, `[[reflect.Type, reflect.Value and reflect.Kind]]`, `[[Addressability and Settable Values in Go Reflection]]`, `[[Struct Inspection and Tags in Go Reflection]]`, `[[Dynamic Operations in Go Reflection]]`, `[[Reflection and Dynamic Decoding in Go]]`, `[[Reflection vs Generics vs Code Generation in Go]]`, `[[Performance and Limits of Go Reflection]]`, `[[Go Type Parameters and Constraints]]`, `[[Go Error Handling]]`
+- **Language and tooling layer:** `[[Go Toolchain]]`, `[[Go Packages and Modules]]`, `[[Go Type System]]`, `[[Go Basic Types]]`, `[[Go Composite Types]]`, `[[Go Defined Types and Underlying Types]]`, `[[Go Assignability and Conversions]]`, `[[Go Methods and Method Sets]]`, `[[Go Interfaces]]`, `[[Go Reflection]]`, `[[Go Reflection Type and Value Model]]`, `[[Go Reflection Addressability and Settable Values]]`, `[[Go Reflection Struct Inspection and Tags]]`, `[[Go Reflection Mutation and Dynamic Calls]]`, `[[Go Reflection Dynamic Decoding]]`, `[[Go Reflection vs Generics vs Code Generation]]`, `[[Go Reflection Performance and Limits]]`, `[[Go Type Parameters and Constraints]]`, `[[Go Error Handling]]`
 - **Memory management layer:** `[[Go Memory Management]]`, `[[Go Stack and Heap Allocation]]`, `[[Go Escape Analysis]]`, `[[Go Garbage Collection]]`
 - **Concurrency layer:** `[[Go Concurrency Model]]`, `[[Go Goroutines]]`, `[[Go Channels]]`
 - **Scheduler/runtime internals layer:** `[[Go Scheduler]]`, `[[Go Scheduler GMP Model]]`, `[[Go Scheduler Processor]]`, `[[Go Machine Thread]]`, `[[GOMAXPROCS]]`, `[[Go Scheduler Work Stealing]]`, `[[Go Scheduler Preemption]]`, `[[Go Netpoller]]`

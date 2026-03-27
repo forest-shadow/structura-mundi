@@ -1,6 +1,7 @@
 ---
 aliases:
   - Go Reflection vs Generics vs Code Generation
+  - Reflection vs Generics vs Code Generation in Go
 note_type: article
 area: computer-science
 domain: programming-languages
@@ -10,12 +11,12 @@ status: seed
 related:
   - "[[Go Reflection]]"
   - "[[Go Type Parameters and Constraints]]"
-  - "[[Reflection and Dynamic Decoding in Go]]"
-  - "[[Performance and Limits of Go Reflection]]"
+  - "[[Go Reflection Dynamic Decoding]]"
+  - "[[Go Reflection Performance and Limits]]"
 tags: []
 ---
 
-# Reflection vs Generics vs Code Generation in Go
+# Go Reflection vs Generics vs Code Generation
 
 ## Краткое определение
 
@@ -39,8 +40,8 @@ tags: []
 Связанные заметки:
 
 - `[[Go Type Parameters and Constraints]]`
-- `[[Reflection and Dynamic Decoding in Go]]`
-- `[[Performance and Limits of Go Reflection]]`
+- `[[Go Reflection Dynamic Decoding]]`
+- `[[Go Reflection Performance and Limits]]`
 
 ## Примеры, случаи или следствия
 

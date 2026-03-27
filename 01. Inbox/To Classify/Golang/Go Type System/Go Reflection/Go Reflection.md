@@ -10,9 +10,9 @@ status: seed
 related:
   - "[[Go Type System]]"
   - "[[Go Interfaces]]"
-  - "[[reflect.Type, reflect.Value and reflect.Kind]]"
-  - "[[Addressability and Settable Values in Go Reflection]]"
-  - "[[Reflection vs Generics vs Code Generation in Go]]"
+  - "[[Go Reflection Type and Value Model]]"
+  - "[[Go Reflection Addressability and Settable Values]]"
+  - "[[Go Reflection vs Generics vs Code Generation]]"
 tags: []
 ---
 
@@ -24,30 +24,30 @@ tags: []
 
 ## Что входит в эту тему
 
-- `[[reflect.Type, reflect.Value and reflect.Kind]]`
-- `[[Addressability and Settable Values in Go Reflection]]`
-- `[[Struct Inspection and Tags in Go Reflection]]`
-- `[[Dynamic Operations in Go Reflection]]`
-- `[[Reflection and Dynamic Decoding in Go]]`
-- `[[Reflection vs Generics vs Code Generation in Go]]`
-- `[[Performance and Limits of Go Reflection]]`
+- `[[Go Reflection Type and Value Model]]`
+- `[[Go Reflection Addressability and Settable Values]]`
+- `[[Go Reflection Struct Inspection and Tags]]`
+- `[[Go Reflection Mutation and Dynamic Calls]]`
+- `[[Go Reflection Dynamic Decoding]]`
+- `[[Go Reflection vs Generics vs Code Generation]]`
+- `[[Go Reflection Performance and Limits]]`
 
 ## Как устроена ветка
 
-- `reflect.Type, reflect.Value and reflect.Kind` задает понятийный фундамент всей ветки и объясняет, какие runtime-объекты предоставляет пакет `reflect`.
-- `Addressability and Settable Values in Go Reflection` фиксирует главный слой ограничений reflection и объясняет, почему чтение и изменение значений в runtime подчиняются разным правилам.
-- `Struct Inspection and Tags in Go Reflection` собирает наиболее частый прикладной случай: анализ структур, полей и тегов.
-- `Dynamic Operations in Go Reflection` показывает, как reflection переходит от инспекции к созданию, изменению и вызовам.
-- `Reflection and Dynamic Decoding in Go` выносит reflection в самостоятельный инженерный кейс, где она используется для runtime-конверсии и построения динамического декодирования.
-- `Reflection vs Generics vs Code Generation in Go` и `Performance and Limits of Go Reflection` завершают ветку архитектурной и инженерной оценкой подхода.
+- `Go Reflection Type and Value Model` задает понятийный фундамент всей ветки и объясняет, какие runtime-объекты предоставляет пакет `reflect`.
+- `Go Reflection Addressability and Settable Values` фиксирует главный слой ограничений reflection и объясняет, почему чтение и изменение значений в runtime подчиняются разным правилам.
+- `Go Reflection Struct Inspection and Tags` собирает наиболее частый прикладной случай: анализ структур, полей и тегов.
+- `Go Reflection Mutation and Dynamic Calls` показывает, как reflection переходит от инспекции к созданию, изменению и вызовам.
+- `Go Reflection Dynamic Decoding` выносит reflection в самостоятельный инженерный кейс, где она используется для runtime-конверсии и построения динамического декодирования.
+- `Go Reflection vs Generics vs Code Generation` и `Go Reflection Performance and Limits` завершают ветку архитектурной и инженерной оценкой подхода.
 
 ## Рекомендуемый маршрут чтения
 
-1. Начать с `[[reflect.Type, reflect.Value and reflect.Kind]]`.
-2. Затем перейти к `[[Addressability and Settable Values in Go Reflection]]`.
-3. После этого читать `[[Struct Inspection and Tags in Go Reflection]]` и `[[Dynamic Operations in Go Reflection]]`.
-4. Затем перейти к `[[Reflection and Dynamic Decoding in Go]]` как к прикладному кейсу.
-5. Завершить `[[Reflection vs Generics vs Code Generation in Go]]` и `[[Performance and Limits of Go Reflection]]`.
+1. Начать с `[[Go Reflection Type and Value Model]]`.
+2. Затем перейти к `[[Go Reflection Addressability and Settable Values]]`.
+3. После этого читать `[[Go Reflection Struct Inspection and Tags]]` и `[[Go Reflection Mutation and Dynamic Calls]]`.
+4. Затем перейти к `[[Go Reflection Dynamic Decoding]]` как к прикладному кейсу.
+5. Завершить `[[Go Reflection vs Generics vs Code Generation]]` и `[[Go Reflection Performance and Limits]]`.
 
 ## Соседние overview-ветки
 

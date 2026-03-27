@@ -1,6 +1,7 @@
 ---
 aliases:
   - Dynamic Mutation in Go Reflection
+  - Dynamic Operations in Go Reflection
 note_type: article
 area: computer-science
 domain: programming-languages
@@ -9,13 +10,13 @@ parent: "[[Go Reflection]]"
 status: seed
 related:
   - "[[Go Reflection]]"
-  - "[[Addressability and Settable Values in Go Reflection]]"
-  - "[[Struct Inspection and Tags in Go Reflection]]"
-  - "[[Performance and Limits of Go Reflection]]"
+  - "[[Go Reflection Addressability and Settable Values]]"
+  - "[[Go Reflection Struct Inspection and Tags]]"
+  - "[[Go Reflection Performance and Limits]]"
 tags: []
 ---
 
-# Dynamic Operations in Go Reflection
+# Go Reflection Mutation and Dynamic Calls
 
 ## Краткое определение
 
@@ -38,9 +39,9 @@ tags: []
 
 Связанные заметки:
 
-- `[[Addressability and Settable Values in Go Reflection]]`
-- `[[Struct Inspection and Tags in Go Reflection]]`
-- `[[Performance and Limits of Go Reflection]]`
+- `[[Go Reflection Addressability and Settable Values]]`
+- `[[Go Reflection Struct Inspection and Tags]]`
+- `[[Go Reflection Performance and Limits]]`
 
 ## Примеры, случаи или следствия
 

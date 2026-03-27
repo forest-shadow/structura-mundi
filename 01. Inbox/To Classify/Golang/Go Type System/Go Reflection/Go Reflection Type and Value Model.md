@@ -1,5 +1,6 @@
 ---
 aliases:
+  - reflect.Type, reflect.Value and reflect.Kind
   - Type, Value, and Kind in Go Reflection
 note_type: article
 area: computer-science
@@ -11,11 +12,11 @@ related:
   - "[[Go Reflection]]"
   - "[[Go Defined Types and Underlying Types]]"
   - "[[Go Interfaces]]"
-  - "[[Addressability and Settable Values in Go Reflection]]"
+  - "[[Go Reflection Addressability and Settable Values]]"
 tags: []
 ---
 
-# reflect.Type, reflect.Value and reflect.Kind
+# Go Reflection Type and Value Model
 
 ## Краткое определение
 
@@ -40,7 +41,7 @@ Reflection в Go не работает с типами и значениями �
 
 - `[[Go Defined Types and Underlying Types]]`
 - `[[Go Interfaces]]`
-- `[[Addressability and Settable Values in Go Reflection]]`
+- `[[Go Reflection Addressability and Settable Values]]`
 
 ## Примеры, случаи или следствия
 

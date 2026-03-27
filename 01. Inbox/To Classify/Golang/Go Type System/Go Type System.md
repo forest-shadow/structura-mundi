@@ -51,7 +51,7 @@ tags: []
 3. После этого читать `[[Go Assignability and Conversions]]`, где видно, как типы соотносятся в программах.
 4. Затем перейти к `[[Go Methods and Method Sets]]` как к мосту между типами и поведением.
 5. После этого читать `[[Go Interfaces]]`, потому что именно там structural typing начинает работать как практический механизм.
-6. Затем перейти к `[[Go Reflection]]` как к runtime-перспективе на уже понятную типовую модель. Внутри этой ветки полезно двигаться так: `[[reflect.Type, reflect.Value and reflect.Kind]]` → `[[Addressability and Settable Values in Go Reflection]]` → `[[Struct Inspection and Tags in Go Reflection]]` → `[[Dynamic Operations in Go Reflection]]`.
+6. Затем перейти к `[[Go Reflection]]` как к runtime-перспективе на уже понятную типовую модель. Внутри этой ветки полезно двигаться так: `[[Go Reflection Type and Value Model]]` → `[[Go Reflection Addressability and Settable Values]]` → `[[Go Reflection Struct Inspection and Tags]]` → `[[Go Reflection Mutation and Dynamic Calls]]`.
 7. Завершить `[[Go Type Parameters and Constraints]]`, когда уже понятны базовые типы, совместимость, method sets и различие между runtime- и compile-time-обобщением.
 
 ## Соседние ветки

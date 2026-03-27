@@ -1,6 +1,7 @@
 ---
 aliases:
   - Addressability in Go Reflection
+  - Addressability and Settable Values in Go Reflection
 note_type: article
 area: computer-science
 domain: programming-languages
@@ -9,13 +10,13 @@ parent: "[[Go Reflection]]"
 status: seed
 related:
   - "[[Go Reflection]]"
-  - "[[reflect.Type, reflect.Value and reflect.Kind]]"
-  - "[[Dynamic Operations in Go Reflection]]"
+  - "[[Go Reflection Type and Value Model]]"
+  - "[[Go Reflection Mutation and Dynamic Calls]]"
   - "[[Go Defined Types and Underlying Types]]"
 tags: []
 ---
 
-# Addressability and Settable Values in Go Reflection
+# Go Reflection Addressability and Settable Values
 
 ## Краткое определение
 
@@ -28,7 +29,7 @@ tags: []
 ## Границы темы
 
 - В тему входят addressability, settable values, `CanAddr`, `CanSet`, указатели, `Elem()` и ограничения на изменение неэкспортируемых полей.
-- На границе находятся сами mutation-операции `Set*`, которые лучше раскрывать в `[[Dynamic Operations in Go Reflection]]`.
+- На границе находятся сами mutation-операции `Set*`, которые лучше раскрывать в `[[Go Reflection Mutation and Dynamic Calls]]`.
 
 ## Связи с другими заметками
 
@@ -38,9 +39,9 @@ tags: []
 
 Связанные заметки:
 
-- `[[reflect.Type, reflect.Value and reflect.Kind]]`
-- `[[Dynamic Operations in Go Reflection]]`
-- `[[Struct Inspection and Tags in Go Reflection]]`
+- `[[Go Reflection Type and Value Model]]`
+- `[[Go Reflection Mutation and Dynamic Calls]]`
+- `[[Go Reflection Struct Inspection and Tags]]`
 
 ## Примеры, случаи или следствия
 

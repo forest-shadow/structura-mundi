@@ -1,6 +1,7 @@
 ---
 aliases:
   - Struct Inspection in Go Reflection
+  - Struct Inspection and Tags in Go Reflection
 note_type: article
 area: computer-science
 domain: programming-languages
@@ -9,13 +10,13 @@ parent: "[[Go Reflection]]"
 status: seed
 related:
   - "[[Go Reflection]]"
-  - "[[Addressability and Settable Values in Go Reflection]]"
-  - "[[Reflection and Dynamic Decoding in Go]]"
+  - "[[Go Reflection Addressability and Settable Values]]"
+  - "[[Go Reflection Dynamic Decoding]]"
   - "[[Go Composite Types]]"
 tags: []
 ---
 
-# Struct Inspection and Tags in Go Reflection
+# Go Reflection Struct Inspection and Tags
 
 ## Краткое определение
 
@@ -38,9 +39,9 @@ tags: []
 
 Связанные заметки:
 
-- `[[Addressability and Settable Values in Go Reflection]]`
-- `[[Reflection and Dynamic Decoding in Go]]`
-- `[[Dynamic Operations in Go Reflection]]`
+- `[[Go Reflection Addressability and Settable Values]]`
+- `[[Go Reflection Dynamic Decoding]]`
+- `[[Go Reflection Mutation and Dynamic Calls]]`
 
 ## Примеры, случаи или следствия
 

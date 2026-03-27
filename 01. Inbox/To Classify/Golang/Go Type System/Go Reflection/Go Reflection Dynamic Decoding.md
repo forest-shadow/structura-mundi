@@ -1,6 +1,7 @@
 ---
 aliases:
   - Dynamic Decoding in Go via Reflection
+  - Reflection and Dynamic Decoding in Go
 note_type: article
 area: computer-science
 domain: programming-languages
@@ -9,13 +10,13 @@ parent: "[[Go Reflection]]"
 status: seed
 related:
   - "[[Go Reflection]]"
-  - "[[Struct Inspection and Tags in Go Reflection]]"
-  - "[[Dynamic Operations in Go Reflection]]"
-  - "[[Reflection vs Generics vs Code Generation in Go]]"
+  - "[[Go Reflection Struct Inspection and Tags]]"
+  - "[[Go Reflection Mutation and Dynamic Calls]]"
+  - "[[Go Reflection vs Generics vs Code Generation]]"
 tags: []
 ---
 
-# Reflection and Dynamic Decoding in Go
+# Go Reflection Dynamic Decoding
 
 ## Краткое определение
 
@@ -38,9 +39,9 @@ Dynamic decoding превращает reflection из абстрактного A
 
 Связанные заметки:
 
-- `[[Struct Inspection and Tags in Go Reflection]]`
-- `[[Dynamic Operations in Go Reflection]]`
-- `[[Reflection vs Generics vs Code Generation in Go]]`
+- `[[Go Reflection Struct Inspection and Tags]]`
+- `[[Go Reflection Mutation and Dynamic Calls]]`
+- `[[Go Reflection vs Generics vs Code Generation]]`
 
 ## Примеры, случаи или следствия
 

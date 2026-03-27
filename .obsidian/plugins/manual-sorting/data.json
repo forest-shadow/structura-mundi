@@ -1,24 +1,24 @@
-﻿{
+{
   "customOrder": {
     "/": {
       "children": [
-        "Prompts",
+        "00. Obsidian Praxis",
+        "00. Principia Rerum",
+        "01. Inbox",
+        "02. Corpus Mundi",
+        "03. Maps and Courses",
         "04. Assets",
         "99. Archive",
-        "00. Obsidian Praxis",
-        "03. Maps and Courses",
-        "01. Inbox",
-        "Tabula Ortus.md",
-        "02. Corpus Mundi",
-        "00. Principia Rerum"
+        "Prompts",
+        "Tabula Ortus.md"
       ],
       "sortOrder": "custom"
     },
     "00. Obsidian Praxis": {
       "children": [
-        "00. Obsidian Praxis/__00. Obsidian Praxis.md",
-        "00. Obsidian Praxis/Templates",
         "00. Obsidian Praxis/Config & Settings Details",
+        "00. Obsidian Praxis/Templates",
+        "00. Obsidian Praxis/__00. Obsidian Praxis.md",
         "00. Obsidian Praxis/Git History Squash.md"
       ],
       "sortOrder": "custom"
@@ -58,16 +58,16 @@
     },
     "00. Principia Rerum": {
       "children": [
+        "00. Principia Rerum/Templates",
         "00. Principia Rerum/__00. Principia Rerum.md",
-        "00. Principia Rerum/Knowledge Base Standard.md",
-        "00. Principia Rerum/Knowledge System Model.md",
+        "00. Principia Rerum/Controlled Vocabulary.md",
         "00. Principia Rerum/File Structure.md",
         "00. Principia Rerum/Frontmatter Legend.md",
-        "00. Principia Rerum/Controlled Vocabulary.md",
-        "00. Principia Rerum/Tag Policy.md",
+        "00. Principia Rerum/Knowledge Base Standard.md",
+        "00. Principia Rerum/Knowledge System Model.md",
         "00. Principia Rerum/Naming Policy.md",
         "00. Principia Rerum/Note Lifecycle and Merge Policy.md",
-        "00. Principia Rerum/Templates"
+        "00. Principia Rerum/Tag Policy.md"
       ],
       "sortOrder": "custom"
     },
@@ -88,29 +88,29 @@
     },
     "01. Inbox/To Classify": {
       "children": [
-        "01. Inbox/To Classify/Web Platform",
-        "01. Inbox/To Classify/Distributed Systems",
-        "01. Inbox/To Classify/Networking",
         "01. Inbox/To Classify/Algorithm Analysis",
-        "01. Inbox/To Classify/Computer Science",
-        "01. Inbox/To Classify/CSS",
-        "01. Inbox/To Classify/JavaScript",
-        "01. Inbox/To Classify/Operating Systems",
-        "01. Inbox/To Classify/CORS",
-        "01. Inbox/To Classify/Taxonomy",
         "01. Inbox/To Classify/Automata Theory",
+        "01. Inbox/To Classify/Computer Science",
+        "01. Inbox/To Classify/CORS",
+        "01. Inbox/To Classify/CSS",
+        "01. Inbox/To Classify/Distributed Systems",
         "01. Inbox/To Classify/Golang",
-        "01. Inbox/To Classify/Semantics",
+        "01. Inbox/To Classify/JavaScript",
+        "01. Inbox/To Classify/Networking",
+        "01. Inbox/To Classify/Operating Systems",
         "01. Inbox/To Classify/React",
+        "01. Inbox/To Classify/Semantics",
+        "01. Inbox/To Classify/Software Architecture",
+        "01. Inbox/To Classify/Syllogistics",
+        "01. Inbox/To Classify/Taxonomy",
         "01. Inbox/To Classify/Transaction Isolation Levels",
-        "01. Inbox/To Classify/Syllogistics"
+        "01. Inbox/To Classify/Web Platform"
       ],
       "sortOrder": "custom"
     },
     "01. Inbox/To Classify/Algorithm Analysis": {
       "children": [
         "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis Structure Proposal.md",
-        "01. Inbox/To Classify/Algorithm Analysis/Bubble Sort.md",
         "01. Inbox/To Classify/Algorithm Analysis/Insertion Sort.md",
         "01. Inbox/To Classify/Algorithm Analysis/Merge Sort.md",
         "01. Inbox/To Classify/Algorithm Analysis/Quick Sort.md",
@@ -272,38 +272,78 @@
     },
     "01. Inbox/To Classify/Golang": {
       "children": [
-        "01. Inbox/To Classify/Golang/Go Type Parameters and Constraints.md",
-        "01. Inbox/To Classify/Golang/Go Methods and Method Sets.md",
-        "01. Inbox/To Classify/Golang/Go Assignability and Conversions.md",
-        "01. Inbox/To Classify/Golang/Go Defined Types and Underlying Types.md",
-        "01. Inbox/To Classify/Golang/Go Composite Types.md",
-        "01. Inbox/To Classify/Golang/Go Basic Types.md",
-        "01. Inbox/To Classify/Golang/Go Type System Structure Proposal.md",
-        "01. Inbox/To Classify/Golang/Go Garbage Collection.md",
-        "01. Inbox/To Classify/Golang/Go Stack and Heap Allocation.md",
-        "01. Inbox/To Classify/Golang/Go Memory Management Structure Proposal.md",
-        "01. Inbox/To Classify/Golang/Go Memory Management.md",
-        "01. Inbox/To Classify/Golang/Go Escape Analysis Structure Proposal.md",
-        "01. Inbox/To Classify/Golang/Go Escape Analysis.md",
-        "01. Inbox/To Classify/Golang/GOMAXPROCS.md",
-        "01. Inbox/To Classify/Golang/Go Machine Thread.md",
-        "01. Inbox/To Classify/Golang/Go Netpoller.md",
-        "01. Inbox/To Classify/Golang/Go Netpoller Structure Proposal.md",
-        "01. Inbox/To Classify/Golang/Go Scheduler GMP Model Entity Split Proposal.md",
-        "01. Inbox/To Classify/Golang/Go Scheduler Processor.md",
-        "01. Inbox/To Classify/Golang/Go Channels.md",
-        "01. Inbox/To Classify/Golang/Go Concurrency Model.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model",
+        "01. Inbox/To Classify/Golang/Go Memory Management",
+        "01. Inbox/To Classify/Golang/Go Type System",
+        "01. Inbox/To Classify/Golang/Composition Root in Go.md",
         "01. Inbox/To Classify/Golang/Go Error Handling.md",
-        "01. Inbox/To Classify/Golang/Go Goroutines.md",
-        "01. Inbox/To Classify/Golang/Go Interfaces.md",
         "01. Inbox/To Classify/Golang/Go Packages and Modules.md",
-        "01. Inbox/To Classify/Golang/Go Scheduler Preemption.md",
-        "01. Inbox/To Classify/Golang/Go Scheduler Structure Proposal.md",
-        "01. Inbox/To Classify/Golang/Go Scheduler Work Stealing.md",
         "01. Inbox/To Classify/Golang/Go Structure Proposal.md",
         "01. Inbox/To Classify/Golang/Go Testing.md",
-        "01. Inbox/To Classify/Golang/Go Toolchain.md",
-        "01. Inbox/To Classify/Golang/Go Type System.md"
+        "01. Inbox/To Classify/Golang/Go Toolchain.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Golang/Go Concurrency Model": {
+      "children": [
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Channels.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Concurrency Model.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Goroutines.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler": {
+      "children": [
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Machine Thread.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Netpoller.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Netpoller Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Scheduler GMP Model Entity Split Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Scheduler Preemption.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Scheduler Processor.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Scheduler Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Scheduler Work Stealing.md",
+        "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/GOMAXPROCS.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Golang/Go Memory Management": {
+      "children": [
+        "01. Inbox/To Classify/Golang/Go Memory Management/Go Escape Analysis.md",
+        "01. Inbox/To Classify/Golang/Go Memory Management/Go Escape Analysis Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Memory Management/Go Garbage Collection.md",
+        "01. Inbox/To Classify/Golang/Go Memory Management/Go Memory Management.md",
+        "01. Inbox/To Classify/Golang/Go Memory Management/Go Memory Management Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Memory Management/Go Stack and Heap Allocation.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Golang/Go Type System": {
+      "children": [
+        "01. Inbox/To Classify/Golang/Go Type System/Go Reflection",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Assignability and Conversions.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Basic Types.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Composite Types.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Defined Types and Underlying Types.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Interfaces.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Methods and Method Sets.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Type Parameters and Constraints.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Type System.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Type System Structure Proposal.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Golang/Go Type System/Go Reflection": {
+      "children": [
+        "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection Addressability and Settable Values.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection Dynamic Decoding.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection Mutation and Dynamic Calls.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection Performance and Limits.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection Struct Inspection and Tags.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection Structure Proposal.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection Type and Value Model.md",
+        "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection vs Generics vs Code Generation.md"
       ],
       "sortOrder": "custom"
     },
@@ -330,11 +370,11 @@
         "01. Inbox/To Classify/Networking/DNS",
         "01. Inbox/To Classify/Networking/OSI Model",
         "01. Inbox/To Classify/Networking/TCP IP Model",
-        "01. Inbox/To Classify/Networking/Routing.md",
+        "01. Inbox/To Classify/Networking/Internet Structure Proposal.md",
+        "01. Inbox/To Classify/Networking/IP Addressing.md",
         "01. Inbox/To Classify/Networking/Networking.md",
         "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
-        "01. Inbox/To Classify/Networking/Internet Structure Proposal.md",
-        "01. Inbox/To Classify/Networking/IP Addressing.md"
+        "01. Inbox/To Classify/Networking/Routing.md"
       ],
       "sortOrder": "custom"
     },
@@ -377,17 +417,17 @@
     },
     "01. Inbox/To Classify/Operating Systems": {
       "children": [
-        "01. Inbox/To Classify/Operating Systems/Synchronization Primitives.md",
-        "01. Inbox/To Classify/Operating Systems/Interprocess Communication.md",
-        "01. Inbox/To Classify/Operating Systems/Context Switch.md",
-        "01. Inbox/To Classify/Operating Systems/Process State Model.md",
-        "01. Inbox/To Classify/Operating Systems/Processes and Threads Structure Proposal.md",
         "01. Inbox/To Classify/Operating Systems/Virtual Memory",
+        "01. Inbox/To Classify/Operating Systems/Context Switch.md",
         "01. Inbox/To Classify/Operating Systems/CPU Scheduling.md",
         "01. Inbox/To Classify/Operating Systems/File Systems.md",
+        "01. Inbox/To Classify/Operating Systems/Interprocess Communication.md",
         "01. Inbox/To Classify/Operating Systems/Operating Systems Structure Proposal.md",
         "01. Inbox/To Classify/Operating Systems/Process.md",
+        "01. Inbox/To Classify/Operating Systems/Process State Model.md",
         "01. Inbox/To Classify/Operating Systems/Processes and Threads.md",
+        "01. Inbox/To Classify/Operating Systems/Processes and Threads Structure Proposal.md",
+        "01. Inbox/To Classify/Operating Systems/Synchronization Primitives.md",
         "01. Inbox/To Classify/Operating Systems/System Calls.md",
         "01. Inbox/To Classify/Operating Systems/Thread.md"
       ],
@@ -407,17 +447,17 @@
     },
     "01. Inbox/To Classify/React": {
       "children": [
-        "01. Inbox/To Classify/React/Higher-Order Component.md",
-        "01. Inbox/To Classify/React/Higher-Order Component Structure Proposal.md",
         "01. Inbox/To Classify/React/Class Components.md",
         "01. Inbox/To Classify/React/Component Composition.md",
+        "01. Inbox/To Classify/React/Custom Hooks.md",
         "01. Inbox/To Classify/React/Functional Components.md",
+        "01. Inbox/To Classify/React/Higher-Order Component.md",
+        "01. Inbox/To Classify/React/Higher-Order Component Structure Proposal.md",
         "01. Inbox/To Classify/React/React Component Re-renders.md",
+        "01. Inbox/To Classify/React/React Hooks Structure Proposal.md",
         "01. Inbox/To Classify/React/React Reconciliation.md",
         "01. Inbox/To Classify/React/React Render.md",
         "01. Inbox/To Classify/React/React State Updates.md",
-        "01. Inbox/To Classify/React/Custom Hooks.md",
-        "01. Inbox/To Classify/React/React Hooks Structure Proposal.md",
         "01. Inbox/To Classify/React/React Structure Proposal.md",
         "01. Inbox/To Classify/React/Rules of Hooks.md",
         "01. Inbox/To Classify/React/useContext.md",
@@ -428,15 +468,52 @@
     },
     "01. Inbox/To Classify/Semantics": {
       "children": [
-        "01. Inbox/To Classify/Semantics/Semantics and Pragmatics.md",
-        "01. Inbox/To Classify/Semantics/Formal Semantics.md",
         "01. Inbox/To Classify/Semantics/Compositional Semantics.md",
-        "01. Inbox/To Classify/Semantics/Lexical Semantics.md",
-        "01. Inbox/To Classify/Semantics/Sense and Reference.md",
         "01. Inbox/To Classify/Semantics/Denotation.md",
+        "01. Inbox/To Classify/Semantics/Formal Semantics.md",
+        "01. Inbox/To Classify/Semantics/Lexical Semantics.md",
         "01. Inbox/To Classify/Semantics/Linguistic Meaning.md",
         "01. Inbox/To Classify/Semantics/Semantics.md",
-        "01. Inbox/To Classify/Semantics/Semantics Structure Proposal.md"
+        "01. Inbox/To Classify/Semantics/Semantics and Pragmatics.md",
+        "01. Inbox/To Classify/Semantics/Semantics Structure Proposal.md",
+        "01. Inbox/To Classify/Semantics/Sense and Reference.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Software Architecture": {
+      "children": [
+        "01. Inbox/To Classify/Software Architecture/Dependency Management",
+        "01. Inbox/To Classify/Software Architecture/Design Principles",
+        "01. Inbox/To Classify/Software Architecture/Clean Architecture.md",
+        "01. Inbox/To Classify/Software Architecture/Software Architecture Structure Proposal.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Software Architecture/Dependency Management": {
+      "children": [
+        "01. Inbox/To Classify/Software Architecture/Dependency Management/Composition Root.md",
+        "01. Inbox/To Classify/Software Architecture/Dependency Management/Dependency Injection.md",
+        "01. Inbox/To Classify/Software Architecture/Dependency Management/Dependency Management.md",
+        "01. Inbox/To Classify/Software Architecture/Dependency Management/Inversion of Control.md",
+        "01. Inbox/To Classify/Software Architecture/Dependency Management/Service Locator.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Software Architecture/Design Principles": {
+      "children": [
+        "01. Inbox/To Classify/Software Architecture/Design Principles/SOLID",
+        "01. Inbox/To Classify/Software Architecture/Design Principles/Design Principles.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01. Inbox/To Classify/Software Architecture/Design Principles/SOLID": {
+      "children": [
+        "01. Inbox/To Classify/Software Architecture/Design Principles/SOLID/Dependency Inversion Principle.md",
+        "01. Inbox/To Classify/Software Architecture/Design Principles/SOLID/Interface Segregation Principle.md",
+        "01. Inbox/To Classify/Software Architecture/Design Principles/SOLID/Liskov Substitution Principle.md",
+        "01. Inbox/To Classify/Software Architecture/Design Principles/SOLID/Open-Closed Principle.md",
+        "01. Inbox/To Classify/Software Architecture/Design Principles/SOLID/Single Responsibility Principle.md",
+        "01. Inbox/To Classify/Software Architecture/Design Principles/SOLID/SOLID.md"
       ],
       "sortOrder": "custom"
     },
@@ -464,10 +541,6 @@
     },
     "01. Inbox/To Classify/Transaction Isolation Levels": {
       "children": [
-        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Durability.md",
-        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation.md",
-        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Consistency.md",
-        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Atomicity.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/ACID Structure Proposal.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Isolation Anomalies.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Read Committed.md",
@@ -475,6 +548,10 @@
         "01. Inbox/To Classify/Transaction Isolation Levels/Repeatable Read.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Serializable.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Snapshot Isolation.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Atomicity.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Consistency.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Durability.md",
+        "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels.md",
         "01. Inbox/To Classify/Transaction Isolation Levels/Transaction Isolation Levels Structure Proposal.md"
       ],
@@ -556,29 +633,30 @@
         "02. Corpus Mundi/P",
         "02. Corpus Mundi/Q",
         "02. Corpus Mundi/R",
+        "02. Corpus Mundi/S",
+        "02. Corpus Mundi/T",
         "02. Corpus Mundi/U",
         "02. Corpus Mundi/V",
         "02. Corpus Mundi/W",
         "02. Corpus Mundi/X",
         "02. Corpus Mundi/Y",
         "02. Corpus Mundi/Z",
-        "02. Corpus Mundi/T",
-        "02. Corpus Mundi/S",
         "02. Corpus Mundi/__02. Corpus Mundi.base"
       ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/A": {
       "children": [
+        "02. Corpus Mundi/A/ACID.md",
         "02. Corpus Mundi/A/Algorithm Analysis.md",
-        "02. Corpus Mundi/A/Automata Theory.md",
-        "02. Corpus Mundi/A/ACID.md"
+        "02. Corpus Mundi/A/Automata Theory.md"
       ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/B": {
       "children": [
-        "02. Corpus Mundi/B/Big O Notation.md"
+        "02. Corpus Mundi/B/Big O Notation.md",
+        "02. Corpus Mundi/B/Bubble Sort.md"
       ],
       "sortOrder": "custom"
     },
@@ -603,8 +681,8 @@
     "02. Corpus Mundi/G": {
       "children": [
         "02. Corpus Mundi/G/Go.md",
-        "02. Corpus Mundi/G/Go Scheduler GMP Model.md",
-        "02. Corpus Mundi/G/Go Scheduler.md"
+        "02. Corpus Mundi/G/Go Scheduler.md",
+        "02. Corpus Mundi/G/Go Scheduler GMP Model.md"
       ],
       "sortOrder": "custom"
     },
@@ -620,10 +698,10 @@
     },
     "02. Corpus Mundi/J": {
       "children": [
-        "02. Corpus Mundi/J/JSX.md",
         "02. Corpus Mundi/J/JavaScript Prototype Internal Slot.md",
         "02. Corpus Mundi/J/JavaScript prototype Property.md",
-        "02. Corpus Mundi/J/JavaScript Prototype System.md"
+        "02. Corpus Mundi/J/JavaScript Prototype System.md",
+        "02. Corpus Mundi/J/JSX.md"
       ],
       "sortOrder": "custom"
     },
@@ -659,21 +737,21 @@
     },
     "02. Corpus Mundi/R": {
       "children": [
-        "02. Corpus Mundi/R/React Components.md",
-        "02. Corpus Mundi/R/React Props.md",
-        "02. Corpus Mundi/R/React Key Prop.md",
-        "02. Corpus Mundi/R/React Rendering Model.md",
-        "02. Corpus Mundi/R/React.memo.md",
         "02. Corpus Mundi/R/React.md",
-        "02. Corpus Mundi/R/React Hooks.md"
+        "02. Corpus Mundi/R/React Components.md",
+        "02. Corpus Mundi/R/React Hooks.md",
+        "02. Corpus Mundi/R/React Key Prop.md",
+        "02. Corpus Mundi/R/React Props.md",
+        "02. Corpus Mundi/R/React Rendering Model.md",
+        "02. Corpus Mundi/R/React.memo.md"
       ],
       "sortOrder": "custom"
     },
     "02. Corpus Mundi/S": {
       "children": [
+        "02. Corpus Mundi/S/Service Reliability.md",
         "02. Corpus Mundi/S/Sorting Algorithms.md",
-        "02. Corpus Mundi/S/Syllogism.md",
-        "02. Corpus Mundi/S/Service Reliability.md"
+        "02. Corpus Mundi/S/Syllogism.md"
       ],
       "sortOrder": "custom"
     },
@@ -732,20 +810,20 @@
     },
     "03. Maps and Courses/Topic Maps": {
       "children": [
+        "03. Maps and Courses/Topic Maps/DBMS",
+        "03. Maps and Courses/Topic Maps/Go",
+        "03. Maps and Courses/Topic Maps/Javascript",
         "03. Maps and Courses/Topic Maps/Networking",
         "03. Maps and Courses/Topic Maps/OS",
-        "03. Maps and Courses/Topic Maps/Go",
-        "03. Maps and Courses/Topic Maps/React",
-        "03. Maps and Courses/Topic Maps/DBMS",
-        "03. Maps and Courses/Topic Maps/Javascript"
+        "03. Maps and Courses/Topic Maps/React"
       ],
       "sortOrder": "custom"
     },
     "03. Maps and Courses/Topic Maps/DBMS": {
       "children": [
-        "03. Maps and Courses/Topic Maps/DBMS/DBMS.base",
         "03. Maps and Courses/Topic Maps/DBMS/_resources",
         "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
+        "03. Maps and Courses/Topic Maps/DBMS/DBMS.base",
         "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas"
       ],
       "sortOrder": "custom"
@@ -841,13 +919,13 @@
     },
     "Prompts": {
       "children": [
-        "Prompts/Post Synthesis.md",
-        "Prompts/Obsidian Ultimate Professional Article.md"
+        "Prompts/Obsidian Ultimate Professional Article.md",
+        "Prompts/Post Synthesis.md"
       ],
       "sortOrder": "custom"
     }
   },
-  "sortOrder": "alphabetical",
+  "sortOrder": "custom",
   "debugMode": false,
   "newItemPlacement": "top"
 }
