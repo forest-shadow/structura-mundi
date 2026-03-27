@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/G/Go Type System.md",
+                "file": "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go Type System"
+              "title": "OSI Model"
             }
           }
         ],
@@ -207,13 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/G/Go Type System.md",
+                "file": "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go Type System"
+              "title": "Outline of OSI Model"
             }
           },
           {
@@ -320,8 +320,31 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "8d54f4fdc3658f9e",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Versions.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Header Fields.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Status Codes.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Methods.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Messages.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Structure Proposal.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/Application Layer Protocols.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols",
+    "01. Inbox/To Classify/Networking/Network Protocols/Network Layer Protocols/Routing Protocols.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Network Layer Protocols/Network Layer Protocols.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Transport Layer Protocols.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Link Layer Protocols.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Network Protocols Structure Proposal.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Network Protocols.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Network Layer Protocols",
+    "01. Inbox/To Classify/Networking/Network Protocols",
+    "01. Inbox/To Classify/Networking/OSI Model/_resources/osi-model-protocol-stack.jpg",
+    "01. Inbox/To Classify/Networking/OSI Model/_resources",
+    "Pasted image 20260327140145.png",
+    "02. Corpus Mundi/G/Go Type System.md",
     "01. Inbox/To Classify/Networking/Network Performance/Network Packet Loss.md",
     "01. Inbox/To Classify/Networking/Network Performance/Network Jitter.md",
     "01. Inbox/To Classify/Networking/Network Performance/Network Latency.md",
@@ -333,31 +356,10 @@
     "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Hybrid Network Topology.md",
     "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Tree Network Topology.md",
     "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Mesh Network Topology.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Ring Network Topology.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Star Network Topology.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Bus Network Topology.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Point-to-Point Network Topology.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Common Network Topologies Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Common Network Topologies.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Physical and Logical Network Topology.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Network Topology Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Network Topology.md",
     "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies",
     "01. Inbox/To Classify/Networking/Network Topology",
-    "01. Inbox/To Classify/CSS/CSS Cascade/CSS Cascade Origins, Importance, Layers, and Order.md",
-    "01. Inbox/To Classify/CSS/CSS Cascade/CSS Specificity.md",
-    "01. Inbox/To Classify/CSS/CSS Cascade/CSS Cascade.md",
     "01. Inbox/To Classify/CSS/CSS Cascade",
-    "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Closure Structure Proposal.md",
-    "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/Scope Chain.md",
-    "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/Lexical Scope.md",
-    "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Scope Model.md",
     "01. Inbox/To Classify/JavaScript/JavaScript Scope Model",
-    "01. Inbox/To Classify/JavaScript/JavaScript Prototype System",
-    "01. Inbox/To Classify/Golang/Go Type System/Go Composite Types",
-    "01. Inbox/To Classify/Golang/Go Type System/Go Basic Types",
-    "02. Corpus Mundi/__02. Corpus Mundi.base",
-    "01. Inbox/To Classify/Golang/Go Type System/Go Reflection",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",

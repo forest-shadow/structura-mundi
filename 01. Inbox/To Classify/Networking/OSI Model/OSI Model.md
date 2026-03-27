@@ -20,13 +20,14 @@ related:
   - "[[Application Layer]]"
 tags: []
 ---
-
+![[osi-model-protocol-stack.jpg|600]]
 # OSI Model
 
 ## Краткое определение области
 
 Обзорная заметка для `OSI Model` как концептуальной семиуровневой модели, через которую описывают функции сетевого взаимодействия.
 
+The Open Systems Interconnection <i>Reference Model</i>
 ## Что входит в эту тему
 
 - `[[Physical Layer]]`

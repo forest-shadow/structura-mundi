@@ -13,6 +13,7 @@ related:
   - "[[OSI Model]]"
   - "[[Network Topology]]"
   - "[[Network Performance]]"
+  - "[[Network Protocols]]"
 tags: []
 ---
 
@@ -43,6 +44,12 @@ Computer Science
     │   ├── Network Latency
     │   ├── Network Jitter
     │   └── Network Packet Loss
+    ├── Network Protocols
+    │   ├── Link Layer Protocols
+    │   ├── Network Layer Protocols
+    │   │   └── Routing Protocols
+    │   ├── Transport Layer Protocols
+    │   └── Application Layer Protocols
     ├── Internet
     │   ├── TCP IP Model
     │   │   ├── TCP IP Link Layer
@@ -69,10 +76,11 @@ Computer Science
 
 ## Почему структура именно такая
 
-- `Networking` оправдан как domain-root overview, потому что внутри него уже есть как минимум несколько самостоятельных обзорных веток: structural topology branch, performance-metrics branch, operational Internet branch и model-centric OSI branch.
+- `Networking` оправдан как domain-root overview, потому что внутри него уже есть как минимум несколько самостоятельных обзорных веток: structural topology branch, performance-metrics branch, protocol-families branch, operational Internet branch и model-centric OSI branch.
 - `Network Topology` лучше держать отдельным `sub-overview` прямо под `Networking`, потому что это общая structural тема о формах организации сетей, а не часть только Internet или только OSI.
 - `Common Network Topologies` лучше делать вложенной overview-веткой внутри `Network Topology`, чтобы не плодить длинный плоский список однотипных topology patterns на верхнем уровне.
 - `Network Performance` лучше держать отдельным `sub-overview` под `Networking`, потому что bandwidth, throughput, latency, jitter и loss образуют устойчивый кластер cross-cutting metrics, а не частный раздел одной Internet-ветки.
+- `Network Protocols` лучше держать отдельным `sub-overview` под `Networking`, потому что protocol families образуют самостоятельную понятийную ветку, которую не стоит растворять ни в `Internet`, ни в `OSI Model`.
 - `Internet` стоит делать отдельным `sub-overview`, потому что это не один isolated concept, а устойчивый кластер вокруг TCP/IP, адресации, маршрутизации и naming.
 - `DNS` внутри `Internet` уже лучше делать не одиночной статьей, а отдельным `sub-overview`, потому что тема естественно распадается на resolution, server roles и data model.
 - `OSI Model` лучше держать sibling-веткой, а не child-узлом `Internet`, потому что это концептуальная модель сетевых функций, а не часть самой Internet topology.
@@ -83,12 +91,13 @@ Computer Science
 - Не стоит заранее выносить каждый отдельный протокол в самостоятельную note без плотного корпуса.
 - Не стоит помещать `Network Topology` под `Internet`, потому что это сделает слишком узкой более общую networking-тему.
 - Не стоит помещать `Network Bandwidth` как одиночную статью прямо под `Networking`, потому что без throughput, latency и loss она плохо удерживает собственные границы.
+- Не стоит превращать `Network Protocols` сразу в свалку notes про `TCP`, `UDP`, `HTTP`, `BGP` и `DNS` без промежуточных family-overviews.
 
 ## Что стоит раскрыть дальше
 
-- [ ] Решить, когда нужен отдельный `Network Protocols`
 - [ ] Решить, когда рядом нужен `Network Architecture`
 - [ ] Решить, когда рядом нужен `Network Congestion`
+- [ ] Решить, когда `Network Protocols` пора дробить на concrete protocol notes
 - [ ] Проверить `related`
 
 

@@ -12,6 +12,7 @@ related:
   - "[[OSI Model]]"
   - "[[Network Topology]]"
   - "[[Network Performance]]"
+  - "[[Network Protocols]]"
 tags: []
 ---
 
@@ -27,6 +28,7 @@ tags: []
 - `[[OSI Model]]`
 - `[[Network Topology]]`
 - `[[Network Performance]]`
+- `[[Network Protocols]]`
 
 ## Как устроена ветка
 
@@ -35,19 +37,21 @@ tags: []
 - `OSI Model` остается соседней концептуальной model-веткой для описания сетевых функций по слоям.
 - `Network Topology` собирает structural branch про формы организации сетей, различие между physical и logical topology и канонические topology patterns.
 - `Network Performance` собирает branch про bandwidth, throughput, latency, jitter и packet loss как базовые метрики сетевого поведения.
+- `Network Protocols` собирает branch про семейства сетевых протоколов и их роли в стеке, а не про случайный список отдельных protocol names.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Network Topology]]`, если нужен язык для описания формы и связности сети.
 2. Затем перейти к `[[Network Performance]]`, если нужен язык для описания capacity и качества доставки.
-3. После этого читать `[[Internet]]`, если нужен operational взгляд на современную сеть.
-4. Затем перейти к `[[TCP IP Model]]` и связанным статьям внутри Internet-ветки.
-5. Затем сопоставить это с `[[OSI Model]]` как с соседней концептуальной моделью.
+3. Затем перейти к `[[Network Protocols]]`, если нужен общий язык для описания protocol families.
+4. После этого читать `[[Internet]]`, если нужен operational взгляд на современную сеть.
+5. Затем перейти к `[[TCP IP Model]]` и связанным статьям внутри Internet-ветки.
+6. Затем сопоставить это с `[[OSI Model]]` как с соседней концептуальной моделью.
 
 ## Что стоит раскрыть дальше
 
-- [ ] Проверить, когда рядом нужен отдельный overview про network protocols
 - [ ] Уточнить границы между `Internet` и `OSI Model`
 - [ ] Проверить, когда рядом нужен отдельный узел про `Network Architecture`
 - [ ] Проверить, когда рядом нужен отдельный узел про `Network Congestion`
+- [ ] Проверить, когда `Network Protocols` пора дробить дальше на concrete protocol notes
 - [ ] Проверить `related`
