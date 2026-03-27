@@ -111,7 +111,6 @@
     "01. Inbox/To Classify/Algorithm Analysis": {
       "children": [
         "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis Structure Proposal.md",
-        "01. Inbox/To Classify/Algorithm Analysis/Insertion Sort.md",
         "01. Inbox/To Classify/Algorithm Analysis/Merge Sort.md",
         "01. Inbox/To Classify/Algorithm Analysis/Quick Sort.md",
         "01. Inbox/To Classify/Algorithm Analysis/Radix Sort.md"
@@ -691,6 +690,7 @@
     },
     "02. Corpus Mundi/I": {
       "children": [
+        "02. Corpus Mundi/I/Insertion Sort.md",
         "02. Corpus Mundi/I/Internet.md"
       ],
       "sortOrder": "custom"

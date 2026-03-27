@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Algorithm Analysis/Insertion Sort.md",
+                "file": "02. Corpus Mundi/I/Insertion Sort.md",
                 "mode": "source",
                 "source": false
               },
@@ -212,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Algorithm Analysis/Insertion Sort.md",
+                "file": "02. Corpus Mundi/I/Insertion Sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -325,7 +325,7 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "2950dc340357ed8c",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
     "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis Structure Proposal.md",
     "01. Inbox/To Classify/Distributed Systems/Distributed Systems Structure Proposal.md",
@@ -335,7 +335,7 @@
     "02. Corpus Mundi/__02. Corpus Mundi.base",
     "02. Corpus Mundi/S/Selection Sort.md",
     "02. Corpus Mundi/S/Syllogism.md",
-    "01. Inbox/To Classify/Algorithm Analysis/Insertion Sort.md",
+    "02. Corpus Mundi/I/Insertion Sort.md",
     "01. Inbox/To Classify/Golang/Go Memory Management/Go Garbage Collection.md",
     "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection Performance and Limits.md",
     "01. Inbox/To Classify/Golang/Go Type System/Go Reflection/Go Reflection vs Generics vs Code Generation.md",
