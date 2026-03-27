@@ -60,32 +60,6 @@ Algorithm Analysis (overview)
 
 Эти темы пока естественнее раскрывать как разделы внутри `Big O Notation`, `Sorting Algorithms` или конкретных статей про алгоритмы. Выносить их в самостоятельные узлы стоит только при появлении устойчивого корпуса заметок.
 
-## Предлагаемое физическое размещение после нормализации
-
-Если ветка будет доведена до канонического состояния, физическое размещение в `Corpus Mundi` должно следовать алфавитному правилу:
-
-```text
-02. Corpus Mundi/
-├── A/
-│   └── Algorithm Analysis.md
-├── B/
-│   ├── Big O Notation.md
-│   └── Bubble Sort.md
-├── I/
-│   └── Insertion Sort.md
-├── M/
-│   └── Merge Sort.md
-├── Q/
-│   └── Quick Sort.md
-├── R/
-│   └── Radix Sort.md
-└── S/
-    ├── Selection Sort.md
-    └── Sorting Algorithms.md
-```
-
-Логическая ветка при этом все равно собирается через `parent`, а не через физическое соседство файлов.
-
 ## Что создано в Inbox
 
 - `Algorithm Analysis`
