@@ -17,7 +17,8 @@
 ```text
 CSS (overview)
 └── CSS Cascade (overview)
-    └── CSS Specificity (article)
+    ├── CSS Specificity (article)
+    └── CSS Cascade Origins, Importance, Layers, and Order (article)
 ```
 
 ## Почему структура именно такая
@@ -25,6 +26,7 @@ CSS (overview)
 - `CSS` нужен как корневой `overview`, потому что `CSS Specificity` не является самостоятельной верхнеуровневой темой и должна входить в более широкую рамку языка CSS.
 - `CSS Cascade` оправдан как вложенный `overview`, потому что это устойчивый смысловой кластер внутри CSS. Вокруг него естественно собираются несколько самостоятельных тем: specificity, origin and importance, inheritance, defaulting, cascade layers.
 - `CSS Specificity` корректнее держать отдельной `article`, потому что это конкретный механизм разрешения конфликтов между конкурирующими CSS-правилами, а не вся модель каскада целиком.
+- `CSS Cascade Origins, Importance, Layers, and Order` полезно держать одной статьей, потому что эти механизмы тесно связаны между собой, но по отдельности пока слишком тонки для самостоятельных канонических notes.
 - Более глубокая вложенность пока не нужна: для одной статьи про specificity не следует заранее создавать несколько промежуточных уровней вроде `CSS Rule Resolution` или `Selector Priority Model`.
 
 ## Что не стоит создавать заранее
@@ -32,7 +34,8 @@ CSS (overview)
 - отдельную заметку `Specificity Score`, если этот материал естественно раскрывается внутри `CSS Specificity`;
 - отдельную заметку `CSS Rule Priority`, если она лишь дублирует рамку `CSS Cascade`;
 - отдельную заметку `CSS Selectors` только ради того, чтобы объяснить источники specificity;
-- отдельные статьи `Cascade Layers`, `Inheritance`, `!important` и `Origin and Importance`, пока под них не созрел самостоятельный корпус.
+- отдельные статьи `Cascade Layers`, `!important`, `Source Order` и `Origin and Importance`, пока под них не созрел самостоятельный корпус;
+- смешивать `inheritance` с этой второй статьей каскада, если позже станет ясно, что это самостоятельная соседняя тема.
 
 ## Предлагаемое физическое размещение после нормализации
 
@@ -43,6 +46,7 @@ CSS (overview)
 └── C/
     ├── CSS.md
     ├── CSS Cascade.md
+    ├── CSS Cascade Origins, Importance, Layers, and Order.md
     └── CSS Specificity.md
 ```
 
@@ -52,6 +56,7 @@ CSS (overview)
 
 - `CSS.md`
 - `CSS Cascade.md`
+- `CSS Cascade Origins, Importance, Layers, and Order.md`
 - `CSS Specificity.md`
 
 ## Следующий шаг перед переносом в Corpus Mundi
@@ -59,3 +64,4 @@ CSS (overview)
 1. Подтвердить `section: css`.
 2. Уточнить границы `CSS Cascade`, чтобы не смешивать её со всей темой CSS.
 3. Наполнить `CSS Specificity` примерами сравнения селекторов и границами между specificity, source order и `!important`.
+4. Наполнить `CSS Cascade Origins, Importance, Layers, and Order` примерами, где specificity не является решающим механизмом.

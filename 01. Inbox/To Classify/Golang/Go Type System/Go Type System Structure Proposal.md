@@ -83,3 +83,15 @@ Go
 - [ ] Решить, когда стоит выделить `Go Type Assertions`
 - [ ] Проверить, когда внутри `Go Reflection` нужны отдельные notes про `any` и interface values
 - [ ] Проверить `related`
+
+
+# Go Type System: Рекомендуемый маршрут чтения
+
+1. Начать с `[[Go Basic Types]]`. Внутри этой ветки полезно двигаться так: `[[Go Boolean Type]]` → `[[Go String Type]]` → `[[Go Integer Types]]` → `[[Go Floating-Point Types]]` → `[[Go Complex Types]]`.
+2. Затем перейти к `[[Go Composite Types]]`. Внутри этой ветки полезно двигаться так: `[[Go Type Literals]]` → `[[Go Array Types]]` → `[[Go Struct Types]]` → `[[Go Pointer Types]]` → `[[Go Function Types]]` → `[[Go Interfaces]]` → `[[Go Slice Types]]` → `[[Go Map Types]]` → `[[Go Channel Types]]`.
+3. После этого читать `[[Go Defined Types and Underlying Types]]`, чтобы понять identity и именование типов.
+4. Затем перейти к `[[Go Assignability and Conversions]]`, где видно, как типы соотносятся в программах.
+5. После этого читать `[[Go Methods and Method Sets]]`, потому что именно здесь типовая модель начинает связываться с поведением.
+6. Затем перейти к `[[Go Reflection]]` как к runtime-перспективе на уже понятную типовую модель. Внутри этой ветки полезно двигаться так: `[[Go Reflection Type and Value Model]]` → `[[Go Reflection Addressability and Settable Values]]` → `[[Go Reflection Struct Inspection and Tags]]` → `[[Go Reflection Mutation and Dynamic Calls]]`.
+7. Завершить `[[Go Type Parameters and Constraints]]`, когда уже понятны базовые типы, composite forms, совместимость, method sets и различие между runtime- и compile-time-обобщением.
+8. После этого читать `[[Go Informal Type Taxonomies]]` как вторичный учебный слой, полезный для объяснения практических эффектов, но не заменяющий formal model языка.

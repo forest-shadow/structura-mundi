@@ -11,6 +11,7 @@ status: seed
 related:
   - "[[CSS]]"
   - "[[CSS Cascade]]"
+  - "[[CSS Cascade Origins, Importance, Layers, and Order]]"
 tags: []
 ---
 
@@ -39,6 +40,7 @@ tags: []
 
 - `[[CSS]]`
 - `[[CSS Cascade]]`
+- `[[CSS Cascade Origins, Importance, Layers, and Order]]`
 
 ## Примеры, случаи или следствия
 

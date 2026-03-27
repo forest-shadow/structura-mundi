@@ -8,6 +8,7 @@ parent: "[[CSS]]"
 status: seed
 related:
   - "[[CSS Specificity]]"
+  - "[[CSS Cascade Origins, Importance, Layers, and Order]]"
 tags: []
 ---
 
@@ -20,18 +21,19 @@ tags: []
 ## Что входит в эту тему
 
 - `[[CSS Specificity]]`
+- `[[CSS Cascade Origins, Importance, Layers, and Order]]`
 
 ## Как устроена ветка
 
 - `CSS Cascade` собирает темы про разрешение конфликтов между правилами.
 - `CSS Specificity` вынесена отдельно как один из ключевых механизмов внутри каскада.
-- Другие части каскада вроде origin, importance, layers и source order можно добавлять позже, если ветка действительно вырастет.
+- `CSS Cascade Origins, Importance, Layers, and Order` собирает остальные механизмы каскада в одной статье, чтобы не дробить ветку на слишком тонкие узлы.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с общей идеи `CSS Cascade`.
 2. Затем перейти к `[[CSS Specificity]]`.
-3. После этого при необходимости расширять ветку соседними статьями про другие механизмы каскада.
+3. После этого читать `[[CSS Cascade Origins, Importance, Layers, and Order]]`.
 
 ## Соседние overview-ветки
 
@@ -40,6 +42,7 @@ tags: []
 ## Что стоит раскрыть дальше
 
 - [ ] Уточнить границы между cascade и selectors
-- [ ] Проверить, нужны ли позже заметки про `!important`, source order и layers
+- [ ] Проверить, не вырастет ли позже отдельный корпус под `CSS Cascade Layers`
+- [ ] Проверить, не стоит ли позже вынести `inheritance` в соседнюю note рядом с `CSS Cascade`
 - [ ] Проверить `related`
 - [ ] Не разрастается ли ветка слишком глубоко
