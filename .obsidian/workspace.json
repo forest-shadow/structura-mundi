@@ -125,20 +125,6 @@
             }
           },
           {
-            "id": "f522a4cb08253ce6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Inbox/To Classify/Algorithm Analysis/Selection Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Selection Sort"
-            }
-          },
-          {
             "id": "8d54f4fdc3658f9e",
             "type": "leaf",
             "state": {
@@ -151,9 +137,23 @@
               "icon": "lucide-file",
               "title": "Obsidian Ultimate Professional Article"
             }
+          },
+          {
+            "id": "e05af7aab4d185cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prompts/Post Synthesis.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Post Synthesis"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -226,13 +226,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Algorithm Analysis/Selection Sort.md",
+                "file": "Prompts/Post Synthesis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Selection Sort"
+              "title": "Outline of Post Synthesis"
             }
           },
           {
@@ -339,12 +339,13 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "f522a4cb08253ce6",
+  "active": "e05af7aab4d185cb",
   "lastOpenFiles": [
-    "Prompts/Obsidian Ultimate Professional Article.md",
     "Tabula Ortus.md",
+    "Prompts/Obsidian Ultimate Professional Article.md",
+    "02. Corpus Mundi/__02. Corpus Mundi.base",
+    "02. Corpus Mundi/S/Selection Sort.md",
     "02. Corpus Mundi/S/Syllogism.md",
-    "01. Inbox/To Classify/Algorithm Analysis/Selection Sort.md",
     "01. Inbox/To Classify/Algorithm Analysis/Algorithm Analysis Structure Proposal.md",
     "01. Inbox/To Classify/Algorithm Analysis/Insertion Sort.md",
     "01. Inbox/To Classify/Distributed Systems/Distributed Systems Structure Proposal.md",
@@ -366,7 +367,6 @@
     "01. Inbox/To Classify/Golang/Go Memory Management/Go Stack and Heap Allocation.md",
     "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Netpoller.md",
     "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Netpoller Structure Proposal.md",
-    "01. Inbox/To Classify/Golang/Go Reflection/Go Reflection Structure Proposal.md",
     "01. Inbox/To Classify/Golang/Go Type System/Go Reflection",
     "01. Inbox/To Classify/Golang/Go Memory Management",
     "01. Inbox/To Classify/Golang/Go Type System",
@@ -376,7 +376,6 @@
     "01. Inbox/To Classify/Software Architecture/Design Principles/SOLID",
     "01. Inbox/To Classify/Software Architecture/Dependency Management",
     "01. Inbox/To Classify/Software Architecture/Design Principles",
-    "01. Inbox/To Classify/Software Architecture",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",
