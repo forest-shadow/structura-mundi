@@ -45,11 +45,24 @@ Go
 ├── Go Packages and Modules
 ├── Go Type System
 │   ├── Go Basic Types
+│   │   ├── Go Boolean Type
+│   │   ├── Go String Type
+│   │   ├── Go Integer Types
+│   │   ├── Go Floating-Point Types
+│   │   └── Go Complex Types
 │   ├── Go Composite Types
+│   │   ├── Go Type Literals
+│   │   ├── Go Array Types
+│   │   ├── Go Struct Types
+│   │   ├── Go Pointer Types
+│   │   ├── Go Function Types
+│   │   ├── Go Interfaces
+│   │   ├── Go Slice Types
+│   │   ├── Go Map Types
+│   │   └── Go Channel Types
 │   ├── Go Defined Types and Underlying Types
 │   ├── Go Assignability and Conversions
 │   ├── Go Methods and Method Sets
-│   ├── Go Interfaces
 │   ├── Go Reflection
 │   │   ├── Go Reflection Type and Value Model
 │   │   ├── Go Reflection Addressability and Settable Values
@@ -97,7 +110,7 @@ Go
 
 Чтобы не смешивать иерархию понятий с физическим размещением файлов, ветку `Go` лучше понимать как набор смысловых уровней:
 
-- **Language and tooling layer:** `[[Go Toolchain]]`, `[[Go Packages and Modules]]`, `[[Go Type System]]`, `[[Go Basic Types]]`, `[[Go Composite Types]]`, `[[Go Defined Types and Underlying Types]]`, `[[Go Assignability and Conversions]]`, `[[Go Methods and Method Sets]]`, `[[Go Interfaces]]`, `[[Go Reflection]]`, `[[Go Reflection Type and Value Model]]`, `[[Go Reflection Addressability and Settable Values]]`, `[[Go Reflection Struct Inspection and Tags]]`, `[[Go Reflection Mutation and Dynamic Calls]]`, `[[Go Reflection Dynamic Decoding]]`, `[[Go Reflection vs Generics vs Code Generation]]`, `[[Go Reflection Performance and Limits]]`, `[[Go Type Parameters and Constraints]]`, `[[Go Error Handling]]`
+- **Language and tooling layer:** `[[Go Toolchain]]`, `[[Go Packages and Modules]]`, `[[Go Type System]]`, `[[Go Basic Types]]`, `[[Go Boolean Type]]`, `[[Go String Type]]`, `[[Go Integer Types]]`, `[[Go Floating-Point Types]]`, `[[Go Complex Types]]`, `[[Go Composite Types]]`, `[[Go Type Literals]]`, `[[Go Array Types]]`, `[[Go Struct Types]]`, `[[Go Pointer Types]]`, `[[Go Function Types]]`, `[[Go Interfaces]]`, `[[Go Slice Types]]`, `[[Go Map Types]]`, `[[Go Channel Types]]`, `[[Go Defined Types and Underlying Types]]`, `[[Go Assignability and Conversions]]`, `[[Go Methods and Method Sets]]`, `[[Go Reflection]]`, `[[Go Reflection Type and Value Model]]`, `[[Go Reflection Addressability and Settable Values]]`, `[[Go Reflection Struct Inspection and Tags]]`, `[[Go Reflection Mutation and Dynamic Calls]]`, `[[Go Reflection Dynamic Decoding]]`, `[[Go Reflection vs Generics vs Code Generation]]`, `[[Go Reflection Performance and Limits]]`, `[[Go Type Parameters and Constraints]]`, `[[Go Informal Type Taxonomies]]`, `[[Go Error Handling]]`
 - **Memory management layer:** `[[Go Memory Management]]`, `[[Go Stack and Heap Allocation]]`, `[[Go Escape Analysis]]`, `[[Go Garbage Collection]]`
 - **Concurrency layer:** `[[Go Concurrency Model]]`, `[[Go Goroutines]]`, `[[Go Channels]]`
 - **Scheduler/runtime internals layer:** `[[Go Scheduler]]`, `[[Go Scheduler GMP Model]]`, `[[Go Scheduler Processor]]`, `[[Go Machine Thread]]`, `[[GOMAXPROCS]]`, `[[Go Scheduler Work Stealing]]`, `[[Go Scheduler Preemption]]`, `[[Go Netpoller]]`
@@ -122,7 +135,7 @@ Go
 Структурно данная ветка выстроена так, чтобы изучать язык последовательно — от инженерной среды к типовой семантике, а затем к практическим режимам разработки. Рекомендуемая последовательность:
 
 1. **Базовая инфраструктура:** Начать с `[[Go Toolchain]]` и `[[Go Packages and Modules]]`, поскольку они задают инженерную рамку языка и объясняют, как в Go организуется проект, собирается бинарный код и управляются внешние зависимости.
-2. **Семантика и контракты:** Затем перейти к `[[Go Type System]]`. Внутри этой ветки полезно двигаться так: `[[Go Basic Types]]` → `[[Go Composite Types]]` → `[[Go Defined Types and Underlying Types]]` → `[[Go Assignability and Conversions]]` → `[[Go Methods and Method Sets]]` → `[[Go Interfaces]]` → `[[Go Reflection]]` → `[[Go Type Parameters and Constraints]]`, а затем уже сопоставлять это с `[[Go Error Handling]]` как прикладной языковой идиомой.
+2. **Семантика и контракты:** Затем перейти к `[[Go Type System]]`. Внутри этой ветки полезно двигаться так: `[[Go Basic Types]]` → `[[Go Boolean Type]]` → `[[Go String Type]]` → `[[Go Integer Types]]` → `[[Go Floating-Point Types]]` → `[[Go Complex Types]]` → `[[Go Composite Types]]` → `[[Go Type Literals]]` → `[[Go Array Types]]` → `[[Go Struct Types]]` → `[[Go Pointer Types]]` → `[[Go Function Types]]` → `[[Go Interfaces]]` → `[[Go Slice Types]]` → `[[Go Map Types]]` → `[[Go Channel Types]]` → `[[Go Defined Types and Underlying Types]]` → `[[Go Assignability and Conversions]]` → `[[Go Methods and Method Sets]]` → `[[Go Reflection]]` → `[[Go Type Parameters and Constraints]]` → `[[Go Informal Type Taxonomies]]`, а затем уже сопоставлять это с `[[Go Error Handling]]` как прикладной языковой идиомой.
 3. **Memory behavior:** После этого перейти к `[[Go Memory Management]]`. Внутри этой ветки полезно двигаться так: `[[Go Stack and Heap Allocation]]` → `[[Go Escape Analysis]]` → `[[Go Garbage Collection]]`, чтобы понять связь между размещением значений, heap pressure и стоимостью runtime.
 4. **Вычислительная модель:** Затем читать `[[Go Concurrency Model]]` и его дочерние статьи. Внутри этой ветки полезно двигаться так: `[[Go Goroutines]]` → `[[Go Scheduler]]` → `[[Go Scheduler GMP Model]]` → aspect notes вроде `[[GOMAXPROCS]]`, `[[Go Scheduler Work Stealing]]`, `[[Go Scheduler Preemption]]` и `[[Go Netpoller]]`, после чего возвращаться к `[[Go Channels]]` как к координационному механизму уже на фоне понятного runtime behavior.
 5. **Практическая валидация:** Завершить `[[Go Testing]]` как прикладной дисциплиной, связывающей язык с практикой проверки корректности, регрессии, профилирования и повседневного сопровождения кода.

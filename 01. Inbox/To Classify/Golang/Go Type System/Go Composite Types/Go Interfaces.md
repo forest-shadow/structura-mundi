@@ -6,13 +6,14 @@ note_type: article
 area: computer-science
 domain: programming-languages
 section: go
-parent: "[[Go Type System]]"
+parent: "[[Go Composite Types]]"
 status: draft
 related:
-  - "[[Go]]"
+  - "[[Go Composite Types]]"
   - "[[Go Type System]]"
+  - "[[Go Type Literals]]"
   - "[[Go Methods and Method Sets]]"
-  - "[[Go Error Handling]]"
+  - "[[Go Type Parameters and Constraints]]"
 tags: []
 ---
 
@@ -31,19 +32,21 @@ tags: []
 - В тему входят interface values, method sets и идиома small interfaces.
 - На границе находится `[[Go Type System]]`, где контекст шире, чем сами интерфейсы.
 - Механический фундамент темы частично раскрывается в `[[Go Methods and Method Sets]]`.
+- В generic-контексте граница темы расширяется до type sets и constraint-форм.
 
 ## Связи с другими заметками
 
 Родительская тема:
 
-`[[Go Type System]]`
+`[[Go Composite Types]]`
 
 Связанные заметки:
 
-- `[[Go]]`
+- `[[Go Composite Types]]`
+- `[[Go Type Literals]]`
 - `[[Go Methods and Method Sets]]`
 - `[[Go Assignability and Conversions]]`
-- `[[Go Error Handling]]`
+- `[[Go Type Parameters and Constraints]]`
 
 ## Примеры, случаи или следствия
 
@@ -51,7 +54,7 @@ tags: []
 
 ## Что стоит раскрыть дальше
 
-- [ ] Добавить различие empty interface и typed interfaces
+- [ ] Добавить различие между interface values, typed interfaces и constraints
 - [ ] Уточнить idiomatic use of small interfaces
 - [ ] Проверить `aliases`
 - [ ] Проверить `tags`
