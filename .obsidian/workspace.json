@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
+                "file": "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works/Love for Three Zuckerbrins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSI Model"
+              "title": "Love for Three Zuckerbrins"
             }
           }
         ],
@@ -207,13 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
+                "file": "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works/Love for Three Zuckerbrins.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OSI Model"
+              "title": "Outline of Love for Three Zuckerbrins"
             }
           },
           {
@@ -322,6 +322,29 @@
   },
   "active": "8d54f4fdc3658f9e",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin.md",
+    "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works/Love for Three Zuckerbrins.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works/Love for Three Zuckerbrins/Love for Three Zuckerbrins Style and Narrative Devices.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works/Love for Three Zuckerbrins/Love for Three Zuckerbrins Themes and Motifs.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works/Love for Three Zuckerbrins/Love for Three Zuckerbrins Plot and Composition.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works/Love for Three Zuckerbrins/Love for Three Zuckerbrins Structure Proposal.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works/Love for Three Zuckerbrins/Love for Three Zuckerbrins.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works/Viktor Pelevin Works.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works/Love for Three Zuckerbrins",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Style and Poetics.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Themes and Motifs.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Biography and Literary Context.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Structure Proposal.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Russian Literature Structure Proposal.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Russian Literature.md",
+    "01. Inbox/To Classify/Literature/Literature Structure Proposal.md",
+    "01. Inbox/To Classify/Literature/Literature.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin",
+    "01. Inbox/To Classify/Literature/Russian Literature",
+    "01. Inbox/To Classify/Literature",
     "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Versions.md",
     "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Header Fields.md",
     "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Status Codes.md",
@@ -332,34 +355,11 @@
     "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/Application Layer Protocols.md",
     "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP",
     "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols",
-    "01. Inbox/To Classify/Networking/Network Protocols/Network Layer Protocols/Routing Protocols.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Network Layer Protocols/Network Layer Protocols.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Transport Layer Protocols.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Link Layer Protocols.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Network Protocols Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Network Protocols.md",
     "01. Inbox/To Classify/Networking/Network Protocols/Network Layer Protocols",
     "01. Inbox/To Classify/Networking/Network Protocols",
     "01. Inbox/To Classify/Networking/OSI Model/_resources/osi-model-protocol-stack.jpg",
     "01. Inbox/To Classify/Networking/OSI Model/_resources",
     "Pasted image 20260327140145.png",
-    "02. Corpus Mundi/G/Go Type System.md",
-    "01. Inbox/To Classify/Networking/Network Performance/Network Packet Loss.md",
-    "01. Inbox/To Classify/Networking/Network Performance/Network Jitter.md",
-    "01. Inbox/To Classify/Networking/Network Performance/Network Latency.md",
-    "01. Inbox/To Classify/Networking/Network Performance/Network Throughput.md",
-    "01. Inbox/To Classify/Networking/Network Performance/Network Bandwidth.md",
-    "01. Inbox/To Classify/Networking/Network Performance/Network Performance Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Network Performance/Network Performance.md",
-    "01. Inbox/To Classify/Networking/Network Performance",
-    "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Hybrid Network Topology.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Tree Network Topology.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies/Mesh Network Topology.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Common Network Topologies",
-    "01. Inbox/To Classify/Networking/Network Topology",
-    "01. Inbox/To Classify/CSS/CSS Cascade",
-    "01. Inbox/To Classify/JavaScript/JavaScript Scope Model",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",
