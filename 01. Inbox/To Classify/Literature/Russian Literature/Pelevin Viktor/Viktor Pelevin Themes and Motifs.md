@@ -9,7 +9,7 @@ status: seed
 related:
   - "[[Viktor Pelevin]]"
   - "[[Viktor Pelevin Style and Poetics]]"
-  - "[[Viktor Pelevin Works]]"
+  - "[[Pelevin Viktor Works]]"
 tags: []
 ---
 

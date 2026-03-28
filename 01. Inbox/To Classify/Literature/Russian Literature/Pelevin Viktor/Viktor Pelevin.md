@@ -13,7 +13,7 @@ related:
   - "[[Viktor Pelevin Biography and Literary Context]]"
   - "[[Viktor Pelevin Themes and Motifs]]"
   - "[[Viktor Pelevin Style and Poetics]]"
-  - "[[Viktor Pelevin Works]]"
+  - "[[Pelevin Viktor Works]]"
   - "[[Love for Three Zuckerbrins]]"
 tags: []
 ---

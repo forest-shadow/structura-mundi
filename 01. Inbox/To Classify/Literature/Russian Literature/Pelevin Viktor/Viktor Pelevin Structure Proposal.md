@@ -10,7 +10,7 @@ status: draft
 related:
   - "[[Viktor Pelevin]]"
   - "[[Russian Literature]]"
-  - "[[Viktor Pelevin Works]]"
+  - "[[Pelevin Viktor Works]]"
   - "[[Love for Three Zuckerbrins]]"
 tags: []
 ---

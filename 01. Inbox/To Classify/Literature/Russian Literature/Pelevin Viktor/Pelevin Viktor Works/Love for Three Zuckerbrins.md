@@ -6,10 +6,10 @@ note_type: overview
 area: literature
 domain: literary-studies
 section: russian-literature
-parent: "[[Viktor Pelevin Works]]"
+parent: "[[Pelevin Viktor Works]]"
 status: seed
 related:
-  - "[[Viktor Pelevin Works]]"
+  - "[[Pelevin Viktor Works]]"
   - "[[Viktor Pelevin]]"
 tags: []
 ---
