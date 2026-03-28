@@ -4,10 +4,10 @@ note_type: overview
 area: literature
 domain: literary-studies
 section: russian-literature
-parent: "[[Viktor Pelevin]]"
+parent: "[[Pelevin Viktor]]"
 status: seed
 related:
-  - "[[Viktor Pelevin]]"
+  - "[[Pelevin Viktor]]"
   - "[[Viktor Pelevin Biography and Literary Context]]"
   - "[[Viktor Pelevin Themes and Motifs]]"
   - "[[Love for Three Zuckerbrins]]"

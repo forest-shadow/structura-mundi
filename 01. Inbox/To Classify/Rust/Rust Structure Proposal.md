@@ -9,8 +9,9 @@ status: draft
 related:
   - "[[Programming Languages]]"
   - "[[Rust]]"
-  - "[[Rust Trait]]"
-  - "[[Rust Crate]]"
+  - "[[Rust Ownership]]"
+  - "[[Rust Traits]]"
+  - "[[Rust Cargo and Toolchain]]"
 tags: []
 ---
 
@@ -18,7 +19,7 @@ tags: []
 
 ## Краткое определение
 
-Предлагаемая ветка для `Rust` задает минимальную, но устойчивую иерархию заметок о языке, в которую уже естественно помещаются понятия `trait` и `crate`, без преждевременного введения лишних подветок.
+Предлагаемая ветка для `Rust` разворачивает язык в устойчивую учебно-смысловую иерархию заметок, где ownership-ветка получает локальную вложенность, а темы вроде traits, pattern matching, unsafe и toolchain остаются самостоятельными узлами верхнего слоя.
 
 ## Выбранная оптика
 
@@ -30,59 +31,93 @@ tags: []
 
 - `Rust` естественно живет внутри уже существующего `domain: programming-languages`;
 - тема не требует нового `domain`, потому что речь идет о языковой ветке, а не об отдельной дисциплине;
-- `section: rust` оправдан не одной заметкой, а как минимум серией взаимосвязанных language-notes про сам язык, его типовую модель и организацию кода.
+- `section: rust` оправдан уже не одной заметкой, а серией взаимосвязанных language-notes про владение памятью, абстракции, algebraic data types, unsafe-код и организацию проекта.
 
 ## Каноническое имя
 
 - корневая обзорная заметка: `Rust`
-- понятие `trait` лучше хранить как `Rust Trait`, чтобы не терять языковой контекст
-- понятие `crate` лучше хранить как `Rust Crate`, потому что вне Rust этот термин недостаточно самодостаточен
+- ownership-ветку лучше именовать через `Rust Ownership`, `Rust Borrowing`, `Rust Lifetimes`
+- заметку про traits лучше хранить как `Rust Traits`, чтобы не терять языковой контекст
+- заметку про crate лучше хранить как `Rust Crate`, а держать ее внутри ветки `Rust Cargo and Toolchain`
 
 ## Рекомендуемая иерархия
 
 ```text
 Rust
-├── Rust Trait
-└── Rust Crate
+├── Rust Ownership
+│   └── Rust Borrowing
+│       └── Rust Lifetimes
+├── Rust Traits
+├── Rust Enums and Pattern Matching
+├── Unsafe Rust
+└── Rust Cargo and Toolchain
+    └── Rust Crate
 ```
 
 ## Почему структура именно такая
 
-- `Rust` должен быть корневым `overview`, потому что собирает под одной рамкой базовые узлы языка.
-- `Rust Trait` на текущем этапе лучше держать обычной `article`, а не отдельным `sub-overview`: одного понятия пока недостаточно, чтобы оправдать дополнительный уровень вложенности.
-- `Rust Crate` тоже лучше держать обычной `article`, потому что минимальная ветка пока должна оставаться плоской: `root overview -> article`.
-- `trait` и `crate` принадлежат разным смысловым слоям языка, но это не требует немедленно разводить их по разным sub-overview, пока корпус еще компактен.
-- Когда рядом появятся заметки вроде `Rust Trait Bounds`, `Rust Trait Objects`, `Rust Associated Types`, `Rust Modules`, `Cargo Package` или `Rust Visibility`, тогда уже можно будет поднимать отдельные подветки.
+- `Rust` должен быть корневым `overview`, потому что собирает под одной рамкой несколько самостоятельных тематических кластеров языка.
+- `Rust Ownership` уже оправдан как дочерний `overview`, потому что под ним естественно группируются `Rust Borrowing` и `Rust Lifetimes`.
+- `Rust Borrowing` тоже оправдан как локальный `overview`, потому что lifetimes в Rust обычно раскрываются как механизм, уточняющий правила заимствования, а не как полностью изолированная тема.
+- `Rust Traits`, `Rust Enums and Pattern Matching` и `Unsafe Rust` пока лучше оставлять обычными `article`, чтобы не плодить лишние уровни вложенности без плотного корпуса дочерних заметок.
+- `Rust Cargo and Toolchain` оправдан как отдельный `overview`, потому что здесь уже есть по меньшей мере один устойчивый дочерний узел `Rust Crate`, а позже сюда же естественно добавляются `Cargo Package`, `Rust Modules`, `Cargo.toml`, `Rust Workspace` и связанные toolchain-notes.
+- Последовательность `Rust Ownership -> Rust Borrowing -> Rust Lifetimes -> Rust Traits -> Rust Enums and Pattern Matching -> Unsafe Rust -> Rust Cargo and Toolchain` лучше понимать как рекомендуемый маршрут чтения, а не как жесткую цепочку `parent`, потому что по `Principia Rerum` иерархия должна оставаться смысловой, а не просто линейно-учебной.
 
 ## Что не стоит делать прямо сейчас
 
-- Не стоит заранее вводить `Rust Type System` только ради одной заметки `Rust Trait`.
-- Не стоит заранее вводить `Rust Package Model` только ради одной заметки `Rust Crate`.
+- Не стоит заранее вводить `Rust Type System` только ради одной заметки `Rust Traits`.
 - Не стоит смешивать `crate`, `package`, `module` и `workspace` в одной заметке как будто это синонимы.
+- Не стоит выстраивать `Traits -> Enums and Pattern Matching -> Unsafe Rust` через `parent` только ради следования учебной последовательности.
 - Не стоит создавать специальные `Rust`-templates: по правилам `Principia Rerum` здесь достаточно канонических `overview/article`.
 
 ## Предлагаемое физическое размещение после нормализации
 
 ```text
-02. Corpus Mundi/
-├── R/
-│   ├── Rust.md
-│   └── Rust Crate.md
-└── T/
-    └── Rust Trait.md
+01. Inbox/To Classify/Rust/
+├── Rust.md
+├── Rust Structure Proposal.md
+├── Rust Ownership/
+│   ├── Rust Ownership.md
+│   └── Rust Borrowing/
+│       ├── Rust Borrowing.md
+│       └── Rust Lifetimes.md
+├── Rust Traits.md
+├── Rust Enums and Pattern Matching.md
+├── Unsafe Rust.md
+└── Rust Cargo and Toolchain/
+    ├── Rust Cargo and Toolchain.md
+    └── Rust Crate.md
 ```
 
-Логическая ветка при этом все равно собирается через `parent`, а не через соседство файлов.
+После переноса в `Corpus Mundi` физическое размещение снова должно стать алфавитным, а логическая ветка по-прежнему будет собираться через `parent`.
 
 ## Что уже создано в Inbox
 
 - `[[Rust]]`
-- `[[Rust Trait]]`
+- `[[Rust Ownership]]`
+- `[[Rust Borrowing]]`
+- `[[Rust Lifetimes]]`
+- `[[Rust Traits]]`
+- `[[Rust Enums and Pattern Matching]]`
+- `[[Unsafe Rust]]`
+- `[[Rust Cargo and Toolchain]]`
 - `[[Rust Crate]]`
 
 ## Что стоит раскрыть дальше
 
 - [ ] Подтвердить `section: rust`
-- [ ] Проверить, когда `Rust Trait` вырастает в отдельную sub-overview-ветку
-- [ ] Проверить, когда рядом с `Rust Crate` нужны `Cargo Package`, `Rust Module` и `Rust Visibility`
+- [ ] Проверить, когда рядом с `Rust Traits` нужны `Rust Trait Bounds`, `Rust Trait Objects` и `Rust Associated Types`
+- [ ] Проверить, когда `Rust Enums and Pattern Matching` стоит разделить на две отдельные notes
+- [ ] Проверить, когда рядом с `Rust Cargo and Toolchain` нужны `Cargo Package`, `Rust Module`, `Cargo.toml` и `Rust Workspace`
 - [ ] Проверить `related`
+
+
+# Rust: Рекомендуемый маршрут чтения
+
+1. Начать с `Rust`.
+2. Затем перейти к `[[Rust Ownership]]`.
+3. После этого читать `[[Rust Borrowing]]` и `[[Rust Lifetimes]]`.
+4. Затем перейти к `[[Rust Traits]]`.
+5. После этого читать `[[Rust Enums and Pattern Matching]]`.
+6. Затем перейти к `[[Unsafe Rust]]`.
+7. Завершить веткой `[[Rust Cargo and Toolchain]]` и дочерней заметкой `[[Rust Crate]]`.

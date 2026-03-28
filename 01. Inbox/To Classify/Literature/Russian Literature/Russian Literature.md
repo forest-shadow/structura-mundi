@@ -9,7 +9,7 @@ parent:
 status: seed
 related:
   - "[[Literature]]"
-  - "[[Viktor Pelevin]]"
+  - "[[Pelevin Viktor]]"
 tags: []
 ---
 

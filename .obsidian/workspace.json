@@ -116,12 +116,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Literature/Russian Literature/Pelevin Viktor/Viktor Pelevin.md",
+                "file": "02. Corpus Mundi/R/Rust.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Viktor Pelevin"
+              "title": "Rust"
             }
           }
         ],
@@ -198,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Literature/Russian Literature/Pelevin Viktor/Viktor Pelevin.md",
+                "file": "02. Corpus Mundi/R/Rust.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Viktor Pelevin"
+              "title": "Outline of Rust"
             }
           },
           {
@@ -311,9 +311,19 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "8d54f4fdc3658f9e",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Literature/Russian Literature/Pelevin Viktor/Viktor Pelevin.md",
+    "01. Inbox/To Classify/Rust/Rust Structure Proposal.md",
+    "02. Corpus Mundi/R/Rust.md",
+    "01. Inbox/To Classify/Rust/Rust Cargo and Toolchain/Rust Crate.md",
+    "01. Inbox/To Classify/Rust/Rust Cargo and Toolchain/Rust Cargo and Toolchain.md",
+    "01. Inbox/To Classify/Rust/Unsafe Rust.md",
+    "01. Inbox/To Classify/Rust/Rust Enums and Pattern Matching.md",
+    "01. Inbox/To Classify/Rust/Rust Traits.md",
+    "01. Inbox/To Classify/Rust/Rust Ownership/Rust Borrowing/Rust Lifetimes.md",
+    "01. Inbox/To Classify/Rust/Rust Ownership/Rust Borrowing/Rust Borrowing.md",
+    "01. Inbox/To Classify/Rust/Rust Ownership/Rust Ownership.md",
+    "01. Inbox/To Classify/Literature/Russian Literature/Pelevin Viktor/Pelevin Viktor.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Pelevin Viktor/Viktor Pelevin Structure Proposal.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Pelevin Viktor/Viktor Pelevin Biography and Literary Context.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Pelevin Viktor/Viktor Pelevin Style and Poetics.md",
@@ -331,19 +341,9 @@
     "01. Inbox/To Classify/Literature/Russian Literature/Viktor Pelevin/Viktor Pelevin Works.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Russian Literature Structure Proposal.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Russian Literature.md",
-    "01. Inbox/To Classify/Literature/Literature Structure Proposal.md",
-    "01. Inbox/To Classify/Literature/Literature.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Pelevin Viktor",
     "01. Inbox/To Classify/Literature/Russian Literature",
     "01. Inbox/To Classify/Literature",
-    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Versions.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Header Fields.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Status Codes.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Methods.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Messages.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/HTTP.md",
-    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/Application Layer Protocols.md",
     "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP",
     "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols",
     "01. Inbox/To Classify/Networking/Network Protocols/Network Layer Protocols",

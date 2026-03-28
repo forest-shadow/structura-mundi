@@ -4,11 +4,11 @@ note_type: article
 area: computer-science
 domain: programming-languages
 section: rust
-parent: "[[Rust]]"
+parent: "[[Rust Cargo and Toolchain]]"
 status: seed
 related:
-  - "[[Rust]]"
-  - "[[Rust Trait]]"
+  - "[[Rust Cargo and Toolchain]]"
+  - "[[Rust Traits]]"
 tags: []
 ---
 
@@ -31,11 +31,11 @@ tags: []
 
 Родительская тема:
 
-`[[Rust]]`
+`[[Rust Cargo and Toolchain]]`
 
 Связанные заметки:
 
-- `[[Rust Trait]]`
+- `[[Rust Traits]]`
 
 ## Примеры, случаи или следствия
 

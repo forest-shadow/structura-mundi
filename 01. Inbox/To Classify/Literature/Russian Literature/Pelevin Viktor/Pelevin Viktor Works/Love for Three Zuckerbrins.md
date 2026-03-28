@@ -10,7 +10,7 @@ parent: "[[Pelevin Viktor Works]]"
 status: seed
 related:
   - "[[Pelevin Viktor Works]]"
-  - "[[Viktor Pelevin]]"
+  - "[[Pelevin Viktor]]"
 tags: []
 ---
 # 1. Любовь к трём цукербринам

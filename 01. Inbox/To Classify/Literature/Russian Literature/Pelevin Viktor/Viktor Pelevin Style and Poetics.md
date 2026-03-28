@@ -4,10 +4,10 @@ note_type: article
 area: literature
 domain: literary-studies
 section: russian-literature
-parent: "[[Viktor Pelevin]]"
+parent: "[[Pelevin Viktor]]"
 status: seed
 related:
-  - "[[Viktor Pelevin]]"
+  - "[[Pelevin Viktor]]"
   - "[[Viktor Pelevin Themes and Motifs]]"
   - "[[Pelevin Viktor Works]]"
 tags: []

@@ -10,7 +10,7 @@ status: draft
 related:
   - "[[Literature]]"
   - "[[Russian Literature]]"
-  - "[[Viktor Pelevin]]"
+  - "[[Pelevin Viktor]]"
 tags: []
 ---
 

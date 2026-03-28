@@ -8,7 +8,7 @@ section: russian-literature
 parent: "[[Russian Literature]]"
 status: draft
 related:
-  - "[[Viktor Pelevin]]"
+  - "[[Pelevin Viktor]]"
   - "[[Russian Literature]]"
   - "[[Pelevin Viktor Works]]"
   - "[[Love for Three Zuckerbrins]]"
