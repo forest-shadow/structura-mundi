@@ -95,7 +95,6 @@
 #### Внутри `computer-science`
 
 - `algorithms`
-- `artificial-intelligence`
 - `databases`
 - `distributed-systems`
 - `frontend-engineering`
@@ -127,6 +126,14 @@
 - эту группу неудобно и неестественно размещать в уже существующих `domain`;
 - новый `domain` нужен не для одной заметки, а для устойчивой серии заметок;
 - его можно четко отличить от соседних `domain`.
+
+### Рабочая таксономия `domain`, утвержденная до переноса в `Corpus Mundi`
+
+Эти значения уже разрешены для нормализации рабочих веток в `Inbox`, даже если соответствующая ветка еще не перенесена в `02. Corpus Mundi`.
+
+#### Внутри `computer-science`
+
+- `artificial-intelligence`
 
 ## `section`
 
@@ -172,15 +179,6 @@
 
 - `service-reliability`
 
-#### `computer-science -> artificial-intelligence`
-
-- `ai-foundations`
-- `applied-ai`
-- `ai-agent-systems`
-- `agent-protocols`
-- `openai-codex`
-- `ai-assisted-software-development`
-
 #### `philosophy -> logic`
 
 - `syllogistics`
@@ -206,6 +204,19 @@
 - в теме уже есть или ожидается несколько взаимосвязанных заметок;
 - тема требует собственного обзорного узла или отдельного представления в Bases;
 - существующие `section` описывают ее плохо или слишком широко.
+
+### Рабочая таксономия `section`, утвержденная до переноса в `Corpus Mundi`
+
+Эти значения уже разрешены для нормализации рабочих веток в `Inbox`, даже если соответствующая ветка еще не перенесена в `02. Corpus Mundi`.
+
+#### `computer-science -> artificial-intelligence`
+
+- `ai-foundations`
+- `applied-ai`
+- `ai-agent-systems`
+- `agent-protocols`
+- `openai-codex`
+- `ai-assisted-software-development`
 
 ## Правило расширения словаря
 

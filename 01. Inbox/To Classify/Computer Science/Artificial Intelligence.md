@@ -23,8 +23,8 @@ tags: []
 
 ## Что входит в эту тему
 
-- `[[Applied AI]]`
 - `[[AI Foundations]]`
+- `[[Applied AI]]`
 - `[[AI Agent Systems]]`
 
 ## Как устроена ветка
