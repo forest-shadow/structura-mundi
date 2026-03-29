@@ -10,6 +10,7 @@ related:
   - "[[Internet]]"
   - "[[IP Addressing]]"
   - "[[TCP IP Internet Layer]]"
+  - "[[Router]]"
 tags: []
 ---
 
@@ -35,6 +36,7 @@ tags: []
 - `[[IP Addressing]]`
 - `[[TCP IP Internet Layer]]`
 - `[[DNS]]`
+- `[[Router]]`
 
 ## Примеры, случаи или следствия
 
@@ -43,5 +45,6 @@ tags: []
 
 ## Что стоит раскрыть дальше
 
-- [ ] Решить, когда нужны `Router`, `Autonomous System` и `BGP`
+- [ ] Решить, когда нужны `Autonomous System` и `BGP`
+- [ ] Уточнить границу между `Routing` и `Router`
 - [ ] Проверить `related`

@@ -134,6 +134,7 @@
 #### Внутри `computer-science`
 
 - `artificial-intelligence`
+- `networking`
 
 ## `section`
 
@@ -217,6 +218,16 @@
 - `agent-protocols`
 - `openai-codex`
 - `ai-assisted-software-development`
+
+#### `computer-science -> networking`
+
+- `network-topology`
+- `network-performance`
+- `network-protocols`
+- `internet`
+- `dns`
+- `network-models`
+- `packet-switches`
 
 ## Правило расширения словаря
 
