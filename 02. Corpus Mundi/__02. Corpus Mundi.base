@@ -1,6 +1,6 @@
 views:
   - type: table
-    name: Table
+    name: Corpus Mundi
     filters:
       and:
         - file.inFolder("02. Corpus Mundi")
@@ -10,8 +10,8 @@ views:
       - status
       - note_type
       - section
-      - area
       - domain
+      - area
       - parent
       - related
     columnSize:
@@ -42,4 +42,21 @@ views:
         - file.ext == "md"
         - status == "seed"
   - type: table
-    name: View
+    name: N
+    filters:
+      and:
+        - file.folder == "02. Corpus Mundi/N"
+  - type: table
+    name: I
+    filters:
+      and:
+        - file.inFolder("02. Corpus Mundi/I")
+    order:
+      - file.name
+      - status
+      - note_type
+      - section
+      - domain
+      - area
+      - parent
+      - related

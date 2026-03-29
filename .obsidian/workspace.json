@@ -100,18 +100,31 @@
             "id": "defbdf1df8cf53b2",
             "type": "leaf",
             "state": {
+              "type": "bases",
+              "state": {
+                "file": "02. Corpus Mundi/__02. Corpus Mundi.base",
+                "viewName": "Corpus Mundi"
+              },
+              "icon": "lucide-table",
+              "title": "__02. Corpus Mundi"
+            }
+          },
+          {
+            "id": "803eae3450aca967",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/R/Radix Sort.md",
+                "file": "01. Inbox/To Classify/Networking/Networking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Radix Sort"
+              "title": "Networking"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -184,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/R/Radix Sort.md",
+                "file": "01. Inbox/To Classify/Networking/Networking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Radix Sort"
+              "title": "Outline of Networking"
             }
           },
           {
@@ -297,8 +310,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "803eae3450aca967",
   "lastOpenFiles": [
+    "02. Corpus Mundi/__02. Corpus Mundi.base",
+    "02. Corpus Mundi/R/Radix Sort.md",
+    "Tabula Ortus.md",
     "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Lazy Loading.md",
     "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Speculation Rules API.md",
     "01. Inbox/To Classify/Web Platform/Browser Loading Optimization Mechanisms/Early Hints.md",
@@ -325,16 +341,12 @@
     "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex/Codex Plugins Structure Proposal.md",
     "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex/Codex Hooks Structure Proposal.md",
     "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex/Codex Rules Structure Proposal.md",
-    "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/Agent Protocols and Conventions/Model Context Protocol Structure Proposal.md",
-    "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/Agent Protocols and Conventions/AGENTS Structure Proposal.md",
-    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Personal Effectiveness Structure Proposal.md",
     "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex",
     "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Software Development",
     "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/Agent Protocols and Conventions",
     "01. Inbox/To Classify/Artificial Intelligence/Applied AI",
     "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems",
     "01. Inbox/To Classify/Artificial Intelligence",
-    "01. Inbox/To Classify/Software Architecture/AI-Assisted Software Development/Untitled",
     "01. Inbox/To Classify/Networking/OSI Model/_resources/osi-model-protocol-stack.jpg",
     "Pasted image 20260327140145.png",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
