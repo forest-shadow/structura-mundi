@@ -42,10 +42,19 @@ views:
         - file.ext == "md"
         - status == "seed"
   - type: table
-    name: N
+    name: G
     filters:
       and:
-        - file.folder == "02. Corpus Mundi/N"
+        - file.inFolder("02. Corpus Mundi/G")
+    order:
+      - file.name
+      - status
+      - note_type
+      - section
+      - domain
+      - area
+      - parent
+      - related
   - type: table
     name: I
     filters:
@@ -60,3 +69,22 @@ views:
       - area
       - parent
       - related
+  - type: table
+    name: J
+    filters:
+      and:
+        - file.inFolder("02. Corpus Mundi/J")
+    order:
+      - file.name
+      - status
+      - note_type
+      - section
+      - domain
+      - area
+      - parent
+      - related
+  - type: table
+    name: N
+    filters:
+      and:
+        - file.folder == "02. Corpus Mundi/N"

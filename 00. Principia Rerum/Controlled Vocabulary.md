@@ -95,6 +95,7 @@
 #### Внутри `computer-science`
 
 - `algorithms`
+- `artificial-intelligence`
 - `databases`
 - `distributed-systems`
 - `frontend-engineering`
@@ -170,6 +171,15 @@
 #### `computer-science -> distributed-systems`
 
 - `service-reliability`
+
+#### `computer-science -> artificial-intelligence`
+
+- `ai-foundations`
+- `applied-ai`
+- `ai-agent-systems`
+- `agent-protocols`
+- `openai-codex`
+- `ai-assisted-software-development`
 
 #### `philosophy -> logic`
 

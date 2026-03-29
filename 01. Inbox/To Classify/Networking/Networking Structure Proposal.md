@@ -1,25 +1,3 @@
----
-aliases:
-  - Networking Structure Proposal
-note_type: article
-area: computer-science
-domain: networking
-section:
-parent: "[[Computer Science]]"
-status: draft
-related:
-  - "[[Networking]]"
-  - "[[Internet]]"
-  - "[[OSI Model]]"
-  - "[[Network Topology]]"
-  - "[[Network Performance]]"
-  - "[[Network Protocols]]"
-tags: []
----
-
-# Networking Structure Proposal
-
-## Краткое определение
 
 Предлагаемое устройство domain-root ветки `Networking` внутри `Computer Science`.
 
@@ -99,6 +77,15 @@ Computer Science
 - [ ] Решить, когда рядом нужен `Network Congestion`
 - [ ] Решить, когда `Network Protocols` пора дробить на concrete protocol notes
 - [ ] Проверить `related`
+
+# Networking: Рекомендуемый маршрут чтения
+
+1. Начать с `[[Network Topology]]`, если нужен язык для описания формы и связности сети.
+2. Затем перейти к `[[Network Performance]]`, если нужен язык для описания capacity и качества доставки.
+3. Затем перейти к `[[Network Protocols]]`, если нужен общий язык для описания protocol families.
+4. После этого читать `[[Internet]]`, если нужен operational взгляд на современную сеть.
+5. Затем перейти к `[[TCP IP Model]]` и связанным статьям внутри Internet-ветки.
+6. Затем сопоставить это с `[[OSI Model]]` как с соседней концептуальной моделью.
 
 
 # Internet: Рекомендуемый маршрут чтения
