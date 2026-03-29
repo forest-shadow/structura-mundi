@@ -3,9 +3,9 @@ aliases:
   - Codex AGENTS.md
 note_type: article
 area: computer-science
-domain: software-architecture
-section: ai-assisted-software-development
-parent: "[[AI-Assisted Software Development]]"
+domain: artificial-intelligence
+section: agent-protocols
+parent: "[[Agent Protocols and Conventions]]"
 status: seed
 related:
   - "[[Codex Rules]]"
@@ -48,7 +48,7 @@ tags: []
 
 Родительская тема:
 
-`[[AI-Assisted Software Development]]`
+`[[Agent Protocols and Conventions]]`
 
 Связанные заметки:
 

@@ -1,11 +1,11 @@
 ---
 aliases:
   - Codex
-note_type: article
+note_type: overview
 area: computer-science
-domain: software-architecture
-section: ai-assisted-software-development
-parent: "[[AI-Assisted Software Development]]"
+domain: artificial-intelligence
+section: openai-codex
+parent: "[[AI Agent Systems]]"
 status: seed
 related:
   - "[[AGENTS.md]]"

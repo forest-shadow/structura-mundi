@@ -26,19 +26,24 @@ Browser Page Processing (overview)
     │   ├── Preload.md (article)
     │   ├── Prefetch.md (article)
     │   └── Modulepreload.md (article)
+    ├── Early Hints.md (article)
     ├── Fetch Priority.md (article)
-    └── Script Loading and Execution Attributes (overview)
-        ├── Async Script.md (article)
-        └── Defer Script.md (article)
+    ├── Lazy Loading.md (article)
+    ├── Script Loading and Execution Attributes (overview)
+    │   ├── Async Script.md (article)
+    │   └── Defer Script.md (article)
+    └── Speculation Rules API.md (article)
 ```
 
 ## Почему структура именно такая
 
-- `Browser Loading Optimization Mechanisms` остаётся отдельной обзорной веткой, но теперь названа точнее и не маскирует различие между официальными семействами и удобным зонтичным ярлыком.
+- `Browser Loading Optimization Mechanisms` остаётся отдельной обзорной веткой и не маскирует различие между каноническими семействами и удобным зонтичным ярлыком.
 - `Resource Hints` оправдан как вложенный `overview`, потому что это каноническое семейство link-based hints с собственной внутренней логикой.
+- `Early Hints` не стоит прятать внутрь `Resource Hints`, потому что это HTTP-механизм ранней доставки подсказок через ответ `103`, а не отдельный link relation.
 - `Fetch Priority` не стоит прятать внутрь `Resource Hints`, потому что это соседний механизм про приоритет, а не про раннее обнаружение ресурса.
+- `Lazy Loading` лучше держать отдельной статьёй на уровне ветки, потому что это широкая стратегия отложенной загрузки для изображений, iframe и других некритичных ресурсов.
 - `Script Loading and Execution Attributes` оправдан как вложенный `overview`, потому что `async` и `defer` образуют устойчивую маленькую группу с общими сравнениями и границами.
-- Такая структура оставляет место для будущих заметок про `Early Hints`, `Speculation Rules API` или `lazy loading`, не размывая уже существующие узлы.
+- `Speculation Rules API` не стоит прятать внутрь `Resource Hints`, потому что он описывает декларативный document-level prefetch и prerender для будущих навигаций.
 
 ## Что не нужно создавать заранее
 
@@ -62,8 +67,12 @@ Browser Page Processing (overview)
 ├── D/
 │   ├── Defer Script.md
 │   └── DNS Prefetch.md
+├── E/
+│   └── Early Hints.md
 ├── F/
 │   └── Fetch Priority.md
+├── L/
+│   └── Lazy Loading.md
 ├── M/
 │   └── Modulepreload.md
 ├── P/
@@ -73,7 +82,8 @@ Browser Page Processing (overview)
 ├── R/
 │   └── Resource Hints.md
 └── S/
-    └── Script Loading and Execution Attributes.md
+    ├── Script Loading and Execution Attributes.md
+    └── Speculation Rules API.md
 ```
 
 Логическая ветка при этом всё равно собирается через `parent`.
@@ -87,10 +97,13 @@ Browser Page Processing (overview)
 - `Preload.md`
 - `Prefetch.md`
 - `Modulepreload.md`
+- `Early Hints.md`
 - `Fetch Priority.md`
+- `Lazy Loading.md`
 - `Script Loading and Execution Attributes.md`
 - `Async Script.md`
 - `Defer Script.md`
+- `Speculation Rules API.md`
 
 ## Следующий шаг перед переносом в Corpus Mundi
 
@@ -98,4 +111,4 @@ Browser Page Processing (overview)
 2. Подтвердить `section: browser-loading-optimization`.
 3. Подтвердить `section: resource-hints`, `section: fetch-priority` и `section: script-loading-and-execution`.
 4. Синхронизировать ветку с общим узлом `Browser Page Processing`.
-5. Наполнить обзорные заметки так, чтобы границы между `Resource Hints`, `Fetch Priority` и script-loading были явно различимы.
+5. Уточнить понятийные границы между `Preload` и `Early Hints`, а также между `Prefetch` и `Speculation Rules API`.

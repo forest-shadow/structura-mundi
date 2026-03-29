@@ -2,9 +2,9 @@
 aliases: []
 note_type: article
 area: computer-science
-domain: software-architecture
-section: ai-assisted-software-development
-parent: "[[AI-Assisted Software Development]]"
+domain: artificial-intelligence
+section: applied-ai
+parent: "[[Applied AI]]"
 status: seed
 related:
   - "[[Codex Skills]]"
@@ -41,7 +41,7 @@ tags: []
 
 Родительская тема:
 
-`[[AI-Assisted Software Development]]`
+`[[Applied AI]]`
 
 Связанные заметки:
 

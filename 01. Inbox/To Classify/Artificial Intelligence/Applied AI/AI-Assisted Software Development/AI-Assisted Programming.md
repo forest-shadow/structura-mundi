@@ -2,7 +2,7 @@
 aliases: []
 note_type: article
 area: computer-science
-domain: software-architecture
+domain: artificial-intelligence
 section: ai-assisted-software-development
 parent: "[[AI-Assisted Software Development]]"
 status: seed

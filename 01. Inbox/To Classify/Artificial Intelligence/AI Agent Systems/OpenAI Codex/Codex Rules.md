@@ -3,9 +3,9 @@ aliases:
   - Rules
 note_type: article
 area: computer-science
-domain: software-architecture
-section: ai-assisted-software-development
-parent: "[[AI-Assisted Software Development]]"
+domain: artificial-intelligence
+section: openai-codex
+parent: "[[OpenAI Codex]]"
 status: seed
 related:
   - "[[AGENTS.md]]"
@@ -48,7 +48,7 @@ tags: []
 
 Родительская тема:
 
-`[[AI-Assisted Software Development]]`
+`[[OpenAI Codex]]`
 
 Связанные заметки:
 
