@@ -4,13 +4,13 @@
 
 Этот файл фиксирует минимальную иерархию заметок для темы `Virtual Memory` внутри более широкой ветки `Operating Systems`, в которую естественно помещается рассмотрение понятия `OS Virtual Memory`, по правилам `Principia Rerum`.
 
-Для этой ветки нужна новая предметная рамка:
+Для этой ветки нужна предметная рамка:
 
 - `area: computer-science`
-- `domain: operating-systems` (предлагаемое новое значение)
-- `section: memory-management` (предлагаемое новое значение)
+- `domain: operating-systems`
+- `section: memory-management`
 
-Тема плохо ложится в уже подтвержденные `domain`, потому что речь идет не о system design, не о programming languages и не об algorithms, а о внутренней модели работы операционной системы.
+Тема плохо ложится в соседние `domain`, потому что речь идёт не о system design, не о programming languages и не об algorithms, а о внутренней модели работы операционной системы.
 
 ## Каноническое имя
 
@@ -21,13 +21,13 @@
 ## Рекомендуемая иерархия
 
 ```text
-Operating Systems (overview)
-└── Virtual Memory (overview)
-    ├── Virtual Address Space (article)
-    └── Paging (overview)
-        ├── Page Table (article)
-        ├── TLB (article)
-        └── Page Fault (article)
+Operating Systems
+└── Virtual Memory
+    ├── Virtual Address Space
+    └── Paging
+        ├── Page Table
+        ├── TLB
+        └── Page Fault
 ```
 
 ## Почему структура именно такая
@@ -35,11 +35,23 @@ Operating Systems (overview)
 - `Virtual Memory` оправдан как дочерний `sub-overview` внутри `Operating Systems`, потому что это не одна точка знания, а связанная ветка про адресное пространство, механизм отображения адресов и поведение системы при обращении к отсутствующей странице.
 - `Paging` оправдан как вложенный `sub-overview`, потому что внутри него уже есть несколько устойчивых дочерних тем: `Page Table`, `TLB`, `Page Fault`.
 - `Virtual Address Space` лучше держать отдельной `article` прямо под `Virtual Memory`, потому что это более общий концептуальный объект, а не подмеханизм paging pipeline.
-- Ветка остается минимально вложенной: `root overview -> sub-overview -> article`, если смотреть изнутри `Virtual Memory`, и не требует дополнительного промежуточного уровня.
+- Ветка остаётся минимально вложенной и не требует дополнительного промежуточного уровня.
+
+## Текущая физическая раскладка в Inbox
+
+```text
+Virtual Memory/
+├── Virtual Memory.md
+├── Virtual Memory Structure Proposal.md
+├── Virtual Address Space.md
+└── Paging/
+    ├── Paging.md
+    ├── Page Table.md
+    ├── TLB.md
+    └── Page Fault.md
+```
 
 ## Что не стоит создавать заранее
-
-Пока не стоит выносить в отдельные заметки:
 
 - `Segmentation`
 - `Demand Paging`
@@ -51,7 +63,7 @@ Operating Systems (overview)
 
 Эти темы разумнее сначала раскрывать как разделы внутри уже созданных заметок. Отдельные canonical articles для них нужны только при появлении устойчивого корпуса.
 
-## Предлагаемое физическое размещение после нормализации
+## Предлагаемое физическое размещение после переноса в Corpus Mundi
 
 Если ветка будет доведена до канонического состояния, физическое размещение в `Corpus Mundi` должно следовать алфавитному правилу:
 
@@ -72,12 +84,12 @@ Operating Systems (overview)
 
 ## Что создано в Inbox
 
-- `Virtual Memory`
-- `Virtual Address Space`
-- `Paging`
-- `Page Table`
-- `TLB`
-- `Page Fault`
+- `[[Virtual Memory]]`
+- `[[Virtual Address Space]]`
+- `[[Paging]]`
+- `[[Page Table]]`
+- `[[TLB]]`
+- `[[Page Fault]]`
 
 ## Следующий шаг перед переносом в Corpus Mundi
 

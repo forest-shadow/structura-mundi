@@ -11,6 +11,8 @@ related:
   - "[[Operating Systems]]"
   - "[[Processes and Threads]]"
   - "[[Virtual Memory]]"
+  - "[[System Calls]]"
+  - "[[File Systems]]"
 tags: []
 ---
 
@@ -18,20 +20,20 @@ tags: []
 
 ## Краткое определение
 
-Предлагаемая ветка для `Operating Systems` собирает под одним корневым обзорным узлом базовые механизмы ОС: процессную модель, системные вызовы, файловые системы и memory-management ветку `Virtual Memory`.
+Предлагаемая рабочая ветка `Operating Systems` собирает под одним корневым обзорным узлом базовые механизмы ОС: execution model, системные вызовы, файловые системы и memory-management ветку `Virtual Memory`.
 
 ## Выбранная оптика
 
 - `area: computer-science`
-- `domain: operating-systems` (предлагаемое новое значение)
+- `domain: operating-systems`
 - `section:` пусто у domain-root overview `Operating Systems`
 
 Почему так:
 
-- тема не укладывается естественно в уже подтвержденные `domain`;
+- тема не укладывается естественно в уже существующие соседние `domain`;
 - для ОС нужен собственный предметный фокус, а не искусственное размещение в `software-architecture`;
-- корневая заметка `Operating Systems` описывает весь `domain`, поэтому по обновленным правилам не должна получать служебный `section`;
-- дочерние кластеры уже получают собственные смысловые секции: `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`.
+- корневая заметка `Operating Systems` описывает весь `domain`, поэтому не должна получать служебный `section`;
+- дочерние кластеры уже получают собственные локальные секции: `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`.
 
 ## Каноническое имя
 
@@ -50,6 +52,8 @@ Operating Systems
 │   │   └── Context Switch
 │   ├── Interprocess Communication
 │   └── Synchronization Primitives
+│       ├── Race Condition
+│       └── Data Race
 ├── System Calls
 ├── File Systems
 └── Virtual Memory
@@ -62,10 +66,44 @@ Operating Systems
 
 ## Почему структура именно такая
 
-- `Operating Systems` нужен как root `overview`, потому что рядом уже возникают несколько самостоятельных смысловых кластеров, а не одна isolated article.
-- `Processes and Threads` оправдан как `sub-overview`, потому что внутри него уже живут не только `Process`, `Thread` и `CPU Scheduling`, но и отдельные coordination/mechanism notes.
-- `Virtual Memory` уже оправдан как отдельный `sub-overview`, потому что внутри него есть собственная плотная подветка.
+- `Operating Systems` нужен как root `overview`, потому что рядом уже есть несколько самостоятельных смысловых кластеров, а не одна isolated article.
+- `Processes and Threads` оправдан как `sub-overview`, потому что внутри него живут не только `Process` и `Thread`, но и отдельные coordination/mechanism notes.
+- `Virtual Memory` оправдан как отдельный `sub-overview`, потому что внутри него есть собственная плотная подветка с `Paging`.
 - `System Calls` и `File Systems` пока разумнее держать как обычные `article`, чтобы не усложнять ветку раньше времени.
+
+## Текущая физическая раскладка в Inbox
+
+```text
+Operating Systems/
+├── Operating Systems Structure Proposal.md
+├── System Calls.md
+├── File Systems.md
+├── Processes and Threads/
+│   ├── Processes and Threads.md
+│   ├── Processes and Threads Structure Proposal.md
+│   ├── Thread.md
+│   ├── Interprocess Communication.md
+│   ├── Process/
+│   │   ├── Process.md
+│   │   └── Process State Model.md
+│   ├── CPU Scheduling/
+│   │   ├── CPU Scheduling.md
+│   │   └── Context Switch.md
+│   └── Synchronization Primitives/
+│       ├── Synchronization Primitives.md
+│       ├── Synchronization Primitives Structure Proposal.md
+│       ├── Race Condition.md
+│       └── Data Race.md
+└── Virtual Memory/
+    ├── Virtual Memory.md
+    ├── Virtual Memory Structure Proposal.md
+    ├── Virtual Address Space.md
+    └── Paging/
+        ├── Paging.md
+        ├── Page Table.md
+        ├── TLB.md
+        └── Page Fault.md
+```
 
 ## Что не стоит создавать заранее
 
@@ -79,7 +117,6 @@ Operating Systems
 
 ## Что создано в Inbox
 
-- `[[Operating Systems]]`
 - `[[Processes and Threads]]`
 - `[[Process]]`
 - `[[Process State Model]]`
@@ -88,31 +125,21 @@ Operating Systems
 - `[[Context Switch]]`
 - `[[Interprocess Communication]]`
 - `[[Synchronization Primitives]]`
+- `[[Race Condition]]`
+- `[[Data Race]]`
 - `[[System Calls]]`
 - `[[File Systems]]`
 - `[[Virtual Memory]]`
+- `[[Virtual Address Space]]`
+- `[[Paging]]`
+- `[[Page Table]]`
+- `[[TLB]]`
+- `[[Page Fault]]`
 
 ## Что стоит раскрыть дальше
 
-- [ ] Подтвердить `domain: operating-systems`
-- [ ] Проверить, что `Operating Systems` остается domain-root overview без `section`
 - [ ] Проверить согласованность секций `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`
-- [ ] Проверить, когда `System Calls` и `File Systems` начнут требовать собственные sub-overview
-- [ ] Проверить, когда внутри `Processes and Threads` понадобятся `Deadlock` и `Interrupts`
+- [ ] Проверить, когда `System Calls` начнут требовать собственного sub-overview
+- [ ] Проверить, когда `File Systems` начнут требовать собственного sub-overview
+- [ ] Проверить, когда внутри `Processes and Threads` понадобится `Deadlock`
 - [ ] Проверить `related`
-
-# OS: Структура предметной области (Топология ветки)
-
-Ветка `Operating Systems` организована вокруг ключевых системных механизмов и содержит следующие дочерние узлы:
-- `[[Processes and Threads]]`: Базовая модель исполнения. Включает контекст процесса, состояния, алгоритмы планировщика, конкурентность, переключение контекста и синхронизацию.
-  Сейчас канонический минимум ветки: `Process`, `Process State Model`, `Thread`, `CPU Scheduling`, `Context Switch`, `Interprocess Communication`, `Synchronization Primitives`.
-- `[[System Calls]]`: Граница взаимодействия user/kernel space. Включает механизм программных прерываний, ABI, передачу аргументов через регистры и стоимость вызовов.
-- `[[File Systems]]`: Организация долговременного персистентного хранения. Раскрывает концепции пространства имён, inode, виртуальной файловой системы (VFS), кэширования (page cache) и журналирования.
-- `[[Virtual Memory]]`: Подветка управления памятью с глубокой вложенностью. Собирает концепции таблиц страниц (Page Tables), TLB, сегментации, `mmap`, `page fault`, `copy-on-write` и подкачки.
-
-## Рекомендуемый маршрут чтения
-
-1. Начать с `[[Processes and Threads]]` для фиксации фундаментальной модели исполнения и отличий контейнера ресурсов (процесса) от единицы планирования (потока).
-2. Перейти к `[[System Calls]]`, чтобы проследить механизм запроса сервисов процессами у привилегированного ядра.
-3. Изучить `[[Virtual Memory]]` для понимания механизмов изоляции процессов, трансляции адресов, `page fault` и поведения физической памяти.
-4. Завершить `[[File Systems]]`, связывая модель памяти и процессов с долговременным вводом-выводом и отображением файлов.

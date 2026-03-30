@@ -14,6 +14,8 @@ related:
   - "[[Context Switch]]"
   - "[[Interprocess Communication]]"
   - "[[Synchronization Primitives]]"
+  - "[[Race Condition]]"
+  - "[[Data Race]]"
 tags: []
 ---
 # 1. Processes and Threads
@@ -327,6 +329,8 @@ $$share\_mem(p_i, p_j) = false$$
 - `[[Context Switch]]`
 - `[[Interprocess Communication]]`
 - `[[Synchronization Primitives]]`
+- `[[Race Condition]]`
+- `[[Data Race]]`
 
 ## Как устроена ветка
 
@@ -336,14 +340,14 @@ $$share\_mem(p_i, p_j) = false$$
 - `CPU Scheduling` объясняет, как ОС выбирает, кто именно выполняется на процессоре в каждый момент.
 - `Context Switch` связывает scheduling с реальной сменой исполняемого контекста на CPU.
 - `Interprocess Communication` описывает, как изолированные процессы обмениваются данными и координируют работу.
-- `Synchronization Primitives` собирает базовые механизмы координации concurrent execution внутри и между процессами.
+- `Synchronization Primitives` собирает базовые механизмы координации concurrent execution внутри и между процессами, а также подветку с `Race Condition` и `Data Race` как типовыми failure modes доступа к общему состоянию.
 
 ## Рекомендуемый маршрут чтения
 
 1. Сначала прочитать `[[Process]]` и `[[Process State Model]]`.
 2. Затем перейти к `[[Thread]]`.
 3. После этого читать `[[CPU Scheduling]]` и `[[Context Switch]]`.
-4. Завершить `[[Interprocess Communication]]` и `[[Synchronization Primitives]]` как coordination layer этой ветки.
+4. Завершить `[[Interprocess Communication]]`, затем пройти `[[Synchronization Primitives]]`, `[[Race Condition]]` и `[[Data Race]]` как coordination layer этой ветки.
 
 ## Соседние overview-ветки
 
