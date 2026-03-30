@@ -88,12 +88,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/К/Квартирьеры.md",
+                "file": "01. Inbox/To Classify/Literature/Lyric Genres/Эпиталама.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Квартирьеры"
+              "title": "Эпиталама"
             }
           },
           {
@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "эпиталама",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/К/Квартирьеры.md",
+                "file": "02. Corpus Mundi/__02. Corpus Mundi.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Квартирьеры"
+              "title": "Outline of __02. Corpus Mundi"
             }
           },
           {
@@ -296,9 +296,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "defbdf1df8cf53b2",
   "lastOpenFiles": [
     "01. Inbox/To Classify/Literature/Lyric Genres/Эпиталама.md",
+    "01. Inbox/To Classify/Literature/Literature Structure Proposal.md",
+    "02. Corpus Mundi/К/Квартирьеры.md",
     "01. Inbox/To Classify/Literature/Lyric Genres/Lyric Genres.md",
     "01. Inbox/To Classify/Literature/Lyric Genres/Lyric Genres Structure Proposal.md",
     "01. Inbox/To Classify/Religion/Mythology/Greek Mythology/Greek Mythology Structure Proposal.md",
@@ -313,7 +315,6 @@
     "01. Inbox/To Classify/History/Русская военная история/Русская военная история.md",
     "01. Inbox/To Classify/Literature/Lyric Genres",
     "02. Corpus Mundi/N/Network Topology.md",
-    "02. Corpus Mundi/К/Квартирьеры.md",
     "01. Inbox/To Classify/History/Русская военная история/Русская военная история Structure Proposal.md",
     "01. Inbox/To Classify/History/Military History Structure Proposal.md",
     "01. Inbox/To Classify/History/Military History.md",
@@ -332,7 +333,6 @@
     "01. Inbox/To Classify/Networking/Network Security/VPN",
     "01. Inbox/To Classify/Networking/Network Security",
     "01. Inbox/To Classify/React/React Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Network Topology/Physical and Logical Network Topology.md",
     "01. Inbox/To Classify/Networking/Internet",
     "02. Corpus Mundi/I/_resources/internet-core.jpg",
     "Pasted image 20260329214811.png",
