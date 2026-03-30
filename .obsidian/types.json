@@ -53,6 +53,7 @@
     "datetime": "date",
     "date": "date",
     "ticket-start-date": "date",
-    "ticket-end-date": "date"
+    "ticket-end-date": "date",
+    "status": "text"
   }
 }

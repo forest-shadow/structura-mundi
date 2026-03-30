@@ -224,6 +224,7 @@
 - `network-topology`
 - `network-performance`
 - `network-protocols`
+- `network-security`
 - `internet`
 - `dns`
 - `network-models`
