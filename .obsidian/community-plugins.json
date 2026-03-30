@@ -48,5 +48,6 @@
   "templater-obsidian",
   "juggl",
   "waypoint",
-  "extended-graph"
+  "extended-graph",
+  "metadata-menu"
 ]

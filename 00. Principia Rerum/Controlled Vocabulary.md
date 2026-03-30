@@ -105,6 +105,10 @@
 
 - `logic`
 
+#### Внутри `history`
+
+- `military-history`
+
 ### Как читать этот список
 
 - Это не просто примеры, а фактически подтвержденные таксоны, уже использованные в `02. Corpus Mundi`.
@@ -135,6 +139,14 @@
 
 - `artificial-intelligence`
 - `networking`
+
+#### Внутри `literature`
+
+- `literary-studies`
+
+#### Внутри `religion`
+
+- `mythology`
 
 ## `section`
 
@@ -184,6 +196,10 @@
 
 - `syllogistics`
 
+#### `history -> military-history`
+
+- `russian-military-history`
+
 ### Как читать этот список
 
 - Это рабочая карта уже существующих тематических кластеров корпуса.
@@ -229,6 +245,15 @@
 - `dns`
 - `network-models`
 - `packet-switches`
+
+#### `literature -> literary-studies`
+
+- `russian-literature`
+- `lyric-genres`
+
+#### `religion -> mythology`
+
+- `greek-mythology`
 
 ## Правило расширения словаря
 

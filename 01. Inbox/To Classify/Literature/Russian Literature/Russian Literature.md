@@ -5,7 +5,7 @@ note_type: overview
 area: literature
 domain: literary-studies
 section: russian-literature
-parent:
+parent: "[[Literature]]"
 status: seed
 related:
   - "[[Literature]]"
