@@ -102,9 +102,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Religion/Mythology/Greek Mythology/Hymenaios.md",
+                "file": "02. Corpus Mundi/H/Hymenaios.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Hymenaios"
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Religion/Mythology/Greek Mythology/Hymenaios.md",
+                "file": "02. Corpus Mundi/H/Hymenaios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -299,6 +299,9 @@
   },
   "active": "defbdf1df8cf53b2",
   "lastOpenFiles": [
+    "02. Corpus Mundi/H/_resources/hymenaios.jpg",
+    "02. Corpus Mundi/H/_resources",
+    "Pasted image 20260330230842.png",
     "01. Inbox/To Classify/Artificial Intelligence/Artificial Intelligence.md",
     "01. Inbox/To Classify/Operating Systems/Virtual Memory/Paging/Paging.md",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/Synchronization Primitives/Synchronization Primitives.md",
@@ -330,11 +333,9 @@
     "01. Inbox/To Classify/Operating Systems/Synchronization Primitives",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
-    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation Levels",
-    "01. Inbox/To Classify/Databases/Database Transactions/ACID",
     "02. Corpus Mundi/I/_resources/internet-core.jpg",
     "Pasted image 20260329214811.png",
     "02. Corpus Mundi/I/_resources/internet-access-networks.jpg",
@@ -350,7 +351,6 @@
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/_resources/01-dbms-architecture.jpg",
-    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/_resources/dua-write.jpg",
     "Electronics/RaspberryPI/Untitled.canvas",
     "CS Dashboard/00. canvas/CS/cs prog paradigms.canvas",
     "CS Dashboard/00. canvas/cs design patterns.canvas",
