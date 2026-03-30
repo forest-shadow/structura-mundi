@@ -88,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Literature/Lyric Genres/Эпиталама.md",
+                "file": "02. Corpus Mundi/Э/Эпиталама.md",
                 "mode": "source",
                 "source": false
               },
@@ -100,13 +100,14 @@
             "id": "defbdf1df8cf53b2",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/__02. Corpus Mundi.base",
-                "viewName": "Corpus Mundi"
+                "file": "01. Inbox/To Classify/Religion/Mythology/Greek Mythology/Hymenaios.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "__02. Corpus Mundi"
+              "icon": "lucide-file",
+              "title": "Hymenaios"
             }
           }
         ],
@@ -183,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/__02. Corpus Mundi.base",
+                "file": "01. Inbox/To Classify/Religion/Mythology/Greek Mythology/Hymenaios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of __02. Corpus Mundi"
+              "title": "Outline of Hymenaios"
             }
           },
           {
@@ -296,44 +297,44 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "defbdf1df8cf53b2",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Literature/Lyric Genres/Эпиталама.md",
-    "01. Inbox/To Classify/Literature/Literature Structure Proposal.md",
-    "02. Corpus Mundi/К/Квартирьеры.md",
-    "01. Inbox/To Classify/Literature/Lyric Genres/Lyric Genres.md",
-    "01. Inbox/To Classify/Literature/Lyric Genres/Lyric Genres Structure Proposal.md",
-    "01. Inbox/To Classify/Religion/Mythology/Greek Mythology/Greek Mythology Structure Proposal.md",
-    "01. Inbox/To Classify/Religion/Mythology/Greek Mythology/Hymenaios.md",
-    "01. Inbox/To Classify/Religion/Mythology/Greek Mythology/Greek Mythology.md",
-    "01. Inbox/To Classify/Religion/Mythology/Mythology.md",
-    "01. Inbox/To Classify/Religion/Religion.md",
-    "01. Inbox/To Classify/History/History Structure Proposal.md",
-    "01. Inbox/To Classify/Religion/Mythology/Greek Mythology",
-    "01. Inbox/To Classify/Religion/Mythology",
-    "01. Inbox/To Classify/Religion",
-    "01. Inbox/To Classify/History/Русская военная история/Русская военная история.md",
-    "01. Inbox/To Classify/Literature/Lyric Genres",
-    "02. Corpus Mundi/N/Network Topology.md",
-    "01. Inbox/To Classify/History/Русская военная история/Русская военная история Structure Proposal.md",
-    "01. Inbox/To Classify/History/Military History Structure Proposal.md",
-    "01. Inbox/To Classify/History/Military History.md",
-    "01. Inbox/To Classify/History/History.md",
-    "01. Inbox/To Classify/History/Русская военная история",
-    "01. Inbox/To Classify/History",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels Structure Proposal.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Snapshot Isolation.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Repeatable Read.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Read Uncommitted.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Read Committed.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Serializable.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Isolation Anomalies.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation Levels/Transaction Isolation Levels.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation Levels/Transaction Isolation Levels Structure Proposal.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation Levels/Repeatable Read.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation Levels/Snapshot Isolation.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation Levels/Serializable.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation Levels/Read Committed.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation Levels/Read Uncommitted.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation Levels/Isolation Anomalies.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation Levels",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Consistency.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Durability.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Atomicity.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/ACID Structure Proposal.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID",
+    "01. Inbox/To Classify/Databases/Database Transactions/Transaction Isolation Levels/Transaction Isolation Levels.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/Transaction Isolation Levels/Transaction Isolation Levels Structure Proposal.md",
+    "01. Inbox/To Classify/Databases/ACID/Transaction Isolation.md",
+    "01. Inbox/To Classify/Databases/ACID",
+    "01. Inbox/To Classify/Databases/Database Transactions/Transaction Isolation Levels",
+    "01. Inbox/To Classify/Databases/Database Transactions",
+    "01. Inbox/To Classify/Databases/Redis",
+    "01. Inbox/To Classify/Databases",
     "02. Corpus Mundi/__02. Corpus Mundi.base",
-    "01. Inbox/To Classify/Networking/Network Security/VPN/VPN Protocol Families.md",
-    "01. Inbox/To Classify/Networking/Network Security/VPN/VPN Tunneling.md",
-    "01. Inbox/To Classify/Networking/Network Security/VPN/Site-to-Site VPN.md",
-    "01. Inbox/To Classify/Networking/Network Security/VPN/Remote Access VPN.md",
-    "01. Inbox/To Classify/Networking/Network Security/VPN/VPN Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Network Security/VPN/VPN.md",
-    "01. Inbox/To Classify/Networking/Network Security/Network Security Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Network Security/Network Security.md",
-    "01. Inbox/To Classify/Networking/Network Security/VPN",
-    "01. Inbox/To Classify/Networking/Network Security",
-    "01. Inbox/To Classify/React/React Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Internet",
     "02. Corpus Mundi/I/_resources/internet-core.jpg",
     "Pasted image 20260329214811.png",
     "02. Corpus Mundi/I/_resources/internet-access-networks.jpg",

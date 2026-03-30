@@ -246,6 +246,10 @@
 - `network-models`
 - `packet-switches`
 
+#### `computer-science -> databases`
+
+- `redis`
+
 #### `literature -> literary-studies`
 
 - `russian-literature`
