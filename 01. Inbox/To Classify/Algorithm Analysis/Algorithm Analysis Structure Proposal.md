@@ -1,18 +1,3 @@
----
-aliases: []
-note_type: article
-area: computer-science
-domain: algorithms
-section: algorithm-analysis
-parent: "[[Algorithms]]"
-status: draft
-related:
-  - "[[Algorithm Analysis]]"
-  - "[[Big O Notation]]"
-  - "[[Divide and Conquer]]"
-  - "[[Sorting Algorithms]]"
-tags: []
----
 
 # Algorithm Analysis Structure Proposal
 

@@ -1,20 +1,3 @@
----
-aliases:
-  - Internet Structure Proposal
-note_type: article
-area: computer-science
-domain: networking
-section: internet
-parent: "[[Networking]]"
-status: draft
-related:
-  - "[[Internet]]"
-  - "[[TCP IP Model]]"
-  - "[[OSI Model]]"
-tags: []
----
-
-# Internet Structure Proposal
 
 ## Краткое определение
 

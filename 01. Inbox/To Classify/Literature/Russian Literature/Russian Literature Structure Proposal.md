@@ -10,7 +10,7 @@ status: draft
 related:
   - "[[Russian Literature]]"
   - "[[Literature]]"
-  - "[[Pelevin Viktor]]"
+  - "[[Пелевин Виктор]]"
 tags: []
 ---
 
@@ -25,17 +25,17 @@ tags: []
 ```text
 Literature
 └── Russian Literature
-    └── Viktor Pelevin
-        ├── Viktor Pelevin Biography and Literary Context
-        ├── Viktor Pelevin Themes and Motifs
-        ├── Viktor Pelevin Style and Poetics
-        └── Viktor Pelevin Works
+    └── Пелевин Виктор
+        ├── Пелевин Виктор Биография и литературный контекст
+        ├── Пелевин Виктор Темы и мотивы
+        ├── Пелевин Виктор Стиль и поэтика
+        └── Пелевин Виктор Произведения
 ```
 
 ## Почему структура именно такая
 
 - `Russian Literature` оправдана как `sub-overview`, потому что это не один isolated concept, а естественная рамка для авторов и литературных периодов.
-- `Viktor Pelevin` уже тянет на отдельную author-ветку, потому что у него есть собственный распознаваемый корпус, стиль и тематический набор.
+- `Пелевин Виктор` уже тянет на отдельную author-ветку, потому что у него есть собственный распознаваемый корпус, стиль и тематический набор.
 - Пока не стоит дробить `Russian Literature` глубже на периоды и направления, если рядом еще нет плотного корпуса заметок.
 
 ## Что не стоит делать прямо сейчас

@@ -20,6 +20,8 @@ tags: []
 
 `Common Network Topologies` — это обзорная заметка о канонических схемах организации сетей, которые используются как базовые topology patterns в учебных и инженерных описаниях.
 
+Эти topology patterns не привязаны жестко только к physical topology или только к logical topology: в зависимости от контекста одна и та же именованная схема может использоваться как для описания физической организации сети, так и для описания логической схемы взаимодействия. Само различие между physical topology и logical topology вынесено в `[[Physical and Logical Network Topology]]`.
+
 ## Что входит в эту тему
 
 - `[[Point-to-Point Network Topology]]`
@@ -32,6 +34,7 @@ tags: []
 
 ## Как устроена ветка
 
+- Ветка собирает именованные topology patterns как общие модели сетевой организации, а не как отдельные каталоги физических и логических топологий.
 - `Point-to-Point Network Topology` фиксирует предельно простую схему прямой связи между двумя узлами.
 - `Bus Network Topology`, `Star Network Topology` и `Ring Network Topology` покрывают классические базовые patterns.
 - `Mesh Network Topology` и `Tree Network Topology` вводят более сложные схемы связности и масштабирования.
