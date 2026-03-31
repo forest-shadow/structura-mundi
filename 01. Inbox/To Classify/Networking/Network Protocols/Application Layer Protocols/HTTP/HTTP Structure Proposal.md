@@ -12,7 +12,7 @@ related:
   - "[[Application Layer Protocols]]"
   - "[[HTTP Messages]]"
   - "[[HTTP Methods]]"
-  - "[[Proxy]]"
+  - "[[HTTP Proxy]]"
 tags: []
 ---
 
@@ -31,10 +31,7 @@ Application Layer Protocols
     ├── HTTP Methods
     ├── HTTP Status Codes
     ├── HTTP Header Fields
-    ├── HTTP Versions
-    └── Proxy
-        ├── Forward Proxy
-        └── Reverse Proxy
+    └── HTTP Versions
 ```
 
 ## Почему структура именно такая
@@ -43,8 +40,6 @@ Application Layer Protocols
 - `HTTP Messages` лучше держать отдельной статьей, потому что без нее остальные элементы HTTP остаются без общей request-response рамки.
 - `HTTP Methods`, `HTTP Status Codes` и `HTTP Header Fields` заслуживают собственных notes, потому что это канонические и часто отдельно изучаемые части протокола.
 - `HTTP Versions` лучше вынести отдельно, потому что версия протокола — это не просто очередной раздел про синтаксис, а отдельная линия эволюции HTTP.
-- `Proxy` оправдан как вложенный `sub-overview`, потому что тема HTTP включает устойчивый класс промежуточных узлов, а различие между `Forward Proxy` и `Reverse Proxy` слишком смысловое, чтобы держать его одной плоской статьей.
-- `Forward Proxy` и `Reverse Proxy` полезно разводить по разным notes, потому что они смотрят на проксирование с разных сторон trust boundary и решают разные задачи.
 - Более узкие темы вроде cookies, caching, authentication и content negotiation пока не нужно выносить, пока базовая ветка не заполнена.
 
 ## Что не стоит делать прямо сейчас
@@ -52,11 +47,11 @@ Application Layer Protocols
 - Не стоит называть каноничную note `HTTP Protocols`, если речь идет об одном protocol family с версиями; сильнее работает просто `HTTP`.
 - Не стоит сразу дробить ветку на десятки мелких notes про каждый status code или каждый header field.
 - Не стоит смешивать protocol semantics, browser behavior и web architecture в одной и той же overview-note.
-- Не стоит сразу смешивать `Proxy`, `Load Balancer`, `API Gateway` и `CDN` в один общий infrastructure-узел без самостоятельного корпуса по каждой теме.
+- Не стоит встраивать общую proxy-онтологию прямо внутрь `HTTP`; сильнее работает отдельная proxy-ветка с перекрестной ссылкой на `HTTP Proxy`.
 
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда нужны `HTTP Caching`, `Content Negotiation` и `Cookies`
 - [ ] Проверить, нужен ли отдельный узел про `HTTP Semantics`
-- [ ] Решить, когда рядом с `Proxy` нужны `Load Balancer` и `API Gateway`
+- [ ] Проверить, нужен ли отдельный article про `HTTP Intermediaries`
 - [ ] Проверить `related`

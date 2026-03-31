@@ -23,11 +23,13 @@ tags: []
 ## Что входит в эту тему
 
 - `[[VPN]]`
+- `Firewall`
+- `Network Access Control` 
+- `Zero Trust Network Access`
 
 ## Как устроена ветка
 
 - `VPN` уже оправдан как отдельный `sub-overview`, потому что тема быстро распадается на deployment patterns, tunnel mechanics и protocol families.
-- Будущие sibling-ветки вроде `Firewall`, `Network Access Control` и `Zero Trust Network Access` пока не создаются преждевременно.
 - Ветка не должна подменять собой всю security-теорию: здесь остаются именно сетевые механизмы, а не общая криптография или identity management.
 
 ## Рекомендуемый маршрут чтения
