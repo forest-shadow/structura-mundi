@@ -8,6 +8,7 @@ section:
 parent: "[[Computer Science]]"
 status: seed
 related:
+  - "[[Compilation]]"
   - "[[Go]]"
   - "[[JavaScript]]"
 tags: []
@@ -23,16 +24,19 @@ tags: []
 
 - `[[Go]]`
 - `[[JavaScript]]`
+- `[[Compilation]]`
 
 ## Как устроена ветка
 
 - отдельные языковые ветки лучше держать как child-overview notes;
+- cross-language ветки вроде `[[Compilation]]` тоже могут быть отдельными child-overview notes, если они собирают устойчивый набор article и sub-overview notes;
 - общая доменная рамка позволяет не превращать языки в независимые полукорни без связи с общим контекстом computer science.
 
 ## Рекомендуемый маршрут чтения
 
-1. Выбрать конкретный язык: `[[Go]]` или `[[JavaScript]]`.
-2. После этого уже входить в его собственные sub-overview и article-заметки.
+1. Если нужен language-specific вход, выбрать конкретный язык: `[[Go]]` или `[[JavaScript]]`.
+2. Если нужен cross-language вход в тему трансляции исходного кода, перейти к `[[Compilation]]`.
+3. После этого уже входить в соответствующие sub-overview и article-заметки.
 
 ## Соседние overview-ветки
 
@@ -42,5 +46,6 @@ tags: []
 
 - [ ] Проверить, что domain-root overview остается без `section`
 - [ ] Решить, нужен ли позже отдельный узел для language semantics
+- [ ] Проверить, когда рядом с языковыми ветками нужны новые cross-language clusters вроде compilation или interpretation
 - [ ] Проверить `related`
 - [ ] Не разрастается ли ветка слишком глубоко

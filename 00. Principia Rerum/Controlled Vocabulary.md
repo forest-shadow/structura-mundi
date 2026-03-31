@@ -185,6 +185,7 @@
 
 #### `computer-science -> programming-languages`
 
+- `compilation`
 - `go`
 - `javascript`
 
