@@ -102,12 +102,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/C/Compilation.md",
+                "file": "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Compilation"
+              "title": "Networking Structure Proposal"
             }
           }
         ],
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/C/Compilation.md",
+                "file": "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Compilation"
+              "title": "Outline of Networking Structure Proposal"
             }
           },
           {
@@ -297,10 +297,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "defbdf1df8cf53b2",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Compilation/Compilation Structure Proposal.md",
     "02. Corpus Mundi/C/Compilation.md",
+    "01. Inbox/To Classify/Compilation/Compilation Structure Proposal.md",
     "01. Inbox/To Classify/History/Русская военная история/Белое движение Structure Proposal.md",
     "01. Inbox/To Classify/History/Русская военная история/Белое движение.md",
     "01. Inbox/To Classify/Networking/Network Security/Network Security.md",
