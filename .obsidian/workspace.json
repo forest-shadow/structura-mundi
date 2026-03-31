@@ -102,7 +102,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Compilation/Compilation.md",
+                "file": "02. Corpus Mundi/C/Compilation.md",
                 "mode": "source",
                 "source": false
               },
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Compilation/Compilation.md",
+                "file": "02. Corpus Mundi/C/Compilation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -297,10 +297,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "defbdf1df8cf53b2",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
     "01. Inbox/To Classify/Compilation/Compilation Structure Proposal.md",
-    "01. Inbox/To Classify/Compilation/Compilation.md",
+    "02. Corpus Mundi/C/Compilation.md",
     "01. Inbox/To Classify/History/Русская военная история/Белое движение Structure Proposal.md",
     "01. Inbox/To Classify/History/Русская военная история/Белое движение.md",
     "01. Inbox/To Classify/Networking/Network Security/Network Security.md",
