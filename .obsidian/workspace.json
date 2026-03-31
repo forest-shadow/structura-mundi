@@ -81,37 +81,9 @@
               "icon": "lucide-layout-dashboard",
               "title": "OS"
             }
-          },
-          {
-            "id": "5d2c07516a18b3d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02. Corpus Mundi/Э/Эпиталама.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Эпиталама"
-            }
-          },
-          {
-            "id": "defbdf1df8cf53b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Inbox/To Classify/History/Русская военная история/Белое движение.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Белое движение"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -184,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/History/Русская военная история/Белое движение.md",
+                "file": "02. Corpus Mundi/Б/Белое движение.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -297,13 +269,13 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "defbdf1df8cf53b2",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/History/Русская военная история/Белое движение Structure Proposal.md",
+    "02. Corpus Mundi/Б/Белое движение.md",
     "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
     "02. Corpus Mundi/C/Compilation.md",
     "01. Inbox/To Classify/Compilation/Compilation Structure Proposal.md",
-    "01. Inbox/To Classify/History/Русская военная история/Белое движение Structure Proposal.md",
-    "01. Inbox/To Classify/History/Русская военная история/Белое движение.md",
     "01. Inbox/To Classify/Networking/Network Security/Network Security.md",
     "01. Inbox/To Classify/Databases/Database Connection Pooling.md",
     "01. Inbox/To Classify/Software Architecture/Connection Pooling.md",
