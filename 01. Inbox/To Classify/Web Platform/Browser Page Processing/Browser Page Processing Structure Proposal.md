@@ -69,3 +69,15 @@ Browser Page Processing (overview)
 2. Подтвердить `section: browser-page-processing`.
 3. Сохранить `Browser Loading Optimization Mechanisms` и `Browser Rendering` как отдельные подветки внутри общего узла.
 4. Позже решить, когда внутри общего узла действительно назреют `HTML Parsing`, `CSS Processing` и `Critical Rendering Path`.
+
+
+# Script Loading and Execution Attributes
+## Что не входит в эту тему
+
+- `Resource Hints`, потому что это отдельное семейство link-based hints.
+- `Fetch Priority`, потому что это отдельный механизм влияния на приоритет загрузки.
+
+## Что стоит раскрыть дальше
+
+- [ ] Уточнить границу между classic scripts и module scripts
+- [ ] Проверить, нужен ли позже отдельный узел про inline scripts
