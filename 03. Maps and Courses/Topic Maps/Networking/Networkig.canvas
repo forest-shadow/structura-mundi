@@ -1,21 +1,10 @@
 {
 	"nodes":[
 		{"id":"6dc541c337654283","type":"group","x":0,"y":100,"width":1000,"height":580,"color":"2","label":"Internet"},
+		{"id":"56d6a849418fa442","type":"group","x":-440,"y":100,"width":380,"height":740,"color":"2","label":"OSI Refernce Model"},
 		{"id":"2905005270d46bdc","type":"group","x":480,"y":180,"width":420,"height":460,"color":"2","label":"TCP IP Model"},
 		{"id":"cb7fcc413832f713","type":"group","x":50,"y":250,"width":320,"height":290,"label":"Base"},
-		{"id":"56d6a849418fa442","type":"group","x":-380,"y":110,"width":300,"height":300,"label":"OSI"},
-		{"id":"c5d1f534c3b58c9b","type":"group","x":-180,"y":-160,"width":300,"height":140,"color":"1","label":"Networking"},
-		{
-			"id":"d280d1a8c9624de5",
-			"type":"text",
-			"text":"Networking",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":-160,
-			"y":-120,
-			"width":260,
-			"height":60,
-			"color":"1"
-		},
+		{"id":"c5d1f534c3b58c9b","type":"group","x":-180,"y":-260,"width":300,"height":140,"color":"1","label":"Networking"},
 		{
 			"id":"26b770b647c6be5d",
 			"type":"text",
@@ -37,16 +26,6 @@
 			"height":60
 		},
 		{
-			"id":"9a4a0173c43b8bef",
-			"type":"text",
-			"text":"Routing",
-			"styleAttributes":{},
-			"x":70,
-			"y":440,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"454a5a68d5e90a8e",
 			"type":"text",
 			"text":"[[Internet]]",
@@ -56,6 +35,26 @@
 			"width":260,
 			"height":60,
 			"color":"1"
+		},
+		{
+			"id":"e17c9aa606668b31",
+			"type":"text",
+			"text":"TCP IP Application Layer",
+			"styleAttributes":{},
+			"x":580,
+			"y":540,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"9a4a0173c43b8bef",
+			"type":"text",
+			"text":"Routing",
+			"styleAttributes":{},
+			"x":70,
+			"y":440,
+			"width":260,
+			"height":60
 		},
 		{
 			"id":"69fdd785d7060bbc",
@@ -99,14 +98,103 @@
 			"height":60
 		},
 		{
-			"id":"e17c9aa606668b31",
+			"id":"d280d1a8c9624de5",
 			"type":"text",
-			"text":"TCP IP Application Layer",
-			"styleAttributes":{},
-			"x":580,
-			"y":540,
+			"text":"Networking",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":-160,
+			"y":-220,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"23a4329b5ab9a3ac",
+			"type":"text",
+			"text":"OSI Reference Model",
+			"styleAttributes":{},
+			"x":-400,
+			"y":120,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"8100b4cf4f9fe358",
+			"type":"text",
+			"text":"Application Layer",
+			"styleAttributes":{},
+			"x":-360,
+			"y":200,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"8bfc2304945ce524",
+			"type":"text",
+			"text":"Presentation Layer",
+			"styleAttributes":{},
+			"x":-360,
+			"y":280,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"f2c5cd956f17d8c3",
+			"type":"text",
+			"text":"Session Layer",
+			"styleAttributes":{},
+			"x":-360,
+			"y":360,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"bf4b8ef7f39ceb67",
+			"type":"text",
+			"text":"Transport Layer",
+			"styleAttributes":{},
+			"x":-360,
+			"y":440,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"cc85e9da9438d6b3",
+			"type":"text",
+			"text":"Network Layer",
+			"styleAttributes":{},
+			"x":-360,
+			"y":520,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"749ae3fd7a3ecf13",
+			"type":"text",
+			"text":"Data Link Layer",
+			"styleAttributes":{},
+			"x":-360,
+			"y":600,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"d8433649f0794919",
+			"type":"text",
+			"text":"Physical Layer",
+			"styleAttributes":{},
+			"x":-360,
+			"y":680,
+			"width":260,
+			"height":60,
+			"color":"2"
 		}
 	],
 	"edges":[
@@ -166,6 +254,85 @@
 			"fromNode":"69fdd785d7060bbc",
 			"fromSide":"left",
 			"toNode":"e17c9aa606668b31",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"b089d482dad33206",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c5d1f534c3b58c9b",
+			"fromSide":"bottom",
+			"toNode":"6dc541c337654283",
+			"toSide":"top"
+		},
+		{
+			"id":"d9d68772ee8f5797",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"23a4329b5ab9a3ac",
+			"fromSide":"left",
+			"toNode":"8100b4cf4f9fe358",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"a6415f5f2fcd76eb",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"23a4329b5ab9a3ac",
+			"fromSide":"left",
+			"toNode":"8bfc2304945ce524",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"0d67b0b4c36792c7",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"23a4329b5ab9a3ac",
+			"fromSide":"left",
+			"toNode":"f2c5cd956f17d8c3",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"fa0e844f7b8ce709",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"23a4329b5ab9a3ac",
+			"fromSide":"left",
+			"toNode":"bf4b8ef7f39ceb67",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"ca3605190f4f1cdd",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"23a4329b5ab9a3ac",
+			"fromSide":"left",
+			"toNode":"cc85e9da9438d6b3",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"f6db0135defba096",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"23a4329b5ab9a3ac",
+			"fromSide":"left",
+			"toNode":"749ae3fd7a3ecf13",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"8746962d9b469e38",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"23a4329b5ab9a3ac",
+			"fromSide":"left",
+			"toNode":"d8433649f0794919",
 			"toSide":"left",
 			"color":"2"
 		}

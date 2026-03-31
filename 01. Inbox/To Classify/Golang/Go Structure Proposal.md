@@ -10,6 +10,7 @@ status: draft
 related:
   - "[[Go]]"
   - "[[Go Concurrency Model]]"
+  - "[[Go Servers]]"
   - "[[Go Testing]]"
 tags: []
 ---
@@ -88,6 +89,15 @@ Go
 │       ├── Go Scheduler Work Stealing
 │       ├── Go Scheduler Preemption
 │       └── Go Netpoller
+├── Go Servers
+│   ├── HTTP Server in Go
+│   ├── gRPC Server in Go
+│   ├── TCP Server in Go
+│   ├── Go Server Concurrency
+│   ├── Go Server Lifecycle
+│   ├── Timeouts and Cancellation in Go Servers
+│   ├── Observability in Go Servers
+│   └── Resource Management in Go Servers
 └── Go Testing
 ```
 
@@ -104,6 +114,7 @@ Go
 - `Go Concurrency Model` уже оправдан как полноценный `sub-overview`, потому что внутри него живет не только пара `goroutines/channels`, но и отдельная scheduler-подветка.
 - `Go Scheduler` уже фактически стал вторым уровнем вложенности внутри concurrency-ветки: у него есть собственный `overview`, базовая архитектурная статья `Go Scheduler GMP Model` и несколько самостоятельных аспектных `article`.
 - Внутри `Go Scheduler GMP Model` уже начала оформляться еще одна локальная группа заметок про сущности модели: `Go Scheduler Processor` и `Go Machine Thread`.
+- `Go Servers` оправдан как отдельный `sub-overview`, потому что server-side разработка на Go образует собственный engineering cluster и не сводится ни к общей concurrency-модели, ни к чисто сетевой теории.
 - Уже существующую заметку `Testing Mind Model.md` лучше нормализовать до канонического узла `Go Testing`.
 
 ## Смысловые кластеры ветки
@@ -114,6 +125,7 @@ Go
 - **Memory management layer:** `[[Go Memory Management]]`, `[[Go Stack and Heap Allocation]]`, `[[Go Escape Analysis]]`, `[[Go Garbage Collection]]`
 - **Concurrency layer:** `[[Go Concurrency Model]]`, `[[Go Goroutines]]`, `[[Go Channels]]`
 - **Scheduler/runtime internals layer:** `[[Go Scheduler]]`, `[[Go Scheduler GMP Model]]`, `[[Go Scheduler Processor]]`, `[[Go Machine Thread]]`, `[[GOMAXPROCS]]`, `[[Go Scheduler Work Stealing]]`, `[[Go Scheduler Preemption]]`, `[[Go Netpoller]]`
+- **Server engineering layer:** `[[Go Servers]]`, `[[HTTP Server in Go]]`, `[[gRPC Server in Go]]`, `[[TCP Server in Go]]`, `[[Go Server Concurrency]]`, `[[Go Server Lifecycle]]`, `[[Timeouts and Cancellation in Go Servers]]`, `[[Observability in Go Servers]]`, `[[Resource Management in Go Servers]]`
 - **Validation and engineering practice layer:** `[[Go Testing]]`
 
 Служебные structure proposals рядом с этими заметками не входят в каноническую смысловую иерархию. Они лишь фиксируют решения о том, как ветка должна быть собрана.
@@ -124,6 +136,7 @@ Go
 - [ ] Уточнить, когда рядом с `Go Memory Management` понадобятся allocator-related notes
 - [ ] Решить, нужна ли отдельная заметка `Go Memory Model`
 - [ ] Уточнить границы между `Go Memory Management` и `Go Concurrency Model`
+- [ ] Уточнить границы между `Go Servers` и `Go Concurrency Model`
 - [ ] Уточнить, когда внутри `Go Type System` понадобятся `Go Zero Value and Nil` и `Go Type Assertions`
 - [ ] Проверить, когда внутри `Go Reflection` понадобятся заметки про `any` и interface values
 - [ ] Уточнить, нужна ли отдельная article-note про `G` как сущность GMP-модели

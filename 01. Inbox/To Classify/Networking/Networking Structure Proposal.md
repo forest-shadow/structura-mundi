@@ -21,6 +21,20 @@
 ```text
 Computer Science
 └── Networking
+    ├── Client-Server Model
+    │   ├── Client
+    │   └── Server
+    │       ├── Server Application
+    │       ├── Server Process
+    │       │   ├── Network Listener
+    │       │   ├── Request Handling
+    │       │   ├── Server Concurrency Model
+    │       │   ├── Server Lifecycle Management
+    │       │   ├── Timeouts and Cancellation
+    │       │   ├── Server Observability
+    │       │   └── Server Resource Management
+    │       ├── Server Host
+    │       └── Service Endpoint
     ├── Network Topology
     │   ├── Physical and Logical Network Topology
     │   └── Common Network Topologies
@@ -79,6 +93,9 @@ Computer Science
 ## Почему структура именно такая
 
 - `Networking` оправдан как domain-root overview, потому что внутри него уже есть несколько устойчивых обзорных веток с разной оптикой.
+- `Client-Server Model` уместно держать как отдельный `sub-overview`, потому что здесь нужен именно model-centric язык для ролей взаимодействия, не сводимый ни к transport protocols, ни к host infrastructure.
+- `Server` лучше оформлять как `overview`, а не как одну перегруженную `article`, потому что термин одновременно живет на уровне роли, программного компонента, процесса, хоста и сетевой точки входа.
+- `Server Process` тоже оправдан как вложенный `overview`, потому что вокруг него уже возникает устойчивый operational cluster: listener, request handling, concurrency, lifecycle, timeouts, observability и resource management.
 - `Packet Switches` лучше держать отдельной sibling-веткой рядом с `Network Protocols` и `Internet`, потому что устройства пересылки пакетов и кадров образуют собственный понятийный кластер.
 - `Network Security` оправдана как отдельная sibling-ветка рядом с `Network Protocols` и `Internet`, потому что защищенный сетевой доступ, туннелирование и trust boundaries образуют собственный понятийный кластер.
 - `VPN` уже лучше оформлять как `sub-overview`, а не как одиночный article, потому что внутри темы быстро возникают разные deployment patterns, tunnel mechanics и protocol families.
@@ -92,6 +109,7 @@ Computer Science
 
 - не создавать отдельные тематические template-файлы под Networking или Packet Switches, потому что по `Principia Rerum` достаточно канонических `Article Template` и `Overview Template`;
 - не создавать отдельные тематические template-файлы под `Network Security` или `VPN`, потому что по `Principia Rerum` достаточно канонических `Article Template` и `Overview Template`;
+- не определять `Server` сразу как машину или только как процесс, потому что это сузит термин раньше, чем будет зафиксирована его role-based рамка;
 - не прятать `Packet Switches` внутрь `Network Protocols`, потому что это смешает devices и rules;
 - не прятать `VPN` внутрь `Network Protocols` как просто еще один protocol note;
 - не заводить заранее плоский каталог всех возможных сетевых устройств без устойчивого корпуса;
@@ -100,6 +118,7 @@ Computer Science
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда в `Packet Switches` нужны `Switching Fabric` и `Forwarding Table`
+- [ ] Решить, когда рядом с `Client-Server Model` нужны `Load Balancing`, `Service Discovery` и `Backpressure`
 - [ ] Решить, когда рядом с `VPN` нужны `Zero Trust Network Access`, `Firewall` и `Network Access Control`
 - [ ] Решить, когда нужен отдельный узел про `Packet Forwarding`
 - [ ] Проверить границу между `Router` и `Routing`

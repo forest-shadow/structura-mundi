@@ -71,15 +71,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/OS/OS.canvas",
+                "file": "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
                 "viewState": {
-                  "x": -169.6558284561297,
-                  "y": 211.98701374765483,
-                  "zoom": 0
+                  "x": -58.295254544454195,
+                  "y": 360.1950525775085,
+                  "zoom": -0.3403401320012431
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "OS"
+              "title": "Networkig"
             }
           }
         ],
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/Б/Белое движение.md",
+                "file": "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Белое движение"
+              "title": "Outline of Networkig"
             }
           },
           {
@@ -269,44 +269,84 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "floating": {
+    "id": "050b0631ee282428",
+    "type": "floating",
+    "children": [
+      {
+        "id": "1f01c2e1cec2c656",
+        "type": "window",
+        "children": [
+          {
+            "id": "41937e818c39687b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8c15326ef08ef769",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Networking Structure Proposal"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -722,
+        "y": 737,
+        "width": 703,
+        "height": 796,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "8e4f1188fb186d14",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
+    "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
+    "Tabula Ortus.md",
+    "02. Corpus Mundi/Б/Белое движение.md",
+    "01. Inbox/To Classify/Golang/Go Servers/Resource Management in Go Servers.md",
+    "01. Inbox/To Classify/Golang/Go Servers/Observability in Go Servers.md",
+    "01. Inbox/To Classify/Golang/Go Servers/Timeouts and Cancellation in Go Servers.md",
+    "01. Inbox/To Classify/Golang/Go Servers/Go Server Lifecycle.md",
+    "01. Inbox/To Classify/Golang/Go Servers/Go Server Concurrency.md",
+    "01. Inbox/To Classify/Golang/Go Servers/TCP Server in Go.md",
+    "01. Inbox/To Classify/Golang/Go Servers/gRPC Server in Go.md",
+    "01. Inbox/To Classify/Golang/Go Servers/HTTP Server in Go.md",
+    "01. Inbox/To Classify/Golang/Go Servers/Go Servers Structure Proposal.md",
+    "01. Inbox/To Classify/Golang/Go Servers/Go Servers.md",
+    "01. Inbox/To Classify/Golang/Go.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Resource Management.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Observability.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Timeouts and Cancellation.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Lifecycle Management.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Concurrency Model.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Request Handling.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Network Listener.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Process Structure Proposal.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Process.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Service Endpoint.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Host.md",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Application.md",
     "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process",
     "01. Inbox/To Classify/Networking/Client-Server Model/Server",
     "01. Inbox/To Classify/Networking/Client-Server Model",
     "01. Inbox/To Classify/Golang/Go Servers",
-    "01. Inbox/To Classify/History/Русская военная история/Белое движение Structure Proposal.md",
-    "02. Corpus Mundi/Б/Белое движение.md",
-    "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
-    "02. Corpus Mundi/C/Compilation.md",
-    "01. Inbox/To Classify/Compilation/Compilation Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Network Security/Network Security.md",
-    "01. Inbox/To Classify/Databases/Database Connection Pooling.md",
-    "01. Inbox/To Classify/Software Architecture/Connection Pooling.md",
-    "01. Inbox/To Classify/Software Architecture/Connection Pooling Structure Proposal.md",
-    "01. Inbox/To Classify/Boolean Logic/Logical Equivalence.md",
-    "01. Inbox/To Classify/Boolean Logic/Logical Implication.md",
-    "01. Inbox/To Classify/Boolean Logic/Logical Disjunction.md",
-    "01. Inbox/To Classify/Boolean Logic/Logical Conjunction.md",
-    "01. Inbox/To Classify/Boolean Logic/Logical Negation.md",
-    "01. Inbox/To Classify/Boolean Logic/Truth Table.md",
-    "01. Inbox/To Classify/Boolean Logic/Truth Value.md",
-    "01. Inbox/To Classify/Boolean Logic/Logical Connectives.md",
-    "01. Inbox/To Classify/Boolean Logic/Boolean Logic.md",
-    "01. Inbox/To Classify/Boolean Logic/Boolean Logic Structure Proposal.md",
-    "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Linking.md",
-    "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Code Generation.md",
-    "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Intermediate Representation.md",
-    "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Semantic Analysis.md",
-    "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Parsing.md",
-    "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Lexical Analysis.md",
     "01. Inbox/To Classify/Boolean Logic",
     "01. Inbox/To Classify/Compilation/Program Translation Pipeline",
     "01. Inbox/To Classify/Compilation",
     "01. Inbox/To Classify/Networking/Proxy/Proxy Roles",
     "01. Inbox/To Classify/Networking/Proxy/Proxy Protocols and Mechanisms",
     "01. Inbox/To Classify/Networking/Proxy/Proxy Processing Models",
-    "01. Inbox/To Classify/Networking/Proxy/Proxy Interception Models",
     "02. Corpus Mundi/H/_resources/hymenaios.jpg",
     "Pasted image 20260330230842.png",
     "02. Corpus Mundi/I/_resources/internet-core.jpg",
@@ -318,7 +358,6 @@
     "01. Inbox/To Classify/Networking/OSI Model/_resources/osi-model-protocol-stack.jpg",
     "Pasted image 20260327140145.png",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
-    "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
