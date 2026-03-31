@@ -20,8 +20,6 @@ Event-Driven Architecture (overview)
 │   ├── Event Notification (article)
 │   ├── Event-Carried State Transfer (article)
 │   └── Competing Consumers (article)
-├── Publish-Subscribe (article)
-├── Message Broker (article)
 ├── Transactional Outbox (article)
 └── Idempotent Consumer (article)
 ```
@@ -30,7 +28,8 @@ Event-Driven Architecture (overview)
 
 - `Event-Driven Architecture` является естественной канонической обзорной точкой входа для всей ветки.
 - Один вложенный `overview` для `Event Collaboration Patterns` оправдан, потому что внутри EDA есть отдельный устойчивый кластер паттернов взаимодействия между сервисами.
-- `Publish-Subscribe`, `Message Broker`, `Transactional Outbox` и `Idempotent Consumer` пока лучше держать как обычные `article`, а не раздувать дерево еще одним уровнем вложенности.
+- `Transactional Outbox` и `Idempotent Consumer` пока лучше держать как обычные `article`, а не раздувать дерево еще одним уровнем вложенности.
+- `Publish-Subscribe` лучше вынести в соседнюю общую ветку distributed interaction patterns, потому что это не только EDA-specific topology.
 - Структура остается достаточно плоской и соответствует правилу минимальной вложенности.
 
 ## Что не нужно создавать заранее
@@ -40,6 +39,7 @@ Event-Driven Architecture (overview)
 - `Distributed Systems` как новый обзорный слой только ради размещения EDA;
 - `Asynchronous Communication` как обязательный промежуточный уровень;
 - отдельные обзорные ветки для `CQRS`, `Event Sourcing`, `Saga`, `Stream Processing`, если по ним еще нет самостоятельного корпуса;
+- отдельную попытку удержать все messaging models внутри EDA, если часть из них уже явно живет шире этой архитектурной рамки;
 - отдельную заметку `Event`, если пока не требуется собственная энциклопедическая статья с четкими границами.
 
 Эти темы можно добавить позже как соседние ветки или связанные `article`, если корпус вырастет.
@@ -59,8 +59,6 @@ Event-Driven Architecture (overview)
 │   └── Event-Carried State Transfer.md
 ├── I/
 │   └── Idempotent Consumer.md
-├── M/
-│   └── Message Broker.md
 ├── P/
 │   └── Publish-Subscribe.md
 └── T/

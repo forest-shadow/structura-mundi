@@ -1,8 +1,10 @@
 {
 	"nodes":[
-		{"id":"6dc541c337654283","type":"group","x":0,"y":100,"width":1000,"height":580,"color":"2","label":"Internet"},
-		{"id":"56d6a849418fa442","type":"group","x":-440,"y":100,"width":380,"height":740,"color":"2","label":"OSI Refernce Model"},
+		{"id":"6dc541c337654283","type":"group","x":0,"y":100,"width":960,"height":580,"color":"2","label":"Internet"},
+		{"id":"d620014960d60156","type":"group","x":1180,"y":100,"width":720,"height":740,"color":"2","label":"Client-Server-Model"},
+		{"id":"56d6a849418fa442","type":"group","x":-660,"y":100,"width":400,"height":680,"color":"2","label":"OSI Refernce Model"},
 		{"id":"2905005270d46bdc","type":"group","x":480,"y":180,"width":420,"height":460,"color":"2","label":"TCP IP Model"},
+		{"id":"42e20c45147bd44a","type":"group","x":1300,"y":380,"width":500,"height":380,"label":"Server"},
 		{"id":"cb7fcc413832f713","type":"group","x":50,"y":250,"width":320,"height":290,"label":"Base"},
 		{"id":"c5d1f534c3b58c9b","type":"group","x":-180,"y":-260,"width":300,"height":140,"color":"1","label":"Networking"},
 		{
@@ -113,7 +115,7 @@
 			"type":"text",
 			"text":"OSI Reference Model",
 			"styleAttributes":{},
-			"x":-400,
+			"x":-600,
 			"y":120,
 			"width":260,
 			"height":60,
@@ -124,19 +126,8 @@
 			"type":"text",
 			"text":"Application Layer",
 			"styleAttributes":{},
-			"x":-360,
+			"x":-560,
 			"y":200,
-			"width":260,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"8bfc2304945ce524",
-			"type":"text",
-			"text":"Presentation Layer",
-			"styleAttributes":{},
-			"x":-360,
-			"y":280,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -146,7 +137,7 @@
 			"type":"text",
 			"text":"Session Layer",
 			"styleAttributes":{},
-			"x":-360,
+			"x":-560,
 			"y":360,
 			"width":260,
 			"height":60,
@@ -157,7 +148,7 @@
 			"type":"text",
 			"text":"Transport Layer",
 			"styleAttributes":{},
-			"x":-360,
+			"x":-560,
 			"y":440,
 			"width":260,
 			"height":60,
@@ -168,8 +159,19 @@
 			"type":"text",
 			"text":"Network Layer",
 			"styleAttributes":{},
-			"x":-360,
+			"x":-560,
 			"y":520,
+			"width":260,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"8bfc2304945ce524",
+			"type":"text",
+			"text":"Presentation Layer",
+			"styleAttributes":{},
+			"x":-560,
+			"y":280,
 			"width":260,
 			"height":60,
 			"color":"2"
@@ -179,7 +181,7 @@
 			"type":"text",
 			"text":"Data Link Layer",
 			"styleAttributes":{},
-			"x":-360,
+			"x":-560,
 			"y":600,
 			"width":260,
 			"height":60,
@@ -190,11 +192,72 @@
 			"type":"text",
 			"text":"Physical Layer",
 			"styleAttributes":{},
-			"x":-360,
+			"x":-560,
 			"y":680,
 			"width":260,
 			"height":60,
 			"color":"2"
+		},
+		{
+			"id":"720e50cee811db16",
+			"type":"text",
+			"text":"Client-Server-Model",
+			"styleAttributes":{},
+			"x":1280,
+			"y":120,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"abae798f373497df",
+			"type":"text",
+			"text":"Client",
+			"styleAttributes":{},
+			"x":1320,
+			"y":240,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"7116352c9be93da7",
+			"type":"text",
+			"text":"Server",
+			"styleAttributes":{},
+			"x":1320,
+			"y":400,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"9b24e98dfc6ecfe1",
+			"type":"text",
+			"text":"Server Application",
+			"styleAttributes":{},
+			"x":1360,
+			"y":480,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"dc7162cb2641ee9a",
+			"type":"text",
+			"text":"Server Endpoint",
+			"styleAttributes":{},
+			"x":1360,
+			"y":660,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"496dabe6eea55d94",
+			"type":"text",
+			"text":"Server Host",
+			"styleAttributes":{},
+			"x":1360,
+			"y":580,
+			"width":260,
+			"height":60
 		}
 	],
 	"edges":[
@@ -278,7 +341,7 @@
 		},
 		{
 			"id":"a6415f5f2fcd76eb",
-			"styleAttributes":{},
+			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
 			"fromNode":"23a4329b5ab9a3ac",
 			"fromSide":"left",
@@ -288,7 +351,7 @@
 		},
 		{
 			"id":"0d67b0b4c36792c7",
-			"styleAttributes":{},
+			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
 			"fromNode":"23a4329b5ab9a3ac",
 			"fromSide":"left",
@@ -298,7 +361,7 @@
 		},
 		{
 			"id":"fa0e844f7b8ce709",
-			"styleAttributes":{},
+			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
 			"fromNode":"23a4329b5ab9a3ac",
 			"fromSide":"left",
@@ -308,7 +371,7 @@
 		},
 		{
 			"id":"ca3605190f4f1cdd",
-			"styleAttributes":{},
+			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
 			"fromNode":"23a4329b5ab9a3ac",
 			"fromSide":"left",
@@ -318,7 +381,7 @@
 		},
 		{
 			"id":"f6db0135defba096",
-			"styleAttributes":{},
+			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
 			"fromNode":"23a4329b5ab9a3ac",
 			"fromSide":"left",
@@ -328,13 +391,61 @@
 		},
 		{
 			"id":"8746962d9b469e38",
-			"styleAttributes":{},
+			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
 			"fromNode":"23a4329b5ab9a3ac",
 			"fromSide":"left",
 			"toNode":"d8433649f0794919",
 			"toSide":"left",
 			"color":"2"
+		},
+		{
+			"id":"9a5aac52027433e8",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c5d1f534c3b58c9b",
+			"fromSide":"bottom",
+			"toNode":"56d6a849418fa442",
+			"toSide":"top"
+		},
+		{
+			"id":"cd60a34ab41cd6d4",
+			"styleAttributes":{"path":"short-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"6dc541c337654283",
+			"fromSide":"left",
+			"toNode":"56d6a849418fa442",
+			"toSide":"right",
+			"color":"2",
+			"label":"implements"
+		},
+		{
+			"id":"eae4ded56eca7672",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"720e50cee811db16",
+			"fromSide":"left",
+			"toNode":"abae798f373497df",
+			"toSide":"left"
+		},
+		{
+			"id":"408f720f39f46280",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"720e50cee811db16",
+			"fromSide":"left",
+			"toNode":"42e20c45147bd44a",
+			"toSide":"left"
+		},
+		{
+			"id":"488b863135b1fe89",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c5d1f534c3b58c9b",
+			"fromSide":"bottom",
+			"toNode":"d620014960d60156",
+			"toSide":"top"
 		}
 	],
 	"metadata":{

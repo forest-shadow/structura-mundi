@@ -12,6 +12,7 @@ related:
   - "[[Distributed Systems Problems]]"
   - "[[Caching]]"
   - "[[Event-Driven Architecture]]"
+  - "[[Messaging and Coordination Models]]"
   - "[[Service Reliability]]"
 tags: []
 ---
@@ -65,9 +66,12 @@ Computer Science
     │   │   ├── Event Notification
     │   │   ├── Event-Carried State Transfer
     │   │   └── Competing Consumers
-    │   ├── Publish-Subscribe
-    │   ├── Message Broker
     │   └── Idempotent Consumer
+    ├── Messaging and Coordination Models
+    │   ├── Brokered Messaging Model
+    │   ├── Publish-Subscribe
+    │   ├── Producer-Consumer Model
+    │   └── Gossip Model
     └── Service Reliability
         ├── Service Level Management
         ├── Telemetry
@@ -86,16 +90,19 @@ Computer Science
 - `Dual Write` лучше отражать внутри `Distributed Systems Problems`, а не как отдельного top-level sibling: по смыслу это problem-centered ветка про рассогласование побочных эффектов, даже если она тесно пересекается с EDA.
 - `Caching` оправдан как отдельный `sub-overview`, потому что в распределенных системах кэш перестает быть локальной микрооптимизацией и становится отдельным слоем trade-offs между latency, load и consistency.
 - `Event-Driven Architecture` уже стоит показывать не просто как одиночную article-note, а как полноценную архитектурную подветку с собственными дочерними темами.
+- `Messaging and Coordination Models` стоит держать рядом с `Event-Driven Architecture`, а не внутри нее: pub-sub, brokered messaging, producer-consumer и gossip шире любой одной архитектурной школы и могут использоваться вне EDA.
 - `Service Reliability` стоит рядом как operational branch, потому что наблюдаемость, service levels и alerting в распределенных системах естественно собираются именно вокруг надежности сервиса.
 
 ## Что не стоит делать прямо сейчас
 
 - Не стоит вытаскивать `Dual Write` обратно на уровень sibling рядом с `Distributed Systems Problems`, если её фактическая и смысловая позиция уже определена как дочерняя problem-ветка.
 - Не стоит смешивать distributed-systems fundamentals с generic software-architecture notes без явной причины.
+- Не стоит держать `Publish-Subscribe` только внутри `Event-Driven Architecture`, если заметка претендует на более общий distributed interaction смысл.
 - Не стоит создавать специальные templates под distributed-systems branches.
 
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда нужен отдельный sub-overview про consistency models
 - [ ] Решить, когда рядом нужны `Service Discovery` и `Load Balancing`
+- [ ] Подтвердить `section: messaging-and-coordination-models`
 - [ ] Проверить `related`

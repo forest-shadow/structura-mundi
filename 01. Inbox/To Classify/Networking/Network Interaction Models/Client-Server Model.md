@@ -5,10 +5,11 @@ note_type: overview
 area: computer-science
 domain: networking
 section: network-models
-parent: "[[Networking]]"
+parent: "[[Network Interaction Models]]"
 status: seed
 related:
   - "[[Networking]]"
+  - "[[Network Interaction Models]]"
   - "[[OSI Model]]"
   - "[[TCP IP Model]]"
   - "[[Client]]"
@@ -41,7 +42,7 @@ tags: []
 
 ## Соседние overview-ветки
 
-- Родительская рамка: `[[Networking]]`
+- Родительская рамка: `[[Network Interaction Models]]`
 - Смежные model-centric ветки: `[[OSI Model]]`, `[[TCP IP Model]]`
 
 ## Что стоит раскрыть дальше

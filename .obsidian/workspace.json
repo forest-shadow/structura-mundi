@@ -64,26 +64,9 @@
               "icon": "lucide-file",
               "title": "React Reconciliation"
             }
-          },
-          {
-            "id": "8e4f1188fb186d14",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
-                "viewState": {
-                  "x": -58.295254544454195,
-                  "y": 360.1950525775085,
-                  "zoom": -0.3403401320012431
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Networkig"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -156,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
+                "file": "01. Inbox/To Classify/React/React Reconciliation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Networkig"
+              "title": "Outline of React Reconciliation"
             }
           },
           {
@@ -308,45 +291,45 @@
       }
     ]
   },
-  "active": "8e4f1188fb186d14",
+  "active": "ca81ea99851ee7cb",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
+    "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models/Publish-Subscribe.md",
+    "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models/Gossip Model.md",
+    "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models/Producer-Consumer Model.md",
+    "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models/Brokered Messaging Model.md",
+    "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models/Messaging and Coordination Models Structure Proposal.md",
+    "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models/Messaging and Coordination Models.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Broadcast and Multicast Model.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Request-Reply Model.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Peer-to-Peer Model.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Network Interaction Models Structure Proposal.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Network Interaction Models.md",
+    "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models",
+    "01. Inbox/To Classify/Networking/Client-Server Model/Client-Server Model.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Process/Timeouts and Cancellation.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Process/Server Resource Management.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Process/Server Process.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Process/Server Process Structure Proposal.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Process/Server Observability.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Process/Request Handling.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Process/Server Lifecycle Management.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Process/Server Concurrency Model.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Process/Network Listener.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Service Endpoint.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Host.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Structure Proposal.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Process",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server/Server Application.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Server",
+    "01. Inbox/To Classify/Networking/Network Interaction Models",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
-    "Tabula Ortus.md",
-    "02. Corpus Mundi/Б/Белое движение.md",
-    "01. Inbox/To Classify/Golang/Go Servers/Resource Management in Go Servers.md",
-    "01. Inbox/To Classify/Golang/Go Servers/Observability in Go Servers.md",
-    "01. Inbox/To Classify/Golang/Go Servers/Timeouts and Cancellation in Go Servers.md",
-    "01. Inbox/To Classify/Golang/Go Servers/Go Server Lifecycle.md",
-    "01. Inbox/To Classify/Golang/Go Servers/Go Server Concurrency.md",
-    "01. Inbox/To Classify/Golang/Go Servers/TCP Server in Go.md",
-    "01. Inbox/To Classify/Golang/Go Servers/gRPC Server in Go.md",
-    "01. Inbox/To Classify/Golang/Go Servers/HTTP Server in Go.md",
-    "01. Inbox/To Classify/Golang/Go Servers/Go Servers Structure Proposal.md",
-    "01. Inbox/To Classify/Golang/Go Servers/Go Servers.md",
-    "01. Inbox/To Classify/Golang/Go.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Resource Management.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Observability.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Timeouts and Cancellation.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Lifecycle Management.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Concurrency Model.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Request Handling.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Network Listener.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Process Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process/Server Process.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Service Endpoint.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Host.md",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Application.md",
     "01. Inbox/To Classify/Networking/Client-Server Model/Server/Server Process",
     "01. Inbox/To Classify/Networking/Client-Server Model/Server",
     "01. Inbox/To Classify/Networking/Client-Server Model",
     "01. Inbox/To Classify/Golang/Go Servers",
     "01. Inbox/To Classify/Boolean Logic",
     "01. Inbox/To Classify/Compilation/Program Translation Pipeline",
-    "01. Inbox/To Classify/Compilation",
-    "01. Inbox/To Classify/Networking/Proxy/Proxy Roles",
-    "01. Inbox/To Classify/Networking/Proxy/Proxy Protocols and Mechanisms",
-    "01. Inbox/To Classify/Networking/Proxy/Proxy Processing Models",
     "02. Corpus Mundi/H/_resources/hymenaios.jpg",
     "Pasted image 20260330230842.png",
     "02. Corpus Mundi/I/_resources/internet-core.jpg",

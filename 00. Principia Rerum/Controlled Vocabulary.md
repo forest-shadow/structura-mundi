@@ -192,6 +192,7 @@
 #### `computer-science -> distributed-systems`
 
 - `service-reliability`
+- `messaging-and-coordination-models`
 
 #### `philosophy -> logic`
 

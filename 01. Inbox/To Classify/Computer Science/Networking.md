@@ -8,7 +8,7 @@ section:
 parent: "[[Computer Science]]"
 status: seed
 related:
-  - "[[Client-Server Model]]"
+  - "[[Network Interaction Models]]"
   - "[[Network Topology]]"
   - "[[Network Performance]]"
   - "[[Network Protocols]]"
@@ -27,7 +27,7 @@ tags: []
 
 ## Что входит в эту тему
 
-- `[[Client-Server Model]]`
+- `[[Network Interaction Models]]`
 - `[[Network Topology]]`
 - `[[Network Performance]]`
 - `[[Network Protocols]]`
@@ -38,7 +38,7 @@ tags: []
 
 ## Как устроена ветка
 
-- `Client-Server Model` собирает role-centric взгляд на сетевое взаимодействие и помогает не смешивать сервер как роль, процесс, хост и endpoint.
+- `Network Interaction Models` собирает базовые формы сетевого взаимодействия между узлами: client-server, peer-to-peer, request-reply, broadcast и multicast.
 - `Network Topology` описывает форму и связность сети как структуры.
 - `Network Performance` собирает метрики пропускной способности, задержек, джиттера и потерь.
 - `Network Protocols` держит рамку для семейств протоколов и их роли в сетевом стеке.
@@ -50,7 +50,7 @@ tags: []
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Networking]]`.
-2. Затем выбрать ракурс: role/model view через `[[Client-Server Model]]`, структура через `[[Network Topology]]`, качество доставки через `[[Network Performance]]`, правила взаимодействия через `[[Network Protocols]]` или защищенный сетевой доступ через `[[Network Security]]`.
+2. Затем выбрать ракурс: role/model view через `[[Network Interaction Models]]`, структура через `[[Network Topology]]`, качество доставки через `[[Network Performance]]`, правила взаимодействия через `[[Network Protocols]]` или защищенный сетевой доступ через `[[Network Security]]`.
 3. После этого перейти к `[[Packet Switches]]`, если нужен язык для описания устройств пересылки.
 4. Затем читать `[[Internet]]` и сопоставлять operational-картину с `[[OSI Model]]`.
 
@@ -60,7 +60,7 @@ tags: []
 
 ## Что стоит раскрыть дальше
 
-- [ ] Решить, когда рядом с `Client-Server Model` нужны `Load Balancing` и `Service Discovery`
+- [ ] Решить, когда внутри `Network Interaction Models` нужны `Anycast` и `Unicast`
 - [ ] Проверить границу между `Network Security`, `Network Protocols` и `Internet`
 - [ ] Решить, когда рядом нужен `Network Congestion`
 - [ ] Проверить границу между `Packet Switches` и `Network Protocols`

@@ -8,18 +8,19 @@
 
 ```text
 Networking
-└── Client-Server Model
-    ├── Client
-    └── Server
-        ├── Server Application
-        ├── Server Process
-        ├── Server Host
-        └── Service Endpoint
+└── Network Interaction Models
+    └── Client-Server Model
+        ├── Client
+        └── Server
+            ├── Server Application
+            ├── Server Process
+            ├── Server Host
+            └── Service Endpoint
 ```
 
 ## Почему структура именно такая
 
-- `Client-Server Model` задает первичную логическую рамку взаимодействия и не должна растворяться внутри protocol notes.
+- `Client-Server Model` задает первичную логическую рамку взаимодействия и естественно живет внутри более общей ветки `Network Interaction Models`.
 - `Server` нужно делать `overview`, потому что это явно многослойный термин, а не одна простая article-note.
 - `Server Process` следует выделять отдельно, потому что operational server engineering быстро образует самостоятельный кластер.
 

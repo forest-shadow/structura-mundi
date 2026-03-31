@@ -10,6 +10,7 @@ related:
   - "[[Distributed Systems Problems]]"
   - "[[Caching]]"
   - "[[Event-Driven Architecture]]"
+  - "[[Messaging and Coordination Models]]"
   - "[[Dual Write]]"
   - "[[Service Reliability]]"
 tags: []
@@ -26,6 +27,7 @@ tags: []
 - `[[Distributed Systems Problems]]`
 - `[[Caching]]`
 - `[[Event-Driven Architecture]]`
+- `[[Messaging and Coordination Models]]`
 - `[[Service Reliability]]`
 
 ## Как устроена ветка
@@ -33,6 +35,7 @@ tags: []
 - `Distributed Systems Problems` собирает фундаментальные ограничения и классы проблем, включая уже оформившуюся дочернюю ветку `[[Dual Write]]`;
 - `Caching` собирает performance-oriented branch про снижение latency, уменьшение нагрузки и trade-offs консистентности;
 - `Event-Driven Architecture` уже выступает как самостоятельная архитектурная подветка, а не как одиночная заметка;
+- `Messaging and Coordination Models` собирает более общие distributed interaction patterns вроде pub-sub, brokered messaging, producer-consumer и gossip;
 - `Service Reliability` собирает operational branch про сервисные обязательства, телеметрию, наблюдаемость и инженерную надежность распределенных сервисов.
 
 ## Рекомендуемый маршрут чтения
@@ -41,7 +44,8 @@ tags: []
 2. Внутри этой рамки отдельно перейти к `[[Dual Write]]` как к практическому problem-cluster.
 3. Затем перейти к `[[Caching]]` как к performance branch поверх базовых distributed-systems constraints.
 4. После этого перейти к `[[Event-Driven Architecture]]`.
-5. Затем читать `[[Service Reliability]]` как operational branch.
+5. Затем перейти к `[[Messaging and Coordination Models]]`, если нужен interaction-oriented слой выше чистого networking.
+6. Затем читать `[[Service Reliability]]` как operational branch.
 
 ## Соседние overview-ветки
 
@@ -51,5 +55,6 @@ tags: []
 
 - [ ] Проверить, что domain-root overview остается без `section`
 - [ ] Решить, нужен ли позже отдельный узел для consistency models
+- [ ] Проверить границу между `Event-Driven Architecture` и `Messaging and Coordination Models`
 - [ ] Проверить `related`
 - [ ] Не разрастается ли ветка слишком глубоко

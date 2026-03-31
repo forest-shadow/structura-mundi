@@ -8,6 +8,7 @@ section: event-driven-architecture
 parent: "[[Event-Driven Architecture]]"
 status: seed
 related:
+  - "[[Brokered Messaging Model]]"
   - "[[Publish-Subscribe]]"
   - "[[Competing Consumers]]"
 tags: []
@@ -37,6 +38,7 @@ Message Broker - это инфраструктурный компонент, к�
 Связанные заметки:
 
 - `[[Publish-Subscribe]]`
+- `[[Brokered Messaging Model]]`
 - `[[Competing Consumers]]`
 
 ## Примеры, случаи или следствия

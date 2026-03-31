@@ -21,20 +21,24 @@
 ```text
 Computer Science
 └── Networking
-    ├── Client-Server Model
-    │   ├── Client
-    │   └── Server
-    │       ├── Server Application
-    │       ├── Server Process
-    │       │   ├── Network Listener
-    │       │   ├── Request Handling
-    │       │   ├── Server Concurrency Model
-    │       │   ├── Server Lifecycle Management
-    │       │   ├── Timeouts and Cancellation
-    │       │   ├── Server Observability
-    │       │   └── Server Resource Management
-    │       ├── Server Host
-    │       └── Service Endpoint
+    ├── Network Interaction Models
+    │   ├── Client-Server Model
+    │   │   ├── Client
+    │   │   └── Server
+    │   │       ├── Server Application
+    │   │       ├── Server Process
+    │   │       │   ├── Network Listener
+    │   │       │   ├── Request Handling
+    │   │       │   ├── Server Concurrency Model
+    │   │       │   ├── Server Lifecycle Management
+    │   │       │   ├── Timeouts and Cancellation
+    │   │       │   ├── Server Observability
+    │   │       │   └── Server Resource Management
+    │   │       ├── Server Host
+    │   │       └── Service Endpoint
+    │   ├── Peer-to-Peer Model
+    │   ├── Request-Reply Model
+    │   └── Broadcast and Multicast Model
     ├── Network Topology
     │   ├── Physical and Logical Network Topology
     │   └── Common Network Topologies
@@ -93,7 +97,8 @@ Computer Science
 ## Почему структура именно такая
 
 - `Networking` оправдан как domain-root overview, потому что внутри него уже есть несколько устойчивых обзорных веток с разной оптикой.
-- `Client-Server Model` уместно держать как отдельный `sub-overview`, потому что здесь нужен именно model-centric язык для ролей взаимодействия, не сводимый ни к transport protocols, ни к host infrastructure.
+- `Network Interaction Models` уместно держать как отдельный `sub-overview`, потому что здесь нужен самостоятельный model-centric язык для базовых форм сетевого обмена между узлами.
+- `Client-Server Model` остается одной из этих моделей, но больше не висит напрямую под domain-root, потому что рядом появились другие interaction-level siblings.
 - `Server` лучше оформлять как `overview`, а не как одну перегруженную `article`, потому что термин одновременно живет на уровне роли, программного компонента, процесса, хоста и сетевой точки входа.
 - `Server Process` тоже оправдан как вложенный `overview`, потому что вокруг него уже возникает устойчивый operational cluster: listener, request handling, concurrency, lifecycle, timeouts, observability и resource management.
 - `Packet Switches` лучше держать отдельной sibling-веткой рядом с `Network Protocols` и `Internet`, потому что устройства пересылки пакетов и кадров образуют собственный понятийный кластер.
@@ -110,6 +115,7 @@ Computer Science
 - не создавать отдельные тематические template-файлы под Networking или Packet Switches, потому что по `Principia Rerum` достаточно канонических `Article Template` и `Overview Template`;
 - не создавать отдельные тематические template-файлы под `Network Security` или `VPN`, потому что по `Principia Rerum` достаточно канонических `Article Template` и `Overview Template`;
 - не определять `Server` сразу как машину или только как процесс, потому что это сузит термин раньше, чем будет зафиксирована его role-based рамка;
+- не смешивать `Peer-to-Peer Model` и `Publish-Subscribe`: первая описывает форму сетевой симметрии узлов, вторая уже тяготеет к distributed messaging patterns;
 - не прятать `Packet Switches` внутрь `Network Protocols`, потому что это смешает devices и rules;
 - не прятать `VPN` внутрь `Network Protocols` как просто еще один protocol note;
 - не заводить заранее плоский каталог всех возможных сетевых устройств без устойчивого корпуса;
@@ -118,7 +124,7 @@ Computer Science
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда в `Packet Switches` нужны `Switching Fabric` и `Forwarding Table`
-- [ ] Решить, когда рядом с `Client-Server Model` нужны `Load Balancing`, `Service Discovery` и `Backpressure`
+- [ ] Решить, когда внутри `Network Interaction Models` нужны `Anycast`, `Unicast` и, возможно, `Message Passing vs Streaming`
 - [ ] Решить, когда рядом с `VPN` нужны `Zero Trust Network Access`, `Firewall` и `Network Access Control`
 - [ ] Решить, когда нужен отдельный узел про `Packet Forwarding`
 - [ ] Проверить границу между `Router` и `Routing`
