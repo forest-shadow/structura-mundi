@@ -8,7 +8,7 @@ section: script-loading-and-execution
 parent: "[[Script Loading and Execution Attributes]]"
 status: seed
 related:
-  - "[[Async Script]]"
+  - "[[HTML Script Async Attribute]]"
 tags:
   - web
   - performance

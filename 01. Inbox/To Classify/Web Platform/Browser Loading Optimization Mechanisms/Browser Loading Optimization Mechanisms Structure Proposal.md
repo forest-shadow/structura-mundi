@@ -30,8 +30,8 @@ Browser Page Processing (overview)
     ├── Fetch Priority.md (article)
     ├── Lazy Loading.md (article)
     ├── Script Loading and Execution Attributes (overview)
-    │   ├── Async Script.md (article)
-    │   └── Defer Script.md (article)
+    │   ├── HTML Script Async Attribute.md (article)
+    │   └── HTML Script Defer Attribute.md (article)
     └── Speculation Rules API.md (article)
 ```
 

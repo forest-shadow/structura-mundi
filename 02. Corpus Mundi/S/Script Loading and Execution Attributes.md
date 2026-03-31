@@ -8,8 +8,8 @@ section: script-loading-and-execution
 parent: "[[Browser Loading Optimization Mechanisms]]"
 status: draft
 related:
-  - "[[Async Script]]"
-  - "[[Defer Script]]"
+  - "[[HTML Script Async Attribute]]"
+  - "[[HTML Script Defer Attribute]]"
   - "[[Resource Hints]]"
   - "[[Fetch Priority]]"
 tags:
