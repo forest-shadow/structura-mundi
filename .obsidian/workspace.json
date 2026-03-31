@@ -102,12 +102,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/H/Hymenaios.md",
+                "file": "01. Inbox/To Classify/Artificial Intelligence/Artificial Intelligence.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hymenaios"
+              "title": "Artificial Intelligence"
             }
           }
         ],
@@ -164,8 +164,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/H/Hymenaios.md",
+                "file": "01. Inbox/To Classify/Artificial Intelligence/Artificial Intelligence.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hymenaios"
+              "title": "Outline of Artificial Intelligence"
             }
           },
           {
@@ -298,8 +297,14 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "1406480daf0e7c1c",
+  "active": "defbdf1df8cf53b2",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/Proxy/Reverse Proxy.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/Proxy/Forward Proxy.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/Proxy/Proxy.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/Proxy/Proxy Structure Proposal.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/Application Layer Protocols/HTTP/Proxy",
+    "02. Corpus Mundi/H/Hymenaios.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Гончаров Иван Александрович/Гончаров Иван Александрович Произведения/Обыкновенная история.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Гончаров Иван Александрович/Гончаров Иван Александрович Произведения/Обрыв.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Гончаров Иван Александрович/Гончаров Иван Александрович Произведения/Обломов.md",
@@ -327,17 +332,11 @@
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/Synchronization Primitives/Race Condition.md",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/Synchronization Primitives/Data Race.md",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/Synchronization Primitives",
-    "01. Inbox/To Classify/Operating Systems/Processes and Threads/Processes and Threads Structure Proposal.md",
-    "01. Inbox/To Classify/Operating Systems/Processes and Threads/Synchronization Primitives.md",
-    "01. Inbox/To Classify/Operating Systems/Processes and Threads/Interprocess Communication.md",
-    "01. Inbox/To Classify/Operating Systems/Processes and Threads/CPU Scheduling/Context Switch.md",
-    "01. Inbox/To Classify/Operating Systems/Processes and Threads/CPU Scheduling.md",
     "01. Inbox/To Classify/Operating Systems/Virtual Memory/Paging",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/Process",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/CPU Scheduling",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads",
     "01. Inbox/To Classify/Operating Systems/Synchronization Primitives",
-    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels",
     "02. Corpus Mundi/I/_resources/internet-core.jpg",
     "Pasted image 20260329214811.png",
     "02. Corpus Mundi/I/_resources/internet-access-networks.jpg",

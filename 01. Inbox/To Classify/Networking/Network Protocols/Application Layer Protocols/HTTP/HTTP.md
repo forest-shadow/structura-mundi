@@ -17,6 +17,7 @@ related:
   - "[[HTTP Status Codes]]"
   - "[[HTTP Header Fields]]"
   - "[[HTTP Versions]]"
+  - "[[Proxy]]"
 tags: []
 ---
 
@@ -33,6 +34,7 @@ tags: []
 - `[[HTTP Status Codes]]`
 - `[[HTTP Header Fields]]`
 - `[[HTTP Versions]]`
+- `[[Proxy]]`
 
 ## Как устроена ветка
 
@@ -40,13 +42,15 @@ tags: []
 - `HTTP Messages` фиксирует базовую структуру запросов и ответов.
 - `HTTP Methods`, `HTTP Status Codes` и `HTTP Header Fields` выделены в отдельные статьи, потому что это самостоятельные устойчивые аспекты HTTP semantics.
 - `HTTP Versions` нужна как отдельная статья, чтобы не смешивать protocol semantics с эволюцией transport and framing model от HTTP/1.1 к HTTP/2 и HTTP/3.
+- `Proxy` оправдан как вложенный `sub-overview`, потому что HTTP по своей природе включает не только клиента и origin-сервер, но и промежуточные узлы с разными ролями, прежде всего `Forward Proxy` и `Reverse Proxy`.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[HTTP Messages]]`, чтобы зафиксировать request-response модель.
 2. Затем перейти к `[[HTTP Methods]]` и `[[HTTP Status Codes]]`.
 3. После этого читать `[[HTTP Header Fields]]`.
-4. Завершить `[[HTTP Versions]]`, чтобы понять, как менялась реализация протокола.
+4. Затем перейти к `[[Proxy]]`, если нужно увидеть роль промежуточных HTTP-узлов.
+5. Завершить `[[HTTP Versions]]`, чтобы понять, как менялась реализация протокола.
 
 ## Соседние overview-ветки
 
@@ -58,4 +62,5 @@ tags: []
 
 - [ ] Решить, когда нужны `HTTP Caching`, `Content Negotiation` и `Cookies`
 - [ ] Проверить, нужен ли отдельный узел про `HTTP Semantics`
+- [ ] Решить, когда рядом с `Proxy` нужны `Load Balancer` и `API Gateway`
 - [ ] Проверить `related`
