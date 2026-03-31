@@ -102,12 +102,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Networking/Network Security/Network Security.md",
+                "file": "01. Inbox/To Classify/Compilation/Compilation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Network Security"
+              "title": "Compilation"
             }
           }
         ],
@@ -168,8 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5,
-    "collapsed": true
+    "width": 389.5
   },
   "right": {
     "id": "bc1652196a189fba",
@@ -185,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Networking/Network Security/Network Security.md",
+                "file": "01. Inbox/To Classify/Compilation/Compilation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Network Security"
+              "title": "Outline of Compilation"
             }
           },
           {
@@ -276,8 +275,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -301,6 +299,11 @@
   },
   "active": "defbdf1df8cf53b2",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Compilation/Compilation Structure Proposal.md",
+    "01. Inbox/To Classify/Compilation/Compilation.md",
+    "01. Inbox/To Classify/History/Русская военная история/Белое движение Structure Proposal.md",
+    "01. Inbox/To Classify/History/Русская военная история/Белое движение.md",
+    "01. Inbox/To Classify/Networking/Network Security/Network Security.md",
     "01. Inbox/To Classify/Databases/Database Connection Pooling.md",
     "01. Inbox/To Classify/Software Architecture/Connection Pooling.md",
     "01. Inbox/To Classify/Software Architecture/Connection Pooling Structure Proposal.md",
@@ -322,14 +325,9 @@
     "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Lexical Analysis.md",
     "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Program Translation Pipeline.md",
     "01. Inbox/To Classify/Compilation/Executable Binary.md",
-    "01. Inbox/To Classify/Compilation/Machine Code.md",
-    "01. Inbox/To Classify/Compilation/Abstract Syntax Tree.md",
-    "01. Inbox/To Classify/Compilation/Compilation Structure Proposal.md",
-    "01. Inbox/To Classify/Compilation/Compilation.md",
     "01. Inbox/To Classify/Boolean Logic",
     "01. Inbox/To Classify/Compilation/Program Translation Pipeline",
     "01. Inbox/To Classify/Compilation",
-    "01. Inbox/To Classify/Networking/Proxy/Proxy Protocols and Mechanisms/Proxy Chaining.md",
     "01. Inbox/To Classify/Networking/Proxy/Proxy Roles",
     "01. Inbox/To Classify/Networking/Proxy/Proxy Protocols and Mechanisms",
     "01. Inbox/To Classify/Networking/Proxy/Proxy Processing Models",

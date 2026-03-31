@@ -132,3 +132,20 @@ Compilation/
 2. Проверить, не нужен ли позднее более широкий узел `Language Implementation`.
 3. Уточнить границы между `Compilation`, `Program Translation Pipeline` и будущими notes про `Interpreter` или `Loader`.
 4. Наполнить `Compilation` и `Program Translation Pipeline` так, чтобы уже из overview-узлов было видно различие между стадиями процесса и артефактами процесса.
+
+
+# Compilation: Рекомендуемый маршрут чтения
+
+1. Начать с `Compilation`.
+2. Затем перейти к `[[Program Translation Pipeline]]`, чтобы увидеть общую последовательность преобразований.
+3. После этого читать `[[Abstract Syntax Tree]]`, `[[Machine Code]]` и `[[Executable Binary]]` как ключевые представления и результаты процесса.
+
+## Как устроена ветка
+
+- `Compilation` служит корневым `overview` для общей темы трансляции программы.
+- Отдельный вложенный `overview` `[[Program Translation Pipeline]]` нужен для устойчивого набора стадий вроде lexical analysis, parsing, semantic analysis, code generation и linking.
+- `Abstract Syntax Tree`, `Machine Code` и `Executable Binary` лучше держать отдельными `article`, потому что это не просто шаги конвейера, а самостоятельные представления или артефакты, к которым будут вести ссылки из разных частей ветки.
+## Что стоит раскрыть дальше
+
+- [ ] Проверить, когда рядом нужны `Compiler`, `Interpreter` и `Linker`
+- [ ] Проверить границы между compilation, build pipeline и program execution
