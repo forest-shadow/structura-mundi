@@ -102,12 +102,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
+                "file": "01. Inbox/To Classify/History/Русская военная история/Белое движение.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Networking Structure Proposal"
+              "title": "Белое движение"
             }
           }
         ],
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
+                "file": "01. Inbox/To Classify/History/Русская военная история/Белое движение.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Networking Structure Proposal"
+              "title": "Outline of Белое движение"
             }
           },
           {
@@ -299,6 +299,7 @@
   },
   "active": "defbdf1df8cf53b2",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Networking/Networking Structure Proposal.md",
     "02. Corpus Mundi/C/Compilation.md",
     "01. Inbox/To Classify/Compilation/Compilation Structure Proposal.md",
     "01. Inbox/To Classify/History/Русская военная история/Белое движение Structure Proposal.md",
@@ -324,7 +325,6 @@
     "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Parsing.md",
     "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Lexical Analysis.md",
     "01. Inbox/To Classify/Compilation/Program Translation Pipeline/Program Translation Pipeline.md",
-    "01. Inbox/To Classify/Compilation/Executable Binary.md",
     "01. Inbox/To Classify/Boolean Logic",
     "01. Inbox/To Classify/Compilation/Program Translation Pipeline",
     "01. Inbox/To Classify/Compilation",
