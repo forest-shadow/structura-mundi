@@ -249,7 +249,14 @@
 
 #### `computer-science -> databases`
 
+- `database-connections`
 - `redis`
+
+#### `computer-science -> software-architecture`
+
+- `architecture-patterns`
+- `dependency-management`
+- `design-principles`
 
 #### `literature -> literary-studies`
 

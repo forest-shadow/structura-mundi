@@ -23,12 +23,14 @@ Computer Science
     │   ├── Dependency Injection
     │   │   └── Composition Root
     │   └── Service Locator
-    └── Clean Architecture
+    ├── Clean Architecture
+    └── Connection Pooling
 ```
 
-Соседняя language-specific заметка:
+Соседние cross-domain и language-specific заметки:
 
 - `Composition Root in Go`
+- `Database Connection Pooling`
 
 ## Почему структура именно такая
 
@@ -37,6 +39,8 @@ Computer Science
 - `Dependency Inversion Principle` концептуально связан с `Dependency Injection` и `Composition Root`, но не тождествен им.
 - `Composition Root` лучше рассматривать как дочернюю тему `Dependency Injection`: это не отдельный принцип, а место и практика сборки приложения.
 - `Service Locator` стоит рядом с `Dependency Injection`, потому что это соседний способ доступа к зависимостям, обычно менее желательный.
+- `Connection Pooling` лучше держать в `Software Architecture` как общую инженерную статью о паттерне reuse соединений, а не в `Databases`, потому что тема шире database-specific контекста.
+- `Database Connection Pooling` при этом не должно становиться дочерней статьей `Connection Pooling`: это соседняя прикладная database-specific статья, связанная через `related`.
 - `Composition Root in Go` не должен становиться отдельным корнем внутри `Software Architecture`, потому что это языковая реализация общей архитектурной идеи.
 - `Service Reliability` лучше держать в `Distributed Systems`, потому что это ветка про эксплуатацию и надежность распределенных сервисов, а не про общие архитектурные практики.
 

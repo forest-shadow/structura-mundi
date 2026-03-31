@@ -10,6 +10,7 @@ parent: "[[Computer Science]]"
 status: draft
 related:
   - "[[Databases]]"
+  - "[[Database Connection Pooling]]"
   - "[[Database Transactions]]"
   - "[[ACID]]"
   - "[[Transaction Isolation]]"
@@ -30,12 +31,14 @@ tags: []
 - `domain: databases`
 - `section: transactions`
 - `section: redis`
+- `section: database-connections`
 
 ## Рекомендуемая иерархия
 
 ```text
 Computer Science
 └── Databases
+    ├── Database Connection Pooling
     ├── Database Transactions
     │   └── ACID
     │       ├── Transaction Atomicity
@@ -58,7 +61,9 @@ Computer Science
 - `Databases` — это domain-root overview для всей database-ветки внутри `Computer Science`.
 - Внутри него сейчас оправданы две разные линии роста, а не один плоский список заметок:
   - `Database Transactions` собирает темы про корректность изменений, ACID и транзакционную семантику;
+  - `Database Connection Pooling` собирает database-specific perspective на работу пула соединений, connection budget, saturation и operational tuning;
   - `Redis` собирает product-specific темы про Redis как in-memory data structure store.
+- `Database Connection Pooling` не является дочерней статьей `Connection Pooling`: общая статья про pooling-pattern живет в другой доменной оптике и связывается только через `related`.
 - `Database Transactions` в этой модели работает как первый устойчивый sub-overview внутри domain `databases`, хотя формально сам остаётся обычной канонической overview-заметкой со своим `section: transactions`.
 - Ветка `Database Transactions -> ACID` здесь принципиальна: `ACID` выступает не просто соседней заметкой, а обзорным узлом второго уровня для четырёх свойств транзакционной модели.
 - `Transaction Atomicity`, `Transaction Consistency`, `Transaction Isolation` и `Transaction Durability` не являются peer-ветками рядом с `Database Transactions`: это дочерние статьи внутри `ACID`.
@@ -71,6 +76,7 @@ Computer Science
 - `Databases` оправдан как domain-root overview, потому что тема уже не сводится к одному механизму и в ней видны разные осмысленные линии роста.
 - `Databases` не стоит описывать как просто список database concepts: по правилам `Principia Rerum` здесь важнее показать несколько устойчивых смысловых подветок, чем перечислить все возможные термины на одном уровне.
 - `Database Transactions` лучше держать первым устойчивым sub-overview, потому что вокруг него уже собран реальный кластер заметок о корректности, фиксации изменений, ACID и уровнях изоляции.
+- `Database Connection Pooling` лучше держать отдельной article-note прямо под `Databases`, потому что это уже database-specific operational topic, но пока еще не самостоятельный обзорный кластер.
 - `ACID` логичнее подчинять `Database Transactions`, а не держать peer-узлом рядом с `Redis` или другими будущими database-ветками, потому что по смыслу это обзорный контракт именно транзакционной модели.
 - Внутри `ACID` уже оправдана собственная дочерняя структура: `Atomicity`, `Consistency`, `Isolation` и `Durability` — это разные аспекты одного обзорного узла, а не случайный набор связанных статей.
 - `Transaction Isolation` лучше сохранять как промежуточный обзорный узел между `ACID` и `Transaction Isolation Levels`, потому что он описывает само свойство isolation как часть ACID, тогда как `Transaction Isolation Levels` описывает уже шкалу допустимых компромиссов.
@@ -82,6 +88,7 @@ Computer Science
 
 - Не стоит преждевременно заводить широкие sibling-ветки вроде `Storage Engines`, `Query Processing`, `Index Structures` или `Data Modeling`, пока под них нет устойчивого корпуса самостоятельных notes.
 - Не стоит смешивать `Redis`-ветку с `Distributed Cache` как будто это одна и та же иерархия: связь между ними поперечная, а не родительская.
+- Не стоит подчинять `Database Connection Pooling` общей статье `Connection Pooling`, потому что это создает ложную иерархию между разными domain perspectives.
 - Не стоит поднимать `ACID` обратно на один уровень с `Databases`, если ветка `Database Transactions -> ACID` уже работает как естественный узел сборки.
 - Не стоит перепрыгивать через `Transaction Isolation` и описывать дерево как `Database Transactions -> Transaction Isolation Levels`, если в корпусе уже оформлен промежуточный обзорный узел свойства isolation.
 - Не стоит создавать специальные templates под database notes: по `Principia Rerum` достаточно канонических `Overview Template` и `Article Template`.
@@ -94,6 +101,7 @@ Computer Science
 │   └── ACID.md
 ├── D/
 │   ├── Databases.md
+│   ├── Database Connection Pooling.md
 │   └── Database Transactions.md
 ├── R/
 │   ├── Redis.md
@@ -107,6 +115,7 @@ Computer Science
 - `[[Databases]]`
 - `[[Redis]]`
 - `[[Redis Sorted Set]]`
+- `[[Database Connection Pooling]]`
 
 ## Что уже существует в Corpus Mundi или соседних ветках
 
@@ -118,5 +127,6 @@ Computer Science
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда рядом с `transactions` и `redis` нужны другие section-level кластеры
+- [ ] Проверить, нужен ли позднее отдельный overview `Database Connections`, если рядом появятся `DB Proxy`, `PgBouncer` и `Connection Budget`
 - [ ] Проверить, нужен ли позже отдельный overview про database internals
 - [ ] Проверить `related`
