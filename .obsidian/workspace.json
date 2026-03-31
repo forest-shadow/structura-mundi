@@ -143,7 +143,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "эпиталама",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +164,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -297,7 +298,7 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "1406480daf0e7c1c",
   "lastOpenFiles": [
     "01. Inbox/To Classify/Literature/Russian Literature/Гончаров Иван Александрович/Гончаров Иван Александрович Произведения/Обыкновенная история.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Гончаров Иван Александрович/Гончаров Иван Александрович Произведения/Обрыв.md",
