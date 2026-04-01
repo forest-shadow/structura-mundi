@@ -71,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server/Server Process/Server Process.md",
+                "file": "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server/Server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Server Process"
+              "title": "Server"
             }
           }
         ],
@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server/Server Process/Server Process.md",
+                "file": "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server/Server.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Server Process"
+              "title": "Outline of Server"
             }
           },
           {
@@ -268,8 +268,8 @@
   },
   "active": "ac1862f5617770a6",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server/Server Process/Server Process Structure Proposal.md",
     "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server/Server Process/Server Process.md",
+    "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server/Server Process/Server Process Structure Proposal.md",
     "02. Corpus Mundi/C/Client-Server Model.md",
     "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Client-Server Model Structure Proposal.md",
     "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server/Server.md",
