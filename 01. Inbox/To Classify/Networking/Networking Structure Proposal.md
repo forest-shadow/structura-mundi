@@ -71,6 +71,9 @@ Computer Science
     │   ├── Router
     │   └── Link-Layer Switch
     ├── Internet
+    │   ├── Network Edge
+    │   │   ├── End System
+    │   │   └── Access Network
     │   ├── TCP IP Model
     │   │   ├── TCP IP Link Layer
     │   │   ├── TCP IP Internet Layer
@@ -108,6 +111,9 @@ Computer Science
 - `Network Protocols` лучше не смешивать с `Packet Switches`: протоколы описывают правила взаимодействия, а switches и routers являются устройствами, реализующими пересылку и коммутацию.
 - `VPN` не стоит прятать напрямую под `Internet` или `Network Protocols`, потому что тема VPN описывает не только протокол, но и security pattern защищенного логического канала поверх недоверенной сети.
 - `Internet` остаётся отдельной operational-веткой про современную сетевую среду, где routing и addressing рассматриваются как рабочие механизмы реального интернета.
+- `Network Edge` логично держать внутри `Internet`, а не в `Network Interaction Models`, потому что это infrastructural-ветка, собирающая hosts и access connectivity, а не role-based формы обмена.
+- `End System` лучше оставить обычной `article`, потому что desktops, smartphones и servers здесь являются примерами одного устойчивого класса hosts, а не самостоятельными дочерними узлами.
+- `Access Network` оправдана как sibling-статья рядом с `End System`, потому что описывает подключение к Internet, а не саму конечную систему.
 - `OSI Model` и `TCP IP Model` остаются model-centric ветками, а не контейнерами для всех device notes.
 
 ## Что не стоит делать прямо сейчас
@@ -119,12 +125,14 @@ Computer Science
 - не прятать `Packet Switches` внутрь `Network Protocols`, потому что это смешает devices и rules;
 - не прятать `VPN` внутрь `Network Protocols` как просто еще один protocol note;
 - не заводить заранее плоский каталог всех возможных сетевых устройств без устойчивого корпуса;
-- не дублировать `Router` одновременно под `Internet`, `OSI Model` и `Packet Switches`.
+- не дублировать `Router` одновременно под `Internet`, `OSI Model` и `Packet Switches`;
+- не выносить `Desktop`, `Smartphone` и `Server` в отдельные Internet-статьи, пока `End System` остается достаточным узлом для этой классификации.
 
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда в `Packet Switches` нужны `Switching Fabric` и `Forwarding Table`
 - [ ] Решить, когда внутри `Network Interaction Models` нужны `Anycast`, `Unicast` и, возможно, `Message Passing vs Streaming`
+- [ ] Решить, когда внутри `Internet` рядом с `Network Edge` нужен `Network Core`
 - [ ] Решить, когда рядом с `VPN` нужны `Zero Trust Network Access`, `Firewall` и `Network Access Control`
 - [ ] Решить, когда нужен отдельный узел про `Packet Forwarding`
 - [ ] Проверить границу между `Router` и `Routing`
