@@ -71,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Web Platform/Web Origin Model/Web Origin Model.md",
+                "file": "01. Inbox/To Classify/Networking/Network Protocols/Network Protocols.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Web Origin Model"
+              "title": "Network Protocols"
             }
           }
         ],
@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Web Platform/Web Origin Model/Web Origin Model.md",
+                "file": "01. Inbox/To Classify/Networking/Network Protocols/Network Protocols.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Web Origin Model"
+              "title": "Outline of Network Protocols"
             }
           },
           {
@@ -266,8 +266,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "ac1862f5617770a6",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Networking/Network Protocols/Network Protocols Structure Proposal.md",
+    "02. Corpus Mundi/W/Web Origin Model.md",
     "01. Inbox/To Classify/Web Platform/Web Origin Model/CORS Structure Proposal.md",
     "01. Inbox/To Classify/Web Platform/Web Origin Model/CORS.md",
     "01. Inbox/To Classify/Web Platform/Web Origin Model",
@@ -296,8 +298,6 @@
     "01. Inbox/To Classify/Networking/Network Interaction Models/Request-Reply Model.md",
     "01. Inbox/To Classify/Networking/Network Interaction Models/Peer-to-Peer Model.md",
     "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models",
-    "01. Inbox/To Classify/Networking/Client-Server Model/Client-Server Model.md",
-    "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server/Server Process/Timeouts and Cancellation.md",
     "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server/Server Process",
     "01. Inbox/To Classify/Networking/Network Interaction Models/Client-Server Model/Server",
     "01. Inbox/To Classify/Networking/Network Interaction Models",

@@ -1,20 +1,3 @@
----
-aliases:
-  - Network Protocols Structure Proposal
-note_type: article
-area: computer-science
-domain: networking
-section: network-protocols
-parent: "[[Networking]]"
-status: draft
-related:
-  - "[[Networking]]"
-  - "[[Network Protocols]]"
-  - "[[Network Layer Protocols]]"
-  - "[[Routing Protocols]]"
-  - "[[HTTP]]"
-tags: []
----
 
 # Network Protocols Structure Proposal
 
