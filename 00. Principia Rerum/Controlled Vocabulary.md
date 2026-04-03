@@ -65,6 +65,7 @@
 
 Текущий утвержденный словарь:
 
+- `anthropology`
 - `computer-science`
 - `philosophy`
 - `history`
@@ -109,6 +110,10 @@
 
 - `military-history`
 
+#### Внутри `anthropology`
+
+- пока нет подтвержденных `domain` в `Corpus Mundi`
+
 ### Как читать этот список
 
 - Это не просто примеры, а фактически подтвержденные таксоны, уже использованные в `02. Corpus Mundi`.
@@ -138,6 +143,7 @@
 #### Внутри `computer-science`
 
 - `artificial-intelligence`
+- `computer-architecture`
 - `networking`
 
 #### Внутри `literature`
@@ -147,6 +153,11 @@
 #### Внутри `religion`
 
 - `mythology`
+- `religious-studies`
+
+#### Внутри `anthropology`
+
+- `ethnobiology`
 
 ## `section`
 
@@ -202,6 +213,10 @@
 
 - `russian-military-history`
 
+#### `anthropology -> ethnobiology`
+
+- пока нет подтвержденных `section` в `Corpus Mundi`
+
 ### Как читать этот список
 
 - Это рабочая карта уже существующих тематических кластеров корпуса.
@@ -237,6 +252,10 @@
 - `openai-codex`
 - `ai-assisted-software-development`
 
+#### `computer-science -> computer-architecture`
+
+- `instruction-set-architecture`
+
 #### `computer-science -> networking`
 
 - `network-topology`
@@ -258,6 +277,11 @@
 - `architecture-patterns`
 - `dependency-management`
 - `design-principles`
+- `performance-modeling`
+
+#### `anthropology -> ethnobiology`
+
+- `ethnomycology`
 
 #### `literature -> literary-studies`
 
@@ -267,6 +291,10 @@
 #### `religion -> mythology`
 
 - `greek-mythology`
+
+#### `religion -> religious-studies`
+
+- `entheogenic-traditions`
 
 ## Правило расширения словаря
 

@@ -10,6 +10,7 @@
 - `section: network-topology`
 - `section: network-performance`
 - `section: network-protocols`
+- `section: traffic-intermediation`
 - `section: network-security`
 - `section: internet`
 - `section: dns`
@@ -61,6 +62,32 @@ Computer Science
     │   │   └── Routing Protocols
     │   ├── Transport Layer Protocols
     │   └── Application Layer Protocols
+    ├── Proxy
+    │   ├── Proxy Roles
+    │   │   ├── Forward Proxy
+    │   │   └── Reverse Proxy
+    │   ├── Proxy Interception Models
+    │   │   ├── Explicit Proxy
+    │   │   ├── Transparent Proxy
+    │   │   └── Intercepting Proxy
+    │   ├── Proxy Processing Models
+    │   │   ├── Circuit-Level Proxy
+    │   │   ├── Application-Level Proxy
+    │   │   ├── Layer 4 Proxy
+    │   │   └── Layer 7 Proxy
+    │   ├── Proxy Protocols and Mechanisms
+    │   │   ├── HTTP Proxy
+    │   │   ├── SOCKS Proxy
+    │   │   ├── CONNECT Tunneling
+    │   │   ├── Proxy Authentication
+    │   │   └── Proxy Chaining
+    │   └── Proxy Functions
+    ├── Service Mesh
+    │   ├── Service Mesh Control Plane
+    │   ├── Service Mesh Data Plane
+    │   └── Istio
+    ├── TLS Termination
+    ├── Origin Shielding
     ├── Network Security
     │   └── VPN
     │       ├── Remote Access VPN
@@ -109,6 +136,8 @@ Computer Science
 - `VPN` уже лучше оформлять как `sub-overview`, а не как одиночный article, потому что внутри темы быстро возникают разные deployment patterns, tunnel mechanics и protocol families.
 - `Router` и `Link-Layer Switch` логично собирать под `Packet Switches`, а не разносить по разным моделям стека, потому что здесь важнее их общая роль forwarding devices.
 - `Network Protocols` лучше не смешивать с `Packet Switches`: протоколы описывают правила взаимодействия, а switches и routers являются устройствами, реализующими пересылку и коммутацию.
+- `Proxy`, `Service Mesh`, `TLS Termination` и `Origin Shielding` образуют соседний intermediary-layer cluster внутри networking: это темы про промежуточную обработку и управление трафиком, а не про базовые protocol families или packet-forwarding devices.
+- `Service Mesh` лучше держать sibling-веткой рядом с `Proxy`, а не внутри него, потому что service mesh включает не только proxying, но и control-plane coordination для service-to-service traffic.
 - `VPN` не стоит прятать напрямую под `Internet` или `Network Protocols`, потому что тема VPN описывает не только протокол, но и security pattern защищенного логического канала поверх недоверенной сети.
 - `Internet` остаётся отдельной operational-веткой про современную сетевую среду, где routing и addressing рассматриваются как рабочие механизмы реального интернета.
 - `Network Edge` логично держать внутри `Internet`, а не в `Network Interaction Models`, потому что это infrastructural-ветка, собирающая hosts и access connectivity, а не role-based формы обмена.
@@ -119,6 +148,7 @@ Computer Science
 ## Что не стоит делать прямо сейчас
 
 - не создавать отдельные тематические template-файлы под Networking или Packet Switches, потому что по `Principia Rerum` достаточно канонических `Article Template` и `Overview Template`;
+- не создавать отдельные тематические template-файлы под `traffic-intermediation`, `Proxy` или `Service Mesh`, потому что по `Principia Rerum` достаточно канонических `Article Template` и `Overview Template`;
 - не создавать отдельные тематические template-файлы под `Network Security` или `VPN`, потому что по `Principia Rerum` достаточно канонических `Article Template` и `Overview Template`;
 - не определять `Server` сразу как машину или только как процесс, потому что это сузит термин раньше, чем будет зафиксирована его role-based рамка;
 - не смешивать `Peer-to-Peer Model` и `Publish-Subscribe`: первая описывает форму сетевой симметрии узлов, вторая уже тяготеет к distributed messaging patterns;
@@ -132,6 +162,7 @@ Computer Science
 
 - [ ] Решить, когда в `Packet Switches` нужны `Switching Fabric` и `Forwarding Table`
 - [ ] Решить, когда внутри `Network Interaction Models` нужны `Anycast`, `Unicast` и, возможно, `Message Passing vs Streaming`
+- [ ] Проверить границу между `Proxy`, `Service Mesh`, `TLS Termination` и `Origin Shielding`
 - [ ] Решить, когда внутри `Internet` рядом с `Network Edge` нужен `Network Core`
 - [ ] Решить, когда рядом с `VPN` нужны `Zero Trust Network Access`, `Firewall` и `Network Access Control`
 - [ ] Решить, когда нужен отдельный узел про `Packet Forwarding`

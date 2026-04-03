@@ -9,6 +9,7 @@ parent: "[[Networking]]"
 status: seed
 related:
   - "[[Networking]]"
+  - "[[Service Mesh]]"
   - "[[Proxy Roles]]"
   - "[[Proxy Interception Models]]"
   - "[[Proxy Processing Models]]"
@@ -41,6 +42,7 @@ tags: []
 - `Proxy Protocols and Mechanisms` удерживает конкретные протокольные и operational mechanisms вроде `HTTP Proxy`, `SOCKS Proxy` и `CONNECT Tunneling`.
 - `Proxy Functions` пока остается одной статьей, чтобы не дробить ветку преждевременно.
 - Более широкие соседние темы вроде `TLS Termination` и `Origin Shielding` не подчиняются этой ветке, а связываются с ней поперечно.
+- `Service Mesh` стоит держать соседней overview-веткой, а не дочерней proxy-темой: mesh использует proxy-компоненты, но не сводится к ним.
 
 ## Рекомендуемый маршрут чтения
 
@@ -49,15 +51,17 @@ tags: []
 3. После этого читать `[[Proxy Interception Models]]` и `[[Proxy Processing Models]]`.
 4. Затем перейти к `[[Proxy Protocols and Mechanisms]]`.
 5. Завершить `[[Proxy Functions]]`, `[[TLS Termination]]` и `[[Origin Shielding]]` как практическими соседними темами.
+6. После этого перейти к `[[Service Mesh]]`, если нужен слой service-to-service traffic management внутри распределенной системы.
 
 ## Соседние overview-ветки
 
 - Родительская рамка: `[[Networking]]`
 - Протокольная ветка: `[[Network Protocols]]`
 - Прикладная ветка: `[[Application Layer Protocols]]`
+- Соседняя intermediary-ветка: `[[Service Mesh]]`
 
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда рядом нужны `Load Balancer` и `API Gateway`
-- [ ] Решить, когда рядом нужен `Service Mesh`
+- [ ] Проверить границу между `Proxy` и `Service Mesh`
 - [ ] Проверить `related`

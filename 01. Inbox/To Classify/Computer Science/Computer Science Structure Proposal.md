@@ -11,6 +11,7 @@ related:
   - "[[Computer Science]]"
   - "[[Algorithms]]"
   - "[[Programming Languages]]"
+  - "[[Computer Architecture]]"
   - "[[Networking]]"
   - "[[Operating Systems]]"
 tags: []
@@ -20,7 +21,7 @@ tags: []
 
 ## Краткое определение
 
-Предлагаемая ветка для `Computer Science` собирает под одним корневым обзорным узлом основные доменные ветки всей области: `algorithms`, `programming-languages`, `databases`, `distributed-systems`, `networking`, `frontend-engineering`, `software-architecture` и `operating-systems`.
+Предлагаемая ветка для `Computer Science` собирает под одним корневым обзорным узлом основные доменные ветки всей области: `algorithms`, `programming-languages`, `computer-architecture`, `databases`, `distributed-systems`, `networking`, `frontend-engineering`, `software-architecture` и `operating-systems`.
 
 ## Выбранная оптика
 
@@ -50,6 +51,8 @@ Computer Science
 ├── Programming Languages
 │   ├── Go
 │   └── JavaScript
+├── Computer Architecture
+│   └── Instruction Set Architecture
 ├── Databases
 │   ├── Database Transactions
 │   ├── ACID
@@ -89,7 +92,7 @@ Computer Science
 
 - `Computer Science` нужен как root `overview`, потому что здесь уже есть несколько устойчивых доменных веток, а не одна локальная тема.
 - Дочерние узлы верхнего уровня лучше делать domain-overview notes, а не сразу вести от `Computer Science` к случайным специализированным заметкам.
-- `Algorithms`, `Programming Languages`, `Distributed Systems`, `Networking`, `Frontend Engineering` и `Operating Systems` уже имеют достаточно плотные или ожидаемо плотные подветки.
+- `Algorithms`, `Programming Languages`, `Computer Architecture`, `Distributed Systems`, `Networking`, `Frontend Engineering` и `Operating Systems` уже имеют достаточно плотные или ожидаемо плотные подветки.
 - Внутри `Distributed Systems` уже стоит отражать, что `Dual Write` живет под `Distributed Systems Problems`, `Event-Driven Architecture` выступает как отдельная подветка, а `Service Reliability` собирает operational branch.
 - `Databases` пока тоньше, но все равно оправдан как доменная рамка, потому что без него корневая ветка начинает смешивать уровни абстракции.
 - `Software Architecture` оправдан как отдельная доменная рамка, потому что внутри него естественно живут `Design Principles`, `Dependency Management` и `Clean Architecture`, тогда как `Service Reliability` логичнее держать в `Distributed Systems`.
@@ -105,6 +108,7 @@ Computer Science
 - `[[Computer Science]]`
 - `[[Algorithms]]`
 - `[[Programming Languages]]`
+- `[[Computer Architecture]]`
 - `[[Databases]]`
 - `[[Distributed Systems]]`
 - `[[Networking]]`

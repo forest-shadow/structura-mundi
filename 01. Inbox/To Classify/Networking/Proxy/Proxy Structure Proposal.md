@@ -10,6 +10,7 @@ status: draft
 related:
   - "[[Proxy]]"
   - "[[Networking]]"
+  - "[[Service Mesh]]"
   - "[[TLS Termination]]"
   - "[[Origin Shielding]]"
 tags: []
@@ -64,6 +65,7 @@ Networking
 - `Proxy Functions` пока лучше держать одной статьей, а не превращать в отдельное дерево из мелких function-notes.
 - `TLS Termination` и `Origin Shielding` не стоит прятать внутрь proxy-ветки как дочерние узлы, потому что они шире reverse-proxy-контекста и должны связываться с несколькими соседними темами.
 - `HTTP Proxy` следует держать рядом с proxy-механизмами, а не под `HTTP`, потому что это частный способ реализации proxy, а не корневая рамка всей темы.
+- `Service Mesh` при появлении собственного корпуса лучше оформлять как соседнюю overview-ветку внутри того же `section: traffic-intermediation`, а не как дочернюю ветку `Proxy`.
 
 ## Что не стоит делать прямо сейчас
 
@@ -74,5 +76,5 @@ Networking
 ## Следующий шаг перед переносом в Corpus Mundi
 
 1. Подтвердить `section: traffic-intermediation` как рабочий кластер внутри `domain: networking`.
-2. Решить, когда рядом нужны `Load Balancer`, `API Gateway` и `Service Mesh`.
-3. Уточнить границы между `Reverse Proxy`, `Layer 7 Proxy`, `HTTP Proxy` и `CDN and Edge Cache`.
+2. Решить, когда рядом нужны `Load Balancer` и `API Gateway`.
+3. Уточнить границы между `Proxy`, `Service Mesh`, `Reverse Proxy`, `Layer 7 Proxy`, `HTTP Proxy` и `CDN and Edge Cache`.

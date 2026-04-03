@@ -13,6 +13,7 @@ related:
   - "[[Caching]]"
   - "[[Event-Driven Architecture]]"
   - "[[Messaging and Coordination Models]]"
+  - "[[Kafka]]"
   - "[[Service Reliability]]"
 tags: []
 ---
@@ -72,6 +73,11 @@ Computer Science
     │   ├── Publish-Subscribe
     │   ├── Producer-Consumer Model
     │   └── Gossip Model
+    ├── Kafka
+    │   ├── Kafka Topic
+    │   ├── Kafka Partition
+    │   ├── Kafka Consumer Group
+    │   └── Kafka Offset
     └── Service Reliability
         ├── Service Level Management
         ├── Telemetry
@@ -91,6 +97,7 @@ Computer Science
 - `Caching` оправдан как отдельный `sub-overview`, потому что в распределенных системах кэш перестает быть локальной микрооптимизацией и становится отдельным слоем trade-offs между latency, load и consistency.
 - `Event-Driven Architecture` уже стоит показывать не просто как одиночную article-note, а как полноценную архитектурную подветку с собственными дочерними темами.
 - `Messaging and Coordination Models` стоит держать рядом с `Event-Driven Architecture`, а не внутри нее: pub-sub, brokered messaging, producer-consumer и gossip шире любой одной архитектурной школы и могут использоваться вне EDA.
+- `Kafka` стоит держать отдельной product-specific веткой рядом с абстрактными messaging notes, а не подчинять `Messaging and Coordination Models`: эта технология образует собственный кластер заметок про topics, partitions, offsets и consumer coordination.
 - `Service Reliability` стоит рядом как operational branch, потому что наблюдаемость, service levels и alerting в распределенных системах естественно собираются именно вокруг надежности сервиса.
 
 ## Что не стоит делать прямо сейчас
@@ -98,6 +105,7 @@ Computer Science
 - Не стоит вытаскивать `Dual Write` обратно на уровень sibling рядом с `Distributed Systems Problems`, если её фактическая и смысловая позиция уже определена как дочерняя problem-ветка.
 - Не стоит смешивать distributed-systems fundamentals с generic software-architecture notes без явной причины.
 - Не стоит держать `Publish-Subscribe` только внутри `Event-Driven Architecture`, если заметка претендует на более общий distributed interaction смысл.
+- Не стоит подчинять `Kafka` заметке `Brokered Messaging Model` или всей ветке `Messaging and Coordination Models`, если речь идет о product-specific корпусе, а не об абстрактном паттерне.
 - Не стоит создавать специальные templates под distributed-systems branches.
 
 ## Что стоит раскрыть дальше
@@ -105,4 +113,5 @@ Computer Science
 - [ ] Решить, когда нужен отдельный sub-overview про consistency models
 - [ ] Решить, когда рядом нужны `Service Discovery` и `Load Balancing`
 - [ ] Подтвердить `section: messaging-and-coordination-models`
+- [ ] Подтвердить `section: kafka`
 - [ ] Проверить `related`
