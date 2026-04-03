@@ -71,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Golang/Go Servers/Go Servers.md",
+                "file": "01. Inbox/To Classify/Religion/Religious Studies/Entheogenic Traditions/Entheogenic Traditions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go Servers"
+              "title": "Entheogenic Traditions"
             }
           }
         ],
@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Golang/Go Servers/Go Servers.md",
+                "file": "01. Inbox/To Classify/Religion/Religious Studies/Entheogenic Traditions/Entheogenic Traditions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go Servers"
+              "title": "Outline of Entheogenic Traditions"
             }
           },
           {
@@ -268,8 +268,8 @@
   },
   "active": "ac1862f5617770a6",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Netpoller.md",
     "01. Inbox/To Classify/Golang/Go Servers/Go Servers.md",
+    "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Netpoller.md",
     "Pasted image 20260401170341.png",
     "Pasted image 20260401170334.png",
     "01. Inbox/To Classify/Golang/Go Servers/Go Servers Structure Proposal.md",
