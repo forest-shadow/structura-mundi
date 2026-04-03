@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Religion/Religious Studies/Entheogenic Traditions/Entheogenic Traditions.md",
+                "file": "02. Corpus Mundi/E/Entheogenic Traditions.md",
                 "mode": "source",
                 "source": false
               },
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Religion/Religious Studies/Entheogenic Traditions/Entheogenic Traditions.md",
+                "file": "02. Corpus Mundi/E/Entheogenic Traditions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -266,7 +266,7 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "ac1862f5617770a6",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
     "01. Inbox/To Classify/Golang/Go Servers/Go Servers.md",
     "01. Inbox/To Classify/Golang/Go Concurrency Model/Go Scheduler/Go Netpoller.md",
