@@ -66,6 +66,7 @@
 Текущий утвержденный словарь:
 
 - `anthropology`
+- `biology`
 - `computer-science`
 - `philosophy`
 - `history`
@@ -114,6 +115,10 @@
 
 - пока нет подтвержденных `domain` в `Corpus Mundi`
 
+#### Внутри `biology`
+
+- пока нет подтвержденных `domain` в `Corpus Mundi`
+
 ### Как читать этот список
 
 - Это не просто примеры, а фактически подтвержденные таксоны, уже использованные в `02. Corpus Mundi`.
@@ -158,6 +163,11 @@
 #### Внутри `anthropology`
 
 - `ethnobiology`
+
+#### Внутри `biology`
+
+- `biochemistry`
+- `nutrition`
 
 ## `section`
 
@@ -214,6 +224,14 @@
 - `russian-military-history`
 
 #### `anthropology -> ethnobiology`
+
+- пока нет подтвержденных `section` в `Corpus Mundi`
+
+#### `biology -> nutrition`
+
+- пока нет подтвержденных `section` в `Corpus Mundi`
+
+#### `biology -> biochemistry`
 
 - пока нет подтвержденных `section` в `Corpus Mundi`
 
@@ -282,6 +300,11 @@
 #### `anthropology -> ethnobiology`
 
 - `ethnomycology`
+
+#### `biology -> nutrition`
+
+- `antioxidants`
+- `vitamins`
 
 #### `literature -> literary-studies`
 
