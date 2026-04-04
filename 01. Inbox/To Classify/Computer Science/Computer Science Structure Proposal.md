@@ -1,4 +1,4 @@
-﻿---
+---
 aliases:
   - CS Structure Proposal
 note_type: article

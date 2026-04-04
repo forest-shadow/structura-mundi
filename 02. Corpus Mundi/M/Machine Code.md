@@ -5,7 +5,7 @@ area: computer-science
 domain: programming-languages
 section: compilation
 parent: "[[Compilation]]"
-status: seed
+status: draft
 related:
   - "[[Code Generation]]"
   - "[[Executable Binary]]"
