@@ -11,7 +11,7 @@ status: draft
 related:
   - "[[Computer Architecture]]"
   - "[[Microarchitecture]]"
-  - "[[Instruction Set Architecture]]"
+  - "[[Instruction Set Architecture (ISA)]]"
   - "[[Arithmetic Logic Unit (ALU)]]"
 tags: []
 ---

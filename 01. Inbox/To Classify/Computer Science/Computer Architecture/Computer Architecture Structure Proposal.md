@@ -10,7 +10,7 @@ parent: "[[Computer Science]]"
 status: draft
 related:
   - "[[Computer Architecture]]"
-  - "[[Instruction Set Architecture]]"
+  - "[[Instruction Set Architecture (ISA)]]"
   - "[[Microarchitecture]]"
   - "[[Compilation]]"
   - "[[Machine Code]]"

@@ -12,7 +12,7 @@ status: seed
 related:
   - "[[Boolean Logic]]"
   - "[[Truth Table]]"
-  - "[[Instruction Set Architecture]]"
+  - "[[Instruction Set Architecture (ISA)]]"
 tags: []
 ---
 

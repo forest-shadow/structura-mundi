@@ -8,11 +8,11 @@ note_type: article
 area: computer-science
 domain: computer-architecture
 section: instruction-set-architecture
-parent: "[[Instruction Set Architecture]]"
+parent: "[[Instruction Set Architecture (ISA)]]"
 status: seed
 related:
   - "[[Computer Architecture]]"
-  - "[[Instruction Set Architecture]]"
+  - "[[Instruction Set Architecture (ISA)]]"
   - "[[Machine Code]]"
   - "[[Compilation]]"
 tags: []

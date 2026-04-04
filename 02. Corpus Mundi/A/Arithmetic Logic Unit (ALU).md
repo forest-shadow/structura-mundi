@@ -11,7 +11,7 @@ status: draft
 related:
   - "[[Computer Architecture]]"
   - "[[Microarchitecture]]"
-  - "[[Instruction Set Architecture]]"
+  - "[[Instruction Set Architecture (ISA)]]"
 tags: []
 ---
 ![[cpu-microarchitecture-abstract-block-diagram.jpg|Абстрактная блоковая микроархитектура CPU и место ALU в ней]]

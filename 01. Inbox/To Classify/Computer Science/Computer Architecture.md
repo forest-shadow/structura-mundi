@@ -11,7 +11,7 @@ related:
   - "[[Operating Systems]]"
   - "[[Compilation]]"
   - "[[Machine Code]]"
-  - "[[Instruction Set Architecture]]"
+  - "[[Instruction Set Architecture (ISA)]]"
   - "[[Microarchitecture]]"
 tags: []
 ---

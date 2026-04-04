@@ -8,7 +8,7 @@ section: microarchitecture
 parent: "[[Computer Architecture]]"
 status: seed
 related:
-  - "[[Instruction Set Architecture]]"
+  - "[[Instruction Set Architecture (ISA)]]"
   - "[[Arithmetic Logic Unit (ALU)]]"
 tags: []
 ---

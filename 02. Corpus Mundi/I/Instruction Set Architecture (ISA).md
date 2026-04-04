@@ -14,7 +14,7 @@ related:
   - "[[Operating Systems]]"
 tags: []
 ---
-# 1. ISA = Instruction Set Architecture
+# 1. ISA (Instruction Set Architecture)
 
 ![[isa-01.jpg|600]]
 
