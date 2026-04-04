@@ -5,7 +5,7 @@ note_type: article
 area: computer-science
 domain: computer-architecture
 section: logic-gates
-parent: "[[Elementary Logic Gates]]"
+parent: "[[Elementary Logic Gates (Базовые логические вентили)]]"
 status: seed
 related:
   - "[[Logical Negation]]"

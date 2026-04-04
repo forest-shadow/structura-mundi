@@ -8,7 +8,7 @@ section: logic-gates
 parent: "[[Logic Gates]]"
 status: seed
 related:
-  - "[[Elementary Logic Gates]]"
+  - "[[Elementary Logic Gates (Базовые логические вентили)]]"
   - "[[Truth Table]]"
   - "[[Boolean Logic]]"
 tags: []

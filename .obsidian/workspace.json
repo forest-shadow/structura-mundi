@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Primitive Logic Gates.md",
+                "file": "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Logic Gates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Primitive Logic Gates"
+              "title": "Logic Gates"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Primitive Logic Gates.md",
+                "file": "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Logic Gates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Primitive Logic Gates"
+              "title": "Outline of Logic Gates"
             }
           },
           {
@@ -226,7 +226,11 @@
   },
   "active": "dc3f89961d3608ba",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Elementary Logic Gates.md",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Elementary Logic Gates (Базовые логические вентили).md",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Logic Gates.md",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Logic Gates Structure Proposal.md",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Elementary Logic Gates/OR Gate.md",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Primitive Logic Gates.md",
     "01. Inbox/To Classify/Logic/Syllogistics/Syllogistic Mood.md",
     "01. Inbox/To Classify/Logic/Syllogistics/Hypothetical Syllogism.md",
     "01. Inbox/To Classify/Logic/Syllogistics/Syllogistic Figure.md",
@@ -248,19 +252,15 @@
     "01. Inbox/To Classify/Structure-Preserving Mappings/Homomorphism.md",
     "01. Inbox/To Classify/Structure-Preserving Mappings/Structure-Preserving Mappings.md",
     "01. Inbox/To Classify/Structure-Preserving Mappings/Structure-Preserving Mappings Structure Proposal.md",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Primitive Logic Gates.md",
     "01. Inbox/To Classify/Computer Science/Computer Science Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture.md",
     "02. Corpus Mundi/M/Machine Code.md",
-    "02. Corpus Mundi/I/Instruction Set Architecture (ISA).md",
     "02. Corpus Mundi/I/_resources/isa-01.jpg",
     "foo/bar.tmp",
     "foo",
     "test-apply-patch.tmp",
     "04. Assets/Shared/Images/computer-system-abstraction-hierachy.jpg",
     "01. Inbox/To Classify/Structure-Preserving Mappings",
-    "02. Corpus Mundi/C/Compilation.md",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
     "02. Corpus Mundi/A/_resources/alu-truth-table.jpg",
     "02. Corpus Mundi/A/_resources",
     "02. Corpus Mundi/A/_resources/alu-1-bit-slice.jpg",
