@@ -275,6 +275,8 @@
 #### `computer-science -> computer-architecture`
 
 - `instruction-set-architecture`
+- `logic-gates`
+- `microarchitecture`
 
 #### `computer-science -> networking`
 
