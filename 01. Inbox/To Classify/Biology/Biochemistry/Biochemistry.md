@@ -10,6 +10,7 @@ status: seed
 related:
   - "[[Biology]]"
   - "[[Nutrition]]"
+  - "[[Metabolism]]"
   - "[[Antioxidants]]"
 tags: []
 ---
@@ -22,18 +23,20 @@ tags: []
 
 ## Что входит в эту тему
 
+- `[[Metabolism]]`
 - `[[Antioxidants]]`
 
 ## Как устроена ветка
 
+- `Metabolism` уже оправдана как локальная section-level рамка, потому что тема собирает не одну статью, а устойчивый кластер заметок об анаболизме, катаболизме, биоэнергетике, метаболических путях и их регуляции.
 - `Antioxidants` уже оправдана как локальная section-level рамка, потому что это не один термин, а устойчивый кластер тем о химической защите от окислительного повреждения.
 - `Biochemistry` не должна смешиваться с `Nutrition`, хотя между ними есть плотные связи: nutritional antioxidants важны, но не исчерпывают весь антиоксидантный контекст.
-- Более узкие темы вроде `Reactive Oxygen Species`, `Oxidative Stress`, `Glutathione`, `Catalase` и `Superoxide Dismutase` стоит выносить только при появлении устойчивого корпуса.
+- Более узкие темы вроде `Anabolism`, `Catabolism`, `Metabolic Pathways`, `Energy Metabolism`, `Reactive Oxygen Species`, `Oxidative Stress` и `Glutathione` стоит выносить только при появлении устойчивого корпуса.
 
 ## Рекомендуемый маршрут чтения
 
-1. Начать с `[[Antioxidants]]`.
-2. Затем переходить к более локальным biochemical notes внутри этой ветки, когда они появятся.
+1. Начать с `[[Metabolism]]` как с наиболее общей рамки о biochemical transformations.
+2. Затем перейти к `[[Antioxidants]]` и другим более локальным biochemical notes внутри этой ветки по мере роста корпуса.
 3. Для dietary perspective смотреть поперечную связь с `[[Nutrition]]` и `[[Vitamins]]`.
 
 ## Соседние overview-ветки
@@ -43,6 +46,6 @@ tags: []
 
 ## Что стоит раскрыть дальше
 
-- [ ] Решить, когда внутри `Biochemistry` нужны другие section-level ветки рядом с `Antioxidants`
+- [ ] Решить, когда внутри `Biochemistry` нужны другие section-level ветки рядом с `Metabolism` и `Antioxidants`
 - [ ] Проверить границы между biochemistry и nutrition
 - [ ] Проверить `related`

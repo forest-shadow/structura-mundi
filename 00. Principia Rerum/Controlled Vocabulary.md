@@ -167,6 +167,8 @@
 #### Внутри `biology`
 
 - `biochemistry`
+- `developmental-biology`
+- `evolutionary-biology`
 - `nutrition`
 
 ## `section`
@@ -303,8 +305,20 @@
 
 #### `biology -> nutrition`
 
-- `antioxidants`
 - `vitamins`
+
+#### `biology -> biochemistry`
+
+- `antioxidants`
+- `metabolism`
+
+#### `biology -> developmental-biology`
+
+- `ontogenesis`
+
+#### `biology -> evolutionary-biology`
+
+- `phylogenesis`
 
 #### `literature -> literary-studies`
 
