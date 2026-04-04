@@ -9,7 +9,7 @@ parent: "[[Computer Architecture]]"
 status: seed
 related:
   - "[[Instruction Set Architecture]]"
-  - "[[Arithmetic Logic Unit]]"
+  - "[[Arithmetic Logic Unit (ALU)]]"
 tags: []
 ---
 

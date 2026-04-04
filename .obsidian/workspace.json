@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Computer Science/Computer Architecture/Microarchitecture/Arithmetic Logic Unit.md",
+                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Machine Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arithmetic Logic Unit"
+              "title": "Machine Code"
             }
           }
         ],
@@ -70,8 +70,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ISA",
-                "matchingCase": false,
+                "query": "Machine Code",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Computer Science/Computer Architecture/Microarchitecture/Arithmetic Logic Unit.md",
+                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Machine Code.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Arithmetic Logic Unit"
+              "title": "Outline of Machine Code"
             }
           },
           {
@@ -226,14 +226,23 @@
   },
   "active": "dc3f89961d3608ba",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
+    "02. Corpus Mundi/A/_resources/alu-truth-table.jpg",
+    "02. Corpus Mundi/A/_resources",
+    "02. Corpus Mundi/A/Arithmetic Logic Unit (ALU).md",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Microarchitecture/Microarchitecture Structure Proposal.md",
+    "02. Corpus Mundi/A/_resources/alu-1-bit-slice.jpg",
+    "02. Corpus Mundi/A/_resources/alu-74181-schema.jpg",
+    "Pasted image 20260404181552.png",
+    "Pasted image 20260404180927.png",
+    "Pasted image 20260404180714.png",
+    "02. Corpus Mundi/A/_resources/alu-abstract-representation.jpg",
+    "Pasted image 20260404180703.png",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Microarchitecture/Microarchitecture.md",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/Microarchitecture/Arithmetic Logic Unit.md",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/Microarchitecture/_resources/d8521a8ae9aa4149466ad57659f4a438_MD5.jpg",
+    "04. Assets/Shared/Images/cpu-microarchitecture-abstract-block-diagram.jpg",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Microarchitecture/_resources",
     "Pasted image 20260404173006.png",
     "Tabula Ortus.md",
-    "02. Corpus Mundi/I/_resources/isa-02.jpg",
-    "02. Corpus Mundi/I/_resources/isa-01.jpg",
     "02. Corpus Mundi/I/Instruction Set Architecture.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Instruction Set Architecture Structure Proposal.md",
     "01. Inbox/To Classify/Operating Systems/Containerization/Docker.md",
@@ -247,13 +256,7 @@
     "01. Inbox/To Classify/History/African History/African History.md",
     "01. Inbox/To Classify/History/African History/Names of Africa",
     "01. Inbox/To Classify/History/African History",
-    "Pasted image 20260404134630.png",
-    "Pasted image 20260404134541.png",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/_resources/b0b7032d7e69c7474818f50b8f558871_MD5.jpg",
-    "Pasted image 20260404134521.png",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/_resources/6212312118d65ea855d8706d6ddf0bb1_MD5.jpg",
     "02. Corpus Mundi/I/_resources 1",
-    "Pasted image 20260404134503.png",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Primitive Logic Gates/NOR Gate.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Primitive Logic Gates/NAND Gate.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Elementary Logic Gates/OR Gate.md",
@@ -266,11 +269,9 @@
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates Structure Proposal.md",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/Microarchitecture/Microarchitecture Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Register.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Register Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Microarchitecture",
-    "01. Inbox/To Classify/Programming Languages",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",
