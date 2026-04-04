@@ -69,14 +69,12 @@
             "id": "ac1862f5617770a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "01. Inbox/To Classify/Computer Science/Computer Architecture/Instruction Set Architecture.md",
-                "mode": "source",
-                "source": false
+                "file": "02. Corpus Mundi/I/_resources/isa-02.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Instruction Set Architecture"
+              "icon": "lucide-image",
+              "title": "isa-02"
             }
           }
         ],
@@ -153,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Computer Science/Computer Architecture/Instruction Set Architecture.md",
+                "file": "02. Corpus Mundi/I/_resources/isa-02.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Instruction Set Architecture"
+              "title": "Outline of isa-02"
             }
           },
           {
@@ -266,16 +264,29 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "ac1862f5617770a6",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/_resources/isa-02.jpg",
+    "02. Corpus Mundi/I/_resources/isa-01.jpg",
+    "02. Corpus Mundi/I/Instruction Set Architecture.md",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Instruction Set Architecture Structure Proposal.md",
+    "01. Inbox/To Classify/Operating Systems/Containerization/Docker.md",
+    "01. Inbox/To Classify/Operating Systems/Containerization/Docker Structure Proposal.md",
+    "01. Inbox/To Classify/Operating Systems/Operating Systems.md",
+    "01. Inbox/To Classify/Operating Systems/Containerization/Containerization.md",
+    "01. Inbox/To Classify/Operating Systems/Containerization",
+    "01. Inbox/To Classify/History/African History/Names of Africa/Alkebulan.md",
+    "01. Inbox/To Classify/History/African History/Names of Africa/Alkebulan Structure Proposal.md",
+    "01. Inbox/To Classify/History/African History/Names of Africa/Names of Africa.md",
+    "01. Inbox/To Classify/History/African History/African History.md",
+    "01. Inbox/To Classify/History/African History/Names of Africa",
+    "01. Inbox/To Classify/History/African History",
+    "02. Corpus Mundi/I/_resources/isa-02.jpg",
     "Pasted image 20260404134630.png",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/_resources/isa-01.jpg",
     "Pasted image 20260404134541.png",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/_resources/b0b7032d7e69c7474818f50b8f558871_MD5.jpg",
     "Pasted image 20260404134521.png",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/_resources/6212312118d65ea855d8706d6ddf0bb1_MD5.jpg",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/_resources",
+    "02. Corpus Mundi/I/_resources 1",
     "Pasted image 20260404134503.png",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Primitive Logic Gates/NOR Gate.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Primitive Logic Gates/NAND Gate.md",
@@ -295,26 +306,12 @@
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Register.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Register Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Microarchitecture",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/Instruction Set Architecture Structure Proposal.md",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/Instruction Set Architecture.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Computer Architecture Structure Proposal.md",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
     "01. Inbox/To Classify/Programming Languages",
-    "01. Inbox/To Classify/Biology/Nutrition/Nutrition.md",
-    "01. Inbox/To Classify/Biology/Evolutionary Biology/Phylogenesis Structure Proposal.md",
-    "01. Inbox/To Classify/Biology/Evolutionary Biology/Phylogenesis.md",
-    "01. Inbox/To Classify/Biology/Evolutionary Biology/Evolutionary Biology.md",
     "01. Inbox/To Classify/Biology/Evolutionary Biology",
-    "01. Inbox/To Classify/Biology/Developmental Biology/Ontogenesis Structure Proposal.md",
-    "01. Inbox/To Classify/Biology/Developmental Biology/Ontogenesis.md",
-    "01. Inbox/To Classify/Biology/Developmental Biology/Developmental Biology.md",
-    "01. Inbox/To Classify/Biology/Developmental Biology",
-    "01. Inbox/To Classify/Biology/Biochemistry",
-    "01. Inbox/To Classify/Biology/Nutrition",
     "Pasted image 20260401170341.png",
     "Pasted image 20260401170334.png",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
-    "02. Corpus Mundi/H/_resources/hymenaios.jpg",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",

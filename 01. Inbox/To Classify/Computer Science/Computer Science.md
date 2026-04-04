@@ -1,7 +1,7 @@
----
+﻿---
 aliases:
   - CS
-  - Computer Science Field
+  - Информатика
 note_type: overview
 area: computer-science
 domain:
@@ -9,16 +9,11 @@ section:
 parent:
 status: seed
 related:
-  - "[[Algorithms]]"
+  - "[[Operating Systems]]"
+  - "[[Distributed Systems]]"
+  - "[[Software Architecture]]"
   - "[[Programming Languages]]"
   - "[[Computer Architecture]]"
-  - "[[Databases]]"
-  - "[[Distributed Systems]]"
-  - "[[Networking]]"
-  - "[[Frontend Engineering]]"
-  - "[[Artificial Intelligence]]"
-  - "[[Software Architecture]]"
-  - "[[Operating Systems]]"
 tags: []
 ---
 
@@ -26,40 +21,37 @@ tags: []
 
 ## Краткое определение области
 
-`Computer Science` — это обзорная заметка верхнего уровня для всей области, которая собирает под одной рамкой основные дисциплинарные ветки: алгоритмы, языки программирования, computer architecture, базы данных, распределенные системы, frontend engineering, artificial intelligence, software architecture и operating systems.
+`Computer Science` — это area-level overview для корпуса заметок по вычислительным системам, языкам программирования, архитектуре, алгоритмам, сетям, базам данных и инженерным моделям построения программных систем.
 
 ## Что входит в эту тему
 
-- `[[Algorithms]]`
+- `[[Operating Systems]]`
+- `[[Distributed Systems]]`
+- `[[Software Architecture]]`
 - `[[Programming Languages]]`
 - `[[Computer Architecture]]`
 - `[[Databases]]`
-- `[[Distributed Systems]]`
 - `[[Networking]]`
+- `[[Algorithms]]`
 - `[[Frontend Engineering]]`
-- `[[Artificial Intelligence]]`
-- `[[Software Architecture]]`
-- `[[Operating Systems]]`
 
 ## Как устроена ветка
 
-- `Computer Science` не должна напрямую перечислять все специализированные заметки области.
-- Под ней лучше держать domain-overview notes, а уже они собирают свои собственные тематические ветки.
-- Это позволяет не смешивать разные уровни абстракции: область, домен, локальный тематический кластер и отдельную canonical article.
+- `Computer Science` не должна напрямую собирать product-level заметки вроде `Docker`: между area-root и конкретным термином нужна доменная рамка.
+- Для `Docker` такой рамкой здесь выступает `[[Operating Systems]]`, потому что контейнеризация опирается на механизмы изоляции и исполнения, а не только на практики deployment.
+- Более узкие кластеры внутри доменов должны появляться как section-level overview, если вокруг них уже есть или ожидается плотный корпус заметок.
 
 ## Рекомендуемый маршрут чтения
 
-1. Начать с общей карты `Computer Science`.
-2. Затем выбрать доменную ветку: `[[Algorithms]]`, `[[Programming Languages]]`, `[[Computer Architecture]]`, `[[Databases]]`, `[[Distributed Systems]]`, `[[Networking]]`, `[[Frontend Engineering]]`, `[[Artificial Intelligence]]`, `[[Software Architecture]]` или `[[Operating Systems]]`.
-3. После входа в домен уже переходить к его корневым подветкам и обычным статьям.
+1. Начать с доменной ветки, соответствующей вопросу.
+2. Для темы `Docker` перейти в `[[Operating Systems]]`.
+3. Затем читать `[[Containerization]]` и после этого `[[Docker]]`.
 
 ## Соседние overview-ветки
 
-- На текущем этапе это корневая area-level ветка для `computer-science`.
+- Пока не добавлены.
 
 ## Что стоит раскрыть дальше
 
-- [ ] Уточнить границы между area-level картой и учебным reading order
-- [ ] Проверить доменные overview notes
-- [ ] Проверить, что area-level root остается без `domain` и `section`
+- [ ] Проверить согласованность domain-root веток внутри `Computer Science`
 - [ ] Проверить `related`

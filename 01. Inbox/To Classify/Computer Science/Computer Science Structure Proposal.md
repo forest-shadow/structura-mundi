@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - CS Structure Proposal
 note_type: article
@@ -85,17 +85,17 @@ Computer Science
     ├── Processes and Threads
     ├── System Calls
     ├── File Systems
-    └── Virtual Memory
+    ├── Virtual Memory
+    └── Containerization
+        └── Docker
 ```
 
 ## Почему структура именно такая
 
 - `Computer Science` нужен как root `overview`, потому что здесь уже есть несколько устойчивых доменных веток, а не одна локальная тема.
 - Дочерние узлы верхнего уровня лучше делать domain-overview notes, а не сразу вести от `Computer Science` к случайным специализированным заметкам.
-- `Algorithms`, `Programming Languages`, `Computer Architecture`, `Distributed Systems`, `Networking`, `Frontend Engineering` и `Operating Systems` уже имеют достаточно плотные или ожидаемо плотные подветки.
-- Внутри `Distributed Systems` уже стоит отражать, что `Dual Write` живет под `Distributed Systems Problems`, `Event-Driven Architecture` выступает как отдельная подветка, а `Service Reliability` собирает operational branch.
-- `Databases` пока тоньше, но все равно оправдан как доменная рамка, потому что без него корневая ветка начинает смешивать уровни абстракции.
-- `Software Architecture` оправдан как отдельная доменная рамка, потому что внутри него естественно живут `Design Principles`, `Dependency Management` и `Clean Architecture`, тогда как `Service Reliability` логичнее держать в `Distributed Systems`.
+- `Operating Systems` теперь включает не только execution и memory-management, но и контейнерную ветку `Containerization`, в которую естественно помещается `Docker`.
+- `Docker` не стоит поднимать на уровень domain-root рядом с `Operating Systems`, потому что это уже product/ecosystem-level термин внутри более узкой системной ветки.
 
 ## Что не стоит создавать заранее
 
@@ -106,17 +106,12 @@ Computer Science
 ## Что создано в Inbox
 
 - `[[Computer Science]]`
-- `[[Algorithms]]`
-- `[[Programming Languages]]`
-- `[[Computer Architecture]]`
-- `[[Databases]]`
-- `[[Distributed Systems]]`
-- `[[Networking]]`
-- `[[Frontend Engineering]]`
-- `[[Software Architecture]]`
+- `[[Operating Systems]]`
+- `[[Containerization]]`
+- `[[Docker]]`
 
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить, что `Computer Science` остается area-level root без `domain` и `section`
-- [ ] Проверить, что domain-root overview notes под ней остаются без `section`
+- [ ] Проверить, когда в OS-ветке рядом с `Docker` нужны другие containerization notes
 - [ ] Проверить, какие существующие корни еще стоит переподвесить под domain-overview nodes

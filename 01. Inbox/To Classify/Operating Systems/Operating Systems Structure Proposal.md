@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - OS Structure Proposal
 note_type: article
@@ -13,6 +13,7 @@ related:
   - "[[Virtual Memory]]"
   - "[[System Calls]]"
   - "[[File Systems]]"
+  - "[[Containerization]]"
 tags: []
 ---
 
@@ -20,7 +21,7 @@ tags: []
 
 ## Краткое определение
 
-Предлагаемая рабочая ветка `Operating Systems` собирает под одним корневым обзорным узлом базовые механизмы ОС: execution model, системные вызовы, файловые системы и memory-management ветку `Virtual Memory`.
+Предлагаемая рабочая ветка `Operating Systems` собирает под одним корневым обзорным узлом базовые механизмы ОС: execution model, системные вызовы, файловые системы, memory-management ветку `Virtual Memory` и containerization-ветку `Containerization`.
 
 ## Выбранная оптика
 
@@ -33,7 +34,7 @@ tags: []
 - тема не укладывается естественно в уже существующие соседние `domain`;
 - для ОС нужен собственный предметный фокус, а не искусственное размещение в `software-architecture`;
 - корневая заметка `Operating Systems` описывает весь `domain`, поэтому не должна получать служебный `section`;
-- дочерние кластеры уже получают собственные локальные секции: `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`.
+- дочерние кластеры получают собственные локальные секции: `processes-and-threads`, `system-calls`, `file-systems`, `memory-management` и `containerization`.
 
 ## Каноническое имя
 
@@ -56,25 +57,29 @@ Operating Systems
 │       └── Data Race
 ├── System Calls
 ├── File Systems
-└── Virtual Memory
-    ├── Virtual Address Space
-    └── Paging
-        ├── Page Table
-        ├── TLB
-        └── Page Fault
+├── Virtual Memory
+│   ├── Virtual Address Space
+│   └── Paging
+│       ├── Page Table
+│       ├── TLB
+│       └── Page Fault
+└── Containerization
+    └── Docker
 ```
 
 ## Почему структура именно такая
 
 - `Operating Systems` нужен как root `overview`, потому что рядом уже есть несколько самостоятельных смысловых кластеров, а не одна isolated article.
-- `Processes and Threads` оправдан как `sub-overview`, потому что внутри него живут не только `Process` и `Thread`, но и отдельные coordination/mechanism notes.
-- `Virtual Memory` оправдан как отдельный `sub-overview`, потому что внутри него есть собственная плотная подветка с `Paging`.
+- `Processes and Threads` и `Virtual Memory` оправданы как `sub-overview`, потому что внутри них уже есть плотные дочерние подветки.
 - `System Calls` и `File Systems` пока разумнее держать как обычные `article`, чтобы не усложнять ветку раньше времени.
+- `Containerization` оправдана как отдельный `sub-overview`, потому что она собирает не один термин, а устойчивую группу тем о контейнерах, изоляции процессов, образах и runtime-модели.
+- `Docker` естественно живёт внутри `Containerization`, а не напрямую под корнем `Operating Systems`, потому что это один конкретный инструментальный узел внутри более широкой темы.
 
 ## Текущая физическая раскладка в Inbox
 
 ```text
 Operating Systems/
+├── Operating Systems.md
 ├── Operating Systems Structure Proposal.md
 ├── System Calls.md
 ├── File Systems.md
@@ -94,15 +99,19 @@ Operating Systems/
 │       ├── Synchronization Primitives Structure Proposal.md
 │       ├── Race Condition.md
 │       └── Data Race.md
-└── Virtual Memory/
-    ├── Virtual Memory.md
-    ├── Virtual Memory Structure Proposal.md
-    ├── Virtual Address Space.md
-    └── Paging/
-        ├── Paging.md
-        ├── Page Table.md
-        ├── TLB.md
-        └── Page Fault.md
+├── Virtual Memory/
+│   ├── Virtual Memory.md
+│   ├── Virtual Memory Structure Proposal.md
+│   ├── Virtual Address Space.md
+│   └── Paging/
+│       ├── Paging.md
+│       ├── Page Table.md
+│       ├── TLB.md
+│       └── Page Fault.md
+└── Containerization/
+    ├── Containerization.md
+    ├── Docker.md
+    └── Docker Structure Proposal.md
 ```
 
 ## Что не стоит создавать заранее
@@ -110,13 +119,16 @@ Operating Systems/
 - `Kernel Mode and User Mode`
 - `Interrupts`
 - `Deadlock`
-- `Inode`
-- `Journaling File System`
+- `Container Runtime`
+- `Linux Namespaces`
+- `cgroups`
+- `OCI`
 
 Эти темы лучше выносить в отдельные заметки только по мере появления устойчивого корпуса.
 
 ## Что создано в Inbox
 
+- `[[Operating Systems]]`
 - `[[Processes and Threads]]`
 - `[[Process]]`
 - `[[Process State Model]]`
@@ -135,11 +147,11 @@ Operating Systems/
 - `[[Page Table]]`
 - `[[TLB]]`
 - `[[Page Fault]]`
+- `[[Containerization]]`
+- `[[Docker]]`
 
 ## Что стоит раскрыть дальше
 
-- [ ] Проверить согласованность секций `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`
-- [ ] Проверить, когда `System Calls` начнут требовать собственного sub-overview
-- [ ] Проверить, когда `File Systems` начнут требовать собственного sub-overview
-- [ ] Проверить, когда внутри `Processes and Threads` понадобится `Deadlock`
+- [ ] Проверить согласованность секций `processes-and-threads`, `system-calls`, `file-systems`, `memory-management` и `containerization`
+- [ ] Проверить, когда `Containerization` начнет требовать отдельные дочерние статьи помимо `Docker`
 - [ ] Проверить `related`
