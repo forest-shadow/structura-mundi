@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/A/Alkebulan.md",
+                "file": "Tabula Ortus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Alkebulan"
+              "title": "Outline of Tabula Ortus"
             }
           },
           {
@@ -209,7 +209,7 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "c340083190100fc4",
   "lastOpenFiles": [
     "02. Corpus Mundi/I/_resources/isa-02.jpg",
     "02. Corpus Mundi/I/_resources/isa-01.jpg",
