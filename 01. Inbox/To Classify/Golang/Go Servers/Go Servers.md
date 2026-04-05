@@ -195,13 +195,11 @@ func loggingMiddleware(next http.Handler) http.Handler {
 
 _Данный код демонстрирует управляемый lifecycle, bounded request execution, применение middleware-композиции, строгую timeout configuration и алгоритм graceful shutdown._
 
-### gRPC Server in Go
+## gRPC Server in Go
 
 Применяется преимущественно для жестких межсервисных контрактов (inter-service communication), где критичны строгая схема сообщений (Protobuf), автоматическая генерация кода, streaming-модели взаимодействия и тотальное единообразие интерфейсов (service interfaces).
 
-Go
-
-```
+```Go
 package main
 
 import (
@@ -265,13 +263,11 @@ func loggingUnaryInterceptor(
 
 _gRPC-реализация акцентирует внимание на сервис-ориентированной архитектуре: использовании перехватчиков (interceptors), строгих контрактах методов, сквозной передаче контекста и status-aware обработке ошибок._
 
-### TCP Server in Go
+## TCP Server in Go
 
 Используется в сценариях, требующих прямого, низкоуровневого контроля над транспортом, самостоятельной реализации кадрирования (framing), управления семантикой сессии (session semantics) или применения бинарных non-HTTP протоколов.
 
-Go
-
-```
+```Go
 package main
 
 import (
@@ -344,28 +340,21 @@ func handleConn(conn net.Conn) {
 
 _На уровне TCP очевидно разделение: транспортный слой не тождественен прикладной логике. Программист обязан самостоятельно конструировать framing, контролировать lifetime сессии, применять deadline discipline и обрабатывать частичные чтения или медленных клиентов._
 
-## 8. Эксплуатационные механизмы и паттерны (Operational Aspects)
+# 7. Эксплуатационные механизмы и паттерны (Operational Aspects)
 
-Чтобы сервер удовлетворял требованиям formal properties (раздел 4), он должен опираться на строгие эксплуатационные паттерны.
+Чтобы сервер удовлетворял требованиям formal properties (раздел 5), он должен опираться на строгие эксплуатационные паттерны.
 
-### 8.1. Concurrency (Модели конкурентности)
+## 8.1. Concurrency (Модели конкурентности)
 
 В то время как модель «goroutine на каждый запрос» удобна как базовая абстракция, production-система требует контроля параллелизма (bounded parallelism). Типичные паттерны:
-
 - **Request-per-goroutine:** Базовая модель для HTTP/gRPC, безопасная только при контролируемых задержках downstream-систем.
-    
 - **Worker pool:** Паттерн, критичный для CPU-bound задач и защиты зависимостей от лавинообразного fan-out.
-    
 - **Channel-based coordination:** Применяется для handoff-сценариев, bounded queues, стадий пайплайна и синхронизации остановки.
-    
 - **Semaphore-based admission control:** Механизм ограничения числа конкурентно выполняемых тяжелых операций.
-    
 
 _Пример реализации Bounded Worker Pool:_
 
-Go
-
-```
+```Go
 package main
 
 import (

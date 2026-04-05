@@ -1,4 +1,4 @@
-# Network Security Structure Proposal
+﻿# Network Security Structure Proposal
 
 ## Краткое определение
 
@@ -9,6 +9,11 @@
 ```text
 Networking
 └── Network Security
+    ├── TLS
+    │   ├── TLS Handshake
+    │   ├── TLS Certificate Validation
+    │   ├── Mutual TLS
+    │   └── TLS Termination
     └── VPN
         ├── Remote Access VPN
         ├── Site-to-Site VPN
@@ -18,7 +23,10 @@ Networking
 
 ## Почему структура именно такая
 
-- `Network Security` уже оправдана как `sub-overview`, потому что VPN неестественно прятать прямо под `Networking` без security-рамки.
+- `Network Security` уже оправдана как `sub-overview`, потому что TLS и VPN неестественно прятать прямо под `Networking` без security-рамки.
+- `TLS` лучше оформлять как отдельный `sub-overview`, а не как одиночный article, потому что внутри темы быстро возникают разные protocol-level и trust-level аспекты.
+- `TLS Handshake`, `TLS Certificate Validation` и `Mutual TLS` логично держать как sibling-статьи внутри TLS-ветки, потому что это разные аналитические слои одной и той же protocol family.
+- `TLS Termination` стоит логически подчинить `TLS`, но сохранять тесную связь с intermediary-layer темами вроде `Proxy` и `Service Mesh` через `related`.
 - `VPN` лучше оформлять как отдельный `sub-overview`, а не как одиночный article, потому что внутри темы быстро возникают разные типы развертывания, способы туннелирования и семейства протоколов.
 - `Remote Access VPN` и `Site-to-Site VPN` логично держать отдельно, потому что это два разных operational pattern.
 - `VPN Tunneling` лучше отделять от deployment patterns, чтобы не смешивать тип канала с типом сценария использования.
@@ -27,11 +35,12 @@ Networking
 ## Что не стоит делать прямо сейчас
 
 - Не стоит прятать `VPN` внутрь `Network Protocols` как просто еще один протокол.
-- Не стоит сразу создавать плоский каталог из `IPsec`, `WireGuard`, `OpenVPN`, `PPTP` и `L2TP` без заполненной базовой VPN-ветки.
-- Не стоит смешивать в одной заметке сценарии развертывания, туннелирование и протокольные семейства.
+- Не стоит раскладывать `TLS` сразу на десятки notes про extensions, cipher suites и alert codes без базовой заполненной ветки.
+- Не стоит смешивать в одной заметке handshake, trust model, mTLS и termination.
 
 ## Что стоит раскрыть дальше
 
+- [ ] Решить, когда `TLS` потребует `TLS Versions` и `TLS Resumption`
 - [ ] Решить, когда `VPN Protocol Families` превращается в отдельный `sub-overview`
-- [ ] Решить, когда рядом нужны `SSL VPN` и `IPsec VPN`
+- [ ] Проверить границу между `TLS Termination` и intermediary-layer infrastructure
 - [ ] Проверить `related`

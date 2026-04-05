@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Software Development/Vim/Vim Modes.md",
+                "file": "01. Inbox/To Classify/Golang/Go Servers/Go Servers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vim Modes"
+              "title": "Go Servers"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Software Development/Vim/Vim Modes.md",
+                "file": "01. Inbox/To Classify/Golang/Go Servers/Go Servers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vim Modes"
+              "title": "Outline of Go Servers"
             }
           },
           {
@@ -226,10 +226,16 @@
   },
   "active": "6bd6a919678d1407",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Software Development/Vim/Vim Modes.md",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/Mutual TLS.md",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/TLS Certificate Validation.md",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/TLS Handshake.md",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/TLS Structure Proposal.md",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/TLS.md",
+    "01. Inbox/To Classify/Networking/Network Security/TLS",
     "01. Inbox/To Classify/Software Development/Vim/Vim.md",
     "01. Inbox/To Classify/Software Development/Vim/Vim Structure Proposal.md",
     "01. Inbox/To Classify/Software Development/Vim/_resources/2ccba2a570b0f6a58a3e4964bd2b3888_MD5.jpg",
-    "01. Inbox/To Classify/Software Development/Vim/Vim Modes.md",
     "Tabula Ortus.md",
     "01. Inbox/To Classify/Software Development/Vim/Vim Motions.md",
     "01. Inbox/To Classify/Software Development/Vim/_resources",
@@ -256,16 +262,11 @@
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Logic Gates.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Elementary Logic Gates (Базовые логические вентили).md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Logic Gates Structure Proposal.md",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Elementary Logic Gates/OR Gate.md",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/Logic Gates/Primitive Logic Gates.md",
-    "01. Inbox/To Classify/Logic/Syllogistics/Syllogistic Mood.md",
-    "01. Inbox/To Classify/Logic/Syllogistics/Hypothetical Syllogism.md",
     "01. Inbox/To Classify/Logic/Syllogistics",
     "01. Inbox/To Classify/Logic/Structure-Preserving Mappings",
     "01. Inbox/To Classify/Logic",
     "02. Corpus Mundi/I/_resources/isa-01.jpg",
     "foo/bar.tmp",
-    "foo",
     "04. Assets/Shared/Images/computer-system-abstraction-hierachy.jpg",
     "02. Corpus Mundi/A/_resources/alu-truth-table.jpg",
     "02. Corpus Mundi/A/_resources/alu-1-bit-slice.jpg",

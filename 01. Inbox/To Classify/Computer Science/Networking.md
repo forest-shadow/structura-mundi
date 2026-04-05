@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - Computer Networking
 note_type: overview
@@ -14,6 +14,7 @@ related:
   - "[[Network Protocols]]"
   - "[[Proxy]]"
   - "[[Service Mesh]]"
+  - "[[TLS]]"
   - "[[TLS Termination]]"
   - "[[Origin Shielding]]"
   - "[[Network Security]]"
@@ -27,7 +28,7 @@ tags: []
 
 ## Краткое определение области
 
-`Networking` — это доменная обзорная ветка внутри `computer-science`, которая собирает заметки о соединении сетевых узлов, передаче данных, сетевых протоколах, переключении пакетов, моделях сетевого стека и операционном устройстве Internet.
+`Networking` — это доменная обзорная ветка внутри `computer-science`, которая собирает заметки о соединении сетевых узлов, передаче данных, сетевых протоколах, переключении пакетов, моделях сетевого стека, сетевой безопасности и операционном устройстве Internet.
 
 ## Что входит в эту тему
 
@@ -37,7 +38,6 @@ tags: []
 - `[[Network Protocols]]`
 - `[[Proxy]]`
 - `[[Service Mesh]]`
-- `[[TLS Termination]]`
 - `[[Origin Shielding]]`
 - `[[Network Security]]`
 - `[[Packet Switches]]`
@@ -50,8 +50,9 @@ tags: []
 - `Network Topology` описывает форму и связность сети как структуры.
 - `Network Performance` собирает метрики пропускной способности, задержек, джиттера и потерь.
 - `Network Protocols` держит рамку для семейств протоколов и их роли в сетевом стеке.
-- `Proxy`, `Service Mesh`, `TLS Termination` и `Origin Shielding` собирают intermediary-layer темы про промежуточную обработку, защиту и управление сетевым трафиком.
-- `Network Security` собирает сетевые механизмы доверия, изоляции, защищенного доступа и туннелирования, не смешивая их ни с общей protocol taxonomy, ни с устройствами пересылки.
+- `Proxy`, `Service Mesh` и `Origin Shielding` собирают intermediary-layer темы про промежуточную обработку и управление сетевым трафиком.
+- `Network Security` собирает сетевые механизмы доверия, изоляции, защищенного доступа и туннелирования; внутри этой ветки `[[TLS]]` задает protocol-and-trust рамку для `[[TLS Handshake]]`, `[[Mutual TLS]]`, `[[TLS Certificate Validation]]` и `[[TLS Termination]]`.
+- `TLS Termination` остается важной cross-cutting темой на границе `Network Security` и intermediary-layer infrastructure.
 - `Packet Switches` собирает устройства пересылки данных вроде `Router` и `Link-Layer Switch`, не смешивая их ни с протоколами, ни с topology patterns.
 - `Internet` удерживает operational-взгляд на современный TCP/IP мир.
 - `OSI Model` остаётся соседней концептуальной моделью сетевых функций.
@@ -60,9 +61,10 @@ tags: []
 
 1. Начать с `[[Networking]]`.
 2. Затем выбрать ракурс: role/model view через `[[Network Interaction Models]]`, структура через `[[Network Topology]]`, качество доставки через `[[Network Performance]]`, правила взаимодействия через `[[Network Protocols]]` или защищенный сетевой доступ через `[[Network Security]]`.
-3. После этого перейти к `[[Proxy]]`, `[[Service Mesh]]`, `[[TLS Termination]]` и `[[Origin Shielding]]`, если нужен intermediary-layer взгляд на сетевую инфраструктуру.
-4. Затем перейти к `[[Packet Switches]]`, если нужен язык для описания устройств пересылки.
-5. Затем читать `[[Internet]]` и сопоставлять operational-картину с `[[OSI Model]]`.
+3. Для TLS-ветки перейти к `[[TLS]]`, а затем к `[[TLS Handshake]]`, `[[Mutual TLS]]`, `[[TLS Certificate Validation]]` и `[[TLS Termination]]`.
+4. После этого перейти к `[[Proxy]]`, `[[Service Mesh]]` и `[[Origin Shielding]]`, если нужен intermediary-layer взгляд на сетевую инфраструктуру.
+5. Затем перейти к `[[Packet Switches]]`, если нужен язык для описания устройств пересылки.
+6. Затем читать `[[Internet]]` и сопоставлять operational-картину с `[[OSI Model]]`.
 
 ## Соседние overview-ветки
 
@@ -72,7 +74,7 @@ tags: []
 
 - [ ] Решить, когда внутри `Network Interaction Models` нужны `Anycast` и `Unicast`
 - [ ] Проверить границу между `Network Security`, `Network Protocols` и `Internet`
-- [ ] Проверить границу между `Proxy`, `Service Mesh`, `TLS Termination` и `Origin Shielding`
+- [ ] Проверить границу между `TLS`, `TLS Termination`, `Proxy`, `Service Mesh` и `Origin Shielding`
 - [ ] Решить, когда рядом нужен `Network Congestion`
 - [ ] Проверить границу между `Packet Switches` и `Network Protocols`
 - [ ] Проверить `related`

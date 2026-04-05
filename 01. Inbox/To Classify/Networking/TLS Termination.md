@@ -1,14 +1,18 @@
----
-aliases: []
+﻿---
+aliases:
+  - TLS Offload
 note_type: article
 area: computer-science
 domain: networking
-section: traffic-intermediation
-parent: "[[Networking]]"
+section: network-security
+parent: "[[TLS]]"
 status: seed
 related:
+  - "[[TLS]]"
+  - "[[TLS Handshake]]"
   - "[[Reverse Proxy]]"
   - "[[Layer 7 Proxy]]"
+  - "[[Service Mesh]]"
   - "[[HTTP]]"
 tags: []
 ---
@@ -32,12 +36,14 @@ tags: []
 
 Родительская тема:
 
-`[[Networking]]`
+`[[TLS]]`
 
 Связанные заметки:
 
+- `[[TLS Handshake]]`
 - `[[Reverse Proxy]]`
 - `[[Layer 7 Proxy]]`
+- `[[Service Mesh]]`
 - `[[HTTP]]`
 
 ## Примеры, случаи или следствия
@@ -48,4 +54,7 @@ tags: []
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить, нужен ли рядом отдельный article про `TLS Passthrough`
+- [ ] Проверить границу между termination и end-to-end encryption
 - [ ] Проверить `related`
+- [ ] Проверить `aliases`
+- [ ] Проверить `tags`
