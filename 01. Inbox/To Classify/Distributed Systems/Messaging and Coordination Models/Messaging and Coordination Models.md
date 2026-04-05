@@ -13,6 +13,7 @@ related:
   - "[[Publish-Subscribe]]"
   - "[[Producer-Consumer Model]]"
   - "[[Gossip Model]]"
+  - "[[Processing Semantics]]"
 tags: []
 ---
 
@@ -28,6 +29,7 @@ tags: []
 - `[[Publish-Subscribe]]`
 - `[[Producer-Consumer Model]]`
 - `[[Gossip Model]]`
+- `[[Processing Semantics]]`
 
 ## Как устроена ветка
 
@@ -35,12 +37,14 @@ tags: []
 - `Publish-Subscribe` описывает модель публикации факта с fan-out доставкой независимым подписчикам.
 - `Producer-Consumer Model` фиксирует разделение производства и потребления работы или сообщений.
 - `Gossip Model` описывает постепенное, эпидемическое распространение информации по множеству узлов.
+- `Processing Semantics` собирает гарантии доставки и обработки, которые определяют, что именно система обещает на границе всей цепочки взаимодействия.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Brokered Messaging Model]]` и `[[Publish-Subscribe]]`.
 2. Затем перейти к `[[Producer-Consumer Model]]`, чтобы увидеть queue-oriented coordination.
-3. После этого читать `[[Gossip Model]]` как модель распределенного распространения состояния.
+3. После этого перейти к `[[Processing Semantics]]`, если нужно понять гарантийный слой поверх этих моделей.
+4. Затем читать `[[Gossip Model]]` как модель распределенного распространения состояния.
 
 ## Соседние overview-ветки
 
@@ -52,4 +56,5 @@ tags: []
 
 - [ ] Решить, когда рядом нужны `Work Queue Model` и `Message-Driven Interaction`
 - [ ] Проверить границу между этой веткой и `Event-Driven Architecture`
+- [ ] Проверить, нужен ли позже product-specific article `Kafka Delivery Semantics`
 - [ ] Проверить `related`
