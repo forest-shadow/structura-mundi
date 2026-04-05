@@ -27,14 +27,17 @@
             "id": "6bd6a919678d1407",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
-                "mode": "source",
-                "source": false
+                "file": "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
+                "viewState": {
+                  "x": 46.2305540270676,
+                  "y": 766.8617479150754,
+                  "zoom": -0.41063905950078244
+                }
               },
-              "icon": "lucide-file",
-              "title": "Transaction Isolation"
+              "icon": "lucide-layout-dashboard",
+              "title": "ACID as transactional semantic guarantees"
             }
           },
           {
@@ -125,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
+                "file": "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Transaction Isolation"
+              "title": "Outline of ACID as transactional semantic guarantees"
             }
           },
           {
@@ -240,8 +243,13 @@
   },
   "active": "6bd6a919678d1407",
   "lastOpenFiles": [
-    "02. Corpus Mundi/T/TLS Handshake.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Isolation Anomalies.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources/9352f70eb68c5761424b9101bbe30bcc_MD5.jpg",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources",
+    "Pasted image 20260405185550.png",
+    "02. Corpus Mundi/T/TLS Handshake.md",
     "02. Corpus Mundi/T/_resources/tls-handshake-02.jpg",
     "Pasted image 20260405183204.png",
     "02. Corpus Mundi/T/TLS.md",
@@ -258,8 +266,6 @@
     "Pasted image 20260405174244.png",
     "02. Corpus Mundi/T/_resources/tls-handshake.jpg",
     "Pasted image 20260405174156.png",
-    "01. Inbox/To Classify/Networking/Network Security/TLS/_resources/31c0ef009dfa6682831e2213e1dc1d26_MD5.jpg",
-    "Pasted image 20260405174047.png",
     "01. Inbox/To Classify/Networking/Network Security/TLS/_resources",
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Structure Proposal.md",
     "01. Inbox/To Classify/Networking/Network Security/Slowloris Attack.md",
@@ -279,12 +285,10 @@
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics",
     "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/Dual Write.md",
     "02. Corpus Mundi/G/Go HTTP Server Environment Configuration.md",
-    "01. Inbox/To Classify/Golang/Go Servers/Timeouts and Cancellation in Go Servers.md",
     "01. Inbox/To Classify/Networking/Network Security/TLS",
     "01. Inbox/To Classify/Software Development/Vim/_resources",
     "01. Inbox/To Classify/Software Development/Vim",
     "01. Inbox/To Classify/Software Development",
-    "01. Inbox/To Classify/Operating Systems/Linux/_resources",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",

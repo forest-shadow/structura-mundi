@@ -1,7 +1,7 @@
 {
 	"nodes":[
+		{"id":"21d82b971b4675d5","type":"group","x":-150,"y":160,"width":520,"height":520,"color":"1","label":"I = Isolation"},
 		{"id":"7f61db10e4100003","type":"group","x":-750,"y":160,"width":520,"height":500,"color":"1","label":"C = Consistency"},
-		{"id":"21d82b971b4675d5","type":"group","x":-150,"y":160,"width":520,"height":500,"color":"1","label":"I = Isolation"},
 		{"id":"7843deaa4132fc36","type":"group","x":440,"y":160,"width":520,"height":480,"color":"1","label":"D = Durability"},
 		{"id":"940cc7d2167f6048","type":"group","x":-1340,"y":160,"width":520,"height":420,"color":"1","label":"A = Atomicity"},
 		{"id":"763731a69a305342","type":"group","x":-420,"y":-400,"width":380,"height":340,"color":"1","label":"ACID"},
@@ -61,28 +61,6 @@
 			"color":"1"
 		},
 		{
-			"id":"90097c986ccb563a",
-			"type":"text",
-			"text":"<b>Смысл:</b> транзакция не должна переводить систему из допустимого состояния в недопустимое. Ограничено конкретной DB",
-			"styleAttributes":{},
-			"x":-710,
-			"y":260,
-			"width":440,
-			"height":120,
-			"color":"2"
-		},
-		{
-			"id":"afce8f51f1a37fe8",
-			"type":"text",
-			"text":"Обычно связано (реализуется):\n* constraints\n* triggers\n* referential integrity\n* type/domain rules\n* application invariants",
-			"styleAttributes":{},
-			"x":-710,
-			"y":400,
-			"width":440,
-			"height":240,
-			"color":"2"
-		},
-		{
 			"id":"6676a7e33509df79",
 			"type":"text",
 			"text":"[[ACID]]",
@@ -105,9 +83,31 @@
 			"color":"1"
 		},
 		{
+			"id":"90097c986ccb563a",
+			"type":"text",
+			"text":"<b>Смысл:</b> транзакция не должна переводить систему из допустимого состояния в недопустимое. Ограничено конкретной DB",
+			"styleAttributes":{},
+			"x":-710,
+			"y":260,
+			"width":440,
+			"height":120,
+			"color":"2"
+		},
+		{
+			"id":"afce8f51f1a37fe8",
+			"type":"text",
+			"text":"Обычно связано (реализуется):\n* constraints\n* triggers\n* referential integrity\n* type/domain rules\n* application invariants",
+			"styleAttributes":{},
+			"x":-710,
+			"y":400,
+			"width":440,
+			"height":240,
+			"color":"2"
+		},
+		{
 			"id":"f1b538c6fe4738bf",
 			"type":"text",
-			"text":"Обычно связано (реализуется):\n* MVCC\n* locks\n* snapshots\n* serialization control\n* [[Transaction Isolation Levels|isolation levels]]",
+			"text":"Обычно связано (реализуется через):\n* MVCC\n* locks\n* snapshots\n* serialization control\n* [[Transaction Isolation Levels|isolation levels]]",
 			"styleAttributes":{},
 			"x":-120,
 			"y":400,
