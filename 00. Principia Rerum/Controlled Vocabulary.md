@@ -1,4 +1,4 @@
-# Controlled Vocabulary
+﻿# Controlled Vocabulary
 
 ## Назначение
 
@@ -150,6 +150,7 @@
 - `artificial-intelligence`
 - `computer-architecture`
 - `networking`
+- `software-development`
 
 #### Внутри `literature`
 
@@ -301,6 +302,10 @@
 - `design-principles`
 - `performance-modeling`
 
+#### `computer-science -> software-development`
+
+- `vim`
+
 #### `anthropology -> ethnobiology`
 
 - `ethnomycology`
@@ -368,3 +373,4 @@
 - дублировать одно и то же различными формулировками;
 - использовать `section` как замену `area` или `domain`;
 - использовать `domain` как список всех дисциплин, которых касается тема.
+
