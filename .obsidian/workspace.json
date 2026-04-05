@@ -31,9 +31,9 @@
               "state": {
                 "file": "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
                 "viewState": {
-                  "x": 46.2305540270676,
-                  "y": 766.8617479150754,
-                  "zoom": -0.41063905950078244
+                  "x": 930.8346784311077,
+                  "y": 1657.9368451867874,
+                  "zoom": -0.7439723928341158
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -245,6 +245,7 @@
   "lastOpenFiles": [
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
+    "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Isolation Anomalies.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources/9352f70eb68c5761424b9101bbe30bcc_MD5.jpg",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources",
@@ -284,7 +285,6 @@
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka Delivery Semantics.md",
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics",
     "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/Dual Write.md",
-    "02. Corpus Mundi/G/Go HTTP Server Environment Configuration.md",
     "01. Inbox/To Classify/Networking/Network Security/TLS",
     "01. Inbox/To Classify/Software Development/Vim/_resources",
     "01. Inbox/To Classify/Software Development/Vim",
@@ -293,7 +293,6 @@
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
-    "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/PostgreSQL Architecture.canvas",
     "Electronics/RaspberryPI/Untitled.canvas",
     "CS Dashboard/00. canvas/CS/cs prog paradigms.canvas",

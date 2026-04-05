@@ -1,9 +1,11 @@
 {
 	"nodes":[
-		{"id":"21d82b971b4675d5","type":"group","x":-150,"y":160,"width":520,"height":520,"color":"1","label":"I = Isolation"},
+		{"id":"958d0734d980737d","type":"group","x":-255,"y":1260,"width":750,"height":400,"label":"Transaction Isolation Levels"},
+		{"id":"bff68a12c056d78c","type":"group","x":-150,"y":1900,"width":540,"height":440,"label":"Механизмы реализации изоляции"},
 		{"id":"7f61db10e4100003","type":"group","x":-750,"y":160,"width":520,"height":500,"color":"1","label":"C = Consistency"},
 		{"id":"7843deaa4132fc36","type":"group","x":440,"y":160,"width":520,"height":480,"color":"1","label":"D = Durability"},
 		{"id":"940cc7d2167f6048","type":"group","x":-1340,"y":160,"width":520,"height":420,"color":"1","label":"A = Atomicity"},
+		{"id":"21d82b971b4675d5","type":"group","x":-150,"y":160,"width":520,"height":250,"color":"1","label":"I = Isolation"},
 		{"id":"763731a69a305342","type":"group","x":-420,"y":-400,"width":380,"height":340,"color":"1","label":"ACID"},
 		{
 			"id":"eaf5c36e9ae38852",
@@ -105,17 +107,6 @@
 			"color":"2"
 		},
 		{
-			"id":"f1b538c6fe4738bf",
-			"type":"text",
-			"text":"Обычно связано (реализуется через):\n* MVCC\n* locks\n* snapshots\n* serialization control\n* [[Transaction Isolation Levels|isolation levels]]",
-			"styleAttributes":{},
-			"x":-120,
-			"y":400,
-			"width":440,
-			"height":240,
-			"color":"2"
-		},
-		{
 			"id":"aadc89050c9ee7f6",
 			"type":"text",
 			"text":"I = Isolation",
@@ -169,6 +160,47 @@
 			"width":440,
 			"height":240,
 			"color":"2"
+		},
+		{
+			"id":"e9ad192592fed8ef",
+			"type":"text",
+			"text":"[[Transaction Isolation Levels]]",
+			"styleAttributes":{},
+			"x":-175,
+			"y":1280,
+			"width":360,
+			"height":60
+		},
+		{
+			"id":"e4a1cc7057d5fbc8",
+			"type":"text",
+			"text":"это прежде всего **семантическая спецификация поведения транзакции**, то есть ответ на вопрос: **что именно транзакции разрешено видеть во время конкурентного выполнения** и **какие аномалии допустимы или запрещены**.",
+			"styleAttributes":{},
+			"x":-175,
+			"y":1360,
+			"width":500,
+			"height":180
+		},
+		{
+			"id":"f1b538c6fe4738bf",
+			"type":"text",
+			"text":"Обычно связано (реализуется через):\n* MVCС\n\t* snapshots visibility\n\t* snapshot reads\n* predictable/range locking\n* serialization control\n\t* `SSI`\n\t- `predicate / range locking`\n\t- `conflict detection / validation`\n\t- `2PL` в некоторых системах",
+			"styleAttributes":{},
+			"x":-115,
+			"y":1920,
+			"width":440,
+			"height":360,
+			"color":"2"
+		},
+		{
+			"id":"12e52ded7f8cec14",
+			"type":"text",
+			"text":"### PostgreSQL: характерные связки уровней изоляции и механизмов\n\n- **Read Committed**: обычно связан с `MVCC`, statement-level snapshot visibility, visibility rules for committed tuples, row-level write locking for conflicting writes.\n- **Repeatable Read**: обычно связан с `MVCC`, transaction-level snapshot, stable visibility across the whole transaction, write-conflict checks at update/commit points.\n- **Serializable**: обычно связан с `MVCC` plus `Serializable Snapshot Isolation (SSI)`, dependency/conflict tracking, abort of dangerous transaction patterns to preserve serializable behavior.",
+			"styleAttributes":{},
+			"x":900,
+			"y":1540,
+			"width":680,
+			"height":420
 		}
 	],
 	"edges":[
@@ -212,6 +244,27 @@
 			"toNode":"7843deaa4132fc36",
 			"toSide":"top",
 			"color":"1"
+		},
+		{
+			"id":"ecdffe906143b24c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"21d82b971b4675d5",
+			"fromSide":"bottom",
+			"toNode":"958d0734d980737d",
+			"toSide":"top",
+			"label":"поведение конкурентных транзакций\nописывается"
+		},
+		{
+			"id":"7f311beba9fd79e0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"958d0734d980737d",
+			"fromSide":"bottom",
+			"toNode":"bff68a12c056d78c",
+			"toSide":"top"
 		}
 	],
 	"metadata":{
