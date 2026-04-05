@@ -10,6 +10,7 @@ related:
   - "[[HTTP]]"
   - "[[HTTP Messages]]"
   - "[[TCP IP Transport Layer]]"
+  - "[[QUIC]]"
 tags: []
 ---
 
@@ -34,6 +35,7 @@ tags: []
 
 - `[[HTTP Messages]]`
 - `[[TCP IP Transport Layer]]`
+- `[[QUIC]]`
 
 ## Примеры, случаи или следствия
 
@@ -43,4 +45,5 @@ tags: []
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить, когда нужен отдельный раздел про HTTP/2 multiplexing и HTTP/3 over QUIC
+- [ ] Проверить, нужен ли позже отдельный article `HTTP/3`
 - [ ] Проверить `related`

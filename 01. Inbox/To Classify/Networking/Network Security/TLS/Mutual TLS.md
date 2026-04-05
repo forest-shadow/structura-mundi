@@ -16,6 +16,9 @@ related:
 tags: []
 ---
 
+![[01. Inbox/To Classify/Networking/Network Security/TLS/_resources/31c0ef009dfa6682831e2213e1dc1d26_MD5.jpg]]
+
+![[01. Inbox/To Classify/Networking/Network Security/TLS/_resources/df7eaaae6cd70ce284790f26d8c93a95_MD5.jpg]]
 # Mutual TLS
 
 ## Краткое определение

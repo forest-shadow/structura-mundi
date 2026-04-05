@@ -14,7 +14,7 @@ related:
   - "[[HTTPS]]"
 tags: []
 ---
-
+![[01. Inbox/To Classify/Networking/Network Security/TLS/_resources/5fb41a6f0d7e6a251f512749278560da_MD5.jpg]]
 # TLS Handshake
 
 ## Краткое определение

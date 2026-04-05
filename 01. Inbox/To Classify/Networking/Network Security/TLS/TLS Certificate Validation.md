@@ -15,7 +15,7 @@ related:
   - "[[HTTPS]]"
 tags: []
 ---
-
+![[01. Inbox/To Classify/Networking/Network Security/TLS/_resources/b4676f83739414c91dbae0c895706bf7_MD5.jpg]]
 # TLS Certificate Validation
 
 ## Краткое определение

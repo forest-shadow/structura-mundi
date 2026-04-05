@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Structure Proposal.md",
+                "file": "02. Corpus Mundi/T/TLS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kafka Structure Proposal"
+              "title": "TLS"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Structure Proposal.md",
+                "file": "02. Corpus Mundi/T/TLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kafka Structure Proposal"
+              "title": "Outline of TLS"
             }
           },
           {
@@ -224,8 +224,27 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "6bd6a919678d1407",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
+    "02. Corpus Mundi/T/Untitled",
+    "01. Inbox/To Classify/Networking/Network Protocols/QUIC.md",
+    "01. Inbox/To Classify/Networking/Network Protocols/QUIC Structure Proposal.md",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/TLS Handshake.md",
+    "02. Corpus Mundi/T/TLS.md",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/_resources/b4676f83739414c91dbae0c895706bf7_MD5.jpg",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/TLS Certificate Validation.md",
+    "Pasted image 20260405174316.png",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/Mutual TLS.md",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/_resources/df7eaaae6cd70ce284790f26d8c93a95_MD5.jpg",
+    "Pasted image 20260405174244.png",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/_resources/5fb41a6f0d7e6a251f512749278560da_MD5.jpg",
+    "Pasted image 20260405174156.png",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/_resources/31c0ef009dfa6682831e2213e1dc1d26_MD5.jpg",
+    "Pasted image 20260405174047.png",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/_resources/tls-establishing.jpg",
+    "01. Inbox/To Classify/Networking/Network Security/TLS/_resources",
+    "Pasted image 20260405173716.png",
+    "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Structure Proposal.md",
     "01. Inbox/To Classify/Networking/Network Security/Slowloris Attack.md",
     "01. Inbox/To Classify/Networking/Network Security/Slowloris Attack Structure Proposal.md",
     "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models/Processing Semantics/Processing Semantics.md",
@@ -246,32 +265,13 @@
     "02. Corpus Mundi/G/Go HTTP Server Environment Configuration.md",
     "01. Inbox/To Classify/Golang/Go Servers/Timeouts and Cancellation in Go Servers.md",
     "01. Inbox/To Classify/Golang/Go Servers/TCP Server in Go.md",
-    "01. Inbox/To Classify/Golang/Go Servers/Resource Management in Go Servers.md",
-    "02. Corpus Mundi/G/Go Servers.md",
-    "01. Inbox/To Classify/Software Development/Vim/Vim Modes.md",
-    "01. Inbox/To Classify/Networking/Network Security/TLS/Mutual TLS.md",
-    "01. Inbox/To Classify/Networking/Network Security/TLS/TLS Certificate Validation.md",
-    "01. Inbox/To Classify/Networking/Network Security/TLS/TLS Handshake.md",
-    "01. Inbox/To Classify/Networking/Network Security/TLS/TLS Structure Proposal.md",
-    "01. Inbox/To Classify/Networking/Network Security/TLS/TLS.md",
     "01. Inbox/To Classify/Networking/Network Security/TLS",
-    "01. Inbox/To Classify/Software Development/Vim/_resources/2ccba2a570b0f6a58a3e4964bd2b3888_MD5.jpg",
     "01. Inbox/To Classify/Software Development/Vim/_resources",
-    "01. Inbox/To Classify/Software Development/Vim/_resources/383ecf39b6738051004503a0e8ba6e74_MD5.jpg",
     "01. Inbox/To Classify/Software Development/Vim",
     "01. Inbox/To Classify/Software Development",
-    "01. Inbox/To Classify/Operating Systems/Linux/_resources/67696892dd6bb85860f97556a13cf1e2_MD5.jpg",
     "01. Inbox/To Classify/Operating Systems/Linux/_resources",
-    "Pasted image 20260405001058.png",
     "01. Inbox/To Classify/Operating Systems/Linux",
     "01. Inbox/To Classify/Logic/Syllogistics",
-    "01. Inbox/To Classify/Logic/Structure-Preserving Mappings",
-    "02. Corpus Mundi/I/_resources/isa-01.jpg",
-    "04. Assets/Shared/Images/computer-system-abstraction-hierachy.jpg",
-    "02. Corpus Mundi/A/_resources/alu-truth-table.jpg",
-    "02. Corpus Mundi/A/_resources/alu-1-bit-slice.jpg",
-    "02. Corpus Mundi/A/_resources/alu-74181-schema.jpg",
-    "Pasted image 20260404181552.png",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",

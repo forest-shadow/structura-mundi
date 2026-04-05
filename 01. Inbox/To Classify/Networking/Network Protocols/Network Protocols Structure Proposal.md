@@ -14,6 +14,7 @@ Networking
     ├── Network Layer Protocols
     │   └── Routing Protocols
     ├── Transport Layer Protocols
+    │   └── QUIC
     └── Application Layer Protocols
         └── HTTP
             ├── HTTP Messages
@@ -29,6 +30,7 @@ Networking
 - Организация по слоям лучше, чем случайный список протокольных имен, потому что она сразу связывает протокол с его функциональной ролью в сетевом стеке.
 - `Network Layer Protocols` оправданы как отдельная overview-ветка, потому что внутри них естественно возникает дополнительный подкласс `Routing Protocols`.
 - `Routing Protocols` лучше держать вложенной веткой, а не смешивать с любыми network-layer protocols, поскольку это особая группа control protocols про выбор маршрутов и распространение маршрутной информации.
+- `QUIC` уже стоит вынести как отдельную transport-level статью, потому что он важен не только как частный wire protocol, но и как современный ориентир для разговора о multiplexing, loss recovery, handshake latency и связи transport layer с HTTP/3.
 - `HTTP` уже оправдан как отдельная application-layer ветка, потому что у него есть собственный устойчивый корпус аспектов и внутренняя структура.
 - Остальные конкретные протоколы вроде `TCP`, `UDP`, `IP` и `BGP` пока не стоит выносить в отдельные notes без соседнего корпуса и примеров сравнения.
 
@@ -41,6 +43,7 @@ Networking
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда рядом с `HTTP` нужны `DNS`, `SMTP` и `DHCP` как отдельные подветки
+- [ ] Проверить, когда рядом с `QUIC` нужны `TCP` и `UDP`
 - [ ] Решить, когда нужны отдельные notes про `TCP`, `UDP`, `IP` и `ICMP`
 - [ ] Проверить, нужен ли отдельный узел про `Protocol Encapsulation`
 - [ ] Проверить `related`
