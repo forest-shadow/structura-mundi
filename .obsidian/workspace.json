@@ -55,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
+                "file": "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ACID as transactional semantic guarantees"
+              "title": "Outline of Transaction Isolation"
             }
           },
           {
@@ -241,11 +241,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "6bd6a919678d1407",
+  "active": "91c7e824635e73a4",
   "lastOpenFiles": [
+    "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
-    "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Isolation Anomalies.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources/9352f70eb68c5761424b9101bbe30bcc_MD5.jpg",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources",
