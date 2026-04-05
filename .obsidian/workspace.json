@@ -44,14 +44,13 @@
             "id": "91c7e824635e73a4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
-                "mode": "source",
-                "source": false
+                "file": "02. Corpus Mundi/__02. Corpus Mundi.base",
+                "viewName": "Corpus Mundi"
               },
-              "icon": "lucide-file",
-              "title": "Transaction Isolation"
+              "icon": "lucide-table",
+              "title": "__02. Corpus Mundi"
             }
           }
         ],
@@ -128,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
+                "file": "02. Corpus Mundi/__02. Corpus Mundi.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Transaction Isolation"
+              "title": "Outline of __02. Corpus Mundi"
             }
           },
           {
@@ -243,9 +242,11 @@
   },
   "active": "91c7e824635e73a4",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Biology/Nutrition/Vitamins.md",
+    "02. Corpus Mundi/N/Nutrition.md",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels.md",
-    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Isolation Anomalies.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources/9352f70eb68c5761424b9101bbe30bcc_MD5.jpg",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources",
@@ -284,7 +285,6 @@
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka At-Most-Once Delivery.md",
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka Delivery Semantics.md",
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics",
-    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/Dual Write.md",
     "01. Inbox/To Classify/Networking/Network Security/TLS",
     "01. Inbox/To Classify/Software Development/Vim/_resources",
     "01. Inbox/To Classify/Software Development/Vim",
