@@ -88,6 +88,7 @@ Computer Science
     │   └── Istio
     ├── Origin Shielding
     ├── Network Security
+    │   ├── Slowloris Attack
     │   ├── TLS
     │   │   ├── TLS Handshake
     │   │   ├── TLS Certificate Validation
@@ -137,6 +138,7 @@ Computer Science
 - `Server Process` тоже оправдан как вложенный `overview`, потому что вокруг него уже возникает устойчивый operational cluster: listener, request handling, concurrency, lifecycle, timeouts, observability и resource management.
 - `Packet Switches` лучше держать отдельной sibling-веткой рядом с `Network Protocols` и `Internet`, потому что устройства пересылки пакетов и кадров образуют собственный понятийный кластер.
 - `Network Security` оправдана как отдельная sibling-ветка рядом с `Network Protocols` и `Internet`, потому что защищенный сетевой доступ, trust boundaries и protocol-level protection образуют собственный понятийный кластер.
+- `Slowloris Attack` пока уместно держать как обычную `article` внутри `Network Security`, а не как начало отдельного attack-cluster, потому что без соседних заметок про другие DoS-атаки новый `overview` был бы преждевременным.
 - `TLS` лучше оформлять как `sub-overview` внутри `Network Security`, потому что тема уже естественно распадается на handshake, certificate validation, mTLS и termination.
 - `TLS Termination` логически лучше жить внутри `TLS`, потому что без общей protocol-and-trust рамки она быстро превращается в чисто инфраструктурный прием и теряет смысловые границы.
 - `Proxy`, `Service Mesh` и `Origin Shielding` по-прежнему образуют intermediary-layer cluster; `TLS Termination` остается с ним тесно связанной cross-cutting темой через `related`.
