@@ -8,6 +8,7 @@ parent: "[[Operating Systems]]"
 status: seed
 related:
   - "[[System Calls]]"
+  - "[[Linux File System]]"
 tags: []
 ---
 
@@ -31,6 +32,7 @@ tags: []
 
 - Входит: file system как OS abstraction for persistent storage.
 - Не входит: полный разбор journaling, inode layouts и всех конкретных file system implementations.
+- Linux-specific устройство файловой подсистемы лучше раскрывать отдельно в `[[Linux File System]]`, а не перегружать эту общую заметку деталями одной OS-ветки.
 
 ## Примеры, случаи или следствия
 
@@ -45,10 +47,12 @@ tags: []
 Связанные заметки:
 
 - `[[System Calls]]`
+- `[[Linux File System]]`
 
 ## Что стоит раскрыть дальше
 
 - [ ] Развести file abstraction и storage device details
 - [ ] Добавить связь с path namespace и directories
+- [ ] Проверить границу между общей статьей `File Systems` и Linux-specific заметкой `Linux File System`
 - [ ] Проверить `related`
 - [ ] Проверить `aliases`

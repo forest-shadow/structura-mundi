@@ -1,4 +1,4 @@
-﻿---
+---
 aliases:
   - OS Structure Proposal
 note_type: article
@@ -14,6 +14,7 @@ related:
   - "[[System Calls]]"
   - "[[File Systems]]"
   - "[[Containerization]]"
+  - "[[Linux]]"
 tags: []
 ---
 
@@ -21,7 +22,7 @@ tags: []
 
 ## Краткое определение
 
-Предлагаемая рабочая ветка `Operating Systems` собирает под одним корневым обзорным узлом базовые механизмы ОС: execution model, системные вызовы, файловые системы, memory-management ветку `Virtual Memory` и containerization-ветку `Containerization`.
+Предлагаемая рабочая ветка `Operating Systems` собирает под одним корневым обзорным узлом базовые механизмы ОС: execution model, системные вызовы, файловые системы, memory-management ветку `Virtual Memory`, Linux-ветку `Linux` и containerization-ветку `Containerization`.
 
 ## Выбранная оптика
 
@@ -34,7 +35,7 @@ tags: []
 - тема не укладывается естественно в уже существующие соседние `domain`;
 - для ОС нужен собственный предметный фокус, а не искусственное размещение в `software-architecture`;
 - корневая заметка `Operating Systems` описывает весь `domain`, поэтому не должна получать служебный `section`;
-- дочерние кластеры получают собственные локальные секции: `processes-and-threads`, `system-calls`, `file-systems`, `memory-management` и `containerization`.
+- дочерние кластеры получают собственные локальные секции: `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`, `linux` и `containerization`.
 
 ## Каноническое имя
 
@@ -63,6 +64,10 @@ Operating Systems
 │       ├── Page Table
 │       ├── TLB
 │       └── Page Fault
+├── Linux
+│   ├── Linux Kernel
+│   ├── Linux Distribution
+│   └── Linux File System
 └── Containerization
     └── Docker
 ```
@@ -72,6 +77,7 @@ Operating Systems
 - `Operating Systems` нужен как root `overview`, потому что рядом уже есть несколько самостоятельных смысловых кластеров, а не одна isolated article.
 - `Processes and Threads` и `Virtual Memory` оправданы как `sub-overview`, потому что внутри них уже есть плотные дочерние подветки.
 - `System Calls` и `File Systems` пока разумнее держать как обычные `article`, чтобы не усложнять ветку раньше времени.
+- `Linux` уже оправдан как отдельный `sub-overview`, потому что тема естественно собирает не только ядро и дистрибутивы, но и Linux-specific механизмы вроде `Linux File System`.
 - `Containerization` оправдана как отдельный `sub-overview`, потому что она собирает не один термин, а устойчивую группу тем о контейнерах, изоляции процессов, образах и runtime-модели.
 - `Docker` естественно живёт внутри `Containerization`, а не напрямую под корнем `Operating Systems`, потому что это один конкретный инструментальный узел внутри более широкой темы.
 
@@ -83,6 +89,13 @@ Operating Systems/
 ├── Operating Systems Structure Proposal.md
 ├── System Calls.md
 ├── File Systems.md
+├── Linux/
+│   ├── Linux.md
+│   ├── Linux Structure Proposal.md
+│   ├── Linux Kernel.md
+│   ├── Linux Distribution.md
+│   ├── Linux File System.md
+│   └── Linux File System Structure Proposal.md
 ├── Processes and Threads/
 │   ├── Processes and Threads.md
 │   ├── Processes and Threads Structure Proposal.md
@@ -141,6 +154,10 @@ Operating Systems/
 - `[[Data Race]]`
 - `[[System Calls]]`
 - `[[File Systems]]`
+- `[[Linux]]`
+- `[[Linux Kernel]]`
+- `[[Linux Distribution]]`
+- `[[Linux File System]]`
 - `[[Virtual Memory]]`
 - `[[Virtual Address Space]]`
 - `[[Paging]]`
@@ -152,6 +169,7 @@ Operating Systems/
 
 ## Что стоит раскрыть дальше
 
-- [ ] Проверить согласованность секций `processes-and-threads`, `system-calls`, `file-systems`, `memory-management` и `containerization`
+- [ ] Проверить согласованность секций `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`, `linux` и `containerization`
+- [ ] Проверить, когда Linux-ветка требует дополнительных Linux-specific article помимо `Linux File System`
 - [ ] Проверить, когда `Containerization` начнет требовать отдельные дочерние статьи помимо `Docker`
 - [ ] Проверить `related`

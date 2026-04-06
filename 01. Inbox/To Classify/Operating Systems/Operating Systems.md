@@ -14,6 +14,7 @@ related:
   - "[[File Systems]]"
   - "[[Virtual Memory]]"
   - "[[Containerization]]"
+  - "[[Linux]]"
 tags: []
 ---
 
@@ -30,18 +31,21 @@ tags: []
 - `[[File Systems]]`
 - `[[Virtual Memory]]`
 - `[[Containerization]]`
+- `[[Linux]]`
 
 ## Как устроена ветка
 
 - `Processes and Threads`, `System Calls`, `File Systems` и `Virtual Memory` описывают базовые механизмы ОС.
 - `Containerization` оправдана как отдельный локальный overview, потому что тема естественно собирает рядом `Docker`, container runtime, образы, Linux namespaces, cgroups и OCI-related понятия.
+- `Linux` оправдана как отдельная локальная overview-ветка, потому что внутри ОС это уже не один термин, а устойчивый кластер вокруг ядра, дистрибутивов и Linux-specific системных механизмов.
 - `Docker` не стоит подвешивать напрямую под `Operating Systems`, если ожидается дальнейший рост ветки про контейнеры как самостоятельный кластер.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Processes and Threads]]` и `[[System Calls]]` как системного фундамента.
 2. Затем перейти к `[[Virtual Memory]]` и `[[File Systems]]`.
-3. Для контейнерной ветки читать `[[Containerization]]`, а затем `[[Docker]]`.
+3. После этого при Linux-specific интересе читать `[[Linux]]`, а затем `[[Linux Kernel]]`, `[[Linux Distribution]]` и `[[Linux File System]]`.
+4. Для контейнерной ветки читать `[[Containerization]]`, а затем `[[Docker]]`.
 
 ## Соседние overview-ветки
 
