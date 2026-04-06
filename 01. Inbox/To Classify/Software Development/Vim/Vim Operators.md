@@ -5,9 +5,10 @@ note_type: article
 area: computer-science
 domain: software-development
 section: vim
-parent: "[[Vim]]"
+parent: "[[Vim Commands]]"
 status: seed
 related:
+  - "[[Vim Commands]]"
   - "[[Vim]]"
   - "[[Vim Motions]]"
   - "[[Vim Text Objects]]"
@@ -34,12 +35,13 @@ Operators вроде delete, change и yank получают полный смы
 
 Родительская тема:
 
-`[[Vim]]`
+`[[Vim Commands]]`
 
 Связанные заметки:
 
 - `[[Vim Motions]]`
 - `[[Vim Text Objects]]`
+- `[[Vim]]`
 - `[[Vim Registers]]`
 
 ## Примеры, случаи или следствия

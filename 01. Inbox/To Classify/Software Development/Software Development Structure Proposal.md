@@ -41,9 +41,12 @@ Computer Science
 └── Software Development
     └── Vim
         ├── Vim Modes
-        ├── Vim Motions
-        ├── Vim Operators
-        ├── Vim Text Objects
+        │   └── Vim Command-line Mode
+        ├── Vim Commands
+        │   ├── Vim Motions
+        │   ├── Vim Operators
+        │   ├── Vim Text Objects
+        │   └── Vim Ex Commands
         ├── Vim Registers
         ├── Vim Macros
         └── Vim Buffers, Windows, and Tabs
@@ -53,16 +56,18 @@ Computer Science
 
 - `Software Development` нужен как domain-root, чтобы заметки про инструменты разработки не висели напрямую под `Computer Science` и не подмешивались к языкам или архитектуре.
 - `Vim` оправдан как section-level overview, потому что это не одна isolated article, а плотный кластер вокруг modal editing, editing language и рабочей модели редактора.
-- Дополнительный sub-overview внутри `Vim` пока не нужен: ветка естественно собирается плоским набором article-заметок.
+- `Vim Commands` уже оправдан как локальный sub-overview, потому что внутри ветки появился устойчивый command-centric кластер: `Vim Motions`, `Vim Operators`, `Vim Text Objects` и `Vim Ex Commands`.
+- `Vim Command-line Mode` лучше оставлять под `Vim Modes`, потому что это mode-level понятие, а не отдельное семейство команд.
 
 ## Что не стоит создавать заранее
 
 - отдельный overview `Modal Editing`, если пока вся плотность корпуса сосредоточена внутри `Vim`;
-- отдельные notes по каждой отдельной команде вроде `dw` или `ciw`;
+- отдельные notes по каждой отдельной команде вроде `dw`, `ciw` или `:w`;
 - отдельные template-файлы под developer tooling, потому что по `Principia Rerum` должны оставаться только канонические `Overview Template` и `Article Template`.
 
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить, когда рядом с `Vim` нужны `Git` и build-tooling ветки
 - [ ] Проверить, нужен ли позже более общий section-level узел для editor tooling
+- [ ] Проверить, когда внутри `Vim Commands` появляются отдельные подтемы про ranges и substitute
 - [ ] Проверить `related`

@@ -5,9 +5,10 @@ note_type: article
 area: computer-science
 domain: software-development
 section: vim
-parent: "[[Vim]]"
+parent: "[[Vim Commands]]"
 status: seed
 related:
+  - "[[Vim Commands]]"
   - "[[Vim]]"
   - "[[Vim Modes]]"
   - "[[Vim Operators]]"
@@ -34,11 +35,12 @@ Motion в Vim — это не просто способ сдвинуть кур�
 
 Родительская тема:
 
-`[[Vim]]`
+`[[Vim Commands]]`
 
 Связанные заметки:
 
 - `[[Vim Modes]]`
+- `[[Vim]]`
 - `[[Vim Operators]]`
 - `[[Vim Text Objects]]`
 

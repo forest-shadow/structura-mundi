@@ -5,9 +5,10 @@ note_type: article
 area: computer-science
 domain: software-development
 section: vim
-parent: "[[Vim]]"
+parent: "[[Vim Commands]]"
 status: seed
 related:
+  - "[[Vim Commands]]"
   - "[[Vim]]"
   - "[[Vim Motions]]"
   - "[[Vim Operators]]"
@@ -34,12 +35,13 @@ Text objects позволяют редактировать не позицию �
 
 Родительская тема:
 
-`[[Vim]]`
+`[[Vim Commands]]`
 
 Связанные заметки:
 
 - `[[Vim Motions]]`
 - `[[Vim Operators]]`
+- `[[Vim]]`
 - `[[Vim Modes]]`
 
 ## Примеры, случаи или следствия

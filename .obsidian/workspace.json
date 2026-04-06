@@ -46,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Software Development/Vim/Vim Modes.md",
+                "file": "02. Corpus Mundi/V/Vim Modes.md",
                 "mode": "source",
                 "source": false
               },
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Software Development/Vim/Vim Modes.md",
+                "file": "02. Corpus Mundi/V/Vim Modes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -243,6 +243,10 @@
   },
   "active": "91c7e824635e73a4",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Software Development/Vim/Vim Ex Commands.md",
+    "01. Inbox/To Classify/Software Development/Vim/Vim Command-line Mode.md",
+    "01. Inbox/To Classify/Software Development/Vim/Vim Commands.md",
+    "01. Inbox/To Classify/Software Development/Vim/Vim Commands Structure Proposal.md",
     "02. Corpus Mundi/__02. Corpus Mundi.base",
     "01. Inbox/To Classify/Biology/Nutrition/Vitamins.md",
     "02. Corpus Mundi/N/Nutrition.md",
@@ -282,14 +286,10 @@
     "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models/Processing Semantics/At-Least-Once Delivery.md",
     "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models/Processing Semantics",
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka Delivery Semantics Structure Proposal.md",
-    "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka Exactly-Once Semantics.md",
-    "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka At-Least-Once Delivery.md",
-    "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka At-Most-Once Delivery.md",
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics",
     "01. Inbox/To Classify/Networking/Network Security/TLS",
     "01. Inbox/To Classify/Software Development/Vim/_resources",
     "01. Inbox/To Classify/Software Development/Vim",
-    "01. Inbox/To Classify/Software Development",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",

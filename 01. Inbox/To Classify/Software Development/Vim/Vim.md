@@ -10,6 +10,7 @@ parent: "[[Software Development]]"
 status: seed
 related:
   - "[[Software Development]]"
+  - "[[Vim Commands]]"
   - "[[Vim Modes]]"
   - "[[Vim Motions]]"
   - "[[Vim Operators]]"
@@ -22,14 +23,12 @@ tags: []
 
 ## Краткое определение области
 
-`Vim` — это обзорная заметка о текстовом редакторе Vim как о системе modal editing, внутри которой естественно собираются modes, motions, operators, text objects, registers, macros и модель работы с buffers, windows и tabs.
+`Vim` — это обзорная заметка о текстовом редакторе Vim как о системе modal editing, внутри которой естественно собираются modes, commands, registers, macros и модель работы с buffers, windows и tabs.
 
 ## Что входит в эту тему
 
 - `[[Vim Modes]]`
-- `[[Vim Motions]]`
-- `[[Vim Operators]]`
-- `[[Vim Text Objects]]`
+- `[[Vim Commands]]`
 - `[[Vim Registers]]`
 - `[[Vim Macros]]`
 - `[[Vim Buffers, Windows, and Tabs]]`
@@ -37,17 +36,17 @@ tags: []
 ## Как устроена ветка
 
 - `Vim` служит tool-overview узлом и не должен сам пытаться до конца раскрыть каждую команду и каждый режим.
-- `Vim Modes` удерживают базовую modal model редактора.
-- `Vim Motions`, `Vim Operators` и `Vim Text Objects` собирают ядро editing language.
+- `Vim Modes` удерживают базовую modal model редактора, внутри которой отдельным дочерним понятием позже раскрывается `Vim Command-line Mode`.
+- `Vim Commands` собирают command-centric слой редактора: motions, operators, text objects и `Ex`-команды.
 - `Vim Registers` и `Vim Macros` описывают механизмы повторного использования текста и действий.
 - `Vim Buffers, Windows, and Tabs` удерживают рабочую модель навигации по файлам и раскладкам.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Vim Modes]]`.
-2. Затем перейти к `[[Vim Motions]]` и `[[Vim Operators]]`.
-3. После этого читать `[[Vim Text Objects]]` и `[[Vim Registers]]`.
-4. Завершить `[[Vim Macros]]` и `[[Vim Buffers, Windows, and Tabs]]`.
+2. Затем перейти к `[[Vim Commands]]`.
+3. После этого читать `[[Vim Registers]]` и `[[Vim Macros]]`.
+4. Завершить `[[Vim Buffers, Windows, and Tabs]]`.
 
 ## Соседние overview-ветки
 
@@ -55,6 +54,7 @@ tags: []
 
 ## Что стоит раскрыть дальше
 
+- [ ] Проверить, когда рядом с `Vim Commands` нужен отдельный узел про search/replace workflows
 - [ ] Проверить, нужен ли позже отдельный узел про Vim configuration
 - [ ] Проверить, когда buffers/windows/tabs стоит разнести на отдельные notes
 - [ ] Проверить `related`
