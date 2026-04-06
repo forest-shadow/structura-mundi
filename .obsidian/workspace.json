@@ -44,13 +44,14 @@
             "id": "91c7e824635e73a4",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/__02. Corpus Mundi.base",
-                "viewName": "Corpus Mundi"
+                "file": "01. Inbox/To Classify/Software Development/Vim/Vim Modes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "__02. Corpus Mundi"
+              "icon": "lucide-file",
+              "title": "Vim Modes"
             }
           }
         ],
@@ -127,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/__02. Corpus Mundi.base",
+                "file": "01. Inbox/To Classify/Software Development/Vim/Vim Modes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of __02. Corpus Mundi"
+              "title": "Outline of Vim Modes"
             }
           },
           {
@@ -242,6 +243,7 @@
   },
   "active": "91c7e824635e73a4",
   "lastOpenFiles": [
+    "02. Corpus Mundi/__02. Corpus Mundi.base",
     "01. Inbox/To Classify/Biology/Nutrition/Vitamins.md",
     "02. Corpus Mundi/N/Nutrition.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation.md",
@@ -283,7 +285,6 @@
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka Exactly-Once Semantics.md",
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka At-Least-Once Delivery.md",
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka At-Most-Once Delivery.md",
-    "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics/Kafka Delivery Semantics.md",
     "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics",
     "01. Inbox/To Classify/Networking/Network Security/TLS",
     "01. Inbox/To Classify/Software Development/Vim/_resources",
