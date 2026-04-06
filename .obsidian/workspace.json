@@ -46,12 +46,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/T/Transaction Isolation.md",
+                "file": "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Isolation Anomalies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transaction Isolation"
+              "title": "Isolation Anomalies"
             }
           }
         ],
@@ -128,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/T/Transaction Isolation.md",
+                "file": "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Isolation Anomalies.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Transaction Isolation"
+              "title": "Outline of Isolation Anomalies"
             }
           },
           {
@@ -241,11 +241,14 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "91c7e824635e73a4",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/_resources/isolation-anomaly-dirty-read.jpg",
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/_resources",
+    "Pasted image 20260406192502.png",
+    "02. Corpus Mundi/T/Transaction Isolation.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Isolation Anomalies.md",
-    "02. Corpus Mundi/T/Transaction Isolation.md",
     "Untitled.md",
     "02. Corpus Mundi/V/Vim Modes.md",
     "01. Inbox/To Classify/Databases/Database Partitioning/Horizontal Partitioning/Range Partitioning.md",
@@ -271,7 +274,6 @@
     "01. Inbox/To Classify/Databases/PostgreSQL/PostgreSQL Architecture.md",
     "01. Inbox/To Classify/Databases/PostgreSQL",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System.md",
-    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System Structure Proposal.md",
     "02. Corpus Mundi/__02. Corpus Mundi.base",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources/9352f70eb68c5761424b9101bbe30bcc_MD5.jpg",
@@ -286,10 +288,8 @@
     "01. Inbox/To Classify/Networking/Network Security/TLS/_resources/df7eaaae6cd70ce284790f26d8c93a95_MD5.jpg",
     "Pasted image 20260405174244.png",
     "02. Corpus Mundi/T/_resources/tls-handshake.jpg",
-    "Pasted image 20260405174156.png",
     "01. Inbox/To Classify/Networking/Network Security/TLS/_resources",
     "01. Inbox/To Classify/Distributed Systems/Messaging and Coordination Models/Processing Semantics",
-    "01. Inbox/To Classify/Distributed Systems/Kafka/Kafka Delivery Semantics",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",
