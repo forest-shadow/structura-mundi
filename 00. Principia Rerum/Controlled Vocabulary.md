@@ -293,6 +293,7 @@
 
 #### `computer-science -> databases`
 
+- `database-partitioning`
 - `database-connections`
 - `redis`
 

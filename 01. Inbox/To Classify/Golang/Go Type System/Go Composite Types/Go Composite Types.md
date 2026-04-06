@@ -1,64 +1,63 @@
 ---
 aliases:
   - Composite Types in Go
-  - Составные типы Go
 note_type: overview
 area: computer-science
 domain: programming-languages
 section: go
 parent: "[[Go Type System]]"
-status: seed
+status: draft
 related:
-  - "[[Go Type System]]"
-  - "[[Go Basic Types]]"
-  - "[[Go Interfaces]]"
-  - "[[Go Memory Management]]"
+  - "[[Go Type Literals]]"
+  - "[[Go Type Definitions]]"
+  - "[[Go Type Identity]]"
+  - "[[Go Type Constraints]]"
 tags: []
 ---
 
 # Go Composite Types
 
-## Краткое определение области
+## Определение
 
-`Go Composite Types` — это обзорная заметка о типах Go, задаваемых type literals: массивах, структурах, указателях, функциях, интерфейсах, срезах, map и каналах. Она задает карту этой ветки и раскладывает composite types по устойчивым семействам, а не оставляет их длинным плоским списком builtin form-паттернов.
+`Go Composite Types` - это составные типы языка Go, которые строятся из других типов или значений формы типа и задают более сложную организацию данных, чем одиночные базовые значения.
 
-## Что входит в эту тему
+## Почему это отдельная тема
 
-- `[[Go Type Literals]]`
-- `[[Go Array Types]]`
-- `[[Go Struct Types]]`
-- `[[Go Pointer Types]]`
-- `[[Go Function Types]]`
-- `[[Go Interfaces]]`
-- `[[Go Slice Types]]`
-- `[[Go Map Types]]`
-- `[[Go Channel Types]]`
+Именно на уровне composite types становится видно, как Go описывает контейнеры, последовательности, структуры и связи между значениями. Здесь язык переходит от отдельных primitive-like типов к способам группировать данные и задавать форму объектов программы.
+
+## Что входит в эту ветку
+
+- [[Go Array Types]]
+- [[Go Slice Types]]
+- [[Go Map Types]]
+- [[Go Struct Types]]
+- [[Go Struct Tags]]
+- [[Go Pointer Types]]
+- [[Go Function Types]]
+- [[Go Interface Types]]
+- [[Go Channel Types]]
 
 ## Как устроена ветка
 
-- `Go Type Literals` дает общий фундамент для всей ветки и объясняет, почему composite types в Go задаются не именем, а literal form типа.
-- `Go Array Types` и `Go Struct Types` собирают фиксированные составные формы, где структура значения входит в сам тип.
-- `Go Pointer Types` и `Go Function Types` описывают composite forms, которые не являются контейнерами, но задают отдельные способы адресации и вызова.
-- `Go Interfaces` остаются внутри этой ветки как особый composite/type-literal узел, где тип определяется методами, а в generic-контексте также type sets.
-- `Go Slice Types`, `Go Map Types` и `Go Channel Types` собирают runtime-backed формы, наиболее тесно связанные с allocation behavior, aliasing и координацией.
+Эту ветку удобно читать как переход от синтаксической формы type literals к конкретным составным формам данных.
 
-## Рекомендуемый маршрут чтения
+`[[Go Struct Types]]` объясняет, как в Go описывается структура данных через именованные поля. `[[Go Struct Tags]]` фиксирует отдельный языковой механизм метаданных на уровне полей структуры и связывает форму `struct` с практиками сериализации, маппинга и reflection-based inspection.
 
-1. Начать с `[[Go Type Literals]]`.
-2. Затем перейти к `[[Go Array Types]]` и `[[Go Struct Types]]`.
-3. После этого читать `[[Go Pointer Types]]` и `[[Go Function Types]]`.
-4. Затем перейти к `[[Go Interfaces]]` как к поведенческой и generic-aware форме composite type.
-5. После этого читать `[[Go Slice Types]]`, `[[Go Map Types]]` и `[[Go Channel Types]]`.
-6. Затем сопоставить ветку с `[[Go Memory Management]]`, `[[Go Methods and Method Sets]]` и `[[Go Assignability and Conversions]]`.
+## Что важно не смешивать
 
-## Соседние overview-ветки
+`Go Composite Types` не равны только контейнерам. В эту ветку входят и такие формы, как `struct`, `interface`, `func` и `chan`, то есть любые типовые конструкции, где значима внутренняя композиция.
 
-- Родительская рамка: `[[Go Type System]]`
-- `[[Go Basic Types]]`
-- `[[Go Reflection]]`
+Также не стоит смешивать описание composite types с их runtime-поведением. Поведение значений, identity, assignability, method sets и reflection должно раскрываться в соседних ветках, а не растворяться внутри обзора по составным типам.
 
-## Что стоит раскрыть дальше
+## Связи
 
-- [ ] Проверить, нужен ли позднее отдельный article про zero values composite types
-- [ ] Проверить, когда `Go Slice Types` и `Go Map Types` потребуют собственных дочерних веток
-- [ ] Проверить `related`
+- Родительская обзорная заметка: [[Go Type System]]
+- Предпосылка по синтаксису типов: [[Go Type Literals]]
+- Смежные темы: [[Go Type Identity]], [[Go Type Definitions]], [[Go Type Constraints]]
+
+## Что раскрывать дальше
+
+- различие между value shape и reference-like поведением у разных composite types;
+- как composite types участвуют в assignability и comparability;
+- чем структурные формы отличаются по semantics и runtime-cost;
+- какие ветки требуют отдельных deeper-dive заметок.

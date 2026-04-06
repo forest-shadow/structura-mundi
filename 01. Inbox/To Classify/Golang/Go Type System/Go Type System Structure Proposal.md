@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Golang Type System Structure Proposal
+  - Go Type System Structure Proposal
 note_type: article
 area: computer-science
 domain: programming-languages
@@ -9,89 +9,67 @@ parent: "[[Go]]"
 status: draft
 related:
   - "[[Go Type System]]"
-  - "[[Go Interfaces]]"
-  - "[[Go]]"
+  - "[[Go Basic Types]]"
+  - "[[Go Composite Types]]"
+  - "[[Go Type Literals]]"
+  - "[[Go Type Identity]]"
+  - "[[Go Type Definitions]]"
+  - "[[Go Type Constraints]]"
+  - "[[Go Reflection]]"
 tags: []
 ---
 
 # Go Type System Structure Proposal
 
-## Краткое определение
+## Что это за узел
 
-Предлагаемое устройство ветки `Go Type System` как отдельного `sub-overview` внутри `Go`, собирающего канонические категории типовой системы языка.
+`[[Go Type System]]` должен быть обзорной заметкой для всей ветки, описывающей, как в Go устроены типы, их формы, идентичность, совместимость, ограничения и связи с runtime.
 
-## Рекомендуемая иерархия
+## Предлагаемая иерархия
 
 ```text
 Go
 └── Go Type System
     ├── Go Basic Types
-    │   ├── Go Boolean Type
-    │   ├── Go String Type
-    │   ├── Go Integer Types
-    │   ├── Go Floating-Point Types
-    │   └── Go Complex Types
     ├── Go Composite Types
-    │   ├── Go Type Literals
     │   ├── Go Array Types
-    │   ├── Go Struct Types
-    │   ├── Go Pointer Types
-    │   ├── Go Function Types
-    │   ├── Go Interfaces
     │   ├── Go Slice Types
     │   ├── Go Map Types
+    │   ├── Go Struct Types
+    │   ├── Go Struct Tags
+    │   ├── Go Pointer Types
+    │   ├── Go Function Types
+    │   ├── Go Interface Types
     │   └── Go Channel Types
-    ├── Go Defined Types and Underlying Types
-    ├── Go Assignability and Conversions
-    ├── Go Methods and Method Sets
-    ├── Go Reflection
-    │   ├── Go Reflection Type and Value Model
-    │   ├── Go Reflection Addressability and Settable Values
-    │   ├── Go Reflection Struct Inspection and Tags
-    │   ├── Go Reflection Mutation and Dynamic Calls
-    │   ├── Go Reflection Dynamic Decoding
-    │   ├── Go Reflection vs Generics vs Code Generation
-    │   └── Go Reflection Performance and Limits
-    ├── Go Type Parameters and Constraints
-    └── Go Informal Type Taxonomies
+    ├── Go Type Literals
+    ├── Go Type Identity
+    ├── Go Type Definitions
+    ├── Go Type Constraints
+    └── Go Reflection
 ```
 
-## Почему структура именно такая
+## Почему структура такая
 
-- `Go Type System` уже не выглядит как одиночная explanatory article: внутри темы есть устойчивый набор канонических категорий, каждая из которых отвечает за отдельный слой типовой модели.
-- `Go Basic Types` уже оправдан как отдельный `sub-overview`, потому что внутри него естественно группируются boolean, string и numeric families.
-- `Go Defined Types and Underlying Types` фиксирует одну из центральных идей Go: типовая идентичность не сводится к одной лишь форме представления.
-- `Go Assignability and Conversions` нужен как отдельный узел, потому что совместимость типов и явные преобразования образуют самостоятельный класс правил.
-- `Go Composite Types` уже оправдан как отдельный `sub-overview`, потому что внутри него естественно собираются type literals и их устойчивые семейства.
-- `Go Methods and Method Sets` стоит держать рядом с composite branch, поскольку именно через method sets в Go связываются типы и поведение интерфейсов.
-- `Go Interfaces` не нужно дублировать отдельной note вроде `Go Interface Type`: достаточно канонического узла `Go Interfaces` внутри `Go Composite Types`.
-- `Go Reflection` уже оправдан как отдельный `sub-overview`, потому что она собирает не один API-фрагмент, а целую локальную ветку про runtime type information, ограничения mutation и архитектурные trade-offs.
-- `Go Type Parameters and Constraints` входят в современную типовую систему Go как слой parametric polymorphism и поэтому должны быть видны прямо в верхней структуре ветки.
-- `Go Informal Type Taxonomies` стоит держать отдельной article-note, потому что она полезна как учебный слой, но не должна подменять каноническую декомпозицию ветки.
+Сначала ветка делится на формы типов, затем на правила и отношения между типами, и уже после этого - на runtime-perspective через reflection. Это позволяет не смешивать синтаксическую форму типа с поведением introspection API.
 
-## Что не стоит делать прямо сейчас
+`[[Go Struct Tags]]` логично находятся внутри ветки composite types, потому что относятся к объявлению полей `struct` на уровне языка. Reflection остаётся рядом как механизм чтения этих тегов во время выполнения, но не как их основное онтологическое место.
 
-- Не стоит дробить ветку до отдельных notes про каждый built-in type вроде `int16` или `float64`, пока достаточно семейств типов внутри `Go Basic Types`.
-- Не стоит смешивать `Go Type System` с memory semantics или concurrency semantics.
-- Не стоит делать reflection просто длинным хвостом внутри `Go Interfaces`: у нее уже есть собственный понятийный и прикладной кластер.
-- Не стоит подменять каноническую структуру заметкой `Go Informal Type Taxonomies`: она должна идти после formal model, а не вместо нее.
-- Не стоит создавать специализированные templates под type-system notes.
+## Что не стоит делать
 
-## Что стоит раскрыть дальше
+- не стоит смешивать `Go Type System` с пакетом `reflect` как будто это одна тема;
+- не стоит выносить каждую частную особенность синтаксиса в отдельный верхнеуровневый overview;
+- не стоит дублировать одну и ту же тему и в type-system, и в runtime-ветке без чёткой границы.
 
-- [ ] Решить, когда нужны `Go Zero Value and Nil`
-- [ ] Решить, когда стоит выделить `Go Type Assertions`
-- [ ] Проверить, когда внутри `Go Reflection` нужны отдельные notes про `any` и interface values
-- [ ] Проверить `related`
+## Практический маршрут чтения
 
+`[[Go Type Literals]]` -> `[[Go Composite Types]]` -> `[[Go Struct Types]]` -> `[[Go Struct Tags]]` -> `[[Go Reflection]]` -> `[[Go Reflection Struct Inspection and Tags]]`
 
-# Go Type System: Рекомендуемый маршрут чтения
+## Какие заметки уже особенно оправданы
 
-1. Начать с `[[Go Basic Types]]`. Внутри этой ветки полезно двигаться так: `[[Go Boolean Type]]` → `[[Go String Type]]` → `[[Go Integer Types]]` → `[[Go Floating-Point Types]]` → `[[Go Complex Types]]`.
-2. Затем перейти к `[[Go Composite Types]]`. Внутри этой ветки полезно двигаться так: `[[Go Type Literals]]` → `[[Go Array Types]]` → `[[Go Struct Types]]` → `[[Go Pointer Types]]` → `[[Go Function Types]]` → `[[Go Interfaces]]` → `[[Go Slice Types]]` → `[[Go Map Types]]` → `[[Go Channel Types]]`.
-3. После этого читать `[[Go Defined Types and Underlying Types]]`, чтобы понять identity и именование типов.
-4. Затем перейти к `[[Go Assignability and Conversions]]`, где видно, как типы соотносятся в программах.
-5. После этого читать `[[Go Methods and Method Sets]]`, потому что именно здесь типовая модель начинает связываться с поведением.
-6. Затем перейти к `[[Go Reflection]]` как к runtime-перспективе на уже понятную типовую модель. Внутри этой ветки полезно двигаться так: `[[Go Reflection Type and Value Model]]` → `[[Go Reflection Addressability and Settable Values]]` → `[[Go Reflection Struct Inspection and Tags]]` → `[[Go Reflection Mutation and Dynamic Calls]]`.
-7. Завершить `[[Go Type Parameters and Constraints]]`, когда уже понятны базовые типы, composite forms, совместимость, method sets и различие между runtime- и compile-time-обобщением.
-8. После этого читать `[[Go Informal Type Taxonomies]]` как вторичный учебный слой, полезный для объяснения практических эффектов, но не заменяющий formal model языка.
+- [[Go Basic Types]]
+- [[Go Composite Types]]
+- [[Go Type Literals]]
+- [[Go Type Identity]]
+- [[Go Type Definitions]]
+- [[Go Type Constraints]]
+- [[Go Reflection]]

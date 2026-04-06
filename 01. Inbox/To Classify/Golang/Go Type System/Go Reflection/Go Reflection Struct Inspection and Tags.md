@@ -1,7 +1,6 @@
 ---
 aliases:
-  - Struct Inspection in Go Reflection
-  - Struct Inspection and Tags in Go Reflection
+  - Go Reflection on Structs and Tags
 note_type: article
 area: computer-science
 domain: programming-languages
@@ -10,46 +9,44 @@ parent: "[[Go Reflection]]"
 status: seed
 related:
   - "[[Go Reflection]]"
-  - "[[Go Reflection Addressability and Settable Values]]"
-  - "[[Go Reflection Dynamic Decoding]]"
-  - "[[Go Composite Types]]"
+  - "[[Go Struct Types]]"
+  - "[[Go Struct Tags]]"
+  - "[[Go Runtime Type Information]]"
 tags: []
 ---
 
 # Go Reflection Struct Inspection and Tags
 
-## Краткое определение
+## Определение
 
-Статья о том, как reflection в Go используется для анализа структур, их полей и struct tags, включая связь этой техники со стандартными библиотеками вроде `encoding/json`.
+`Go Reflection Struct Inspection and Tags` - это рассмотрение того, как reflection в Go позволяет исследовать структуру `struct`-типов и читать теги их полей во время выполнения.
 
-## Основная идея или механизм
+## Почему это отдельная тема
 
-Во многих прикладных сценариях reflection в Go сводится к обходу `struct`-значений. Через `Kind()`, `NumField`, `Field`, `FieldByName`, `StructField` и `Tag.Get` язык позволяет читать метаданные полей и использовать их для сериализации, валидации и динамического маппинга.
+Reflection делает возможным runtime-доступ к форме `struct`, списку полей, embedded members и строковым тегам. Это особенно важно для сериализации, ORM-подходов, validation frameworks и generic tooling.
 
-## Границы темы
+## Что здесь стоит рассматривать
 
-- В тему входят проверка на `Struct`, работа с `*struct`, чтение exported/unexported fields и struct tags.
-- На границе находятся фактические mutation-операции и полное динамическое декодирование, которые лучше раскрывать отдельно.
+- получение `reflect.Type` и `reflect.Value` для структур;
+- обход полей структуры;
+- чтение `StructField.Tag` и работу с `.Get(...)`;
+- различие между exported и unexported полями в reflection-context;
+- типичные ограничения и подводные камни.
 
-## Связи с другими заметками
+## Что важно не смешивать
 
-Родительская тема:
+Языковая природа тегов как части объявления `struct` лучше раскрывается отдельно в [[Go Struct Tags]]. Эта заметка должна концентрироваться на runtime-inspection перспективе: как теги и поля извлекаются, а не на том, почему теги как механизм существуют в языке.
 
-`[[Go Reflection]]`
+## Связи
 
-Связанные заметки:
+- Родительская обзорная заметка: [[Go Reflection]]
+- Ближайшая языковая тема: [[Go Struct Types]]
+- Специальная заметка о самих тегах: [[Go Struct Tags]]
+- Смежная тема: [[Go Runtime Type Information]]
 
-- `[[Go Reflection Addressability and Settable Values]]`
-- `[[Go Reflection Dynamic Decoding]]`
-- `[[Go Reflection Mutation and Dynamic Calls]]`
+## Что раскрывать дальше
 
-## Примеры, случаи или следствия
-
-- `encoding/json` и похожие инструменты опираются именно на структуру полей и теги, а не только на грубую типовую категорию значения.
-- Различие между exported и unexported fields в reflection становится не просто стилевым, а runtime-ограничением доступа.
-
-## Что стоит раскрыть дальше
-
-- [ ] Добавить роль `StructField` и embedded fields
-- [ ] Уточнить связь с `encoding/json`
-- [ ] Проверить `related`
+- различие между `Type` и `Value` при работе со структурами;
+- чтение тегов и field metadata;
+- адресуемость и settable semantics;
+- ошибки проектирования, где reflection используется вместо более простых механизмов.

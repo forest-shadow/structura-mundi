@@ -8,47 +8,45 @@ section: go
 parent: "[[Go Composite Types]]"
 status: seed
 related:
-  - "[[Go Composite Types]]"
   - "[[Go Type Literals]]"
-  - "[[Go Methods and Method Sets]]"
-  - "[[Go Defined Types and Underlying Types]]"
+  - "[[Go Field Selectors]]"
+  - "[[Go Embedded Fields]]"
+  - "[[Go Struct Tags]]"
+  - "[[Go Reflection Struct Inspection and Tags]]"
 tags: []
 ---
 
 # Go Struct Types
 
-## Краткое определение
+## Определение
 
-Статья о struct types в Go как о record-like типах с набором именованных полей.
+`Go Struct Types` - это составные типы Go, которые объединяют набор именованных полей в одну структурированную форму данных.
 
-## Основная идея или механизм
+## Почему это отдельная тема
 
-Struct type в Go задается literal form `struct{...}` и определяет фиксированную схему полей. Именно struct types часто становятся базой для domain modeling, methods и field-based composition.
+`struct` - одна из центральных форм моделирования данных в Go. Через неё язык выражает локальную композицию, группировку состояния и основу для многих idiomatic API.
 
-## Границы темы
+## Что здесь стоит рассматривать
 
-- В тему входят struct types, поля и field-based shape значения.
-- На границе находятся методы, tags и reflection-based inspection.
+- синтаксис объявления `struct`;
+- поля, их имена и типы;
+- embedded fields;
+- различие между anonymous и named struct types;
+- роль struct types в композиции данных.
 
-## Связи с другими заметками
+## Что важно не смешивать
 
-Родительская тема:
+В этой заметке не стоит растворять всё, что связано со структурами вообще. Метаданные полей через теги лучше раскрывать отдельно в [[Go Struct Tags]], а reflection-доступ к полям и тегам - в [[Go Reflection Struct Inspection and Tags]].
 
-`[[Go Composite Types]]`
+## Связи
 
-Связанные заметки:
+- Родительская обзорная заметка: [[Go Composite Types]]
+- Предпосылка по синтаксису типов: [[Go Type Literals]]
+- Смежные темы: [[Go Embedded Fields]], [[Go Field Selectors]], [[Go Struct Tags]]
 
-- `[[Go Type Literals]]`
-- `[[Go Methods and Method Sets]]`
-- `[[Go Reflection Struct Inspection and Tags]]`
+## Что раскрывать дальше
 
-## Примеры, случаи или следствия
-
-- Struct type задает форму записи, на которую затем могут навешиваться методы и defined-type semantics.
-- Выбор между struct и map влияет не только на API, но и на устойчивость shape данных.
-
-## Что стоит раскрыть дальше
-
-- [ ] Уточнить связь struct types с methods и tags
-- [ ] Добавить границу между struct types и map-based data
-- [ ] Проверить `related`
+- различие между literal struct values и named struct types;
+- совместимость и identity struct types;
+- embedded composition и promoted members;
+- отдельную ветку по тегам полей в [[Go Struct Tags]].
