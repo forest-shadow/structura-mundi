@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Read Uncommitted.md",
+                "file": "02. Corpus Mundi/I/Isolation Anomalies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Read Uncommitted"
+              "title": "Isolation Anomalies"
             }
           }
         ],
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Read Uncommitted.md",
+                "file": "02. Corpus Mundi/I/Isolation Anomalies.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Read Uncommitted"
+              "title": "Outline of Isolation Anomalies"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "66d3b7896bb97dbe",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Read Uncommitted.md",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels.md",
     "03. Maps and Courses/Topic Maps/DBMS/DBMS.base",
     "02. Corpus Mundi/I/Isolation Anomalies.md",
