@@ -4,9 +4,7 @@ views:
     filters:
       and:
         - file.inFolder("02. Corpus Mundi")
-        - or:
-            - file.name == "Database Transactions"
-            - parent == link("Database Transactions")
+        - domain == "databases"
     order:
       - file.name
       - note_type

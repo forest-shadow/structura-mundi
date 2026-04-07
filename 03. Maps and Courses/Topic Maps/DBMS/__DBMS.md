@@ -1,0 +1,2 @@
+# ACID. Transactional semantic Guarantees
+
