@@ -9,7 +9,7 @@ parent: "[[Web Origin Model]]"
 status: seed
 related:
   - "[[Same-Origin Policy]]"
-  - "[[CORS]]"
+  - "[[CORS (Cross-Origin Resource Sharing)]]"
 tags:
   - web
   - security

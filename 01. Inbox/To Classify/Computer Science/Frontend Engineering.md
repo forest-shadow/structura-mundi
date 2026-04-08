@@ -12,7 +12,7 @@ related:
   - "[[CSS]]"
   - "[[Browser Page Processing]]"
   - "[[Browser Rendering]]"
-  - "[[CORS]]"
+  - "[[CORS (Cross-Origin Resource Sharing)]]"
 tags: []
 ---
 

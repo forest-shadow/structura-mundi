@@ -9,7 +9,7 @@ status: draft
 related:
   - "[[Web Origin]]"
   - "[[Same-Origin Policy]]"
-  - "[[CORS]]"
+  - "[[CORS (Cross-Origin Resource Sharing)]]"
 tags:
   - web
   - security
