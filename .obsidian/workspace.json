@@ -22,37 +22,8 @@
               "icon": "lucide-file",
               "title": "Tabula Ortus"
             }
-          },
-          {
-            "id": "6bd6a919678d1407",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Read Uncommitted.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Read Uncommitted"
-            }
-          },
-          {
-            "id": "66d3b7896bb97dbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OSI Model"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
+                "file": "Tabula Ortus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OSI Model"
+              "title": "Outline of Tabula Ortus"
             }
           },
           {
@@ -238,8 +209,31 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "66d3b7896bb97dbe",
+  "active": "c340083190100fc4",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/React/React Rendering Model/React State Updates.md",
+    "01. Inbox/To Classify/React/React Rendering Model/React Render.md",
+    "01. Inbox/To Classify/React/React Rendering Model/React Reconciliation.md",
+    "01. Inbox/To Classify/React/React Rendering Model/React Component Re-renders.md",
+    "01. Inbox/To Classify/React/React Rendering Model",
+    "01. Inbox/To Classify/React/React Components/Class Components.md",
+    "01. Inbox/To Classify/React/React Components/Higher-Order Component.md",
+    "01. Inbox/To Classify/React/React Components/Higher-Order Component Structure Proposal.md",
+    "01. Inbox/To Classify/React/React Components/Component Composition.md",
+    "01. Inbox/To Classify/React/React Components/Functional Components.md",
+    "01. Inbox/To Classify/React/React Hooks/useRef.md",
+    "01. Inbox/To Classify/React/React Hooks/useEffect.md",
+    "01. Inbox/To Classify/React/React Hooks/useContext.md",
+    "01. Inbox/To Classify/React/React Hooks/Custom Hooks.md",
+    "01. Inbox/To Classify/React/React Hooks/Rules of Hooks.md",
+    "01. Inbox/To Classify/React/React Hooks/React Hooks Structure Proposal.md",
+    "01. Inbox/To Classify/React/React Hooks",
+    "01. Inbox/To Classify/React/React Components",
+    "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Closure Structure Proposal.md",
+    "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Scope Model Structure Proposal.md",
+    "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
+    "01. Inbox/To Classify/Networking/OSI Model/_resources/osi-reference-model.jpg",
+    "01. Inbox/To Classify/Networking/OSI Model/_resources/osi-model-protocol-stack.jpg",
     "01. Inbox/To Classify/CSS/CSS.md",
     "02. Corpus Mundi/C/CORS (Cross-Origin Resource Sharing).md",
     "02. Corpus Mundi/C/_resources/CORS-request-types.jpg",
@@ -251,20 +245,9 @@
     "01. Inbox/To Classify/Web Platform/Web Origin Model/Web Origin.md",
     "01. Inbox/To Classify/Biology/Biochemistry/Antioxidants.md",
     "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology Structure Proposal.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Biochemistry.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Metabolism Structure Proposal.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Antioxidants Structure Proposal.md",
-    "01. Inbox/To Classify/Biology/Biology.md",
     "02. Corpus Mundi/__02. Corpus Mundi.base",
-    "02. Corpus Mundi/I/Isolation Anomalies.md",
     "02. Corpus Mundi/I/_resources/isolation-anomaly-non-repeatable-read.jpg",
-    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels.md",
-    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Read Uncommitted.md",
-    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/Transaction Isolation Levels Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/DBMS/DBMS.base",
-    "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
-    "03. Maps and Courses/Topic Maps/DBMS/__DBMS.md",
     "02. Corpus Mundi/I/_resources/isolation-anomaly-phantom-read.jpg",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
@@ -273,21 +256,9 @@
     "02. Corpus Mundi/I/_resources/isolation-anomaly-dirty-read.jpg",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/_resources",
     "Pasted image 20260406192502.png",
-    "02. Corpus Mundi/T/Transaction Isolation.md",
-    "Untitled.md",
-    "02. Corpus Mundi/V/Vim Modes.md",
-    "01. Inbox/To Classify/Databases/Database Partitioning/Horizontal Partitioning/Range Partitioning.md",
-    "01. Inbox/To Classify/Databases/Database Partitioning/Horizontal Partitioning/List Partitioning.md",
-    "01. Inbox/To Classify/Databases/Database Partitioning/Horizontal Partitioning/Hash Partitioning.md",
-    "01. Inbox/To Classify/Databases/Database Partitioning/Horizontal Partitioning/Composite Partitioning.md",
     "01. Inbox/To Classify/Databases/Database Partitioning/Horizontal Partitioning",
     "01. Inbox/To Classify/Databases/Database Partitioning",
     "01. Inbox/To Classify/Databases/PostgreSQL",
-    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources/9352f70eb68c5761424b9101bbe30bcc_MD5.jpg",
-    "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/_resources",
-    "Pasted image 20260405185550.png",
-    "02. Corpus Mundi/T/_resources",
-    "02. Corpus Mundi/T/Untitled",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",

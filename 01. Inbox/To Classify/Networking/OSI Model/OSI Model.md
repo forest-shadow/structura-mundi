@@ -20,7 +20,7 @@ related:
   - "[[Application Layer]]"
 tags: []
 ---
-![[osi-model-protocol-stack.jpg|600]]
+![[osi-reference-model.jpg|600]]
 # OSI Model
 
 ## Краткое определение области
