@@ -32,7 +32,8 @@ tags: []
 
 - На текущем этапе внутри `biology` уже оправданы как минимум четыре domain-ветки: `Biochemistry`, `Developmental Biology`, `Evolutionary Biology` и `Nutrition`.
 - `Biochemistry` лучше собирает темы о химических механизмах живых систем, реактивных формах кислорода, антиоксидантной защите и молекулярных процессах.
-- Внутри `Biochemistry` уже оправданы как минимум две section-level рамки: `Metabolism` и `Antioxidants`.
+- Внутри `Biochemistry` уже оправданы как минимум две section-level рамки: `Metabolism` и `Redox Biology`.
+- `Antioxidants` логичнее рассматривать не как прямую sibling-ветку рядом с `Metabolism`, а как часть более широкой редокс-рамки внутри `[[Redox Biology]]`.
 - `Developmental Biology` лучше собирает темы об индивидуальном развитии, эмбриогенезе, морфогенезе, дифференцировке и жизненных стадиях организма.
 - Внутри `Developmental Biology` уже оправдана как минимум одна section-level рамка: `Ontogenesis`.
 - `Evolutionary Biology` лучше собирает темы об историческом развитии линий организмов, происхождении таксонов, их расхождении, наследовании признаков и макроэволюционных траекториях.
@@ -42,7 +43,7 @@ tags: []
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Biochemistry]]`, `[[Developmental Biology]]`, `[[Evolutionary Biology]]` или `[[Nutrition]]` в зависимости от того, нужна ли chemical, developmental, evolutionary или nutritional оптика.
-2. Затем перейти к локальным подветкам вроде `[[Metabolism]]`, `[[Antioxidants]]`, `[[Ontogenesis]]`, `[[Phylogenesis]]` и `[[Vitamins]]`.
+2. Затем перейти к локальным подветкам вроде `[[Metabolism]]`, `[[Redox Biology]]`, `[[Antioxidants]]`, `[[Ontogenesis]]`, `[[Phylogenesis]]` и `[[Vitamins]]`.
 3. После этого, по мере роста корпуса, читать более узкие заметки о конкретных классах веществ и их функциях.
 
 ## Соседние overview-ветки

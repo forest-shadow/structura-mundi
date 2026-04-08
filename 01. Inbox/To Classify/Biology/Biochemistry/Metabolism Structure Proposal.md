@@ -13,6 +13,7 @@ related:
   - "[[Biochemistry]]"
   - "[[Metabolism]]"
   - "[[Nutrition]]"
+  - "[[Redox Biology]]"
   - "[[Antioxidants]]"
 tags: []
 ---
@@ -50,7 +51,8 @@ tags: []
 Biology
 ├── Biochemistry
 │   ├── Metabolism
-│   └── Antioxidants
+│   └── Redox Biology
+│       └── Antioxidants
 └── Nutrition
     └── Vitamins
 ```
@@ -59,7 +61,7 @@ Biology
 
 ```text
 Metabolism ↔ Nutrition
-Metabolism ↔ Antioxidants
+Metabolism ↔ Redox Biology
 ```
 
 ## Почему структура именно такая
@@ -67,7 +69,7 @@ Metabolism ↔ Antioxidants
 - `Metabolism` лучше держать как локальный `overview`, а не как простую article-note, потому что тема естественно распадается на несколько линий роста: `Anabolism`, `Catabolism`, `Energy Metabolism`, `Metabolic Pathways`, `Metabolic Regulation`.
 - Не стоит делать отдельный `domain: metabolism`, потому что для текущего корпуса это не самостоятельная disciplinary optic, а центральный кластер внутри уже созданной ветки `Biochemistry`.
 - Не стоит подчинять `Metabolism` ветке `Nutrition`, потому что это сместит тему в сторону nutrient input и dietary context, хотя метаболизм существенно шире этой рамки.
-- `Antioxidants` остаются соседней, а не дочерней веткой, потому что антиоксидантная защита пересекается с метаболизмом, но не исчерпывает его.
+- `Redox Biology` лучше держать соседней, а не дочерней веткой, потому что редокс-процессы пересекаются с метаболизмом, но не исчерпываются им; внутри этой ветки уже естественно помещаются `Antioxidants`.
 
 ## Что не стоит делать прямо сейчас
 
@@ -85,6 +87,8 @@ Metabolism ↔ Antioxidants
 │   └── Biochemistry.md
 ├── M/
 │   └── Metabolism.md
+├── R/
+│   └── Redox Biology.md
 ├── A/
 │   └── Antioxidants.md
 └── N/
@@ -102,4 +106,4 @@ Metabolism ↔ Antioxidants
 - [ ] Подтвердить `section: metabolism`
 - [ ] Решить, когда внутри `Metabolism` нужны отдельные дочерние статьи
 - [ ] Проверить границы между metabolism, nutrition и bioenergetics
-- [ ] Проверить поперечные связи с `Antioxidants`
+- [ ] Проверить поперечные связи с `Redox Biology`
