@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/CSS/CSS.md",
+                "file": "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "OSI Model"
             }
           }
         ],
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/CSS/CSS.md",
+                "file": "01. Inbox/To Classify/Networking/OSI Model/OSI Model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CSS"
+              "title": "Outline of OSI Model"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "66d3b7896bb97dbe",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/CSS/CSS.md",
     "02. Corpus Mundi/C/CORS (Cross-Origin Resource Sharing).md",
     "02. Corpus Mundi/C/_resources/CORS-request-types.jpg",
     "02. Corpus Mundi/C/_resources",
