@@ -16,6 +16,7 @@ Go
     ├── Go Server Lifecycle
     ├── Timeouts and Cancellation in Go Servers
     ├── Observability in Go Servers
+    │   └── related: Go pprof
     └── Resource Management in Go Servers
 ```
 
@@ -24,6 +25,7 @@ Go
 - Ветка должна жить внутри `Go`, а не внутри общей заметки `Server`, потому что это language-specific operational практика.
 - Здесь сервер уже рассматривается не как абстрактная роль, а как приложение или процесс, работающий с listener, goroutines, contexts и lifecycle.
 - Отдельные protocol-shaped notes полезны, потому что HTTP, gRPC и custom TCP servers в Go имеют общую server-side рамку, но разные operational контуры.
+- `Go pprof` не стоит делать дочерним узлом `Go Servers`, потому что pprof применим не только к серверам; правильнее держать его в `Go Runtime Diagnostics` и связывать с `Observability in Go Servers` через `related`.
 
 ## Что не стоит делать прямо сейчас
 
@@ -33,4 +35,4 @@ Go
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда рядом нужны `Middleware in Go Servers` и `Dependency Wiring for Go Servers`
-- [ ] Проверить будущие `related` с `Telemetry` и `Connection Pooling`
+- [ ] Проверить будущие `related` с `Telemetry`, `Go pprof` и `Connection Pooling`

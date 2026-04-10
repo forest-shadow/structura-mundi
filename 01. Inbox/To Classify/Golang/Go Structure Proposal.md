@@ -49,6 +49,11 @@ Programming Languages
     ├── Go Error Handling
     ├── Go Concurrency
     ├── Go Memory Model
+    ├── Go Runtime Diagnostics
+    │   └── Go pprof
+    │       ├── Go pprof Profile Types
+    │       ├── Go pprof Collection Methods
+    │       └── Go pprof Analysis Workflow
     ├── Go Standard Library
     ├── Go Tooling
     └── Go Idioms
@@ -59,6 +64,8 @@ Programming Languages
 Ветка должна сначала показывать Go как язык, а затем расходиться по устойчивым conceptual layers: форма исходного кода, устройство типов, исполнение, concurrency и tooling. Это помогает не смешивать language semantics с библиотечными практиками или инструментами.
 
 `[[Go Struct Tags]]` имеет смысл держать в `[[Go Type System]]` рядом с `[[Go Struct Types]]`, потому что struct tags принадлежат объявлению поля на уровне языка. Их runtime-чтение через reflection уже является вторичной перспективой, а не исходной категорией.
+
+`[[Go Runtime Diagnostics]]` имеет смысл держать отдельным overview-узлом рядом с `[[Go Memory Management]]` и `[[Go Concurrency Model]]`, потому что profiling, tracing и runtime-analysis практики используют эти темы, но не сводятся ни к одной из них. `[[Go pprof]]` помещается внутрь этой ветки как первый устойчивый диагностический инструмент.
 
 ## Что стоит включать в языковой слой
 
@@ -75,12 +82,15 @@ Programming Languages
 - [[Go Error Handling]]
 - [[Go Concurrency]]
 - [[Go Memory Model]]
+- [[Go Runtime Diagnostics]]
+- [[Go pprof]]
 
 ## Что не стоит делать
 
 - не превращать верхний уровень в список всех пакетов стандартной библиотеки;
 - не выносить library conventions в язык без оговорок;
 - не создавать промежуточные overview-узлы без достаточного количества самостоятельных подтем.
+- не создавать отдельный `section: pprof`, потому что `section: go` уже задаёт нужный локальный кластер.
 
 ## Практический маршрут чтения
 

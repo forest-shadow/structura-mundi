@@ -14,6 +14,7 @@ related:
   - "[[Go Server Lifecycle]]"
   - "[[Timeouts and Cancellation in Go Servers]]"
   - "[[Observability in Go Servers]]"
+  - "[[Go pprof]]"
   - "[[Resource Management in Go Servers]]"
 tags: []
 ---
@@ -255,7 +256,7 @@ TLS-переменные определяют, где заканчивается
 | `METRICS_ENABLED` | Включает экспорт метрик. | Делает возможным latency, error и saturation analysis. |
 | `METRICS_PATH` | Путь для scrape метрик. | Упрощает интеграцию с Prometheus и агентами мониторинга. |
 | `ADMIN_BIND_ADDR` | Отдельный bind-адрес для admin endpoints. | Изолирует sensitive operational endpoints от публичного listener. |
-| `PPROF_ENABLED` | Включает pprof. | Даёт инструменты для CPU, heap и goroutine-диагностики в сложных инцидентах. |
+| `PPROF_ENABLED` | Включает `[[Go pprof]]`. | Даёт инструменты для CPU, heap и goroutine-диагностики в сложных инцидентах. |
 | `OTEL_ENABLED` | Включает экспорт tracing-сигналов. | Делает видимым путь запроса через сервис и зависимости. |
 | `OTEL_SERVICE_NAME` | Имя сервиса для OpenTelemetry. | Обеспечивает консистентную идентификацию в trace backend. |
 | `OTEL_EXPORTER_OTLP_ENDPOINT` | Адрес OTLP collector/exporter. | Внешне задаёт маршрут отправки телеметрии. |
@@ -303,7 +304,7 @@ TLS-переменные определяют, где заканчивается
 
 - Не смешивать env-переменные уровня процесса и бизнес-флаги предметной области в один бесформенный список.
 - Не использовать «магические» timeout-значения без budget thinking: входящий timeout должен быть согласован с timeouts downstream-вызовов и общим request deadline.
-- Не включать `pprof` и admin endpoints на публичном listener.
+- Не включать `[[Go pprof]]` и admin endpoints на публичном listener.
 - Не доверять `X-Forwarded-For` без списка доверенных proxy CIDR.
 - Не оставлять `HTTP_MAX_BODY_BYTES`, `HTTP_MAX_HEADER_BYTES` и connection limits неограниченными.
 - Не включать слишком подробный tracing или debug logging без оценки стоимости и шума.
@@ -344,4 +345,5 @@ TLS-переменные определяют, где заканчивается
 - `[[Go Server Lifecycle]]`
 - `[[Timeouts and Cancellation in Go Servers]]`
 - `[[Observability in Go Servers]]`
+- `[[Go pprof]]`
 - `[[Resource Management in Go Servers]]`

@@ -10,6 +10,8 @@ related:
   - "[[Go Servers]]"
   - "[[Server Observability]]"
   - "[[Telemetry]]"
+  - "[[Go pprof]]"
+  - "[[Go Runtime Diagnostics]]"
 tags: []
 ---
 
@@ -17,7 +19,7 @@ tags: []
 
 ## Краткое определение
 
-`Observability in Go Servers` - это организация logs, metrics, traces, health probes и profiling signals в production-сервисах на Go.
+`Observability in Go Servers` - это организация logs, metrics, traces, health probes и profiling signals, включая `[[Go pprof]]`, в production-сервисах на Go.
 
 ## Основная идея или механизм
 
@@ -39,7 +41,11 @@ tags: []
 - `[[Server Observability]]`
 - `[[Telemetry]]`
 - `[[Go Memory Management]]`
+- `[[Go Runtime Diagnostics]]`
+- `[[Go pprof]]`
 
 ## Примеры, случаи или следствия
 
 Для Go-сервисов особенно важны latency histograms, goroutine counts, memory pressure indicators и request-scoped tracing.
+
+`Go pprof` должен оставаться диагностическим инструментом с контролируемым доступом, а не публичной частью внешнего API сервера.

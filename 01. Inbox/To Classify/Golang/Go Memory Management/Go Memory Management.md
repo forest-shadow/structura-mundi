@@ -12,6 +12,8 @@ related:
   - "[[Go]]"
   - "[[Go Escape Analysis]]"
   - "[[Go Concurrency Model]]"
+  - "[[Go Runtime Diagnostics]]"
+  - "[[Go pprof]]"
 tags: []
 ---
 
@@ -33,6 +35,7 @@ tags: []
 - `Go Escape Analysis` раскрывает компиляторное решение о том, что может остаться на стеке, а что должно уйти в кучу.
 - `Go Stack and Heap Allocation` фиксирует базовую карту размещения значений и различие между stack и heap в Go runtime.
 - `Go Garbage Collection` собирает темы про GC cycles, pressure, паузы, write barriers и практические следствия для production-кода.
+- `Go pprof` связан с этой веткой поперечно, потому что heap profiles и allocation profiles помогают проверять реальные memory-management гипотезы.
 
 ## Рекомендуемый маршрут чтения
 
@@ -44,10 +47,13 @@ tags: []
 ## Соседние overview-ветки
 
 - `[[Go Concurrency Model]]`
+- `[[Go Runtime Diagnostics]]`
+- `[[Go pprof]]`
 
 ## Что стоит раскрыть дальше
 
 - [ ] Уточнить границы между memory management и memory model
+- [ ] Уточнить границы между memory management и pprof-driven runtime diagnostics
 - [ ] Решить, нужен ли отдельный article про Go allocator internals
 - [ ] Проверить `related`
 - [ ] Не разрастается ли ветка слишком глубоко

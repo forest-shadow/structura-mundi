@@ -13,6 +13,8 @@ related:
   - "[[Go Type System]]"
   - "[[Go Memory Management]]"
   - "[[Go Concurrency Model]]"
+  - "[[Go Runtime Diagnostics]]"
+  - "[[Go pprof]]"
   - "[[Go Servers]]"
   - "[[Go Testing]]"
 tags: []
@@ -32,6 +34,7 @@ tags: []
 - `[[Go Error Handling]]`
 - `[[Go Memory Management]]`
 - `[[Go Concurrency Model]]`
+- `[[Go Runtime Diagnostics]]`
 - `[[Go Servers]]`
 - `[[Go Testing]]`
 
@@ -40,6 +43,7 @@ tags: []
 - `Go Toolchain` и `Go Packages and Modules` задают инженерную и build-oriented рамку.
 - `Go Type System` собирает language semantics и type-related notes.
 - `Go Memory Management` и `Go Concurrency Model` удерживают runtime и execution behavior.
+- `Go Runtime Diagnostics` собирает инструменты и практики диагностики runtime-поведения, включая `[[Go pprof]]`.
 - `Go Servers` выносит в отдельный sub-overview production-oriented тему написания серверов на Go, не смешивая ее ни с общей теорией `[[Server]]`, ни с голой concurrency-model.
 
 ## Рекомендуемый маршрут чтения
@@ -47,8 +51,9 @@ tags: []
 1. Начать с `[[Go Toolchain]]` и `[[Go Packages and Modules]]`.
 2. Затем перейти к `[[Go Type System]]`.
 3. После этого читать `[[Go Memory Management]]` и `[[Go Concurrency Model]]`.
-4. Затем перейти к `[[Go Servers]]`, если нужен server-side инженерный взгляд.
-5. Завершить `[[Go Testing]]`.
+4. Затем перейти к `[[Go Runtime Diagnostics]]`, если нужен profiling и runtime-analysis контекст.
+5. Затем перейти к `[[Go Servers]]`, если нужен server-side инженерный взгляд.
+6. Завершить `[[Go Testing]]`.
 
 ## Соседние overview-ветки
 
@@ -58,5 +63,6 @@ tags: []
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить границу между `Go Concurrency Model` и `Go Servers`
+- [ ] Проверить границу между `Go Runtime Diagnostics`, `Go Memory Management` и `Go Servers`
 - [ ] Решить, когда внутри `Go Servers` понадобятся notes про middleware и RPC contracts
 - [ ] Проверить `related`
