@@ -11,6 +11,7 @@ related:
   - "[[JavaScript Prototype System]]"
   - "[[JavaScript Scope Model]]"
   - "[[JavaScript Property Model]]"
+  - "[[ECMAScript Specification Model]]"
 tags: []
 ---
 
@@ -25,12 +26,13 @@ tags: []
 - `[[JavaScript Prototype System]]`
 - `[[JavaScript Scope Model]]`
 - `[[JavaScript Property Model]]`
+- `[[ECMAScript Specification Model]]`
 
 ## Как устроена ветка
 
 - `JavaScript` служит корневым `overview` для устойчивых подветок про устройство языка.
 - Под него стоит подвешивать только действительно самостоятельные обзорные кластеры, а не каждую отдельную статью.
-- Сейчас под этой рамкой уже естественно собираются prototype system, scope model и property model.
+- Сейчас под этой рамкой уже естественно собираются prototype system, scope model, property model и specification model.
 
 ## Рекомендуемый маршрут чтения
 
@@ -38,6 +40,7 @@ tags: []
 2. Затем перейти к `[[JavaScript Prototype System]]` для объектной модели.
 3. После этого читать `[[JavaScript Scope Model]]` для lexical scope, scope chain и closure.
 4. Для модели свойств объекта перейти к `[[JavaScript Property Model]]`.
+5. Для чтения терминов спецификации вроде `[[Prototype]]` и `[[Get]]` перейти к `[[ECMAScript Specification Model]]`.
 
 ## Что стоит раскрыть дальше
 

@@ -14,6 +14,7 @@ related:
   - "[[Linux Kernel]]"
   - "[[Linux Distribution]]"
   - "[[Linux File System]]"
+  - "[[Filesystem Hierarchy Standard]]"
   - "[[Containerization]]"
 tags: []
 ---
@@ -53,6 +54,7 @@ Operating Systems
     ├── Linux Kernel
     ├── Linux Distribution
     └── Linux File System
+        └── Filesystem Hierarchy Standard
 ```
 
 ## Почему структура именно такая
@@ -61,14 +63,16 @@ Operating Systems
 - `Linux Kernel` нужен отдельной `article`, потому что в строгом техническом смысле Linux прежде всего обозначает ядро, и эту границу важно явно удерживать.
 - `Linux Distribution` нужен отдельной `article`, потому что в повседневной инженерной практике Linux почти всегда используется как имя семейства систем, поставляемых не как «голое ядро», а как сборки с user space, package management и init-системой.
 - `Linux File System` разумнее держать отдельной `article`, а не прятать внутри общей заметки `File Systems`, потому что здесь появляется Linux-specific слой: directory hierarchy, mount points, virtual file systems и системные соглашения вокруг `/proc`, `/sys`, `/dev`, `/etc` и `/home`.
+- `Filesystem Hierarchy Standard` теперь оправдан как дочерняя `article` внутри `Linux File System`, потому что это конкретный стандарт layout-соглашений, а не вся Linux filesystem model.
 - Глубже идти пока не стоит: отдельные заметки `Linux Namespaces`, `cgroups`, `systemd`, `procfs` или `sysfs` лучше создавать только когда рядом действительно накопится корпус, а не ради симметрии.
 
 ## Что не стоит создавать заранее
 
 - отдельную корневую ветку `Unix`, если рядом еще нет устойчивого sibling-корпуса про BSD, POSIX и Unix philosophy;
 - параллельную каноническую заметку `GNU/Linux`, если она будет дублировать `Linux` с тем же объемом смысла;
-- отдельный `sub-overview` вроде `Linux File Systems`, пока в ветке есть только одна Linux-specific filesystem-note;
+- отдельный `sub-overview` вроде `Linux File Systems`, если текущие filesystem-related статьи помещаются под `Linux File System`;
 - отдельные заметки `Linux Namespaces`, `cgroups`, `systemd`, `initramfs`, `procfs`, `sysfs` и `udev`, пока они не нужны реальному локальному корпусу;
+- отдельные заметки для каждого FHS-каталога, пока их можно раскрыть разделами внутри `Filesystem Hierarchy Standard`;
 - специальные тематические template-файлы под Linux-ветку, потому что по `Principia Rerum` здесь должны оставаться только канонические `Overview Template` и `Article Template`.
 
 ## Какие рабочие заготовки уже есть
@@ -77,6 +81,7 @@ Operating Systems
 - `Linux Kernel.md` как article
 - `Linux Distribution.md` как article
 - `Linux File System.md` как article
+- `Filesystem Hierarchy Standard.md` как article
 
 Эти seed-заметки уже играют роль рабочих заготовок внутри `Inbox`; отдельные Linux-specific template-файлы для них не нужны.
 
@@ -89,6 +94,8 @@ Operating Systems
 │   ├── Linux Kernel.md
 │   ├── Linux Distribution.md
 │   └── Linux File System.md
+├── F/
+│   └── Filesystem Hierarchy Standard.md
 └── O/
     └── Operating Systems.md
 ```
@@ -101,10 +108,11 @@ Operating Systems
 - `Linux Kernel.md`
 - `Linux Distribution.md`
 - `Linux File System.md`
+- `Filesystem Hierarchy Standard.md`
 
 ## Следующий шаг перед переносом в Corpus Mundi
 
 1. Уточнить, остается ли `Linux` каноническим обзорным именем, а `GNU/Linux` только alias-формой.
-2. Решить, когда рядом с `Linux File System` действительно нужны `procfs`, `sysfs` и `Filesystem Hierarchy Standard` как отдельные статьи.
+2. Решить, когда рядом с `Linux File System` действительно нужны `procfs` и `sysfs` как отдельные статьи.
 3. Решить, когда рядом с `Linux Kernel` действительно нужны `Linux Namespaces` и `cgroups` как отдельные статьи.
 4. Проверить границу между Linux-веткой и уже существующей веткой `Containerization`.

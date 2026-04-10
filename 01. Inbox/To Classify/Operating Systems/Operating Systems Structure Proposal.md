@@ -15,6 +15,7 @@ related:
   - "[[File Systems]]"
   - "[[Containerization]]"
   - "[[Linux]]"
+  - "[[Filesystem Hierarchy Standard]]"
 tags: []
 ---
 
@@ -68,6 +69,7 @@ Operating Systems
 │   ├── Linux Kernel
 │   ├── Linux Distribution
 │   └── Linux File System
+│       └── Filesystem Hierarchy Standard
 └── Containerization
     └── Docker
 ```
@@ -78,6 +80,7 @@ Operating Systems
 - `Processes and Threads` и `Virtual Memory` оправданы как `sub-overview`, потому что внутри них уже есть плотные дочерние подветки.
 - `System Calls` и `File Systems` пока разумнее держать как обычные `article`, чтобы не усложнять ветку раньше времени.
 - `Linux` уже оправдан как отдельный `sub-overview`, потому что тема естественно собирает не только ядро и дистрибутивы, но и Linux-specific механизмы вроде `Linux File System`.
+- `Filesystem Hierarchy Standard` помещается внутрь `Linux File System` как обычная `article`: это стандарт layout-соглашений, а не новый обзорный слой.
 - `Containerization` оправдана как отдельный `sub-overview`, потому что она собирает не один термин, а устойчивую группу тем о контейнерах, изоляции процессов, образах и runtime-модели.
 - `Docker` естественно живёт внутри `Containerization`, а не напрямую под корнем `Operating Systems`, потому что это один конкретный инструментальный узел внутри более широкой темы.
 
@@ -95,7 +98,9 @@ Operating Systems/
 │   ├── Linux Kernel.md
 │   ├── Linux Distribution.md
 │   ├── Linux File System.md
-│   └── Linux File System Structure Proposal.md
+│   ├── Linux File System Structure Proposal.md
+│   ├── Filesystem Hierarchy Standard.md
+│   └── Filesystem Hierarchy Standard Structure Proposal.md
 ├── Processes and Threads/
 │   ├── Processes and Threads.md
 │   ├── Processes and Threads Structure Proposal.md
@@ -158,6 +163,7 @@ Operating Systems/
 - `[[Linux Kernel]]`
 - `[[Linux Distribution]]`
 - `[[Linux File System]]`
+- `[[Filesystem Hierarchy Standard]]`
 - `[[Virtual Memory]]`
 - `[[Virtual Address Space]]`
 - `[[Paging]]`
@@ -170,6 +176,6 @@ Operating Systems/
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить согласованность секций `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`, `linux` и `containerization`
-- [ ] Проверить, когда Linux-ветка требует дополнительных Linux-specific article помимо `Linux File System`
+- [ ] Проверить, когда Linux-ветка требует дополнительных Linux-specific article помимо `Linux File System` и `Filesystem Hierarchy Standard`
 - [ ] Проверить, когда `Containerization` начнет требовать отдельные дочерние статьи помимо `Docker`
 - [ ] Проверить `related`

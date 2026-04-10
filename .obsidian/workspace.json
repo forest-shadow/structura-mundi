@@ -27,14 +27,12 @@
             "id": "88fd8ba90a425264",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "01. Inbox/To Classify/JavaScript/JavaScript Prototype System/Proto Accessor.md",
-                "mode": "source",
-                "source": false
+                "file": "01. Inbox/To Classify/Operating Systems/Linux/_resources/67696892dd6bb85860f97556a13cf1e2_MD5.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Proto Accessor"
+              "icon": "lucide-image",
+              "title": "67696892dd6bb85860f97556a13cf1e2_MD5"
             }
           }
         ],
@@ -111,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/JavaScript/JavaScript Prototype System/Proto Accessor.md",
+                "file": "01. Inbox/To Classify/Operating Systems/Linux/_resources/67696892dd6bb85860f97556a13cf1e2_MD5.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Proto Accessor"
+              "title": "Outline of 67696892dd6bb85860f97556a13cf1e2_MD5"
             }
           },
           {
@@ -224,8 +222,23 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "88fd8ba90a425264",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Operating Systems/Linux/Linux Kernel.md",
+    "01. Inbox/To Classify/Operating Systems/Linux/_resources/67696892dd6bb85860f97556a13cf1e2_MD5.jpg",
+    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System.md",
+    "01. Inbox/To Classify/Operating Systems/Linux/Filesystem Hierarchy Standard.md",
+    "01. Inbox/To Classify/Operating Systems/Linux/Filesystem Hierarchy Standard Structure Proposal.md",
+    "01. Inbox/To Classify/Operating Systems/Linux/_resources/e41fdc70fb465f70655b0d7f39716ba8_MD5.jpg",
+    "Pasted image 20260410103541.png",
+    "01. Inbox/To Classify/JavaScript/JavaScript Prototype System/Proto Accessor.md",
+    "01. Inbox/To Classify/JavaScript/ECMAScript Specification Model/ECMAScript Abstract Operation.md",
+    "01. Inbox/To Classify/JavaScript/ECMAScript Specification Model/ECMAScript Internal Method.md",
+    "01. Inbox/To Classify/JavaScript/ECMAScript Specification Model/ECMAScript Internal Slot.md",
+    "01. Inbox/To Classify/JavaScript/ECMAScript Specification Model/ECMAScript Internal Bracket Notation.md",
+    "01. Inbox/To Classify/JavaScript/ECMAScript Specification Model/ECMAScript Specification Model.md",
+    "01. Inbox/To Classify/JavaScript/ECMAScript Specification Model/ECMAScript Specification Model Structure Proposal.md",
+    "01. Inbox/To Classify/JavaScript/ECMAScript Specification Model",
     "01. Inbox/To Classify/JavaScript/JavaScript Property Model/JavaScript Accessor Property.md",
     "01. Inbox/To Classify/JavaScript/JavaScript Property Model/JavaScript Data Property.md",
     "01. Inbox/To Classify/JavaScript/JavaScript Property Model/JavaScript Property Descriptor.md",
@@ -233,7 +246,6 @@
     "01. Inbox/To Classify/JavaScript/JavaScript Property Model/JavaScript Property Model Structure Proposal.md",
     "01. Inbox/To Classify/JavaScript/JavaScript Property Model",
     "02. Corpus Mundi/J/JavaScript Prototype Internal Slot.md",
-    "01. Inbox/To Classify/JavaScript/JavaScript Prototype System/Proto Accessor.md",
     "02. Corpus Mundi/J/JavaScript prototype Property.md",
     "01. Inbox/To Classify/JavaScript/JavaScript Prototype System/JavaScript prototype Property.md",
     "01. Inbox/To Classify/JavaScript/JavaScript Prototype System/JavaScript Prototype Internal Slot.md",
@@ -243,17 +255,7 @@
     "Tabula Ortus.md",
     "01. Inbox/To Classify/React/React Rendering Model/React State Updates.md",
     "01. Inbox/To Classify/React/React Rendering Model/React Render.md",
-    "01. Inbox/To Classify/React/React Rendering Model/React Reconciliation.md",
-    "01. Inbox/To Classify/React/React Rendering Model/React Component Re-renders.md",
     "01. Inbox/To Classify/React/React Rendering Model",
-    "01. Inbox/To Classify/React/React Components/Class Components.md",
-    "01. Inbox/To Classify/React/React Components/Higher-Order Component.md",
-    "01. Inbox/To Classify/React/React Components/Higher-Order Component Structure Proposal.md",
-    "01. Inbox/To Classify/React/React Components/Component Composition.md",
-    "01. Inbox/To Classify/React/React Components/Functional Components.md",
-    "01. Inbox/To Classify/React/React Hooks/useRef.md",
-    "01. Inbox/To Classify/React/React Hooks/useEffect.md",
-    "01. Inbox/To Classify/React/React Hooks/useContext.md",
     "01. Inbox/To Classify/React/React Hooks",
     "01. Inbox/To Classify/React/React Components",
     "01. Inbox/To Classify/Networking/OSI Model/_resources/osi-reference-model.jpg",
@@ -268,12 +270,8 @@
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "Pasted image 20260407105634.png",
-    "Pasted image 20260407105242.png",
-    "02. Corpus Mundi/I/_resources/isolation-anomaly-dirty-read.jpg",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/_resources",
-    "Pasted image 20260406192502.png",
     "01. Inbox/To Classify/Databases/Database Partitioning/Horizontal Partitioning",
-    "01. Inbox/To Classify/Databases/Database Partitioning",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
     "03. Maps and Courses/Topic Maps/React/React.canvas",
     "03. Maps and Courses/Topic Maps/OS/OS.canvas",
