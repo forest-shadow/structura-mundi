@@ -81,7 +81,11 @@ Computer Science
     └── Service Reliability
         ├── Service Level Management
         ├── Telemetry
-        ├── Observability and Monitoring
+        ├── Observability
+        │   └── Monitoring
+        │       ├── Dashboard
+        │       ├── Synthetic Monitoring
+        │       └── White-box and Black-box Monitoring
         └── Alerting and Monitoring Practices
 ```
 
@@ -99,6 +103,7 @@ Computer Science
 - `Messaging and Coordination Models` стоит держать рядом с `Event-Driven Architecture`, а не внутри нее: pub-sub, brokered messaging, producer-consumer и gossip шире любой одной архитектурной школы и могут использоваться вне EDA.
 - `Kafka` стоит держать отдельной product-specific веткой рядом с абстрактными messaging notes, а не подчинять `Messaging and Coordination Models`: эта технология образует собственный кластер заметок про topics, partitions, offsets и consumer coordination.
 - `Service Reliability` стоит рядом как operational branch, потому что наблюдаемость, service levels и alerting в распределенных системах естественно собираются именно вокруг надежности сервиса.
+- `Observability` лучше выделять в отдельный sub-overview внутри `Service Reliability`, а не склеивать с monitoring в одном каноническом узле: observability задает более широкую инженерную рамку, а monitoring выступает ее прикладной operational-подветкой.
 
 ## Что не стоит делать прямо сейчас
 

@@ -12,7 +12,7 @@ related:
   - "[[Metrics]]"
   - "[[Logging]]"
   - "[[Distributed Tracing]]"
-  - "[[Observability and Monitoring]]"
+  - "[[Observability]]"
 tags:
   - observability
   - reliability
@@ -44,7 +44,7 @@ tags:
 
 ## Соседние overview-ветки
 
-- Пока не добавлены.
+- `[[Observability]]`
 
 ## Что стоит раскрыть дальше
 

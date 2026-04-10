@@ -149,8 +149,13 @@
 
 - `artificial-intelligence`
 - `computer-architecture`
+- `operating-systems`
 - `networking`
 - `software-development`
+
+#### Внутри `philosophy`
+
+- `ancient-philosophy`
 
 #### Внутри `literature`
 
@@ -279,6 +284,15 @@
 - `logic-gates`
 - `microarchitecture`
 
+#### `computer-science -> operating-systems`
+
+- `processes-and-threads`
+- `system-calls`
+- `file-systems`
+- `memory-management`
+- `linux`
+- `containerization`
+
 #### `computer-science -> networking`
 
 - `network-topology`
@@ -307,6 +321,10 @@
 #### `computer-science -> software-development`
 
 - `vim`
+
+#### `philosophy -> ancient-philosophy`
+
+- `plato`
 
 #### `anthropology -> ethnobiology`
 

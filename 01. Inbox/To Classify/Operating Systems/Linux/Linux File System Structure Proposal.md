@@ -40,6 +40,13 @@ Operating Systems
 - `Linux File System` естественно подчиняется `[[Linux]]`, потому что здесь важны именно Linux-specific directory hierarchy, mount points, VFS-практика и системные соглашения.
 - Поперечная связь с `[[File Systems]]` должна идти через `related`, а не через второе родительство.
 
+## Какие рабочие заготовки уже есть
+
+- `Linux File System.md` как seed-статья для канонического термина
+- `Linux File System Structure Proposal.md` как правило раскладки ветки в `Inbox`
+
+Отдельный Linux-specific template-файл для этой темы не нужен: по `Principia Rerum` содержательные различия должны жить в самих seed-заметках и их `frontmatter`, а не в дополнительных шаблонах.
+
 ## Что не стоит создавать прямо сейчас
 
 - Отдельный `sub-overview` вроде `Linux File Systems`, если рядом еще нет плотного набора sibling-статей.

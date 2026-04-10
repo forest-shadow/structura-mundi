@@ -28,18 +28,18 @@ tags: []
 
 - `area: computer-science`
 - `domain: operating-systems`
-- `section: linux` (предлагаемое новое значение)
+- `section: linux`
 
 Почему так:
 
 - `Linux` не стоит выносить в отдельный `domain`, потому что это не новая большая дисциплинарная оптика, а устойчивый кластер внутри уже существующей темы ОС;
 - помещать `Linux` просто как одиночную статью прямо под `Operating Systems` неудобно, потому что рядом естественно возникают как минимум `Linux Kernel` и `Linux Distribution`, а позднее могут появиться `Linux Namespaces`, `cgroups`, `systemd`, `procfs` и другие родственные темы;
-- отдельный `section: linux` позволяет собрать Linux-ветку как самостоятельный локальный кластер, не смешивая ее напрямую с общими заметками про процессы, память и файловые системы.
+- `section: linux` уже оправдан как рабочее значение для OS-ветки и позволяет собрать Linux-кластер, не смешивая его напрямую с общими заметками про процессы, память и файловые системы.
 
 ## Канонические имена
 
-- section-level overview: `Linux`
-- article: `Linux Kernel`
+- section-level overview: `Linux` 
+- article: `Linux Kernel``Containerization` 
 - article: `Linux Distribution`
 - article: `Linux File System`
 
@@ -71,6 +71,15 @@ Operating Systems
 - отдельные заметки `Linux Namespaces`, `cgroups`, `systemd`, `initramfs`, `procfs`, `sysfs` и `udev`, пока они не нужны реальному локальному корпусу;
 - специальные тематические template-файлы под Linux-ветку, потому что по `Principia Rerum` здесь должны оставаться только канонические `Overview Template` и `Article Template`.
 
+## Какие рабочие заготовки уже есть
+
+- `Linux.md` как section-level overview
+- `Linux Kernel.md` как article
+- `Linux Distribution.md` как article
+- `Linux File System.md` как article
+
+Эти seed-заметки уже играют роль рабочих заготовок внутри `Inbox`; отдельные Linux-specific template-файлы для них не нужны.
+
 ## Предлагаемое физическое размещение после нормализации
 
 ```text
@@ -95,8 +104,7 @@ Operating Systems
 
 ## Следующий шаг перед переносом в Corpus Mundi
 
-1. Подтвердить `section: linux`.
-2. Уточнить, остается ли `Linux` каноническим обзорным именем, а `GNU/Linux` только alias-формой.
-3. Решить, когда рядом с `Linux File System` действительно нужны `procfs`, `sysfs` и `Filesystem Hierarchy Standard` как отдельные статьи.
-4. Решить, когда рядом с `Linux Kernel` действительно нужны `Linux Namespaces` и `cgroups` как отдельные статьи.
-5. Проверить границу между Linux-веткой и уже существующей веткой `Containerization`.
+1. Уточнить, остается ли `Linux` каноническим обзорным именем, а `GNU/Linux` только alias-формой.
+2. Решить, когда рядом с `Linux File System` действительно нужны `procfs`, `sysfs` и `Filesystem Hierarchy Standard` как отдельные статьи.
+3. Решить, когда рядом с `Linux Kernel` действительно нужны `Linux Namespaces` и `cgroups` как отдельные статьи.
+4. Проверить границу между Linux-веткой и уже существующей веткой `Containerization`.
