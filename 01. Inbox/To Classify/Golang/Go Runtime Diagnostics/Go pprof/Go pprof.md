@@ -16,6 +16,7 @@ related:
   - "[[Go Toolchain]]"
   - "[[Go Memory Management]]"
   - "[[Go Concurrency Model]]"
+  - "[[Profiling]]"
   - "[[Observability in Go Servers]]"
   - "[[Go pprof Profile Types]]"
   - "[[Go pprof Collection Methods]]"
@@ -37,6 +38,7 @@ tags: []
 
 ## Как устроена ветка
 
+- `Profiling` остается более общей cross-language практикой, а `Go pprof` описывает ее реализацию через стандартные пакеты и утилиты Go.
 - `Go pprof Profile Types` удерживает типы профилей и смысл сигналов.
 - `Go pprof Collection Methods` удерживает способы получения профилей из тестов, приложений и HTTP/debug endpoints.
 - `Go pprof Analysis Workflow` удерживает практику чтения профилей и перехода от profile data к гипотезам об узких местах.

@@ -14,6 +14,7 @@ related:
   - "[[Go Toolchain]]"
   - "[[Go Memory Management]]"
   - "[[Go Concurrency Model]]"
+  - "[[Profiling]]"
   - "[[Go pprof]]"
   - "[[Observability in Go Servers]]"
 tags: []
@@ -32,6 +33,7 @@ tags: []
 ## Как устроена ветка
 
 - `Go Runtime Diagnostics` живёт внутри `[[Go]]`, потому что речь идет о language-specific runtime behavior и стандартном toolchain Go.
+- `[[Profiling]]` остается для этой ветки общим cross-language понятием, а `Go Runtime Diagnostics` описывает уже Go-специфические формы той же практики.
 - `Go pprof` является первым дочерним overview-узлом, потому что pprof объединяет несколько типов профилей и несколько способов сбора данных.
 - Связь с `[[Observability in Go Servers]]` поперечная: серверная observability использует pprof как один из диагностических сигналов, но pprof не сводится только к серверному сценарию.
 

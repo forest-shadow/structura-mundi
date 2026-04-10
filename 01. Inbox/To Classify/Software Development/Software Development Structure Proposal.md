@@ -39,6 +39,11 @@ tags: []
 ```text
 Computer Science
 └── Software Development
+    ├── Performance Engineering
+    │   └── Profiling
+    │       ├── Profiling Targets and Signals
+    │       ├── Profiling Workflow
+    │       └── Profiling Overhead and Limits
     └── Vim
         ├── Vim Modes
         │   └── Vim Command-line Mode
@@ -55,6 +60,8 @@ Computer Science
 ## Почему структура именно такая
 
 - `Software Development` нужен как domain-root, чтобы заметки про инструменты разработки не висели напрямую под `Computer Science` и не подмешивались к языкам или архитектуре.
+- `Performance Engineering` оправдан как section-level overview внутри `Software Development`, потому что profiling не сводится ни к одной language-specific ветке, а рядом с ним естественно появятся benchmarking и performance-regression notes.
+- `Profiling` лучше держать как вложенный `overview`, а не как одиночную статью, потому что внутри него устойчиво распадаются вопросы "что измеряется", "как собирать профиль" и "как читать результаты".
 - `Vim` оправдан как section-level overview, потому что это не одна isolated article, а плотный кластер вокруг modal editing, editing language и рабочей модели редактора.
 - `Vim Commands` уже оправдан как локальный sub-overview, потому что внутри ветки появился устойчивый command-centric кластер: `Vim Motions`, `Vim Operators`, `Vim Text Objects` и `Vim Ex Commands`.
 - `Vim Command-line Mode` лучше оставлять под `Vim Modes`, потому что это mode-level понятие, а не отдельное семейство команд.
@@ -62,11 +69,13 @@ Computer Science
 ## Что не стоит создавать заранее
 
 - отдельный overview `Modal Editing`, если пока вся плотность корпуса сосредоточена внутри `Vim`;
+- отдельный `section: profiling`, потому что здесь шире не один термин, а целая инженерная ветка performance-oriented tooling;
 - отдельные notes по каждой отдельной команде вроде `dw`, `ciw` или `:w`;
 - отдельные template-файлы под developer tooling, потому что по `Principia Rerum` должны оставаться только канонические `Overview Template` и `Article Template`.
 
 ## Что стоит раскрыть дальше
 
+- [ ] Проверить, когда рядом с `Profiling` нужны `Benchmarking` и `Performance Regression Analysis`
 - [ ] Проверить, когда рядом с `Vim` нужны `Git` и build-tooling ветки
 - [ ] Проверить, нужен ли позже более общий section-level узел для editor tooling
 - [ ] Проверить, когда внутри `Vim Commands` появляются отдельные подтемы про ranges и substitute

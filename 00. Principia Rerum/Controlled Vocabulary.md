@@ -320,6 +320,7 @@
 
 #### `computer-science -> software-development`
 
+- `performance-engineering`
 - `vim`
 
 #### `philosophy -> ancient-philosophy`
