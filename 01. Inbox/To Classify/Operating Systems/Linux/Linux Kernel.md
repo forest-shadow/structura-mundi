@@ -14,7 +14,7 @@ related:
   - "[[Containerization]]"
 tags: []
 ---
-![[01. Inbox/To Classify/Operating Systems/Linux/_resources/67696892dd6bb85860f97556a13cf1e2_MD5.jpg|Linux Architecture Overview]]
+![[linux-kernel.jpg|Linux Architecture Overview]]
 # Linux Kernel
 
 ## Краткое определение

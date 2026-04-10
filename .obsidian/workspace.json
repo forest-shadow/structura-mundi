@@ -27,12 +27,14 @@
             "id": "88fd8ba90a425264",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Operating Systems/Linux/_resources/67696892dd6bb85860f97556a13cf1e2_MD5.jpg"
+                "file": "01. Inbox/To Classify/Operating Systems/Linux/Linux File System.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "67696892dd6bb85860f97556a13cf1e2_MD5"
+              "icon": "lucide-file",
+              "title": "Linux File System"
             }
           }
         ],
@@ -109,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Operating Systems/Linux/_resources/67696892dd6bb85860f97556a13cf1e2_MD5.jpg",
+                "file": "01. Inbox/To Classify/Operating Systems/Linux/Linux File System.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 67696892dd6bb85860f97556a13cf1e2_MD5"
+              "title": "Outline of Linux File System"
             }
           },
           {
@@ -224,8 +226,10 @@
   },
   "active": "c3376d17abdf195f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Operating Systems/Linux/_resources/linux-filesystem-overview.jpg",
+    "Pasted image 20260410103732.png",
+    "01. Inbox/To Classify/Operating Systems/Linux/_resources/linux-kernel.jpg",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux Kernel.md",
-    "01. Inbox/To Classify/Operating Systems/Linux/_resources/67696892dd6bb85860f97556a13cf1e2_MD5.jpg",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Filesystem Hierarchy Standard.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Filesystem Hierarchy Standard Structure Proposal.md",
@@ -254,7 +258,6 @@
     "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Scope Model Structure Proposal.md",
     "Tabula Ortus.md",
     "01. Inbox/To Classify/React/React Rendering Model/React State Updates.md",
-    "01. Inbox/To Classify/React/React Rendering Model/React Render.md",
     "01. Inbox/To Classify/React/React Rendering Model",
     "01. Inbox/To Classify/React/React Hooks",
     "01. Inbox/To Classify/React/React Components",
@@ -269,7 +272,6 @@
     "02. Corpus Mundi/I/_resources/isolation-anomaly-phantom-read.jpg",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
-    "Pasted image 20260407105634.png",
     "01. Inbox/To Classify/Databases/Database Transactions/ACID/Transaction Isolation/Transaction Isolation Levels/_resources",
     "01. Inbox/To Classify/Databases/Database Partitioning/Horizontal Partitioning",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
