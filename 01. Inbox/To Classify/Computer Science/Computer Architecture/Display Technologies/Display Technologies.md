@@ -9,7 +9,7 @@ parent: "[[Computer Architecture]]"
 status: seed
 related:
   - "[[Computer Architecture]]"
-  - "[[Liquid Crystal Display]]"
+  - "[[Liquid Crystal Display (LCD)]]"
 tags: []
 ---
 

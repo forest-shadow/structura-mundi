@@ -11,7 +11,7 @@ status: draft
 related:
   - "[[Computer Architecture]]"
   - "[[Display Technologies]]"
-  - "[[Liquid Crystal Display]]"
+  - "[[Liquid Crystal Display (LCD)]]"
 tags: []
 ---
 
