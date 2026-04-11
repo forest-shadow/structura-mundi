@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/Троцкий Лев.md",
+                "file": "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/Троцкий Лев Давидович.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Троцкий Лев"
+              "title": "Троцкий Лев Давидович"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/Троцкий Лев.md",
+                "file": "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/Троцкий Лев Давидович.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Троцкий Лев"
+              "title": "Outline of Троцкий Лев Давидович"
             }
           },
           {
@@ -224,22 +224,31 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "88fd8ba90a425264",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/4d4585a40dc7308d9919e7b91ecb8c02_MD5.jpg",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Display Technologies/Liquid Crystal Display.md",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Display Technologies/Display Technologies Structure Proposal.md",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Display Technologies/Display Technologies.md",
+    "01. Inbox/To Classify/Computer Science/Computer Architecture/Display Technologies",
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/Военный коммунизм Кризис и переход к НЭПу.md",
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/Военный коммунизм Политика и практики.md",
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/Военный коммунизм Исторический контекст.md",
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/Военный коммунизм Structure Proposal.md",
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/Военный коммунизм.md",
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм",
+    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/trotsky-leon-04.jpg",
+    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/trotsky-leon-05.jpg",
+    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/trotsky-leon-03.jpg",
+    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/trotsky-leon-02.jpg",
+    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/trotsky-leon-01.jpg",
+    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/Троцкий Лев Давидович.md",
     "Pasted image 20260411104008.png",
-    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/1adba1bbcb2836d4d716268a11423ab4_MD5.jpg",
     "Pasted image 20260411103933.png",
     "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/5dc3f1018fddabfa9dccc74229181354_MD5.jpg",
     "Pasted image 20260411103853.png",
-    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/40ca5ecc17ce9182454919dc1da7e453_MD5.jpg",
     "Pasted image 20260411103845.png",
-    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/68130d0c044c93458fa269ee85236d6b_MD5.jpg",
-    "Pasted image 20260411103822.png",
-    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources/e5af52f75565e131843c662e9293a3cf_MD5.jpg",
     "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/_resources",
     "01. Inbox/To Classify/History/African History/Names of Africa/Names of Africa.md",
-    "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/Троцкий Лев.md",
     "01. Inbox/To Classify/History/African History/Names of Africa/Alkebulan Structure Proposal.md",
     "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/Троцкий Лев Structure Proposal.md",
     "02. Corpus Mundi/__02. Corpus Mundi.base",
@@ -260,18 +269,9 @@
     "01. Inbox/To Classify/Software Development/Performance Engineering/Profiling/Profiling Structure Proposal.md",
     "01. Inbox/To Classify/Software Development/Performance Engineering/Profiling/Profiling.md",
     "01. Inbox/To Classify/Software Development/Performance Engineering/Performance Engineering Structure Proposal.md",
-    "01. Inbox/To Classify/Software Development/Performance Engineering/Performance Engineering.md",
     "01. Inbox/To Classify/Software Development/Performance Engineering/Profiling",
     "01. Inbox/To Classify/Software Development/Performance Engineering",
-    "01. Inbox/To Classify/Golang/Go Profile-Guided Optimization/Go PGO Constraints and Trade-offs.md",
-    "01. Inbox/To Classify/Golang/Go Profile-Guided Optimization/Go PGO Workflow.md",
-    "01. Inbox/To Classify/Golang/Go Profile-Guided Optimization/Go pprof for PGO.md",
-    "01. Inbox/To Classify/Golang/Go Profile-Guided Optimization/Go Profile-Guided Optimization Structure Proposal.md",
-    "01. Inbox/To Classify/Golang/Go Profile-Guided Optimization/Go Profile-Guided Optimization.md",
-    "01. Inbox/To Classify/Computer Science/Compilation/Profile-Guided Optimization/Profile-Guided Optimization Constraints and Trade-offs.md",
     "01. Inbox/To Classify/Golang/Go Profile-Guided Optimization",
-    "01. Inbox/To Classify/Computer Science/Compilation/Profile-Guided Optimization",
-    "01. Inbox/To Classify/Computer Science/Compilation",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
