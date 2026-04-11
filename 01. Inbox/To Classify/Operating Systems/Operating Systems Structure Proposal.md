@@ -16,6 +16,7 @@ related:
   - "[[Containerization]]"
   - "[[Linux]]"
   - "[[Filesystem Hierarchy Standard]]"
+  - "[[Linking Files]]"
 tags: []
 ---
 
@@ -69,7 +70,10 @@ Operating Systems
 │   ├── Linux Kernel
 │   ├── Linux Distribution
 │   └── Linux File System
-│       └── Filesystem Hierarchy Standard
+│       ├── Filesystem Hierarchy Standard
+│       └── Linking Files
+│           ├── Hard Link
+│           └── Symbolic Link
 └── Containerization
     └── Docker
 ```
@@ -81,6 +85,7 @@ Operating Systems
 - `System Calls` и `File Systems` пока разумнее держать как обычные `article`, чтобы не усложнять ветку раньше времени.
 - `Linux` уже оправдан как отдельный `sub-overview`, потому что тема естественно собирает не только ядро и дистрибутивы, но и Linux-specific механизмы вроде `Linux File System`.
 - `Filesystem Hierarchy Standard` помещается внутрь `Linux File System` как обычная `article`: это стандарт layout-соглашений, а не новый обзорный слой.
+- `Linking Files` тоже естественно помещается внутрь `Linux File System`: это локальный Linux filesystem-кластер, который дальше распадается на `Hard Link` и `Symbolic Link`.
 - `Containerization` оправдана как отдельный `sub-overview`, потому что она собирает не один термин, а устойчивую группу тем о контейнерах, изоляции процессов, образах и runtime-модели.
 - `Docker` естественно живёт внутри `Containerization`, а не напрямую под корнем `Operating Systems`, потому что это один конкретный инструментальный узел внутри более широкой темы.
 
@@ -97,10 +102,16 @@ Operating Systems/
 │   ├── Linux Structure Proposal.md
 │   ├── Linux Kernel.md
 │   ├── Linux Distribution.md
-│   ├── Linux File System.md
-│   ├── Linux File System Structure Proposal.md
-│   ├── Filesystem Hierarchy Standard.md
-│   └── Filesystem Hierarchy Standard Structure Proposal.md
+│   └── Linux File System/
+│       ├── Linux File System.md
+│       ├── Linux File System Structure Proposal.md
+│       ├── Filesystem Hierarchy Standard.md
+│       ├── Filesystem Hierarchy Standard Structure Proposal.md
+│       └── Linking Files/
+│           ├── Linking Files.md
+│           ├── Linking Files Structure Proposal.md
+│           ├── Hard Link.md
+│           └── Symbolic Link.md
 ├── Processes and Threads/
 │   ├── Processes and Threads.md
 │   ├── Processes and Threads Structure Proposal.md
@@ -164,6 +175,9 @@ Operating Systems/
 - `[[Linux Distribution]]`
 - `[[Linux File System]]`
 - `[[Filesystem Hierarchy Standard]]`
+- `[[Linking Files]]`
+- `[[Hard Link]]`
+- `[[Symbolic Link]]`
 - `[[Virtual Memory]]`
 - `[[Virtual Address Space]]`
 - `[[Paging]]`
@@ -176,6 +190,6 @@ Operating Systems/
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить согласованность секций `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`, `linux` и `containerization`
-- [ ] Проверить, когда Linux-ветка требует дополнительных Linux-specific article помимо `Linux File System` и `Filesystem Hierarchy Standard`
+- [ ] Проверить, когда Linux-ветка требует дополнительных Linux-specific article помимо `Linux File System`, `Filesystem Hierarchy Standard` и `Linking Files`
 - [ ] Проверить, когда `Containerization` начнет требовать отдельные дочерние статьи помимо `Docker`
 - [ ] Проверить `related`

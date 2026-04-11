@@ -9,6 +9,7 @@ parent:
 status: seed
 related:
   - "[[Ancient Philosophy]]"
+  - "[[Social Philosophy]]"
   - "[[Boolean Logic]]"
   - "[[Syllogism]]"
 tags: []
@@ -18,11 +19,12 @@ tags: []
 
 ## Краткое определение области
 
-`Philosophy` is the area-level root overview for notes about metaphysics, ontology, cosmology, logic, and other fundamental ways of conceptually describing the world.
+`Philosophy` is the area-level root overview for notes about metaphysics, ontology, cosmology, logic, social and political reflection, and other fundamental ways of conceptually describing the world.
 
 ## Что входит в эту тему
 
 - `[[Ancient Philosophy]]`
+- `[[Social Philosophy]]`
 - `[[Boolean Logic]]`
 - `[[Syllogism]]`
 
@@ -30,16 +32,19 @@ tags: []
 
 - `Philosophy` удерживает самую широкую рамку и не должна перегружаться локальными школами или единичными понятиями.
 - `Ancient Philosophy` уместна как отдельный domain-root overview, потому что для античного корпуса естественно ожидать устойчивые ветки вокруг конкретных философов и школ.
-- Ветка `logic` уже живет рядом как отдельная формальная оптика внутри философии и не должна смешиваться с историко-философскими кластерами.
+- `Social Philosophy` уместна как еще один domain-root overview, потому что понятия вроде servility, subjection, power, domination и conformity образуют не историко-философский, а тематический кластер вокруг общественных форм зависимости и свободы.
+- Ветка `logic` уже живет рядом как отдельная формальная оптика внутри философии и не должна смешиваться с историко-философскими и социально-философскими кластерами.
 
 ## Рекомендуемый маршрут чтения
 
 1. Начать с `[[Ancient Philosophy]]`, если интересует историко-философская и космологическая линия.
-2. Перейти к `[[Boolean Logic]]` и `[[Syllogism]]`, если нужен формально-логический срез.
+2. Перейти к `[[Social Philosophy]]`, если нужен понятийный срез про власть, подчинение, зависимость и автономию.
+3. Перейти к `[[Boolean Logic]]` и `[[Syllogism]]`, если нужен формально-логический срез.
 
 ## Соседние overview-ветки
 
 - `[[Ancient Philosophy]]`
+- `[[Social Philosophy]]`
 - `[[Boolean Logic]]`
 
 ## Что стоит раскрыть дальше

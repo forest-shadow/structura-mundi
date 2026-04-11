@@ -15,6 +15,9 @@ related:
   - "[[Linux Distribution]]"
   - "[[Linux File System]]"
   - "[[Filesystem Hierarchy Standard]]"
+  - "[[Linking Files]]"
+  - "[[Hard Link]]"
+  - "[[Symbolic Link]]"
   - "[[Containerization]]"
 tags: []
 ---
@@ -39,10 +42,13 @@ tags: []
 
 ## Канонические имена
 
-- section-level overview: `Linux` 
-- article: `Linux Kernel``Containerization` 
+- section-level overview: `Linux`
+- article: `Linux Kernel`
 - article: `Linux Distribution`
-- article: `Linux File System`
+- overview: `Linux File System`
+- overview: `Linking Files`
+- article: `Hard Link`
+- article: `Symbolic Link`
 
 Форма `GNU/Linux` лучше хранить в `aliases`, а не как отдельную параллельную каноническую заметку, если речь идет о той же обзорной теме.
 
@@ -54,7 +60,10 @@ Operating Systems
     ├── Linux Kernel
     ├── Linux Distribution
     └── Linux File System
-        └── Filesystem Hierarchy Standard
+        ├── Filesystem Hierarchy Standard
+        └── Linking Files
+            ├── Hard Link
+            └── Symbolic Link
 ```
 
 ## Почему структура именно такая
@@ -62,8 +71,10 @@ Operating Systems
 - `Linux` лучше сделать `overview`, потому что это уже не один частный механизм, а устойчивый узел, где требуется развести как минимум систему в широком практическом смысле, ядро и модель дистрибуции.
 - `Linux Kernel` нужен отдельной `article`, потому что в строгом техническом смысле Linux прежде всего обозначает ядро, и эту границу важно явно удерживать.
 - `Linux Distribution` нужен отдельной `article`, потому что в повседневной инженерной практике Linux почти всегда используется как имя семейства систем, поставляемых не как «голое ядро», а как сборки с user space, package management и init-системой.
-- `Linux File System` разумнее держать отдельной `article`, а не прятать внутри общей заметки `File Systems`, потому что здесь появляется Linux-specific слой: directory hierarchy, mount points, virtual file systems и системные соглашения вокруг `/proc`, `/sys`, `/dev`, `/etc` и `/home`.
+- `Linux File System` разумнее держать отдельным `overview`, а не прятать внутри общей заметки `File Systems`, потому что здесь появляется уже не один термин, а Linux-specific кластер: directory hierarchy, mount points, virtual file systems, file links и системные соглашения вокруг `/proc`, `/sys`, `/dev`, `/etc` и `/home`.
 - `Filesystem Hierarchy Standard` теперь оправдан как дочерняя `article` внутри `Linux File System`, потому что это конкретный стандарт layout-соглашений, а не вся Linux filesystem model.
+- `Linking Files` оправдан как вложенный `overview` внутри `Linux File System`, потому что тема file links естественно распадается на `Hard Link` и `Symbolic Link`.
+- `Hard Link` и `Symbolic Link` лучше держать обычными `article`, потому что это конкретные механизмы, а не новые обзорные слои.
 - Глубже идти пока не стоит: отдельные заметки `Linux Namespaces`, `cgroups`, `systemd`, `procfs` или `sysfs` лучше создавать только когда рядом действительно накопится корпус, а не ради симметрии.
 
 ## Что не стоит создавать заранее
@@ -80,8 +91,11 @@ Operating Systems
 - `Linux.md` как section-level overview
 - `Linux Kernel.md` как article
 - `Linux Distribution.md` как article
-- `Linux File System.md` как article
+- `Linux File System.md` как overview
 - `Filesystem Hierarchy Standard.md` как article
+- `Linking Files.md` как overview
+- `Hard Link.md` как article
+- `Symbolic Link.md` как article
 
 Эти seed-заметки уже играют роль рабочих заготовок внутри `Inbox`; отдельные Linux-specific template-файлы для них не нужны.
 
@@ -89,15 +103,20 @@ Operating Systems
 
 ```text
 02. Corpus Mundi/
+├── F/
+│   └── Filesystem Hierarchy Standard.md
+├── H/
+│   └── Hard Link.md
 ├── L/
 │   ├── Linux.md
 │   ├── Linux Kernel.md
 │   ├── Linux Distribution.md
-│   └── Linux File System.md
-├── F/
-│   └── Filesystem Hierarchy Standard.md
-└── O/
-    └── Operating Systems.md
+│   ├── Linux File System.md
+│   └── Linking Files.md
+├── O/
+│   └── Operating Systems.md
+└── S/
+    └── Symbolic Link.md
 ```
 
 Логическая ветка при этом собирается через `parent`, а не через вложенные директории.
@@ -109,10 +128,14 @@ Operating Systems
 - `Linux Distribution.md`
 - `Linux File System.md`
 - `Filesystem Hierarchy Standard.md`
+- `Linking Files.md`
+- `Hard Link.md`
+- `Symbolic Link.md`
 
 ## Следующий шаг перед переносом в Corpus Mundi
 
 1. Уточнить, остается ли `Linux` каноническим обзорным именем, а `GNU/Linux` только alias-формой.
 2. Решить, когда рядом с `Linux File System` действительно нужны `procfs` и `sysfs` как отдельные статьи.
-3. Решить, когда рядом с `Linux Kernel` действительно нужны `Linux Namespaces` и `cgroups` как отдельные статьи.
-4. Проверить границу между Linux-веткой и уже существующей веткой `Containerization`.
+3. Проверить, когда рядом с `Linking Files` действительно нужны `inode` и `pathname resolution` как отдельные статьи.
+4. Решить, когда рядом с `Linux Kernel` действительно нужны `Linux Namespaces` и `cgroups` как отдельные статьи.
+5. Проверить границу между Linux-веткой и уже существующей веткой `Containerization`.

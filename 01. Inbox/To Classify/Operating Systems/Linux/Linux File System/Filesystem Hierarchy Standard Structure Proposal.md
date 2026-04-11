@@ -60,10 +60,11 @@ Operating Systems
 01. Inbox/To Classify/Operating Systems/Linux/
 ├── Linux.md
 ├── Linux Structure Proposal.md
-├── Linux File System.md
-├── Linux File System Structure Proposal.md
-├── Filesystem Hierarchy Standard.md
-└── Filesystem Hierarchy Standard Structure Proposal.md
+└── Linux File System/
+    ├── Linux File System.md
+    ├── Linux File System Structure Proposal.md
+    ├── Filesystem Hierarchy Standard.md
+    └── Filesystem Hierarchy Standard Structure Proposal.md
 ```
 
 ## Предлагаемое физическое размещение после нормализации

@@ -13,6 +13,7 @@ related:
   - "[[Linux Distribution]]"
   - "[[Linux File System]]"
   - "[[Filesystem Hierarchy Standard]]"
+  - "[[Linking Files]]"
   - "[[Containerization]]"
 tags: []
 ---
@@ -29,14 +30,16 @@ tags: []
 - `[[Linux Distribution]]`
 - `[[Linux File System]]`
 - `[[Filesystem Hierarchy Standard]]`
+- `[[Linking Files]]`
 
 ## Как устроена ветка
 
 - `Linux` удерживает широкую практическую рамку, в которой слово «Linux» употребляется в инженерной среде.
 - `Linux Kernel` нужен, чтобы развести Linux как ядро и Linux как систему в более широком повседневном смысле.
 - `Linux Distribution` нужен, чтобы показать, что Linux почти никогда не существует для пользователя как одно лишь ядро, а обычно поставляется как сборка с инструментами, пакетным менеджментом и соглашениями user space.
-- `Linux File System` нужен как Linux-specific article про то, как общая тема `File Systems` проявляется в среде Linux через иерархию каталогов, mount points, virtual file systems и системные соглашения.
+- `Linux File System` нужен как Linux-specific overview про то, как общая тема `File Systems` проявляется в среде Linux через иерархию каталогов, mount points, virtual file systems, links и системные соглашения.
 - `Filesystem Hierarchy Standard` нужен как дочерняя статья к `Linux File System`, чтобы отдельно удержать стандарт каталогового layout и не смешивать его с VFS, mount points и конкретными on-disk filesystems.
+- `Linking Files` нужен как вложенный overview внутри `Linux File System`, потому что тема links в Linux естественно распадается на `Hard Link` и `Symbolic Link`.
 
 ## Рекомендуемый маршрут чтения
 
@@ -45,7 +48,8 @@ tags: []
 3. После этого читать `[[Linux Distribution]]`, чтобы понять, как Linux появляется в реальной эксплуатации и распространении.
 4. Затем читать `[[Linux File System]]`, чтобы увидеть Linux-specific сторону общей темы `[[File Systems]]`.
 5. После этого перейти к `[[Filesystem Hierarchy Standard]]`, если нужен layout каталогов вроде `/etc`, `/usr`, `/var` и `/home`.
-6. Затем уже сопоставлять эту ветку с `[[Containerization]]`, если интересует Linux как основа контейнерной изоляции.
+6. Затем читать `[[Linking Files]]`, `[[Hard Link]]` и `[[Symbolic Link]]`, если нужен механизм Linux file links.
+7. Затем уже сопоставлять эту ветку с `[[Containerization]]`, если интересует Linux как основа контейнерной изоляции.
 
 ## Соседние overview-ветки
 
@@ -58,4 +62,5 @@ tags: []
 - [ ] Решить, когда рядом нужны `Linux Namespaces` и `cgroups`
 - [ ] Добавить связи с общими заметками про процессы, системные вызовы и файловые системы
 - [ ] Проверить, когда рядом с `Linux File System` нужны `procfs` и `sysfs`
+- [ ] Проверить, когда рядом с `Linking Files` нужны `inode` и `pathname resolution`
 - [ ] Проверить `related`
