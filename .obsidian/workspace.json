@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/History/Political History/История СССР/НЭП/НЭП.md",
+                "file": "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/Военный коммунизм.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "НЭП"
+              "title": "Военный коммунизм"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/History/Political History/История СССР/НЭП/НЭП.md",
+                "file": "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/Военный коммунизм.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of НЭП"
+              "title": "Outline of Военный коммунизм"
             }
           },
           {
@@ -226,19 +226,21 @@
   },
   "active": "88fd8ba90a425264",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources/war-communism-04.jpg",
+    "Pasted image 20260412113320.png",
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources/war-communism-03.jpg",
+    "Pasted image 20260412113308.png",
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources/war-communism-02.jpg",
+    "Pasted image 20260412113252.png",
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources/war-communism-01.jpg",
+    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources",
+    "Pasted image 20260412113237.png",
+    "01. Inbox/To Classify/History/Political History/История СССР/НЭП/НЭП.md",
+    "01. Inbox/To Classify/History/Political History/История СССР/НЭП/_resources/nep-04.jpg",
+    "Pasted image 20260412111802.png",
     "01. Inbox/To Classify/History/Political History/История СССР/НЭП/_resources/nep-03.jpg",
-    "Pasted image 20260412110740.png",
-    "01. Inbox/To Classify/History/Political History/История СССР/НЭП/_resources/nep-02.jpg",
-    "Pasted image 20260412110720.png",
-    "01. Inbox/To Classify/History/Political History/История СССР/НЭП/_resources/nep-01.jpg",
     "01. Inbox/To Classify/History/Political History/История СССР/НЭП/_resources",
-    "Pasted image 20260412110348.png",
     "01. Inbox/To Classify/History/Political History/История российской революции/Бухарин Николай/Бухарин Николай Иванович.md",
-    "01. Inbox/To Classify/History/Political History/История российской революции/Бухарин Николай/_resources/buharin-02.jpg",
-    "Pasted image 20260412104022.png",
-    "01. Inbox/To Classify/History/Political History/История российской революции/Бухарин Николай/_resources/buharin-04.jpg",
-    "Pasted image 20260412103834.png",
-    "01. Inbox/To Classify/History/Political History/История российской революции/Бухарин Николай/_resources/buharin-03.jpg",
     "01. Inbox/To Classify/History/Political History/История российской революции/Бухарин Николай/_resources",
     "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/Троцкий Лев Давидович.md",
     "02. Corpus Mundi/L/Liquid Crystal Display (LCD).md",
@@ -269,9 +271,7 @@
     "01. Inbox/To Classify/Philosophy/Социальная философия/Власть и подчинение",
     "01. Inbox/To Classify/Philosophy/Социальная философия",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Computer Architecture Structure Proposal.md",
-    "01. Inbox/To Classify/Computer Science/Computer Architecture/Display Technologies/Display Technologies Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science/Computer Architecture/Display Technologies",
-    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
