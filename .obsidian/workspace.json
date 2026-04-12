@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/J/JavaScript Closure.md",
+                "file": "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript Closure"
+              "title": "Linking Files"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/J/JavaScript Closure.md",
+                "file": "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JavaScript Closure"
+              "title": "Outline of Linking Files"
             }
           },
           {
@@ -224,11 +224,13 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "88fd8ba90a425264",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files Structure Proposal.md",
+    "01. Inbox/To Classify/Operating Systems/Linux/_resources/linux-filesystem-overview.jpg",
+    "02. Corpus Mundi/J/JavaScript Closure.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Structure Proposal.md",
-    "02. Corpus Mundi/J/JavaScript Closure.md",
     "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Scope Model Structure Proposal.md",
     "02. Corpus Mundi/E/Ethnobiology.md",
     "02. Corpus Mundi/E/_resources/ethnobiology.jpg",
@@ -243,7 +245,6 @@
     "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources/war-communism-03.jpg",
     "Pasted image 20260412113308.png",
     "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources/war-communism-02.jpg",
-    "Pasted image 20260412113252.png",
     "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources",
     "01. Inbox/To Classify/History/Political History/История СССР/НЭП/НЭП.md",
     "01. Inbox/To Classify/History/Political History/История СССР/НЭП/_resources",
@@ -251,7 +252,6 @@
     "01. Inbox/To Classify/History/Political History/История российской революции/Бухарин Николай/_resources",
     "01. Inbox/To Classify/History/Political History/История российской революции/Троцкий Лев/Троцкий Лев Давидович.md",
     "02. Corpus Mundi/L/Liquid Crystal Display (LCD).md",
-    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files Structure Proposal.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Symbolic Link.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Hard Link.md",
@@ -269,7 +269,6 @@
     "01. Inbox/To Classify/Philosophy/Social Philosophy/Social Philosophy Structure Proposal.md",
     "01. Inbox/To Classify/Philosophy/Social Philosophy/Power and Subjection",
     "01. Inbox/To Classify/Philosophy/Social Philosophy",
-    "01. Inbox/To Classify/Philosophy/Социальная философия/Власть и подчинение/Servility.md",
     "01. Inbox/To Classify/Philosophy/Социальная философия/Власть и подчинение",
     "01. Inbox/To Classify/Philosophy/Социальная философия",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
