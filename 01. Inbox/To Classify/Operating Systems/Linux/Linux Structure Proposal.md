@@ -46,6 +46,7 @@ tags: []
 - article: `Linux Kernel`
 - article: `Linux Distribution`
 - overview: `Linux File System`
+- article: `Inode`
 - overview: `Linking Files`
 - article: `Hard Link`
 - article: `Symbolic Link`
@@ -60,6 +61,7 @@ Operating Systems
     ├── Linux Kernel
     ├── Linux Distribution
     └── Linux File System
+        ├── Inode
         ├── Filesystem Hierarchy Standard
         └── Linking Files
             ├── Hard Link
@@ -72,6 +74,7 @@ Operating Systems
 - `Linux Kernel` нужен отдельной `article`, потому что в строгом техническом смысле Linux прежде всего обозначает ядро, и эту границу важно явно удерживать.
 - `Linux Distribution` нужен отдельной `article`, потому что в повседневной инженерной практике Linux почти всегда используется как имя семейства систем, поставляемых не как «голое ядро», а как сборки с user space, package management и init-системой.
 - `Linux File System` разумнее держать отдельным `overview`, а не прятать внутри общей заметки `File Systems`, потому что здесь появляется уже не один термин, а Linux-specific кластер: directory hierarchy, mount points, virtual file systems, file links и системные соглашения вокруг `/proc`, `/sys`, `/dev`, `/etc` и `/home`.
+- `Inode` теперь оправдан как дочерняя `article` внутри `Linux File System`, потому что это уже не только техническая деталь hard links, а центральная структурная сущность Linux filesystem-модели.
 - `Filesystem Hierarchy Standard` теперь оправдан как дочерняя `article` внутри `Linux File System`, потому что это конкретный стандарт layout-соглашений, а не вся Linux filesystem model.
 - `Linking Files` оправдан как вложенный `overview` внутри `Linux File System`, потому что тема file links естественно распадается на `Hard Link` и `Symbolic Link`.
 - `Hard Link` и `Symbolic Link` лучше держать обычными `article`, потому что это конкретные механизмы, а не новые обзорные слои.
@@ -92,6 +95,7 @@ Operating Systems
 - `Linux Kernel.md` как article
 - `Linux Distribution.md` как article
 - `Linux File System.md` как overview
+- `Inode.md` как article
 - `Filesystem Hierarchy Standard.md` как article
 - `Linking Files.md` как overview
 - `Hard Link.md` как article
@@ -136,6 +140,6 @@ Operating Systems
 
 1. Уточнить, остается ли `Linux` каноническим обзорным именем, а `GNU/Linux` только alias-формой.
 2. Решить, когда рядом с `Linux File System` действительно нужны `procfs` и `sysfs` как отдельные статьи.
-3. Проверить, когда рядом с `Linking Files` действительно нужны `inode` и `pathname resolution` как отдельные статьи.
+3. Проверить, когда рядом с `Inode` действительно нужны `pathname resolution` и `dentry` как отдельные статьи.
 4. Решить, когда рядом с `Linux Kernel` действительно нужны `Linux Namespaces` и `cgroups` как отдельные статьи.
 5. Проверить границу между Linux-веткой и уже существующей веткой `Containerization`.

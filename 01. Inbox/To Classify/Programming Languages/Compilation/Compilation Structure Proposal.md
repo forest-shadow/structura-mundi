@@ -37,6 +37,9 @@ tags: []
 ```text
 Programming Languages
 └── Compilation
+    ├── Program Binary Formats
+    │   ├── ELF
+    │   └── DWARF
     ├── Program Translation Pipeline
     │   ├── Lexical Analysis
     │   ├── Parsing
@@ -54,14 +57,18 @@ Programming Languages
 - `Compilation` оправдан как дочерний `overview` внутри `Programming Languages`, потому что тема собирает не одну статью, а устойчивую группу взаимосвязанных заметок про трансляцию программы.
 - `Program Translation Pipeline` лучше, чем `Source Code Execution Pipeline`, потому что здесь речь идет именно о преобразовании source code в промежуточные и конечные представления, а не о runtime execution.
 - `Program Translation Pipeline` оправдан как вложенный `overview`, потому что внутри него уже есть устойчивый набор стадий: lexical analysis, parsing, semantic analysis, intermediate representation, code generation и linking.
+- `Program Binary Formats` оправдан как вложенный `overview`, потому что `ELF` и `DWARF` уже образуют локальный кластер про стандартизованные бинарные представления программного артефакта и его отладочных данных.
 - `Abstract Syntax Tree` лучше держать отдельной статьей, а не просто разделом внутри `Parsing`, потому что AST выступает самостоятельным представлением программы и используется также в semantic analysis, optimization и code generation.
 - `Machine Code` и `Executable Binary` лучше держать отдельными статьями, потому что это не тождественные понятия: machine code — это низкоуровневые инструкции, а executable binary — итоговый артефакт после упаковки и линковки.
+- `ELF` не стоит подвешивать напрямую под `Executable Binary`, потому что по правилам `Principia Rerum` дочерняя заметка должна указывать в `parent` обзорный узел, а `Executable Binary` по текущей модели остается обычной `article`.
+- `DWARF` не стоит жестко подчинять только `ELF`, потому что в этой оптике важнее выделить формат debug information как самостоятельную статью рядом с форматом бинарного контейнера.
 - Дополнительную глубину пока не стоит вводить: темы вроде `Assembler`, `Object File`, `Bytecode`, `Symbol Table`, `Control Flow Graph` и `Loader` разумнее сначала раскрывать как разделы внутри существующих notes и выносить только при накоплении корпуса.
 
 ## Что не стоит создавать заранее
 
 - отдельную корневую ветку `Compiler Theory`, если пока задача ограничена базовой compilation-веткой;
 - отдельный `overview` только для `Parsing`, если пока достаточно обычной article-note;
+- превращать `Executable Binary` в вынужденный `overview` только ради подвешивания `ELF` и `DWARF`;
 - специальные тематические template-файлы под compiler notes, потому что по `Principia Rerum` должны оставаться только канонические `Overview Template` и `Article Template`.
 
 ## Текущая физическая раскладка в Inbox
@@ -73,6 +80,11 @@ Compilation/
 ├── Abstract Syntax Tree.md
 ├── Machine Code.md
 ├── Executable Binary.md
+├── Program Binary Formats/
+│   ├── Program Binary Formats.md
+│   ├── Program Binary Formats Structure Proposal.md
+│   ├── ELF.md
+│   └── DWARF.md
 └── Program Translation Pipeline/
     ├── Program Translation Pipeline.md
     ├── Lexical Analysis.md
@@ -94,7 +106,10 @@ Compilation/
 ├── C/
 │   ├── Compilation.md
 │   └── Code Generation.md
+├── D/
+│   └── DWARF.md
 ├── E/
+│   ├── ELF.md
 │   └── Executable Binary.md
 ├── I/
 │   └── Intermediate Representation.md
@@ -115,6 +130,9 @@ Compilation/
 ## Что уже создано в Inbox
 
 - `[[Compilation]]`
+- `[[Program Binary Formats]]`
+- `[[ELF]]`
+- `[[DWARF]]`
 - `[[Program Translation Pipeline]]`
 - `[[Lexical Analysis]]`
 - `[[Parsing]]`
@@ -130,8 +148,8 @@ Compilation/
 
 1. Подтвердить `section: compilation`.
 2. Проверить, не нужен ли позднее более широкий узел `Language Implementation`.
-3. Уточнить границы между `Compilation`, `Program Translation Pipeline` и будущими notes про `Interpreter` или `Loader`.
-4. Наполнить `Compilation` и `Program Translation Pipeline` так, чтобы уже из overview-узлов было видно различие между стадиями процесса и артефактами процесса.
+3. Уточнить границы между `Compilation`, `Program Translation Pipeline`, `Program Binary Formats` и будущими notes про `Interpreter` или `Loader`.
+4. Наполнить `Compilation`, `Program Translation Pipeline` и `Program Binary Formats` так, чтобы уже из overview-узлов было видно различие между стадиями процесса, артефактами процесса и их конкретными форматами.
 
 
 # Compilation: Рекомендуемый маршрут чтения
@@ -144,8 +162,10 @@ Compilation/
 
 - `Compilation` служит корневым `overview` для общей темы трансляции программы.
 - Отдельный вложенный `overview` `[[Program Translation Pipeline]]` нужен для устойчивого набора стадий вроде lexical analysis, parsing, semantic analysis, code generation и linking.
+- Отдельный вложенный `overview` `[[Program Binary Formats]]` нужен для локального кластера конкретных бинарных представлений вроде `[[ELF]]` и `[[DWARF]]`.
 - `Abstract Syntax Tree`, `Machine Code` и `Executable Binary` лучше держать отдельными `article`, потому что это не просто шаги конвейера, а самостоятельные представления или артефакты, к которым будут вести ссылки из разных частей ветки.
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить, когда рядом нужны `Compiler`, `Interpreter` и `Linker`
+- [ ] Проверить, когда рядом с `Program Binary Formats` действительно нужны `PE` и `Mach-O`
 - [ ] Проверить границы между compilation, build pipeline и program execution

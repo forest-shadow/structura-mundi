@@ -10,6 +10,7 @@ status: draft
 related:
   - "[[Linux File System]]"
   - "[[Linking Files]]"
+  - "[[Inode]]"
   - "[[Hard Link]]"
   - "[[Symbolic Link]]"
   - "[[File Systems]]"
@@ -44,6 +45,7 @@ Operating Systems
 ## Почему структура именно такая
 
 - `Linking Files` лучше сделать `overview`, потому что один родительский узел нужен для сопоставления двух разных форм ссылок без смешения их свойств в одной длинной статье.
+- `Inode` не стоит подвешивать внутрь `Linking Files`: это более широкая Linux filesystem-сущность, которая нужна не только для hard links, но и для общей модели file object identity.
 - `Hard Link` остаётся обычной `article`, потому что это конкретный механизм дополнительного имени для того же filesystem object.
 - `Symbolic Link` тоже остаётся обычной `article`, потому что это другой конкретный механизм, основанный на ссылке по пути, а не на разделении того же файлового объекта.
 - Не стоит делать отдельную каноническую статью `Soft Link`: в Linux инженерной нормой является `Symbolic Link`, а `Soft Link` лучше хранить в `aliases`.
@@ -52,7 +54,7 @@ Operating Systems
 
 - отдельную каноническую заметку `Soft Link`, если она будет дублировать `Symbolic Link`;
 - отдельные статьи только под команды `ln` и `ln -s`, пока речь идёт о понятийной ветке, а не о справочнике утилит;
-- отдельный `overview` про `inode semantics`, если он пока нужен только как пояснение внутри `Hard Link`;
+- отдельный `overview` про `inode semantics`, если уже созданная статья `Inode` покрывает нужную гранулярность;
 - специальные template-файлы под file-linking branch, потому что по `Principia Rerum` в системе должны оставаться только общие канонические шаблоны.
 
 ## Текущая физическая раскладка в Inbox
@@ -78,6 +80,6 @@ Operating Systems
 ## Следующий шаг перед переносом в Corpus Mundi
 
 1. Уточнить формулировку различия между same inode и path-based reference.
-2. Добавить практические Linux consequences для удаления, переименования и пересечения filesystem boundaries.
-3. Проверить `aliases` у `Symbolic Link`, чтобы `Soft Link` жил именно там.
-4. После содержательного наполнения поднять `Linking Files` с `seed` до `draft`.
+2. Согласовать `Linking Files` с отдельной статьей `[[Inode]]`, чтобы hard-link semantics не дублировалась в двух местах.
+3. Добавить практические Linux consequences для удаления, переименования и пересечения filesystem boundaries.
+4. Проверить `aliases` у `Symbolic Link`, чтобы `Soft Link` жил именно там.
