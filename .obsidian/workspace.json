@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Closure.md",
+                "file": "02. Corpus Mundi/J/JavaScript Closure.md",
                 "mode": "source",
                 "source": false
               },
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Closure.md",
+                "file": "02. Corpus Mundi/J/JavaScript Closure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -224,11 +224,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "88fd8ba90a425264",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Structure Proposal.md",
-    "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Closure.md",
+    "02. Corpus Mundi/J/JavaScript Closure.md",
     "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Scope Model Structure Proposal.md",
     "02. Corpus Mundi/E/Ethnobiology.md",
     "02. Corpus Mundi/E/_resources/ethnobiology.jpg",
