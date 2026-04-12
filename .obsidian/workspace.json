@@ -41,10 +41,14 @@
             "id": "e84fc608279a1b1f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linking Files"
             }
           }
         ],
@@ -121,12 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Linking Files"
             }
           },
           {
@@ -235,6 +240,8 @@
   },
   "active": "e84fc608279a1b1f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linux File System Structure Proposal.md",
+    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linux File System.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Inode.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/DWARF.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/ELF.md",
@@ -243,7 +250,6 @@
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux Structure Proposal.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux.md",
-    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linux File System.md",
     "Tabula Ortus.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files Structure Proposal.md",
@@ -275,7 +281,6 @@
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Symbolic Link.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Hard Link.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files",
-    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linux File System Structure Proposal.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Filesystem Hierarchy Standard Structure Proposal.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System",
     "01. Inbox/To Classify/Philosophy/Social Philosophy/Power and Subjection",
