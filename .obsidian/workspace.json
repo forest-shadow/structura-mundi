@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Anthropology/Anthropology Structure Proposal.md",
+                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anthropology Structure Proposal"
+              "title": "Program Binary Formats"
             }
           }
         ],
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Anthropology/Anthropology Structure Proposal.md",
+                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Anthropology Structure Proposal"
+              "title": "Outline of Program Binary Formats"
             }
           },
           {
@@ -240,6 +240,8 @@
   },
   "active": "e84fc608279a1b1f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Anthropology/Ethnobiology/Ethnomycology Structure Proposal.md",
+    "01. Inbox/To Classify/Anthropology/Anthropology Structure Proposal.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Shared Library.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Object File.md",
@@ -265,8 +267,6 @@
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Audio-Rate Waveform.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Audio Technology Structure Proposal.md",
-    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis/Wavetable.md",
-    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Произведения",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор",
