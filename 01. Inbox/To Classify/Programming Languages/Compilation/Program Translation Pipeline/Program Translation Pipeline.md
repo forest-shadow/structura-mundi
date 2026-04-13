@@ -13,6 +13,8 @@ related:
   - "[[Compilation]]"
   - "[[Abstract Syntax Tree]]"
   - "[[Machine Code]]"
+  - "[[Object File]]"
+  - "[[Shared Library]]"
   - "[[Executable Binary]]"
 tags: []
 ---
@@ -35,7 +37,7 @@ tags: []
 ## Как устроена ветка
 
 - Эта ветка собирает именно стадии и переходы процесса.
-- Представления и артефакты вроде `[[Abstract Syntax Tree]]`, `[[Machine Code]]` и `[[Executable Binary]]` остаются рядом как отдельные статьи, потому что на них ссылаются сразу несколько стадий pipeline.
+- Представления и артефакты вроде `[[Abstract Syntax Tree]]`, `[[Machine Code]]`, `[[Object File]]`, `[[Shared Library]]` и `[[Executable Binary]]` остаются рядом как отдельные статьи, потому что на них ссылаются сразу несколько стадий pipeline.
 - В каноническом имени не используется слово execution, потому что эта заметка про translation/build flow, а не про runtime behavior уже запущенной программы.
 
 ## Соседние overview-ветки
@@ -47,12 +49,12 @@ tags: []
 1. Начать с `Program Translation Pipeline`.
 2. Затем пройти по стадиям от `[[Lexical Analysis]]` и `[[Parsing]]` к `[[Semantic Analysis]]`.
 3. После этого читать `[[Intermediate Representation]]`, `[[Code Generation]]` и `[[Linking]]`.
-4. Параллельно сверяться с `[[Abstract Syntax Tree]]`, `[[Machine Code]]` и `[[Executable Binary]]` как с ключевыми представлениями и результатами.
+4. Параллельно сверяться с `[[Abstract Syntax Tree]]`, `[[Machine Code]]`, `[[Object File]]`, `[[Shared Library]]` и `[[Executable Binary]]` как с ключевыми представлениями и результатами.
 
 ## Что стоит раскрыть дальше
 
 - [ ] Проверить, когда нужен отдельный узел про optimization pipeline
-- [ ] Проверить, нужны ли рядом notes про object files и assembly
+- [ ] Проверить, нужен ли рядом отдельный узел про assembly
 - [ ] Проверить `related`
 - [ ] Проверить `aliases`
 - [ ] Проверить `tags`

@@ -26,9 +26,11 @@ DWARF позволяет debugger-ам и другим analysis tools восст
 
 ## Границы темы
 
-- Входит: debug information entries, source mapping и типовая роль DWARF в toolchain.
+- Входит: debug information entries, source mapping, call frame information и типовая роль DWARF в toolchain.
+- Входит: разграничение между богатой debug information и более узким разговорным выражением debugging symbols.
 - Не входит: общий процесс интерактивного debugging как инженерная практика.
 - Не входит: сам контейнер бинарного файла; это лучше раскрывать в `[[ELF]]` и общей статье `[[Executable Binary]]`.
+- Не входит: отдельный общий обзор по всем форматам debug information; такой узел имеет смысл заводить только если рядом появятся другие самостоятельные форматы.
 
 ## Связи с другими заметками
 
@@ -45,11 +47,11 @@ DWARF позволяет debugger-ам и другим analysis tools восст
 ## Примеры, случаи или следствия
 
 - При сборке программы debug information часто сохраняется в секциях ELF, чтобы debugger мог связать machine-level state с исходным кодом.
+- В инженерной речи DWARF часто нестрого называют debugging symbols, но это неточно: symbol names составляют только часть той debug information, которую описывает стандарт.
 - Удаление или отделение DWARF-данных обычно уменьшает размер бинарника, но ухудшает качество отладки и postmortem-анализа.
 
 ## Что стоит раскрыть дальше
 
 - [ ] Уточнить связь между DWARF и symbol tables
-- [ ] Добавить различие между debug information и runtime metadata
 - [ ] Проверить, когда рядом нужен отдельный материал про debuggers
 - [ ] Проверить `aliases`

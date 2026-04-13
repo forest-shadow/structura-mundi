@@ -12,6 +12,8 @@ related:
   - "[[Executable Binary]]"
   - "[[Linking]]"
   - "[[DWARF]]"
+  - "[[Object File]]"
+  - "[[Shared Library]]"
 tags: []
 ---
 
@@ -28,7 +30,9 @@ ELF задает структуру бинарного артефакта чер
 ## Границы темы
 
 - Входит: ELF как формат контейнера для code, symbols, relocation data и debug sections.
+- Входит: использование одного и того же формата ELF для разных видов артефактов вроде `[[Object File]]`, `[[Shared Library]]` и `[[Executable Binary]]`.
 - Не входит: весь процесс linking или вся модель runtime loading целиком.
+- Не входит: сами виды артефактов как отдельные понятия; различие между `[[Object File]]`, `[[Shared Library]]` и `[[Executable Binary]]` лучше раскрывать в их собственных заметках.
 - Не входит: сама debug information как отдельный стандарт; это лучше раскрывать в `[[DWARF]]`.
 
 ## Связи с другими заметками
@@ -42,15 +46,16 @@ ELF задает структуру бинарного артефакта чер
 - `[[Executable Binary]]`
 - `[[Linking]]`
 - `[[DWARF]]`
+- `[[Object File]]`
+- `[[Shared Library]]`
 
 ## Примеры, случаи или следствия
 
-- Один и тот же формат ELF может использоваться не только для конечного executable, но и для object files и shared objects.
+- Один и тот же формат ELF может использоваться не только для конечного executable, но и для `[[Object File]]` и `[[Shared Library]]`.
 - Отладочные секции в ELF часто содержат данные в формате `[[DWARF]]`.
 
 ## Что стоит раскрыть дальше
 
 - [ ] Уточнить различие между sections и segments
-- [ ] Добавить связь с object files и shared libraries
 - [ ] Проверить, когда рядом нужен отдельный материал про symbol tables и relocations
 - [ ] Проверить `aliases`
