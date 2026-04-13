@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/React/React Components/React Components Proposals.md",
+                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React Components Proposals"
+              "title": "Program Binary Formats"
             }
           }
         ],
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Liquid Crys",
+                "query": "ELF",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/React/React Components/React Components Proposals.md",
+                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of React Components Proposals"
+              "title": "Outline of Program Binary Formats"
             }
           },
           {
@@ -240,8 +240,12 @@
   },
   "active": "e84fc608279a1b1f",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/React/React Structure Proposal.md",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats Structure Proposal.md",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Profile-Guided Optimization/Profile-Guided Optimization.md",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Abstract Syntax Tree.md",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
     "01. Inbox/To Classify/React/React Components/React Components Proposals.md",
+    "01. Inbox/To Classify/React/React Structure Proposal.md",
     "02. Corpus Mundi/R/React.memo.md",
     "02. Corpus Mundi/R/React Rendering Model.md",
     "02. Corpus Mundi/R/React Props.md",
@@ -264,10 +268,6 @@
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis/Wavetable Synthesis.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis/Wavetable Synthesis Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis",
-    "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Произведения/Достоевский Федор Произведения.md",
-    "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор.md",
-    "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Темы и мотивы.md",
-    "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Стиль и поэтика.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Произведения",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis",
