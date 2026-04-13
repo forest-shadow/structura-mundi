@@ -7,7 +7,7 @@ note_type: article
 area: computer-science
 domain: frontend-engineering
 section: react
-parent: "[[React Components Proposals]]"
+parent: "[[React Components]]"
 status: draft
 related:
   - "[[Functional Components]]"

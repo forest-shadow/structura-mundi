@@ -4,55 +4,65 @@
 
 Этот файл фиксирует рабочую иерархию заметок для темы `React` по правилам `Principia Rerum`.
 
-Ветка пока размещена в `Inbox`, но её словарная рамка уже подтверждена в `Controlled Vocabulary`:
+Сейчас ветка находится в смешанном состоянии: часть заметок уже переведена в `02. Corpus Mundi` и получила статус `draft`, а часть остается в `01. Inbox` как рабочие `seed`- или `draft`-черновики. Поэтому ниже зафиксирована прежде всего логическая структура ветки, а не только текущее размещение файлов.
+
+Для этой ветки уже подтверждена словарная рамка:
 
 - `area: computer-science`
 - `domain: frontend-engineering`
 - `section: react`
 - `section: react-hooks`
 
-## Рекомендуемая иерархия
+## Логическая структура ветки
 
 ```text
-React (overview)
-├── JSX (article)
-├── React Components (overview)
-│   ├── Props in React (article)
-│   ├── Functional Components (article)
-│   ├── Component Composition (article)
-│   ├── Class Components (article)
-│   └── Higher-Order Component (article)
-├── React Rendering Model (overview)
-│   ├── React Render (article)
-│   ├── React Reconciliation (article)
-│   ├── React State Updates (article)
-│   ├── React Component Re-renders (article)
-│   ├── React Key Prop (article)
-│   ├── React.memo (article)
-│   └── Virtual DOM (article)
-└── React Hooks (overview)
-    ├── Rules of Hooks (article)
-    ├── useState (article)
-    ├── useEffect (article)
-    ├── useCallback (article)
-    ├── useMemo (article)
-    ├── useReducer (article)
-    ├── useContext (article)
-    ├── useRef (article)
-    └── Custom Hooks (article)
+React (overview, Corpus Mundi, draft)
+├── JSX (article, Corpus Mundi, draft)
+├── React Components (overview, Corpus Mundi, draft)
+│   ├── React Props (article, Corpus Mundi, draft)
+│   ├── Functional Components (article, Inbox, draft)
+│   ├── Component Composition (article, Inbox, draft)
+│   ├── Class Components (article, Inbox, draft)
+│   └── React Higher-Order Component (article, Corpus Mundi, draft)
+├── React Rendering Model (overview, Corpus Mundi, draft)
+│   ├── React Render (article, Inbox, seed)
+│   ├── React Reconciliation (article, Inbox, seed)
+│   ├── React State Updates (article, Inbox, seed)
+│   ├── React Component Re-renders (article, Inbox, seed)
+│   ├── React Key Prop (article, Corpus Mundi, draft)
+│   ├── React.memo (article, Corpus Mundi, draft)
+│   └── Virtual DOM (article, Corpus Mundi, draft)
+└── React Hooks (overview, Corpus Mundi, draft)
+    ├── Rules of Hooks (article, Inbox, seed)
+    ├── useState (article, Corpus Mundi, draft)
+    ├── useEffect (article, Inbox, seed)
+    ├── useCallback (article, Corpus Mundi, draft)
+    ├── useMemo (article, Corpus Mundi, draft)
+    ├── useReducer (article, Corpus Mundi, draft)
+    ├── useContext (article, Inbox, seed)
+    ├── useRef (article, Inbox, seed)
+    └── Custom Hooks (article, Inbox, seed)
 ```
+
+## Текущее состояние ветки
+
+- Корневые overview-узлы `React`, `React Components`, `React Rendering Model` и `React Hooks` уже находятся в `Corpus Mundi` и имеют статус `draft`.
+- В компонентной ветке уже канонизированы `React Props` и `React Higher-Order Component`, а `Functional Components`, `Component Composition` и `Class Components` пока остаются в `Inbox` как `draft`.
+- В rendering-ветке обзор уже канонизирован, но четыре базовых article-заметки про сам процесс обновления пока находятся в `Inbox` как `seed`.
+- В hooks-ветке часть базовых API уже переехала в `Corpus Mundi`, тогда как `Rules of Hooks`, `useEffect`, `useContext`, `useRef` и `Custom Hooks` остаются в `Inbox`.
 
 ## Почему структура именно такая
 
 - `React` выступает корневым `overview` для всей ветки.
 - `React Components` нужен как связующий обзорный узел для компонентной модели, а не как одна общая статья про всё сразу.
-- `Higher-Order Component` корректнее держать внутри `React Components`, потому что его главным объектом является сам компонент как абстракция: HOC принимает компонент и возвращает новый компонент, а значит относится к паттернам организации компонентной модели, а не к hook-ветке.
+- `React Higher-Order Component` корректнее держать внутри `React Components`, потому что его главным объектом является сам компонент как абстракция: HOC принимает компонент и возвращает новый компонент, а значит относится к паттернам организации компонентной модели, а не к hook-ветке.
 - `React Rendering Model` лучше держать отдельным `overview`, потому что внутри него уже есть устойчивый набор тем: render, reconciliation, state updates, повторные рендеры, identity-механизмы вроде `React Key Prop` и оптимизационные узлы вроде `React.memo`.
 - `Virtual DOM` корректнее держать как отдельную `article` внутри `React Rendering Model`, а не как синоним всей rendering-модели React.
 - `React Key Prop` тоже корректно держать внутри `React Rendering Model`, потому что по смыслу он относится к identity элементов в reconciliation, а не к общей теме props.
 - `React.memo` тоже корректно держать внутри `React Rendering Model`, потому что по смыслу он относится к модели повторных рендеров компонентов, а не к hook-ветке.
 - Хотя `React.memo` формально имеет форму HOC-обёртки, в онтологии ветки его лучше не подчинять статье `Higher-Order Component`: это специальный API React для пропуска повторных рендеров, а не общий паттерн переиспользования компонентной логики.
 - `React Hooks` остаётся отдельным `overview`, потому что это самостоятельный API-кластер со своими правилами и устойчивым набором дочерних тем.
+- Смешанное физическое состояние ветки допустимо: каноническая структура определяется связями `parent` и принятыми note names, а не тем, лежат ли все файлы уже в одной и той же директории.
 
 ## Что не стоит создавать заранее
 
@@ -60,69 +70,40 @@ React (overview)
 - отдельные статьи на слишком мелкие аспекты reconciliation, пока они не образуют устойчивый корпус;
 - дополнительные группировки hooks вроде `Performance Hooks` или `Effect Hooks`, если под ними ещё нет плотной подветки.
 
-## Что создано в рамках этой итерации
+## Что уже канонизировано в Corpus Mundi
 
 - `React.md`
+- `JSX.md`
+- `React Components.md`
+- `React Props.md`
+- `React Higher-Order Component.md`
 - `React Rendering Model.md`
+- `React Hooks.md`
+- `React Key Prop.md`
+- `React.memo.md`
 - `Virtual DOM.md`
+- `useState.md`
+- `useCallback.md`
+- `useMemo.md`
+- `useReducer.md`
 
-## Следующий шаг перед переносом в Corpus Mundi
+## Что пока остается в Inbox
 
-1. Досоздать недостающие stubs для уже принятой React-иерархии.
-2. После этого переводить заметки из `seed` в рабочие черновики.
+- `Functional Components.md`
+- `Component Composition.md`
+- `Class Components.md`
+- `React Render.md`
+- `React Reconciliation.md`
+- `React State Updates.md`
+- `React Component Re-renders.md`
+- `Rules of Hooks.md`
+- `useEffect.md`
+- `useContext.md`
+- `useRef.md`
+- `Custom Hooks.md`
 
-# React Components
+## Следующий шаг
 
- [[React Components Proposals]] — Обзорная заметка для компонентной модели React, в которой интерфейс строится из компонентов, а связанные с ними понятия вроде `props`, композиции и разновидностей компонентов образуют отдельную подветку.
-
-## Что входит в эту тему
-
-- `[[Props in React]]`
-- `[[Functional Components]]`
-- `[[Component Composition]]`
-- `[[Class Components]]`
-- `[[Higher-Order Component]]`
-
-## Как устроена ветка
-
-- `React Components` служит связующим `overview`, а не самостоятельной статьёй про один объект знания.
-- `Props in React` вынесены отдельно, потому что это самостоятельное понятие, а не просто часть общего введения.
-- `Functional Components` и `Class Components` разделены как разные формы компонентной модели.
-- `Component Composition` остаётся отдельной статьёй про способ сборки UI из компонентов.
-- `Higher-Order Component` стоит держать рядом как отдельную статью про паттерн обёртывания и расширения компонентов, а не растворять его внутри `Component Composition` или `Functional Components`.
-
-## Рекомендуемый маршрут чтения
-
-1. Начать с общего места `React Components`.
-2. Затем перейти к `[[Props in React]]` и `[[Functional Components]]`.
-3. После этого читать `[[Component Composition]]` и `[[Higher-Order Component]]`.
-4. `[[Class Components]]` рассматривать как legacy-ветку, а не как центральную модель современного React.
-
-# React Rendering Model
-
-[[React Rendering Model]] — Обзорная заметка про то, как React вычисляет новое представление интерфейса, сопоставляет его с предыдущим и приводит UI к новому состоянию.
-
-## Что входит в эту тему
-
-- `[[React Render]]`
-- `[[React Reconciliation]]`
-- `[[React State Updates]]`
-- `[[React Component Re-renders]]`
-- `[[React Key Prop]]`
-- `[[React.memo]]`
-- `[[Virtual DOM]]`
-
-## Как устроена ветка
-
-- `React Rendering Model` служит обзорной рамкой для тем про render, reconciliation, state updates, повторные рендеры, identity-механизмы вроде `React Key Prop` и локальные оптимизации вроде `React.memo`.
-- `Virtual DOM` полезно держать рядом как объясняющую статью про промежуточное представление UI, но не как замену всей rendering-модели.
-- `React Key Prop` стоит держать рядом как отдельную статью про identity элементов в процессе reconciliation, а не как подпункт общей статьи про props.
-- `React.memo` тоже стоит держать рядом как отдельную статью про оптимизацию повторных рендеров на границе компонента, а не смешивать его с hooks или общей темой props.
-- Более узкие темы внутри reconciliation стоит выносить только тогда, когда они образуют самостоятельный корпус, а не просто удобный подпункт объяснения.
-
-## Рекомендуемый маршрут чтения
-
-1. Начать с `React Rendering Model`.
-2. Затем читать `[[React Render]]` и `[[React Reconciliation]]`.
-3. После этого перейти к `[[React State Updates]]`, `[[React Component Re-renders]]`, `[[React Key Prop]]` и `[[React.memo]]`.
-4. `[[Virtual DOM]]` использовать как поясняющую статью про внутреннее представление и историческую рамку объяснения.
+1. Довести оставшиеся `seed`-заметки в `Inbox` до содержательного `draft`.
+2. Проверить и нормализовать naming consistency между `React Props`, `React Higher-Order Component` и ссылками из старых inbox-файлов.
+3. После этого переносить оставшиеся дочерние статьи в `Corpus Mundi` без изменения их логических родителей.
