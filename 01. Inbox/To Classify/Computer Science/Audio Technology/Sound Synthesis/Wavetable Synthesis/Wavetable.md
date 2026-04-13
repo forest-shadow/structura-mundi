@@ -9,7 +9,7 @@ section: sound-synthesis
 parent: "[[Wavetable Synthesis]]"
 status: seed
 related:
-  - "[[Waveform]]"
+  - "[[Audio-Rate Waveform]]"
   - "[[Wavetable Synthesis]]"
   - "[[Wavetable Oscillator]]"
 tags: []
@@ -28,7 +28,7 @@ tags: []
 ## Границы темы
 
 - В тему входит wavetable как структура хранения и организации форм волны для синтеза.
-- Не совпадает с более общим `[[Waveform]]`, потому что waveform может быть единичной формой сигнала, а wavetable предполагает набор и порядок.
+- Не совпадает с более общим `[[Audio-Rate Waveform]]`, потому что отдельная waveform может быть единичной формой слышимого сигнала, а wavetable предполагает набор и порядок.
 - Также не совпадает с `[[Wavetable Oscillator]]`, который уже описывает механизм чтения этой таблицы.
 
 ## Связи с другими заметками
@@ -39,7 +39,7 @@ tags: []
 
 Связанные заметки:
 
-- `[[Waveform]]`
+- `[[Audio-Rate Waveform]]`
 - `[[Wavetable Synthesis]]`
 - `[[Wavetable Oscillator]]`
 

@@ -12,7 +12,7 @@ related:
   - "[[Wavetable Synthesis]]"
   - "[[Wavetable]]"
   - "[[Wavetable Oscillator]]"
-  - "[[Waveform]]"
+  - "[[Audio-Rate Waveform]]"
 tags: []
 ---
 
@@ -43,8 +43,8 @@ tags: []
 
 ## Граница с соседними темами
 
-- `[[Waveform]]` остается более общим понятием о форме сигнала.
-- `[[Wavetable]]` уже уже и конкретнее: это не любая форма волны, а упорядоченный набор waveforms, пригодный для чтения в wavetable-based synthesis.
+- `[[Audio-Rate Waveform]]` остается более общим понятием о слышимой форме сигнала.
+- `[[Wavetable]]` уже уже и конкретнее: это не любая audio-rate waveform, а упорядоченный набор waveforms, пригодный для чтения в wavetable-based synthesis.
 - Если позже понадобится расширение в сторону `Interpolation`, `Morphing` или конкретных synth architectures, их можно будет добавлять только по мере реальной необходимости.
 
 ## Что стоит раскрыть дальше

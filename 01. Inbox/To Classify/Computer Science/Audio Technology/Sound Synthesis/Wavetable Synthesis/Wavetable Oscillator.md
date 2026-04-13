@@ -11,7 +11,7 @@ status: seed
 related:
   - "[[Wavetable Synthesis]]"
   - "[[Wavetable]]"
-  - "[[Waveform]]"
+  - "[[Audio-Rate Waveform]]"
 tags: []
 ---
 
@@ -41,7 +41,7 @@ tags: []
 
 - `[[Wavetable]]`
 - `[[Wavetable Synthesis]]`
-- `[[Waveform]]`
+- `[[Audio-Rate Waveform]]`
 
 ## Примеры, случаи или следствия
 
