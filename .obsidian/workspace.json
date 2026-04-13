@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
+                "file": "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linking Files"
+              "title": "Waveform"
             }
           }
         ],
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
+                "file": "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linking Files"
+              "title": "Outline of Waveform"
             }
           },
           {
@@ -238,8 +238,16 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "e84fc608279a1b1f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Computer Science/Audio Technology/Audio Technology Structure Proposal.md",
+    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform.md",
+    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis/Wavetable.md",
+    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
+    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis/Wavetable Oscillator.md",
+    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis/Wavetable Synthesis.md",
+    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis/Wavetable Synthesis Structure Proposal.md",
+    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Произведения/Достоевский Федор Произведения.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Темы и мотивы.md",
@@ -248,10 +256,8 @@
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Биография и литературный контекст.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Structure Proposal.md",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор",
-    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Sound Synthesis.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology.md",
-    "01. Inbox/To Classify/Computer Science/Audio Technology/Audio Technology Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis",
     "01. Inbox/To Classify/Computer Science/Audio Technology",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linux File System Structure Proposal.md",
@@ -265,13 +271,8 @@
     "01. Inbox/To Classify/Operating Systems/Linux/Linux Structure Proposal.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux.md",
     "Tabula Ortus.md",
-    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files Structure Proposal.md",
     "01. Inbox/To Classify/Operating Systems/Linux/_resources/linux-filesystem-overview.jpg",
-    "02. Corpus Mundi/J/JavaScript Closure.md",
-    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering.md",
-    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Structure Proposal.md",
-    "01. Inbox/To Classify/JavaScript/JavaScript Scope Model/JavaScript Scope Model Structure Proposal.md",
     "02. Corpus Mundi/E/_resources/ethnobiology.jpg",
     "01. Inbox/To Classify/Anthropology/Ethnobiology/_resources/42ea7d2ea7c596ec9a765c655bfc01d1_MD5.jpg",
     "Pasted image 20260412115548.png",
@@ -285,7 +286,6 @@
     "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources",
     "01. Inbox/To Classify/History/Political History/История СССР/НЭП/_resources",
     "01. Inbox/To Classify/History/Political History/История российской революции/Бухарин Николай/_resources",
-    "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
