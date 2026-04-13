@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/ELF.md",
+                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/DWARF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ELF"
+              "title": "DWARF"
             }
           }
         ],
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/ELF.md",
+                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/DWARF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ELF"
+              "title": "Outline of DWARF"
             }
           },
           {
@@ -240,6 +240,14 @@
   },
   "active": "e84fc608279a1b1f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/ELF.md",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/_resources/elf-03.jpg",
+    "Pasted image 20260413221642.png",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/_resources/elf-02.jpg",
+    "Pasted image 20260413221019.png",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/_resources/elf-01.jpg",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/_resources",
+    "Pasted image 20260413220559.png",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats Structure Proposal.md",
     "01. Inbox/To Classify/Anthropology/Ethnobiology/Ethnomycology Structure Proposal.md",
@@ -266,7 +274,6 @@
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Control-Rate Waveform.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Audio-Rate Waveform.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform",
-    "01. Inbox/To Classify/Computer Science/Audio Technology/Audio Technology Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Произведения",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор",
@@ -278,14 +285,7 @@
     "01. Inbox/To Classify/Anthropology/Ethnobiology/_resources/42ea7d2ea7c596ec9a765c655bfc01d1_MD5.jpg",
     "Pasted image 20260412115548.png",
     "02. Corpus Mundi/E/_resources",
-    "Pasted image 20260412115504.png",
-    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources/war-communism-04.jpg",
-    "Pasted image 20260412113320.png",
-    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources/war-communism-03.jpg",
-    "Pasted image 20260412113308.png",
-    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources/war-communism-02.jpg",
     "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources",
-    "01. Inbox/To Classify/History/Political History/История СССР/НЭП/_resources",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",
