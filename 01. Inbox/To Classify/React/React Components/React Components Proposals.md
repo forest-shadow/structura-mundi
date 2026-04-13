@@ -39,31 +39,12 @@ tags: []
 
 ```text
 React (overview, Corpus Mundi, draft)
-├── JSX (article, Corpus Mundi, draft)
 ├── React Components (overview, Corpus Mundi, draft)
 │   ├── React Props (article, Corpus Mundi, draft)
 │   ├── Functional Components (article, Inbox, draft)
 │   ├── Component Composition (article, Inbox, draft)
 │   ├── Class Components (article, Inbox, draft)
 │   └── React Higher-Order Component (article, Corpus Mundi, draft)
-├── React Rendering Model (overview, Corpus Mundi, draft)
-│   ├── React Render (article, Inbox, seed)
-│   ├── React Reconciliation (article, Inbox, seed)
-│   ├── React State Updates (article, Inbox, seed)
-│   ├── React Component Re-renders (article, Inbox, seed)
-│   ├── React Key Prop (article, Corpus Mundi, draft)
-│   ├── React.memo (article, Corpus Mundi, draft)
-│   └── Virtual DOM (article, Corpus Mundi, draft)
-└── React Hooks (overview, Corpus Mundi, draft)
-    ├── Rules of Hooks (article, Inbox, seed)
-    ├── useState (article, Corpus Mundi, draft)
-    ├── useEffect (article, Inbox, seed)
-    ├── useCallback (article, Corpus Mundi, draft)
-    ├── useMemo (article, Corpus Mundi, draft)
-    ├── useReducer (article, Corpus Mundi, draft)
-    ├── useContext (article, Inbox, seed)
-    ├── useRef (article, Inbox, seed)
-    └── Custom Hooks (article, Inbox, seed)
 ```
 
 ## Текущее состояние ветки
