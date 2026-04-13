@@ -13,7 +13,7 @@ related:
   - "[[Functional Components]]"
   - "[[Component Composition]]"
   - "[[Class Components]]"
-  - "[[Higher-Order Component]]"
+  - "[[React Higher-Order Component]]"
   - "[[JSX]]"
   - "[[React Rendering Model]]"
 tags: []

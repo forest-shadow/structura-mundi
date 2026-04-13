@@ -5,10 +5,10 @@ note_type: article
 area: computer-science
 domain: frontend-engineering
 section: react
-parent: "[[React Components]]"
+parent: "[[React Components Proposals]]"
 status: draft
 related:
-  - "[[React Components]]"
+  - "[[React Components Proposals]]"
   - "[[Functional Components]]"
   - "[[React Rendering Model]]"
 tags: []

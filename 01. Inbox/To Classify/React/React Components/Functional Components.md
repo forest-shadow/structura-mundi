@@ -9,7 +9,7 @@ section: react
 parent: "[[React Components]]"
 status: draft
 related:
-  - "[[React Components]]"
+  - "[[React Components Proposals]]"
   - "[[React Props]]"
   - "[[React Hooks]]"
   - "[[React Rendering Model]]"

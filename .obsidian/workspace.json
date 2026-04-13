@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Waveform.md",
+                "file": "01. Inbox/To Classify/React/React Components/React Components Proposals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waveform"
+              "title": "React Components Proposals"
             }
           }
         ],
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Waveform.md",
+                "file": "01. Inbox/To Classify/React/React Components/React Components Proposals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Waveform"
+              "title": "Outline of React Components Proposals"
             }
           },
           {
@@ -238,14 +238,18 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "e84fc608279a1b1f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/React/React Components/Functional Components.md",
+    "01. Inbox/To Classify/React/React Components/React Components Proposals.md",
+    "02. Corpus Mundi/R/React Higher-Order Component.md",
+    "01. Inbox/To Classify/React/React Components/Higher-Order Component Structure Proposal.md",
+    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Waveform.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Waveform Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Control-Rate Waveform.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Audio-Rate Waveform.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Audio Technology Structure Proposal.md",
-    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Waveform.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis/Wavetable.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linking Files/Linking Files.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis/Wavetable Oscillator.md",
@@ -268,11 +272,7 @@
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Linux File System.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux File System/Inode.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/DWARF.md",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/ELF.md",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats Structure Proposal.md",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats",
-    "01. Inbox/To Classify/Operating Systems/Linux/Linux Structure Proposal.md",
     "01. Inbox/To Classify/Operating Systems/Linux/_resources/linux-filesystem-overview.jpg",
     "02. Corpus Mundi/E/_resources/ethnobiology.jpg",
     "01. Inbox/To Classify/Anthropology/Ethnobiology/_resources/42ea7d2ea7c596ec9a765c655bfc01d1_MD5.jpg",
