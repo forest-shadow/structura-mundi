@@ -30,7 +30,11 @@ views:
     order:
       - file.name
       - note_type
+      - status
       - parent
+    sort:
+      - property: note_type
+        direction: DESC
   - type: table
     name: PL — Program Binary Formats
     filters:

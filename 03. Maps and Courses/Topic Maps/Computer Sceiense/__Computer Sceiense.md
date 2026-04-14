@@ -2,6 +2,8 @@
 
 ## Compilation
 
+![[Computer Science.base#PL — Compilcation]]
+
 ### Program Binary Formats
 
-![[Computer Science.base]]
+![[Computer Science.base#PL — Program Binary Formats]]
