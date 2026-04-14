@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
+                "file": "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Compilation Structure Proposal"
+              "title": "__Computer Sceiense"
             }
           },
           {
@@ -43,16 +43,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Translation Pipeline/Linking.md",
+                "file": "02. Corpus Mundi/P/Program Translation Pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linking"
+              "title": "Program Translation Pipeline"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Translation Pipeline/Linking.md",
+                "file": "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linking"
+              "title": "Outline of __Computer Sceiense"
             }
           },
           {
@@ -239,11 +239,13 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "e84fc608279a1b1f",
+  "active": "62f135b439306a69",
   "lastOpenFiles": [
+    "02. Corpus Mundi/C/Compilation.md",
     "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Translation Pipeline/Program Translation Pipeline.md",
+    "02. Corpus Mundi/P/Program Translation Pipeline.md",
+    "02. Corpus Mundi/L/Linking.md",
     "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/Computer Sceiense/Computer Science.base",
@@ -276,8 +278,6 @@
     "02. Corpus Mundi/R/React Props.md",
     "02. Corpus Mundi/R/React Key Prop.md",
     "02. Corpus Mundi/R/React Hooks.md",
-    "02. Corpus Mundi/R/React Higher-Order Component.md",
-    "02. Corpus Mundi/R/React Components.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Произведения",

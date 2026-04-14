@@ -27,6 +27,9 @@ views:
       and:
         - file.ext == "md"
         - section == "compilation"
+    groupBy:
+      property: parent
+      direction: ASC
     order:
       - file.name
       - note_type
@@ -34,8 +37,22 @@ views:
       - parent
       - file.path
     sort:
-      - property: parent
-        direction: ASC
+      - property: note_type
+        direction: DESC
+  - type: table
+    name: PL — Compilation Structure
+    filters:
+      or:
+        - and:
+            - file.ext == "md"
+            - parent == link("Compilation")
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+    sort:
       - property: note_type
         direction: DESC
   - type: table
