@@ -41,17 +41,18 @@
             "id": "e84fc608279a1b1f",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Web Platform/Web Platform.base",
-                "viewName": "Web Platform"
+                "file": "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Browser Rendering Pipeline.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Web Platform"
+              "icon": "lucide-file",
+              "title": "Browser Rendering Pipeline"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
+                "file": "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Browser Rendering Pipeline.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of __Computer Sceiense"
+              "title": "Outline of Browser Rendering Pipeline"
             }
           },
           {
@@ -237,18 +238,19 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "62f135b439306a69",
+  "active": "e84fc608279a1b1f",
   "lastOpenFiles": [
+    "03. Maps and Courses/Topic Maps/Web Platform/Web Platform.base",
+    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Browser Rendering Pipeline.md",
+    "02. Corpus Mundi/B/Browser Page Processing.md",
+    "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Render Tree.md",
-    "03. Maps and Courses/Topic Maps/Web Platform/Web Platform.base",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/CSSOM.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/DOM.md",
-    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Browser Rendering Pipeline.md",
     "02. Corpus Mundi/P/Program Translation Pipeline.md",
     "03. Maps and Courses/Topic Maps/Computer Sceiense/Computer Science.base",
     "03. Maps and Courses/Topic Maps/Web Platform/__Web Platform.md",
-    "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
     "01. Inbox/To Classify/Web Platform/Web Origin Model/Web Origin.md",
     "01. Inbox/To Classify/Web Platform/Web Platform Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/Web Platform",
@@ -277,7 +279,6 @@
     "01. Inbox/To Classify/Anthropology/Anthropology Structure Proposal.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Shared Library.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Object File.md",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Profile-Guided Optimization/Profile-Guided Optimization.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Произведения",
