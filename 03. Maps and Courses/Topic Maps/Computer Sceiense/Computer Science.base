@@ -32,7 +32,10 @@ views:
       - note_type
       - status
       - parent
+      - file.path
     sort:
+      - property: parent
+        direction: ASC
       - property: note_type
         direction: DESC
   - type: table
