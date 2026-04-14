@@ -12,3 +12,56 @@ views:
       - file.name
       - note_type
       - status
+  - type: table
+    name: WP — Browser Page Processing
+    filters:
+      and:
+        - file.ext == "md"
+        - or:
+            - parent == link("Browser Page Processing")
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status
+    sort:
+      - property: note_type
+        direction: ASC
+    columnSize:
+      file.name: 304
+  - type: table
+    name: WP — Browser Loading Optimization Mechanisms
+    filters:
+      and:
+        - file.ext == "md"
+        - or:
+            - parent == link("Browser Loading Optimization Mechanisms")
+            - parent == link("Resource Hints")
+            - parent == link("Script Loading and Execution Attributes")
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status
+  - type: table
+    name: WP — Browser Rendering
+    filters:
+      and:
+        - file.ext == "md"
+        - or:
+            - parent == link("Browser Rendering")
+            - parent == link("Browser Rendering Pipeline")
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status
+    sort:
+      - property: parent
+        direction: ASC
