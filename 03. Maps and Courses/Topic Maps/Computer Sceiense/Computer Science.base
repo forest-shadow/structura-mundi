@@ -46,12 +46,14 @@ views:
         - and:
             - file.ext == "md"
             - parent == link("Compilation")
+        - file.name == "Compilation"
     groupBy:
       property: parent
       direction: ASC
     order:
       - file.name
       - note_type
+      - status
     sort:
       - property: note_type
         direction: DESC
@@ -64,11 +66,30 @@ views:
             - and:
                 - file.ext == "md"
                 - parent == link("Program Binary Formats")
+    groupBy:
+      property: parent
+      direction: ASC
     order:
       - file.name
       - note_type
+      - status
     sort:
       - property: note_type
         direction: DESC
     columnSize:
       file.name: 245
+  - type: table
+    name: PL — Program Translation Pipeline
+    filters:
+      or:
+        - file.name == "Program Translation Pipeline"
+        - and:
+            - file.ext == "md"
+            - parent == link("Program Translation Pipeline")
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status
