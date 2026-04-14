@@ -127,11 +127,7 @@
     "linkStrength": 0.674479166666667,
     "linkDistance": 327,
     "scale": 0.05658312315183713,
-    "close": true,
-    "localBacklinks": true,
-    "localForelinks": true,
-    "localInterlinks": false,
-    "localJumps": 1
+    "close": true
   },
   "openInNewTab": false,
   "canonicalizePropertiesWithDataview": true,
