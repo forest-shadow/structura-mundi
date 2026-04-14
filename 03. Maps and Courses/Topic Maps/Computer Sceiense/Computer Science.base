@@ -1,0 +1,50 @@
+views:
+  - type: table
+    name: Computer Science
+    filters:
+      and:
+        - file.ext == "md"
+        - area == "computer-science"
+    order:
+      - file.name
+      - note_type
+      - parent
+      - section
+      - domain
+  - type: table
+    name: Programming Languages
+    filters:
+      and:
+        - file.ext == "md"
+        - domain == "programming-languages"
+    order:
+      - file.name
+      - note_type
+      - section
+  - type: table
+    name: PL — Compilcation
+    filters:
+      and:
+        - file.ext == "md"
+        - section == "compilation"
+    order:
+      - file.name
+      - note_type
+      - parent
+  - type: table
+    name: PL — Program Binary Formats
+    filters:
+      and:
+        - or:
+            - file.name == "Program Binary Formats"
+            - and:
+                - file.ext == "md"
+                - parent == link("Program Binary Formats")
+    order:
+      - file.name
+      - note_type
+    sort:
+      - property: note_type
+        direction: DESC
+    columnSize:
+      file.name: 245

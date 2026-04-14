@@ -5,7 +5,7 @@ area: computer-science
 domain: programming-languages
 section: compilation
 parent: "[[Program Binary Formats]]"
-status: seed
+status: draft
 related:
   - "[[Program Binary Formats]]"
   - "[[ELF]]"

@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Operating Systems/Linux/Linux Structure Proposal.md",
+                "file": "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Structure Proposal"
+              "title": "__Computer Sceiense"
             }
           },
           {
@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/DWARF.md",
+                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DWARF"
+              "title": "Compilation Structure Proposal"
             }
           }
         ],
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/DWARF.md",
+                "file": "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DWARF"
+              "title": "Outline of Compilation Structure Proposal"
             }
           },
           {
@@ -240,26 +240,33 @@
   },
   "active": "e84fc608279a1b1f",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/_resources/dwarf-debug-sections.jpg",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/DWARF.md",
-    "Pasted image 20260413224924.png",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/ELF.md",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/_resources/elf-03.jpg",
-    "Pasted image 20260413221642.png",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/_resources/elf-02.jpg",
-    "Pasted image 20260413221019.png",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/_resources/elf-01.jpg",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/_resources",
-    "Pasted image 20260413220559.png",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats Structure Proposal.md",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
+    "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
+    "03. Maps and Courses/Topic Maps/Computer Sceiense/Computer Science.base",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Program Translation Pipeline/Code Generation.md",
+    "01. Inbox/To Classify/Operating Systems/Linux/Linux Structure Proposal.md",
+    "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
+    "03. Maps and Courses/Topic Maps/DBMS/__DBMS.md",
+    "02. Corpus Mundi/E/_resources/elf-03.jpg",
+    "03. Maps and Courses/Topic Maps/Computer Sceiense",
+    "02. Corpus Mundi/E/ELF.md",
+    "02. Corpus Mundi/P/Program Binary Formats.md",
+    "02. Corpus Mundi/D/DWARF.md",
+    "02. Corpus Mundi/E/_resources/elf-01.jpg",
+    "02. Corpus Mundi/D/_resources/dwarf-debug-sections.jpg",
+    "02. Corpus Mundi/E/_resources/elf-02.jpg",
+    "Pasted image 20260413224924.png",
+    "Pasted image 20260413221642.png",
+    "Pasted image 20260413221019.png",
+    "02. Corpus Mundi/D/_resources",
+    "Pasted image 20260413220559.png",
     "01. Inbox/To Classify/Anthropology/Ethnobiology/Ethnomycology Structure Proposal.md",
     "01. Inbox/To Classify/Anthropology/Anthropology Structure Proposal.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Shared Library.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Object File.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Profile-Guided Optimization/Profile-Guided Optimization.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Abstract Syntax Tree.md",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
     "01. Inbox/To Classify/React/React Components/React Components Proposals.md",
     "01. Inbox/To Classify/React/React Structure Proposal.md",
     "02. Corpus Mundi/R/React.memo.md",
@@ -269,11 +276,6 @@
     "02. Corpus Mundi/R/React Hooks.md",
     "02. Corpus Mundi/R/React Higher-Order Component.md",
     "02. Corpus Mundi/R/React Components.md",
-    "02. Corpus Mundi/R/React.md",
-    "01. Inbox/To Classify/React/React Components/Functional Components.md",
-    "01. Inbox/To Classify/React/React Components/Higher-Order Component Structure Proposal.md",
-    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Waveform.md",
-    "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform/Waveform Structure Proposal.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Произведения",
@@ -283,8 +285,6 @@
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats",
     "01. Inbox/To Classify/Operating Systems/Linux/_resources/linux-filesystem-overview.jpg",
     "02. Corpus Mundi/E/_resources/ethnobiology.jpg",
-    "02. Corpus Mundi/E/_resources",
-    "01. Inbox/To Classify/History/Political History/История СССР/Военный коммунизм/_resources",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
     "03. Maps and Courses/Topic Maps/Networking/Networkig.canvas",

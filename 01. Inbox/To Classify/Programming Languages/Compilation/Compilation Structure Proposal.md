@@ -1,25 +1,3 @@
----
-aliases:
-  - Compilation Branch Structure Proposal
-note_type: article
-area: computer-science
-domain: programming-languages
-section: compilation
-parent:
-status: seed
-related:
-  - "[[Compilation]]"
-  - "[[Programming Languages]]"
-  - "[[Program Translation Pipeline]]"
-  - "[[Program Binary Formats]]"
-  - "[[Executable Binary]]"
-  - "[[Object File]]"
-  - "[[Shared Library]]"
-tags: []
----
-
-# Compilation Structure Proposal
-
 ## Краткое определение
 
 Этот файл фиксирует минимальную иерархию заметок для темы `Compilation` внутри `Programming Languages` по правилам `Principia Rerum`.
@@ -86,7 +64,6 @@ Programming Languages
 
 ```text
 Compilation/
-├── Compilation Structure Proposal.md
 ├── Abstract Syntax Tree.md
 ├── Machine Code.md
 ├── Object File.md
@@ -94,7 +71,6 @@ Compilation/
 ├── Executable Binary.md
 ├── Program Binary Formats/
 │   ├── Program Binary Formats.md
-│   ├── Program Binary Formats Structure Proposal.md
 │   ├── ELF.md
 │   └── DWARF.md
 └── Program Translation Pipeline/
@@ -107,58 +83,6 @@ Compilation/
     └── Linking.md
 ```
 
-## Предлагаемое физическое размещение после переноса в Corpus Mundi
-
-Если ветка будет доведена до канонического состояния, её физическое размещение в `Corpus Mundi` должно следовать алфавитному правилу:
-
-```text
-02. Corpus Mundi/
-├── A/
-│   └── Abstract Syntax Tree.md
-├── C/
-│   ├── Compilation.md
-│   └── Code Generation.md
-├── D/
-│   └── DWARF.md
-├── E/
-│   ├── ELF.md
-│   └── Executable Binary.md
-├── I/
-│   └── Intermediate Representation.md
-├── L/
-│   ├── Lexical Analysis.md
-│   └── Linking.md
-├── M/
-│   └── Machine Code.md
-├── O/
-│   └── Object File.md
-├── P/
-│   ├── Parsing.md
-│   └── Program Translation Pipeline.md
-└── S/
-    ├── Semantic Analysis.md
-    └── Shared Library.md
-```
-
-Логическая ветка при этом всё равно собирается через `parent`, а не через физическое соседство файлов.
-
-## Что уже создано в Inbox
-
-- `[[Program Binary Formats]]`
-- `[[ELF]]`
-- `[[DWARF]]`
-- `[[Program Translation Pipeline]]`
-- `[[Lexical Analysis]]`
-- `[[Parsing]]`
-- `[[Abstract Syntax Tree]]`
-- `[[Semantic Analysis]]`
-- `[[Intermediate Representation]]`
-- `[[Code Generation]]`
-- `[[Machine Code]]`
-- `[[Object File]]`
-- `[[Shared Library]]`
-- `[[Linking]]`
-- `[[Executable Binary]]`
 
 ## Следующий шаг перед переносом в Corpus Mundi
 
@@ -186,3 +110,14 @@ Compilation/
 - [ ] Проверить, когда рядом нужны `Compiler`, `Interpreter` и `Linker`
 - [ ] Проверить, когда рядом с `Program Binary Formats` действительно нужны `PE` и `Mach-O`
 - [ ] Проверить границы между compilation, build pipeline и program execution
+
+
+# Program Binary Formats
+
+- `Program Binary Formats` лучше сделать `overview`, потому что `ELF` и `DWARF` уже образуют локальный кластер про стандартизованные бинарные представления программного артефакта и его отладочных данных.
+- `ELF` не стоит подвешивать напрямую под `Executable Binary`, потому что `Executable Binary` по текущей модели остается обычной `article`, а `parent` по правилам `Principia Rerum` должен указывать на обзорный узел.
+- `PE` и `Mach-O` не нужно добавлять в эту ветку автоматически только потому, что рядом уже есть `ELF`. По правилам `Principia Rerum` новый дочерний узел оправдан тогда, когда он уже нужен как самостоятельная каноническая точка чтения, а не просто как симметричный placeholder.
+- `Object File` и `Shared Library` не стоит включать внутрь `Program Binary Formats`, потому что это не конкретные форматы, а типы бинарных артефактов. Их естественнее держать отдельными `article` рядом с `Executable Binary` на уровне `Compilation`.
+- `DWARF` не стоит делать дочерней статьей строго только у `ELF`: на практике он часто встречается рядом с ELF, но понятийно описывает формат debug information, а не один конкретный executable container.
+- Отдельный общий узел `Debugging Symbols` пока не нужен. Для текущего корпуса достаточно прояснить эту границу внутри `DWARF`; если позднее понадобится обобщающий материал, точнее будет каноническое имя `Debug Information`, а не более узкое `Debugging Symbols`.
+- `Executable Binary` лучше сохранить как общую статью про итоговый артефакт программы, а форматы вынести в отдельный локальный кластер.
