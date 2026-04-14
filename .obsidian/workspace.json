@@ -27,14 +27,13 @@
             "id": "62f135b439306a69",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
-                "mode": "source",
-                "source": false
+                "file": "03. Maps and Courses/Topic Maps/Web Platform/Web Platform.base",
+                "viewName": "Web Platform"
               },
-              "icon": "lucide-file",
-              "title": "__Computer Sceiense"
+              "icon": "lucide-table",
+              "title": "Web Platform"
             }
           },
           {
@@ -125,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
+                "file": "03. Maps and Courses/Topic Maps/Web Platform/Web Platform.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of __Computer Sceiense"
+              "title": "Outline of Web Platform"
             }
           },
           {
@@ -240,14 +239,19 @@
   },
   "active": "62f135b439306a69",
   "lastOpenFiles": [
-    "02. Corpus Mundi/C/Compilation.md",
+    "03. Maps and Courses/Topic Maps/Computer Sceiense/Computer Science.base",
+    "03. Maps and Courses/Topic Maps/Web Platform/Web Platform.base",
+    "03. Maps and Courses/Topic Maps/Web Platform/__Web Platform.md",
     "03. Maps and Courses/Topic Maps/Computer Sceiense/__Computer Sceiense.md",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
+    "01. Inbox/To Classify/Web Platform/Web Origin Model/Web Origin.md",
     "02. Corpus Mundi/P/Program Translation Pipeline.md",
+    "01. Inbox/To Classify/Web Platform/Web Platform Structure Proposal.md",
+    "03. Maps and Courses/Topic Maps/Web Platform",
+    "02. Corpus Mundi/C/Compilation.md",
+    "01. Inbox/To Classify/Programming Languages/Compilation/Compilation Structure Proposal.md",
     "02. Corpus Mundi/L/Linking.md",
     "03. Maps and Courses/Topic Maps/Javascript/__Javascript.md",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats/Program Binary Formats Structure Proposal.md",
-    "03. Maps and Courses/Topic Maps/Computer Sceiense/Computer Science.base",
     "01. Inbox/To Classify/Programming Languages/Compilation/Program Translation Pipeline/Code Generation.md",
     "01. Inbox/To Classify/Operating Systems/Linux/Linux Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/DBMS/__DBMS.md",
@@ -273,17 +277,11 @@
     "01. Inbox/To Classify/React/React Components/React Components Proposals.md",
     "01. Inbox/To Classify/React/React Structure Proposal.md",
     "02. Corpus Mundi/R/React.memo.md",
-    "02. Corpus Mundi/R/React Rendering Model.md",
-    "02. Corpus Mundi/R/React Props.md",
-    "02. Corpus Mundi/R/React Key Prop.md",
-    "02. Corpus Mundi/R/React Hooks.md",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Waveform",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis/Wavetable Synthesis",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор/Достоевский Федор Произведения",
     "01. Inbox/To Classify/Literature/Russian Literature/Достоевский Федор",
     "01. Inbox/To Classify/Computer Science/Audio Technology/Sound Synthesis",
-    "01. Inbox/To Classify/Computer Science/Audio Technology",
-    "01. Inbox/To Classify/Programming Languages/Compilation/Program Binary Formats",
     "01. Inbox/To Classify/Operating Systems/Linux/_resources/linux-filesystem-overview.jpg",
     "02. Corpus Mundi/E/_resources/ethnobiology.jpg",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",

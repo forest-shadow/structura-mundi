@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Web Platform
+    filters:
+      and:
+        - file.ext == "md"
+        - domain == "web-platform"
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status

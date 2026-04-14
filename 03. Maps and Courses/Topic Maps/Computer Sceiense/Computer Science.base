@@ -17,6 +17,9 @@ views:
       and:
         - file.ext == "md"
         - domain == "programming-languages"
+    groupBy:
+      property: parent
+      direction: ASC
     order:
       - file.name
       - note_type
