@@ -3,8 +3,7 @@ cssclasses:
   - dashboard
 ---
 * Navigation
- 	* [[__02. Corpus Mundi.base|Corpus Mundi]]
+	* [[__02. Corpus Mundi.base|Corpus Mundi]]
 * Prompts
- 	* [[Obsidian Ultimate Professional Article]<imp>]</imp>
- 	* [[Post Synthesis]]
-
+	* [[Obsidian Ultimate Professional Article]]
+	* [[Post Synthesis]]
