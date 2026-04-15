@@ -12,6 +12,20 @@ views:
       - section
       - domain
   - type: table
+    name: Algorithm Analysis
+  - type: table
+    name: Automata Theory
+    filters:
+      and:
+        - section == "automata-theory"
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status
+  - type: table
     name: Programming Languages
     filters:
       and:

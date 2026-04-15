@@ -10,3 +10,6 @@
 
 ![[Web Platform.base#WP — Browser Rendering]]
 
+# Web Origin Model
+
+![[Web Platform.base#WP — Web Origin Model]]

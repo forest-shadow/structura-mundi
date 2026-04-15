@@ -1,22 +1,3 @@
----
-aliases:
-  - Finite-State Machine Structure Proposal
-note_type: article
-area: computer-science
-domain: algorithms
-section: automata-theory
-parent: "[[Automata Theory]]"
-status: draft
-related:
-  - "[[Automata Theory]]"
-  - "[[Finite Automaton]]"
-  - "[[Deterministic Finite Automaton]]"
-  - "[[Nondeterministic Finite Automaton]]"
-  - "[[Regular Language]]"
-tags: []
----
-
-# Finite Automaton Structure Proposal
 
 ## Краткое определение
 

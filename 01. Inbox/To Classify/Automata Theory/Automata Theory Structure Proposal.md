@@ -1,19 +1,3 @@
----
-aliases:
-  - Theory of Automata Structure Proposal
-note_type: article
-area: computer-science
-domain: algorithms
-section: automata-theory
-parent:
-status: draft
-related:
-  - "[[Automata Theory]]"
-  - "[[Finite Automaton]]"
-  - "[[Formal Language]]"
-  - "[[Chomsky Hierarchy]]"
-tags: []
----
 
 # Automata Theory Structure Proposal
 

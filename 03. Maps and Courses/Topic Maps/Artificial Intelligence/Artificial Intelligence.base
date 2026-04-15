@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - domain == "artificial-intelligence"
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status

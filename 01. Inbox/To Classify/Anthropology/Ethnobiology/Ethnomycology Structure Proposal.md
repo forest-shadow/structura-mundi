@@ -1,22 +1,3 @@
----
-aliases:
-  - Этномикология Structure Proposal
-  - Структура ветки Ethnomycology
-note_type: article
-area: anthropology
-domain: ethnobiology
-section: ethnomycology
-parent:
-status: draft
-related:
-  - "[[Anthropology]]"
-  - "[[Ethnobiology]]"
-  - "[[Ethnomycology]]"
-tags: []
----
-
-# Ethnomycology Structure Proposal
-
 ## Краткое определение
 
 Этот файл фиксирует минимальную иерархию заметок для темы `Ethnomycology` по правилам `Principia Rerum`.

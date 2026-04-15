@@ -62,6 +62,18 @@ views:
       - file.name
       - note_type
       - status
-    sort:
-      - property: parent
-        direction: ASC
+    sort: []
+  - type: table
+    name: WP — Web Origin Model
+    filters:
+      and:
+        - file.ext == "md"
+        - or:
+            - parent == link("Web Origin Model")
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status

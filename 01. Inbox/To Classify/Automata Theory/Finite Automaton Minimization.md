@@ -7,7 +7,7 @@ area: computer-science
 domain: algorithms
 section: automata-theory
 parent: "[[Finite Automaton]]"
-status: draft
+status: seed
 related:
   - "[[Finite Automaton]]"
   - "[[Deterministic Finite Automaton]]"

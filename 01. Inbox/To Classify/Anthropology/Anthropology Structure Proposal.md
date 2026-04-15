@@ -1,21 +1,3 @@
----
-aliases:
-  - Anthropology Structure Proposal
-  - Структура ветки Anthropology
-note_type: article
-area: anthropology
-domain:
-section:
-parent:
-status: draft
-related:
-  - "[[Anthropology]]"
-  - "[[Ethnobiology]]"
-  - "[[Ethnomycology]]"
-tags: []
----
-
-# Anthropology Structure Proposal
 
 ## Краткое определение
 
@@ -57,17 +39,6 @@ Anthropology
 - дополнительные domain-root ветки только ради симметрии, если под них пока нет устойчивого корпуса заметок;
 - лишние промежуточные overview-слои между `Anthropology` и `Ethnobiology`;
 - специальные тематические template-файлы под anthropology: по `Principia Rerum` здесь достаточно канонических `Overview Template` и `Article Template`.
-
-## Предлагаемое физическое размещение в Corpus Mundi
-
-```text
-02. Corpus Mundi/
-├── A/
-│   └── Anthropology.md
-├── E/
-│   ├── Ethnobiology.md
-│   └── Ethnomycology.md
-```
 
 ## Что уже создано в Inbox
 

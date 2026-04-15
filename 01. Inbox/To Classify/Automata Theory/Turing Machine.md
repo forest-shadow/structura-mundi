@@ -6,7 +6,7 @@ area: computer-science
 domain: algorithms
 section: automata-theory
 parent: "[[Automata Theory]]"
-status: draft
+status: seed
 related:
   - "[[Automata Theory]]"
   - "[[Formal Language]]"
