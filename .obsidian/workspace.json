@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Biology/Biology.base",
+                "file": "02. Corpus Mundi/E/Ethnomycology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Biology"
+              "title": "Outline of Ethnomycology"
             }
           },
           {
@@ -251,16 +251,16 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "634137ae02d39897",
+  "active": "1aee5707864ff94d",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology Structure Proposal.md",
+    "03. Maps and Courses/Topic Maps/Web Platform/__Web Platform.md",
     "03. Maps and Courses/Topic Maps/Biology/Biology.base",
+    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology Structure Proposal.md",
     "01. Inbox/To Classify/Biology/Biochemistry/Antioxidants Structure Proposal.md",
     "01. Inbox/To Classify/Biology/Biology.md",
     "03. Maps and Courses/Topic Maps/Biology/__Biology.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Compositing.md",
     "03. Maps and Courses/Topic Maps/Biology",
-    "03. Maps and Courses/Topic Maps/Web Platform/__Web Platform.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Paint.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Layout.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Render Tree.md",
@@ -283,7 +283,6 @@
     "01. Inbox/To Classify/Automata Theory/Formal Language.md",
     "01. Inbox/To Classify/Automata Theory/Finite Automaton Structure Proposal.md",
     "01. Inbox/To Classify/Automata Theory/Chomsky Hierarchy.md",
-    "02. Corpus Mundi/A/Automata Theory.md",
     "03. Maps and Courses/Topic Maps/Artificial Intelligence/Artificial Intelligence.base",
     "03. Maps and Courses/Topic Maps/Anthropology/Anthropology.base",
     "03. Maps and Courses/Topic Maps/Artificial Intelligence",
