@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Biology
+    filters:
+      and:
+        - file.ext == "md"
+        - area == "biology"
+    groupBy:
+      property: parent
+      direction: ASC

@@ -1,21 +1,3 @@
----
-aliases:
-  - Redox Biology Structure Proposal
-  - Структура ветки Redox Biology
-note_type: article
-area: biology
-domain: biochemistry
-section: redox-biology
-parent:
-status: draft
-related:
-  - "[[Biology]]"
-  - "[[Biochemistry]]"
-  - "[[Redox Biology]]"
-  - "[[Metabolism]]"
-  - "[[Antioxidants]]"
-tags: []
----
 
 # Redox Biology Structure Proposal
 

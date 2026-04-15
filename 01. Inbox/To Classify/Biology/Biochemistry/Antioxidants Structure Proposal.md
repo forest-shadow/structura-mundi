@@ -1,22 +1,3 @@
----
-aliases:
-  - Antioxidants Structure Proposal
-  - Структура ветки Antioxidants
-note_type: article
-area: biology
-domain: biochemistry
-section: antioxidants
-parent:
-status: draft
-related:
-  - "[[Biology]]"
-  - "[[Biochemistry]]"
-  - "[[Redox Biology]]"
-  - "[[Antioxidants]]"
-  - "[[Nutrition]]"
-  - "[[Vitamins]]"
-tags: []
----
 
 # Antioxidants Structure Proposal
 

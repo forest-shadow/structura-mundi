@@ -55,18 +55,17 @@
             "id": "634137ae02d39897",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "01. Inbox/To Classify/Web Platform/Browser Rendering/Compositing.md",
-                "mode": "source",
-                "source": false
+                "file": "03. Maps and Courses/Topic Maps/Biology/Biology.base",
+                "viewName": "Biology"
               },
-              "icon": "lucide-file",
-              "title": "Compositing"
+              "icon": "lucide-table",
+              "title": "Biology"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Web Platform/__Web Platform.md",
+                "file": "03. Maps and Courses/Topic Maps/Biology/Biology.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of __Web Platform"
+              "title": "Outline of Biology"
             }
           },
           {
@@ -252,9 +251,15 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "fc7de4f1fdede83c",
+  "active": "634137ae02d39897",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology Structure Proposal.md",
+    "03. Maps and Courses/Topic Maps/Biology/Biology.base",
+    "01. Inbox/To Classify/Biology/Biochemistry/Antioxidants Structure Proposal.md",
+    "01. Inbox/To Classify/Biology/Biology.md",
+    "03. Maps and Courses/Topic Maps/Biology/__Biology.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Compositing.md",
+    "03. Maps and Courses/Topic Maps/Biology",
     "03. Maps and Courses/Topic Maps/Web Platform/__Web Platform.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Paint.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Layout.md",
@@ -279,19 +284,13 @@
     "01. Inbox/To Classify/Automata Theory/Finite Automaton Structure Proposal.md",
     "01. Inbox/To Classify/Automata Theory/Chomsky Hierarchy.md",
     "02. Corpus Mundi/A/Automata Theory.md",
-    "03. Maps and Courses/Topic Maps/Computer Science/__Computer Science.md",
     "03. Maps and Courses/Topic Maps/Artificial Intelligence/Artificial Intelligence.base",
-    "03. Maps and Courses/Topic Maps/Artificial Intelligence/__Artificial Intelligence.md",
-    "01. Inbox/To Classify/Artificial Intelligence/Artificial Intelligence Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/Anthropology/Anthropology.base",
     "03. Maps and Courses/Topic Maps/Artificial Intelligence",
-    "03. Maps and Courses/Topic Maps/Anthropology/__Anthropology.md",
     "03. Maps and Courses/Topic Maps/Anthropology",
     "03. Maps and Courses/Topic Maps/Web Platform/Web Platform.base",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
-    "03. Maps and Courses/Topic Maps/Web Platform",
     "02. Corpus Mundi/E/_resources/elf-03.jpg",
-    "03. Maps and Courses/Topic Maps/Computer Science",
     "02. Corpus Mundi/E/_resources/elf-01.jpg",
     "02. Corpus Mundi/D/_resources/dwarf-debug-sections.jpg",
     "02. Corpus Mundi/E/_resources/elf-02.jpg",
