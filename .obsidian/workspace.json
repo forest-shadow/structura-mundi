@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/UTC.md",
+                "file": "02. Corpus Mundi/U/UTC.md",
                 "mode": "source",
                 "source": false
               },
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/UTC.md",
+                "file": "02. Corpus Mundi/U/UTC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -252,10 +252,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "634137ae02d39897",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Clock Synchronization.md",
     "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Time and Ordering.md",
+    "02. Corpus Mundi/U/UTC.md",
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Clock Synchronization.md",
     "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Time and Ordering Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/Biology/Biology.base",
     "03. Maps and Courses/Topic Maps/Web Platform/__Web Platform.md",
@@ -284,7 +285,6 @@
     "01. Inbox/To Classify/Automata Theory/Automata Theory Structure Proposal.md",
     "01. Inbox/To Classify/Automata Theory/Turing Machine.md",
     "01. Inbox/To Classify/Automata Theory/Pushdown Automaton.md",
-    "01. Inbox/To Classify/Automata Theory/Formal Language.md",
     "03. Maps and Courses/Topic Maps/Artificial Intelligence/Artificial Intelligence.base",
     "03. Maps and Courses/Topic Maps/Anthropology/Anthropology.base",
     "03. Maps and Courses/Topic Maps/Artificial Intelligence",

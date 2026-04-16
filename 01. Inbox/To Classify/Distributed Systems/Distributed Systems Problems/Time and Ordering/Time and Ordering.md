@@ -8,11 +8,10 @@ section: distributed-systems-problems
 parent: "[[Distributed Systems Problems]]"
 status: seed
 related:
+  - "[[Time and Ordering]]"
   - "[[Distributed Systems Problems]]"
-  - "[[UTC]]"
   - "[[Clock Synchronization]]"
   - "[[Coordination and Consensus]]"
-  - "[[Consistency Under Replication]]"
 tags:
   - consistency
 ---
