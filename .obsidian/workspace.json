@@ -55,13 +55,14 @@
             "id": "634137ae02d39897",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Biology/Biology.base",
-                "viewName": "Biology"
+                "file": "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/UTC.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Biology"
+              "icon": "lucide-file",
+              "title": "UTC"
             }
           }
         ],
@@ -122,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.49999618530273
+    "width": 291.5
   },
   "right": {
     "id": "bc1652196a189fba",
@@ -138,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Biology/Biology.base",
+                "file": "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/UTC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Biology"
+              "title": "Outline of UTC"
             }
           },
           {
@@ -229,7 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,9 +254,12 @@
   },
   "active": "634137ae02d39897",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Clock Synchronization.md",
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Time and Ordering.md",
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Time and Ordering Structure Proposal.md",
+    "03. Maps and Courses/Topic Maps/Biology/Biology.base",
     "03. Maps and Courses/Topic Maps/Web Platform/__Web Platform.md",
     "02. Corpus Mundi/E/Ethnomycology.md",
-    "03. Maps and Courses/Topic Maps/Biology/Biology.base",
     "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology Structure Proposal.md",
     "01. Inbox/To Classify/Biology/Biochemistry/Antioxidants Structure Proposal.md",
     "01. Inbox/To Classify/Biology/Biology.md",
@@ -281,8 +285,6 @@
     "01. Inbox/To Classify/Automata Theory/Turing Machine.md",
     "01. Inbox/To Classify/Automata Theory/Pushdown Automaton.md",
     "01. Inbox/To Classify/Automata Theory/Formal Language.md",
-    "01. Inbox/To Classify/Automata Theory/Finite Automaton Structure Proposal.md",
-    "01. Inbox/To Classify/Automata Theory/Chomsky Hierarchy.md",
     "03. Maps and Courses/Topic Maps/Artificial Intelligence/Artificial Intelligence.base",
     "03. Maps and Courses/Topic Maps/Anthropology/Anthropology.base",
     "03. Maps and Courses/Topic Maps/Artificial Intelligence",
