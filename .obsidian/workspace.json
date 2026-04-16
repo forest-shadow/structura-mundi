@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/E/Ethnomycology.md",
+                "file": "03. Maps and Courses/Topic Maps/Biology/Biology.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ethnomycology"
+              "title": "Outline of Biology"
             }
           },
           {
@@ -251,9 +251,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "1aee5707864ff94d",
+  "active": "634137ae02d39897",
   "lastOpenFiles": [
     "03. Maps and Courses/Topic Maps/Web Platform/__Web Platform.md",
+    "02. Corpus Mundi/E/Ethnomycology.md",
     "03. Maps and Courses/Topic Maps/Biology/Biology.base",
     "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology Structure Proposal.md",
     "01. Inbox/To Classify/Biology/Biochemistry/Antioxidants Structure Proposal.md",
@@ -264,7 +265,6 @@
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Paint.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Layout.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Render Tree.md",
-    "02. Corpus Mundi/E/Ethnomycology.md",
     "01. Inbox/To Classify/Anthropology/Ethnobiology/Ethnomycology Structure Proposal.md",
     "01. Inbox/To Classify/Anthropology/Anthropology Structure Proposal.md",
     "Tabula Ortus.md",
