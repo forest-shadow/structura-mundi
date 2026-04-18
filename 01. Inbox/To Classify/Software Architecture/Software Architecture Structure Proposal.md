@@ -28,6 +28,7 @@ Computer Science
     │       ├── UML Sequence Diagram
     │       ├── UML Activity Diagram
     │       └── UML State Machine Diagram
+    ├── State Machine
     ├── Dependency Management
     │   ├── Inversion of Control
     │   ├── Dependency Injection
@@ -56,6 +57,9 @@ Computer Science
 - `UML` лучше держать как отдельный обзорный узел внутри `Software Architecture`, потому что это не одиночная нотация, а целое семейство устойчивых диаграмм и средств моделирования.
 - `UML` не стоит сводить к `architecture-patterns`, потому что язык моделирования описывает систему, а не задает конкретный паттерн или архитектурную рамку.
 - Подветки `UML Structural Diagrams` и `UML Behavioral Diagrams` оправданы как sub-overview, потому что это каноническое деление самого языка, под которым естественно группируются несколько самостоятельных заметок.
+- `State Machine` лучше держать как самостоятельную `article` в `architecture-modeling`, а не как дочернюю заметку `UML`, потому что сама идея машины состояний шире конкретной нотации UML.
+- `State Machine` не стоит дублировать как formal-theory note внутри `Automata Theory`: строгая модель конечного автомата уже живет там в заметке `Finite Automaton`, а здесь нужен engineering-фокус на проектировании поведения системы.
+- Для `State Machine` пока не нужен отдельный `overview`-кластер, потому что корпуса sibling-notes вроде `Hierarchical State Machine`, `Statechart` и `Extended State Machine` еще нет.
 - `Dependency Inversion Principle` концептуально связан с `Dependency Injection` и `Composition Root`, но не тождествен им.
 - `Composition Root` лучше рассматривать как дочернюю тему `Dependency Injection`: это не отдельный принцип, а место и практика сборки приложения.
 - `Service Locator` стоит рядом с `Dependency Injection`, потому что это соседний способ доступа к зависимостям, обычно менее желательный.
@@ -71,10 +75,11 @@ Computer Science
 
 - отдельную обзорную заметку `Bootstrap`, если она нужна только как синоним composition root;
 - отдельную заметку `Dependency Injection Container`, пока нет корпуса по контейнерам как самостоятельной теме;
-- отдельные заметки про каждую стрелку, кратность или форму UML-нотации, пока не появился устойчивый корпус содержательных diagram-specific notes.
+- отдельные заметки про каждую стрелку, кратность или форму UML-нотации, пока не появился устойчивый корпус содержательных diagram-specific notes;
+- отдельную formal-theory заметку `Finite State Machine` внутри `Software Architecture`, потому что эту роль уже закрывает `Finite Automaton` в `Automata Theory`.
 
 ## Следующий шаг
 
 1. Подтвердить новый `section: architecture-modeling` для `UML` и соседних modeling-веток.
-2. Наполнить `UML` и основные diagram-notes краткими каноническими определениями.
+2. Наполнить `UML`, `State Machine` и основные behavioral-notes краткими каноническими определениями.
 3. Позже решить, нужен ли рядом отдельный узел про `C4 Model` или `ArchiMate`.
