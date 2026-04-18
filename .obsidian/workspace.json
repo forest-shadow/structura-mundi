@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Automata Theory/Automata Theory Structure Proposal.md",
+                "file": "01. Inbox/To Classify/Software Development/Vim/Vim Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automata Theory Structure Proposal"
+              "title": "Vim Commands"
             }
           }
         ],
@@ -139,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Automata Theory/Automata Theory Structure Proposal.md",
+                "file": "01. Inbox/To Classify/Software Development/Vim/Vim Commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Automata Theory Structure Proposal"
+              "title": "Outline of Vim Commands"
             }
           },
           {
@@ -252,10 +252,12 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "634137ae02d39897",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Software Development/Vim/Vim.md",
     "01. Inbox/To Classify/Software Architecture/State Machine.md",
     "01. Inbox/To Classify/Software Architecture/State Machine Structure Proposal.md",
+    "01. Inbox/To Classify/Automata Theory/Automata Theory Structure Proposal.md",
     "01. Inbox/To Classify/Automata Theory/Finite Automaton",
     "02. Corpus Mundi/U/UML.md",
     "02. Corpus Mundi/U/UTC.md",
@@ -284,8 +286,6 @@
     "01. Inbox/To Classify/Automata Theory/Finite Automaton/Regular Language.md",
     "01. Inbox/To Classify/Automata Theory/Finite Automaton/Nondeterministic Finite Automaton.md",
     "01. Inbox/To Classify/Automata Theory/Finite Automaton/Finite Automaton Minimization.md",
-    "01. Inbox/To Classify/Automata Theory/Finite Automaton/Epsilon-NFA.md",
-    "01. Inbox/To Classify/Automata Theory/Finite Automaton/Deterministic Finite Automaton.md",
     "03. Maps and Courses/Topic Maps/Artificial Intelligence/Artificial Intelligence.base",
     "03. Maps and Courses/Topic Maps/Anthropology/Anthropology.base",
     "03. Maps and Courses/Topic Maps/Artificial Intelligence",
