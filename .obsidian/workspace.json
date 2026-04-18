@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/U/UTC.md",
+                "file": "01. Inbox/To Classify/Software Architecture/UML/UML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UTC"
+              "title": "UML"
             }
           }
         ],
@@ -139,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/U/UTC.md",
+                "file": "01. Inbox/To Classify/Software Architecture/UML/UML.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UTC"
+              "title": "Outline of UML"
             }
           },
           {
@@ -254,8 +254,8 @@
   },
   "active": "634137ae02d39897",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Time and Ordering.md",
     "02. Corpus Mundi/U/UTC.md",
+    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Time and Ordering.md",
     "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Clock Synchronization.md",
     "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Time and Ordering Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/Biology/Biology.base",
