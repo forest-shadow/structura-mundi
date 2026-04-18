@@ -4,7 +4,7 @@
 
 Этот файл фиксирует минимальную иерархию заметок для ветки `Software Architecture` внутри `Computer Science` по правилам `Principia Rerum`.
 
-На текущем этапе ветка оправдана отдельными кластерами про проектные принципы, управление зависимостями и устойчивые архитектурные стили.
+На текущем этапе ветка оправдана отдельными кластерами про проектные принципы, архитектурное моделирование, управление зависимостями и устойчивые архитектурные стили.
 
 ## Рекомендуемая иерархия
 
@@ -18,6 +18,16 @@ Computer Science
     │       ├── Liskov Substitution Principle
     │       ├── Interface Segregation Principle
     │       └── Dependency Inversion Principle
+    ├── UML
+    │   ├── UML Structural Diagrams
+    │   │   ├── UML Class Diagram
+    │   │   ├── UML Component Diagram
+    │   │   └── UML Deployment Diagram
+    │   └── UML Behavioral Diagrams
+    │       ├── UML Use Case Diagram
+    │       ├── UML Sequence Diagram
+    │       ├── UML Activity Diagram
+    │       └── UML State Machine Diagram
     ├── Dependency Management
     │   ├── Inversion of Control
     │   ├── Dependency Injection
@@ -43,6 +53,9 @@ Computer Science
 
 - `Design Principles` и `Dependency Management` полезно разводить, потому что первое отвечает за нормативные идеи, а второе за практики организации кода и зависимостей.
 - `SOLID` естественно живет под `Design Principles`, а не под `Dependency Management`.
+- `UML` лучше держать как отдельный обзорный узел внутри `Software Architecture`, потому что это не одиночная нотация, а целое семейство устойчивых диаграмм и средств моделирования.
+- `UML` не стоит сводить к `architecture-patterns`, потому что язык моделирования описывает систему, а не задает конкретный паттерн или архитектурную рамку.
+- Подветки `UML Structural Diagrams` и `UML Behavioral Diagrams` оправданы как sub-overview, потому что это каноническое деление самого языка, под которым естественно группируются несколько самостоятельных заметок.
 - `Dependency Inversion Principle` концептуально связан с `Dependency Injection` и `Composition Root`, но не тождествен им.
 - `Composition Root` лучше рассматривать как дочернюю тему `Dependency Injection`: это не отдельный принцип, а место и практика сборки приложения.
 - `Service Locator` стоит рядом с `Dependency Injection`, потому что это соседний способ доступа к зависимостям, обычно менее желательный.
@@ -57,10 +70,11 @@ Computer Science
 ## Что не нужно создавать заранее
 
 - отдельную обзорную заметку `Bootstrap`, если она нужна только как синоним composition root;
-- отдельную заметку `Dependency Injection Container`, пока нет корпуса по контейнерам как самостоятельной теме.
+- отдельную заметку `Dependency Injection Container`, пока нет корпуса по контейнерам как самостоятельной теме;
+- отдельные заметки про каждую стрелку, кратность или форму UML-нотации, пока не появился устойчивый корпус содержательных diagram-specific notes.
 
 ## Следующий шаг
 
-1. Подтвердить, что `Design Principles` и `Dependency Management` получают собственные `section`.
-2. Наполнить `SOLID` и `Dependency Injection` краткими каноническими определениями.
-3. Позже решить, нужен ли отдельный узел про `Hexagonal Architecture` или `Ports and Adapters`.
+1. Подтвердить новый `section: architecture-modeling` для `UML` и соседних modeling-веток.
+2. Наполнить `UML` и основные diagram-notes краткими каноническими определениями.
+3. Позже решить, нужен ли рядом отдельный узел про `C4 Model` или `ArchiMate`.

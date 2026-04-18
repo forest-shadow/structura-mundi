@@ -313,6 +313,7 @@
 
 #### `computer-science -> software-architecture`
 
+- `architecture-modeling`
 - `architecture-patterns`
 - `dependency-management`
 - `design-principles`
