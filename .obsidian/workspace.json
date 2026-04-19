@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Logic/Boolean Logic/Boolean Logic.md",
+                "file": "01. Inbox/To Classify/Logic/Structure-Preserving Mappings/Structure-Preserving Mappings Structure Proposal.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Boolean Logic"
+              "title": "Structure-Preserving Mappings Structure Proposal"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Logic/Boolean Logic/Boolean Logic.md",
+                "file": "01. Inbox/To Classify/Logic/Structure-Preserving Mappings/Structure-Preserving Mappings Structure Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Boolean Logic"
+              "title": "Outline of Structure-Preserving Mappings Structure Proposal"
             }
           },
           {
@@ -226,6 +226,10 @@
   },
   "active": "1aee5707864ff94d",
   "lastOpenFiles": [
+    "03. Maps and Courses/Topic Maps/Logic/Logic.base",
+    "01. Inbox/To Classify/Logic/Logic.md",
+    "01. Inbox/To Classify/Logic/Boolean Logic/Boolean Logic.md",
+    "03. Maps and Courses/Topic Maps/Logic",
     "02. Corpus Mundi/E/Ethnomycology.md",
     "02. Corpus Mundi/F/Floodplain.md",
     "01. Inbox/To Classify/Gastronomy/Beverages/Mixed Drinks/Крюшон.md",
@@ -258,14 +262,9 @@
     "01. Inbox/To Classify/Geography/Physical Geography",
     "01. Inbox/To Classify/Geography",
     "01. Inbox/To Classify/Religion/Religious Studies/Parapsychology/Parapsychology Structure Proposal.md",
-    "02. Corpus Mundi/P/Parapsychology.md",
-    "02. Corpus Mundi/P/Psychotronics.md",
     "04. Assets/Shared/Images/browser-rendering-pipeline.jpg",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/_resources",
     "Pasted image 20260418203640.png",
-    "Tabula Ortus.md",
-    "Tabula Ortus.md~",
-    "4913",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "02. Corpus Mundi/E/_resources/elf-03.jpg",
     "02. Corpus Mundi/E/_resources/elf-01.jpg",

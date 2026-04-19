@@ -1,0 +1,27 @@
+views:
+  - type: table
+    name: Logic
+    filters:
+      and:
+        - file.ext == "md"
+        - domain == "logic"
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status
+  - type: table
+    name: Boolean Logic
+    filters:
+      and:
+        - file.ext == "md"
+        - section == "boolean-logic"
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status

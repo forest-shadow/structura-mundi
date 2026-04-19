@@ -7,7 +7,7 @@ section: logic-gates
 parent: "[[Elementary Logic Gates (Базовые логические вентили)]]"
 status: seed
 related:
-  - "[[Logical Conjunction]]"
+  - "[[Logical Connectives#Conjunction|Logical Conjunction]]"
   - "[[Truth Table]]"
   - "[[NAND Gate]]"
 tags: []
@@ -26,7 +26,7 @@ tags: []
 ## Границы темы
 
 - В тему входит базовая операция совместного выполнения условия.
-- Рядом находится `[[Logical Conjunction]]`, но она описывает символическую и семантическую сторону той же операции.
+- Рядом находится `[[Logical Connectives#Conjunction|Logical Conjunction]]`, но она описывает символическую и семантическую сторону той же операции.
 
 ## Связи с другими заметками
 
@@ -36,7 +36,7 @@ tags: []
 
 Связанные заметки:
 
-- `[[Logical Conjunction]]`
+- `[[Logical Connectives#Conjunction|Logical Conjunction]]`
 - `[[Truth Table]]`
 - `[[NAND Gate]]`
 

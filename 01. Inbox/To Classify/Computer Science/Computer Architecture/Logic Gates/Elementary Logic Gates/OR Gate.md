@@ -7,7 +7,7 @@ section: logic-gates
 parent: "[[Elementary Logic Gates (Базовые логические вентили)]]"
 status: seed
 related:
-  - "[[Logical Disjunction]]"
+  - "[[Logical Connectives#Disjunction|Logical Disjunction]]"
   - "[[Truth Table]]"
   - "[[NOR Gate]]"
 tags: []
@@ -26,7 +26,7 @@ tags: []
 ## Границы темы
 
 - В тему входит базовая операция выбора по условию "хотя бы одно из".
-- С ней соседствует `[[Logical Disjunction]]`, но та заметка описывает формально-логическую операцию, а не gate-level реализацию.
+- С ней соседствует `[[Logical Connectives#Disjunction|Logical Disjunction]]`, но та заметка описывает формально-логическую операцию, а не gate-level реализацию.
 
 ## Связи с другими заметками
 
@@ -36,7 +36,7 @@ tags: []
 
 Связанные заметки:
 
-- `[[Logical Disjunction]]`
+- `[[Logical Connectives#Disjunction|Logical Disjunction]]`
 - `[[Truth Table]]`
 - `[[NOR Gate]]`
 

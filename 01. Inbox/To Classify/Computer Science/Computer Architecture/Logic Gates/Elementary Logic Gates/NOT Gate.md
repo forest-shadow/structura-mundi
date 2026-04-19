@@ -8,7 +8,7 @@ section: logic-gates
 parent: "[[Elementary Logic Gates (Базовые логические вентили)]]"
 status: seed
 related:
-  - "[[Logical Negation]]"
+  - "[[Logical Connectives#Negation|Logical Negation]]"
   - "[[Truth Table]]"
   - "[[NAND Gate]]"
 tags: []
@@ -27,7 +27,7 @@ tags: []
 ## Границы темы
 
 - В тему входит базовая инверсия бинарного сигнала.
-- С ней близка `[[Logical Negation]]`, но та заметка описывает операцию в логико-символической оптике, а не как схемный примитив.
+- С ней близка `[[Logical Connectives#Negation|Logical Negation]]`, но та заметка описывает операцию в логико-символической оптике, а не как схемный примитив.
 
 ## Связи с другими заметками
 
@@ -37,7 +37,7 @@ tags: []
 
 Связанные заметки:
 
-- `[[Logical Negation]]`
+- `[[Logical Connectives#Negation|Logical Negation]]`
 - `[[Truth Table]]`
 - `[[NAND Gate]]`
 
@@ -51,5 +51,5 @@ tags: []
 
 - [ ] Добавить truth table
 - [ ] Добавить схемное обозначение
-- [ ] Проверить связь с `Logical Negation`
+- [ ] Проверить связь с `Logical Connectives#Negation`
 - [ ] Проверить `tags`

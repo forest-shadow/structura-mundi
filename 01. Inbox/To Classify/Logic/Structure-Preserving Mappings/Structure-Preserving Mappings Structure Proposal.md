@@ -1,22 +1,3 @@
----
-aliases:
-  - Structure-Preserving Mappings Structure Proposal
-  - Структура ветки Structure-Preserving Mappings
-note_type: article
-area: philosophy
-domain: logic
-section: structure-preserving-mappings
-parent:
-status: draft
-related:
-  - "[[Structure-Preserving Mappings]]"
-  - "[[Homomorphism]]"
-  - "[[Isomorphism]]"
-  - "[[Automorphism]]"
-tags: []
----
-
-# Structure-Preserving Mappings Structure Proposal
 
 ## Краткое определение
 

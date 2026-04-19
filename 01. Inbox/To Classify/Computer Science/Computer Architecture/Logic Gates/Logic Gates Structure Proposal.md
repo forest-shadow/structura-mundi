@@ -34,7 +34,7 @@ tags: []
 - переносить эту тему в `philosophy -> logic` не стоит, потому что там главная оптика - формальная логика, а не схемотехнические примитивы;
 - отдельный новый `domain` вроде `digital-electronics` пока преждевременен: для этого в vault еще нет устойчивого корпуса соседних веток.
 
-Поперечные связи с `[[Boolean Logic]]`, `[[Logical Conjunction]]`, `[[Logical Disjunction]]`, `[[Logical Negation]]` и `[[Truth Table]]` должны жить через `related`, а не через родительство.
+Поперечные связи с `[[Boolean Logic]]`, `[[Logical Connectives#Conjunction|Logical Conjunction]]`, `[[Logical Connectives#Disjunction|Logical Disjunction]]`, `[[Logical Connectives#Negation|Logical Negation]]` и `[[Truth Table]]` должны жить через `related`, а не через родительство.
 
 ## Рекомендуемая иерархия
 
