@@ -68,6 +68,7 @@
 - `anthropology`
 - `biology`
 - `computer-science`
+- `gastronomy`
 - `geography`
 - `philosophy`
 - `history`
@@ -121,6 +122,10 @@
 - пока нет подтвержденных `domain` в `Corpus Mundi`
 
 #### Внутри `geography`
+
+- пока нет подтвержденных `domain` в `Corpus Mundi`
+
+#### Внутри `gastronomy`
 
 - пока нет подтвержденных `domain` в `Corpus Mundi`
 
@@ -185,6 +190,10 @@
 #### Внутри `geography`
 
 - `physical-geography`
+
+#### Внутри `gastronomy`
+
+- `beverages`
 
 ## `section`
 
@@ -253,6 +262,10 @@
 - пока нет подтвержденных `section` в `Corpus Mundi`
 
 #### `geography -> physical-geography`
+
+- пока нет подтвержденных `section` в `Corpus Mundi`
+
+#### `gastronomy -> beverages`
 
 - пока нет подтвержденных `section` в `Corpus Mundi`
 
@@ -378,6 +391,10 @@
 #### `geography -> physical-geography`
 
 - `fluvial-landforms`
+
+#### `gastronomy -> beverages`
+
+- `mixed-drinks`
 
 ## Правило расширения словаря
 
