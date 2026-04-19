@@ -57,16 +57,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Religion/Religious Studies/Parapsychology/Psychotronics.md",
+                "file": "02. Corpus Mundi/P/Parapsychology.md",
                 "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Parapsychology"
+            }
+          },
+          {
+            "id": "c87afb667c61d600",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02. Corpus Mundi/P/Psychotronics.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Psychotronics"
             }
+          },
+          {
+            "id": "bb64c6ae1c72fb3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02. Corpus Mundi/P/Parapsychology.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Parapsychology"
+            }
+          },
+          {
+            "id": "9ea350c56e6b5de3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Layout.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Layout"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -139,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Religion/Religious Studies/Parapsychology/Psychotronics.md",
+                "file": "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Layout.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Psychotronics"
+              "title": "Outline of Layout"
             }
           },
           {
@@ -252,11 +294,21 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "634137ae02d39897",
+  "active": "9ea350c56e6b5de3",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Religion/Religious Studies/Parapsychology/Parapsychology.md",
-    "01. Inbox/To Classify/Religion/Religious Studies/Parapsychology/Psychotronics.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Browser Rendering Pipeline.md",
+    "01. Inbox/To Classify/Geography/Physical Geography/Fluvial Landforms/Floodplain.md",
+    "01. Inbox/To Classify/Geography/Physical Geography/Fluvial Landforms/Fluvial Landforms.md",
+    "01. Inbox/To Classify/Geography/Physical Geography/Fluvial Landforms/Fluvial Landforms Structure Proposal.md",
+    "01. Inbox/To Classify/Geography/Physical Geography/Physical Geography.md",
+    "01. Inbox/To Classify/Geography/Geography.md",
+    "01. Inbox/To Classify/Religion/Religious Studies/Entheogenic Traditions/Entheomycology.md",
+    "01. Inbox/To Classify/Geography/Physical Geography/Fluvial Landforms",
+    "01. Inbox/To Classify/Geography/Physical Geography",
+    "01. Inbox/To Classify/Geography",
+    "01. Inbox/To Classify/Religion/Religious Studies/Parapsychology/Parapsychology Structure Proposal.md",
+    "02. Corpus Mundi/P/Parapsychology.md",
+    "02. Corpus Mundi/P/Psychotronics.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Layout.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Paint.md",
     "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Render Tree.md",
@@ -281,17 +333,7 @@
     "01. Inbox/To Classify/Software Architecture/State Machine Structure Proposal.md",
     "01. Inbox/To Classify/Automata Theory/Automata Theory Structure Proposal.md",
     "01. Inbox/To Classify/Automata Theory/Finite Automaton",
-    "02. Corpus Mundi/U/UML.md",
-    "02. Corpus Mundi/U/UTC.md",
-    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Time and Ordering.md",
-    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Clock Synchronization.md",
-    "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Time and Ordering/Time and Ordering Structure Proposal.md",
     "03. Maps and Courses/Topic Maps/Biology/Biology.base",
-    "02. Corpus Mundi/E/Ethnomycology.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology Structure Proposal.md",
-    "03. Maps and Courses/Topic Maps/Biology",
-    "03. Maps and Courses/Topic Maps/Computer Science/Computer Science.base",
-    "03. Maps and Courses/Topic Maps/Artificial Intelligence/Artificial Intelligence.base",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "02. Corpus Mundi/E/_resources/elf-03.jpg",
     "02. Corpus Mundi/E/_resources/elf-01.jpg",

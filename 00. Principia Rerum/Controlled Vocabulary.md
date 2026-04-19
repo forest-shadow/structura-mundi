@@ -68,6 +68,7 @@
 - `anthropology`
 - `biology`
 - `computer-science`
+- `geography`
 - `philosophy`
 - `history`
 - `literature`
@@ -116,6 +117,10 @@
 - пока нет подтвержденных `domain` в `Corpus Mundi`
 
 #### Внутри `biology`
+
+- пока нет подтвержденных `domain` в `Corpus Mundi`
+
+#### Внутри `geography`
 
 - пока нет подтвержденных `domain` в `Corpus Mundi`
 
@@ -176,6 +181,10 @@
 - `developmental-biology`
 - `evolutionary-biology`
 - `nutrition`
+
+#### Внутри `geography`
+
+- `physical-geography`
 
 ## `section`
 
@@ -240,6 +249,10 @@
 - пока нет подтвержденных `section` в `Corpus Mundi`
 
 #### `biology -> biochemistry`
+
+- пока нет подтвержденных `section` в `Corpus Mundi`
+
+#### `geography -> physical-geography`
 
 - пока нет подтвержденных `section` в `Corpus Mundi`
 
@@ -361,6 +374,10 @@
 #### `religion -> religious-studies`
 
 - `entheogenic-traditions`
+
+#### `geography -> physical-geography`
+
+- `fluvial-landforms`
 
 ## Правило расширения словаря
 

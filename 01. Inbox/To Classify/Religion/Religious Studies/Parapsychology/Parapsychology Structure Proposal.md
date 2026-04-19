@@ -1,23 +1,3 @@
----
-aliases:
-  - Parapsychology Structure Proposal
-  - Структура ветки Parapsychology
-note_type: article
-area: religion
-domain: religious-studies
-section: parapsychology
-parent:
-status: draft
-related:
-  - "[[Religion]]"
-  - "[[Religious Studies]]"
-  - "[[Parapsychology]]"
-  - "[[Psychotronics]]"
-tags: []
----
-
-# Parapsychology Structure Proposal
-
 ## Краткое определение
 
 Этот файл фиксирует минимальную иерархию заметок для ветки `Parapsychology`, в которую естественно помещается рассмотрение такого понятия, как `Psychotronics`, по правилам `Principia Rerum`.

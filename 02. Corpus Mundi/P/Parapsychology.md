@@ -6,7 +6,7 @@ area: religion
 domain: religious-studies
 section: parapsychology
 parent: "[[Religious Studies]]"
-status: seed
+status: draft
 related:
   - "[[Religion]]"
   - "[[Religious Studies]]"

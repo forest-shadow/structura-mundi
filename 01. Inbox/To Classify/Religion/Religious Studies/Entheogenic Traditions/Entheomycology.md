@@ -6,7 +6,7 @@ area: religion
 domain: religious-studies
 section: entheogenic-traditions
 parent: "[[Entheogenic Traditions]]"
-status: draft
+status: seed
 related:
   - "[[Religious Studies]]"
   - "[[Entheogenic Traditions]]"
