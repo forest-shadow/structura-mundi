@@ -15,6 +15,7 @@ tags:
   - web
   - performance
 ---
+![[browser-rendering-pipeline.jpg]]
 # 1. Render Tree
 
 > <font color="#fb4934">Render Tree</font> — это производная внутренне-представительная структура браузера, формируемая на основе [[DOM]] и [[CSSOM]], которая служит непосредственным входом для последующих стадий визуального конвейера (browser rendering pipeline), прежде всего геометрического расчёта (`[[Layout]]`) и отрисовки (paint).

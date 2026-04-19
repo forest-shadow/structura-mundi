@@ -16,6 +16,8 @@ tags:
   - web
   - performance
 ---
+![[browser-rendering-pipeline.jpg]]
+
 # 1. Browser Rendering Pipeline
 
 > <font color="#fb4934">Browser Rendering Pipeline</font> — это упорядоченная, детерминированная совокупность стадий в рамках browser engine, посредством которых браузер преобразует исходные построенные представления страницы (структуру документа и стили) в визуальный результат, подлежащий финальному выводу на экран устройства.
