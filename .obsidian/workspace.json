@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/Dual Write.md",
+                "file": "02. Corpus Mundi/D/Dual Write.md",
                 "mode": "source",
                 "source": false
               },
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Distributed Systems/Distributed Systems Problems/Dual Write/Dual Write.md",
+                "file": "02. Corpus Mundi/D/Dual Write.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -224,7 +224,7 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "1aee5707864ff94d",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
     "01. Inbox/To Classify/Logic/Structure-Preserving Mappings/Structure-Preserving Mappings Structure Proposal.md",
     "Untitled.md",
