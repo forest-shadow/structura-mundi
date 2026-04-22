@@ -8,8 +8,8 @@ section: agent-protocols
 parent: "[[Agent Protocols and Conventions]]"
 status: seed
 related:
-  - "[[Codex Plugins]]"
-  - "[[Codex Skills]]"
+  - "[[OpenAI Codex Plugins]]"
+  - "[[OpenAI Codex Skills]]"
   - "[[OpenAI Codex]]"
 tags: []
 ---

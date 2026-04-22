@@ -9,7 +9,7 @@ parent: "[[OpenAI Codex]]"
 status: seed
 related:
   - "[[AGENTS.md]]"
-  - "[[Codex Plugins]]"
+  - "[[OpenAI Codex Plugins]]"
   - "[[Model Context Protocol]]"
 tags: []
 ---

@@ -8,9 +8,9 @@ section: openai-codex
 parent: "[[OpenAI Codex]]"
 status: seed
 related:
-  - "[[Codex Plugins]]"
-  - "[[Codex Rules]]"
-  - "[[Codex Skills]]"
+  - "[[OpenAI Codex Plugins]]"
+  - "[[OpenAI Codex Rules]]"
+  - "[[OpenAI Codex Skills]]"
 tags: []
 ---
 

@@ -6,7 +6,7 @@ area: biology
 domain: biochemistry
 section:
 parent: "[[Biology]]"
-status: seed
+status: draft
 related:
   - "[[Biology]]"
   - "[[Nutrition]]"

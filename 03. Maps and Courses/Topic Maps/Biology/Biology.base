@@ -8,3 +8,7 @@ views:
     groupBy:
       property: parent
       direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status

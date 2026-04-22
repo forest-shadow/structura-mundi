@@ -9,8 +9,8 @@ status: seed
 related:
   - "[[OpenAI Codex]]"
   - "[[AGENTS.md]]"
-  - "[[Codex Skills]]"
-  - "[[Codex Subagents]]"
+  - "[[OpenAI Codex Skills]]"
+  - "[[OpenAI Codex Subagents]]"
 tags: []
 ---
 

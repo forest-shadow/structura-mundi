@@ -7,7 +7,7 @@ section: applied-ai
 parent: "[[Applied AI]]"
 status: seed
 related:
-  - "[[Codex Subagents]]"
+  - "[[OpenAI Codex Subagents]]"
   - "[[Model Context Protocol]]"
   - "[[AI-Assisted Programming]]"
 tags: []

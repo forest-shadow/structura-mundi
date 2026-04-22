@@ -8,8 +8,8 @@ section: openai-codex
 parent: "[[OpenAI Codex]]"
 status: seed
 related:
-  - "[[Codex Hooks]]"
-  - "[[Codex Skills]]"
+  - "[[OpenAI Codex Hooks]]"
+  - "[[OpenAI Codex Skills]]"
   - "[[Model Context Protocol]]"
 tags: []
 ---

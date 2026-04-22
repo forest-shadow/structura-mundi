@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Tabula Ortus"
             }
+          },
+          {
+            "id": "3f3ceff13a603cc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology/Redox Biology.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Redox Biology"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tabula Ortus.md",
+                "file": "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology/Redox Biology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tabula Ortus"
+              "title": "Outline of Redox Biology"
             }
           },
           {
@@ -209,8 +224,29 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c340083190100fc4",
+  "active": "3f3ceff13a603cc0",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology/Redox Biology Structure Proposal.md",
+    "01. Inbox/To Classify/Biology/Biochemistry/Metabolism Structure Proposal.md",
+    "01. Inbox/To Classify/Biology/Biochemistry/Antioxidants Structure Proposal.md",
+    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology/Redox Biology.md",
+    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology",
+    "01. Inbox/To Classify/Biology/Biochemistry/Metabolism.md",
+    "02. Corpus Mundi/B/Biochemistry.md",
+    "03. Maps and Courses/Topic Maps/Biology/Biology.base",
+    "03. Maps and Courses/Topic Maps/Biology/__Biology.md",
+    "03. Maps and Courses/Topic Maps/Artificial Intelligence/Artificial Intelligence.base",
+    "02. Corpus Mundi/__02. Corpus Mundi.base",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex/OpenAI Codex Subagents.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex/Codex Hooks Structure Proposal.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex/Codex Plugins Structure Proposal.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex/Codex Rules Structure Proposal.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex/Codex Skills Structure Proposal.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex/Codex Subagents Structure Proposal.md",
+    "02. Corpus Mundi/O/OpenAI Codex.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/OpenAI Codex/OpenAI Codex Structure Proposal.md",
+    "01. Inbox/To Classify/Artificial Intelligence/Artificial Intelligence Structure Proposal.md",
+    "Tabula Ortus.md",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Performance Modeling/Distributed Systems Performance Modeling.md",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Capacity Planning and Autoscaling/Capacity Planning and Autoscaling.md",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Hotspot Mitigation/Hotspot Mitigation.md",
@@ -220,33 +256,12 @@
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Data Locality and Placement/Data Locality and Placement.md",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Read Scaling and Replication/Read Scaling and Replication.md",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Partitioning and Sharding/Partitioning and Sharding.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Batching and Request Coalescing/Batching and Request Coalescing.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Rate Limiting and Load Shedding/Rate Limiting and Load Shedding.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Backpressure and Flow Control/Backpressure and Flow Control.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Load Balancing/Load Balancing.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Performance Optimization Structure Proposal.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Performance Optimization.md",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Performance Modeling",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Capacity Planning and Autoscaling",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Hotspot Mitigation",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Serialization and Compression",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Connection Management",
     "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Async Processing and Queues",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Data Locality and Placement",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Read Scaling and Replication",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Partitioning and Sharding",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Batching and Request Coalescing",
-    "01. Inbox/To Classify/Distributed Systems/Caching/Cache Stampede.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/Types of Caches.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/Distributed Cache.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/CDN and Edge Cache.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/Database Cache.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/Browser and HTTP Cache.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/Application Cache.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Caching Strategies/Write-Through and Write-Back Caching.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Caching Strategies/Write-Around Caching.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Caching Strategies/Stale-While-Revalidate.md",
-    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Caching Strategies/Negative Caching.md",
     "02. Corpus Mundi/F/_resources/floodplain.jpg",
     "Pasted image 20260419174506.png",
     "04. Assets/Shared/Images/browser-rendering-pipeline.jpg",

@@ -7,8 +7,8 @@ section: applied-ai
 parent: "[[Applied AI]]"
 status: seed
 related:
-  - "[[Codex Skills]]"
-  - "[[Codex Plugins]]"
+  - "[[OpenAI Codex Skills]]"
+  - "[[OpenAI Codex Plugins]]"
   - "[[Model Context Protocol]]"
 tags: []
 ---

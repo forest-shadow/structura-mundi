@@ -9,7 +9,7 @@ parent: "[[OpenAI Codex]]"
 status: seed
 related:
   - "[[AGENTS.md]]"
-  - "[[Codex Hooks]]"
+  - "[[OpenAI Codex Hooks]]"
   - "[[OpenAI Codex]]"
 tags: []
 ---
