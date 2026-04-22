@@ -183,9 +183,18 @@
 #### Внутри `biology`
 
 - `biochemistry`
+- `cell-biology`
 - `developmental-biology`
+- `ecology`
 - `evolutionary-biology`
+- `foundations-of-biology`
+- `genetics`
+- `histology`
+- `immunology`
+- `microbiology`
+- `molecular-biology`
 - `nutrition`
+- `physiology`
 
 #### Внутри `geography`
 
@@ -365,7 +374,22 @@
 #### `biology -> biochemistry`
 
 - `antioxidants`
+- `bioenergetics`
+- `biomolecules`
+- `enzymology`
 - `metabolism`
+- `redox-biology`
+
+#### `biology -> cell-biology`
+
+- `cell-communication`
+- `cell-cycle`
+- `cell-death`
+- `cell-division`
+- `cell-structure`
+- `cell-types`
+- `cellular-foundations`
+- `membrane-transport`
 
 #### `biology -> developmental-biology`
 
@@ -374,6 +398,17 @@
 #### `biology -> evolutionary-biology`
 
 - `phylogenesis`
+
+#### `biology -> foundations-of-biology`
+
+- `biological-foundations`
+- `classification-of-life`
+
+#### `biology -> molecular-biology`
+
+- `gene-expression`
+- `genetic-information`
+- `genetic-information-flow`
 
 #### `literature -> literary-studies`
 

@@ -14,6 +14,12 @@ related:
   - "[[Nutrition]]"
   - "[[Redox Biology]]"
   - "[[Antioxidants]]"
+  - "[[Catabolism]]"
+  - "[[Anabolism]]"
+  - "[[Glycolysis]]"
+  - "[[Citric Acid Cycle]]"
+  - "[[Electron Transport Chain]]"
+  - "[[Oxidative Phosphorylation]]"
 tags: []
 ---
 

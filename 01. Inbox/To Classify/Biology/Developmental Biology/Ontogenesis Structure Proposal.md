@@ -1,109 +1,91 @@
----
-aliases:
-  - Ontogenesis Structure Proposal
-  - Структура ветки Ontogenesis
-note_type: article
-area: biology
-domain: developmental-biology
-section: ontogenesis
-parent:
-status: draft
-related:
-  - "[[Biology]]"
-  - "[[Developmental Biology]]"
-  - "[[Ontogenesis]]"
-  - "[[Biochemistry]]"
-  - "[[Metabolism]]"
-  - "[[Nutrition]]"
-tags: []
----
-
+﻿
 # Ontogenesis Structure Proposal
 
-## Краткое определение
+## ÐšÑ€Ð°Ñ‚ÐºÐ¾Ðµ Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»ÐµÐ½Ð¸Ðµ
 
-Этот файл фиксирует минимальную иерархию заметок для темы `Ontogenesis`, в которую естественно помещается рассмотрение понятия `онтогенез`, по правилам `Principia Rerum`.
+Ð­Ñ‚Ð¾Ñ‚ Ñ„Ð°Ð¹Ð» Ñ„Ð¸ÐºÑÐ¸Ñ€ÑƒÐµÑ‚ Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½ÑƒÑŽ Ð¸ÐµÑ€Ð°Ñ€Ñ…Ð¸ÑŽ Ð·Ð°Ð¼ÐµÑ‚Ð¾Ðº Ð´Ð»Ñ Ñ‚ÐµÐ¼Ñ‹ `Ontogenesis`, Ð² ÐºÐ¾Ñ‚Ð¾Ñ€ÑƒÑŽ ÐµÑÑ‚ÐµÑÑ‚Ð²ÐµÐ½Ð½Ð¾ Ð¿Ð¾Ð¼ÐµÑ‰Ð°ÐµÑ‚ÑÑ Ñ€Ð°ÑÑÐ¼Ð¾Ñ‚Ñ€ÐµÐ½Ð¸Ðµ Ð¿Ð¾Ð½ÑÑ‚Ð¸Ñ `Ð¾Ð½Ñ‚Ð¾Ð³ÐµÐ½ÐµÐ·`, Ð¿Ð¾ Ð¿Ñ€Ð°Ð²Ð¸Ð»Ð°Ð¼ `Principia Rerum`.
 
-## Выбранная оптика
+## Ð’Ñ‹Ð±Ñ€Ð°Ð½Ð½Ð°Ñ Ð¾Ð¿Ñ‚Ð¸ÐºÐ°
 
 - `area: biology`
 - `domain: developmental-biology`
 - `section: ontogenesis`
 
-Почему так:
+ÐŸÐ¾Ñ‡ÐµÐ¼Ñƒ Ñ‚Ð°Ðº:
 
-- `Ontogenesis` не стоит встраивать в `biochemistry` как основную рамку, потому что биохимия объясняет механистическую сторону developmental processes, но не задает их главную дисциплинарную оптику;
-- `Ontogenesis` не стоит встраивать и в `nutrition`, потому что питание выступает одним из факторов developmental trajectories, а не основной рамкой темы;
-- `developmental-biology` лучше задает главную оптику, потому что речь идет об индивидуальном развитии организма, его стадиях, переходах и принципах формирования;
-- новый `domain` нужен не для одной заметки, а для устойчивой серии notes о развитии: `Ontogenesis`, `Embryogenesis`, `Morphogenesis`, `Differentiation`, `Growth`, `Maturation`, `Aging`.
+- `Ontogenesis` Ð½Ðµ ÑÑ‚Ð¾Ð¸Ñ‚ Ð²ÑÑ‚Ñ€Ð°Ð¸Ð²Ð°Ñ‚ÑŒ Ð² `biochemistry` ÐºÐ°Ðº Ð¾ÑÐ½Ð¾Ð²Ð½ÑƒÑŽ Ñ€Ð°Ð¼ÐºÑƒ, Ð¿Ð¾Ñ‚Ð¾Ð¼Ñƒ Ñ‡Ñ‚Ð¾ Ð±Ð¸Ð¾Ñ…Ð¸Ð¼Ð¸Ñ Ð¾Ð±ÑŠÑÑÐ½ÑÐµÑ‚ Ð¼ÐµÑ…Ð°Ð½Ð¸ÑÑ‚Ð¸Ñ‡ÐµÑÐºÑƒÑŽ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñƒ developmental processes, Ð½Ð¾ Ð½Ðµ Ð·Ð°Ð´Ð°ÐµÑ‚ Ð¸Ñ… Ð³Ð»Ð°Ð²Ð½ÑƒÑŽ Ð´Ð¸ÑÑ†Ð¸Ð¿Ð»Ð¸Ð½Ð°Ñ€Ð½ÑƒÑŽ Ð¾Ð¿Ñ‚Ð¸ÐºÑƒ;
+- `Ontogenesis` Ð½Ðµ ÑÑ‚Ð¾Ð¸Ñ‚ Ð²ÑÑ‚Ñ€Ð°Ð¸Ð²Ð°Ñ‚ÑŒ Ð¸ Ð² `nutrition`, Ð¿Ð¾Ñ‚Ð¾Ð¼Ñƒ Ñ‡Ñ‚Ð¾ Ð¿Ð¸Ñ‚Ð°Ð½Ð¸Ðµ Ð²Ñ‹ÑÑ‚ÑƒÐ¿Ð°ÐµÑ‚ Ð¾Ð´Ð½Ð¸Ð¼ Ð¸Ð· Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¾Ð² developmental trajectories, Ð° Ð½Ðµ Ð¾ÑÐ½Ð¾Ð²Ð½Ð¾Ð¹ Ñ€Ð°Ð¼ÐºÐ¾Ð¹ Ñ‚ÐµÐ¼Ñ‹;
+- `developmental-biology` Ð»ÑƒÑ‡ÑˆÐµ Ð·Ð°Ð´Ð°ÐµÑ‚ Ð³Ð»Ð°Ð²Ð½ÑƒÑŽ Ð¾Ð¿Ñ‚Ð¸ÐºÑƒ, Ð¿Ð¾Ñ‚Ð¾Ð¼Ñƒ Ñ‡Ñ‚Ð¾ Ñ€ÐµÑ‡ÑŒ Ð¸Ð´ÐµÑ‚ Ð¾Ð± Ð¸Ð½Ð´Ð¸Ð²Ð¸Ð´ÑƒÐ°Ð»ÑŒÐ½Ð¾Ð¼ Ñ€Ð°Ð·Ð²Ð¸Ñ‚Ð¸Ð¸ Ð¾Ñ€Ð³Ð°Ð½Ð¸Ð·Ð¼Ð°, ÐµÐ³Ð¾ ÑÑ‚Ð°Ð´Ð¸ÑÑ…, Ð¿ÐµÑ€ÐµÑ…Ð¾Ð´Ð°Ñ… Ð¸ Ð¿Ñ€Ð¸Ð½Ñ†Ð¸Ð¿Ð°Ñ… Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ;
+- Ð½Ð¾Ð²Ñ‹Ð¹ `domain` Ð½ÑƒÐ¶ÐµÐ½ Ð½Ðµ Ð´Ð»Ñ Ð¾Ð´Ð½Ð¾Ð¹ Ð·Ð°Ð¼ÐµÑ‚ÐºÐ¸, Ð° Ð´Ð»Ñ ÑƒÑÑ‚Ð¾Ð¹Ñ‡Ð¸Ð²Ð¾Ð¹ ÑÐµÑ€Ð¸Ð¸ notes Ð¾ Ñ€Ð°Ð·Ð²Ð¸Ñ‚Ð¸Ð¸: `Ontogenesis`, `Embryogenesis`, `Morphogenesis`, `Differentiation`, `Growth`, `Maturation`, `Aging`.
 
-## Канонические имена
+## ÐšÐ°Ð½Ð¾Ð½Ð¸Ñ‡ÐµÑÐºÐ¸Ðµ Ð¸Ð¼ÐµÐ½Ð°
 
 - area-level root: `Biology`
 - domain-root overview: `Developmental Biology`
 - section-level overview: `Ontogenesis`
 
-Русская форма `онтогенез` лучше хранится в `aliases`, а не в отдельной параллельной заметке.
+Ð ÑƒÑÑÐºÐ°Ñ Ñ„Ð¾Ñ€Ð¼Ð° `Ð¾Ð½Ñ‚Ð¾Ð³ÐµÐ½ÐµÐ·` Ð»ÑƒÑ‡ÑˆÐµ Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑÑ Ð² `aliases`, Ð° Ð½Ðµ Ð² Ð¾Ñ‚Ð´ÐµÐ»ÑŒÐ½Ð¾Ð¹ Ð¿Ð°Ñ€Ð°Ð»Ð»ÐµÐ»ÑŒÐ½Ð¾Ð¹ Ð·Ð°Ð¼ÐµÑ‚ÐºÐµ.
 
-## Рекомендуемая иерархия
+## Ð ÐµÐºÐ¾Ð¼ÐµÐ½Ð´ÑƒÐµÐ¼Ð°Ñ Ð¸ÐµÑ€Ð°Ñ€Ñ…Ð¸Ñ
 
 ```text
 Biology
-├── Biochemistry
-│   └── Metabolism
-├── Developmental Biology
-│   └── Ontogenesis
-└── Nutrition
-    └── Vitamins
+â”œâ”€â”€ Biochemistry
+â”‚   â””â”€â”€ Metabolism
+â”œâ”€â”€ Developmental Biology
+â”‚   â””â”€â”€ Ontogenesis
+â””â”€â”€ Nutrition
+    â””â”€â”€ Vitamins
 ```
 
-Поперечные связи:
+ÐŸÐ¾Ð¿ÐµÑ€ÐµÑ‡Ð½Ñ‹Ðµ ÑÐ²ÑÐ·Ð¸:
 
 ```text
-Ontogenesis ↔ Metabolism
-Ontogenesis ↔ Nutrition
+Ontogenesis â†” Metabolism
+Ontogenesis â†” Nutrition
 ```
 
-## Почему структура именно такая
+## ÐŸÐ¾Ñ‡ÐµÐ¼Ñƒ ÑÑ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð° Ð¸Ð¼ÐµÐ½Ð½Ð¾ Ñ‚Ð°ÐºÐ°Ñ
 
-- `Developmental Biology` должна быть отдельной domain-root веткой внутри `biology`, потому что без нее темы развития либо окажутся в слишком широкой общей biology-рамке, либо будут искусственно разложены по biochemical и nutritional notes.
-- `Ontogenesis` лучше держать как локальный `overview`, а не как простую article-note, потому что тема естественно собирает несколько линий роста: `Embryogenesis`, `Postembryonic Development`, `Growth`, `Maturation`, `Aging`, `Life-Cycle Stages`.
-- Не стоит делать отдельный `domain: ontogenesis`, потому что это не disciplinary optic, а центральный кластер внутри более широкой ветки `Developmental Biology`.
-- `Metabolism` и `Nutrition` остаются поперечными связями, а не родительскими ветками, потому что они важны для developmental context, но не исчерпывают тему индивидуального развития.
+- `Developmental Biology` Ð´Ð¾Ð»Ð¶Ð½Ð° Ð±Ñ‹Ñ‚ÑŒ Ð¾Ñ‚Ð´ÐµÐ»ÑŒÐ½Ð¾Ð¹ domain-root Ð²ÐµÑ‚ÐºÐ¾Ð¹ Ð²Ð½ÑƒÑ‚Ñ€Ð¸ `biology`, Ð¿Ð¾Ñ‚Ð¾Ð¼Ñƒ Ñ‡Ñ‚Ð¾ Ð±ÐµÐ· Ð½ÐµÐµ Ñ‚ÐµÐ¼Ñ‹ Ñ€Ð°Ð·Ð²Ð¸Ñ‚Ð¸Ñ Ð»Ð¸Ð±Ð¾ Ð¾ÐºÐ°Ð¶ÑƒÑ‚ÑÑ Ð² ÑÐ»Ð¸ÑˆÐºÐ¾Ð¼ ÑˆÐ¸Ñ€Ð¾ÐºÐ¾Ð¹ Ð¾Ð±Ñ‰ÐµÐ¹ biology-Ñ€Ð°Ð¼ÐºÐµ, Ð»Ð¸Ð±Ð¾ Ð±ÑƒÐ´ÑƒÑ‚ Ð¸ÑÐºÑƒÑÑÑ‚Ð²ÐµÐ½Ð½Ð¾ Ñ€Ð°Ð·Ð»Ð¾Ð¶ÐµÐ½Ñ‹ Ð¿Ð¾ biochemical Ð¸ nutritional notes.
+- `Ontogenesis` Ð»ÑƒÑ‡ÑˆÐµ Ð´ÐµÑ€Ð¶Ð°Ñ‚ÑŒ ÐºÐ°Ðº Ð»Ð¾ÐºÐ°Ð»ÑŒÐ½Ñ‹Ð¹ `overview`, Ð° Ð½Ðµ ÐºÐ°Ðº Ð¿Ñ€Ð¾ÑÑ‚ÑƒÑŽ article-note, Ð¿Ð¾Ñ‚Ð¾Ð¼Ñƒ Ñ‡Ñ‚Ð¾ Ñ‚ÐµÐ¼Ð° ÐµÑÑ‚ÐµÑÑ‚Ð²ÐµÐ½Ð½Ð¾ ÑÐ¾Ð±Ð¸Ñ€Ð°ÐµÑ‚ Ð½ÐµÑÐºÐ¾Ð»ÑŒÐºÐ¾ Ð»Ð¸Ð½Ð¸Ð¹ Ñ€Ð¾ÑÑ‚Ð°: `Embryogenesis`, `Postembryonic Development`, `Growth`, `Maturation`, `Aging`, `Life-Cycle Stages`.
+- ÐÐµ ÑÑ‚Ð¾Ð¸Ñ‚ Ð´ÐµÐ»Ð°Ñ‚ÑŒ Ð¾Ñ‚Ð´ÐµÐ»ÑŒÐ½Ñ‹Ð¹ `domain: ontogenesis`, Ð¿Ð¾Ñ‚Ð¾Ð¼Ñƒ Ñ‡Ñ‚Ð¾ ÑÑ‚Ð¾ Ð½Ðµ disciplinary optic, Ð° Ñ†ÐµÐ½Ñ‚Ñ€Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÐºÐ»Ð°ÑÑ‚ÐµÑ€ Ð²Ð½ÑƒÑ‚Ñ€Ð¸ Ð±Ð¾Ð»ÐµÐµ ÑˆÐ¸Ñ€Ð¾ÐºÐ¾Ð¹ Ð²ÐµÑ‚ÐºÐ¸ `Developmental Biology`.
+- `Metabolism` Ð¸ `Nutrition` Ð¾ÑÑ‚Ð°ÑŽÑ‚ÑÑ Ð¿Ð¾Ð¿ÐµÑ€ÐµÑ‡Ð½Ñ‹Ð¼Ð¸ ÑÐ²ÑÐ·ÑÐ¼Ð¸, Ð° Ð½Ðµ Ñ€Ð¾Ð´Ð¸Ñ‚ÐµÐ»ÑŒÑÐºÐ¸Ð¼Ð¸ Ð²ÐµÑ‚ÐºÐ°Ð¼Ð¸, Ð¿Ð¾Ñ‚Ð¾Ð¼Ñƒ Ñ‡Ñ‚Ð¾ Ð¾Ð½Ð¸ Ð²Ð°Ð¶Ð½Ñ‹ Ð´Ð»Ñ developmental context, Ð½Ð¾ Ð½Ðµ Ð¸ÑÑ‡ÐµÑ€Ð¿Ñ‹Ð²Ð°ÑŽÑ‚ Ñ‚ÐµÐ¼Ñƒ Ð¸Ð½Ð´Ð¸Ð²Ð¸Ð´ÑƒÐ°Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ñ€Ð°Ð·Ð²Ð¸Ñ‚Ð¸Ñ.
 
-## Что не стоит делать прямо сейчас
+## Ð§Ñ‚Ð¾ Ð½Ðµ ÑÑ‚Ð¾Ð¸Ñ‚ Ð´ÐµÐ»Ð°Ñ‚ÑŒ Ð¿Ñ€ÑÐ¼Ð¾ ÑÐµÐ¹Ñ‡Ð°Ñ
 
-- Не стоит подчинять `Ontogenesis` ветке `Biochemistry` или `Nutrition`.
-- Не стоит заранее создавать большой пакет дочерних notes для `Embryogenesis`, `Morphogenesis`, `Differentiation`, `Growth`, `Maturation` и `Aging`, пока рядом нет устойчивого корпуса.
-- Не стоит создавать отдельный `domain` под `Ontogenesis`.
-- Не стоит создавать отдельные тематические template-файлы под biology или developmental biology: по `Principia Rerum` здесь достаточно канонических `Overview Template` и `Article Template`.
+- ÐÐµ ÑÑ‚Ð¾Ð¸Ñ‚ Ð¿Ð¾Ð´Ñ‡Ð¸Ð½ÑÑ‚ÑŒ `Ontogenesis` Ð²ÐµÑ‚ÐºÐµ `Biochemistry` Ð¸Ð»Ð¸ `Nutrition`.
+- ÐÐµ ÑÑ‚Ð¾Ð¸Ñ‚ Ð·Ð°Ñ€Ð°Ð½ÐµÐµ ÑÐ¾Ð·Ð´Ð°Ð²Ð°Ñ‚ÑŒ Ð±Ð¾Ð»ÑŒÑˆÐ¾Ð¹ Ð¿Ð°ÐºÐµÑ‚ Ð´Ð¾Ñ‡ÐµÑ€Ð½Ð¸Ñ… notes Ð´Ð»Ñ `Embryogenesis`, `Morphogenesis`, `Differentiation`, `Growth`, `Maturation` Ð¸ `Aging`, Ð¿Ð¾ÐºÐ° Ñ€ÑÐ´Ð¾Ð¼ Ð½ÐµÑ‚ ÑƒÑÑ‚Ð¾Ð¹Ñ‡Ð¸Ð²Ð¾Ð³Ð¾ ÐºÐ¾Ñ€Ð¿ÑƒÑÐ°.
+- ÐÐµ ÑÑ‚Ð¾Ð¸Ñ‚ ÑÐ¾Ð·Ð´Ð°Ð²Ð°Ñ‚ÑŒ Ð¾Ñ‚Ð´ÐµÐ»ÑŒÐ½Ñ‹Ð¹ `domain` Ð¿Ð¾Ð´ `Ontogenesis`.
+- ÐÐµ ÑÑ‚Ð¾Ð¸Ñ‚ ÑÐ¾Ð·Ð´Ð°Ð²Ð°Ñ‚ÑŒ Ð¾Ñ‚Ð´ÐµÐ»ÑŒÐ½Ñ‹Ðµ Ñ‚ÐµÐ¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ðµ template-Ñ„Ð°Ð¹Ð»Ñ‹ Ð¿Ð¾Ð´ biology Ð¸Ð»Ð¸ developmental biology: Ð¿Ð¾ `Principia Rerum` Ð·Ð´ÐµÑÑŒ Ð´Ð¾ÑÑ‚Ð°Ñ‚Ð¾Ñ‡Ð½Ð¾ ÐºÐ°Ð½Ð¾Ð½Ð¸Ñ‡ÐµÑÐºÐ¸Ñ… `Overview Template` Ð¸ `Article Template`.
 
-## Предлагаемое физическое размещение в Corpus Mundi
+## ÐŸÑ€ÐµÐ´Ð»Ð°Ð³Ð°ÐµÐ¼Ð¾Ðµ Ñ„Ð¸Ð·Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ‰ÐµÐ½Ð¸Ðµ Ð² Corpus Mundi
 
 ```text
 02. Corpus Mundi/
-├── B/
-│   ├── Biology.md
-│   └── Biochemistry.md
-├── D/
-│   └── Developmental Biology.md
-├── M/
-│   └── Metabolism.md
-├── N/
-│   └── Nutrition.md
-└── O/
-    └── Ontogenesis.md
+â”œâ”€â”€ B/
+â”‚   â”œâ”€â”€ Biology.md
+â”‚   â””â”€â”€ Biochemistry.md
+â”œâ”€â”€ D/
+â”‚   â””â”€â”€ Developmental Biology.md
+â”œâ”€â”€ M/
+â”‚   â””â”€â”€ Metabolism.md
+â”œâ”€â”€ N/
+â”‚   â””â”€â”€ Nutrition.md
+â””â”€â”€ O/
+    â””â”€â”€ Ontogenesis.md
 ```
 
-## Что уже создано в Inbox
+## Ð§Ñ‚Ð¾ ÑƒÐ¶Ðµ ÑÐ¾Ð·Ð´Ð°Ð½Ð¾ Ð² Inbox
 
 - `[[Biology]]`
 - `[[Developmental Biology]]`
 - `[[Ontogenesis]]`
 
-## Что стоит раскрыть дальше
+## Ð§Ñ‚Ð¾ ÑÑ‚Ð¾Ð¸Ñ‚ Ñ€Ð°ÑÐºÑ€Ñ‹Ñ‚ÑŒ Ð´Ð°Ð»ÑŒÑˆÐµ
 
-- [ ] Подтвердить `domain: developmental-biology`
-- [ ] Подтвердить `section: ontogenesis`
-- [ ] Решить, когда внутри `Ontogenesis` нужны отдельные дочерние статьи
-- [ ] Проверить границы между ontogenesis, embryogenesis и life cycle
+- [ ] ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚ÑŒ `domain: developmental-biology`
+- [ ] ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚ÑŒ `section: ontogenesis`
+- [ ] Ð ÐµÑˆÐ¸Ñ‚ÑŒ, ÐºÐ¾Ð³Ð´Ð° Ð²Ð½ÑƒÑ‚Ñ€Ð¸ `Ontogenesis` Ð½ÑƒÐ¶Ð½Ñ‹ Ð¾Ñ‚Ð´ÐµÐ»ÑŒÐ½Ñ‹Ðµ Ð´Ð¾Ñ‡ÐµÑ€Ð½Ð¸Ðµ ÑÑ‚Ð°Ñ‚ÑŒÐ¸
+- [ ] ÐŸÑ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ Ð¼ÐµÐ¶Ð´Ñƒ ontogenesis, embryogenesis Ð¸ life cycle
+
