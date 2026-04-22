@@ -10,6 +10,7 @@ status: draft
 related:
   - "[[Distributed Systems]]"
   - "[[Distributed Systems Problems]]"
+  - "[[Performance Optimization]]"
   - "[[Caching]]"
   - "[[Event-Driven Architecture]]"
   - "[[Messaging and Coordination Models]]"
@@ -38,30 +39,26 @@ Computer Science
     │       ├── Polling Publisher
     │       ├── Change Data Capture
     │       └── Distributed Transaction
-    ├── Caching
-    │   ├── Types of Caches
-    │   │   ├── Application Cache
-    │   │   ├── Database Cache
-    │   │   ├── Browser and HTTP Cache
-    │   │   ├── CDN and Edge Cache
-    │   │   └── Distributed Cache
-    │   ├── Caching Strategies
-    │   │   ├── Cache-Aside Strategy
-    │   │   ├── Read-Through and Refresh-Ahead Caching
-    │   │   ├── Write-Through and Write-Back Caching
-    │   │   ├── Write-Around Caching
-    │   │   ├── Stale-While-Revalidate
-    │   │   └── Negative Caching
-    │   ├── Cache Invalidation
-    │   │   ├── TTL-Based Invalidation
-    │   │   ├── Event-Driven Invalidation
-    │   │   ├── Version-Based Invalidation
-    │   │   └── Tag-Based Invalidation
-    │   ├── Cache Policies
-    │   │   ├── Eviction Policies
-    │   │   ├── Expiration Policies
-    │   │   └── Admission Policies
-    │   └── Cache Stampede
+    ├── Performance Optimization
+    │   ├── Caching
+    │   │   ├── Types of Caches
+    │   │   ├── Caching Strategies
+    │   │   ├── Cache Invalidation
+    │   │   ├── Cache Policies
+    │   │   └── Cache Stampede
+    │   ├── Load Balancing
+    │   ├── Backpressure and Flow Control
+    │   ├── Rate Limiting and Load Shedding
+    │   ├── Batching and Request Coalescing
+    │   ├── Partitioning and Sharding
+    │   ├── Read Scaling and Replication
+    │   ├── Data Locality and Placement
+    │   ├── Async Processing and Queues
+    │   ├── Connection Management
+    │   ├── Serialization and Compression
+    │   ├── Hotspot Mitigation
+    │   ├── Capacity Planning and Autoscaling
+    │   └── Distributed Systems Performance Modeling
     ├── Event-Driven Architecture
     │   ├── Event Collaboration Patterns
     │   │   ├── Event Notification
@@ -95,10 +92,10 @@ Computer Science
 
 ## Почему структура именно такая
 
-- `Distributed Systems` оправдан как domain-root overview, потому что здесь уже есть несколько самостоятельных подветок: фундаментальные ограничения, caching, event-driven patterns и service reliability.
+- `Distributed Systems` оправдан как domain-root overview, потому что здесь уже есть несколько самостоятельных подветок: фундаментальные ограничения, performance optimization, event-driven patterns и service reliability.
 - `Distributed Systems Problems` остается фундаментальным sub-overview, потому что без него прикладные решения вроде caching и event-driven architecture теряют объяснительный контекст.
 - `Dual Write` лучше отражать внутри `Distributed Systems Problems`, а не как отдельного top-level sibling: по смыслу это problem-centered ветка про рассогласование побочных эффектов, даже если она тесно пересекается с EDA.
-- `Caching` оправдан как отдельный `sub-overview`, потому что в распределенных системах кэш перестает быть локальной микрооптимизацией и становится отдельным слоем trade-offs между latency, load и consistency.
+- `Performance Optimization` оправдан как отдельный `sub-overview`, потому что performance-темы шире `Caching` и включают load balancing, backpressure, rate limiting, partitioning, read scaling, batching и capacity planning.
 - `Event-Driven Architecture` уже стоит показывать не просто как одиночную article-note, а как полноценную архитектурную подветку с собственными дочерними темами.
 - `Messaging and Coordination Models` стоит держать рядом с `Event-Driven Architecture`, а не внутри нее: pub-sub, brokered messaging, producer-consumer и gossip шире любой одной архитектурной школы и могут использоваться вне EDA.
 - `Kafka` стоит держать отдельной product-specific веткой рядом с абстрактными messaging notes, а не подчинять `Messaging and Coordination Models`: эта технология образует собственный кластер заметок про topics, partitions, offsets и consumer coordination.
@@ -116,7 +113,7 @@ Computer Science
 ## Что стоит раскрыть дальше
 
 - [ ] Решить, когда нужен отдельный sub-overview про consistency models
-- [ ] Решить, когда рядом нужны `Service Discovery` и `Load Balancing`
+- [ ] Решить, когда рядом нужен отдельный `Service Discovery`
 - [ ] Подтвердить `section: messaging-and-coordination-models`
 - [ ] Подтвердить `section: kafka`
 - [ ] Проверить `related`

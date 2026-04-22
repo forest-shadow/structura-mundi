@@ -8,6 +8,7 @@ parent: "[[Computer Science]]"
 status: seed
 related:
   - "[[Distributed Systems Problems]]"
+  - "[[Performance Optimization]]"
   - "[[Caching]]"
   - "[[Event-Driven Architecture]]"
   - "[[Messaging and Coordination Models]]"
@@ -26,7 +27,7 @@ tags: []
 ## Что входит в эту тему
 
 - `[[Distributed Systems Problems]]`
-- `[[Caching]]`
+- `[[Performance Optimization]]`
 - `[[Event-Driven Architecture]]`
 - `[[Messaging and Coordination Models]]`
 - `[[Kafka]]`
@@ -35,7 +36,7 @@ tags: []
 ## Как устроена ветка
 
 - `Distributed Systems Problems` собирает фундаментальные ограничения и классы проблем, включая уже оформившуюся дочернюю ветку `[[Dual Write]]`;
-- `Caching` собирает performance-oriented branch про снижение latency, уменьшение нагрузки и trade-offs консистентности;
+- `Performance Optimization` собирает performance-oriented ветки вроде `[[Caching]]`, `[[Load Balancing]]`, `[[Backpressure and Flow Control]]`, `[[Rate Limiting and Load Shedding]]` и `[[Partitioning and Sharding]]`;
 - `Event-Driven Architecture` уже выступает как самостоятельная архитектурная подветка, а не как одиночная заметка;
 - `Messaging and Coordination Models` собирает более общие distributed interaction patterns вроде pub-sub, brokered messaging, producer-consumer и gossip;
 - `Kafka` собирает product-specific branch про event streaming, partitioned log, consumer coordination и практическую инфраструктуру асинхронного взаимодействия;
@@ -45,7 +46,7 @@ tags: []
 
 1. Начать с `[[Distributed Systems Problems]]`.
 2. Внутри этой рамки отдельно перейти к `[[Dual Write]]` как к практическому problem-cluster.
-3. Затем перейти к `[[Caching]]` как к performance branch поверх базовых distributed-systems constraints.
+3. Затем перейти к `[[Performance Optimization]]`, а внутри нее к `[[Caching]]` как к первой performance branch поверх базовых distributed-systems constraints.
 4. После этого перейти к `[[Event-Driven Architecture]]`.
 5. Затем перейти к `[[Messaging and Coordination Models]]`, если нужен interaction-oriented слой выше чистого networking.
 6. Затем перейти к `[[Kafka]]`, если нужен product-specific слой поверх messaging patterns и event-driven interaction.

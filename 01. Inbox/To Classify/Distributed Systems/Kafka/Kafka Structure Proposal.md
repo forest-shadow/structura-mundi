@@ -1,25 +1,3 @@
----
-aliases:
-  - Apache Kafka Structure Proposal
-  - Структура ветки Kafka
-note_type: article
-area: computer-science
-domain: distributed-systems
-section: kafka
-parent:
-status: draft
-related:
-  - "[[Distributed Systems]]"
-  - "[[Kafka]]"
-  - "[[Messaging and Coordination Models]]"
-  - "[[Brokered Messaging Model]]"
-  - "[[Message Broker]]"
-  - "[[Publish-Subscribe]]"
-  - "[[Producer-Consumer Model]]"
-  - "[[Event-Driven Architecture]]"
-  - "[[Transactional Outbox]]"
-tags: []
----
 
 # Kafka Structure Proposal
 

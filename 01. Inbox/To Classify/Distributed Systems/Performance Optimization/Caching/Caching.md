@@ -4,10 +4,11 @@ note_type: overview
 area: computer-science
 domain: distributed-systems
 section: performance-optimization
-parent: "[[Distributed Systems]]"
+parent: "[[Performance Optimization]]"
 status: seed
 related:
   - "[[Distributed Systems]]"
+  - "[[Performance Optimization]]"
   - "[[Distributed Systems Problems]]"
   - "[[Types of Caches]]"
   - "[[Caching Strategies]]"
@@ -48,6 +49,9 @@ tags: []
 
 ## Соседние overview-ветки
 
+- `[[Performance Optimization]]`
+- `[[Load Balancing]]`
+- `[[Backpressure and Flow Control]]`
 - `[[Distributed Systems Problems]]`
 - `[[Telemetry]]`
 

@@ -5,10 +5,11 @@ note_type: article
 area: computer-science
 domain: distributed-systems
 section: performance-optimization
-parent: "[[Distributed Systems]]"
+parent: "[[Performance Optimization]]"
 status: draft
 related:
   - "[[Caching]]"
+  - "[[Performance Optimization]]"
   - "[[Distributed Systems]]"
   - "[[Distributed Systems Problems]]"
   - "[[Types of Caches]]"
@@ -21,36 +22,37 @@ tags: []
 
 ## Краткое определение
 
-Предлагаемое устройство ветки `Caching` внутри `Distributed Systems` как performance-oriented sub-overview.
+Предлагаемое устройство ветки `Caching` внутри `Performance Optimization` как performance-oriented sub-overview.
 
 ## Рекомендуемая иерархия
 
 ```text
 Distributed Systems
-└── Caching
-    ├── Types of Caches
-    │   ├── Application Cache
-    │   ├── Database Cache
-    │   ├── Browser and HTTP Cache
-    │   ├── CDN and Edge Cache
-    │   └── Distributed Cache
-    ├── Caching Strategies
-    │   ├── Cache-Aside Strategy
-    │   ├── Read-Through and Refresh-Ahead Caching
-    │   ├── Write-Through and Write-Back Caching
-    │   ├── Write-Around Caching
-    │   ├── Stale-While-Revalidate
-    │   └── Negative Caching
-    ├── Cache Invalidation
-    │   ├── TTL-Based Invalidation
-    │   ├── Event-Driven Invalidation
-    │   ├── Version-Based Invalidation
-    │   └── Tag-Based Invalidation
-    ├── Cache Policies
-    │   ├── Eviction Policies
-    │   ├── Expiration Policies
-    │   └── Admission Policies
-    └── Cache Stampede
+└── Performance Optimization
+    └── Caching
+        ├── Types of Caches
+        │   ├── Application Cache
+        │   ├── Database Cache
+        │   ├── Browser and HTTP Cache
+        │   ├── CDN and Edge Cache
+        │   └── Distributed Cache
+        ├── Caching Strategies
+        │   ├── Cache-Aside Strategy
+        │   ├── Read-Through and Refresh-Ahead Caching
+        │   ├── Write-Through and Write-Back Caching
+        │   ├── Write-Around Caching
+        │   ├── Stale-While-Revalidate
+        │   └── Negative Caching
+        ├── Cache Invalidation
+        │   ├── TTL-Based Invalidation
+        │   ├── Event-Driven Invalidation
+        │   ├── Version-Based Invalidation
+        │   └── Tag-Based Invalidation
+        ├── Cache Policies
+        │   ├── Eviction Policies
+        │   ├── Expiration Policies
+        │   └── Admission Policies
+        └── Cache Stampede
 ```
 
 ## Почему структура именно такая

@@ -1,0 +1,29 @@
+views:
+  - type: table
+    name: Distributed Systems
+    filters:
+      and:
+        - domain == "distributed-systems"
+        - file.ext == "md"
+    groupBy:
+      property: parent
+      direction: ASC
+  - type: table
+    name: DS — Kafka
+    filters:
+      and:
+        - file.ext == "md"
+        - section == "kafka"
+    groupBy:
+      property: parent
+      direction: ASC
+  - type: table
+    name: DS — Performance Optimization
+    filters:
+      and:
+        - file.ext == "md"
+        - domain == "distributed-systems"
+        - section == "performance-optimization"
+    groupBy:
+      property: parent
+      direction: ASC

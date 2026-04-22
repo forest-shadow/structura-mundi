@@ -22,23 +22,8 @@
               "icon": "lucide-file",
               "title": "Tabula Ortus"
             }
-          },
-          {
-            "id": "1aee5707864ff94d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02. Corpus Mundi/D/Dual Write.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dual Write"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ELF",
+                "query": "performance-optimization",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/D/Dual Write.md",
+                "file": "Tabula Ortus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dual Write"
+              "title": "Outline of Tabula Ortus"
             }
           },
           {
@@ -226,45 +211,45 @@
   },
   "active": "c3376d17abdf195f",
   "lastOpenFiles": [
-    "01. Inbox/To Classify/Logic/Structure-Preserving Mappings/Structure-Preserving Mappings Structure Proposal.md",
-    "Untitled.md",
-    "03. Maps and Courses/Topic Maps/Logic/Logic.base",
-    "01. Inbox/To Classify/Logic/Logic.md",
-    "01. Inbox/To Classify/Logic/Boolean Logic/Boolean Logic.md",
-    "03. Maps and Courses/Topic Maps/Logic",
-    "02. Corpus Mundi/E/Ethnomycology.md",
-    "02. Corpus Mundi/F/Floodplain.md",
-    "01. Inbox/To Classify/Gastronomy/Beverages/Mixed Drinks/Крюшон.md",
-    "01. Inbox/To Classify/Gastronomy/Beverages/Mixed Drinks/Mixed Drinks.md",
-    "01. Inbox/To Classify/Gastronomy/Beverages/Mixed Drinks/Mixed Drinks Structure Proposal.md",
-    "01. Inbox/To Classify/Gastronomy/Beverages/Beverages.md",
-    "01. Inbox/To Classify/Gastronomy/Gastronomy.md",
-    "01. Inbox/To Classify/Gastronomy/Beverages/Mixed Drinks",
-    "01. Inbox/To Classify/Gastronomy/Beverages",
-    "01. Inbox/To Classify/Gastronomy",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Performance Modeling/Distributed Systems Performance Modeling.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Capacity Planning and Autoscaling/Capacity Planning and Autoscaling.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Hotspot Mitigation/Hotspot Mitigation.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Serialization and Compression/Serialization and Compression.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Connection Management/Connection Management.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Async Processing and Queues/Async Processing and Queues.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Data Locality and Placement/Data Locality and Placement.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Read Scaling and Replication/Read Scaling and Replication.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Partitioning and Sharding/Partitioning and Sharding.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Batching and Request Coalescing/Batching and Request Coalescing.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Rate Limiting and Load Shedding/Rate Limiting and Load Shedding.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Backpressure and Flow Control/Backpressure and Flow Control.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Load Balancing/Load Balancing.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Performance Optimization Structure Proposal.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Performance Optimization.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Performance Modeling",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Capacity Planning and Autoscaling",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Hotspot Mitigation",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Serialization and Compression",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Connection Management",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Async Processing and Queues",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Data Locality and Placement",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Read Scaling and Replication",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Partitioning and Sharding",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Batching and Request Coalescing",
+    "01. Inbox/To Classify/Distributed Systems/Caching/Cache Stampede.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/Types of Caches.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/Distributed Cache.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/CDN and Edge Cache.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/Database Cache.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/Browser and HTTP Cache.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Types of Caches/Application Cache.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Caching Strategies/Write-Through and Write-Back Caching.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Caching Strategies/Write-Around Caching.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Caching Strategies/Stale-While-Revalidate.md",
+    "01. Inbox/To Classify/Distributed Systems/Performance Optimization/Caching/Caching Strategies/Negative Caching.md",
     "02. Corpus Mundi/F/_resources/floodplain.jpg",
-    "02. Corpus Mundi/F/_resources",
     "Pasted image 20260419174506.png",
-    "02. Corpus Mundi/E/Entheogenic Traditions.md",
-    "02. Corpus Mundi/L/Layout.md",
-    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Compositing.md",
-    "02. Corpus Mundi/B/Browser Rendering Pipeline.md",
-    "02. Corpus Mundi/R/Render Tree.md",
-    "02. Corpus Mundi/D/DOM.md",
-    "02. Corpus Mundi/C/CSSOM.md",
-    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Structure Proposal.md",
-    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering.md",
-    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Paint.md",
-    "01. Inbox/To Classify/Geography/Physical Geography/Fluvial Landforms/Fluvial Landforms.md",
-    "01. Inbox/To Classify/Geography/Physical Geography/Fluvial Landforms/Fluvial Landforms Structure Proposal.md",
-    "01. Inbox/To Classify/Geography/Physical Geography/Physical Geography.md",
-    "01. Inbox/To Classify/Geography/Geography.md",
-    "01. Inbox/To Classify/Religion/Religious Studies/Entheogenic Traditions/Entheomycology.md",
-    "01. Inbox/To Classify/Geography/Physical Geography/Fluvial Landforms",
-    "01. Inbox/To Classify/Geography/Physical Geography",
-    "01. Inbox/To Classify/Geography",
     "04. Assets/Shared/Images/browser-rendering-pipeline.jpg",
-    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/_resources",
     "Pasted image 20260418203640.png",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "02. Corpus Mundi/E/_resources/elf-03.jpg",
