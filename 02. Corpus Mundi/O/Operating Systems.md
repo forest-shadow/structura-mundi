@@ -7,9 +7,8 @@ area: computer-science
 domain: operating-systems
 section:
 parent: "[[Computer Science]]"
-status: draft
+status: seed
 related:
-  - "[[Computer Science]]"
   - "[[Processes and Threads]]"
   - "[[System Calls]]"
   - "[[File Systems]]"
@@ -116,7 +115,5 @@ tags: []
 - **Hypervisor (VMM):** Уровень абстракции физического оборудования для одновременного запуска нескольких гостевых ОС.
 - **Real-Time Operating System (RTOS):** Класс ОС со строгими математическими гарантиями времени реакции.
 - **Firmware:** Низкоуровневый код инициализации аппаратуры (BIOS/UEFI), передающий управление загрузчику ОС.
-
-
 
 

@@ -15,8 +15,6 @@ related:
   - "[[File Systems]]"
   - "[[Containerization]]"
   - "[[Linux]]"
-  - "[[Filesystem Hierarchy Standard]]"
-  - "[[Linking Files]]"
 tags: []
 ---
 
@@ -24,172 +22,51 @@ tags: []
 
 ## Краткое определение
 
-Предлагаемая рабочая ветка `Operating Systems` собирает под одним корневым обзорным узлом базовые механизмы ОС: execution model, системные вызовы, файловые системы, memory-management ветку `Virtual Memory`, Linux-ветку `Linux` и containerization-ветку `Containerization`.
-
-## Выбранная оптика
-
-- `area: computer-science`
-- `domain: operating-systems`
-- `section:` пусто у domain-root overview `Operating Systems`
-
-Почему так:
-
-- тема не укладывается естественно в уже существующие соседние `domain`;
-- для ОС нужен собственный предметный фокус, а не искусственное размещение в `software-architecture`;
-- корневая заметка `Operating Systems` описывает весь `domain`, поэтому не должна получать служебный `section`;
-- дочерние кластеры получают собственные локальные секции: `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`, `linux` и `containerization`.
-
-## Каноническое имя
-
-- корневая обзорная заметка: `Operating Systems`
-- `OS` и `Operating System` лучше хранить в `aliases`
+Рабочая seed-иерархия `Operating Systems` в `Inbox`, без переноса в `Corpus Mundi`.
 
 ## Рекомендуемая иерархия
 
 ```text
-Operating Systems
-├── Processes and Threads
-│   ├── Process
-│   │   └── Process State Model
-│   ├── Thread
-│   ├── CPU Scheduling
-│   │   └── Context Switch
-│   ├── Interprocess Communication
-│   └── Synchronization Primitives
-│       ├── Race Condition
-│       └── Data Race
-├── System Calls
-├── File Systems
-├── Virtual Memory
-│   ├── Virtual Address Space
-│   └── Paging
-│       ├── Page Table
-│       ├── TLB
-│       └── Page Fault
-├── Linux
-│   ├── Linux Kernel
-│   ├── Linux Distribution
-│   └── Linux File System
-│       ├── Filesystem Hierarchy Standard
-│       └── Linking Files
-│           ├── Hard Link
-│           └── Symbolic Link
-└── Containerization
-    └── Docker
+Operating Systems [overview]
+├── Processes and Threads [overview]
+│   ├── Process [overview]
+│   │   └── Process State Model [article]
+│   ├── Thread [article]
+│   ├── CPU Scheduling [overview]
+│   │   └── Context Switch [article]
+│   ├── Interprocess Communication [article]
+│   └── Synchronization Primitives [overview]
+│       ├── Race Condition [article]
+│       └── Data Race [article]
+├── System Calls [article]
+├── File Systems [article]
+├── Virtual Memory [overview]
+│   ├── Virtual Address Space [article]
+│   └── Paging [overview]
+│       ├── Page Table [article]
+│       ├── TLB [article]
+│       └── Page Fault [article]
+├── Linux [overview]
+│   ├── Linux Kernel [article]
+│   ├── Linux Distribution [article]
+│   └── Linux File System [overview]
+│       ├── Filesystem Hierarchy Standard [article]
+│       └── Linking Files [overview]
+│           ├── Hard Link [article]
+│           └── Symbolic Link [article]
+└── Containerization [overview]
+    └── Docker [article]
 ```
 
 ## Почему структура именно такая
 
-- `Operating Systems` нужен как root `overview`, потому что рядом уже есть несколько самостоятельных смысловых кластеров, а не одна isolated article.
-- `Processes and Threads` и `Virtual Memory` оправданы как `sub-overview`, потому что внутри них уже есть плотные дочерние подветки.
-- `System Calls` и `File Systems` пока разумнее держать как обычные `article`, чтобы не усложнять ветку раньше времени.
-- `Linux` уже оправдан как отдельный `sub-overview`, потому что тема естественно собирает не только ядро и дистрибутивы, но и Linux-specific механизмы вроде `Linux File System`.
-- `Filesystem Hierarchy Standard` помещается внутрь `Linux File System` как обычная `article`: это стандарт layout-соглашений, а не новый обзорный слой.
-- `Linking Files` тоже естественно помещается внутрь `Linux File System`: это локальный Linux filesystem-кластер, который дальше распадается на `Hard Link` и `Symbolic Link`.
-- `Containerization` оправдана как отдельный `sub-overview`, потому что она собирает не один термин, а устойчивую группу тем о контейнерах, изоляции процессов, образах и runtime-модели.
-- `Docker` естественно живёт внутри `Containerization`, а не напрямую под корнем `Operating Systems`, потому что это один конкретный инструментальный узел внутри более широкой темы.
+- `Operating Systems` остаётся domain-root overview.
+- `Processes and Threads`, `Virtual Memory`, `Linux` и `Containerization` оформлены как overview-ветки, потому что у них уже есть устойчивые дочерние кластеры.
+- `System Calls` и `File Systems` пока достаточно держать как обычные articles.
+- Ветка существует как seed-корпус в `Inbox`; публикация в `Corpus Mundi` здесь не предполагается.
 
-## Текущая физическая раскладка в Inbox
+## Что уже зафиксировано
 
-```text
-Operating Systems/
-├── Operating Systems.md
-├── Operating Systems Structure Proposal.md
-├── System Calls.md
-├── File Systems.md
-├── Linux/
-│   ├── Linux.md
-│   ├── Linux Structure Proposal.md
-│   ├── Linux Kernel.md
-│   ├── Linux Distribution.md
-│   └── Linux File System/
-│       ├── Linux File System.md
-│       ├── Linux File System Structure Proposal.md
-│       ├── Filesystem Hierarchy Standard.md
-│       ├── Filesystem Hierarchy Standard Structure Proposal.md
-│       └── Linking Files/
-│           ├── Linking Files.md
-│           ├── Linking Files Structure Proposal.md
-│           ├── Hard Link.md
-│           └── Symbolic Link.md
-├── Processes and Threads/
-│   ├── Processes and Threads.md
-│   ├── Processes and Threads Structure Proposal.md
-│   ├── Thread.md
-│   ├── Interprocess Communication.md
-│   ├── Process/
-│   │   ├── Process.md
-│   │   └── Process State Model.md
-│   ├── CPU Scheduling/
-│   │   ├── CPU Scheduling.md
-│   │   └── Context Switch.md
-│   └── Synchronization Primitives/
-│       ├── Synchronization Primitives.md
-│       ├── Synchronization Primitives Structure Proposal.md
-│       ├── Race Condition.md
-│       └── Data Race.md
-├── Virtual Memory/
-│   ├── Virtual Memory.md
-│   ├── Virtual Memory Structure Proposal.md
-│   ├── Virtual Address Space.md
-│   └── Paging/
-│       ├── Paging.md
-│       ├── Page Table.md
-│       ├── TLB.md
-│       └── Page Fault.md
-└── Containerization/
-    ├── Containerization.md
-    ├── Docker.md
-    └── Docker Structure Proposal.md
-```
-
-## Что не стоит создавать заранее
-
-- `Kernel Mode and User Mode`
-- `Interrupts`
-- `Deadlock`
-- `Container Runtime`
-- `Linux Namespaces`
-- `cgroups`
-- `OCI`
-
-Эти темы лучше выносить в отдельные заметки только по мере появления устойчивого корпуса.
-
-## Что создано в Inbox
-
-- `[[Operating Systems]]`
-- `[[Processes and Threads]]`
-- `[[Process]]`
-- `[[Process State Model]]`
-- `[[Thread]]`
-- `[[CPU Scheduling]]`
-- `[[Context Switch]]`
-- `[[Interprocess Communication]]`
-- `[[Synchronization Primitives]]`
-- `[[Race Condition]]`
-- `[[Data Race]]`
-- `[[System Calls]]`
-- `[[File Systems]]`
-- `[[Linux]]`
-- `[[Linux Kernel]]`
-- `[[Linux Distribution]]`
-- `[[Linux File System]]`
-- `[[Filesystem Hierarchy Standard]]`
-- `[[Linking Files]]`
-- `[[Hard Link]]`
-- `[[Symbolic Link]]`
-- `[[Virtual Memory]]`
-- `[[Virtual Address Space]]`
-- `[[Paging]]`
-- `[[Page Table]]`
-- `[[TLB]]`
-- `[[Page Fault]]`
-- `[[Containerization]]`
-- `[[Docker]]`
-
-## Что стоит раскрыть дальше
-
-- [ ] Проверить согласованность секций `processes-and-threads`, `system-calls`, `file-systems`, `memory-management`, `linux` и `containerization`
-- [ ] Проверить, когда Linux-ветка требует дополнительных Linux-specific article помимо `Linux File System`, `Filesystem Hierarchy Standard` и `Linking Files`
-- [ ] Проверить, когда `Containerization` начнет требовать отдельные дочерние статьи помимо `Docker`
-- [ ] Проверить `related`
+- `Process` поднят до `overview`, чтобы `Process State Model` был корректным дочерним article.
+- `CPU Scheduling` поднят до `overview`, чтобы `Context Switch` был корректным дочерним article.
+- `Linux` и `Containerization` зафиксированы как sibling-ветки под `Operating Systems`.

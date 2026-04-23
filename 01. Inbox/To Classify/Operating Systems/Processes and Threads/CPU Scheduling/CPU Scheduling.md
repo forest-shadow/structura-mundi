@@ -1,6 +1,6 @@
 ---
 aliases: []
-note_type: article
+note_type: overview
 area: computer-science
 domain: operating-systems
 section: processes-and-threads
