@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Automata Theory/Formal Language.md",
+                "file": "01. Inbox/To Classify/Operating Systems/Processes and Threads/Processes and Threads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Formal Language"
+              "title": "Processes and Threads"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Automata Theory/Formal Language.md",
+                "file": "01. Inbox/To Classify/Operating Systems/Processes and Threads/Processes and Threads.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Formal Language"
+              "title": "Outline of Processes and Threads"
             }
           },
           {
@@ -224,8 +224,9 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c3376d17abdf195f",
+  "active": "3f3ceff13a603cc0",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Automata Theory/Formal Language.md",
     "01. Inbox/To Classify/Operating Systems/Operating Systems.md",
     "01. Inbox/To Classify/Operating Systems/Containerization/Containerization.md",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/Process/Process.md",
@@ -265,7 +266,6 @@
     "01. Inbox/To Classify/Phonetics/Phonetics.md",
     "01. Inbox/To Classify/Phonetics/Phonetics Structure Proposal.md",
     "01. Inbox/To Classify/Phonetics",
-    "01. Inbox/To Classify/Gastronomy/Beverages/Mixed Drinks/Mixed Drinks.md",
     "03. Maps and Courses/Topic Maps/Web Platform/Web Platform.base",
     "01. Inbox/To Classify/Biology/Ecology",
     "01. Inbox/To Classify/Biology/Microbiology",
