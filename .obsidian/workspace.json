@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Compositing.md",
+                "file": "02. Corpus Mundi/К/Крюшон.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Compositing"
+              "title": "Крюшон"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Compositing.md",
+                "file": "02. Corpus Mundi/К/Крюшон.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Compositing"
+              "title": "Outline of Крюшон"
             }
           },
           {
@@ -224,44 +224,44 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "3f3ceff13a603cc0",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Semantics/Figurative Meaning/Synecdoche.md",
+    "01. Inbox/To Classify/Semantics/Figurative Meaning/Metonymy.md",
+    "01. Inbox/To Classify/Semantics/Figurative Meaning/Metaphor.md",
+    "01. Inbox/To Classify/Semantics/Figurative Meaning/Figurative Meaning Structure Proposal.md",
+    "01. Inbox/To Classify/Semantics/Figurative Meaning/Figurative Meaning.md",
+    "01. Inbox/To Classify/Semantics/Figurative Meaning",
+    "01. Inbox/To Classify/CSS/CSS Structure Proposal.md",
+    "01. Inbox/To Classify/Phonetics/Rhotic Consonants/Uvular Rhotic.md",
+    "01. Inbox/To Classify/Phonetics/Rhotic Consonants/Грассировать.md",
+    "01. Inbox/To Classify/Phonetics/Rhotic Consonants/Rhotic Consonants.md",
+    "01. Inbox/To Classify/Phonetics/Rhotic Consonants",
+    "01. Inbox/To Classify/Phonetics/Phonetics.md",
+    "01. Inbox/To Classify/Phonetics/Phonetics Structure Proposal.md",
+    "01. Inbox/To Classify/Phonetics",
+    "01. Inbox/To Classify/CSS/CSS Cascade/CSS Cascade Origins, Importance, Layers, and Order.md",
+    "01. Inbox/To Classify/CSS/CSS Cascade/CSS Cascade.md",
+    "01. Inbox/To Classify/CSS/CSS Cascade/CSS Specificity.md",
+    "02. Corpus Mundi/К/Крюшон.md",
+    "01. Inbox/To Classify/Gastronomy/Beverages/Mixed Drinks/Mixed Drinks.md",
+    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Structure Proposal.md",
+    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering.md",
     "03. Maps and Courses/Topic Maps/Web Platform/__Web Platform.md",
-    "01. Inbox/To Classify/Web Platform/Browser Rendering/Browser Rendering Pipeline/Paint.md",
+    "03. Maps and Courses/Topic Maps/Web Platform/Web Platform.base",
+    "02. Corpus Mundi/C/Compositing.md",
+    "02. Corpus Mundi/P/Paint.md",
     "01. Inbox/To Classify/Biology/Nutrition/Vitamins.md",
     "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology/Redox Biology Structure Proposal.md",
     "01. Inbox/To Classify/Biology/Cell Biology/Cell Division/Cell Division.md",
     "01. Inbox/To Classify/Biology/Cell Biology/Cell Death/Cell Death.md",
     "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology/Repair and Response Systems/Repair and Response Systems.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology/Oxidative Damage/Oxidative Damage.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Biomolecules/Biomolecules.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Biomolecules/Nucleic Acids.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Biomolecules/Lipids.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Biomolecules/Carbohydrates.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Biomolecules/ATP.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Oxidative Phosphorylation.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Glycolysis.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Enzymes.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Electron Transport Chain.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Citric Acid Cycle.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Catabolism.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Bioenergetics.md",
-    "01. Inbox/To Classify/Biology/Biochemistry/Anabolism.md",
-    "01. Inbox/To Classify/Biology/Biology Structure Proposal.md",
-    "01. Inbox/To Classify/Biology/Ecology/Ecology.md",
-    "01. Inbox/To Classify/Biology/Microbiology/Microbiology.md",
-    "01. Inbox/To Classify/Biology/Immunology/Immunology.md",
-    "01. Inbox/To Classify/Biology/Histology/Histology.md",
     "01. Inbox/To Classify/Biology/Ecology",
     "01. Inbox/To Classify/Biology/Microbiology",
     "01. Inbox/To Classify/Biology/Immunology",
     "01. Inbox/To Classify/Biology/Histology",
     "01. Inbox/To Classify/Biology/Physiology",
     "01. Inbox/To Classify/Biology/Genetics",
-    "01. Inbox/To Classify/Biology/Molecular Biology",
-    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology/Repair and Response Systems",
-    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology/Oxidative Damage",
-    "01. Inbox/To Classify/Biology/Biochemistry/Redox Biology/Antioxidants",
     "02. Corpus Mundi/F/_resources/floodplain.jpg",
     "Pasted image 20260419174506.png",
     "04. Assets/Shared/Images/browser-rendering-pipeline.jpg",
