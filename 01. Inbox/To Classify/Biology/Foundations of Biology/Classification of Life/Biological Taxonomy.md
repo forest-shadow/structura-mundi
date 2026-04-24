@@ -1,4 +1,4 @@
-﻿---
+---
 aliases:
   - Taxonomy
 note_type: article

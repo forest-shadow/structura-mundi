@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Tabula Ortus"
             }
+          },
+          {
+            "id": "688d2350693a574b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Foundations of Biology.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Foundations of Biology"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tabula Ortus.md",
+                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Foundations of Biology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tabula Ortus"
+              "title": "Outline of Foundations of Biology"
             }
           },
           {
@@ -209,8 +224,19 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c340083190100fc4",
+  "active": "688d2350693a574b",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Life.md",
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Properties of Life.md",
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Cell Theory.md",
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Foundations of Biology.md",
+    "01. Inbox/To Classify/Biology/Biology Structure Proposal.md",
+    "01. Inbox/To Classify/Biology/Biology.md",
+    "01. Inbox/To Classify/Biology/_resources/biology.jpg",
+    "01. Inbox/To Classify/Biology/_resources",
+    "Pasted image 20260424140450.png",
+    "Tabula Ortus.md",
     "02. Corpus Mundi/Г/Грассировать.md",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/Thread.md",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/Processes and Threads.md",
@@ -235,27 +261,17 @@
     "Pasted image 20260423142923.png",
     "02. Corpus Mundi/C/_resources/css-cascade-layers.jpg",
     "Pasted image 20260423142815.png",
-    "02. Corpus Mundi/C/_resources/css-cascade-importance.jpg",
-    "Pasted image 20260423142706.png",
     "02. Corpus Mundi/C/CSS Cascade.md",
     "01. Inbox/To Classify/CSS/CSS Cascade/_resources",
     "02. Corpus Mundi/К/Крюшон.md",
     "01. Inbox/To Classify/Semantics/Figurative Meaning/Synecdoche.md",
-    "01. Inbox/To Classify/Semantics/Figurative Meaning/Metonymy.md",
-    "01. Inbox/To Classify/Semantics/Figurative Meaning/Metaphor.md",
-    "01. Inbox/To Classify/Semantics/Figurative Meaning/Figurative Meaning Structure Proposal.md",
-    "01. Inbox/To Classify/Semantics/Figurative Meaning/Figurative Meaning.md",
     "01. Inbox/To Classify/Semantics/Figurative Meaning",
-    "01. Inbox/To Classify/CSS/CSS Structure Proposal.md",
-    "01. Inbox/To Classify/Phonetics/Rhotic Consonants/Uvular Rhotic.md",
-    "01. Inbox/To Classify/Phonetics/Rhotic Consonants/Rhotic Consonants.md",
     "01. Inbox/To Classify/Phonetics/Rhotic Consonants",
     "01. Inbox/To Classify/Phonetics",
     "03. Maps and Courses/Topic Maps/Web Platform/Web Platform.base",
     "01. Inbox/To Classify/Biology/Ecology",
     "01. Inbox/To Classify/Biology/Microbiology",
     "01. Inbox/To Classify/Biology/Immunology",
-    "01. Inbox/To Classify/Biology/Histology",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
