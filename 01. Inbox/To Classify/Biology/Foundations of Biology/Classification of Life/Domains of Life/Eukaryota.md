@@ -1,31 +1,49 @@
-﻿---
-aliases: []
+---
+aliases:
+  - Эукариота
+  - Eukarya
 note_type: article
 area: biology
 domain: foundations-of-biology
 section: classification-of-life
 parent: "[[Domains of Life]]"
-status: seed
+status: draft
 related:
   - "[[Domains of Life]]"
+  - "[[Eukaryotes]]"
+  - "[[Eukaryotic Cell]]"
+  - "[[Cell]]"
+  - "[[Evolutionary Biology]]"
 tags: []
 ---
 
-# Eukaryota
+# 1. Eukaryota
 
-## Scope
+> <font color="#fb4934">Eukaryota</font> — это один из трех доменов жизни, включающий все организмы с эукариотическим типом клетки. В этот домен входят животные, растения, грибы и многочисленные линии протистов.
 
-Eukaryota is an article seed in the biology area, placed under [[Domains of Life]] according to the current Biology structure.
+`Eukaryota` — это таксономическое и филогенетическое обозначение той глубокой ветви жизни, которая характеризуется наличием ядра и сложной внутриклеточной компартментализации.
 
-## Includes
+# 2. Ключевые признаки домена
 
-- This seed note has no child notes yet.
+Для представителей `Eukaryota` характерны:
 
-## Placement
+- оформленное ядро;
+- мембранные органеллы;
+- развитый цитоскелет;
+- сложная регуляция клеточного цикла;
+- способность к высокой клеточной специализации, особенно у многоклеточных форм.
 
-- Area: biology
-- Domain: foundations-of-biology
-- Section: classification-of-life
-- Parent: [[Domains of Life]]
+Эти признаки объясняют, почему именно внутри этого домена возникают наиболее сложные формы многоклеточности и тканевой организации.
 
+# 3. Eukaryota и Eukaryotes
 
+Связь между двумя близкими терминами удобно формулировать так:
+
+- `[[Eukaryotes]]` — общий биологический термин для организмов с эукариотической клеткой;
+- `Eukaryota` — формальное имя домена в трехдоменной системе.
+
+Такое различение полезно, потому что позволяет отделять описание клеточного плана от строго таксономического уровня.
+
+# 4. Место в трехдоменной системе
+
+Внутри `[[Domains of Life]]` домен `Eukaryota` противопоставляется двум прокариотическим доменам — `[[Bacteria]]` и `[[Archaea]]`. Это противопоставление не отменяет возможной глубокой эволюционной связи между линиями, но фиксирует фундаментальные различия в клеточной архитектуре и истории развития.
