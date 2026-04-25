@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/F/Foundations of Biology.md",
+                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Life.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Foundations of Biology"
+              "title": "Life"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/F/Foundations of Biology.md",
+                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Life.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Foundations of Biology"
+              "title": "Outline of Life"
             }
           },
           {
@@ -226,15 +226,16 @@
   },
   "active": "688d2350693a574b",
   "lastOpenFiles": [
+    "02. Corpus Mundi/G/Go.md",
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Life.md",
+    "01. Inbox/To Classify/Biology/Biology Structure Proposal.md",
+    "02. Corpus Mundi/F/Foundations of Biology.md",
     "02. Corpus Mundi/F/_resources/foundations-of-biology.jpg",
     "01. Inbox/To Classify/Biology/Foundations of Biology/_resources",
     "Pasted image 20260424153059.png",
-    "01. Inbox/To Classify/Biology/Foundations of Biology/Life.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Properties of Life.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Cell Theory.md",
-    "02. Corpus Mundi/F/Foundations of Biology.md",
-    "01. Inbox/To Classify/Biology/Biology Structure Proposal.md",
     "02. Corpus Mundi/B/Biology.md",
     "02. Corpus Mundi/B/_resources/biology.jpg",
     "02. Corpus Mundi/B/_resources",
@@ -262,7 +263,6 @@
     "02. Corpus Mundi/C/CSS Cascade Origins, Importance, Layers, and Order.md",
     "02. Corpus Mundi/C/_resources/css-cascade-source-order.jpg",
     "Pasted image 20260423142923.png",
-    "02. Corpus Mundi/C/_resources/css-cascade-layers.jpg",
     "02. Corpus Mundi/C/CSS Cascade.md",
     "01. Inbox/To Classify/CSS/CSS Cascade/_resources",
     "02. Corpus Mundi/К/Крюшон.md",
