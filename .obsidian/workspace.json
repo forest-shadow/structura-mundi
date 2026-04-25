@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Life.md",
+                "file": "02. Corpus Mundi/L/Life.md",
                 "mode": "source",
                 "source": false
               },
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Life.md",
+                "file": "02. Corpus Mundi/L/Life.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -224,10 +224,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "688d2350693a574b",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
     "02. Corpus Mundi/G/Go.md",
-    "01. Inbox/To Classify/Biology/Foundations of Biology/Life.md",
+    "02. Corpus Mundi/L/Life.md",
     "01. Inbox/To Classify/Biology/Biology Structure Proposal.md",
     "02. Corpus Mundi/F/Foundations of Biology.md",
     "02. Corpus Mundi/F/_resources/foundations-of-biology.jpg",
