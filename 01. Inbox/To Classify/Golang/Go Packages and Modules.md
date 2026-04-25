@@ -2,52 +2,54 @@
 aliases:
   - Packages and Modules in Go
   - Пакеты и модули Go
-note_type: article
+note_type: overview
 area: computer-science
 domain: programming-languages
 section: go
 parent: "[[Go]]"
-status: draft
+status: seed
 related:
   - "[[Go]]"
   - "[[Go Toolchain]]"
   - "[[Go Type System]]"
+  - "[[go mod]]"
 tags: []
 ---
 
 # Go Packages and Modules
 
-## Краткое определение
+## Краткое определение области
 
-Статья о том, как в Go организуются пакеты, модули и границы импортируемого кода.
+`Go Packages and Modules` - это обзорная ветка про то, как в Go устроены единицы организации кода, импорта и версионирования: package как локальная единица namespace и compilation, module как единица dependency management и versioned distribution.
 
-## Основная идея или механизм
+## Что входит в эту тему
 
-Packages и modules задают базовую структурную единицу Go-кода: пакет определяет уровень организации и экспорта идентификаторов, а модуль — единицу версионирования и управления зависимостями.
+- `[[Go Packages]]`
+- `[[Go Modules]]`
+- `[[Go Import Paths]]`
+- `[[go.mod]]`
 
-## Границы темы
+## Как устроена ветка
 
-- В тему входят package structure, exports, imports и роль `go.mod`.
-- На границе находится `[[Go Toolchain]]`, где важнее сами команды и workflow.
+- `Go Packages` описывает локальную организацию кода, package clause, экспортируемые идентификаторы и границы компиляции.
+- `Go Modules` описывает верхний уровень module graph, versioning и dependency boundaries.
+- `Go Import Paths` связывает package model с тем, как код адресуется и импортируется.
+- `go.mod` остается отдельной статьей о самом файле и его роли, хотя командный интерфейс работы с ним раскрывается рядом через `[[go mod]]`.
 
-## Связи с другими заметками
+## Рекомендуемый маршрут чтения
 
-Родительская тема:
+1. Начать с `[[Go Packages]]`, чтобы увидеть базовую единицу организации кода.
+2. Затем перейти к `[[Go Import Paths]]`, чтобы понять, как packages адресуются снаружи.
+3. После этого читать `[[Go Modules]]` как более внешний слой dependency и versioning model.
+4. Завершить `[[go.mod]]` и сопоставить его с `[[go mod]]`, если нужен operational workflow.
 
-`[[Go]]`
+## Соседние overview-ветки
 
-Связанные заметки:
-
+- `[[Go]]`
 - `[[Go Toolchain]]`
-- `[[Go Type System]]`
-
-## Примеры, случаи или следствия
-
-В Go структура каталогов, имена пакетов и модульные границы заметно влияют на читаемость и импортируемость кода.
 
 ## Что стоит раскрыть дальше
 
-- [ ] Уточнить различие package vs module
-- [ ] Добавить соглашения по именам пакетов
-- [ ] Проверить `aliases`
-- [ ] Проверить `tags`
+- [ ] Проверить, когда рядом нужны `Go Package Initialization` и `Go Workspaces`
+- [ ] Уточнить границу между `Go Modules` и `go mod`
+- [ ] Проверить `related`

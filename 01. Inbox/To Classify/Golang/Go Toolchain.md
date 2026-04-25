@@ -2,14 +2,15 @@
 aliases:
   - Golang Toolchain
   - Инструментарий Go
-note_type: article
+note_type: overview
 area: computer-science
 domain: programming-languages
 section: go
 parent: "[[Go]]"
-status: draft
+status: seed
 related:
   - "[[Go]]"
+  - "[[Go Commands]]"
   - "[[Go Packages and Modules]]"
   - "[[Go Escape Analysis]]"
   - "[[Go Testing]]"
@@ -20,41 +21,39 @@ tags: []
 
 # Go Toolchain
 
-## Краткое определение
+## Краткое определение области
 
-Статья о стандартном наборе инструментов Go для сборки, запуска, тестирования и управления зависимостями.
+`Go Toolchain` - это обзорная ветка про стандартный инструментарий Go для сборки, запуска, тестирования, форматирования, управления модулями и доступа к низкоуровневым служебным инструментам.
 
-## Основная идея или механизм
+## Что входит в эту тему
 
-Toolchain в Go — не внешний слой вокруг языка, а часть его практической модели: команды `go build`, `go run`, `go test`, `go fmt`, `go mod` и диагностические инструменты вроде `go tool pprof` задают стандартный способ работы с проектом.
-
-## Границы темы
-
-- В тему входят основные команды и принципы стандартного CLI.
-- Рядом находится `[[Go Packages and Modules]]`, но она посвящена уже структуре кода и зависимостей.
-
-## Связи с другими заметками
-
-Родительская тема:
-
-`[[Go]]`
-
-Связанные заметки:
-
+- `[[Go Commands]]`
 - `[[Go Packages and Modules]]`
-- `[[Go Escape Analysis]]`
 - `[[Go Testing]]`
 - `[[Go Runtime Diagnostics]]`
-- `[[Go pprof]]`
 
-## Примеры, случаи или следствия
+## Как устроена ветка
 
-В Go build, test и dependency management обычно не разнесены по разным внешним инструментам, а собраны в одном стандартном toolchain.
+- `Go Commands` собирает базовые CLI-команды вроде `go build`, `go run`, `go test`, `go fmt` и `go mod`.
+- `Go Packages and Modules` остается отдельной статьей, потому что она описывает модель пакетов, модулей и зависимостей, а не только интерфейс командной строки.
+- `Go Testing` остается отдельной статьей, потому что `go test` — лишь вход в более широкую тему testing model в Go.
+- `Go Runtime Diagnostics` собирает диагностические инструменты и workflows, часть которых вызывается через `go tool`, но смысл ветки шире простого списка команд.
+
+## Рекомендуемый маршрут чтения
+
+1. Начать с `[[Go Commands]]`, чтобы увидеть базовую карту стандартного CLI.
+2. Затем перейти к `[[go build]]`, `[[go run]]` и `[[go test]]`, если нужен повседневный цикл разработки.
+3. После этого читать `[[go mod]]` вместе с `[[Go Packages and Modules]]`.
+4. Для диагностики и profiling перейти к `[[Go Runtime Diagnostics]]` и `[[Go pprof]]`.
+
+## Соседние overview-ветки
+
+- `[[Go]]`
+- `[[Go Runtime Diagnostics]]`
 
 ## Что стоит раскрыть дальше
 
-- [ ] Добавить карту основных команд
-- [ ] Уточнить, где в ветке toolchain стоит раскрывать compiler behavior вроде escape analysis
-- [ ] Уточнить роль `go fmt`, `go test`, `go mod` и `go tool pprof`
-- [ ] Проверить `aliases`
-- [ ] Проверить `tags`
+- [ ] Проверить, когда рядом нужен отдельный узел `Go Build Artifacts`
+- [ ] Проверить, когда `go tool` должен стать самостоятельной заметкой
+- [ ] Уточнить границу между `Go Commands`, `Go Packages and Modules` и `Go Runtime Diagnostics`
+- [ ] Проверить `related`
