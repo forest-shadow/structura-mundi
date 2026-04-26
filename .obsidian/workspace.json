@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Corpus Mundi/L/Life.md",
+                "file": "01. Inbox/To Classify/Logic/Boolean Logic/Truth Table.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Life"
+              "title": "Truth Table"
             }
           }
         ],
@@ -111,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02. Corpus Mundi/L/Life.md",
+                "file": "01. Inbox/To Classify/Logic/Boolean Logic/Truth Table.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Life"
+              "title": "Outline of Truth Table"
             }
           },
           {
@@ -226,6 +226,16 @@
   },
   "active": "688d2350693a574b",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Logic/Boolean Logic/Logical Connectives.md",
+    "01. Inbox/To Classify/Logic/Boolean Logic/Boolean Logic.md",
+    "01. Inbox/To Classify/Logic/Boolean Logic/Boolean Logic Structure Proposal.md",
+    "01. Inbox/To Classify/Logic/Logic.md",
+    "02. Corpus Mundi/P/Properties of Life.md",
+    "02. Corpus Mundi/P/_resources",
+    "02. Corpus Mundi/P/_resources/properties-of-life.jpg",
+    "Pasted image 20260426134235.png",
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Classification of Life.md",
+    "02. Corpus Mundi/L/Life.md",
     "01. Inbox/To Classify/Golang/Go Packages and Modules/go.mod.md",
     "01. Inbox/To Classify/Golang/Go Packages and Modules/Go Modules.md",
     "01. Inbox/To Classify/Golang/Go Packages and Modules/Go Packages.md",
@@ -242,13 +252,11 @@
     "01. Inbox/To Classify/Golang/Go Toolchain/Go Commands",
     "01. Inbox/To Classify/Golang/Go Toolchain",
     "02. Corpus Mundi/G/Go.md",
-    "02. Corpus Mundi/L/Life.md",
     "01. Inbox/To Classify/Biology/Biology Structure Proposal.md",
     "02. Corpus Mundi/F/Foundations of Biology.md",
     "02. Corpus Mundi/F/_resources/foundations-of-biology.jpg",
     "01. Inbox/To Classify/Biology/Foundations of Biology/_resources",
     "Pasted image 20260424153059.png",
-    "01. Inbox/To Classify/Biology/Foundations of Biology/Properties of Life.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Cell Theory.md",
     "02. Corpus Mundi/B/Biology.md",
@@ -256,22 +264,14 @@
     "02. Corpus Mundi/B/_resources",
     "Pasted image 20260424140450.png",
     "Tabula Ortus.md",
-    "02. Corpus Mundi/Г/Грассировать.md",
-    "01. Inbox/To Classify/Operating Systems/Processes and Threads/Thread.md",
-    "01. Inbox/To Classify/Operating Systems/Processes and Threads/Processes and Threads.md",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/_resources/processes-and-threads-differences.jpg",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/_resources",
     "Pasted image 20260424002217.png",
-    "01. Inbox/To Classify/Automata Theory/Formal Language.md",
-    "01. Inbox/To Classify/Operating Systems/Operating Systems.md",
     "02. Corpus Mundi/C/_resources/css-specificity.jpg",
     "02. Corpus Mundi/C/_resources/css-cascade.jpg",
-    "02. Corpus Mundi/C/_resources/css-cascade-source-order.jpg",
-    "Pasted image 20260423142923.png",
     "01. Inbox/To Classify/CSS/CSS Cascade/_resources",
     "01. Inbox/To Classify/Semantics/Figurative Meaning",
     "01. Inbox/To Classify/Phonetics/Rhotic Consonants",
-    "01. Inbox/To Classify/Phonetics",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
