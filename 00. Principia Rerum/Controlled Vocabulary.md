@@ -166,6 +166,7 @@
 #### Внутри `philosophy`
 
 - `ancient-philosophy`
+- `modern-philosophy`
 
 #### Внутри `literature`
 
@@ -362,6 +363,10 @@
 #### `philosophy -> ancient-philosophy`
 
 - `plato`
+
+#### `philosophy -> modern-philosophy`
+
+- `hegel`
 
 #### `anthropology -> ethnobiology`
 
