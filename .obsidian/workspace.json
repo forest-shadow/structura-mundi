@@ -44,12 +44,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/AI Foundations.md",
+                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Levels of Biological Organization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Foundations"
+              "title": "Levels of Biological Organization"
             }
           }
         ],
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/AI Foundations.md",
+                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Levels of Biological Organization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AI Foundations"
+              "title": "Outline of Levels of Biological Organization"
             }
           },
           {
@@ -260,8 +260,18 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "d213dc5f141645e9",
+  "active": "c3376d17abdf195f",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Biology/Foundations of Biology/_resources/levels-of-biological-organization.jpg",
+    "Pasted image 20260428170943.png",
+    "01. Inbox/To Classify/Biology/Biology Structure Proposal.md",
+    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Software Development/AI-Assisted Software Development Structure Proposal.md",
+    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/Applied AI.md",
+    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Software Development/AI-Assisted Programming Structure Proposal.md",
+    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Personal Effectiveness.md",
+    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Software Development/AI-Assisted Software Development.md",
+    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Software Development/AI-Assisted Programming.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/AI Foundations.md",
     "02. Corpus Mundi/G/Go.md",
     "01. Inbox/To Classify/Golang/Go.md",
     "01. Inbox/To Classify/Golang/Go Toolchain/Go Commands.md",
@@ -292,22 +302,12 @@
     "02. Corpus Mundi/P/_resources",
     "02. Corpus Mundi/P/_resources/properties-of-life.jpg",
     "Pasted image 20260426134235.png",
-    "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Classification of Life.md",
-    "02. Corpus Mundi/L/Life.md",
-    "01. Inbox/To Classify/Golang/Go Packages and Modules/go.mod.md",
-    "01. Inbox/To Classify/Golang/Go Packages and Modules/Go Modules.md",
-    "01. Inbox/To Classify/Golang/Go Packages and Modules/Go Packages.md",
-    "01. Inbox/To Classify/Golang/Go Packages and Modules/Go Import Paths.md",
     "01. Inbox/To Classify/Golang/Go Packages and Modules",
-    "01. Inbox/To Classify/Golang/Go Packages and Modules Structure Proposal.md",
-    "01. Inbox/To Classify/Golang/Go Toolchain/Go Commands/go test.md",
-    "01. Inbox/To Classify/Golang/Go Toolchain/Go Commands/go run.md",
     "02. Corpus Mundi/F/_resources/foundations-of-biology.jpg",
     "Pasted image 20260424153059.png",
     "02. Corpus Mundi/B/_resources/biology.jpg",
     "Pasted image 20260424140450.png",
     "01. Inbox/To Classify/Operating Systems/Processes and Threads/_resources/processes-and-threads-differences.jpg",
-    "Pasted image 20260424002217.png",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
