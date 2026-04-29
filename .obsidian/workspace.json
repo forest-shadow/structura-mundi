@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Cell Theory.md",
+                "file": "01. Inbox/To Classify/Golang/Go.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cell Theory"
+              "title": "Outline of Go"
             }
           },
           {
@@ -260,8 +260,9 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "d8f7c4a91d722672",
+  "active": "457d75f4018ca5b9",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Cell Theory.md",
     "03. Maps and Courses/Topic Maps/Biology/Biology.base",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Domains of Life/Archaea.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
@@ -271,7 +272,6 @@
     "02. Corpus Mundi/L/Levels of Biological Organization.md",
     "02. Corpus Mundi/G/Go.md",
     "01. Inbox/To Classify/Golang/Go.md",
-    "01. Inbox/To Classify/Biology/Foundations of Biology/Cell Theory.md",
     "01. Inbox/To Classify/Biology/Evolutionary Biology/Evolutionary Biology.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Levels of Biological Organization.md~",
     "01. Inbox/To Classify/Biology/Foundations of Biology/4913",
