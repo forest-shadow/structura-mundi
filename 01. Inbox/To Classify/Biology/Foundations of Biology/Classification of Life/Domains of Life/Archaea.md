@@ -6,7 +6,7 @@ area: biology
 domain: foundations-of-biology
 section: classification-of-life
 parent: "[[Domains of Life]]"
-status: draft
+status: seed
 related:
   - "[[Domains of Life]]"
   - "[[Bacteria]]"

@@ -12,3 +12,19 @@ views:
       - file.name
       - note_type
       - status
+  - type: table
+    name: Biology Foundations
+    filters:
+      and:
+        - file.ext == "md"
+        - or:
+            - parent == link("Foundations of Biology")
+            - parent == link("Classification of Life")
+            - parent == link("Domains of Life")
+    groupBy:
+      property: parent
+      direction: ASC
+    order:
+      - file.name
+      - note_type
+      - status
