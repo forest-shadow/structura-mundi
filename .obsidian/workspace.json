@@ -42,13 +42,14 @@
             "id": "d8f7c4a91d722672",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Biology/Biology.base",
-                "viewName": "Biology"
+                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Classification of Life.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Biology"
+              "icon": "lucide-file",
+              "title": "Classification of Life"
             }
           }
         ],
@@ -146,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. Maps and Courses/Topic Maps/Biology/Biology.base",
+                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Classification of Life.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Biology"
+              "title": "Outline of Classification of Life"
             }
           },
           {
@@ -261,12 +262,19 @@
   },
   "active": "d8f7c4a91d722672",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/_resources/classufication-of-life-phylogenetic.jpg",
+    "Pasted image 20260429175804.png",
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/_resources/classification-of-life-taxonomic.jpg",
+    "Pasted image 20260429175746.png",
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/_resources/classification-of-life.jpg",
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/_resources",
+    "Pasted image 20260429174942.png",
+    "03. Maps and Courses/Topic Maps/Biology/Biology.base",
     "02. Corpus Mundi/C/Cell Theory.md",
     "02. Corpus Mundi/C/_resources/cell-theory.jpg",
     "01. Inbox/To Classify/Biology/Foundations of Biology/_resources",
     "Pasted image 20260429172221.png",
     "01. Inbox/To Classify/Golang/Go.md",
-    "03. Maps and Courses/Topic Maps/Biology/Biology.base",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Domains of Life/Archaea.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Classification of Life.md",
@@ -299,13 +307,7 @@
     "01. Inbox/To Classify/Philosophy/Modern Philosophy/Hegel Georg Wilhelm Friedrich/Hegel Georg Wilhelm Friedrich Works and Influence.md",
     "01. Inbox/To Classify/Philosophy/Modern Philosophy/Hegel Georg Wilhelm Friedrich/Hegel Georg Wilhelm Friedrich Biography and Intellectual Context.md",
     "01. Inbox/To Classify/Philosophy/Modern Philosophy/Hegel Georg Wilhelm Friedrich/Hegel Georg Wilhelm Friedrich System and Method.md",
-    "01. Inbox/To Classify/Philosophy/Modern Philosophy/Hegel Georg Wilhelm Friedrich",
     "02. Corpus Mundi/T/_resources/_resources/truth-value.jpg",
-    "Pasted image 20260426141940.png",
-    "02. Corpus Mundi/P/_resources/properties-of-life.jpg",
-    "Pasted image 20260426134235.png",
-    "02. Corpus Mundi/F/_resources/foundations-of-biology.jpg",
-    "Pasted image 20260424153059.png",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
