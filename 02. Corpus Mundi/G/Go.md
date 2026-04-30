@@ -132,10 +132,10 @@ tags: []
 2. **Type literals / Composite types** — типы, задаваемые литералом типа, а не именем; спецификация относит к ним `array`, `struct`, `pointer`, `function`, `interface`, `slice`, `map` и `channel`. ([Go](https://go.dev/ref/spec?utm_source=chatgpt.com "The Go Programming Language Specification"))
     - <b>array</b> — фиксированная последовательность элементов одного типа (длина входит в сам тип, передается по значению).
     - <b>slice</b> — дескриптор динамического представления поверх скрытого массива (_backing/underlying array_).
-    - `struct` — тип записи с именованными полями.
-    - `pointer` — адрес значения определённого типа; тип значения, хранящего адрес другого значения определённого типа.
-    - `function` — функция задаётся сигнатурой (параметры и результаты).
-    - `interface` — определяет множество допустимых типов через набор методов и _type sets_. ([Go](https://go.dev/ref/spec?utm_source=chatgpt.com "The Go Programming Language Specification"))
+    - <b>struct</b> — тип записи с именованными полями.
+    - <b>pointer</b> — адрес значения определённого типа; тип значения, хранящего адрес другого значения определённого типа.
+    - <b>function</b> — функция задаётся сигнатурой (параметры и результаты).
+    - <b>interface</b> — определяет множество допустимых типов через набор методов и _type sets_. ([Go](https://go.dev/ref/spec?utm_source=chatgpt.com "The Go Programming Language Specification"))
     - <b>map</b> — отображение ключей в значения.
     - <b>channel</b> — типизированная передача значений между горутинами.
 

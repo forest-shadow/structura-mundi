@@ -113,7 +113,7 @@ tags: []
 
 <font color="#d3869b">Go использует статическую, в значительной степени номинальную модель типов для конкретных типов, и структурно-поведенческую модель (structural subtyping) совместимости для интерфейсов.</font> Конкретный тип определяется явно, но соответствие интерфейсу устанавливается не через декларацию `implements`, а неявно — через фактическое наличие нужного метода или набора методов (duck typing времени компиляции).
 
-Да. Ниже оформил в виде вложенного списка и сгруппировал семейства числовых типов по разрядности. Формально спецификация говорит, что `predeclared types`, `defined types` и `type parameters` — это `named types`, а `array`, `struct`, `pointer`, `function`, `interface`, `slice`, `map` и `channel` относятся к типам, задаваемым через `type literals` / composite types. ([Go](https://go.dev/ref/spec?utm_source=chatgpt.com "The Go Programming Language Specification"))
+
 
 **Types in Go** — совокупность всех типов языка Go; тип определяет множество допустимых значений и допустимые операции над ними. ([Go](https://go.dev/ref/spec?utm_source=chatgpt.com "The Go Programming Language Specification"))
 

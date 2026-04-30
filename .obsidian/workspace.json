@@ -27,6 +27,7 @@
           {
             "id": "688d2350693a574b",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -34,12 +35,27 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Go"
             }
+          },
+          {
+            "id": "0d72fa9ea2a0ec83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Biological Taxonomy"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "096de6d6ebc464e0",
@@ -133,13 +149,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Golang/Go.md",
+                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go"
+              "title": "Outline of Biological Taxonomy"
             }
           },
           {
@@ -246,15 +262,27 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "457d75f4018ca5b9",
+  "active": "0d72fa9ea2a0ec83",
   "lastOpenFiles": [
+    "03. Maps and Courses/Topic Maps/Biology/Biology.base",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/Large Language Models.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/Large Language Models Concepts/Retrieval-Augmented Generation.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/Large Language Models Concepts/Prompt Engineering.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/Large Language Models Concepts/Fine-Tuning.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/Large Language Models Concepts/Transformer Architecture.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/Large Language Models Concepts/Large Language Models Structure Proposal.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/Large Language Models Concepts",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/_resources/large-language-models.jpg",
+    "Pasted image 20260430142358.png",
+    "03. Maps and Courses/Topic Maps/Artificial Intelligence/Artificial Intelligence.base",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/AI Foundations.md",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/_resources/ai-foundations.jpg",
+    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/_resources",
+    "Pasted image 20260430141909.png",
+    "01. Inbox/To Classify/Artificial Intelligence/Artificial Intelligence Structure Proposal.md",
     "02. Corpus Mundi/G/Go.md",
     "01. Inbox/To Classify/Golang/Go.md",
-    "01. Inbox/To Classify/Artificial Intelligence/AI Foundations/AI Foundations.md",
     "01. Inbox/To Classify/Artificial Intelligence/AI Agent Systems/Agent Protocols and Conventions/Agent Protocols and Conventions.md",
-    "01. Inbox/To Classify/Artificial Intelligence/Artificial Intelligence Structure Proposal.md",
-    "03. Maps and Courses/Topic Maps/Biology/Biology.base",
-    "03. Maps and Courses/Topic Maps/Artificial Intelligence/Artificial Intelligence.base",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Phylogeny.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Eukaryotes.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Domains of Life/Domains of Life.md",
@@ -269,13 +297,9 @@
     "Pasted image 20260429175804.png",
     "02. Corpus Mundi/C/_resources/classification-of-life-taxonomic.jpg",
     "Pasted image 20260429175746.png",
-    "02. Corpus Mundi/C/_resources/classification-of-life.jpg",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/_resources",
-    "Pasted image 20260429174942.png",
     "02. Corpus Mundi/C/Cell Theory.md",
-    "02. Corpus Mundi/C/_resources/cell-theory.jpg",
     "01. Inbox/To Classify/Biology/Foundations of Biology/_resources",
-    "Pasted image 20260429172221.png",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Domains of Life/Archaea.md",
     "03. Maps and Courses/Topic Maps/Biology/__Biology.md",
     "02. Corpus Mundi/B/Biology.md",
@@ -283,17 +307,8 @@
     "01. Inbox/To Classify/Biology/Evolutionary Biology/Evolutionary Biology.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Levels of Biological Organization.md~",
     "01. Inbox/To Classify/Biology/Foundations of Biology/4913",
-    "01. Inbox/To Classify/Biology/Biology Structure Proposal.md",
-    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Software Development/AI-Assisted Software Development Structure Proposal.md",
-    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/Applied AI.md",
-    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Software Development/AI-Assisted Programming Structure Proposal.md",
-    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Personal Effectiveness.md",
-    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Software Development/AI-Assisted Software Development.md",
-    "01. Inbox/To Classify/Artificial Intelligence/Applied AI/AI-Assisted Software Development/AI-Assisted Programming.md",
     "01. Inbox/To Classify/Golang/Go Packages and Modules/Go Modules.md~",
     "01. Inbox/To Classify/Golang/Go Packages and Modules/4913",
-    "Tabula Ortus.md~",
-    "4913",
     "03. Maps and Courses/Topic Maps/Go/Go.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/Transaction Isolation Levels & Anomalies.canvas",
     "03. Maps and Courses/Topic Maps/DBMS/ACID as transactional semantic guarantees.canvas",
