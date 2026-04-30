@@ -44,14 +44,13 @@
             "id": "0d72fa9ea2a0ec83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
-                "mode": "source",
-                "source": false
+                "file": "03. Maps and Courses/Topic Maps/Biology/Biology.base",
+                "viewName": "Biology Foundations"
               },
-              "icon": "lucide-file",
-              "title": "Biological Taxonomy"
+              "icon": "lucide-table",
+              "title": "Biology"
             }
           }
         ],
@@ -149,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
+                "file": "03. Maps and Courses/Topic Maps/Biology/Biology.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Biological Taxonomy"
+              "title": "Outline of Biology"
             }
           },
           {
@@ -264,6 +263,7 @@
   },
   "active": "0d72fa9ea2a0ec83",
   "lastOpenFiles": [
+    "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/_resources/biological-taxonomy.jpg",
     "Pasted image 20260430145339.png",
     "03. Maps and Courses/Topic Maps/Biology/Biology.base",
@@ -289,7 +289,6 @@
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Eukaryotes.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Domains of Life/Domains of Life.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Prokaryotes.md",
-    "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Biological Taxonomy.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Domains of Life/Eukaryota.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/Domains of Life/Bacteria.md",
     "02. Corpus Mundi/C/_resources/classufication-of-life-phylogenetic.jpg",
@@ -297,7 +296,6 @@
     "02. Corpus Mundi/C/_resources/classification-of-life-domains-and-cell-planes.jpg",
     "Pasted image 20260429180331.png",
     "Pasted image 20260429175804.png",
-    "02. Corpus Mundi/C/_resources/classification-of-life-taxonomic.jpg",
     "01. Inbox/To Classify/Biology/Foundations of Biology/Classification of Life/_resources",
     "02. Corpus Mundi/C/Cell Theory.md",
     "01. Inbox/To Classify/Biology/Foundations of Biology/_resources",
